@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">한 잔의 칼로리</string>
+    <string name="caffeine_energy_help_body">칼로리는 USDA FoodData Central에 따른, 우려내거나 추출한 그대로의 음료 기준입니다: 홍차와 블랙커피, 에스프레소, 물에 풀어 저은 말차, 그리고 저지방 우유로 만든 카푸치노 — 일반 우유로 만들면 약 5분의 1 더 높습니다. 마실 때 넣는 우유, 크림, 설탕, 시럽은 따로 더해지며 음식으로 기록합니다. 카푸치노는 카페인과 함께 음식으로 저장되어 칼로리가 그날 음식에 포함되지만, 식사로는 세지 않습니다. 다른 잔은 몇 kcal에 불과해 카페인 기록으로만 남습니다.</string>
+</resources>

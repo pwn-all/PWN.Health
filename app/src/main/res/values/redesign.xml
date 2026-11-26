@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">Energy expenditure</string>
+    <string name="burn_overlap_note">Walking and running recorded as workouts are included in steps to avoid counting them twice.</string>
+    <string name="burn_rest_so_far">At rest so far today</string>
+    <string name="burn_total_so_far">Total burned so far today</string>
+    <string name="burn_active">activity, kcal</string>
+    <string name="food_history">Food history</string>
+    <string name="food_history_empty">No food recorded today.</string>
+    <string name="activity_times">Activity times</string>
+    <string name="activity_times_empty">No timed activity recorded for this day.</string>
+    <string name="visit_history">Visit history</string>
+    <string name="visit_history_empty">Completed visits will appear here.</string>
+    <string name="calendar_schedule">Schedule</string>
+    <string name="calendar_add_event">Add event</string>
+    <string name="calendar_expand_month">Show month</string>
+    <string name="calendar_collapse_month">Collapse month</string>
+    <string name="calendar_day_summary">Day summary</string>
+    <string name="events_all">All events</string>
+    <string name="events_filter">Filter events</string>
+    <string name="events_other">Other events</string>
+    <string name="events_no_matches">No matching events this month.</string>
+    <string name="steps_in_interval">Steps during %1$s</string>
+    <string name="metric_goal_reached">Goal reached</string>
+    <string name="workout_did_it">Did you manage it?</string>
+    <string name="workout_actual_reps">How many reps did you complete?</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="visit_recent">Recent visits</string>
+    <string name="visit_show_all">Show all</string>
+    <string name="visit_all_specialties">All specialties</string>
+    <string name="visit_all_doctors">All doctors</string>
+    <string name="visit_all_time">All recorded dates</string>
+    <string name="steps_hourly_title">Hourly activity</string>
+    <string name="steps_activity_label">activity</string>
+    <string name="steps_distance_title">Distance walked</string>
+    <string name="steps_pace_title">Average pace</string>
+    <string name="steps_time_title">Total time</string>
+    <string name="steps_distance_note">Distance is estimated from today’s step count and the height in your profile.</string>
+    <string name="steps_no_sensor">This phone has no step-counting sensor, so the app counts none itself. Steps can still arrive from Health Connect or a connected device.</string>
+    <string name="steps_still_title">Longest still stretch</string>
+    <string name="steps_still_note">An hour counts as moved when this phone counted at least 100 steps in it — about a minute of walking, the same cadence the time above assumes. The stretch is measured from the first hour that moved, so a night’s sleep is not counted as sitting. Hours are stamped when steps are credited rather than when they were taken, so a batch the phone held back can land in a later hour and make a stretch look longer than it was.\n\nThis counts hours without walking, not time spent sitting or standing. No Android sensor can tell a seated body from an upright one, and Health Connect has no record for either, so nothing here is sent to it. A phone left on a desk counts nothing, whether you are sitting at it, standing at it or out of the room.</string>
+    <string name="steps_route_note">Without a route, time is estimated at 100 steps per minute; distance uses steps and your height. This is an assumption, not a measured cadence. Pace is distance-weighted: total moving time divided by total distance.\n\nCompleted routes contribute their moving time (excluding stops) and distance. Overlapping recordings are merged; in each hour only steps beyond the recorded distance add estimated time. Daily device totals are reconciled across the whole day.\n\n≈ marks an estimate. Hourly totals cannot identify the exact time of each step or separate overlapping activities precisely.</string>
+    <string name="steps_chart_thousands">%1$sK</string>
+    <string name="home_stat_walks">walks</string>
+    <string name="burn_total_note">Activity and estimated resting burn for the elapsed part of today.</string>
+    <string name="burn_daily_estimate">At rest over 24 hours: ≈ %1$s kcal</string>
+    <string name="burn_explanation_title">How resting burn is calculated</string>
+    <string name="burn_explanation_body">The daily estimate uses the Mifflin–St Jeor formula and your profile: weight, height, age and sex. It estimates energy needed at rest, without walking or workouts.\n\nResting burn so far = daily estimate × minutes since midnight ÷ 1,440. Only this elapsed amount contributes to today’s total; activity is added separately. The full-day forecast is not added again. Actual expenditure may differ.</string>
+    <string name="home_good_morning">Good morning</string>
+    <string name="home_good_afternoon">Good afternoon</string>
+    <string name="home_good_evening">Good evening</string>
+    <string name="home_good_night">Good night</string>
+    <!-- Thirty characters at most in every language: the line shares its row with the bell and the level badge.
+         One a day, in turn — HomeMotivationTest holds every locale to the length and the count. -->
+    <string-array name="home_motivations">
+        <item>Step by step to your goal</item>
+        <item>Every step counts</item>
+        <item>Small steps go a long way</item>
+        <item>Today is a new chance</item>
+        <item>Movement is life</item>
+        <item>Good health starts small</item>
+    </string-array>
+    <string name="home_focus">Today’s focus</string>
+    <string name="home_focus_headline">Consistency brings results.</string>
+    <string name="home_focus_message">Take it one step at a time.</string>
+    <string name="widget_icon_count">Number of icons</string>
+    <string name="level_details">Level and XP</string>
+    <string name="level_screen_title">My level</string>
+    <string name="level_sources">XP sources</string>
+    <string name="level_to_next">to the next level</string>
+    <string name="level_xp_of" translatable="false">%1$s / %2$s XP</string>
+    <string name="level_xp_value" translatable="false">%1$s XP</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Level %1$d</string>
+    <string name="level_year_xp">%1$s XP this year</string>
+    <string name="level_max">Maximum level reached</string>
+    <string name="level_opens">Daily opens</string>
+    <string name="level_steps">Steps</string>
+    <string name="level_meals">Food entries</string>
+    <string name="level_workouts">Workout days</string>
+    <string name="level_visits">Completed visits</string>
+    <string name="level_medals">Medals</string>
+    <string name="nutrition_unlogged_title">No food recorded today</string>
+    <string name="nutrition_unlogged_body">If you have eaten, add the meal to your diary. If you have not, make time for a balanced meal; regular eating matters in every goal mode.</string>
+    <string name="nutrition_tracking_low_title">Little food recorded so far</string>
+    <string name="nutrition_tracking_low_body">Your diary shows %1$s%% of today’s calorie target. Check for missing meals. If the record is complete, plan a balanced meal with protein, carbohydrates and vegetables.</string>
+    <string name="nutrition_lose_low_title">Weight loss still needs nourishment</string>
+    <string name="nutrition_lose_low_body">Only %1$s%% of today’s target is recorded. Weight loss does not require going hungry: if the diary is complete, have a balanced meal and keep eating regularly.</string>
+    <string name="nutrition_gain_low_title">More nourishment for your gain goal</string>
+    <string name="nutrition_gain_low_body">You have recorded %1$s%% of today’s target. Check the diary, then consider another balanced meal or snack with protein. Build intake gradually, without forcing yourself to eat.</string>
+    <string name="nutrition_lose_over_title">Today’s calorie target is exceeded</string>
+    <string name="nutrition_lose_over_body">Your diary shows %1$s%% of today’s weight-loss target. Consider portions and hunger when planning your next meal. Do not compensate by fasting or skipping meals.</string>
+    <string name="nutrition_gain_over_title">Well above your gain target</string>
+    <string name="nutrition_gain_over_body">Your diary shows %1$s%% of today’s gain target, which already includes a surplus. Check portions and entries; there is no need to force extra food. Continue with regular balanced meals.</string>
+    <string name="nutrition_tracking_over_title">Above today’s calorie guide</string>
+    <string name="nutrition_tracking_over_body">Your diary shows %1$s%% of today’s calorie guide. Check portions and duplicate entries. One day alone does not describe your usual diet.</string>
+    <string name="nutrition_fat_title">A high share of fat in today’s food</string>
+    <string name="nutrition_fat_body">About %1$s%% of recorded calories come from fat. Balance your next meals with protein, vegetables and whole grains. Fats also have a place in a varied diet; their type matters.</string>
+    <string name="nutrition_saturated_title">Saturated fat is above the daily guide</string>
+    <string name="nutrition_saturated_body">Recorded saturated fat already exceeds 10%% of today’s energy target. For the next meals, consider replacing some sources with fish, nuts or unsaturated plant oils.</string>
+    <string name="nutrition_protein_title">Check protein for your gain goal</string>
+    <string name="nutrition_protein_body">Recorded energy is close to your target, while protein is below half of the app’s daily guide. Consider a protein source such as beans, fish, eggs, tofu or dairy in your next meal.</string>
+    <string name="nutrition_source">NHS / WHO; feedback thresholds set by the app</string>
+    <!-- The one-letter macro abbreviations on a food row; each is tappable and says its full word. -->
+    <string name="food_macro_letter_protein">P</string>
+    <string name="food_macro_letter_fat">F</string>
+    <string name="food_macro_letter_carbs">C</string>
+</resources>

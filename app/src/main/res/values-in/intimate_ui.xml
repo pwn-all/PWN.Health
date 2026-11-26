@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">Seks</string>
+    <string name="intimate_anything_to_add">Ada yang ingin ditambahkan?</string>
+    <string name="intimate_history_title">Riwayat</string>
+    <string name="intimate_history_empty">Belum ada yang dicatat.</string>
+    <string name="intimate_act_title">Ubah catatan</string>
+    <string name="intimate_act_kind">Jenisnya</string>
+    <string name="intimate_act_day">Hari</string>
+    <string name="intimate_act_time">Waktu</string>
+    <string name="intimate_act_time_unrecorded">Catatan ini tidak memiliki waktu.</string>
+    <string name="intimate_flash_changed">Diubah</string>
+    <string name="intimate_flash_deleted">Dihapus</string>
+    <string name="intimate_charts_title">Grafik</string>
+    <string name="intimate_woke_at">Waktu bangun</string>
+    <string name="intimate_woke_by_unset">Belum diisi</string>
+    <string name="intimate_woke_phone">Bangun pukul %1$s · pertama kali ponsel dipakai</string>
+</resources>

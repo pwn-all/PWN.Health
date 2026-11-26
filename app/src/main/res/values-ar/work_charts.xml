@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">ساعات العمل في الأسبوع</string>
+    <string name="work_charts_legend_median">وسيطك</string>
+    <string name="work_charts_gap_note">الأسبوع الذي لم يُحتسب لا عمود له: فهو ليس أسبوعًا بلا عمل.</string>
+    <string name="work_charts_other_days">أيام العمل الأخرى</string>
+    <string name="work_charts_days_off">أيام العطلة</string>
+    <string name="work_charts_pair_note">الأعمدة هي ساعات العمل، عمود لكل أسبوع مُحتسب. والخط هو المؤشر المذكور تحت الرسم البياني للأسبوع نفسه مقارنةً بمتوسطك الخاص، أي متوسط الأسابيع التي لها نقطة: فوق الخط الأوسط عندما كان أعلى، وتحته عندما كان أدنى. وهي تُظهر ما سُجِّل في الأسابيع نفسها، لا ما سبّب ماذا.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="zero">تحتاج نقطة الأسبوع إلى %1$d يوم فيه قيمة؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="one">تحتاج نقطة الأسبوع إلى %1$d يوم فيه قيمة؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="two">تحتاج نقطة الأسبوع إلى %1$d يومين فيهما قيمة؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="few">تحتاج نقطة الأسبوع إلى %1$d أيام فيها قيمة؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="many">تحتاج نقطة الأسبوع إلى %1$d يومًا فيه قيمة؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="other">تحتاج نقطة الأسبوع إلى %1$d يوم فيه قيمة؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: فوق متوسطك</string>
+    <string name="work_charts_spoken_below">%1$s: دون متوسطك</string>
+    <string name="work_charts_spoken_at">%1$s: عند متوسطك</string>
+    <string name="work_charts_spoken_gap">%1$s: أيام مسجَّلة قليلة جدًا</string>
+</resources>

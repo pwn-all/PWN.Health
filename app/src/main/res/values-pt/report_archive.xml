@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Com arquivos</string>
+    <string name="report_archive_hint">O ZIP inclui o relatório em PDF e os arquivos originais anexados às consultas realizadas, aos exames laboratoriais e aos tratamentos com medicamentos nas seções e no período selecionados: ultrassom, raio X, TC, RM, ultrassom Doppler e outros documentos. A lista de arquivos associa cada anexo ao seu registro e à sua data.</string>
+    <string name="report_archive_preview">Arquivos anexados originais: %1$d. O ZIP contém o PDF e esses arquivos na íntegra.</string>
+    <string name="report_archive_index_header">Arquivo\tData do registro\tSeção\tRegistro\tTipo\tData do exame\tDescrição</string>
+    <string name="report_archive_unavailable">Não foi possível ler o anexo %1$s. Restaure o acesso ao arquivo original e tente novamente.</string>
+    <string name="report_visits_patient_notes">Consultas realizadas e notas das consultas, conforme registradas pelo paciente.</string>
+</resources>

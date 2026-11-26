@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Возвращайтесь, когда добавите больше данных!</string>
+    <string name="intimate_charts_walking_title">Ходьба и утренние отметки</string>
+    <string name="intimate_charts_alcohol_title">Алкоголь и утренние отметки</string>
+    <string name="intimate_charts_legend_average">Ваше среднее</string>
+    <string name="intimate_charts_legend_night">Часы сна за ночь</string>
+    <string name="intimate_charts_legend_steps">Шаги за день</string>
+    <string name="intimate_charts_legend_drinks">Стандартные порции за неделю</string>
+    <string name="intimate_charts_pair_note">Столбцы растут снизу, по одному на неделю. Линия — доля утр с полной или частичной эрекцией за ту же неделю относительно вашего собственного среднего за эти недели: выше средней линии, когда доля была больше, ниже — когда меньше. Это то, что записано в одни и те же недели, а не причина и следствие.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Неделя учитывается, когда отвечено хотя бы на %1$d утро; неделя с меньшим числом ответов оставляет разрыв в линии, а не ноль.</item>
+        <item quantity="few">Неделя учитывается, когда отвечено хотя бы на %1$d утра; неделя с меньшим числом ответов оставляет разрыв в линии, а не ноль.</item>
+        <item quantity="many">Неделя учитывается, когда отвечено хотя бы на %1$d утр; неделя с меньшим числом ответов оставляет разрыв в линии, а не ноль.</item>
+        <item quantity="other">Неделя учитывается, когда отвечено хотя бы на %1$d утра; неделя с меньшим числом ответов оставляет разрыв в линии, а не ноль.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">Столбец недели — среднее по дням с данными, и нужен хотя бы %1$d такой день; у недели с меньшим числом столбца нет.</item>
+        <item quantity="few">Столбец недели — среднее по дням с данными, и нужно хотя бы %1$d таких дня; у недели с меньшим числом столбца нет.</item>
+        <item quantity="many">Столбец недели — среднее по дням с данными, и нужно хотя бы %1$d таких дней; у недели с меньшим числом столбца нет.</item>
+        <item quantity="other">Столбец недели — среднее по дням с данными, и нужно хотя бы %1$d таких дня; у недели с меньшим числом столбца нет.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">График появится, когда данных хватит хотя бы на %1$d неделю.</item>
+        <item quantity="few">График появится, когда данных хватит хотя бы на %1$d недели.</item>
+        <item quantity="many">График появится, когда данных хватит хотя бы на %1$d недель.</item>
+        <item quantity="other">График появится, когда данных хватит хотя бы на %1$d недели.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Одна стандартная порция — %1$s чистого алкоголя. Для алкоголя день с данными — это день, в котором хоть что-то заполнено вручную, а среднее пересчитано на семь дней: день без записей — не день без алкоголя.</string>
+    <string name="intimate_charts_acts_note">Акты за неделю, с партнёром и мастурбация. Неделя, за которую вы сами ничего не записали, разрывает обе линии: это не неделя без актов.</string>
+    <string name="intimate_charts_desire_note">Точка на линии — неделя, когда к такому акту отмечено «%1$s».</string>
+    <string name="intimate_charts_erection_note">Чёрточка на линии — неделя, когда к такому акту отмечено «%1$s».</string>
+    <string name="intimate_charts_acts_mornings_note">У утренних отметок свои графики: это один ответ в день из отдельной отметки, а не число актов, и на этих осях они читались бы как их следствие.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s по неделям за последнюю %2$d неделю. %3$s</item>
+        <item quantity="few">%1$s по неделям за последние %2$d недели. %3$s</item>
+        <item quantity="many">%1$s по неделям за последние %2$d недель. %3$s</item>
+        <item quantity="other">%1$s по неделям за последние %2$d недели. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Неделя по %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">нет данных</string>
+    <string name="intimate_charts_spoken_gap">слишком мало ответов об утрах</string>
+    <string name="intimate_charts_spoken_above">утренние отметки выше вашего среднего</string>
+    <string name="intimate_charts_spoken_below">утренние отметки ниже вашего среднего</string>
+    <string name="intimate_charts_spoken_at">утренние отметки на уровне вашего среднего</string>
+    <string name="intimate_charts_spoken_acts">с партнёром %1$s, мастурбация %2$s</string>
+</resources>

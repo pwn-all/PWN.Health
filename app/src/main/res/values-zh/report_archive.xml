@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">附带文件</string>
+    <string name="report_archive_hint">ZIP 中包含 PDF 报告，以及所选部分和时段内已完成的就诊、化验记录和药物疗程所附的原始文件：超声、X 光、CT、磁共振（MRI）、多普勒超声和其他文件。文件列表注明了每个附件所属的记录和日期。</string>
+    <string name="report_archive_preview">附件原始文件：%1$d。ZIP 中包含 PDF 以及这些文件的完整内容。</string>
+    <string name="report_archive_index_header">文件\t记录日期\t部分\t记录\t类型\t检查日期\t说明</string>
+    <string name="report_archive_unavailable">无法读取附件 %1$s。请恢复对原始文件的访问权限，然后重新导出。</string>
+    <string name="report_visits_patient_notes">已完成的就诊及其备注，均为患者自述。</string>
+</resources>

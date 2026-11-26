@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">지난 통증 기록</string>
+    <string name="pain_history_empty">아직 통증 기록이 없습니다.</string>
+    <string name="pain_history_onset_just_now">기록할 때 시작됨</string>
+    <string name="pain_history_onset_earlier_today">기록한 날 시작됨</string>
+    <string name="pain_history_onset_yesterday">기록 전날 시작됨</string>
+    <string name="pain_history_onset_days_2_3">기록 2~3일 전에 시작됨</string>
+    <string name="pain_history_onset_about_week">기록 일주일쯤 전에 시작됨</string>
+    <string name="pain_history_onset_about_month">기록 한 달쯤 전에 시작됨</string>
+    <string name="pain_history_onset_more_than_month">기록 한 달 이상 전에 시작됨</string>
+    <string name="pain_history_onset_week">기록 4일~3개월 전에 시작됨</string>
+    <string name="pain_history_onset_months_3">기록 3개월 이상 전에 시작됨</string>
+    <string name="pain_history_same">%1$s 기록과 같은 통증</string>
+    <string name="pain_history_still_hurts">기록할 때도 아팠음</string>
+    <string name="pain_history_lasted">%1$s 지속됨</string>
+</resources>

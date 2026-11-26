@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">파일로 저장</string>
+    <string name="route_format_gpx_hint">지도, 워치, 운동 앱용</string>
+    <string name="route_format_geojson_hint">GIS 도구와 웹 지도용</string>
+    <string name="route_format_csv_hint">모든 측위점, 스프레드시트용</string>
+</resources>

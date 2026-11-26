@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Ore lavorate a settimana</string>
+    <string name="work_charts_legend_median">La tua mediana</string>
+    <string name="work_charts_gap_note">Una settimana non conteggiata non ha barra: non è una settimana senza lavoro.</string>
+    <string name="work_charts_other_days">Altre giornate di lavoro</string>
+    <string name="work_charts_days_off">Giorni liberi</string>
+    <string name="work_charts_pair_note">Le barre sono le ore lavorate, una per ogni settimana conteggiata. La linea è il valore indicato sotto il grafico per la stessa settimana, rispetto alla tua media, cioè la media delle settimane che hanno un punto: sopra la linea centrale quando era più alto, sotto quando era più basso. Mostrano ciò che è stato registrato nelle stesse settimane, non che cosa abbia causato che cosa.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Il punto di una settimana richiede %1$d giorno con un dato; una settimana con meno lascia un vuoto nella linea, mai uno zero.</item>
+        <item quantity="many">Il punto di una settimana richiede %1$d di giorni con un dato; una settimana con meno lascia un vuoto nella linea, mai uno zero.</item>
+        <item quantity="other">Il punto di una settimana richiede %1$d giorni con un dato; una settimana con meno lascia un vuoto nella linea, mai uno zero.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: sopra la tua media</string>
+    <string name="work_charts_spoken_below">%1$s: sotto la tua media</string>
+    <string name="work_charts_spoken_at">%1$s: nella tua media</string>
+    <string name="work_charts_spoken_gap">%1$s: troppo pochi giorni con dati</string>
+</resources>

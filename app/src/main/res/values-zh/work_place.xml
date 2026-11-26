@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">按位置自动开始</string>
+    <string name="work_place_help_what">保存你工作的地点，手机到达那里时，工作计时器就会开始。每次检查都从 Android 自带的定位服务获取一次位置，与保存的点比较后即忘记。只有精度在 100 米以内的位置才能用来保存这个点。保留的只有保存的点、它的半径和你的工作时段，而且只在这部手机上。不会向任何地方发送任何内容。</string>
+    <string name="work_place_help_when">检查每 10 分钟进行一次，并且只在每个工作日的一个时间窗内进行。时间窗在你醒来时打开：以睡眠记录的结束或夜里过后第一次使用手机为准，前提是应用能看到其中之一。如果在 %4$s 之前第一次使用手机，则从 %4$s 起算，除非你的睡眠记录显示更早醒来，或你通常的工作时间开始得更早。如果两者都看不到，早晨从 %1$s 开始。如果能看到，但尚未发现你醒来，应用最晚等到 %2$s。一旦最近 4 周里至少有 3 个在工作日开始的时段（不算计时器自动停止的那些），时间窗就会在你通常的开始时间前一小时打开，但绝不早于你醒来，并在你通常的结束时间后一小时关闭。在此之前，它在 %3$s 关闭。休息日不进行检查。时间窗打开之前，应用只查看你是否已经起床，这不需要获取位置。</string>
+    <string name="work_place_help_leave">如果连续两次检查都发现你不在那里，由应用开始的时段就会停止，并以最后一次发现你在那里的检查作为结束时间。你自己开始的时段绝不会以这种方式停止。由应用开始的时段运行期间，时间窗关闭后检查仍会继续，最晚到午夜。</string>
+    <string name="work_place_help_yours">每次自动开始和停止都会附带一条通知，可以从中撤销：开始可在当天结束前撤销，前提是你自己没有改动这个时段；停止可在一小时内撤销，前提是此后计时器没有再开始。一旦你自己按下“开始”、“暂停”、“继续”或“停止”，或进行了撤销，当天应用就不会再自动开始任何计时。</string>
+    <string name="work_place_help_access">为此，Android 必须允许始终使用精确位置，并允许精确闹钟。开关未打开时，不会为此功能获取任何位置。</string>
+    <string name="work_place_save">保存我现在所在的位置</string>
+    <string name="work_place_locating">正在确定你的位置…</string>
+    <string name="work_place_no_fix">未能获取位置</string>
+    <string name="work_place_rough_fix">位置不够精确。请到窗边再试</string>
+    <string name="work_place_point">你的工作地点</string>
+    <string name="work_place_saved">保存于 %1$s</string>
+    <string name="work_place_saved_within">保存于 %1$s · 精度在 %2$d 米以内</string>
+    <string name="work_place_move">移到我现在所在的位置</string>
+    <string name="work_place_remove">删除工作地点</string>
+    <string name="work_place_radius">在此范围内算作在场</string>
+    <string name="work_place_radius_value">%1$d 米</string>
+    <string name="work_place_switch">到达那里时开始计时</string>
+    <string name="work_place_access_precise_title">精确位置</string>
+    <string name="work_place_access_precise_body">大致位置的精度只有约 1.6 公里，比任何工作地点都大。保存这个点和进行检查都需要精确位置。</string>
+    <string name="work_place_access_background_title">始终使用位置信息</string>
+    <string name="work_place_access_background_body">PWN.Health 会在后台使用你的位置，在你到达或离开工作地点时开始和停止工作计时器，即使应用已关闭。它每 10 分钟检查一次，只在工作日的早晨到晚上之间进行，获取的位置留在这部手机上。在下一个屏幕上，请选择“始终允许”。</string>
+    <string name="work_place_access_exact_title">闹钟和提醒</string>
+    <string name="work_place_access_exact_body">只有精确闹钟才能在应用关闭时唤醒它进行检查。Android 把这项权限放在它的“闹钟和提醒”页面里。</string>
+    <string name="work_place_access_notifications_title">通知</string>
+    <string name="work_place_access_notifications_body">每次自动开始和停止，都会在“%1$s”通知类别中以一条带“撤销”按钮的通知告知。没有通知权限，计时器仍会开始和停止，但没有地方可以撤销。</string>
+    <string name="work_place_next_today">下次检查：今天 %1$s</string>
+    <string name="work_place_next_tomorrow">下次检查：明天 %1$s</string>
+    <string name="work_place_next_day">下次检查：%1$s %2$s</string>
+    <string name="work_place_next_none">接下来一周没有安排检查。</string>
+    <string name="work_place_started_title">工作计时器已开始</string>
+    <string name="work_place_started_body">手机在你的工作地点。开始于 %1$s。</string>
+    <string name="work_place_stopped_title">工作计时器已停止</string>
+    <string name="work_place_stopped_body">连续两次检查都发现你不在工作地点。这个时段在 %1$s 结束，即最后一次发现你在那里的检查。</string>
+    <string name="work_place_stopped_short">连续两次检查都发现你不在工作地点，而此前只有一次检查发现你在那里，因此没有保存任何记录。</string>
+    <string name="work_place_undo">撤销</string>
+    <string name="work_place_channel">工作地点检查</string>
+    <string name="work_place_notice_channel">自动工作计时</string>
+    <string name="work_place_checking">正在检查你是否在工作地点</string>
+</resources>

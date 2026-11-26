@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Tema</string>
+    <string name="theme_description">Colores de la interfaz y de los iconos para los temas claro y oscuro</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_saved_note">Cada paleta se guarda por separado. La aplicación sigue el tema claro u oscuro de tu dispositivo.</string>
+    <string name="theme_preview">Vista previa</string>
+    <string name="theme_main_accent">Acento principal</string>
+    <string name="theme_accent_container">Fondo del acento</string>
+    <string name="theme_secondary">Acento secundario</string>
+    <string name="theme_secondary_container">Fondo secundario</string>
+    <string name="theme_tertiary">Tercer acento</string>
+    <string name="theme_tertiary_container">Fondo del tercer acento</string>
+    <string name="theme_background">Fondo de la página</string>
+    <string name="theme_surface">Tarjetas</string>
+    <string name="theme_text">Texto principal</string>
+    <string name="theme_muted_text">Texto secundario</string>
+    <string name="theme_border">Bordes</string>
+    <string name="theme_icons">Iconos</string>
+    <string name="theme_icon">Color principal de los iconos</string>
+    <string name="theme_icon_mid">Color secundario de los iconos</string>
+    <string name="theme_icon_light">Detalles claros de los iconos</string>
+    <string name="theme_brightness">Brillo</string>
+    <string name="theme_hex">Código HEX</string>
+    <string name="theme_hex_error">Introduce 6 dígitos hexadecimales, por ejemplo #7094EE.</string>
+    <string name="theme_update_all">Actualizar todos los colores</string>
+    <string name="theme_update_all_body">Genera todos los demás colores de esta paleta a partir del acento principal y sustituye cualquier cambio hecho a mano.</string>
+    <string name="theme_reset">Restablecer el tema</string>
+    <string name="theme_reset_light_body">¿Restablecer los colores predeterminados de la interfaz y de los iconos del tema claro? El tema oscuro no cambiará.</string>
+    <string name="theme_reset_dark_body">¿Restablecer los colores predeterminados de la interfaz y de los iconos del tema oscuro? El tema claro no cambiará.</string>
+    <string name="theme_wheel">Rueda de color</string>
+    <string name="theme_wheel_value">Tono %1$d°, saturación %2$d%%</string>
+    <string name="theme_next_hue">Tono siguiente</string>
+    <string name="theme_previous_hue">Tono anterior</string>
+    <string name="theme_more_saturation">Aumentar la saturación</string>
+    <string name="theme_less_saturation">Reducir la saturación</string>
+</resources>

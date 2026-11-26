@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Laktat partisi</item>
+        <item>Gün batımı yürüyüşü</item>
+        <item>Yokuş avcısı</item>
+        <item>Kahve turu</item>
+        <item>Kaldırım şiiri</item>
+        <item>Şehir safarisi</item>
+        <item>Oksijen molası</item>
+        <item>Dolambaçlı yollar</item>
+        <item>Su birikintisi devriyesi</item>
+        <item>Altın saat turu</item>
+        <item>Büyük yürüyüş havası</item>
+        <item>Meltemin peşinde</item>
+        <item>Sokak destanı</item>
+        <item>Kilometre canavarı</item>
+        <item>Bulut gözcüsü</item>
+        <item>Manzaralı rota</item>
+        <item>Minik macera</item>
+        <item>Endorfin görevi</item>
+        <item>Bank müfettişi</item>
+        <item>Gururlu adımlar</item>
+        <item>Uzun yoldan</item>
+        <item>Kafama göre</item>
+        <item>Sakin kilometreler</item>
+        <item>Bacak günü</item>
+        <item>Gezgin modu</item>
+        <item>Kafa dağıtma yürüyüşü</item>
+        <item>Adım senfonisi</item>
+        <item>Tempolu mesai</item>
+        <item>Atıştırmalığı hak ettim</item>
+        <item>Güvercin geçit töreni</item>
+        <item>Kestirmeye hayır</item>
+        <item>Onur turu</item>
+        <item>Taban tepmek</item>
+        <item>Merhaba, temiz hava</item>
+        <item>Hafta sonu gezintisi</item>
+        <item>Cep boyu keşif</item>
+        <item>Şafak nöbeti</item>
+        <item>Kardiyo keyfi</item>
+        <item>Haritaya karalama</item>
+        <item>Düşünce yürüyüşü</item>
+    </string-array>
+</resources>

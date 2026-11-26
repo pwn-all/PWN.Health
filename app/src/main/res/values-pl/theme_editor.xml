@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Motyw</string>
+    <string name="theme_description">Kolory interfejsu i ikon dla jasnego i ciemnego motywu</string>
+    <string name="theme_light">Jasny</string>
+    <string name="theme_dark">Ciemny</string>
+    <string name="theme_saved_note">Każda paleta jest zapisywana osobno. Aplikacja stosuje jasny lub ciemny motyw ustawiony w urządzeniu.</string>
+    <string name="theme_preview">Podgląd</string>
+    <string name="theme_main_accent">Główny akcent</string>
+    <string name="theme_accent_container">Tło akcentu</string>
+    <string name="theme_secondary">Drugi akcent</string>
+    <string name="theme_secondary_container">Tło drugiego akcentu</string>
+    <string name="theme_tertiary">Trzeci akcent</string>
+    <string name="theme_tertiary_container">Tło trzeciego akcentu</string>
+    <string name="theme_background">Tło strony</string>
+    <string name="theme_surface">Karty</string>
+    <string name="theme_text">Tekst główny</string>
+    <string name="theme_muted_text">Tekst drugorzędny</string>
+    <string name="theme_border">Obramowania</string>
+    <string name="theme_icons">Ikony</string>
+    <string name="theme_icon">Główny kolor ikon</string>
+    <string name="theme_icon_mid">Drugi kolor ikon</string>
+    <string name="theme_icon_light">Jasne elementy ikon</string>
+    <string name="theme_brightness">Jasność</string>
+    <string name="theme_hex">Kod HEX</string>
+    <string name="theme_hex_error">Wpisz 6 cyfr szesnastkowych, na przykład #7094EE.</string>
+    <string name="theme_update_all">Zaktualizuj wszystkie kolory</string>
+    <string name="theme_update_all_body">Wygeneruj wszystkie pozostałe kolory tej palety z głównego akcentu, zastępując wszelkie ręczne zmiany.</string>
+    <string name="theme_reset">Resetuj motyw</string>
+    <string name="theme_reset_light_body">Przywrócić domyślne kolory interfejsu i ikon dla jasnego motywu? Ciemny motyw pozostanie bez zmian.</string>
+    <string name="theme_reset_dark_body">Przywrócić domyślne kolory interfejsu i ikon dla ciemnego motywu? Jasny motyw pozostanie bez zmian.</string>
+    <string name="theme_wheel">Koło kolorów</string>
+    <string name="theme_wheel_value">Odcień %1$d°, nasycenie %2$d%%</string>
+    <string name="theme_next_hue">Następny odcień</string>
+    <string name="theme_previous_hue">Poprzedni odcień</string>
+    <string name="theme_more_saturation">Zwiększ nasycenie</string>
+    <string name="theme_less_saturation">Zmniejsz nasycenie</string>
+</resources>

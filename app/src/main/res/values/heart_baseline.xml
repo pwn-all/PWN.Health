@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Resting heart rate</string>
+    <string name="health_rationale_purpose_recovery">Read only. Shown on the vitals screen as cards of their own, each beside your usual figure for the four weeks before. A watch or a ring measures these, usually overnight; this app does not compute them and writes nothing back.</string>
+    <string name="vitals_note_resting_measured">Measured by a watch or a ring while you were at rest, usually overnight, and read from Health Connect or an export file. It sits below a pulse taken during the day by design.</string>
+    <string name="vitals_note_baseline">Your usual figure is the median of your own readings in the 28 days before the latest one, and needs at least five of them. It compares you with yourself; it is not a verdict.</string>
+    <string name="vitals_baseline_above">Latest is %1$d %2$s above your usual</string>
+    <string name="vitals_baseline_below">Latest is %1$d %2$s below your usual</string>
+    <string name="vitals_baseline_same">Latest is at your usual</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Your usual: %1$s %2$s, the median of %3$d reading over the 4 weeks before</item>
+        <item quantity="other">Your usual: %1$s %2$s, the median of %3$d readings over the 4 weeks before</item>
+    </plurals>
+</resources>

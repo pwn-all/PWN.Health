@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">एक और व्यायाम जोड़ें</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">अवधि (मिमि:सेसे)</string>
+    <string name="workout_discard_title">वर्कआउट की योजना छोड़ दें?</string>
+    <string name="workout_discard_body">आपके बदलाव और वर्कआउट की प्रगति, सब मिट जाएगा।</string>
+    <string name="workout_discard_confirm">सहेजे बिना छोड़ें</string>
+    <string name="workout_correction_leave_title">सहेजे बिना बाहर जाएँ?</string>
+    <string name="workout_correction_leave_body">इस वर्कआउट में किए गए बदलाव अभी सहेजे नहीं गए हैं। इन्हें रखने के लिए “%1$s” और फिर “%2$s” पर टैप करें।</string>
+</resources>

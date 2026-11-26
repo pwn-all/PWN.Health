@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">过去 30 天里涂画过的部位，以及每个部位疼了几天</string>
+    <string name="pain_paint_hint">在疼的地方涂画，双指张开可放大。背疼和膝盖疼是两条记录。</string>
+    <string name="pain_head_note">图从颈部开始：头痛的部位请在“添加部位”里选择。</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="other">图中画出了 %1$d 条记录。每个标记都画在本人涂画的位置，记录重叠处颜色更深。从列表中选择而未涂画的部位不会画出。</item>
+    </plurals>
+</resources>

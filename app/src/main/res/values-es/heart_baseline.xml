@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Frecuencia cardíaca en reposo</string>
+    <string name="health_rationale_purpose_recovery">Solo lectura. Se muestran en la pantalla de constantes como tarjetas propias, junto a tu valor habitual de las cuatro semanas anteriores. Los mide un reloj o un anillo, normalmente de noche; la app no los calcula y no escribe nada de vuelta.</string>
+    <string name="vitals_note_resting_measured">Medida por un reloj o un anillo en reposo, normalmente de noche, y leída de Health Connect o de un archivo exportado. Es lógico que quede por debajo del pulso tomado durante el día.</string>
+    <string name="vitals_note_baseline">Tu valor habitual es la mediana de tus propias mediciones en los 28 días anteriores a la última, y necesita al menos cinco. Te compara contigo; no es un veredicto.</string>
+    <string name="vitals_baseline_above">La última está %1$d %2$s por encima de lo habitual</string>
+    <string name="vitals_baseline_below">La última está %1$d %2$s por debajo de lo habitual</string>
+    <string name="vitals_baseline_same">La última coincide con lo habitual</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Lo habitual en ti: %1$s %2$s, mediana de %3$d medición de las 4 semanas anteriores</item>
+        <item quantity="many">Lo habitual en ti: %1$s %2$s, mediana de %3$d mediciones de las 4 semanas anteriores</item>
+        <item quantity="other">Lo habitual en ti: %1$s %2$s, mediana de %3$d mediciones de las 4 semanas anteriores</item>
+    </plurals>
+</resources>

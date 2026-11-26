@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">طبيب أطفال</string>
+    <string name="visit_kind_dermatologist">طبيب جلدية</string>
+    <string name="visit_kind_ophthalmologist">طبيب عيون</string>
+    <string name="visit_kind_ent">طبيب أنف وأذن وحنجرة</string>
+    <string name="visit_kind_orthopaedist">طبيب عظام</string>
+    <string name="visit_kind_neurologist">طبيب أعصاب</string>
+    <string name="visit_kind_psychiatrist">طبيب نفسي</string>
+    <string name="visit_kind_gastroenterologist">طبيب جهاز هضمي</string>
+    <string name="visit_kind_laboratory">تحاليل مخبرية</string>
+    <string name="visit_kind_imaging">الأشعة: سينية، موجات فوق صوتية، مقطعية، رنين مغناطيسي</string>
+    <string name="visit_kind_rehabilitation">التأهيل والعلاج الطبيعي</string>
+    <string name="visit_kind_surgeon">جرّاح</string>
+    <string name="visit_kind_oncologist">طبيب أورام</string>
+    <string name="visit_kind_allergist">طبيب حساسية</string>
+    <string name="visit_kind_pulmonologist">طبيب أمراض صدرية (الرئتان)</string>
+    <string name="visit_kind_nephrologist">طبيب كلى</string>
+    <string name="visit_kind_rheumatologist">طبيب روماتيزم</string>
+    <string name="visit_kind_infectious_diseases">طبيب أمراض معدية</string>
+    <string name="visit_kind_search_dentist">سن، ضرس، أسنان، طب الأسنان</string>
+    <string name="visit_kind_search_gynecologist">نسائية، نساء وولادة، توليد، أمراض النساء</string>
+    <string name="visit_kind_search_gp">طبيب أسرة، طبيب عائلة، ممارس عام، رعاية أولية، مركز صحي</string>
+    <string name="visit_kind_search_paediatrician">طفل، رضيع، طب الأطفال</string>
+    <string name="visit_kind_search_cardiologist">قلب، أمراض القلب</string>
+    <string name="visit_kind_search_dermatologist">جلد، بشرة، أمراض جلدية</string>
+    <string name="visit_kind_search_ophthalmologist">عين، نظر، رمد، طبيب بصريات</string>
+    <string name="visit_kind_search_ent">ENT، أذن، أنف، حلق، حنجرة</string>
+    <string name="visit_kind_search_orthopaedist">عظام، مفاصل، كسور، إصابات</string>
+    <string name="visit_kind_search_psychologist">معالج نفسي، مرشد نفسي، استشاري نفسي، علاج نفسي</string>
+    <string name="visit_kind_search_gastroenterologist">معدة، أمعاء، هضم</string>
+    <string name="visit_kind_search_laboratory">تحليل دم، فحص دم، مختبر، معمل</string>
+    <string name="visit_kind_search_imaging">تصوير شعاعي، سونار، موجات صوتية، أشعة إكس</string>
+    <string name="visit_kind_search_rehabilitation">علاج طبيعي، علاج فيزيائي، فيزيوثيرابي</string>
+    <string name="visit_kind_search_somnologist">طب النوم، أخصائي نوم، اضطرابات النوم</string>
+    <string name="visit_kind_field">الطبيب أو الفحص</string>
+    <string name="visit_kind_search">ابحث في القائمة</string>
+    <string name="choice_search_none">لا يوجد ما يطابق في القائمة</string>
+    <string name="visit_doctors_here">أطباء زرتهم في هذا المكان</string>
+    <string name="visit_save_needs_place">للحفظ، أضف المكان</string>
+    <string name="visit_save_needs_doctor">للحفظ، أضف الطبيب</string>
+    <string name="visit_save_needs_kind">للحفظ، اختر الطبيب أو الفحص</string>
+</resources>

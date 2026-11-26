@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">给药物拍照</string>
+    <string name="med_photo_of">%1$s 的照片</string>
+    <string name="med_photo_unnamed">药物照片</string>
+    <string name="med_photo_retake">重拍</string>
+    <string name="med_photo_remove">移除照片</string>
+    <string name="med_photo_open">查看大图</string>
+    <string name="med_delete_body_photo">计划和照片会被删除，已记录的服药仍留在日志里。</string>
+</resources>

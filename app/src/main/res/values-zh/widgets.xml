@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">昨晚的睡眠</string>
+    <string name="widget_sleep_caption">昨晚，%1$s – %2$s</string>
+    <string name="widget_sleep_none">没有睡眠记录</string>
+    <string name="widget_weight_description">最新体重及 30 天内的变化</string>
+    <string name="widget_weight_caption">最新体重</string>
+    <string name="widget_weight_change">30 天内 %1$s</string>
+    <string name="widget_weight_steady">30 天内没有变化</string>
+    <string name="widget_weight_none">没有体重记录</string>
+    <string name="widget_energy_description">今日饮食与每日限额的对比；点按即可记录一餐</string>
+    <string name="widget_energy_caption">共 %1$s 千卡 · %2$s</string>
+    <string name="widget_energy_left">剩余 %1$s</string>
+    <string name="widget_energy_over">超出 %1$s</string>
+    <string name="widget_week_description">最近七天每天的步数</string>
+    <string name="widget_week_caption">本周 %1$s 步 · 每天 %2$s 步</string>
+    <string name="widget_week_initial">本周步数</string>
+    <string name="widget_level_description">你的等级、升级所需 XP 和每日连续记录</string>
+    <string name="widget_level_initial">等级</string>
+    <plurals name="widget_level_streak">
+        <item quantity="other">连续 %d 天</item>
+    </plurals>
+    <string name="widget_dose_description">今天的下一次服药，点按一次即标为已服</string>
+    <string name="widget_dose_next">下一次：%1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">已服</string>
+    <string name="widget_dose_done">今天的药都已服用</string>
+    <string name="widget_dose_none">今天没有服药</string>
+    <string name="widget_cycle_description">周期天数和下次预计月经</string>
+    <string name="widget_cycle_period">月经第 %1$d 天</string>
+    <string name="widget_preview_sleep_value">7 小时 40 分钟</string>
+    <string name="widget_preview_sleep_caption">昨晚，23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72.4 kg</string>
+    <string name="widget_preview_weight_change">30 天内 −0.6 kg</string>
+    <string name="widget_preview_energy_value">1 240</string>
+    <string name="widget_preview_energy_caption">共 2 520 千卡 · 剩余 1 280</string>
+    <string name="widget_preview_week_caption">本周 48 300 步 · 每天 6 900 步</string>
+    <string name="widget_preview_level_title">等级 7</string>
+    <string name="widget_preview_level_caption">1 240 / 1 600 XP · 连续 12 天</string>
+    <string name="widget_preview_dose_next">下一次：二甲双胍</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">第 12 天</string>
+    <string name="widget_preview_cycle_next">预计下次 11月24日</string>
+</resources>

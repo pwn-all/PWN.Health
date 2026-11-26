@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Eki tanımla</string>
+    <string name="attachment_details_hint">Bu dosyanın ne içerdiğini seçin. Adı ve biçimi tetkikin ne olduğunu göstermez. Türü belirtmeden bırakabilirsiniz.</string>
+    <string name="attachment_description">Açıklama ya da vücut bölgesi</string>
+    <string name="attachment_study_day">Tetkik tarihi (isteğe bağlı)</string>
+    <string name="attachment_study_day_clear">Tarihi kaldır</string>
+    <string name="attachment_kind_unknown">Tür belirtilmedi</string>
+    <string name="attachment_kind_ct">BT</string>
+    <string name="attachment_kind_mri">MR</string>
+    <string name="attachment_kind_ultrasound">Ultrason</string>
+    <string name="attachment_kind_xray">Röntgen</string>
+    <string name="attachment_kind_doppler">Doppler ultrason</string>
+    <string name="attachment_kind_lab">Tahlil sonuçları</string>
+    <string name="attachment_kind_prescription">Reçete</string>
+    <string name="attachment_kind_other">Diğer belge</string>
+    <string name="attachment_catalog_note">Ekli dosyaların asılları bu ZIP içindedir. Tetkik türleri, tarihleri ve açıklamaları hasta tarafından verilmiştir.</string>
+</resources>

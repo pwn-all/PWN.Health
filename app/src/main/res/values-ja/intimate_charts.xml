@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">データが増えたら、また見に来てください！</string>
+    <string name="intimate_charts_walking_title">歩行と朝</string>
+    <string name="intimate_charts_alcohol_title">飲酒と朝</string>
+    <string name="intimate_charts_legend_average">あなたの平均</string>
+    <string name="intimate_charts_legend_night">1 晩の睡眠時間</string>
+    <string name="intimate_charts_legend_steps">1 日の歩数</string>
+    <string name="intimate_charts_legend_drinks">1 週間の標準ドリンク</string>
+    <string name="intimate_charts_pair_note">棒は下から伸び、1 週間に 1 本です。線は同じ週の「しっかり」または「部分的」だった朝の割合を、これらの週でのあなた自身の平均と比べたものです。高かった週は中央の線より上、低かった週は下に描かれます。同じ週に記録されたことを示すだけで、何が何の原因かを示すものではありません。</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="other">朝の回答が %1$d 回以上ある週を数えます。それより少ない週は線が途切れ、ゼロにはなりません。</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="other">週の棒は記録のある日の平均で、そうした日が %1$d 日以上必要です。それより少ない週には棒がありません。</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="other">%1$d 週分のデータがそろうとグラフが表示されます。</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">標準ドリンク 1 杯は純アルコール %1$s です。飲酒では、手動で何かを記録した日を記録のある日とし、平均は 7 日分に換算します。何も書いていない日は、飲まなかった日ではありません。</string>
+    <string name="intimate_charts_acts_note">週ごとの性行為の回数（パートナーとの性行為とマスターベーション）です。ご自分で何も記録しなかった週は両方の線が途切れます。性行為がなかった週ではありません。</string>
+    <string name="intimate_charts_desire_note">線上の点：その種類の性行為で「%1$s」にチェックした週です。</string>
+    <string name="intimate_charts_erection_note">線上の短い横線：その種類の性行為で「%1$s」にチェックした週です。</string>
+    <string name="intimate_charts_acts_mornings_note">朝には専用のグラフがあります。朝の記録は別のチェックによる 1 日 1 回の回答で、性行為の回数ではありません。この軸に描くと、性行為の結果のように見えてしまいます。</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="other">%1$s、直近 %2$d 週間の週ごとの値。%3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">%1$s までの週：%2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s：%2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s；%2$s</string>
+    <string name="intimate_charts_spoken_none">値なし</string>
+    <string name="intimate_charts_spoken_gap">朝の回答が少なすぎます</string>
+    <string name="intimate_charts_spoken_above">朝は平均より上</string>
+    <string name="intimate_charts_spoken_below">朝は平均より下</string>
+    <string name="intimate_charts_spoken_at">朝は平均と同じ</string>
+    <string name="intimate_charts_spoken_acts">パートナーとの性行為 %1$s、マスターベーション %2$s</string>
+</resources>

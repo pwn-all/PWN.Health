@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Sdílet procházku</string>
+    <string name="walk_delete">Smazat procházku</string>
+    <string name="walk_delete_title">Smazat tuto procházku?</string>
+    <string name="walk_delete_body">Procházka i s trasou, údaji a fotkami z telefonu nadobro zmizí. Soubory, které jste už uložili nebo sdíleli, zůstanou tam, kde jsou.</string>
+    <string name="walk_photos">Fotky</string>
+    <string name="walk_photos_help">Čísla odpovídají značkám na mapě, které ukazují, kde byla která fotka pořízena. Pokud telefon při focení neměl zaměřenou polohu z GPS, fotka značku nemá. Směr udává, kam mířil fotoaparát: azimut ve stupních od zeměpisného severu. Náklon říká, o kolik stupňů telefon mířil nad obzor nebo pod něj. Údaj „na výšku“ nebo „na šířku“ popisuje, jak byl telefon držen.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">směrem na %1$s</string>
+    <string name="walk_photo_up">%1$d° nahoru</string>
+    <string name="walk_photo_down">%1$d° dolů</string>
+    <string name="walk_photo_level">vodorovně</string>
+    <string name="walk_photo_portrait">na výšku</string>
+    <string name="walk_photo_landscape">na šířku</string>
+    <string name="walk_photo_upside_down">vzhůru nohama</string>
+    <string name="walk_photo_no_direction">směr neznámý</string>
+    <string name="walk_photo_spoken">Fotka %1$d: %2$s</string>
+    <string name="walk_photo_delete">Smazat fotku %1$d</string>
+    <string name="walk_photo_delete_body">Fotka z telefonu nadobro zmizí. Procházka, při které vznikla, zůstane.</string>
+    <string-array name="walk_compass_points">
+        <item>S</item>
+        <item>SV</item>
+        <item>V</item>
+        <item>JV</item>
+        <item>J</item>
+        <item>JZ</item>
+        <item>Z</item>
+        <item>SZ</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>sever</item>
+        <item>severovýchod</item>
+        <item>východ</item>
+        <item>jihovýchod</item>
+        <item>jih</item>
+        <item>jihozápad</item>
+        <item>západ</item>
+        <item>severozápad</item>
+    </string-array>
+</resources>

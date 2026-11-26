@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Condividi il percorso</string>
+    <string name="walk_delete">Elimina il percorso</string>
+    <string name="walk_delete_title">Eliminare questo percorso?</string>
+    <string name="walk_delete_body">Il percorso, i suoi dati e le sue foto vengono eliminati dal telefono per sempre. I file che hai già salvato o condiviso restano dove sono.</string>
+    <string name="walk_photos">Foto</string>
+    <string name="walk_photos_help">I numeri corrispondono ai segnaposto sulla mappa, che mostrano dove è stata scattata ogni foto. Una foto scattata senza posizione GPS non ha segnaposto. La direzione è l’angolo, misurato dal nord geografico, verso cui era rivolta la fotocamera. L’inclinazione indica di quanto il telefono puntava sopra o sotto l’orizzonte. Verticale o orizzontale descrive com’era tenuto.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">direzione %1$s</string>
+    <string name="walk_photo_up">%1$d° verso l’alto</string>
+    <string name="walk_photo_down">%1$d° verso il basso</string>
+    <string name="walk_photo_level">verso l’orizzonte</string>
+    <string name="walk_photo_portrait">verticale</string>
+    <string name="walk_photo_landscape">orizzontale</string>
+    <string name="walk_photo_upside_down">sottosopra</string>
+    <string name="walk_photo_no_direction">direzione sconosciuta</string>
+    <string name="walk_photo_spoken">Foto %1$d: %2$s</string>
+    <string name="walk_photo_delete">Elimina la foto %1$d</string>
+    <string name="walk_photo_delete_body">La foto viene eliminata dal telefono per sempre. Il percorso durante il quale è stata scattata resta.</string>
+    <string-array name="walk_compass_points">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>nord</item>
+        <item>nord-est</item>
+        <item>est</item>
+        <item>sud-est</item>
+        <item>sud</item>
+        <item>sud-ovest</item>
+        <item>ovest</item>
+        <item>nord-ovest</item>
+    </string-array>
+</resources>

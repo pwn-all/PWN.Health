@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s：这次药本应在饭前服用，但尚未标记已服用。</string>
+    <string name="med_reminder_with">%1$s：已记录用餐；这种药应随餐服用。</string>
+    <string name="med_reminder_needs_with_food">%1$s：这种药应随餐服用，但尚未记录用餐。</string>
+    <string name="med_alarm_title">用药闹钟</string>
+    <string name="med_alarm_dismiss">关闭声音</string>
+    <string name="med_alarm_open">打开应用</string>
+    <string name="med_alarm_not_taken">关闭声音不会将药物标记为已服用。</string>
+    <string name="med_alarm_settings_body">用药闹钟最多响一分钟。请允许精确闹钟和锁屏显示。没有这些权限，提醒可能延迟或显示为通知。用餐和饮水仍使用普通通知。</string>
+    <string name="med_alarm_exact_access">允许精确闹钟时间</string>
+    <string name="med_alarm_full_screen_access">允许锁屏闹钟</string>
+    <string name="med_alarm_channel_muted">“%1$s”通知类别已在 Android 设置中关闭，所以服药提醒会显示为普通通知，不会响铃。</string>
+    <string name="med_alarm_channel_open">打开通知类别设置</string>
+    <string name="reminder_food_title">该吃饭了吗？</string>
+    <string name="reminder_food_body">该吃饭了吗？还是您背着我吃过了？</string>
+    <string name="reminder_water_title">别忘了喝水</string>
+    <string name="reminder_water_body">别忘了补充水分。添加饮水记录。</string>
+    <string name="med_action_taken">我已服用</string>
+    <string name="med_action_later">稍后</string>
+</resources>

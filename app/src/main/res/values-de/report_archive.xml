@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Mit Anhängen</string>
+    <string name="report_archive_hint">Das ZIP enthält den PDF-Bericht und die Originaldateien, die in den gewählten Abschnitten und im gewählten Zeitraum an wahrgenommene Arzttermine, Laborwerte und Einnahmen angehängt sind: Ultraschall, Röntgen, CT, MRT, Doppler-Ultraschall und andere Dokumente. Die Dateiliste nennt zu jedem Anhang den Eintrag und das Datum.</string>
+    <string name="report_archive_preview">Angehängte Originaldateien: %1$d. Das ZIP enthält das PDF und diese Dateien vollständig.</string>
+    <string name="report_archive_index_header">Datei\tDatum des Eintrags\tAbschnitt\tEintrag\tTyp\tUntersuchungsdatum\tBeschreibung</string>
+    <string name="report_archive_unavailable">Der Anhang %1$s konnte nicht gelesen werden. Stellen Sie den Zugriff auf die Originaldatei wieder her und exportieren Sie erneut.</string>
+    <string name="report_visits_patient_notes">Wahrgenommene Arzttermine und Notizen zu den Arztgesprächen, wie die Person sie festgehalten hat.</string>
+</resources>

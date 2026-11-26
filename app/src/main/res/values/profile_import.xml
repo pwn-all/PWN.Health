@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The profile's door to the page a history kept in another app comes in by: Health Connect,
+         or the file that app exports. Not the Bluetooth page, which is for a device in the room. -->
+    <string name="import_apps_title">Import from other apps</string>
+    <string name="import_apps_menu_body">Health Connect, and the files Apple Health, Fitbit, Garmin, Strong and others export</string>
+</resources>

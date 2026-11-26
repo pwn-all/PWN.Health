@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Record</string>
+    <string name="strength_new_records">New personal records</string>
+    <string name="strength_record_e1rm">Estimated one-rep max</string>
+    <string name="strength_record_heaviest">Heaviest weight</string>
+    <string name="strength_record_reps">Most reps in a set</string>
+    <string name="strength_record_volume">Most weight in one session</string>
+    <string name="strength_record_was">%1$s · was %2$s</string>
+    <string name="strength_e1rm_note">The one-rep figure is an estimate by the Epley formula, from sets of up to 12 reps.</string>
+    <string name="strength_record_line">Best: %1$s · about %2$s for one rep</string>
+    <string name="strength_record_line_reps">Best: %1$s in a set</string>
+</resources>

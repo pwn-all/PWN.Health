@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Torna quando avrai aggiunto più dati!</string>
+    <string name="intimate_charts_walking_title">Camminata e mattine</string>
+    <string name="intimate_charts_alcohol_title">Alcol e mattine</string>
+    <string name="intimate_charts_legend_average">La tua media</string>
+    <string name="intimate_charts_legend_night">Ore di sonno per notte</string>
+    <string name="intimate_charts_legend_steps">Passi al giorno</string>
+    <string name="intimate_charts_legend_drinks">Unità alcoliche a settimana</string>
+    <string name="intimate_charts_pair_note">Le barre salgono dal basso, una a settimana. La linea è la quota di mattine con erezione piena o parziale nella stessa settimana rispetto alla tua media di queste settimane: sopra la linea centrale quando era più alta, sotto quando era più bassa. Mostrano ciò che è stato registrato nelle stesse settimane, non che cosa abbia causato che cosa.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Una settimana conta quando %1$d delle sue mattine ha una risposta; una settimana con meno lascia un vuoto nella linea, mai uno zero.</item>
+        <item quantity="many">Una settimana conta quando %1$d delle sue mattine hanno una risposta; una settimana con meno lascia un vuoto nella linea, mai uno zero.</item>
+        <item quantity="other">Una settimana conta quando %1$d delle sue mattine hanno una risposta; una settimana con meno lascia un vuoto nella linea, mai uno zero.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">La barra di una settimana è la media dei giorni con un dato e ne richiede %1$d; una settimana con meno non ha barra.</item>
+        <item quantity="many">La barra di una settimana è la media dei giorni con un dato e ne richiede %1$d; una settimana con meno non ha barra.</item>
+        <item quantity="other">La barra di una settimana è la media dei giorni con un dato e ne richiede %1$d; una settimana con meno non ha barra.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">Il grafico compare quando %1$d settimana ha dati sufficienti.</item>
+        <item quantity="many">Il grafico compare quando %1$d di settimane hanno dati sufficienti.</item>
+        <item quantity="other">Il grafico compare quando %1$d settimane hanno dati sufficienti.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Un’unità alcolica corrisponde a %1$s di alcol puro. Per l’alcol, un giorno con un dato è un giorno con qualcosa inserito a mano, e la media è riportata a sette giorni: un giorno senza nulla di scritto non è un giorno senza alcol.</string>
+    <string name="intimate_charts_acts_note">Atti di ogni settimana, con partner e di masturbazione. Una settimana senza nulla annotato da te interrompe entrambe le linee: non è una settimana senza atti.</string>
+    <string name="intimate_charts_desire_note">Un punto su una linea: una settimana con «%1$s» spuntato per quel tipo di atto.</string>
+    <string name="intimate_charts_erection_note">Un trattino su una linea: una settimana con «%1$s» spuntato per quel tipo di atto.</string>
+    <string name="intimate_charts_acts_mornings_note">Le mattine hanno grafici propri: sono una risposta al giorno da un controllo a parte, non un conteggio di atti, e tracciate su questi assi sembrerebbero causate da essi.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, settimana per settimana su %2$d settimana. %3$s</item>
+        <item quantity="many">%1$s, settimana per settimana nelle ultime %2$d di settimane. %3$s</item>
+        <item quantity="other">%1$s, settimana per settimana nelle ultime %2$d settimane. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Settimana fino al %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">nessun dato</string>
+    <string name="intimate_charts_spoken_gap">troppo poche mattine con risposta</string>
+    <string name="intimate_charts_spoken_above">mattine sopra la tua media</string>
+    <string name="intimate_charts_spoken_below">mattine sotto la tua media</string>
+    <string name="intimate_charts_spoken_at">mattine nella tua media</string>
+    <string name="intimate_charts_spoken_acts">con partner %1$s, masturbazione %2$s</string>
+</resources>

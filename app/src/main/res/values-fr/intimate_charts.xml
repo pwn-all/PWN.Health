@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Revenez quand vous aurez ajouté plus de données !</string>
+    <string name="intimate_charts_walking_title">La marche et les matins</string>
+    <string name="intimate_charts_alcohol_title">L’alcool et les matins</string>
+    <string name="intimate_charts_legend_average">Votre moyenne</string>
+    <string name="intimate_charts_legend_night">Heures de sommeil par nuit</string>
+    <string name="intimate_charts_legend_steps">Pas par jour</string>
+    <string name="intimate_charts_legend_drinks">Verres standard par semaine</string>
+    <string name="intimate_charts_pair_note">Les barres partent du bas, une par semaine. La ligne est la part des matins « ferme » ou « en partie » de la même semaine, rapportée à votre propre moyenne sur ces semaines : au-dessus de la ligne du milieu quand elle était plus élevée, en dessous quand elle était plus basse. Elles montrent ce qui a été enregistré les mêmes semaines, pas ce qui a causé quoi.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Une semaine compte dès que %1$d de ses matins a reçu une réponse ; une semaine avec moins laisse un trou dans la ligne, jamais un zéro.</item>
+        <item quantity="many">Une semaine compte dès que %1$d de ses matins ont reçu une réponse ; une semaine avec moins laisse un trou dans la ligne, jamais un zéro.</item>
+        <item quantity="other">Une semaine compte dès que %1$d de ses matins ont reçu une réponse ; une semaine avec moins laisse un trou dans la ligne, jamais un zéro.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">La barre d’une semaine est la moyenne des jours avec une valeur et en demande %1$d ; une semaine qui en a moins n’a pas de barre.</item>
+        <item quantity="many">La barre d’une semaine est la moyenne des jours avec une valeur et en demande %1$d ; une semaine qui en a moins n’a pas de barre.</item>
+        <item quantity="other">La barre d’une semaine est la moyenne des jours avec une valeur et en demande %1$d ; une semaine qui en a moins n’a pas de barre.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">Le graphique apparaît dès que %1$d semaine a assez de données.</item>
+        <item quantity="many">Le graphique apparaît dès que %1$d de semaines ont assez de données.</item>
+        <item quantity="other">Le graphique apparaît dès que %1$d semaines ont assez de données.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Un verre standard contient %1$s d’alcool pur. Pour l’alcool, un jour avec une valeur est un jour où quelque chose a été saisi à la main, et la moyenne est ramenée à sept jours : un jour sans rien d’écrit n’est pas un jour sans alcool.</string>
+    <string name="intimate_charts_acts_note">Les actes de chaque semaine, avec partenaire et en solo. Une semaine où vous n’avez rien noté vous-même coupe les deux lignes : ce n’est pas une semaine sans actes.</string>
+    <string name="intimate_charts_desire_note">Un point sur une ligne : une semaine où « %1$s » a été coché pour ce type d’acte.</string>
+    <string name="intimate_charts_erection_note">Un tiret sur une ligne : une semaine où « %1$s » a été coché pour ce type d’acte.</string>
+    <string name="intimate_charts_acts_mornings_note">Les matins ont leurs propres graphiques : il s’agit d’une réponse par jour, issue d’un relevé à part, et non d’un nombre d’actes ; tracés sur ces axes, ils sembleraient en découler.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, semaine par semaine sur %2$d semaine. %3$s</item>
+        <item quantity="many">%1$s, semaine par semaine sur les %2$d dernières semaines. %3$s</item>
+        <item quantity="other">%1$s, semaine par semaine sur les %2$d dernières semaines. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Semaine jusqu’au %1$s : %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s : %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s ; %2$s</string>
+    <string name="intimate_charts_spoken_none">aucune valeur</string>
+    <string name="intimate_charts_spoken_gap">trop peu de matins renseignés</string>
+    <string name="intimate_charts_spoken_above">matins au-dessus de votre moyenne</string>
+    <string name="intimate_charts_spoken_below">matins en dessous de votre moyenne</string>
+    <string name="intimate_charts_spoken_at">matins au niveau de votre moyenne</string>
+    <string name="intimate_charts_spoken_acts">avec partenaire %1$s, en solo %2$s</string>
+</resources>

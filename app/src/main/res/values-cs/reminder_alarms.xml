@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: tento lék měl být užit před jídlem; užití není zaznamenáno.</string>
+    <string name="med_reminder_with">%1$s: jídlo je zaznamenáno; tento lék se užívá během jídla.</string>
+    <string name="med_reminder_needs_with_food">%1$s: tento lék se užívá během jídla, ale jídlo zatím není zaznamenáno.</string>
+    <string name="med_alarm_title">Budíky pro léky</string>
+    <string name="med_alarm_dismiss">Vypnout zvuk</string>
+    <string name="med_alarm_open">Otevřít aplikaci</string>
+    <string name="med_alarm_not_taken">Vypnutí zvuku neoznačí lék jako užitý.</string>
+    <string name="med_alarm_settings_body">Budíky zvoní nejvýše minutu. Povolte přesné časy a zobrazení na zamčené obrazovce. Bez těchto oprávnění se připomínky mohou opozdit nebo zobrazit jako oznámení. Jídlo a voda používají běžná oznámení.</string>
+    <string name="med_alarm_exact_access">Povolit přesné časy</string>
+    <string name="med_alarm_full_screen_access">Povolit budíky na zamčené obrazovce</string>
+    <string name="med_alarm_channel_muted">Kanál „%1$s“ je v nastavení Androidu ztlumený, takže dávky přicházejí jako běžná oznámení, bez zvonění.</string>
+    <string name="med_alarm_channel_open">Otevřít nastavení kanálu</string>
+    <string name="reminder_food_title">Není čas se najíst?</string>
+    <string name="reminder_food_body">Není čas se najíst? Nebo jste jedli beze mě?</string>
+    <string name="reminder_water_title">Nezapomínejte pít</string>
+    <string name="reminder_water_body">Nezapomínejte pít tekutiny. Přidejte vodu.</string>
+    <string name="med_action_taken">Užil jsem</string>
+    <string name="med_action_later">Později</string>
+</resources>

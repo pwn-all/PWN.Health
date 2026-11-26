@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Z plikami</string>
+    <string name="report_archive_hint">Archiwum ZIP zawiera raport PDF i oryginalne pliki załączone do odbytych wizyt, badań laboratoryjnych i kuracji z wybranych sekcji za wybrany okres: USG, RTG, TK, MR, USG dopplerowskie i inne dokumenty. Lista plików wskazuje wpis i datę każdego załącznika.</string>
+    <string name="report_archive_preview">Oryginalnych załączonych plików: %1$d. Archiwum ZIP zawiera PDF i te pliki w całości.</string>
+    <string name="report_archive_index_header">Plik\tData wpisu\tSekcja\tWpis\tRodzaj\tData badania\tOpis</string>
+    <string name="report_archive_unavailable">Nie udało się odczytać załącznika %1$s. Przywróć dostęp do oryginalnego pliku i wyeksportuj jeszcze raz.</string>
+    <string name="report_visits_patient_notes">Odbyte wizyty i notatki z konsultacji tak, jak zapisał je pacjent.</string>
+</resources>

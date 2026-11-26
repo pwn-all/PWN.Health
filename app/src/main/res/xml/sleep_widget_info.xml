@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Last night: a 28sp figure over a 12sp caption inside the 10dp frame measures 66.9dp, declared as 70dp.
+  The 30 minutes is the platform floor, and the day rolls over with nobody touching the phone: the
+  period is what turns yesterday's figure into today's. The first frame is the preview's shape with
+  no figure on it (WidgetMetadataTest).
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_sleep_description"
+    android:initialLayout="@layout/widget_initial_sleep"
+    android:minWidth="110dp"
+    android:minHeight="70dp"
+    android:previewLayout="@layout/widget_preview_sleep"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

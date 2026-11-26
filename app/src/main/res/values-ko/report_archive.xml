@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">파일 포함</string>
+    <string name="report_archive_hint">ZIP에는 PDF 보고서와 함께, 선택한 기간과 항목의 다녀온 진료, 검사 결과, 복약에 첨부한 원본 파일(초음파, X선, CT, MRI, 도플러 초음파, 기타 문서)이 들어갑니다. 파일 목록에는 각 첨부 파일이 속한 기록과 날짜가 적혀 있습니다.</string>
+    <string name="report_archive_preview">첨부한 원본 파일: %1$d개. ZIP에는 PDF와 이 파일들이 원본 그대로 들어갑니다.</string>
+    <string name="report_archive_index_header">파일\t기록 날짜\t항목\t기록\t유형\t검사 날짜\t설명</string>
+    <string name="report_archive_unavailable">첨부 파일을 읽을 수 없습니다: %1$s. 원본 파일에 접근할 수 있게 한 뒤 다시 내보내세요.</string>
+    <string name="report_visits_patient_notes">다녀온 진료와 진료 메모는 환자 본인이 기록한 그대로입니다.</string>
+</resources>

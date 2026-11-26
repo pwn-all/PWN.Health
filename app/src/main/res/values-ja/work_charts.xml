@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">1 週間の労働時間</string>
+    <string name="work_charts_legend_median">あなたの中央値</string>
+    <string name="work_charts_gap_note">数えなかった週には棒がありません。仕事のなかった週ではありません。</string>
+    <string name="work_charts_other_days">ほかの仕事の日</string>
+    <string name="work_charts_days_off">休日</string>
+    <string name="work_charts_pair_note">棒は労働時間で、数えた週ごとに 1 本です。線は、グラフの下に記した指標の同じ週の値を、あなた自身の平均（点のある週の平均）と比べたものです。高かった週は中央の線より上、低かった週は下に描かれます。同じ週に記録されたことを示すだけで、何が何の原因かを示すものではありません。</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="other">週の点には、記録のある日が %1$d 日以上必要です。それより少ない週は線が途切れ、ゼロにはなりません。</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s：あなたの平均より上</string>
+    <string name="work_charts_spoken_below">%1$s：あなたの平均より下</string>
+    <string name="work_charts_spoken_at">%1$s：あなたの平均と同じ</string>
+    <string name="work_charts_spoken_gap">%1$s：記録のある日が少なすぎます</string>
+</resources>

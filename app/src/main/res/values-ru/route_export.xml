@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">Сохранить в файл</string>
+    <string name="route_format_gpx_hint">Для карт, спортивных часов и приложений</string>
+    <string name="route_format_geojson_hint">Для ГИС и веб-карт</string>
+    <string name="route_format_csv_hint">Все фиксы — для электронных таблиц</string>
+</resources>

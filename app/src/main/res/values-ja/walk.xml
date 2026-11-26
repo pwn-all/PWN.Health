@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>乳酸パーティー</item>
+        <item>夕焼け散歩</item>
+        <item>坂道ハンター</item>
+        <item>コーヒーを求めて</item>
+        <item>アスファルトの詩</item>
+        <item>街なかサファリ</item>
+        <item>おいしい空気をおかわり</item>
+        <item>ぜいたくな寄り道</item>
+        <item>水たまりパトロール</item>
+        <item>マジックアワーをひと回り</item>
+        <item>やる気満タンウォーク</item>
+        <item>そよ風を追いかけて</item>
+        <item>歩道クロニクル</item>
+        <item>距離をペロリ</item>
+        <item>雲ウォッチャー</item>
+        <item>絶景ルート</item>
+        <item>小さな冒険</item>
+        <item>エンドルフィンのおつかい</item>
+        <item>ベンチ評論家</item>
+        <item>胸を張って歩こう</item>
+        <item>あえて遠回り</item>
+        <item>足の向くほうへ</item>
+        <item>静かな道のり</item>
+        <item>今日は脚の日</item>
+        <item>放浪モード</item>
+        <item>頭をからっぽに</item>
+        <item>足音シンフォニー</item>
+        <item>早歩き営業中</item>
+        <item>ごほうびおやつへの道</item>
+        <item>ハトの大行進</item>
+        <item>近道は信じない派</item>
+        <item>ウイニングウォーク</item>
+        <item>自分探しの散歩道</item>
+        <item>こんにちは、外の空気</item>
+        <item>週末ぶらり歩き</item>
+        <item>ポケットサイズの探検</item>
+        <item>夜明けの見回り</item>
+        <item>有酸素クルーズ</item>
+        <item>地図にお絵かき</item>
+        <item>考えごと散歩</item>
+    </string-array>
+</resources>

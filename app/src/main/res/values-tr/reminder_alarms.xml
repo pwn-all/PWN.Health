@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: bu ilaç yemekten önce alınmalıydı; alındığı işaretlenmemiş.</string>
+    <string name="med_reminder_with">%1$s: yemek kaydedildi; bu ilaç yemek sırasında alınır.</string>
+    <string name="med_reminder_needs_with_food">%1$s: bu ilaç yemek sırasında alınır, ancak henüz yemek kaydı yok.</string>
+    <string name="med_alarm_title">İlaç alarmları</string>
+    <string name="med_alarm_dismiss">Sesi kapat</string>
+    <string name="med_alarm_open">Uygulamayı aç</string>
+    <string name="med_alarm_not_taken">Sesi kapatmak ilacı alınmış olarak işaretlemez.</string>
+    <string name="med_alarm_settings_body">Alarmlar en fazla bir dakika çalar. Kesin saatlere ve kilit ekranında gösterime izin verin. Bu izinler olmadan hatırlatmalar gecikebilir veya bildirim olarak görünebilir. Yemek ve su normal bildirimler kullanır.</string>
+    <string name="med_alarm_exact_access">Kesin alarm saatlerine izin ver</string>
+    <string name="med_alarm_full_screen_access">Kilit ekranı alarmlarına izin ver</string>
+    <string name="med_alarm_channel_muted">“%1$s” kanalı Android ayarlarında sessize alınmış, bu yüzden dozlar alarm çalmadan normal bildirim olarak gelir.</string>
+    <string name="med_alarm_channel_open">Kanal ayarlarını aç</string>
+    <string name="reminder_food_title">Yemek zamanı gelmedi mi?</string>
+    <string name="reminder_food_body">Yemek zamanı gelmedi mi? Yoksa bensiz mi yediniz?</string>
+    <string name="reminder_water_title">İçmeyi unutmayın</string>
+    <string name="reminder_water_body">Sıvı içmeyi unutmayın. Su ekleyin.</string>
+    <string name="med_action_taken">Aldım</string>
+    <string name="med_action_later">Sonra</string>
+</resources>

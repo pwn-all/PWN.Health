@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Pasos al día</string>
+    <string name="onboarding_steps_body">Elige una meta que pienses mantener. En un ensayo con 500 adultos, solo quienes eligieron su propia meta empezaron a caminar más. Puedes cambiarla en el perfil cuando quieras.</string>
+    <string name="onboarding_steps_suggested">Sugerencia para tu edad: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Usar la sugerencia</string>
+    <string name="onboarding_steps_distance">Unos %1$s al día con tu zancada</string>
+    <string name="onboarding_bmi_source">Rangos adultos de la OMS</string>
+    <string name="onboarding_ready_steps">Meta diaria de pasos</string>
+    <string name="onboarding_ready_resting">Energía en reposo</string>
+    <string name="onboarding_ready_kcal_day">%1$s kcal al día</string>
+    <string name="onboarding_ready_local">Calculado en este teléfono con tus respuestas: energía en reposo con Mifflin–St Jeor, IMC con los rangos adultos de la OMS. No se ha enviado nada a ningún sitio.</string>
+</resources>

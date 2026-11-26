@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">Bulan sebelumnya</string>
+    <string name="m3_cal_next_month">Bulan berikutnya</string>
+    <string name="m3_cal_previous_year">Tahun sebelumnya</string>
+    <string name="m3_cal_next_year">Tahun berikutnya</string>
+    <string name="m3_cal_period_ended">Berakhir %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="other">%1$d pekan</item>
+    </plurals>
+    <string name="a11y_state_expanded">Diluaskan</string>
+    <string name="a11y_state_collapsed">Diciutkan</string>
+    <string name="a11y_hours">Jam</string>
+    <string name="a11y_minutes">Menit</string>
+    <string name="a11y_seconds">Detik</string>
+    <string name="a11y_zoom_in">Perbesar</string>
+    <string name="a11y_zoom_out">Perkecil</string>
+    <string name="m3_editor_attachment_kind">Jenis dokumen</string>
+    <string name="m3_editor_attachment_describe">Beri keterangan untuk %1$s</string>
+    <string name="m3_editor_attachment_remove">Hapus %1$s</string>
+    <string name="m3_editor_attachment_read_result">Tambah hasil dari %1$s</string>
+    <string name="m3_editor_energy_share">Bagian dari target energi hari ini</string>
+    <string name="bathroom_kind_previous">Jenis sebelumnya</string>
+    <string name="bathroom_kind_next">Jenis berikutnya</string>
+    <string name="smoking_bowl_smaller">Kepala lebih kecil</string>
+    <string name="smoking_bowl_larger">Kepala lebih besar</string>
+    <string name="smoking_less_nicotine">Nikotin lebih sedikit</string>
+    <string name="smoking_more_nicotine">Nikotin lebih banyak</string>
+    <string name="progress_photo_delete_dated">Hapus foto tanggal %1$s</string>
+    <string name="home_notice_dismiss">Tutup “%1$s”</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">Kartu %1$d dari %2$d</string>
+    <string name="home_chart_busiest">%1$s: jam tersibuk %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">Tampilkan halaman yang dikenali</string>
+    <string name="m3_labs_open_chart">Buka grafik</string>
+    <string name="m3_labs_chart_sideways">Putar grafik ke samping</string>
+    <string name="m3_labs_chart_earlier">Hasil sebelumnya</string>
+    <string name="m3_labs_chart_later">Hasil berikutnya</string>
+    <string name="med_a11y_mark_dose">Tandai %1$s, %2$s</string>
+    <string name="med_a11y_undo_dose">Batalkan %1$s, %2$s</string>
+    <string name="med_a11y_edit_course">Ubah %1$s</string>
+    <string name="med_a11y_delete_course">Hapus %1$s</string>
+    <string name="med_history_current">Saat ini</string>
+    <string name="m3_pain_time_left">Tersisa %1$s</string>
+    <string name="m3_pain_remove_area">Hapus</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">Tahap %1$d dari %2$d</string>
+    <string name="m3_profile_advice_level_clinician">Layak dibicarakan dengan klinisi</string>
+    <string name="m3_profile_advice_level_attention">Layak dipantau</string>
+    <string name="m3_profile_advice_level_habit">Kebiasaan yang perlu ditinjau</string>
+    <string name="m3_profile_password_mismatch">Kata sandi tidak cocok</string>
+    <string name="m3_profile_password_show">Tampilkan kata sandi</string>
+    <string name="m3_profile_password_hide">Sembunyikan kata sandi</string>
+    <string name="m3_sync_connected">Terhubung ke %1$s.</string>
+    <string name="m3_sync_disconnected">Terputus dari %1$s.</string>
+    <string name="m3_sync_error_scan">Pencarian tidak dapat dimulai. Tunggu sebentar, lalu cari lagi.</string>
+    <string name="m3_sync_error_pairing">Penyandingan tidak selesai. Terima permintaan penyandingan, lalu hubungkan lagi.</string>
+    <string name="m3_sync_error_stale_bond">Penyandingan ponsel ini dengan perangkat tidak berfungsi lagi. Lupakan perangkat di pengaturan Bluetooth Android, lalu hubungkan lagi dan terima permintaan penyandingan.</string>
+    <string name="m3_sync_error_no_answer">Perangkat tidak merespons. Bangunkan alatnya, dekatkan, lalu hubungkan lagi.</string>
+    <string name="m3_sync_error_generic">Tidak dapat terhubung ke perangkat. Coba lagi.</string>
+    <string name="m3_sync_no_skin_contact">Sabuk melaporkan tidak ada kontak dengan kulit. Basahi elektrodenya dan kencangkan hingga pas.</string>
+    <string name="m3_sync_reading_incomplete">Perangkat tidak mengirim pembacaan yang lengkap, sehingga tidak dapat disimpan.</string>
+    <string name="m3_sync_connect_named">Hubungkan %1$s</string>
+    <string name="m3_sync_firmware">Firmware %1$s</string>
+    <string name="m3_sync_scale_clock_unset">Diberi tanggal saat diterima: jam timbangan belum diatur</string>
+    <string name="m3_sync_health_running">Bertukar data dengan Health Connect di ponsel ini…</string>
+    <string name="m3_sync_failed_permission">Health Connect menolak akses; periksa apa yang diizinkan.</string>
+    <string name="m3_sync_failed_unavailable">Health Connect di ponsel ini tidak merespons.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect meminta jeda; aplikasi akan mencoba lagi nanti.</string>
+    <string name="m3_sync_failed_other">Health Connect melaporkan kesalahan.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, hari libur biasa</string>
+    <string name="m3_work_sensor_unclassified">tidak terklasifikasi</string>
+    <string name="m3_work_motion_still">diam</string>
+    <string name="m3_work_motion_shaking">berguncang</string>
+    <string name="m3_work_motion_non_gait">bergerak tanpa melangkah</string>
+    <string name="m3_work_posture_in_hand">di tangan</string>
+    <string name="m3_work_posture_pocket">di saku</string>
+    <string name="m3_work_posture_flat">tergeletak datar</string>
+    <string name="workout_rest_change">Ubah waktu istirahat</string>
+    <string name="workout_delete_round">Hapus putaran %1$d</string>
+    <string name="workout_complete_title">Latihan selesai</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d rpm</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d spm</string>
+</resources>

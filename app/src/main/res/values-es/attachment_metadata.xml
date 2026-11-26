@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Describir el adjunto</string>
+    <string name="attachment_details_hint">Elige qué contiene este archivo. Su nombre y su formato no indican de qué prueba se trata. Puedes dejar el tipo sin especificar.</string>
+    <string name="attachment_description">Descripción o zona del cuerpo</string>
+    <string name="attachment_study_day">Fecha de la prueba (opcional)</string>
+    <string name="attachment_study_day_clear">Quitar la fecha</string>
+    <string name="attachment_kind_unknown">Tipo sin especificar</string>
+    <string name="attachment_kind_ct">TC</string>
+    <string name="attachment_kind_mri">RM</string>
+    <string name="attachment_kind_ultrasound">Ecografía</string>
+    <string name="attachment_kind_xray">Radiografía</string>
+    <string name="attachment_kind_doppler">Ecografía Doppler</string>
+    <string name="attachment_kind_lab">Resultados de laboratorio</string>
+    <string name="attachment_kind_prescription">Receta</string>
+    <string name="attachment_kind_other">Otro documento</string>
+    <string name="attachment_catalog_note">Los archivos adjuntos originales se incluyen en este ZIP. Los tipos de prueba, las fechas y las descripciones los aporta el paciente.</string>
+</resources>

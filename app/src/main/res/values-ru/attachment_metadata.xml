@@ -1,0 +1,17 @@
+<resources>
+    <string name="attachment_details">Описание вложения</string>
+    <string name="attachment_details_hint">Укажите, что содержит файл. По имени и формату нельзя определить исследование. Тип можно оставить неуказанным.</string>
+    <string name="attachment_description">Описание или область исследования</string>
+    <string name="attachment_study_day">Дата исследования (необязательно)</string>
+    <string name="attachment_study_day_clear">Убрать дату</string>
+    <string name="attachment_kind_unknown">Тип не указан</string>
+    <string name="attachment_kind_ct">КТ</string>
+    <string name="attachment_kind_mri">МРТ</string>
+    <string name="attachment_kind_ultrasound">УЗИ</string>
+    <string name="attachment_kind_xray">Рентген</string>
+    <string name="attachment_kind_doppler">Доплерография</string>
+    <string name="attachment_kind_lab">Анализы</string>
+    <string name="attachment_kind_prescription">Рецепт</string>
+    <string name="attachment_kind_other">Другой документ</string>
+    <string name="attachment_catalog_note">Оригиналы вложений находятся в этом ZIP. Типы, даты исследований и описания указаны пациентом.</string>
+</resources>

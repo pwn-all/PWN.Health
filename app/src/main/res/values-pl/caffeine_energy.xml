@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Kalorie w filiżance</string>
+    <string name="caffeine_energy_help_body">Kalorie dotyczą samego przygotowanego napoju, według danych USDA FoodData Central: czarna herbata i kawa, espresso, matcha ubita z wodą oraz cappuccino na mleku o obniżonej zawartości tłuszczu — z pełnym mlekiem kalorii jest o około jedną piątą więcej. Mleko, śmietanka, cukier i syrop dodane przy stole liczą się dodatkowo i zapisuje się je jako jedzenie. Cappuccino jest zapisywane jako jedzenie razem z kofeiną: jego kalorie wchodzą do jedzenia z danego dnia, ale nie liczy się ono jako posiłek. W pozostałych filiżankach jest zaledwie kilka kalorii, więc zostają tylko wpisem kofeiny.</string>
+</resources>

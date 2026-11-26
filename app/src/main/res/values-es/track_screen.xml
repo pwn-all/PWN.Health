@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Detalles</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Detalles</string>
+    <string name="track_signal_good">Señal de GPS buena</string>
+    <string name="track_signal_fair">Señal de GPS aceptable</string>
+    <string name="track_signal_poor">Señal de GPS débil</string>
+    <string name="track_signal_searching">Buscando señal de GPS</string>
+    <string name="track_signal_location_off">Ubicación desactivada</string>
+    <string name="track_signal_no_access">Sin acceso a la ubicación</string>
+    <string name="track_info_title">Señal y ruta</string>
+    <string name="track_signal_title">Señal de GPS</string>
+    <string name="track_signal_note">Las barras indican con qué precisión sabe el teléfono dónde está. Tres barras: %1$s o mejor. Dos: hasta %2$s. Una: peor que eso. Ninguna: sin posición durante diez segundos, mientras el teléfono sigue buscando. Esta pantalla solo lee la posición mientras está abierta, para mostrar la señal y dónde estás.</string>
+    <string name="track_history_empty">Aún no hay rutas guardadas.</string>
+    <string name="track_map_here">Mapa alrededor de tu posición</string>
+    <string name="track_map_waiting">Mapa del mundo. Aún no se conoce tu posición.</string>
+    <string name="track_map_follow_here">Volver a tu posición</string>
+    <string name="track_pause">Pausar la grabación</string>
+    <string name="track_resume">Reanudar la grabación</string>
+    <string name="track_value_paused">en pausa</string>
+    <string name="track_value_ended">terminada</string>
+    <string name="track_finish_title">¿Terminar esta ruta?</string>
+    <string name="track_finish_body">La grabación se detiene y la ruta se guarda. Si solo quieres descansar un rato, usa el botón de pausa.</string>
+    <string name="track_finish">Terminar</string>
+    <string name="track_keep_recording">Seguir grabando</string>
+    <string name="track_finished">Ruta terminada</string>
+</resources>

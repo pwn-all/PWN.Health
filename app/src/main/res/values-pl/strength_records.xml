@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Rekord</string>
+    <string name="strength_new_records">Nowe rekordy osobiste</string>
+    <string name="strength_record_e1rm">Szacowany maks. na 1 powtórzenie</string>
+    <string name="strength_record_heaviest">Największy ciężar</string>
+    <string name="strength_record_reps">Najwięcej powtórzeń w serii</string>
+    <string name="strength_record_volume">Najwięcej ciężaru w jednym treningu</string>
+    <string name="strength_record_was">%1$s · było %2$s</string>
+    <string name="strength_e1rm_note">Wartość na 1 powtórzenie to szacunek według wzoru Epleya, z serii do 12 powtórzeń.</string>
+    <string name="strength_record_line">Najlepiej: %1$s · około %2$s na 1 powtórzenie</string>
+    <string name="strength_record_line_reps">Najlepiej: %1$s w serii</string>
+</resources>

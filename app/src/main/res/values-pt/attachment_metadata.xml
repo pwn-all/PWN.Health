@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Descrever o anexo</string>
+    <string name="attachment_details_hint">Escolha o que este arquivo contém. O nome e o formato dele não identificam o exame. Você pode deixar o tipo sem especificar.</string>
+    <string name="attachment_description">Descrição ou região do corpo</string>
+    <string name="attachment_study_day">Data do exame (opcional)</string>
+    <string name="attachment_study_day_clear">Remover a data</string>
+    <string name="attachment_kind_unknown">Tipo não especificado</string>
+    <string name="attachment_kind_ct">TC</string>
+    <string name="attachment_kind_mri">RM</string>
+    <string name="attachment_kind_ultrasound">Ultrassom</string>
+    <string name="attachment_kind_xray">Raio X</string>
+    <string name="attachment_kind_doppler">Ultrassom Doppler</string>
+    <string name="attachment_kind_lab">Exames laboratoriais</string>
+    <string name="attachment_kind_prescription">Receita</string>
+    <string name="attachment_kind_other">Outro documento</string>
+    <string name="attachment_catalog_note">Os arquivos anexados originais estão incluídos neste ZIP. Os tipos, as datas e as descrições dos exames são informados pelo paciente.</string>
+</resources>

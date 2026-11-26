@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat’s mood thread (ChatMood.kt, ChatMoodUi.kt, Symptoms.kt, SymptomRules.kt). -->
+<resources>
+    <!-- How a mood thread starts -->
+    <string name="chat_mood_both">Thank you. Your mood can be noted, or we can talk about it. Which first?</string>
+    <string name="chat_mood_today_only">A mood can be noted only for today.</string>
+    <!-- A mood noted inside the four hours: update it, or leave it -->
+    <string name="chat_mood_step_update">Update the earlier mood?</string>
+    <string name="chat_mood_ask_update">A mood is noted at %1$s: %2$s. Would you like to update it?</string>
+    <string name="chat_mood_ask_clash">A mood was noted at %1$s, a moment ago. Should this one replace it?</string>
+    <string name="chat_mood_option_update">Update it</string>
+    <string name="chat_mood_kept">All right, it stays as it is. The next mood can be noted from %1$s.</string>
+    <string name="chat_mood_not_saved">This one is not saved: the mood noted at %1$s stays.</string>
+    <!-- The dial’s “?” -->
+    <string name="chat_mood_help_update">Here it is as it was noted. Move it to how you feel now, or tap the same word to keep it.</string>
+    <string name="chat_mood_help_changes">Moods can change through the day. This notes how you feel right now; the next one can be noted from %1$s.</string>
+    <!-- What it is about, by the face -->
+    <string name="chat_mood_ack_good">That is good to hear.</string>
+    <string name="chat_mood_ask_about_neutral">Is anything in particular behind it?</string>
+    <string name="chat_mood_ask_about_good">What is lifting your mood?</string>
+    <string name="chat_mood_no_reason_low">Sometimes a low mood comes without a clear reason.</string>
+    <string name="chat_mood_no_reason_good">Good moods do not always need a reason.</string>
+    <string name="chat_mood_option_rest">Rest or a good sleep</string>
+    <string name="chat_mood_option_movement">Sport or movement</string>
+    <string name="chat_mood_option_went_well">Something went well</string>
+    <string name="chat_mood_option_nature">Nature or the weather</string>
+    <string name="chat_mood_option_good_news">Good news</string>
+    <!-- “Something else”, in the person’s own words: kept in the chat only -->
+    <string name="chat_mood_step_else">In your words</string>
+    <string name="chat_mood_ask_else">Would you like to say what it is? It stays in this chat.</string>
+    <string name="chat_mood_option_not_now">Not now</string>
+    <!-- The person’s typed words, drawn as they wrote them -->
+    <string name="chat_mood_words" translatable="false">%1$s</string>
+    <!-- Changing moods -->
+    <string name="chat_mood_step_swings">Mood changes</string>
+    <string name="chat_mood_ask_swings">Are these changes very big, and do they go on for a long time or get in the way of everyday life?</string>
+    <string name="chat_mood_swings_net">If the changes become very big and go on for a long time, or get in the way of everyday life, it is worth talking to a doctor.</string>
+    <!-- The optional check on sleep and energy -->
+    <string name="chat_mood_step_high">Sleep and energy</string>
+    <string name="chat_mood_ask_high">May I ask two short questions about your sleep and energy these days? You do not have to answer.</string>
+    <string name="chat_mood_option_ask_me">Yes, ask</string>
+    <string name="chat_mood_option_no_thanks">No, thank you</string>
+    <string name="chat_mood_ask_high_signs">In the last few days, have you noticed any of these?</string>
+    <string name="chat_mood_option_less_sleep">Needing much less sleep, without feeling tired</string>
+    <string name="chat_mood_option_racing">Thoughts racing, or hard to concentrate</string>
+    <string name="chat_mood_option_risks">Doing things unlike me, such as spending a lot or taking risks</string>
+    <string name="chat_mood_option_talking">Talking much more, or much faster, than usual</string>
+    <string name="chat_mood_step_life">Everyday life</string>
+    <string name="chat_mood_ask_life">Is it getting in the way of everyday life?</string>
+    <string name="chat_mood_high_net">If this goes on, it is worth telling a doctor about it, even while you feel good.</string>
+    <string name="chat_mood_alert_high_antidepressant">Feeling unusually high, or full of energy, while taking %1$s is worth getting advice about today: contact a doctor or an urgent medical helpline.</string>
+    <!-- The close -->
+    <string name="chat_mood_close_neutral">Thank you, it is noted.</string>
+    <string name="chat_mood_close_good">Thank you for sharing it. I hope the day stays this good.</string>
+    <string name="chat_mood_talk_lead">If you would like, we can talk about how you have been feeling.</string>
+    <string name="chat_mood_offer_talk">Talk about how I feel</string>
+    <!-- The saved card and its flash -->
+    <string name="chat_mood_restored">Put back as it was</string>
+    <string name="chat_mood_updated">updated</string>
+    <!-- Where the mood thread’s lines come from, behind the “?” -->
+    <string name="symptom_source_bipolar" translatable="false">NHS, “Bipolar disorder”.</string>
+    <string name="symptom_source_antidepressant_mania" translatable="false">NHS, “Sertraline”, “Fluoxetine”, “Paroxetine”, “Duloxetine” and “Mirtazapine”: serious side effects.</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">消費エネルギーの内訳</string>
+    <string name="burn_overlap_note">運動として記録したウォーキングとランニングは、二重に数えないよう歩数の行に含めています。</string>
+    <string name="burn_rest_so_far">今日これまでの安静時</string>
+    <string name="burn_total_so_far">今日これまでの消費合計</string>
+    <string name="burn_active">活動、kcal</string>
+    <string name="food_history">食事の履歴</string>
+    <string name="food_history_empty">今日はまだ食事を記録していません。</string>
+    <string name="activity_times">活動した時間帯</string>
+    <string name="activity_times_empty">この日は時刻のある活動の記録がありません。</string>
+    <string name="visit_history">通院の履歴</string>
+    <string name="visit_history_empty">受診が済んだ通院がここに表示されます。</string>
+    <string name="calendar_schedule">予定</string>
+    <string name="calendar_add_event">追加</string>
+    <string name="calendar_expand_month">月を表示</string>
+    <string name="calendar_collapse_month">月を閉じる</string>
+    <string name="calendar_day_summary">その日のまとめ</string>
+    <string name="events_all">すべての記録</string>
+    <string name="events_filter">記録を絞り込む</string>
+    <string name="events_other">その他の記録</string>
+    <string name="events_no_matches">今月に該当する記録はありません。</string>
+    <string name="steps_in_interval">%1$s の歩数</string>
+    <string name="metric_goal_reached">目標を達成</string>
+    <string name="workout_did_it">できましたか？</string>
+    <string name="workout_actual_reps">何回できましたか？</string>
+    <string name="answer_yes">はい</string>
+    <string name="answer_no">いいえ</string>
+    <string name="visit_recent">最近の通院</string>
+    <string name="visit_show_all">すべて表示</string>
+    <string name="visit_all_specialties">すべての診療科</string>
+    <string name="visit_all_doctors">すべての医師</string>
+    <string name="visit_all_time">すべての期間</string>
+    <string name="steps_hourly_title">時間帯ごとの活動</string>
+    <string name="steps_activity_label">活動</string>
+    <string name="steps_distance_title">歩いた距離</string>
+    <string name="steps_pace_title">平均ペース</string>
+    <string name="steps_time_title">合計時間</string>
+    <string name="steps_distance_note">距離は、今日の歩数とプロフィールの身長から推定しています。</string>
+    <string name="steps_no_sensor">このスマートフォンには歩数を数えるセンサーがないため、アプリ自身は歩数を数えません。それでも歩数は、ヘルスコネクトや接続した機器から届くことがあります。</string>
+    <string name="steps_still_title">歩かなかった最長の時間</string>
+    <string name="steps_still_note">その 1 時間にこのスマートフォンが 100 歩以上を数えていれば、歩いた時間として扱います — およそ 1 分の歩行にあたり、上の合計時間が前提とするピッチと同じです。最長の時間は最初に歩いた時間帯から測るため、夜の睡眠が座っていた時間として数えられることはありません。時間帯は、歩いた時刻ではなく歩数が計上された時刻で記録します。そのため、スマートフォンが保留していた歩数がまとめてあとの時間帯に入り、歩かなかった時間が実際より長く見えることがあります。\n\nここで数えているのは歩かなかった時間帯であり、座っていた時間や立っていた時間ではありません。座った姿勢と立った姿勢を見分けられる Android のセンサーはなく、ヘルスコネクトにもどちらの記録もないため、ここの内容が送られることはありません。机に置いたままのスマートフォンは何も数えません。その前に座っていても、立っていても、部屋にいなくても同じです。</string>
+    <string name="steps_route_note">ルートがない場合、時間は 1 分 100 歩として、距離は歩数と身長から推定します。実際に測ったピッチではなく、あくまで仮定です。平均ペースは距離で重みづけし、移動時間の合計を距離の合計で割った値です。\n\n完了したルートからは、停止を除いた移動時間と距離を使います。重なった記録はまとめ、各時間帯では記録済みの距離を超えた歩数にだけ推定時間を足します。端末の 1 日の合計は、その日の全体で突き合わせます。\n\n≈ は推定を表します。時間帯ごとの合計からは、1 歩ごとの正確な時刻や、重なった活動の切り分けまでは分かりません。</string>
+    <string name="steps_chart_thousands">%1$sK</string>
+    <string name="home_stat_walks">散歩</string>
+    <string name="burn_total_note">今日の経過した分の活動量と、推定した安静時の消費です。</string>
+    <string name="burn_daily_estimate">1 日の安静時：≈ %1$s kcal</string>
+    <string name="burn_explanation_title">安静時の消費の計算方法</string>
+    <string name="burn_explanation_body">1 日の推定は、Mifflin–St Jeor の式とプロフィールの体重・身長・年齢・性別から計算します。歩行や運動を含まない、安静時に必要なエネルギーです。\n\nこれまでの安静時の消費 = 1 日の推定 × 午前 0 時からの分数 ÷ 1,440。今日の合計に入るのはこの経過分だけで、活動は別に加算します。1 日分の推定を重ねて足すことはありません。実際の消費は異なることがあります。</string>
+    <string name="home_good_morning">おはようございます</string>
+    <string name="home_good_afternoon">こんにちは</string>
+    <string name="home_good_evening">こんばんは</string>
+    <string name="home_good_night">おやすみなさい</string>
+    <string-array name="home_motivations">
+        <item>一歩ずつ目標へ</item>
+        <item>どの一歩も大切</item>
+        <item>小さな一歩が大きな道に</item>
+        <item>今日は新しいチャンス</item>
+        <item>動くことは生きること</item>
+        <item>健康は小さなことから</item>
+    </string-array>
+    <string name="home_focus">今日のフォーカス</string>
+    <string name="home_focus_headline">続けることが結果になります。</string>
+    <string name="home_focus_message">一歩ずつ進みましょう。</string>
+    <string name="widget_icon_count">アイコンの数</string>
+    <string name="level_details">レベルと XP</string>
+    <string name="level_screen_title">マイレベル</string>
+    <string name="level_sources">XP の獲得元</string>
+    <string name="level_to_next">次のレベルまで</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">レベル %1$d</string>
+    <string name="level_year_xp">今年 %1$s XP</string>
+    <string name="level_max">最大レベルに到達しました</string>
+    <string name="level_opens">アプリを開いた日</string>
+    <string name="level_steps">歩数</string>
+    <string name="level_meals">食事の記録</string>
+    <string name="level_workouts">運動した日</string>
+    <string name="level_visits">済んだ通院</string>
+    <string name="level_medals">メダル</string>
+    <string name="nutrition_unlogged_title">今日はまだ食事の記録がありません</string>
+    <string name="nutrition_unlogged_body">すでに食べているなら、日誌に追加してください。まだなら、きちんとした食事の時間をとりましょう。規則正しく食べることは、どの目標でも大切です。</string>
+    <string name="nutrition_tracking_low_title">今日の食事の記録は少なめです</string>
+    <string name="nutrition_tracking_low_body">日誌は今日のカロリー目標の %1$s%% です。記録もれがないか確認してください。記録がそろっているなら、たんぱく質・炭水化物・野菜のそろった食事を予定しましょう。</string>
+    <string name="nutrition_lose_low_title">減量中でも食べることは必要です</string>
+    <string name="nutrition_lose_low_body">記録は今日の目標の %1$s%% だけです。減量に空腹は要りません。日誌がそろっているなら、しっかり食べて規則正しい食事を続けてください。</string>
+    <string name="nutrition_gain_low_title">増量の目標にはまだ余裕があります</string>
+    <string name="nutrition_gain_low_body">今日の目標の %1$s%% を記録しています。日誌を確認して、たんぱく質のある食事か間食をもう一度考えましょう。無理に食べず、少しずつ増やしてください。</string>
+    <string name="nutrition_lose_over_title">今日のカロリー目標を超えました</string>
+    <string name="nutrition_lose_over_body">日誌は今日の減量目標の %1$s%% です。次の食事では量と空腹感を考えてみてください。絶食や食事抜きで埋め合わせないでください。</string>
+    <string name="nutrition_gain_over_title">増量の目標をかなり上回っています</string>
+    <string name="nutrition_gain_over_body">日誌は今日の増量目標の %1$s%% で、この目標にはすでに上乗せ分が入っています。量と記録を確認してください。無理に食べ足す必要はありません。規則正しくバランスのよい食事を続けましょう。</string>
+    <string name="nutrition_tracking_over_title">今日のカロリーの目安を超えています</string>
+    <string name="nutrition_tracking_over_body">日誌は今日のカロリーの目安の %1$s%% です。量と記録の重複を確認してください。1 日だけでは、ふだんの食事は分かりません。</string>
+    <string name="nutrition_fat_title">記録の脂質の割合が高めです</string>
+    <string name="nutrition_fat_body">記録したカロリーのおよそ %1$s%% が脂質です。次の食事は、たんぱく質・野菜・全粒穀物で整えましょう。脂質も多様な食事には必要で、大切なのはその種類です。</string>
+    <string name="nutrition_saturated_title">飽和脂肪酸が 1 日の目安を超えています</string>
+    <string name="nutrition_saturated_body">記録した飽和脂肪酸は、すでに今日のエネルギー目標の 10%% を超えています。次の食事では、その一部を魚・ナッツ・不飽和脂肪酸の植物油に置き換えられます。</string>
+    <string name="nutrition_protein_title">たんぱく質を確かめてください</string>
+    <string name="nutrition_protein_body">カロリーは目標に近い一方、記録したたんぱく質はアプリの 1 日の目安の半分を下回っています。次の食事に豆・魚・卵・豆腐・乳製品などを加えてみてください。</string>
+    <string name="nutrition_source">NHS / WHO。目安のしきい値はアプリが設定しています</string>
+    <!-- 食事の行に出る三大栄養素の 1 文字表記。タップするとそれぞれの正式な語を表示します。 -->
+    <string name="food_macro_letter_protein">P</string>
+    <string name="food_macro_letter_fat">F</string>
+    <string name="food_macro_letter_carbs">C</string>
+</resources>

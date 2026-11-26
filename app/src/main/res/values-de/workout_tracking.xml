@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Weitere Trainings</string>
+    <string name="routines_other_workouts_body">Nur nach Zeit: Tanzen, Basketball, Fußball, Pilates und mehr</string>
+    <string name="routines_indoors">Drinnen</string>
+    <string name="routines_indoors_body">Schritte und Zeit werden gezählt</string>
+    <string name="routines_outdoors">Draußen</string>
+    <string name="routines_outdoors_body">Öffnet „Spaziergang / Route“ und zeichnet den Weg auf der Karte auf</string>
+    <string name="track_tracked">Erfasst</string>
+    <string name="track_burned">Etwa verbraucht</string>
+    <string name="track_count_question">Richtig gezählt?</string>
+    <string name="track_count_fix">Zahl korrigieren</string>
+    <string name="track_count_interrupted">Zählung unterbrochen – von Hand eintragen</string>
+    <string name="track_phone_title">Wo das Handy hingehört</string>
+    <string name="track_phone_pocket">In der Hosentasche oder am Hosenbund — es zählt jede Landung.</string>
+    <string name="track_phone_lift">In der Hosentasche — es zählt jede Wiederholung oben, wo der Körper abbremst.</string>
+    <string name="track_phone_thigh">In der vorderen Hosentasche, am Oberschenkel — es zählt, wie sich der Oberschenkel bei jeder Wiederholung neigt.</string>
+    <string name="track_phone_arm">In einer Sportarmtasche am Oberarm — es zählt, wie sich der Arm bei jeder Wiederholung neigt.</string>
+    <string name="track_phone_steps">In der Tasche oder in der Hand — der Schrittzähler zählt die Schritte.</string>
+    <string name="track_phone_stairs">In der Tasche oder in der Hand — der Schrittzähler zählt die Schritte, das Barometer die Stockwerke.</string>
+    <string name="track_unit_jumps">Sprünge</string>
+    <string name="track_unit_floors">Stockwerke</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d Sprung</item>
+        <item quantity="other">%1$d Sprünge</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d Schritt</item>
+        <item quantity="other">%1$d Schritte</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d Stockwerk</item>
+        <item quantity="other">%1$d Stockwerke</item>
+    </plurals>
+</resources>

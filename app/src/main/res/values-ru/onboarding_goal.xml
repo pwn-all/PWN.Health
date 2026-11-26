@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Шаги в день</string>
+    <string name="onboarding_steps_body">Выберите цель, которую готовы держать. В исследовании с 500 взрослыми больше ходить стали только те, кто выбрал цель сам. Её всегда можно поменять в профиле.</string>
+    <string name="onboarding_steps_suggested">Для вашего возраста советуем: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Взять совет</string>
+    <string name="onboarding_steps_distance">Примерно %1$s в день при вашем шаге</string>
+    <string name="onboarding_bmi_source">Взрослые диапазоны ВОЗ</string>
+    <string name="onboarding_ready_steps">Цель по шагам</string>
+    <string name="onboarding_ready_resting">Энергия покоя</string>
+    <string name="onboarding_ready_kcal_day">%1$s ккал в день</string>
+    <string name="onboarding_ready_local">Посчитано на этом телефоне по вашим ответам: энергия покоя — по Миффлину — Сан Жеору, ИМТ — по взрослым диапазонам ВОЗ. Ничего никуда не отправлено.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">散歩を共有</string>
+    <string name="walk_delete">散歩を削除</string>
+    <string name="walk_delete_title">この散歩を削除しますか？</string>
+    <string name="walk_delete_body">この散歩のルート、数値、写真は端末から完全に消えます。すでに保存または共有したファイルはそのまま残ります。</string>
+    <string name="walk_photos">写真</string>
+    <string name="walk_photos_help">番号は地図上のマーカーと対応していて、マーカーは各写真を撮った場所を示します。GPS で測位できていないときに撮った写真には、マーカーがありません。方角は、写真を撮った向きを真北から測った方位です。傾きは、スマートフォンが水平からどれだけ上または下を向いていたかです。縦向き・横向きは、スマートフォンの持ち方です。</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">%1$s向き</string>
+    <string name="walk_photo_up">上向き %1$d°</string>
+    <string name="walk_photo_down">下向き %1$d°</string>
+    <string name="walk_photo_level">水平</string>
+    <string name="walk_photo_portrait">縦向き</string>
+    <string name="walk_photo_landscape">横向き</string>
+    <string name="walk_photo_upside_down">逆さま</string>
+    <string name="walk_photo_no_direction">方角不明</string>
+    <string name="walk_photo_spoken">写真 %1$d：%2$s</string>
+    <string name="walk_photo_delete">%1$d枚目の写真を削除</string>
+    <string name="walk_photo_delete_body">写真は端末から完全に消えます。撮影した散歩の記録は残ります。</string>
+    <string-array name="walk_compass_points">
+        <item>北</item>
+        <item>北東</item>
+        <item>東</item>
+        <item>南東</item>
+        <item>南</item>
+        <item>南西</item>
+        <item>西</item>
+        <item>北西</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>北</item>
+        <item>北東</item>
+        <item>東</item>
+        <item>南東</item>
+        <item>南</item>
+        <item>南西</item>
+        <item>西</item>
+        <item>北西</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">薬の写真を撮る</string>
+    <string name="med_photo_of">薬「%1$s」の写真</string>
+    <string name="med_photo_unnamed">薬の写真</string>
+    <string name="med_photo_retake">撮り直す</string>
+    <string name="med_photo_remove">写真を削除</string>
+    <string name="med_photo_open">フルサイズで開く</string>
+    <string name="med_delete_body_photo">予定と写真は消えますが、記録済みの服薬は日誌に残ります。</string>
+</resources>

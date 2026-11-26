@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">安静時心拍数</string>
+    <string name="health_rationale_purpose_recovery">読み取りのみ。バイタル画面に専用のカードとして表示され、それぞれの横にその前 4 週間のふだんの値を示します。測るのは腕時計や指輪型デバイスで、たいていは夜間です。このアプリは自分では計算せず、何も書き戻しません。</string>
+    <string name="vitals_note_resting_measured">安静時、たいていは夜間に腕時計や指輪型デバイスが測定し、Health Connect または書き出したファイルから読み込んだ値です。日中に測る脈拍より低いのが普通です。</string>
+    <string name="vitals_note_baseline">ふだんの値は、最新の測定より前の 28 日間のご自身の測定の中央値で、5 回以上必要です。ご自身との比較であり、判定ではありません。</string>
+    <string name="vitals_baseline_above">最新はふだんより %1$d %2$s 高い</string>
+    <string name="vitals_baseline_below">最新はふだんより %1$d %2$s 低い</string>
+    <string name="vitals_baseline_same">最新はふだんどおり</string>
+    <plurals name="vitals_baseline">
+        <item quantity="other">ふだんの値: %1$s %2$s（その前 4 週間の %3$d 回の中央値）</item>
+    </plurals>
+</resources>

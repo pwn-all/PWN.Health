@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>젖산 파티</item>
+        <item>노을 산책</item>
+        <item>오르막 사냥꾼</item>
+        <item>커피 사러 가는 길</item>
+        <item>보도블록 위의 시</item>
+        <item>도심 사파리</item>
+        <item>맑은 공기 마시러</item>
+        <item>럭셔리 우회 코스</item>
+        <item>물웅덩이 탐사대</item>
+        <item>골든아워 한 바퀴</item>
+        <item>걷기 에너지 풀충전</item>
+        <item>산들바람 추격자</item>
+        <item>골목길 대서사시</item>
+        <item>킬로미터 먹방</item>
+        <item>구름 구경꾼</item>
+        <item>경치 맛집 탐방</item>
+        <item>작은 모험</item>
+        <item>엔도르핀 심부름</item>
+        <item>벤치 감별사</item>
+        <item>어깨 펴고 출발</item>
+        <item>일부러 먼 길로</item>
+        <item>발길 닿는 대로</item>
+        <item>조용한 길을 따라</item>
+        <item>오늘은 하체 데이</item>
+        <item>방랑 모드</item>
+        <item>머리 비우는 산책</item>
+        <item>발걸음 교향곡</item>
+        <item>빠른 걸음 영업 중</item>
+        <item>간식 포인트 적립</item>
+        <item>비둘기 퍼레이드</item>
+        <item>지름길은 안 믿어</item>
+        <item>승리의 세리머니</item>
+        <item>나를 찾는 걸음</item>
+        <item>안녕, 바깥 공기</item>
+        <item>주말 마실</item>
+        <item>미니 원정대</item>
+        <item>새벽 순찰</item>
+        <item>유산소 크루즈</item>
+        <item>지도에 낙서하기</item>
+        <item>생각하며 걷기</item>
+    </string-array>
+</resources>

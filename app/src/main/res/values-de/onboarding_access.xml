@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Wähle die gewünschten Funktionen. Jede öffnet die Android-Berechtigungen. Du kannst ohne Zugriff fortfahren und ihn später ändern. Danach folgt Health Connect.</string>
+    <string name="onboarding_access_body_alone">Wähle die gewünschten Funktionen. Jede öffnet die Android-Berechtigungen. Du kannst ohne Zugriff fortfahren und ihn später ändern.</string>
+    <string name="onboarding_motion_title">Schritte und Bewegungssensoren</string>
+    <string name="onboarding_motion_body">Körperliche Aktivität aktiviert den Schrittzähler. Bewegungs- und Luftdrucksensoren benötigen keine eigene Berechtigung.</string>
+    <string name="onboarding_notifications_title">Benachrichtigungen und Erinnerungen</string>
+    <string name="onboarding_notifications_body">Schrittzählerstatus und Erinnerungen an Medikamente, Essen und Wasser anzeigen.</string>
+    <string name="onboarding_allowed">Erlaubt</string>
+    <string name="onboarding_bluetooth_body">Waagen und Sensoren in der Nähe finden und über Bluetooth verbinden.</string>
+</resources>

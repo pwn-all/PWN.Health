@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_apps_title">从其他应用导入</string>
+    <string name="import_apps_menu_body">Health Connect，以及 Apple Health、Fitbit、Garmin、Strong 等导出的文件</string>
+</resources>

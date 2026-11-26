@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">運動の概要</string>
+    <string name="routines_import">運動ファイルを読み込む</string>
+    <string name="routines_import_error">このファイルは運動テンプレートではありません。</string>
+    <string name="routines_import_cut">ファイルの種目数（%2$d）がテンプレートに入る数（%1$d）を超えています。最初の分だけを読み込みました。</string>
+    <string name="routines_description">短い説明</string>
+    <string name="routines_photo">テンプレートの写真</string>
+    <string name="routines_days_title">運動する曜日</string>
+    <string name="routines_flow_title">種目と休憩</string>
+    <string name="routines_flow_lead">種目かスーパーセットを追加し、その間の休憩を決めてください。</string>
+    <string name="routines_add_superset">スーパーセットを追加</string>
+    <string name="routines_saved_title">テンプレートを保存しました</string>
+    <string name="routines_open_template">テンプレートを開く</string>
+    <string name="routines_add_another">別のテンプレートを追加</string>
+    <string name="routines_get_ready">準備してください</string>
+    <string name="routines_finished">運動が完了しました</string>
+    <string name="routines_reminder_title">今日は運動の日</string>
+    <string name="routines_total_time">合計時間</string>
+    <string name="routines_total_lifted">合計挙上重量</string>
+    <string name="routines_total_work">運動時間</string>
+    <string name="routines_burn">消費カロリーの目安</string>
+    <string name="routines_plan_title">運動プラン</string>
+    <plurals name="routines_exercises">
+        <item quantity="other">%1$d 種目</item>
+    </plurals>
+    <string name="routines_menu">テンプレートの操作</string>
+    <string name="routines_overall">全体の進み具合</string>
+    <string name="routines_left">残り</string>
+    <string name="routines_set">セット</string>
+    <string name="routines_set_number">%1$dセット目</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d / %2$d</string>
+    <string name="routines_rest_after">その後の休憩</string>
+    <string name="routines_previous">前へ</string>
+    <string name="routines_finish">終了</string>
+    <string name="routines_leave_title">運動をやめますか？</string>
+    <string name="routines_leave_body">ここまでの内容は保存されません。保存するには「終了」をタップしてください。</string>
+    <string name="routines_pick_title">エクササイズを選択</string>
+    <string name="routines_pick_lead">必要なエクササイズを探す</string>
+    <string name="routines_setup_lead">エクササイズの設定</string>
+    <string name="routines_sets_count">セット数</string>
+    <string name="routines_sets_count_lead">このエクササイズを行う回数を選択</string>
+    <string name="routines_not_done">未実施</string>
+    <string name="routines_done_of">%1$s / %2$s</string>
+    <string name="routines_pick_empty">該当するエクササイズはありません</string>
+    <string name="routines_set_done_question">セットを完了できましたか？</string>
+    <string name="routines_reps_done_question">何回できましたか？</string>
+    <string name="routines_goal_missed">目標未達成</string>
+    <string name="routines_freestyle_body">プランなし：エクササイズはその場で選びます</string>
+    <string name="routines_show_muscles">使われる筋肉を表示</string>
+    <string name="routines_show_drawing">運動のイラストを表示</string>
+</resources>

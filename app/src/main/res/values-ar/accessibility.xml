@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">الشهر السابق</string>
+    <string name="m3_cal_next_month">الشهر التالي</string>
+    <string name="m3_cal_previous_year">السنة السابقة</string>
+    <string name="m3_cal_next_year">السنة التالية</string>
+    <string name="m3_cal_period_ended">انتهى %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="zero">%1$d أسبوع</item>
+        <item quantity="one">%1$d أسبوع</item>
+        <item quantity="two">%1$d أسبوعان</item>
+        <item quantity="few">%1$d أسابيع</item>
+        <item quantity="many">%1$d أسبوعًا</item>
+        <item quantity="other">%1$d أسبوع</item>
+    </plurals>
+    <string name="a11y_state_expanded">موسَّع</string>
+    <string name="a11y_state_collapsed">مطويّ</string>
+    <string name="a11y_hours">الساعات</string>
+    <string name="a11y_minutes">الدقائق</string>
+    <string name="a11y_seconds">الثواني</string>
+    <string name="a11y_zoom_in">تكبير</string>
+    <string name="a11y_zoom_out">تصغير</string>
+    <string name="m3_editor_attachment_kind">نوع المستند</string>
+    <string name="m3_editor_attachment_describe">وصف %1$s</string>
+    <string name="m3_editor_attachment_remove">إزالة %1$s</string>
+    <string name="m3_editor_attachment_read_result">إضافة نتيجة من %1$s</string>
+    <string name="m3_editor_energy_share">النسبة من هدف الطاقة لهذا اليوم</string>
+    <string name="bathroom_kind_previous">النوع السابق</string>
+    <string name="bathroom_kind_next">النوع التالي</string>
+    <string name="smoking_bowl_smaller">رأس أصغر</string>
+    <string name="smoking_bowl_larger">رأس أكبر</string>
+    <string name="smoking_less_nicotine">نيكوتين أقل</string>
+    <string name="smoking_more_nicotine">نيكوتين أكثر</string>
+    <string name="progress_photo_delete_dated">حذف صورة بتاريخ %1$s</string>
+    <string name="home_notice_dismiss">تجاهل «%1$s»</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">البطاقة %1$d من %2$d</string>
+    <string name="home_chart_busiest">%1$s: أنشط ساعة %2$s، %3$s</string>
+    <string name="m3_labs_import_reopen">عرض الصفحات المقروءة</string>
+    <string name="m3_labs_open_chart">فتح الرسم البياني</string>
+    <string name="m3_labs_chart_sideways">تدوير الرسم البياني أفقيًا</string>
+    <string name="m3_labs_chart_earlier">قراءات أقدم</string>
+    <string name="m3_labs_chart_later">قراءات أحدث</string>
+    <string name="med_a11y_mark_dose">تعليم %1$s، %2$s</string>
+    <string name="med_a11y_undo_dose">التراجع عن %1$s، %2$s</string>
+    <string name="med_a11y_edit_course">تعديل %1$s</string>
+    <string name="med_a11y_delete_course">حذف %1$s</string>
+    <string name="med_history_current">الحالي</string>
+    <string name="m3_pain_time_left">بقي %1$s</string>
+    <string name="m3_pain_remove_area">إزالة</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">الخطوة %1$d من %2$d</string>
+    <string name="m3_profile_advice_level_clinician">يستحق أن تناقشه مع طبيب</string>
+    <string name="m3_profile_advice_level_attention">يستحق المتابعة</string>
+    <string name="m3_profile_advice_level_habit">عادة تستحق النظر فيها</string>
+    <string name="m3_profile_password_mismatch">كلمتا المرور غير متطابقتين</string>
+    <string name="m3_profile_password_show">إظهار كلمة المرور</string>
+    <string name="m3_profile_password_hide">إخفاء كلمة المرور</string>
+    <string name="m3_sync_connected">تم الاتصال بـ %1$s.</string>
+    <string name="m3_sync_disconnected">انقطع الاتصال بـ %1$s.</string>
+    <string name="m3_sync_error_scan">تعذّر بدء البحث. انتظر قليلًا ثم ابحث مرة أخرى.</string>
+    <string name="m3_sync_error_pairing">لم يكتمل الإقران. اقبل طلب الإقران ثم اتصل مرة أخرى.</string>
+    <string name="m3_sync_error_stale_bond">لم يعد إقران هذا الهاتف بالجهاز صالحًا. ألغِ إقران الجهاز من إعدادات البلوتوث في أندرويد، ثم اتصل مرة أخرى واقبل طلب الإقران.</string>
+    <string name="m3_sync_error_no_answer">لم يستجب الجهاز. أيقظه وأبقِه قريبًا منك، ثم اتصل مرة أخرى.</string>
+    <string name="m3_sync_error_generic">تعذّر الاتصال بالجهاز. حاول مرة أخرى.</string>
+    <string name="m3_sync_no_skin_contact">يشير الحزام إلى عدم ملامسة الجلد. رطّب الأقطاب الكهربائية وأحكم ربطه.</string>
+    <string name="m3_sync_reading_incomplete">لم يرسل الجهاز قراءة كاملة، لذا لا يمكن حفظها.</string>
+    <string name="m3_sync_connect_named">اتصل بـ %1$s</string>
+    <string name="m3_sync_firmware">البرنامج الثابت %1$s</string>
+    <string name="m3_sync_scale_clock_unset">بتاريخ الاستلام: لم تُضبط ساعة الميزان</string>
+    <string name="m3_sync_health_running">جارٍ التبادل مع Health Connect على هذا الهاتف…</string>
+    <string name="m3_sync_failed_permission">رفض Health Connect الوصول؛ تحقّق مما هو مسموح.</string>
+    <string name="m3_sync_failed_unavailable">لم يستجب Health Connect على هذا الهاتف.</string>
+    <string name="m3_sync_failed_rate_limited">طلب Health Connect التوقف مؤقتًا؛ سيعيد التطبيق المحاولة لاحقًا.</string>
+    <string name="m3_sync_failed_other">أعاد Health Connect خطأً.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s، يوم عطلة معتاد</string>
+    <string name="m3_work_sensor_unclassified">غير مصنَّف</string>
+    <string name="m3_work_motion_still">ساكن</string>
+    <string name="m3_work_motion_shaking">يهتز</string>
+    <string name="m3_work_motion_non_gait">يتحرك دون خطوات</string>
+    <string name="m3_work_posture_in_hand">في اليد</string>
+    <string name="m3_work_posture_pocket">في جيب</string>
+    <string name="m3_work_posture_flat">موضوع أفقيًا</string>
+    <string name="workout_rest_change">تغيير مدة الراحة</string>
+    <string name="workout_delete_round">حذف الجولة %1$d</string>
+    <string name="workout_complete_title">اكتمل التمرين</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d واط</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d دورة/د</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d ضربة/د</string>
+</resources>

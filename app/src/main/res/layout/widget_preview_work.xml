@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Preview and first frame: the idle face, Start ready and Stop dimmed, as the widget is placed. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:ignore="Overdraw">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="6dp"
+        android:padding="12dp"
+        android:contentDescription="@string/work_start"
+        android:src="@drawable/ic_work_play"
+        android:tint="?android:attr/textColorPrimary" />
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="6dp"
+        android:padding="12dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_work_stop"
+        android:tint="?android:attr/textColorSecondary" />
+</LinearLayout>

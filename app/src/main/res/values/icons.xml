@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The colours the drawn icons are painted with, and the only reason this file and its night twin
+  exist: these are the default palettes for Android drawables. In the app, themePainterResource
+  replaces these inks with the user's saved icon colours while preserving the vector geometry.
+
+  `art_ink` is the line set's one stroke colour. The three `art_duo_*` are the drawn set's
+  lightest details, mid tone and darkest tone. Each of these four, here and in the night twin, is
+  the default ThemePalette icon colour for its role (ICON, ICON_MID, ICON_LIGHT), because the home
+  screen widgets cannot recolour a drawable and paint these resources as they are: were the two to
+  differ, an ink the app darkens for contrast would stay pale on every widget.
+  WidgetIconInkTest holds them together and checks the two figure tones against the widget grounds.
+  The three duotone values must stay distinct within each set, since themePainterResource finds
+  each role by its colour; the line ink may equal the dark tone, as both map to the icon colour.
+-->
+<resources>
+    <color name="art_ink">#FF5C677A</color>
+    <color name="art_duo_tile">#FFEDF2FD</color>
+    <color name="art_duo_mid">#FF727C8F</color>
+    <color name="art_duo_ink">#FF5C677A</color>
+
+    <!--
+      The doctor's report drawing: a white sheet with a medical badge and three bars, over soft
+      discs. Its colours are named here, with night twins, so it turns over with the theme like
+      every other drawing rather than leaving a white card glaring off a near-black page. The
+      night values hold the daylight relationships rather than lightening them: the bars
+      read 1.57:1 against the sheet by day and 1.59:1 by night, the badge 2.80:1 and 2.74:1, and
+      the sheet itself stands 11.43:1 clear of the night page.
+    -->
+    <color name="art_paper">#FFFFFFFF</color>
+    <color name="art_paper_disc">#FFEDF0F4</color>
+    <color name="art_paper_mark">#FF7094EE</color>
+    <color name="art_paper_bar">#FFC0CFF6</color>
+</resources>

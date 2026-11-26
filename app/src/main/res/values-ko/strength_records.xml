@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">기록</string>
+    <string name="strength_new_records">새 개인 기록</string>
+    <string name="strength_record_e1rm">추정 1회 최대 중량</string>
+    <string name="strength_record_heaviest">최고 중량</string>
+    <string name="strength_record_reps">한 세트 최다 반복</string>
+    <string name="strength_record_volume">한 번의 운동 최다 중량</string>
+    <string name="strength_record_was">%1$s · 이전 %2$s</string>
+    <string name="strength_e1rm_note">1회 수치는 12회 이하 세트로 Epley 공식에 따라 추정한 값입니다.</string>
+    <string name="strength_record_line">최고: %1$s · 1회 약 %2$s</string>
+    <string name="strength_record_line_reps">최고: 한 세트 %1$s</string>
+</resources>

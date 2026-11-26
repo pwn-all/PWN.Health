@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Лактатная вечеринка</item>
+        <item>Прогулка на закате</item>
+        <item>Покоритель холмов</item>
+        <item>Вылазка за кофе</item>
+        <item>Асфальтовая лирика</item>
+        <item>Городское сафари</item>
+        <item>Глоток свежего воздуха</item>
+        <item>Крюк класса люкс</item>
+        <item>Патруль по лужам</item>
+        <item>Круг в золотой час</item>
+        <item>Прогулка с размахом</item>
+        <item>В погоне за ветерком</item>
+        <item>Тротуарная сага</item>
+        <item>Пожиратель километров</item>
+        <item>Считая облака</item>
+        <item>Живописный маршрут</item>
+        <item>Маленькое приключение</item>
+        <item>Сходить за эндорфинами</item>
+        <item>Инспектор лавочек</item>
+        <item>Гордой походкой</item>
+        <item>Самой длинной дорогой</item>
+        <item>Куда ноги несут</item>
+        <item>Тихие километры</item>
+        <item>День ног без зала</item>
+        <item>Режим странника</item>
+        <item>Проветрить голову</item>
+        <item>Симфония шагов</item>
+        <item>Бодрым шагом</item>
+        <item>Нагулять аппетит</item>
+        <item>Голубиный парад</item>
+        <item>Короткие пути не для нас</item>
+        <item>Круг почёта</item>
+        <item>В поисках себя</item>
+        <item>Привет, улица</item>
+        <item>Променад выходного дня</item>
+        <item>Карманная экспедиция</item>
+        <item>Рассветный дозор</item>
+        <item>Неспешное кардио</item>
+        <item>Каракули на карте</item>
+        <item>Подумать на ходу</item>
+    </string-array>
+</resources>

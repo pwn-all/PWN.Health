@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Wróć, gdy dodasz więcej danych!</string>
+    <string name="intimate_charts_walking_title">Chodzenie a poranki</string>
+    <string name="intimate_charts_alcohol_title">Alkohol a poranki</string>
+    <string name="intimate_charts_legend_average">Twoja średnia</string>
+    <string name="intimate_charts_legend_night">Godziny snu na noc</string>
+    <string name="intimate_charts_legend_steps">Kroki dziennie</string>
+    <string name="intimate_charts_legend_drinks">Porcje standardowe na tydzień</string>
+    <string name="intimate_charts_pair_note">Słupki rosną od dołu, jeden na tydzień. Linia to odsetek poranków z erekcją pełną lub częściową w tym samym tygodniu na tle Twojej własnej średniej z tych tygodni: nad linią środkową, gdy był wyższy, pod nią, gdy był niższy. Pokazują to, co zapisano w tych samych tygodniach, a nie przyczyny i skutki.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Tydzień się liczy, gdy ma co najmniej %1$d poranek z odpowiedzią; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+        <item quantity="few">Tydzień się liczy, gdy ma co najmniej %1$d poranki z odpowiedzią; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+        <item quantity="many">Tydzień się liczy, gdy ma co najmniej %1$d poranków z odpowiedzią; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+        <item quantity="other">Tydzień się liczy, gdy ma co najmniej %1$d poranka z odpowiedzią; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">Słupek tygodnia to średnia z dni z wartością i wymaga %1$d takiego dnia; tydzień z mniejszą liczbą nie ma słupka.</item>
+        <item quantity="few">Słupek tygodnia to średnia z dni z wartością i wymaga %1$d takich dni; tydzień z mniejszą liczbą nie ma słupka.</item>
+        <item quantity="many">Słupek tygodnia to średnia z dni z wartością i wymaga %1$d takich dni; tydzień z mniejszą liczbą nie ma słupka.</item>
+        <item quantity="other">Słupek tygodnia to średnia z dni z wartością i wymaga %1$d takiego dnia; tydzień z mniejszą liczbą nie ma słupka.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">Wykres pojawi się, gdy dane wystarczą na %1$d tydzień.</item>
+        <item quantity="few">Wykres pojawi się, gdy dane wystarczą na %1$d tygodnie.</item>
+        <item quantity="many">Wykres pojawi się, gdy dane wystarczą na %1$d tygodni.</item>
+        <item quantity="other">Wykres pojawi się, gdy dane wystarczą na %1$d tygodnia.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Jedna porcja standardowa to %1$s czystego alkoholu. Dla alkoholu dzień z wartością to dzień, w którym cokolwiek wpisano ręcznie, a średnią przeliczono na siedem dni: dzień bez wpisu to nie dzień bez alkoholu.</string>
+    <string name="intimate_charts_acts_note">Akty w każdym tygodniu: stosunki i masturbacja. Tydzień bez żadnego Twojego wpisu przerywa obie linie: to nie jest tydzień bez aktów.</string>
+    <string name="intimate_charts_desire_note">Kropka na linii: tydzień, w którym przy tym rodzaju aktu zaznaczono „%1$s”.</string>
+    <string name="intimate_charts_erection_note">Kreska na linii: tydzień, w którym przy tym rodzaju aktu zaznaczono „%1$s”.</string>
+    <string name="intimate_charts_acts_mornings_note">Poranki mają własne wykresy: to jedna odpowiedź dziennie z osobnego pytania, a nie liczba aktów, a narysowane na tych osiach wyglądałyby na ich skutek.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, tydzień po tygodniu przez ostatni %2$d tydzień. %3$s</item>
+        <item quantity="few">%1$s, tydzień po tygodniu przez ostatnie %2$d tygodnie. %3$s</item>
+        <item quantity="many">%1$s, tydzień po tygodniu przez ostatnie %2$d tygodni. %3$s</item>
+        <item quantity="other">%1$s, tydzień po tygodniu przez ostatnie %2$d tygodnia. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Tydzień do %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">brak wartości</string>
+    <string name="intimate_charts_spoken_gap">za mało poranków z odpowiedzią</string>
+    <string name="intimate_charts_spoken_above">poranki powyżej Twojej średniej</string>
+    <string name="intimate_charts_spoken_below">poranki poniżej Twojej średniej</string>
+    <string name="intimate_charts_spoken_at">poranki na poziomie Twojej średniej</string>
+    <string name="intimate_charts_spoken_acts">stosunki %1$s, masturbacja %2$s</string>
+</resources>

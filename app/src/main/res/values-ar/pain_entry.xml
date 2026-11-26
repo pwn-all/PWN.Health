@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">قبل أسبوع تقريبًا</string>
+    <string name="pain_onset_about_month">قبل شهر تقريبًا</string>
+    <string name="pain_onset_more_than_month">قبل أكثر من شهر</string>
+    <string name="pain_area_search">ابحث عن موضع</string>
+    <string name="pain_area_search_empty">لا يوجد موضع بهذا الاسم</string>
+    <string name="pain_save_needs_area">للحفظ، حدِّد مكان الألم</string>
+    <string name="pain_save_needs_answer">لم تتم الإجابة بعد: %1$s</string>
+</resources>

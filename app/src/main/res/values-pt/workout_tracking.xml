@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Outros treinos</string>
+    <string name="routines_other_workouts_body">Só por tempo: dança, basquetebol, futebol, pilates e mais</string>
+    <string name="routines_indoors">No interior</string>
+    <string name="routines_indoors_body">Contam-se os passos e o tempo</string>
+    <string name="routines_outdoors">Ao ar livre</string>
+    <string name="routines_outdoors_body">Abre “Caminhada / Percurso” para registar o trajeto no mapa</string>
+    <string name="track_tracked">Contado</string>
+    <string name="track_burned">Gasto aproximado</string>
+    <string name="track_count_question">Contámos bem?</string>
+    <string name="track_count_fix">Corrija a contagem</string>
+    <string name="track_count_interrupted">Contagem interrompida — insira à mão</string>
+    <string name="track_phone_title">Onde fica o telemóvel</string>
+    <string name="track_phone_pocket">No bolso das calças ou à cintura — conta cada aterragem.</string>
+    <string name="track_phone_lift">No bolso das calças — conta cada repetição em cima, onde o corpo abranda.</string>
+    <string name="track_phone_thigh">No bolso da frente das calças, sobre a coxa — conta a inclinação da coxa em cada repetição.</string>
+    <string name="track_phone_arm">Numa braçadeira desportiva no braço — conta a inclinação do braço em cada repetição.</string>
+    <string name="track_phone_steps">No bolso ou na mão — o pedómetro conta os passos.</string>
+    <string name="track_phone_stairs">No bolso ou na mão — o pedómetro conta os passos e o barómetro, os pisos.</string>
+    <string name="track_unit_jumps">saltos</string>
+    <string name="track_unit_floors">pisos</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d salto</item>
+        <item quantity="many">%1$d de saltos</item>
+        <item quantity="other">%1$d saltos</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d passo</item>
+        <item quantity="many">%1$d de passos</item>
+        <item quantity="other">%1$d passos</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d piso</item>
+        <item quantity="many">%1$d de pisos</item>
+        <item quantity="other">%1$d pisos</item>
+    </plurals>
+</resources>

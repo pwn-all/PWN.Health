@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Detak jantung istirahat</string>
+    <string name="health_rationale_purpose_recovery">Hanya dibaca. Ditampilkan di layar tanda vital sebagai kartu tersendiri, masing-masing di samping nilai biasa Anda selama empat minggu sebelumnya. Jam tangan atau cincin yang mengukurnya, biasanya di malam hari; aplikasi ini tidak menghitungnya sendiri dan tidak menulis apa pun kembali.</string>
+    <string name="vitals_note_resting_measured">Diukur oleh jam tangan atau cincin saat Anda beristirahat, biasanya di malam hari, dan dibaca dari Health Connect atau berkas hasil ekspor. Wajar bila lebih rendah daripada denyut yang diukur siang hari.</string>
+    <string name="vitals_note_baseline">Nilai biasa Anda adalah median pengukuran Anda sendiri dalam 28 hari sebelum pengukuran terakhir, dan butuh setidaknya lima. Ini membandingkan Anda dengan diri sendiri, bukan vonis.</string>
+    <string name="vitals_baseline_above">Terakhir %1$d %2$s di atas biasanya</string>
+    <string name="vitals_baseline_below">Terakhir %1$d %2$s di bawah biasanya</string>
+    <string name="vitals_baseline_same">Terakhir sama dengan biasanya</string>
+    <plurals name="vitals_baseline">
+        <item quantity="other">Biasanya: %1$s %2$s, median dari %3$d pengukuran dalam 4 minggu sebelumnya</item>
+    </plurals>
+</resources>

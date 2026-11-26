@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Godziny pracy w tygodniu</string>
+    <string name="work_charts_legend_median">Twoja mediana</string>
+    <string name="work_charts_gap_note">Tydzień nieuwzględniony nie ma słupka: to nie jest tydzień bez pracy.</string>
+    <string name="work_charts_other_days">Inne dni pracy</string>
+    <string name="work_charts_days_off">Dni wolne</string>
+    <string name="work_charts_pair_note">Słupki to godziny pracy, jeden na każdy uwzględniony tydzień. Linia to wskaźnik podany pod wykresem w tym samym tygodniu na tle Twojej własnej średniej, czyli średniej z tygodni, które mają punkt: nad linią środkową, gdy był wyższy, pod nią, gdy był niższy. Pokazują to, co zapisano w tych samych tygodniach, a nie przyczyny i skutki.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Punkt tygodnia wymaga %1$d dnia z wartością; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+        <item quantity="few">Punkt tygodnia wymaga %1$d dni z wartością; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+        <item quantity="many">Punkt tygodnia wymaga %1$d dni z wartością; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+        <item quantity="other">Punkt tygodnia wymaga %1$d dnia z wartością; tydzień z mniejszą liczbą zostawia przerwę w linii, nigdy zero.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: powyżej Twojej średniej</string>
+    <string name="work_charts_spoken_below">%1$s: poniżej Twojej średniej</string>
+    <string name="work_charts_spoken_at">%1$s: na poziomie Twojej średniej</string>
+    <string name="work_charts_spoken_gap">%1$s: za mało dni z danymi</string>
+</resources>

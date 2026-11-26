@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Jam kerja per minggu</string>
+    <string name="work_charts_legend_median">Median Anda</string>
+    <string name="work_charts_gap_note">Minggu yang tidak dihitung tidak memiliki batang: itu bukan minggu tanpa kerja.</string>
+    <string name="work_charts_other_days">Hari kerja lain</string>
+    <string name="work_charts_days_off">Hari libur</string>
+    <string name="work_charts_pair_note">Batang menunjukkan jam kerja, satu untuk setiap minggu yang dihitung. Garis menunjukkan nilai yang disebutkan di bawah grafik untuk minggu yang sama, dibandingkan rerata Anda sendiri, yaitu rerata minggu yang memiliki titik: di atas garis tengah saat lebih tinggi, di bawahnya saat lebih rendah. Ini menunjukkan apa yang tercatat pada minggu yang sama, bukan sebab dan akibat.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="other">Titik satu minggu memerlukan %1$d hari dengan data; minggu dengan jumlah lebih sedikit meninggalkan celah pada garis, bukan nol.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: di atas rerata Anda</string>
+    <string name="work_charts_spoken_below">%1$s: di bawah rerata Anda</string>
+    <string name="work_charts_spoken_at">%1$s: setara rerata Anda</string>
+    <string name="work_charts_spoken_gap">%1$s: terlalu sedikit hari yang tercatat</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The walk page's chart: a two-way switch between the walk's elevation and its speed, and the
+         chart under it. A unit is printed once, small, above the figures up the chart's side. -->
+    <string name="walk_chart_elevation">Elevation</string>
+    <string name="walk_chart_speed">Speed</string>
+    <string name="walk_chart_no_elevation">Not enough elevation readings on this walk</string>
+    <string name="walk_chart_no_speed">Not enough speed readings on this walk</string>
+    <!-- Read out by a screen reader in place of the chart; each figure arrives with its unit. -->
+    <string name="walk_chart_spoken_elevation">Elevation from %1$s to %2$s</string>
+    <string name="walk_chart_spoken_speed">Speed: average %1$s, top %2$s</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">ft</string>
+    <string name="walk_chart_unit_kmh">km/h</string>
+    <string name="walk_chart_unit_mph">mph</string>
+</resources>

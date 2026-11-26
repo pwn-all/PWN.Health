@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Con i file</string>
+    <string name="report_archive_hint">Lo ZIP contiene il report in PDF e i file originali allegati alle visite effettuate, agli esami di laboratorio e alle terapie delle sezioni e del periodo selezionati: ecografie, radiografie, TC, RM, ecodoppler e altri documenti. L’elenco dei file collega ogni allegato alla sua registrazione e alla sua data.</string>
+    <string name="report_archive_preview">File originali allegati: %1$d. Lo ZIP contiene il PDF e questi file per intero.</string>
+    <string name="report_archive_index_header">File\tData della registrazione\tSezione\tRegistrazione\tTipo\tData dell’esame\tDescrizione</string>
+    <string name="report_archive_unavailable">Non è stato possibile leggere l’allegato %1$s. Ripristina l’accesso al file originale e ripeti l’esportazione.</string>
+    <string name="report_visits_patient_notes">Visite effettuate e note sui consulti, così come riferite dal paziente.</string>
+</resources>

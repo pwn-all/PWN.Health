@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Szczegóły</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Szczegóły</string>
+    <string name="track_signal_good">Dobry sygnał GPS</string>
+    <string name="track_signal_fair">Średni sygnał GPS</string>
+    <string name="track_signal_poor">Słaby sygnał GPS</string>
+    <string name="track_signal_searching">Wyszukiwanie sygnału GPS</string>
+    <string name="track_signal_location_off">Lokalizacja wyłączona</string>
+    <string name="track_signal_no_access">Brak dostępu do lokalizacji</string>
+    <string name="track_info_title">Sygnał i trasa</string>
+    <string name="track_signal_title">Sygnał GPS</string>
+    <string name="track_signal_note">Kreski pokazują, jak dokładnie telefon zna swoje położenie. Trzy kreski: dokładność %1$s lub lepsza. Dwie: do %2$s. Jedna: gorsza. Brak kresek: telefon od dziesięciu sekund nie ma pozycji i wciąż jej szuka. Ten ekran odczytuje położenie tylko wtedy, gdy jest otwarty, aby pokazać sygnał i to, gdzie jesteś.</string>
+    <string name="track_history_empty">Nie ma jeszcze zapisanych tras.</string>
+    <string name="track_map_here">Mapa wokół Twojego położenia</string>
+    <string name="track_map_waiting">Mapa świata. Twoje położenie nie jest jeszcze znane.</string>
+    <string name="track_map_follow_here">Wróć do swojego położenia</string>
+    <string name="track_pause">Wstrzymaj zapis</string>
+    <string name="track_resume">Wznów zapis</string>
+    <string name="track_value_paused">pauza</string>
+    <string name="track_value_ended">zakończony</string>
+    <string name="track_finish_title">Zakończyć spacer?</string>
+    <string name="track_finish_body">Zapis się zatrzyma, a spacer zostanie zapisany. Jeśli chcesz tylko zrobić przerwę, wstrzymaj zapis.</string>
+    <string name="track_finish">Zakończ</string>
+    <string name="track_keep_recording">Kontynuuj zapis</string>
+    <string name="track_finished">Spacer zakończony</string>
+</resources>

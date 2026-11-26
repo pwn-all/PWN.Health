@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Screen time: the feed apps' time and the eye and brain reminders (ScreenTime.kt). -->
+<resources>
+    <string name="screen_time_title">Screen time</string>
+    <string name="screen_time_add_body">Time in social apps, video, messengers and games, with eye and brain breaks</string>
+    <string name="screen_time_help">How long social and feed apps, video, messengers and games were on the screen today and this week, read from Android’s usage history. The eye and brain reminders watch the social and feed apps only, where hopping from one to another without a break counts as one sitting; the rest is only counted. Nothing is written to the journal and nothing leaves the phone.</string>
+    <string name="screen_time_channel">Screen time breaks</string>
+    <string name="screen_time_access_title">Usage access needed</string>
+    <string name="screen_time_access_body">Android tells an app how long other apps were open only with Usage access. The sleep estimate uses the same access.</string>
+    <string name="screen_time_access_button">Open Usage access</string>
+    <string name="screen_time_longest">Longest sitting without a break: %1$s</string>
+    <string name="screen_time_over">Over %1$s</string>
+    <string name="screen_time_week">Last 7 days</string>
+    <string name="screen_time_week_average">Average per day: %1$s</string>
+    <string name="screen_time_eyes_switch">Eye strain reminder</string>
+    <string name="screen_time_eyes_switch_body">After a long sitting in a feed without a break</string>
+    <string name="screen_time_brain_switch">Brain load warning</string>
+    <string name="screen_time_brain_switch_body">When the day’s total in these apps grows large</string>
+    <string name="screen_time_tips_title">Rest for the eyes and the head</string>
+    <string name="screen_time_tip_eyes">Every 20 minutes, look at something 6 metres away for 20 seconds.</string>
+    <string name="screen_time_tip_blink">Blink on purpose: the eyes blink far less while watching a screen and dry out.</string>
+    <string name="screen_time_tip_brain">An endless feed shifts attention every few seconds. A short walk or a few slow breaths let the brain settle.</string>
+    <string name="screen_time_tip_night">Put the phone away an hour before sleep: bright screens push sleep later.</string>
+    <string name="screen_time_breathing">Breathing break</string>
+    <string name="screen_time_eyes_title">Time to rest your eyes</string>
+    <string name="screen_time_eyes_body">%1$s for %2$d min without a break. Look at something far away for 20 seconds and blink a few times.</string>
+    <string name="screen_time_brain_title">Your brain needs a break</string>
+    <string name="screen_time_brain_body">%1$s in social and feed apps today. The endless feed tires attention: put the phone down for 10 minutes, walk or breathe slowly.</string>
+    <string name="screen_time_feeds_title">Social and feeds</string>
+    <string name="screen_time_video_title">Video and streaming</string>
+    <string name="screen_time_messengers_title">Messengers</string>
+    <string name="screen_time_games_title">Games</string>
+    <string name="screen_time_category_longest">Longest session: %1$s</string>
+    <string name="screen_time_category_week">Last 7 days: %1$s, %2$s a day on average</string>
+    <string name="screen_time_tracked_note">Only counted, no reminders.</string>
+    <string name="screen_time_none_today">Not opened today</string>
+</resources>

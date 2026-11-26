@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The 30 minutes is the platform floor. The count is today's, and the tap that resets it at midnight
+  is the one nobody makes, so without a period the widget shows yesterday's cigarettes until the
+  next one is lit.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_smoking_description"
+    android:initialLayout="@layout/widget_initial_smoking"
+    android:minWidth="110dp"
+    android:minHeight="55dp"
+    android:previewLayout="@layout/widget_preview_smoking"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

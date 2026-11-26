@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">Предыдущий месяц</string>
+    <string name="m3_cal_next_month">Следующий месяц</string>
+    <string name="m3_cal_previous_year">Предыдущий год</string>
+    <string name="m3_cal_next_year">Следующий год</string>
+    <string name="m3_cal_period_ended">Закончилась %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="one">%1$d неделя</item>
+        <item quantity="few">%1$d недели</item>
+        <item quantity="many">%1$d недель</item>
+        <item quantity="other">%1$d недели</item>
+    </plurals>
+    <string name="a11y_state_expanded">Развёрнуто</string>
+    <string name="a11y_state_collapsed">Свёрнуто</string>
+    <string name="a11y_hours">Часы</string>
+    <string name="a11y_minutes">Минуты</string>
+    <string name="a11y_seconds">Секунды</string>
+    <string name="a11y_zoom_in">Увеличить</string>
+    <string name="a11y_zoom_out">Уменьшить</string>
+    <string name="m3_editor_attachment_kind">Тип документа</string>
+    <string name="m3_editor_attachment_describe">Описать %1$s</string>
+    <string name="m3_editor_attachment_remove">Убрать %1$s</string>
+    <string name="m3_editor_attachment_read_result">Добавить результат из файла %1$s</string>
+    <string name="m3_editor_energy_share">Доля сегодняшней цели по энергии</string>
+    <string name="bathroom_kind_previous">Предыдущий тип</string>
+    <string name="bathroom_kind_next">Следующий тип</string>
+    <string name="smoking_bowl_smaller">Чаша поменьше</string>
+    <string name="smoking_bowl_larger">Чаша побольше</string>
+    <string name="smoking_less_nicotine">Меньше никотина</string>
+    <string name="smoking_more_nicotine">Больше никотина</string>
+    <string name="progress_photo_delete_dated">Удалить фото от %1$s</string>
+    <string name="home_notice_dismiss">Скрыть «%1$s»</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">Карточка %1$d из %2$d</string>
+    <string name="home_chart_busiest">%1$s: пиковый час %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">Показать распознанные страницы</string>
+    <string name="m3_labs_open_chart">Открыть график</string>
+    <string name="m3_labs_chart_sideways">Повернуть график горизонтально</string>
+    <string name="m3_labs_chart_earlier">Более ранние результаты</string>
+    <string name="m3_labs_chart_later">Более поздние результаты</string>
+    <string name="med_a11y_mark_dose">Отметить %1$s, %2$s</string>
+    <string name="med_a11y_undo_dose">Снять отметку: %1$s, %2$s</string>
+    <string name="med_a11y_edit_course">Изменить %1$s</string>
+    <string name="med_a11y_delete_course">Удалить %1$s</string>
+    <string name="med_history_current">Актуально</string>
+    <string name="m3_pain_time_left">Осталось %1$s</string>
+    <string name="m3_pain_remove_area">Убрать</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">Шаг %1$d из %2$d</string>
+    <string name="m3_profile_advice_level_clinician">Стоит обсудить с врачом</string>
+    <string name="m3_profile_advice_level_attention">Стоит понаблюдать</string>
+    <string name="m3_profile_advice_level_habit">Привычка, на которую стоит взглянуть</string>
+    <string name="m3_profile_password_mismatch">Пароли не совпадают</string>
+    <string name="m3_profile_password_show">Показать пароль</string>
+    <string name="m3_profile_password_hide">Скрыть пароль</string>
+    <string name="m3_sync_connected">Подключено: %1$s.</string>
+    <string name="m3_sync_disconnected">Отключено: %1$s.</string>
+    <string name="m3_sync_error_scan">Не удалось начать поиск. Подождите немного и повторите поиск.</string>
+    <string name="m3_sync_error_pairing">Сопряжение не завершилось. Примите запрос на сопряжение и подключитесь снова.</string>
+    <string name="m3_sync_error_stale_bond">Сопряжение этого телефона с устройством больше не действует. Отмените сопряжение с устройством в настройках Bluetooth Android, затем подключитесь снова и примите запрос на сопряжение.</string>
+    <string name="m3_sync_error_no_answer">Устройство не ответило. Разбудите его, держите поближе и подключитесь снова.</string>
+    <string name="m3_sync_error_generic">Не удалось подключиться к устройству. Попробуйте ещё раз.</string>
+    <string name="m3_sync_no_skin_contact">Нагрудный ремень не чувствует контакта с кожей. Смочите электроды и плотно застегните ремень.</string>
+    <string name="m3_sync_reading_incomplete">Устройство передало неполное измерение, поэтому его нельзя сохранить.</string>
+    <string name="m3_sync_connect_named">Подключить %1$s</string>
+    <string name="m3_sync_firmware">Прошивка %1$s</string>
+    <string name="m3_sync_scale_clock_unset">Дата по времени получения: часы весов не были выставлены</string>
+    <string name="m3_sync_health_running">Обмен данными с Health Connect на этом телефоне…</string>
+    <string name="m3_sync_failed_permission">Health Connect отказал в доступе; проверьте, что разрешено.</string>
+    <string name="m3_sync_failed_unavailable">Health Connect на этом телефоне не ответил.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect попросил сделать паузу; приложение повторит попытку позже.</string>
+    <string name="m3_sync_failed_other">Health Connect вернул ошибку.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, обычный выходной</string>
+    <string name="m3_work_sensor_unclassified">не определено</string>
+    <string name="m3_work_motion_still">покой</string>
+    <string name="m3_work_motion_shaking">тряска</string>
+    <string name="m3_work_motion_non_gait">движение без шагов</string>
+    <string name="m3_work_posture_in_hand">в руке</string>
+    <string name="m3_work_posture_pocket">в кармане</string>
+    <string name="m3_work_posture_flat">лежит горизонтально</string>
+    <string name="workout_rest_change">Изменить время отдыха</string>
+    <string name="workout_delete_round">Удалить круг %1$d</string>
+    <string name="workout_complete_title">Тренировка завершена</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d Вт</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d об/мин</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d гребк./мин</string>
+</resources>

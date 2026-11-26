@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Rincian</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Rincian</string>
+    <string name="track_signal_good">Sinyal GPS bagus</string>
+    <string name="track_signal_fair">Sinyal GPS cukup</string>
+    <string name="track_signal_poor">Sinyal GPS lemah</string>
+    <string name="track_signal_searching">Mencari sinyal GPS</string>
+    <string name="track_signal_location_off">Lokasi mati</string>
+    <string name="track_signal_no_access">Tidak ada akses lokasi</string>
+    <string name="track_info_title">Sinyal dan rute</string>
+    <string name="track_signal_title">Sinyal GPS</string>
+    <string name="track_signal_note">Batang sinyal menunjukkan seberapa akurat ponsel mengetahui lokasinya. Tiga batang: akurasi %1$s atau lebih baik. Dua: hingga %2$s. Satu: kurang akurat dari itu. Kosong: tidak ada lokasi selama sepuluh detik, sementara ponsel masih mencari. Layar ini hanya membaca lokasi selama dibuka, untuk menampilkan sinyal dan tempat Anda berada.</string>
+    <string name="track_history_empty">Belum ada rute tersimpan.</string>
+    <string name="track_map_here">Peta di sekitar lokasi Anda</string>
+    <string name="track_map_waiting">Peta dunia. Lokasi Anda belum diketahui.</string>
+    <string name="track_map_follow_here">Kembali ke lokasi Anda</string>
+    <string name="track_pause">Jeda perekaman</string>
+    <string name="track_resume">Lanjutkan perekaman</string>
+    <string name="track_value_paused">dijeda</string>
+    <string name="track_value_ended">selesai</string>
+    <string name="track_finish_title">Selesaikan rute ini?</string>
+    <string name="track_finish_body">Perekaman akan berhenti dan rute disimpan. Jika hanya ingin istirahat sebentar, gunakan tombol Jeda.</string>
+    <string name="track_finish">Selesaikan</string>
+    <string name="track_keep_recording">Terus merekam</string>
+    <string name="track_finished">Rute selesai</string>
+</resources>

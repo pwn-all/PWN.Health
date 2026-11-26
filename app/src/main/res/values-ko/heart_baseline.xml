@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">안정 시 심박수</string>
+    <string name="health_rationale_purpose_recovery">읽기 전용입니다. 활력징후 화면에 별도 카드로 표시되며, 각 카드 옆에 이전 4주 동안의 평소 값이 함께 나옵니다. 시계나 반지가 주로 밤에 측정하며, 이 앱은 직접 계산하지 않고 아무것도 다시 기록하지 않습니다.</string>
+    <string name="vitals_note_resting_measured">쉬는 동안, 주로 밤에 시계나 반지가 측정해 Health Connect나 내보낸 파일에서 읽어 온 값입니다. 낮에 잰 맥박보다 낮은 것이 정상입니다.</string>
+    <string name="vitals_note_baseline">평소 값은 마지막 측정 전 28일 동안의 본인 측정값의 중앙값이며, 최소 다섯 번이 필요합니다. 본인과의 비교일 뿐 판정이 아닙니다.</string>
+    <string name="vitals_baseline_above">최근 값이 평소보다 %1$d %2$s 높음</string>
+    <string name="vitals_baseline_below">최근 값이 평소보다 %1$d %2$s 낮음</string>
+    <string name="vitals_baseline_same">최근 값이 평소와 같음</string>
+    <plurals name="vitals_baseline">
+        <item quantity="other">평소 값: %1$s %2$s, 이전 4주간 %3$d회 측정의 중앙값</item>
+    </plurals>
+</resources>

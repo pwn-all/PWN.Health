@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">直近 30 日間に塗った場所と、各部位が痛んだ日数</string>
+    <string name="pain_paint_hint">痛む場所を塗ってください。2 本指で広げるとズームできます。背中の痛みとひざの痛みは別々の記録です。</string>
+    <string name="pain_head_note">図は首から下です。頭痛の部位は「部位を追加」から選んでください。</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="other">描いた記録：%1$d 件。各印は本人が塗った場所に描かれ、記録が重なるところほど濃くなります。塗らずにリストから選んだ部位は描かれていません。</item>
+    </plurals>
+</resources>

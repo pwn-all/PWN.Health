@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">Önceki ay</string>
+    <string name="m3_cal_next_month">Sonraki ay</string>
+    <string name="m3_cal_previous_year">Önceki yıl</string>
+    <string name="m3_cal_next_year">Sonraki yıl</string>
+    <string name="m3_cal_period_ended">%1$s tarihinde bitti</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="one">%1$d hafta</item>
+        <item quantity="other">%1$d hafta</item>
+    </plurals>
+    <string name="a11y_state_expanded">Genişletildi</string>
+    <string name="a11y_state_collapsed">Daraltıldı</string>
+    <string name="a11y_hours">Saat</string>
+    <string name="a11y_minutes">Dakika</string>
+    <string name="a11y_seconds">Saniye</string>
+    <string name="a11y_zoom_in">Yakınlaştır</string>
+    <string name="a11y_zoom_out">Uzaklaştır</string>
+    <string name="m3_editor_attachment_kind">Belge türü</string>
+    <string name="m3_editor_attachment_describe">%1$s dosyasını tanımla</string>
+    <string name="m3_editor_attachment_remove">%1$s dosyasını kaldır</string>
+    <string name="m3_editor_attachment_read_result">%1$s dosyasından sonuç ekle</string>
+    <string name="m3_editor_energy_share">Bugünkü enerji hedefindeki payı</string>
+    <string name="bathroom_kind_previous">Önceki tür</string>
+    <string name="bathroom_kind_next">Sonraki tür</string>
+    <string name="smoking_bowl_smaller">Daha küçük lüle</string>
+    <string name="smoking_bowl_larger">Daha büyük lüle</string>
+    <string name="smoking_less_nicotine">Daha az nikotin</string>
+    <string name="smoking_more_nicotine">Daha fazla nikotin</string>
+    <string name="progress_photo_delete_dated">%1$s tarihli fotoğrafı sil</string>
+    <string name="home_notice_dismiss">“%1$s” bildirimini kapat</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">Kart %1$d / %2$d</string>
+    <string name="home_chart_busiest">%1$s: en yoğun saat %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">Tanınan sayfaları göster</string>
+    <string name="m3_labs_open_chart">Grafiği aç</string>
+    <string name="m3_labs_chart_sideways">Grafiği yan çevir</string>
+    <string name="m3_labs_chart_earlier">Önceki sonuçlar</string>
+    <string name="m3_labs_chart_later">Sonraki sonuçlar</string>
+    <string name="med_a11y_mark_dose">İşaretle: %1$s, %2$s</string>
+    <string name="med_a11y_undo_dose">İşareti geri al: %1$s, %2$s</string>
+    <string name="med_a11y_edit_course">%1$s kürünü düzenle</string>
+    <string name="med_a11y_delete_course">%1$s kürünü sil</string>
+    <string name="med_history_current">Güncel</string>
+    <string name="m3_pain_time_left">%1$s kaldı</string>
+    <string name="m3_pain_remove_area">Kaldır</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">Adım %1$d / %2$d</string>
+    <string name="m3_profile_advice_level_clinician">Hekime danışmaya değer</string>
+    <string name="m3_profile_advice_level_attention">Takipte tutmaya değer</string>
+    <string name="m3_profile_advice_level_habit">Gözden geçirilecek bir alışkanlık</string>
+    <string name="m3_profile_password_mismatch">Parolalar eşleşmiyor</string>
+    <string name="m3_profile_password_show">Parolayı göster</string>
+    <string name="m3_profile_password_hide">Parolayı gizle</string>
+    <string name="m3_sync_connected">%1$s cihazına bağlanıldı.</string>
+    <string name="m3_sync_disconnected">%1$s cihazıyla bağlantı kesildi.</string>
+    <string name="m3_sync_error_scan">Arama başlatılamadı. Biraz bekleyin, sonra yeniden arayın.</string>
+    <string name="m3_sync_error_pairing">Eşleştirme tamamlanmadı. Eşleştirme isteğini kabul edin, sonra yeniden bağlanın.</string>
+    <string name="m3_sync_error_stale_bond">Bu telefonun cihazla eşleştirmesi artık çalışmıyor. Android’in Bluetooth ayarlarında cihazın eşleştirmesini kaldırın, sonra yeniden bağlanın ve eşleştirme isteğini kabul edin.</string>
+    <string name="m3_sync_error_no_answer">Cihaz yanıt vermedi. Uyandırın, yakında tutun, sonra yeniden bağlanın.</string>
+    <string name="m3_sync_error_generic">Cihaza bağlanılamadı. Yeniden deneyin.</string>
+    <string name="m3_sync_no_skin_contact">Göğüs bandı cilt teması olmadığını bildiriyor. Elektrotları nemlendirin ve bandı sıkıca takın.</string>
+    <string name="m3_sync_reading_incomplete">Cihaz eksiksiz bir ölçüm göndermedi, bu yüzden kaydedilemez.</string>
+    <string name="m3_sync_connect_named">%1$s cihazına bağlan</string>
+    <string name="m3_sync_firmware">Ürün yazılımı %1$s</string>
+    <string name="m3_sync_scale_clock_unset">Alındığı ana göre tarihlendi: tartının saati ayarlanmamıştı</string>
+    <string name="m3_sync_health_running">Bu telefondaki Health Connect ile eşitleniyor…</string>
+    <string name="m3_sync_failed_permission">Health Connect erişimi reddetti; nelere izin verildiğini kontrol edin.</string>
+    <string name="m3_sync_failed_unavailable">Bu telefondaki Health Connect yanıt vermedi.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect ara verilmesini istedi; uygulama daha sonra yeniden deneyecek.</string>
+    <string name="m3_sync_failed_other">Health Connect bir hata döndürdü.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, olağan izin günü</string>
+    <string name="m3_work_sensor_unclassified">sınıflandırılmadı</string>
+    <string name="m3_work_motion_still">hareketsiz</string>
+    <string name="m3_work_motion_shaking">sarsılıyor</string>
+    <string name="m3_work_motion_non_gait">adım atmadan hareket ediyor</string>
+    <string name="m3_work_posture_in_hand">elde</string>
+    <string name="m3_work_posture_pocket">cepte</string>
+    <string name="m3_work_posture_flat">düz yatıyor</string>
+    <string name="workout_rest_change">Dinlenmeyi değiştir</string>
+    <string name="workout_delete_round">%1$d. turu sil</string>
+    <string name="workout_complete_title">Antrenman tamamlandı</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d dev/dk</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d çekiş/dk</string>
+</resources>

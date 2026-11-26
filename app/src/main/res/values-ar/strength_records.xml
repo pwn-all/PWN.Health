@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">رقم قياسي</string>
+    <string name="strength_new_records">أرقام قياسية شخصية جديدة</string>
+    <string name="strength_record_e1rm">الحد الأقصى المقدَّر لتكرار واحد</string>
+    <string name="strength_record_heaviest">أثقل وزن</string>
+    <string name="strength_record_reps">أكثر تكرارات في مجموعة</string>
+    <string name="strength_record_volume">أكبر وزن في جلسة واحدة</string>
+    <string name="strength_record_was">%1$s · سابقًا %2$s</string>
+    <string name="strength_e1rm_note">رقم التكرار الواحد تقدير بمعادلة إيبلي من مجموعات حتى 12 تكرارًا.</string>
+    <string name="strength_record_line">الأفضل: %1$s · نحو %2$s لتكرار واحد</string>
+    <string name="strength_record_line_reps">الأفضل: %1$s في مجموعة</string>
+</resources>

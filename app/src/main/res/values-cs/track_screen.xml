@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Podrobnosti</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Podrobnosti</string>
+    <string name="track_signal_good">Dobrý signál GPS</string>
+    <string name="track_signal_fair">Průměrný signál GPS</string>
+    <string name="track_signal_poor">Slabý signál GPS</string>
+    <string name="track_signal_searching">Hledání signálu GPS</string>
+    <string name="track_signal_location_off">Poloha je vypnutá</string>
+    <string name="track_signal_no_access">Chybí přístup k poloze</string>
+    <string name="track_info_title">Signál a trasa</string>
+    <string name="track_signal_title">Signál GPS</string>
+    <string name="track_signal_note">Čárky ukazují, jak přesně telefon ví, kde se nachází. Tři čárky: přesnost %1$s nebo lepší. Dvě: do %2$s. Jedna: horší. Žádná: telefon už deset sekund nemá polohu a stále ji hledá. Tato obrazovka zjišťuje polohu, jen když je otevřená, aby ukázala signál a místo, kde jste.</string>
+    <string name="track_history_empty">Zatím žádné uložené trasy.</string>
+    <string name="track_map_here">Mapa kolem vaší polohy</string>
+    <string name="track_map_waiting">Mapa světa. Vaše poloha zatím není známa.</string>
+    <string name="track_map_follow_here">Zpět na vaši polohu</string>
+    <string name="track_pause">Pozastavit záznam</string>
+    <string name="track_resume">Pokračovat v záznamu</string>
+    <string name="track_value_paused">pozastaveno</string>
+    <string name="track_value_ended">ukončeno</string>
+    <string name="track_finish_title">Ukončit procházku?</string>
+    <string name="track_finish_body">Záznam se zastaví a procházka se uloží. Pokud si chcete jen udělat přestávku, záznam pozastavte.</string>
+    <string name="track_finish">Ukončit</string>
+    <string name="track_keep_recording">Zaznamenávat dál</string>
+    <string name="track_finished">Procházka ukončena</string>
+</resources>

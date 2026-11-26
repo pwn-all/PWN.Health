@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">Histórico de dor</string>
+    <string name="pain_history_empty">Nenhum registro de dor ainda.</string>
+    <string name="pain_history_onset_just_now">começou no momento do registro</string>
+    <string name="pain_history_onset_earlier_today">começou no mesmo dia</string>
+    <string name="pain_history_onset_yesterday">começou no dia anterior</string>
+    <string name="pain_history_onset_days_2_3">começou 2–3 dias antes</string>
+    <string name="pain_history_onset_about_week">começou cerca de uma semana antes</string>
+    <string name="pain_history_onset_about_month">começou cerca de um mês antes</string>
+    <string name="pain_history_onset_more_than_month">começou mais de um mês antes</string>
+    <string name="pain_history_onset_week">começou de 4 dias a 3 meses antes</string>
+    <string name="pain_history_onset_months_3">começou mais de 3 meses antes</string>
+    <string name="pain_history_same">a mesma dor registrada em %1$s</string>
+    <string name="pain_history_still_hurts">ainda doía no momento do registro</string>
+    <string name="pain_history_lasted">durou %1$s</string>
+</resources>

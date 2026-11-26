@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">История боли</string>
+    <string name="pain_history_empty">Записей о боли пока нет.</string>
+    <string name="pain_history_onset_just_now">началась в момент записи</string>
+    <string name="pain_history_onset_earlier_today">началась в тот же день</string>
+    <string name="pain_history_onset_yesterday">началась накануне</string>
+    <string name="pain_history_onset_days_2_3">началась за 2–3 дня до записи</string>
+    <string name="pain_history_onset_about_week">началась примерно за неделю до записи</string>
+    <string name="pain_history_onset_about_month">началась примерно за месяц до записи</string>
+    <string name="pain_history_onset_more_than_month">началась больше чем за месяц до записи</string>
+    <string name="pain_history_onset_week">началась за 4 дня – 3 месяца до записи</string>
+    <string name="pain_history_onset_months_3">началась больше чем за 3 месяца до записи</string>
+    <string name="pain_history_same">та же боль, что в записи от %1$s</string>
+    <string name="pain_history_still_hurts">ещё болела в момент записи</string>
+    <string name="pain_history_lasted">длилась %1$s</string>
+</resources>

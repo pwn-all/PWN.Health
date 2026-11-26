@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Five faces, each a 48dp tap target as Android asks, are 240dp of row; the frame spends 10dp a
+  side, so the widget cannot be narrower than 260dp without cropping the face at the end. Height is
+  the question's 14.1dp over a 49.8dp row of faces inside the same 10dp frame — 83.8dp, declared as
+  85dp.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="260dp"
+    android:minHeight="85dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="1"
+    android:description="@string/widget_mood_description"
+    android:initialLayout="@layout/widget_preview_mood"
+    android:previewLayout="@layout/widget_preview_mood"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

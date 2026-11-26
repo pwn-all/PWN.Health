@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Cosa è stato colorato negli ultimi 30 giorni e per quanti giorni ha fatto male ogni zona</string>
+    <string name="pain_paint_hint">Colora dove fa male e allarga due dita per ingrandire. Mal di schiena e dolore al ginocchio sono due registrazioni distinte.</string>
+    <string name="pain_head_note">La figura parte dal collo: la zona di un mal di testa si sceglie in «Aggiungi zona».</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">%1$d registrazione disegnata. Ogni segno è disegnato dove la persona l’ha colorato, più scuro dove le registrazioni si sovrappongono. Le zone scelte da un elenco senza colorarle non sono disegnate.</item>
+        <item quantity="many">%1$d di registrazioni disegnate. Ogni segno è disegnato dove la persona l’ha colorato, più scuro dove le registrazioni si sovrappongono. Le zone scelte da un elenco senza colorarle non sono disegnate.</item>
+        <item quantity="other">%1$d registrazioni disegnate. Ogni segno è disegnato dove la persona l’ha colorato, più scuro dove le registrazioni si sovrappongono. Le zone scelte da un elenco senza colorarle non sono disegnate.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. التفاصيل</string>
+    <string name="track_signal_pill_accuracy">%1$s، %2$s. التفاصيل</string>
+    <string name="track_signal_good">إشارة GPS جيدة</string>
+    <string name="track_signal_fair">إشارة GPS متوسطة</string>
+    <string name="track_signal_poor">إشارة GPS ضعيفة</string>
+    <string name="track_signal_searching">جارٍ البحث عن إشارة GPS</string>
+    <string name="track_signal_location_off">الموقع مُطفأ</string>
+    <string name="track_signal_no_access">لا وصول إلى الموقع</string>
+    <string name="track_info_title">الإشارة والمسار</string>
+    <string name="track_signal_title">إشارة GPS</string>
+    <string name="track_signal_note">تُبيّن الأشرطة مدى دقة معرفة الهاتف بمكانه. ثلاثة أشرطة: بدقة %1$s أو أفضل. شريطان: بدقة حتى %2$s. شريط واحد: أقل دقة من ذلك. بلا أشرطة: لم يُحدَّد الموقع منذ عشر ثوانٍ، والهاتف ما زال يبحث. ولا تقرأ هذه الشاشة الموقع إلا ما دامت مفتوحة، لتعرض الإشارة ومكانك.</string>
+    <string name="track_history_empty">لا توجد مسارات محفوظة بعد.</string>
+    <string name="track_map_here">خريطة حول موقعك</string>
+    <string name="track_map_waiting">خريطة العالم. موقعك غير معروف بعد.</string>
+    <string name="track_map_follow_here">العودة إلى موقعك</string>
+    <string name="track_pause">أوقف التسجيل مؤقتًا</string>
+    <string name="track_resume">استأنف التسجيل</string>
+    <string name="track_value_paused">متوقف مؤقتًا</string>
+    <string name="track_value_ended">انتهت</string>
+    <string name="track_finish_title">إنهاء هذه الجولة؟</string>
+    <string name="track_finish_body">سيتوقف التسجيل وتُحفظ الجولة. ولأخذ استراحة بدلًا من ذلك، استخدم زر الإيقاف المؤقت.</string>
+    <string name="track_finish">إنهاء</string>
+    <string name="track_keep_recording">مواصلة التسجيل</string>
+    <string name="track_finished">انتهت الجولة</string>
+</resources>

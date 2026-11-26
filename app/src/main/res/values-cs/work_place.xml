@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Spuštění podle polohy</string>
+    <string name="work_place_help_what">Uložte místo, kde pracujete, a časovač práce se spustí, když tam bude váš telefon. Každá kontrola si vezme jednu polohu od vlastní služby určování polohy Androidu, porovná ji s uloženým bodem a zapomene ji. Bod se uloží jen z polohy přesné do 100 m. Uchovává se jen uložený bod, jeho poloměr a vaše záznamy práce, a to v tomto telefonu. Nic se nikam neodesílá.</string>
+    <string name="work_place_help_when">Kontroly probíhají každých 10 minut, a to jen v časovém okně každého pracovního dne. Okno se otevře, když se probudíte: koncem záznamu spánku nebo prvním použitím telefonu po noci, pokud aplikace vidí aspoň jedno z nich. První použití telefonu před %4$s se počítá od %4$s, ledaže záznam spánku ukazuje dřívější probuzení nebo vaše obvyklá pracovní doba začíná dřív. Pokud aplikace nevidí ani jedno, ráno začíná v %1$s. Pokud je vidí, ale probuzení ještě nezaznamenala, čeká nejdéle do %2$s. Jakmile poslední 4 týdny obsahují alespoň 3 záznamy začaté v pracovní dny, nepočítaje ty, které časovač zastavil sám, okno se otevírá hodinu před vaším obvyklým začátkem, nikdy však před probuzením, a zavírá se hodinu po vašem obvyklém konci. Do té doby se zavírá v %3$s. Ve volné dny se nekontroluje. Než se okno otevře, aplikace jen zjišťuje, zda jste vzhůru, a k tomu žádnou polohu nebere.</string>
+    <string name="work_place_help_leave">Pokud vás dvě kontroly po sobě nezastihnou na místě, záznam spuštěný aplikací se zastaví a skončí v čase poslední kontroly, která vás tam zastihla. Záznam, který jste spustili sami, se tímto způsobem nikdy nezastaví. Dokud běží záznam spuštěný aplikací, kontroly pokračují i po zavření okna, nejdéle do půlnoci.</string>
+    <string name="work_place_help_yours">Každé automatické spuštění a zastavení doprovází oznámení, ze kterého je můžete vrátit: spuštění do konce dne, pokud jste mezitím záznam sami nezměnili, a zastavení po dobu jedné hodiny, pokud časovač mezitím nebyl znovu spuštěn. Jakmile sami stisknete „Spustit“, „Pozastavit“, „Pokračovat“ nebo „Zastavit“, případně akci vrátíte, aplikace už ten den nic nespustí.</string>
+    <string name="work_place_help_access">K tomu musí Android povolit přesnou polohu po celou dobu a přesné budíky. Dokud je přepínač vypnutý, žádná poloha se pro tuto funkci nebere.</string>
+    <string name="work_place_save">Uložit místo, kde jsem teď</string>
+    <string name="work_place_locating">Určování vaší polohy…</string>
+    <string name="work_place_no_fix">Polohu se nepodařilo určit</string>
+    <string name="work_place_rough_fix">Poloha je příliš nepřesná. Zkuste to u okna</string>
+    <string name="work_place_point">Vaše pracoviště</string>
+    <string name="work_place_saved">Uloženo %1$s</string>
+    <string name="work_place_saved_within">Uloženo %1$s · s přesností do %2$d m</string>
+    <string name="work_place_move">Přesunout tam, kde jsem teď</string>
+    <string name="work_place_remove">Odebrat pracoviště</string>
+    <string name="work_place_radius">Na místě v okruhu</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Spouštět časovač, když dorazím na místo</string>
+    <string name="work_place_access_precise_title">Přesná poloha</string>
+    <string name="work_place_access_precise_body">Přibližná poloha má přesnost jen asi 1,6 km, což je víc než jakékoli pracoviště. Bod i kontroly potřebují přesnou polohu.</string>
+    <string name="work_place_access_background_title">Poloha po celou dobu</string>
+    <string name="work_place_access_background_body">PWN.Health používá vaši polohu na pozadí ke spuštění a zastavení časovače práce, když přijdete na pracoviště nebo z něj odejdete, i když je aplikace zavřená. Kontroluje každých 10 minut, jen mezi vaším ránem a večerem v pracovní dny, a polohy zůstávají v tomto telefonu. Na další obrazovce zvolte „Povolit pořád“.</string>
+    <string name="work_place_access_exact_title">Budíky a připomenutí</string>
+    <string name="work_place_access_exact_body">Zavřenou aplikaci může ke kontrole probudit jen přesný budík. Android toto oprávnění vede na své obrazovce „Budíky a připomenutí“.</string>
+    <string name="work_place_access_notifications_title">Oznámení</string>
+    <string name="work_place_access_notifications_body">Každé automatické spuštění a zastavení ohlásí oznámení s tlačítkem „Vrátit“ na kanálu „%1$s“. Bez tohoto oprávnění se časovač spouští a zastavuje stejně, ale nebude z čeho akci vrátit.</string>
+    <string name="work_place_next_today">Další kontrola dnes v %1$s</string>
+    <string name="work_place_next_tomorrow">Další kontrola zítra v %1$s</string>
+    <string name="work_place_next_day">Další kontrola: %1$s v %2$s</string>
+    <string name="work_place_next_none">Na nejbližší týden není naplánována žádná kontrola.</string>
+    <string name="work_place_started_title">Časovač práce spuštěn</string>
+    <string name="work_place_started_body">Telefon je na vašem pracovišti. Spuštěno v %1$s.</string>
+    <string name="work_place_stopped_title">Časovač práce zastaven</string>
+    <string name="work_place_stopped_body">Dvě kontroly po sobě vás nezastihly na pracovišti. Záznam končí v %1$s, při poslední kontrole, která vás tam zastihla.</string>
+    <string name="work_place_stopped_short">Dvě kontroly po sobě vás nezastihly na pracovišti a předtím vás tam zastihla jen jedna, takže se nic neuložilo.</string>
+    <string name="work_place_undo">Vrátit</string>
+    <string name="work_place_channel">Kontroly pracoviště</string>
+    <string name="work_place_notice_channel">Automatický časovač práce</string>
+    <string name="work_place_checking">Kontroluje se, zda jste v práci</string>
+</resources>

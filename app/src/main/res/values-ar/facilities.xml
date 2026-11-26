@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">أماكن قريبة مني</string>
+    <string name="facility_locating">جارٍ تحديد موقعك…</string>
+    <string name="facility_denied">لم يُسمح بالوصول إلى الموقع، لذا لا يمكن ترتيب القائمة حسب المسافة. لا يزال بإمكانك كتابة اسم.</string>
+    <string name="facility_location_off">خدمة الموقع مُطفأة على هذا الهاتف.</string>
+    <string name="facility_location_settings">إعدادات الموقع</string>
+    <string name="facility_no_fix">تعذّر على الهاتف تحديد موقعك الآن. حاول مرة أخرى بعد قليل.</string>
+    <string name="facility_nothing_near">لا يوجد في القائمة مكان ضمن %1$s منك.</string>
+    <string name="facility_list_title">العيادات والمستشفيات</string>
+    <string name="facility_near_title">بالقرب منك</string>
+    <string name="facility_near_kind">بالقرب منك: %1$s</string>
+    <string name="facility_near_gynaecology">بالقرب منك: أمراض النساء</string>
+    <string name="facility_near_imaging">بالقرب منك: الأشعة</string>
+    <string name="facility_near_gastroenterology">بالقرب منك: الجهاز الهضمي</string>
+    <string name="facility_distance">%1$s كم</string>
+    <string name="facility_distance_miles">%1$s ميل</string>
+    <string name="facility_help_title">من أين تأتي هذه الأماكن</string>
+    <string name="facility_help_what">الاقتراحات مأخوذة من السجلات الرسمية لأماكن الرعاية الصحية. القائمة محفوظة داخل التطبيق، والبحث فيها يجري على هذا الهاتف. وقد صُفّيت السجلات من أجل التطبيق لتقتصر على الأماكن التي يستطيع المريض زيارتها، وأُعيد تجميع أنواع الرعاية فيها ضمن أنواع الأطباء التي يعرفها التطبيق. زر الموقع في نهاية حقل «المكان» يعرض فقط الأماكن التي تقدّم الرعاية المختارة لهذه الزيارة، أو كل الأماكن إن كانت الزيارة إلى طبيب آخر؛ أما كتابة الاسم فتبحث فيها جميعًا.</string>
+    <string name="facility_help_screening">في فحوص الكشف المبكر، تعرض القائمة الأقسام التي تُجرى فيها غالبًا: أمراض النساء لفحص عنق الرحم، والأشعة لتصوير الثدي، والجهاز الهضمي لفحص القولون. ولا يذكر السجل إن كان القسم يُجري هذا الفحص بنفسه، فاسأل عند الحجز.</string>
+    <string name="facility_help_coverage">تشمل القائمة التشيك وأوكرانيا والإمارات العربية المتحدة. وفي أوكرانيا لا تضم إلا الأماكن المتعاقدة مع الخدمة الوطنية للصحة في أوكرانيا. وفي الإمارات تضم سجل دبي بإصدار ديسمبر 2023، والأماكن المرخّصة في أبوظبي كما حُدّدت على الخريطة عام 2022 ولا تزال محدّدة عليها عام 2026، والمستشفيات والمراكز الصحية الحكومية التابعة لمؤسسة الإمارات للخدمات الصحية؛ أما العيادات الخاصة في الشارقة وعجمان وأم القيوين ورأس الخيمة والفجيرة فليست فيها. قد لا يكون السجل محدَّثًا: تحقّق مع المكان قبل الذهاب.</string>
+    <string name="facility_help_location">يطلب زر الموقع من Android موقعك التقريبي مرة واحدة ويقرّبه إلى نحو كيلومتر. ويُستخدم على هذا الهاتف لترتيب القائمة، ولا يُحفظ أبدًا ولا يُرسَل إلى أي مكان، ويُنسى عند مغادرتك هذه الصفحة.</string>
+    <string name="facility_help_sources">المصادر</string>
+</resources>

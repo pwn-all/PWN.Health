@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">기타 운동</string>
+    <string name="routines_other_workouts_body">시간만 기록: 춤, 농구, 축구, 필라테스 등</string>
+    <string name="routines_indoors">실내</string>
+    <string name="routines_indoors_body">걸음 수와 시간을 셉니다</string>
+    <string name="routines_outdoors">실외</string>
+    <string name="routines_outdoors_body">「걷기 / 경로」를 열어 지도에 이동 경로를 기록합니다</string>
+    <string name="track_tracked">측정됨</string>
+    <string name="track_burned">소모 추정</string>
+    <string name="track_count_question">제대로 셌나요?</string>
+    <string name="track_count_fix">횟수를 고쳐 주세요</string>
+    <string name="track_count_interrupted">횟수 세기가 중단되었습니다 — 직접 입력하세요</string>
+    <string name="track_phone_title">휴대전화 위치</string>
+    <string name="track_phone_pocket">바지 주머니나 허리에 — 착지할 때마다 셉니다.</string>
+    <string name="track_phone_lift">바지 주머니에 — 몸이 느려지는 맨 위에서 반복마다 셉니다.</string>
+    <string name="track_phone_thigh">바지 앞주머니, 허벅지 위에 — 반복할 때마다 허벅지가 기우는 것을 셉니다.</string>
+    <string name="track_phone_arm">위팔의 스포츠 암밴드에 — 반복할 때마다 팔이 기우는 것을 셉니다.</string>
+    <string name="track_phone_steps">주머니나 손에 — 만보계가 걸음을 셉니다.</string>
+    <string name="track_phone_stairs">주머니나 손에 — 걸음은 만보계가, 층수는 기압계가 셉니다.</string>
+    <string name="track_unit_jumps">회</string>
+    <string name="track_unit_floors">층</string>
+    <plurals name="track_jumps">
+        <item quantity="other">%1$d회</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="other">%1$d걸음</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="other">%1$d층</item>
+    </plurals>
+</resources>

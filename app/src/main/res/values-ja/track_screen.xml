@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s。詳細を表示</string>
+    <string name="track_signal_pill_accuracy">%1$s、%2$s。詳細を表示</string>
+    <string name="track_signal_good">GPS 信号は良好</string>
+    <string name="track_signal_fair">GPS 信号はまずまず</string>
+    <string name="track_signal_poor">GPS 信号が弱い</string>
+    <string name="track_signal_searching">GPS 信号を探しています</string>
+    <string name="track_signal_location_off">位置情報がオフ</string>
+    <string name="track_signal_no_access">位置情報へのアクセスなし</string>
+    <string name="track_info_title">GPS 信号とルート</string>
+    <string name="track_signal_title">GPS 信号</string>
+    <string name="track_signal_note">バーは、スマートフォンが現在地をどれだけ正確に把握できているかを示します。3 本なら誤差 %1$s 以内、2 本なら %2$s 以内、1 本ならそれより大きな誤差です。バーが 1 本もない場合は、10 秒間位置が得られず、スマートフォンがまだ探している状態です。この画面は、信号と現在地を表示するために、開いている間だけ位置を読み取ります。</string>
+    <string name="track_history_empty">保存したルートはまだありません。</string>
+    <string name="track_map_here">現在地周辺の地図</string>
+    <string name="track_map_waiting">世界地図。現在地はまだわかりません。</string>
+    <string name="track_map_follow_here">現在地に戻る</string>
+    <string name="track_pause">記録を一時停止</string>
+    <string name="track_resume">記録を再開</string>
+    <string name="track_value_paused">一時停止中</string>
+    <string name="track_value_ended">終了</string>
+    <string name="track_finish_title">この散歩を終了しますか？</string>
+    <string name="track_finish_body">記録が止まり、散歩が保存されます。ひと休みするだけなら、代わりに「一時停止」を使ってください。</string>
+    <string name="track_finish">終了</string>
+    <string name="track_keep_recording">記録を続ける</string>
+    <string name="track_finished">散歩を終了しました</string>
+</resources>

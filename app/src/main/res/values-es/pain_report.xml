@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Lo pintado en los últimos 30 días y cuántos días dolió cada zona</string>
+    <string name="pain_paint_hint">Pinta donde duele y separa dos dedos para ampliar. Un dolor de espalda y uno de rodilla son dos registros distintos.</string>
+    <string name="pain_head_note">El dibujo empieza en el cuello: elige la zona del dolor de cabeza en «Añadir zona».</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">%1$d registro dibujado. Cada marca aparece donde la persona la pintó, más oscura donde los registros se solapan. Las zonas elegidas de una lista sin pintar no se dibujan.</item>
+        <item quantity="many">%1$d registros dibujados. Cada marca aparece donde la persona la pintó, más oscura donde los registros se solapan. Las zonas elegidas de una lista sin pintar no se dibujan.</item>
+        <item quantity="other">%1$d registros dibujados. Cada marca aparece donde la persona la pintó, más oscura donde los registros se solapan. Las zonas elegidas de una lista sin pintar no se dibujan.</item>
+    </plurals>
+</resources>

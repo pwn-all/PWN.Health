@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Daily steps</string>
+    <string name="onboarding_steps_body">Pick a goal you mean to keep. In a trial of 500 adults, only a goal people chose themselves got them walking more. You can change it on the profile at any time.</string>
+    <string name="onboarding_steps_suggested">Suggested for your age: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Use the suggestion</string>
+    <string name="onboarding_steps_distance">About %1$s a day at your stride</string>
+    <string name="onboarding_bmi_source">WHO adult bands</string>
+    <string name="onboarding_ready_steps">Daily step goal</string>
+    <string name="onboarding_ready_resting">Resting energy</string>
+    <string name="onboarding_ready_kcal_day">%1$s kcal a day</string>
+    <string name="onboarding_ready_local">Worked out on this phone from your answers: resting energy by Mifflin–St Jeor, BMI against WHO’s adult bands. Nothing was sent anywhere.</string>
+</resources>

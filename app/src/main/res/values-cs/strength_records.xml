@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Rekord</string>
+    <string name="strength_new_records">Nové osobní rekordy</string>
+    <string name="strength_record_e1rm">Odhadované maximum na 1 opakování</string>
+    <string name="strength_record_heaviest">Největší váha</string>
+    <string name="strength_record_reps">Nejvíc opakování v sérii</string>
+    <string name="strength_record_volume">Nejvíc váhy za trénink</string>
+    <string name="strength_record_was">%1$s · dříve %2$s</string>
+    <string name="strength_e1rm_note">Hodnota na 1 opakování je odhad podle Epleyho vzorce ze sérií do 12 opakování.</string>
+    <string name="strength_record_line">Nejlépe: %1$s · asi %2$s na 1 opakování</string>
+    <string name="strength_record_line_reps">Nejlépe: %1$s v sérii</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Langkah per hari</string>
+    <string name="onboarding_steps_body">Pilih target yang ingin Anda jaga. Dalam uji coba pada 500 orang dewasa, hanya mereka yang memilih targetnya sendiri yang mulai berjalan lebih banyak. Anda bisa mengubahnya di profil kapan saja.</string>
+    <string name="onboarding_steps_suggested">Saran untuk usia Anda: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Pakai saran</string>
+    <string name="onboarding_steps_distance">Sekitar %1$s per hari dengan langkah Anda</string>
+    <string name="onboarding_bmi_source">Rentang dewasa WHO</string>
+    <string name="onboarding_ready_steps">Target langkah harian</string>
+    <string name="onboarding_ready_resting">Energi istirahat</string>
+    <string name="onboarding_ready_kcal_day">%1$s kkal per hari</string>
+    <string name="onboarding_ready_local">Dihitung di ponsel ini dari jawaban Anda: energi istirahat dengan Mifflin–St Jeor, IMT dengan rentang dewasa WHO. Tidak ada yang dikirim ke mana pun.</string>
+</resources>

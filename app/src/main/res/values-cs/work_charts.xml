@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Odpracované hodiny za týden</string>
+    <string name="work_charts_legend_median">Váš medián</string>
+    <string name="work_charts_gap_note">Nezapočítaný týden nemá sloupec: není to týden bez práce.</string>
+    <string name="work_charts_other_days">Ostatní pracovní dny</string>
+    <string name="work_charts_days_off">Volné dny</string>
+    <string name="work_charts_pair_note">Sloupce jsou odpracované hodiny, jeden za každý započítaný týden. Čára je ukazatel uvedený pod grafem za tentýž týden oproti vašemu vlastnímu průměru, tedy průměru týdnů, které mají bod: nad prostřední čarou, když byl vyšší, pod ní, když byl nižší. Ukazují, co bylo zapsáno ve stejných týdnech, ne příčinu a následek.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Bod týdne potřebuje alespoň %1$d den s hodnotou; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+        <item quantity="few">Bod týdne potřebuje alespoň %1$d dny s hodnotou; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+        <item quantity="many">Bod týdne potřebuje alespoň %1$d dne s hodnotou; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+        <item quantity="other">Bod týdne potřebuje alespoň %1$d dnů s hodnotou; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: nad vaším průměrem</string>
+    <string name="work_charts_spoken_below">%1$s: pod vaším průměrem</string>
+    <string name="work_charts_spoken_at">%1$s: na úrovni vašeho průměru</string>
+    <string name="work_charts_spoken_gap">%1$s: zapsáno příliš málo dnů</string>
+</resources>

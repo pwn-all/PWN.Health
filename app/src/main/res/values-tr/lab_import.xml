@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Fotoğraf veya PDF oku</string>
+    <string name="lab_import_review">Tarih, değer ve birimleri aslıyla karşılaştırın. Yalnızca boş alanlar doldurulur. Formu kaydetmeden sonuçlar kaydedilmez.</string>
+    <string name="lab_import_empty">Desteklenen sonuç bulunamadı. Daha net bir görsel deneyin veya elle girin.</string>
+    <string name="lab_import_veterinary">Bu bir veteriner raporu gibi görünüyor. İnsan tahlillerine aktarılamaz.</string>
+    <string name="lab_import_error">Dosya okunamadı. Görsel veya şifresiz PDF seçin (en fazla 20 sayfa, 32 MB).</string>
+    <string name="lab_import_password">Bu PDF korumalı. Okumak için şifresini girin.</string>
+    <string name="lab_import_date_unknown">Numune tarihi okunamadı. Formdaki tarihi kontrol edin.</string>
+    <string name="lab_import_date_conflict">Bu sayfanın tarihi farklı. Önce mevcut sonuçları kaydedin veya temizleyin.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Çözümlenemeyen göstergeler: %1$d</string>
+</resources>

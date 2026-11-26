@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Teksty, styl i kolor w jednym pliku. -->
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">%1$d krok dzisiaj</item>
+        <item quantity="few">%1$d kroki dzisiaj</item>
+        <item quantity="many">%1$d kroków dzisiaj</item>
+        <item quantity="other">%1$d kroku dzisiaj</item>
+    </plurals>
+    <string name="channel_name">Liczenie kroków</string>
+
+    <!-- Ekran czujników / bramki ruchu -->
+    <string name="sensors_title">Czujniki</string>
+    <string name="wave_title">Wartość przyspieszenia, ostatnie 6 s</string>
+    <string name="gate_open">Bramka otwarta – kroki są liczone</string>
+    <string name="gate_blocked">Bramka zamknięta – kroki są odrzucane</string>
+    <string name="field_motion">Ruch</string>
+    <string name="field_posture">Ułożenie</string>
+    <string name="field_energy">Energia (odch. std.)</string>
+    <string name="field_cadence">Kadencja</string>
+    <string name="field_periodicity">Okresowość chodu</string>
+    <string name="field_tilt">Odchylenie od poziomu</string>
+    <string name="field_screen">Ekran</string>
+    <string name="field_axes">Przyspieszenie x / y / z</string>
+    <string name="field_raw_counter">Surowy licznik czujnika</string>
+    <string name="field_credited">Zaliczone w tej sesji</string>
+    <string name="field_rejected">Odrzucone w tej sesji</string>
+    <string name="on">wł.</string>
+    <string name="off">wył.</string>
+
+    <!-- Zapis przebiegu z czujników -->
+    <string name="trace_title">Zapisz przebieg z czujników</string>
+    <string name="trace_body">Rozpocznij zapis, przejdź się, zatrzymaj, a potem zapisz. Każda próbka akcelerometru, każdy werdykt bramki i każda decyzja o kroku trafiają do pliku CSV, po kolei. Nic nie opuszcza urządzenia, dopóki sam nie wskażesz miejsca zapisu.</string>
+    <string name="trace_rows">Zapisane wiersze</string>
+    <string name="trace_dropped">Odrzucone (najstarsze)</string>
+    <string name="trace_recording">Trwa zapis…</string>
+    <string name="trace_start">Rozpocznij zapis</string>
+    <string name="trace_stop">Zatrzymaj</string>
+    <string name="trace_save">Zapisz CSV</string>
+    <string name="trace_saved">Przebieg zapisany.</string>
+    <string name="trace_error">Błąd zapisu: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d wiersz</item>
+        <item quantity="few">%1$d wiersze</item>
+        <item quantity="many">%1$d wierszy</item>
+        <item quantity="other">%1$d wiersza</item>
+    </plurals>
+
+    <!-- Zapis trasy -->
+    <string name="track_title">Trasa</string>
+    <string name="track_start">Rozpocznij zapis</string>
+    <string name="track_stop">Zatrzymaj zapis</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mi</string>
+    <string name="recording_distance">Zapis – %1$s</string>
+    <string name="waiting_for_fix">Oczekiwanie na ustalenie pozycji…</string>
+    <string name="track_total_route">Cała trasa</string>
+    <string name="track_walking_counted">Chodzenie</string>
+    <string name="track_running">Bieg</string>
+    <string name="track_vehicle">Pojazd</string>
+    <string name="track_speed_now">Prędkość bieżąca</string>
+    <string name="track_speed_max">Prędkość maksymalna</string>
+    <string name="track_speed_value">%1$.1f km/h</string>
+    <string name="track_speed_value_mph">%1$.1f mph</string>
+    <string name="track_stops">Postoje</string>
+    <string name="track_stops_value">%1$d · %2$d min</string>
+    <string name="track_elevation_gain">Wysokość ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f ft</string>
+    <string name="track_telemetry">Telemetria trasy</string>
+    <string name="track_gps_points">Punkty GPS</string>
+    <string name="track_raw_gps_points">Wszystkie zapisane punkty GPS</string>
+    <string name="track_rejected_points">Skorygowane/odrzucone punkty</string>
+    <string name="track_last_filter_reason">Ostatnia korekta GPS</string>
+    <string name="track_filter_none">Brak</string>
+    <string name="track_filter_low_accuracy">Niska dokładność</string>
+    <string name="track_filter_stale_fix">Nieaktualne położenie</string>
+    <string name="track_filter_jump">Niepotwierdzony skok</string>
+    <string name="track_filter_speed">Niemożliwa prędkość</string>
+    <string name="track_filter_time_order">Czas nie po kolei</string>
+    <string name="track_gps_accuracy">Dokładność GPS</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f ft</string>
+    <string name="track_movement">Ruch</string>
+    <string name="track_movement_walking">chodzenie</string>
+    <string name="track_movement_running">bieg</string>
+    <string name="track_movement_vehicle">pojazd</string>
+    <string name="track_movement_stopped">postój</string>
+    <string name="track_movement_unknown">ustalanie…</string>
+    <string name="track_altitude">Wysokość</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f ft · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Ciśnienie</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">Temperatura otoczenia</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Skoki warunków otoczenia</string>
+    <string name="track_sensor_unavailable">brak czujnika</string>
+    <string name="track_environment_note">Wysokość barometryczna jest kalibrowana względem pierwszej wysokości z GPS. Czujnik temperatury w telefonie zdarza się rzadko, a na jego wskazania może wpływać nagrzewanie się urządzenia.</string>
+    <string name="track_showing_last">Pokazana jest ostatnia ukończona trasa. Rozpocznij zapis, aby utworzyć nową.</string>
+    <string name="track_history">Zapisane trasy</string>
+    <string name="track_history_note">Trasy i pełna telemetria czujników są przechowywane lokalnie i wchodzą do eksportu danych.</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d przyjęty punkt</item>
+        <item quantity="few">%1$d przyjęte punkty</item>
+        <item quantity="many">%1$d przyjętych punktów</item>
+        <item quantity="other">%1$d przyjętego punktu</item>
+    </plurals>
+</resources>

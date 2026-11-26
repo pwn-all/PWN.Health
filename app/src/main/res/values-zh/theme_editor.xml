@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">主题</string>
+    <string name="theme_description">浅色和深色主题的界面与图标颜色</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_saved_note">每套配色分别保存。应用会跟随设备的浅色或深色主题。</string>
+    <string name="theme_preview">预览</string>
+    <string name="theme_main_accent">主强调色</string>
+    <string name="theme_accent_container">强调色背景</string>
+    <string name="theme_secondary">次强调色</string>
+    <string name="theme_secondary_container">次要背景</string>
+    <string name="theme_tertiary">第三强调色</string>
+    <string name="theme_tertiary_container">第三强调色背景</string>
+    <string name="theme_background">页面背景</string>
+    <string name="theme_surface">卡片</string>
+    <string name="theme_text">主要文字</string>
+    <string name="theme_muted_text">次要文字</string>
+    <string name="theme_border">边框</string>
+    <string name="theme_icons">图标</string>
+    <string name="theme_icon">图标主色</string>
+    <string name="theme_icon_mid">图标辅色</string>
+    <string name="theme_icon_light">图标浅色细节</string>
+    <string name="theme_brightness">亮度</string>
+    <string name="theme_hex">HEX 代码</string>
+    <string name="theme_hex_error">请输入 6 位十六进制数字，例如 #7094EE。</string>
+    <string name="theme_update_all">更新所有颜色</string>
+    <string name="theme_update_all_body">根据主强调色生成这套配色中的其他所有颜色，并覆盖所有手动修改。</string>
+    <string name="theme_reset">重置主题</string>
+    <string name="theme_reset_light_body">要恢复浅色主题默认的界面和图标颜色吗？深色主题将保持不变。</string>
+    <string name="theme_reset_dark_body">要恢复深色主题默认的界面和图标颜色吗？浅色主题将保持不变。</string>
+    <string name="theme_wheel">色轮</string>
+    <string name="theme_wheel_value">色相 %1$d°，饱和度 %2$d%%</string>
+    <string name="theme_next_hue">下一个色相</string>
+    <string name="theme_previous_hue">上一个色相</string>
+    <string name="theme_more_saturation">提高饱和度</string>
+    <string name="theme_less_saturation">降低饱和度</string>
+</resources>

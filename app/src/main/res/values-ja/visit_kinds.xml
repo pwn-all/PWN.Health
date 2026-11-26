@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">小児科</string>
+    <string name="visit_kind_dermatologist">皮膚科</string>
+    <string name="visit_kind_ophthalmologist">眼科</string>
+    <string name="visit_kind_ent">耳鼻咽喉科</string>
+    <string name="visit_kind_orthopaedist">整形外科</string>
+    <string name="visit_kind_neurologist">脳神経内科</string>
+    <string name="visit_kind_psychiatrist">精神科</string>
+    <string name="visit_kind_gastroenterologist">消化器内科</string>
+    <string name="visit_kind_laboratory">臨床検査（血液・尿など）</string>
+    <string name="visit_kind_imaging">画像検査：X線、超音波、CT、MRI</string>
+    <string name="visit_kind_rehabilitation">リハビリテーション科・理学療法</string>
+    <string name="visit_kind_surgeon">外科</string>
+    <string name="visit_kind_oncologist">腫瘍内科</string>
+    <string name="visit_kind_allergist">アレルギー科</string>
+    <string name="visit_kind_pulmonologist">呼吸器内科（肺）</string>
+    <string name="visit_kind_nephrologist">腎臓内科</string>
+    <string name="visit_kind_rheumatologist">リウマチ科</string>
+    <string name="visit_kind_infectious_diseases">感染症内科</string>
+    <string name="visit_kind_search_dentist">歯医者, 歯, 虫歯, 口腔外科</string>
+    <string name="visit_kind_search_gynecologist">産婦人科, 産科, 婦人科医, レディースクリニック</string>
+    <string name="visit_kind_search_gp">内科, かかりつけ医, 家庭医, 総合診療</string>
+    <string name="visit_kind_search_paediatrician">小児科医, 子ども, こども</string>
+    <string name="visit_kind_search_cardiologist">心臓, 循環器</string>
+    <string name="visit_kind_search_dermatologist">肌, 皮膚, 皮膚科医</string>
+    <string name="visit_kind_search_ophthalmologist">眼医者, 目, 視力</string>
+    <string name="visit_kind_search_ent">耳鼻科, 耳, 鼻, のど</string>
+    <string name="visit_kind_search_orthopaedist">整形, 骨, 関節, けが</string>
+    <string name="visit_kind_search_psychologist">カウンセラー, カウンセリング, 心理療法</string>
+    <string name="visit_kind_search_gastroenterologist">胃, 腸, おなか, 胃腸科</string>
+    <string name="visit_kind_search_laboratory">血液検査, 採血, 検査, ラボ</string>
+    <string name="visit_kind_search_imaging">放射線科, レントゲン, エコー, 撮影</string>
+    <string name="visit_kind_search_rehabilitation">リハビリ, 理学療法士, 物理療法</string>
+    <string name="visit_kind_search_somnologist">睡眠, 不眠, 睡眠医</string>
+    <string name="visit_kind_field">診療科または検査</string>
+    <string name="visit_kind_search">一覧から探す</string>
+    <string name="choice_search_none">一覧に該当するものはありません</string>
+    <string name="visit_doctors_here">この場所でかかったことのある医師</string>
+    <string name="visit_save_needs_place">保存するには場所を入力してください</string>
+    <string name="visit_save_needs_doctor">保存するには医師を入力してください</string>
+    <string name="visit_save_needs_kind">保存するには診療科か検査を選んでください</string>
+</resources>

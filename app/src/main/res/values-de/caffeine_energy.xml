@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Kalorien in einer Tasse</string>
+    <string name="caffeine_energy_help_body">Die Kalorien gelten für das Getränk, wie es zubereitet wird, nach USDA FoodData Central: schwarzer Tee und Kaffee, ein Espresso, mit Wasser aufgeschlagener Matcha und ein Cappuccino mit fettarmer Milch — mit Vollmilch ist es etwa ein Fünftel mehr. Milch, Sahne, Zucker und Sirup, die man selbst hinzufügt, kommen obendrauf und werden als Essen erfasst. Ein Cappuccino wird mit seinem Koffein als Essen gespeichert: Seine Kalorien zählen zum Essen des Tages, als Mahlzeit gilt er aber nicht. Die anderen Tassen haben nur wenige Kalorien und bleiben ein reiner Koffeineintrag.</string>
+</resources>

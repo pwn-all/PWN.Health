@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_apps_title">दूसरे ऐप्स से इम्पोर्ट</string>
+    <string name="import_apps_menu_body">Health Connect और Apple Health, Fitbit, Garmin, Strong जैसे ऐप्स की एक्सपोर्ट की गई फ़ाइलें</string>
+</resources>

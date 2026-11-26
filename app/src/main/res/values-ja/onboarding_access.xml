@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">有効にする機能を選びます。それぞれAndroidの権限画面が開きます。許可せずに進み、後で変更することもできます。続いてヘルスコネクトが表示されます。</string>
+    <string name="onboarding_access_body_alone">有効にする機能を選びます。それぞれAndroidの権限画面が開きます。許可せずに進み、後で変更することもできます。</string>
+    <string name="onboarding_motion_title">歩数とモーションセンサー</string>
+    <string name="onboarding_motion_body">身体活動の権限で歩数を数えます。モーションセンサーと気圧センサーには個別の権限は不要です。</string>
+    <string name="onboarding_notifications_title">通知とリマインダー</string>
+    <string name="onboarding_notifications_body">歩数計の状態と、薬・食事・水分のリマインダーを表示します。</string>
+    <string name="onboarding_allowed">許可済み</string>
+    <string name="onboarding_bluetooth_body">近くの体重計やセンサーを検索し、Bluetoothで接続します。</string>
+</resources>

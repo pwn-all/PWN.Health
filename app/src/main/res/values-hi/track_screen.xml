@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s। विवरण</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s। विवरण</string>
+    <string name="track_signal_good">GPS सिग्नल अच्छा है</string>
+    <string name="track_signal_fair">GPS सिग्नल मध्यम है</string>
+    <string name="track_signal_poor">GPS सिग्नल कमज़ोर है</string>
+    <string name="track_signal_searching">GPS सिग्नल खोजा जा रहा है</string>
+    <string name="track_signal_location_off">स्थान बंद है</string>
+    <string name="track_signal_no_access">स्थान की पहुँच नहीं है</string>
+    <string name="track_info_title">सिग्नल और रूट</string>
+    <string name="track_signal_title">GPS सिग्नल</string>
+    <string name="track_signal_note">सिग्नल की पट्टियाँ बताती हैं कि फ़ोन को अपना स्थान कितनी सटीकता से पता है। तीन पट्टियाँ: %1$s या उससे बेहतर। दो: %2$s तक। एक: उससे कम सटीक। एक भी नहीं: दस सेकंड से कोई स्थान नहीं मिला, और फ़ोन अब भी खोज रहा है। यह स्क्रीन स्थान सिर्फ़ तब तक पढ़ती है जब तक वह खुली है, ताकि सिग्नल दिखा सके और यह भी कि आप कहाँ हैं।</string>
+    <string name="track_history_empty">अभी तक कोई रूट सहेजा नहीं गया है।</string>
+    <string name="track_map_here">आपके स्थान के आसपास का मानचित्र</string>
+    <string name="track_map_waiting">दुनिया का मानचित्र। आपका स्थान अभी पता नहीं चला है।</string>
+    <string name="track_map_follow_here">अपने स्थान पर वापस जाएँ</string>
+    <string name="track_pause">रिकॉर्डिंग कुछ देर रोकें</string>
+    <string name="track_resume">रिकॉर्डिंग फिर शुरू करें</string>
+    <string name="track_value_paused">विराम पर</string>
+    <string name="track_value_ended">समाप्त</string>
+    <string name="track_finish_title">यह सैर समाप्त करें?</string>
+    <string name="track_finish_body">रिकॉर्डिंग बंद हो जाएगी और सैर सहेज ली जाएगी। अगर बस थोड़ा आराम करना है, तो इसके बजाय रिकॉर्डिंग कुछ देर रोकें।</string>
+    <string name="track_finish">समाप्त करें</string>
+    <string name="track_keep_recording">रिकॉर्डिंग जारी रखें</string>
+    <string name="track_finished">सैर समाप्त हुई</string>
+</resources>

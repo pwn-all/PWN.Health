@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">Dokter anak</string>
+    <string name="visit_kind_dermatologist">Dokter kulit</string>
+    <string name="visit_kind_ophthalmologist">Dokter mata</string>
+    <string name="visit_kind_ent">Dokter THT (telinga, hidung, tenggorokan)</string>
+    <string name="visit_kind_orthopaedist">Dokter ortopedi</string>
+    <string name="visit_kind_neurologist">Dokter saraf</string>
+    <string name="visit_kind_psychiatrist">Psikiater</string>
+    <string name="visit_kind_gastroenterologist">Dokter gastroenterologi</string>
+    <string name="visit_kind_laboratory">Pemeriksaan laboratorium</string>
+    <string name="visit_kind_imaging">Radiologi: rontgen, USG, CT, MRI</string>
+    <string name="visit_kind_rehabilitation">Rehabilitasi medik dan fisioterapi</string>
+    <string name="visit_kind_surgeon">Dokter bedah</string>
+    <string name="visit_kind_oncologist">Dokter onkologi</string>
+    <string name="visit_kind_allergist">Dokter alergi</string>
+    <string name="visit_kind_pulmonologist">Dokter paru</string>
+    <string name="visit_kind_nephrologist">Dokter ginjal (nefrologi)</string>
+    <string name="visit_kind_rheumatologist">Dokter reumatologi</string>
+    <string name="visit_kind_infectious_diseases">Dokter penyakit infeksi</string>
+    <string name="visit_kind_search_dentist">dentis, gigi, drg</string>
+    <string name="visit_kind_search_gynecologist">ginekolog, obstetri, kebidanan, obgyn, SpOG</string>
+    <string name="visit_kind_search_gp">dokter keluarga, puskesmas, layanan primer, faskes pertama</string>
+    <string name="visit_kind_search_paediatrician">pediatri, anak, bayi, SpA</string>
+    <string name="visit_kind_search_cardiologist">jantung, kardiolog, SpJP</string>
+    <string name="visit_kind_search_dermatologist">kulit, kelamin, dermatolog, SpKK</string>
+    <string name="visit_kind_search_ophthalmologist">mata, penglihatan, oftalmolog, SpM</string>
+    <string name="visit_kind_search_ent">THT, otolaringolog, telinga, hidung, tenggorokan</string>
+    <string name="visit_kind_search_orthopaedist">ortoped, tulang, sendi, cedera, trauma</string>
+    <string name="visit_kind_search_psychologist">terapis, konselor, konseling</string>
+    <string name="visit_kind_search_gastroenterologist">lambung, perut, usus, pencernaan, maag</string>
+    <string name="visit_kind_search_laboratory">tes darah, cek darah, analisis, lab</string>
+    <string name="visit_kind_search_imaging">radiologi, pindai, scan, ultrasonografi, sinar X</string>
+    <string name="visit_kind_search_rehabilitation">fisio, terapi fisik, fisioterapis</string>
+    <string name="visit_kind_search_somnologist">somnolog, dokter tidur, gangguan tidur</string>
+    <string name="visit_kind_field">Dokter atau pemeriksaan</string>
+    <string name="visit_kind_search">Cari di daftar</string>
+    <string name="choice_search_none">Tidak ada yang cocok di daftar</string>
+    <string name="visit_doctors_here">Dokter yang pernah Anda temui di tempat ini</string>
+    <string name="visit_save_needs_place">Untuk menyimpan, isi tempatnya</string>
+    <string name="visit_save_needs_doctor">Untuk menyimpan, isi dokternya</string>
+    <string name="visit_save_needs_kind">Untuk menyimpan, pilih dokter atau pemeriksaan</string>
+</resources>

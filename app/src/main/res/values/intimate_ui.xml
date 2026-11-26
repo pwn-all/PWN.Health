@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The sex-life page (IntimateScreen.kt, IntimateHistory.kt). -->
+<resources>
+    <!-- The acts and their history -->
+    <string name="intimate_acts_title">Sex</string>
+    <string name="intimate_anything_to_add">Anything to add?</string>
+    <string name="intimate_history_title">History</string>
+    <string name="intimate_history_empty">Nothing recorded yet.</string>
+    <string name="intimate_act_title">Edit entry</string>
+    <string name="intimate_act_kind">What it was</string>
+    <string name="intimate_act_day">Day</string>
+    <string name="intimate_act_time">Time</string>
+    <string name="intimate_act_time_unrecorded">No time was recorded for this entry.</string>
+    <string name="intimate_flash_changed">Changed</string>
+    <string name="intimate_flash_deleted">Deleted</string>
+    <!-- The charts behind the top bar -->
+    <string name="intimate_charts_title">Charts</string>
+    <!-- The morning -->
+    <string name="intimate_woke_at">Waking time</string>
+    <string name="intimate_woke_by_unset">Not said</string>
+    <string name="intimate_woke_phone">Woke at %1$s · first use of the phone</string>
+</resources>

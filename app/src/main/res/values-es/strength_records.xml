@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Récord</string>
+    <string name="strength_new_records">Nuevos récords personales</string>
+    <string name="strength_record_e1rm">Máximo estimado a una repetición</string>
+    <string name="strength_record_heaviest">Mayor peso</string>
+    <string name="strength_record_reps">Más repeticiones en una serie</string>
+    <string name="strength_record_volume">Más peso en una sesión</string>
+    <string name="strength_record_was">%1$s · antes %2$s</string>
+    <string name="strength_e1rm_note">El valor a una repetición es una estimación con la fórmula de Epley, a partir de series de hasta 12 repeticiones.</string>
+    <string name="strength_record_line">Mejor: %1$s · unos %2$s a una repetición</string>
+    <string name="strength_record_line_reps">Mejor: %1$s en una serie</string>
+</resources>

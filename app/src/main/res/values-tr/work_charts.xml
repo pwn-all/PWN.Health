@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Haftalık çalışma saati</string>
+    <string name="work_charts_legend_median">Medyanınız</string>
+    <string name="work_charts_gap_note">Sayılmayan haftanın çubuğu yoktur: bu, çalışılmadan geçen bir hafta demek değildir.</string>
+    <string name="work_charts_other_days">Diğer iş günleri</string>
+    <string name="work_charts_days_off">İzin günleri</string>
+    <string name="work_charts_pair_note">Çubuklar çalışılan saatlerdir, sayılan her hafta için bir tane. Çizgi, grafiğin altında adı yazan göstergenin aynı haftadaki değerini kendi ortalamanıza, yani noktası olan haftaların ortalamasına göre gösterir: daha yüksekken orta çizginin üstünde, daha düşükken altında. Neyin neye yol açtığını değil, aynı haftalarda kaydedilenleri gösterirler.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Bir haftanın noktası için verisi olan %1$d gün gerekir; daha azı olan hafta çizgide sıfır değil, boşluk bırakır.</item>
+        <item quantity="other">Bir haftanın noktası için verisi olan %1$d gün gerekir; daha azı olan hafta çizgide sıfır değil, boşluk bırakır.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: ortalamanızın üstünde</string>
+    <string name="work_charts_spoken_below">%1$s: ortalamanızın altında</string>
+    <string name="work_charts_spoken_at">%1$s: ortalamanızda</string>
+    <string name="work_charts_spoken_gap">%1$s: verisi olan gün çok az</string>
+</resources>

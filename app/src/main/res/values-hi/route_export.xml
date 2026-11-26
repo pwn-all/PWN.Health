@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">फ़ाइल में सहेजें</string>
+    <string name="route_format_gpx_hint">मानचित्रों, घड़ियों और फ़िटनेस ऐप के लिए</string>
+    <string name="route_format_geojson_hint">GIS टूल और वेब मानचित्रों के लिए</string>
+    <string name="route_format_csv_hint">हर GPS बिंदु, स्प्रेडशीट के लिए</string>
+</resources>

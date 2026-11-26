@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">Tidur semalam</string>
+    <string name="widget_sleep_caption">semalam, %1$s – %2$s</string>
+    <string name="widget_sleep_none">Belum ada tidur tercatat</string>
+    <string name="widget_weight_description">Berat terakhir Anda dan perubahannya dalam 30 hari</string>
+    <string name="widget_weight_caption">berat terakhir</string>
+    <string name="widget_weight_change">%1$s dalam 30 hari</string>
+    <string name="widget_weight_steady">tidak berubah dalam 30 hari</string>
+    <string name="widget_weight_none">Belum ada berat tercatat</string>
+    <string name="widget_energy_description">Makanan hari ini terhadap batas harian; satu ketukan mencatat makan</string>
+    <string name="widget_energy_caption">dari %1$s kkal · %2$s</string>
+    <string name="widget_energy_left">sisa %1$s</string>
+    <string name="widget_energy_over">lebih %1$s</string>
+    <string name="widget_week_description">Langkah pada tiap hari dari tujuh hari terakhir</string>
+    <string name="widget_week_caption">%1$s langkah minggu ini · %2$s per hari</string>
+    <string name="widget_week_initial">langkah minggu ini</string>
+    <string name="widget_level_description">Level Anda, XP ke level berikutnya, dan rentetan harian</string>
+    <string name="widget_level_initial">Level</string>
+    <plurals name="widget_level_streak">
+        <item quantity="other">rentetan %d hari</item>
+    </plurals>
+    <string name="widget_dose_description">Dosis berikutnya hari ini, ditandai sudah diminum dengan satu ketukan</string>
+    <string name="widget_dose_next">Berikutnya: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Diminum</string>
+    <string name="widget_dose_done">Semua dosis hari ini sudah diminum</string>
+    <string name="widget_dose_none">Tidak ada dosis hari ini</string>
+    <string name="widget_cycle_description">Hari siklus dan haid berikutnya yang diperkirakan</string>
+    <string name="widget_cycle_period">Haid, hari ke-%1$d</string>
+    <string name="widget_preview_sleep_value">7 j 40 mnt</string>
+    <string name="widget_preview_sleep_caption">semalam, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72,4 kg</string>
+    <string name="widget_preview_weight_change">−0,6 kg dalam 30 hari</string>
+    <string name="widget_preview_energy_value">1.240</string>
+    <string name="widget_preview_energy_caption">dari 2.520 kkal · sisa 1.280</string>
+    <string name="widget_preview_week_caption">48.300 langkah minggu ini · 6.900 per hari</string>
+    <string name="widget_preview_level_title">Level 7</string>
+    <string name="widget_preview_level_caption">1.240 / 1.600 XP · rentetan 12 hari</string>
+    <string name="widget_preview_dose_next">Berikutnya: Metformin</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">Hari 12</string>
+    <string name="widget_preview_cycle_next">Perkiraan berikutnya 24 Nov</string>
+</resources>

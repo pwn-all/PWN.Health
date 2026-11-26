@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings, style and colour in one file. -->
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="other">%1$d langkah hari ini</item>
+    </plurals>
+    <string name="channel_name">Penghitungan langkah</string>
+
+    <!-- Layar sensor / gerbang gerak -->
+    <string name="sensors_title">Sensor</string>
+    <string name="wave_title">Besaran percepatan, 6 dtk terakhir</string>
+    <string name="gate_open">Gerbang terbuka — langkah sedang dihitung</string>
+    <string name="gate_blocked">Gerbang tertutup — langkah sedang dibuang</string>
+    <string name="field_motion">Gerak</string>
+    <string name="field_posture">Postur</string>
+    <string name="field_energy">Energi (std)</string>
+    <string name="field_cadence">Irama langkah</string>
+    <string name="field_periodicity">Periodisitas langkah</string>
+    <string name="field_tilt">Kemiringan dari datar</string>
+    <string name="field_screen">Layar</string>
+    <string name="field_axes">Akselerometer x / y / z</string>
+    <string name="field_raw_counter">Penghitung sensor mentah</string>
+    <string name="field_credited">Diterima pada sesi ini</string>
+    <string name="field_rejected">Ditolak pada sesi ini</string>
+    <string name="on">hidup</string>
+    <string name="off">mati</string>
+
+    <!-- Perekaman jejak sensor -->
+    <string name="trace_title">Rekam jejak sensor</string>
+    <string name="trace_body">Mulai merekam, berjalanlah, hentikan, lalu simpan. Setiap sampel akselerometer, putusan gerbang dan keputusan langkah masuk ke berkas CSV, secara berurutan. Tidak ada yang meninggalkan perangkat sampai Anda memilih tempat menyimpannya.</string>
+    <string name="trace_rows">Baris terekam</string>
+    <string name="trace_dropped">Dibuang (terlama)</string>
+    <string name="trace_recording">Merekam…</string>
+    <string name="trace_start">Mulai merekam</string>
+    <string name="trace_stop">Hentikan</string>
+    <string name="trace_save">Simpan CSV</string>
+    <string name="trace_saved">Jejak tersimpan.</string>
+    <string name="trace_error">Kesalahan penyimpanan: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="other">%1$d baris</item>
+    </plurals>
+
+    <!-- Perekaman rute -->
+    <string name="track_title">Rute</string>
+    <string name="track_start">Mulai merekam</string>
+    <string name="track_stop">Hentikan perekaman</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mil</string>
+    <string name="recording_distance">Merekam — %1$s</string>
+    <string name="waiting_for_fix">Menunggu penentuan lokasi…</string>
+    <string name="track_total_route">Seluruh rute</string>
+    <string name="track_walking_counted">Berjalan</string>
+    <string name="track_running">Berlari</string>
+    <string name="track_vehicle">Kendaraan</string>
+    <string name="track_speed_now">Kecepatan saat ini</string>
+    <string name="track_speed_max">Kecepatan maksimum</string>
+    <string name="track_speed_value">%1$.1f km/jam</string>
+    <string name="track_speed_value_mph">%1$.1f mil/jam</string>
+    <string name="track_stops">Berhenti</string>
+    <string name="track_stops_value">%1$d · %2$d mnt</string>
+    <string name="track_elevation_gain">Elevasi ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f kaki</string>
+    <string name="track_telemetry">Telemetri rute</string>
+    <string name="track_gps_points">Titik GPS</string>
+    <string name="track_raw_gps_points">Semua titik GPS tersimpan</string>
+    <string name="track_rejected_points">Titik terkoreksi/tertolak</string>
+    <string name="track_last_filter_reason">Koreksi GPS terakhir</string>
+    <string name="track_filter_none">Tidak ada</string>
+    <string name="track_filter_low_accuracy">Akurasi rendah</string>
+    <string name="track_filter_stale_fix">Posisi usang</string>
+    <string name="track_filter_jump">Lompatan tak terkonfirmasi</string>
+    <string name="track_filter_speed">Kecepatan mustahil</string>
+    <string name="track_filter_time_order">Waktu tidak berurutan</string>
+    <string name="track_gps_accuracy">Akurasi GPS</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f kaki</string>
+    <string name="track_movement">Pergerakan</string>
+    <string name="track_movement_walking">berjalan</string>
+    <string name="track_movement_running">berlari</string>
+    <string name="track_movement_vehicle">kendaraan</string>
+    <string name="track_movement_stopped">berhenti</string>
+    <string name="track_movement_unknown">menentukan…</string>
+    <string name="track_altitude">Ketinggian</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f kaki · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Tekanan</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">Suhu lingkungan</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Lonjakan lingkungan</string>
+    <string name="track_sensor_unavailable">sensor tidak tersedia</string>
+    <string name="track_environment_note">Ketinggian barometrik dikalibrasi terhadap ketinggian GPS yang pertama. Sensor suhu pada ponsel jarang ada dan dapat terpengaruh panas perangkat.</string>
+    <string name="track_showing_last">Rute terakhir yang selesai sedang ditampilkan. Mulai merekam untuk membuat yang baru.</string>
+    <string name="track_history">Rute tersimpan</string>
+    <string name="track_history_note">Rute dan telemetri sensor lengkap disimpan secara lokal dan disertakan dalam ekspor data.</string>
+    <plurals name="track_history_points">
+        <item quantity="other">%1$d titik diterima</item>
+    </plurals>
+</resources>

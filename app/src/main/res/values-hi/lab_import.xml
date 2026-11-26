@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">फ़ोटो या PDF पढ़ें</string>
+    <string name="lab_import_review">तारीख, मान और इकाइयाँ मूल से मिलाएँ। केवल खाली फ़ील्ड भरी जाती हैं। फ़ॉर्म सहेजने पर ही परिणाम सहेजे जाएँगे।</string>
+    <string name="lab_import_empty">समर्थित परिणाम नहीं पहचाने गए। अधिक स्पष्ट चित्र आज़माएँ या हाथ से भरें।</string>
+    <string name="lab_import_veterinary">यह पशु चिकित्सा रिपोर्ट लगती है। इसे मानव जाँच परिणामों में नहीं भरा जा सकता।</string>
+    <string name="lab_import_error">फ़ाइल पढ़ी नहीं गई। चित्र या बिना पासवर्ड का PDF चुनें (अधिकतम 20 पृष्ठ, 32 MB)।</string>
+    <string name="lab_import_password">यह PDF सुरक्षित है। इसे पढ़ने के लिए पासवर्ड दर्ज करें।</string>
+    <string name="lab_import_date_unknown">नमूना लेने की तारीख नहीं पहचानी गई। फ़ॉर्म में तारीख जाँचें।</string>
+    <string name="lab_import_date_conflict">इस पृष्ठ की तारीख अलग है। पहले मौजूदा परिणाम सहेजें या मिटाएँ।</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">अनसुलझे संकेतक: %1$d</string>
+</resources>

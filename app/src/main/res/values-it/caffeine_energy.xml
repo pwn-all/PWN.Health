@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Calorie in una tazza</string>
+    <string name="caffeine_energy_help_body">Le calorie si riferiscono alla bevanda appena preparata, secondo USDA FoodData Central: tè nero e caffè, un espresso, matcha sbattuto in acqua e un cappuccino con latte parzialmente scremato — con latte intero è circa un quinto in più. Latte, panna, zucchero e sciroppo aggiunti nella tazza si sommano e vengono registrati come cibo. Un cappuccino viene salvato come cibo insieme alla sua caffeina: le sue calorie contano nel cibo della giornata, ma non vale come pasto. Le altre tazze arrivano a poche calorie e restano solo una registrazione di caffeina.</string>
+</resources>

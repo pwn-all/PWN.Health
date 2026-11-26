@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  initialLayout is what the host paints between the moment the widget is placed — or the moment the
+  phone finishes booting, since system_server keeps no RemoteViews across a boot — and the first
+  provideGlance that a cold process plus a Room read can produce. Without it the field is 0,
+  AppWidgetHostView.getDefaultView() inflates resource id 0, and the caught NotFoundException drops
+  the host through to getErrorView(): the platform's "Problem loading widget" tile. On placement the
+  APPWIDGET_UPDATE the system sends clears that as soon as provideGlance returns; after a boot it can
+  stand, because BootReceiver starts nothing on a phone with no pedometer or no step permission and
+  no write is then left to redraw the widget until updatePeriodMillis below comes round half an hour
+  later.
+
+  It points at a face built like this widget's preview, the same frame and type, with the preview's
+  sample count swapped for a dash and its sample goal for the unit, so the tile that lands is the
+  tile the picker showed without a plausible day on it: that face can stand for half an hour after
+  a boot, and a count painted there reads as the person's own. Every provider here declares a first
+  frame of the same kind: its preview where the preview holds no figure, a figure-free twin of it
+  where it does, each on its own ground.
+  Glance ships a neutral glance_default_loading_layout, but that would give this widget a first
+  paint that matches neither its preview nor the other providers'.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="110dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:description="@string/widget_steps_description"
+    android:initialLayout="@layout/widget_initial_steps"
+    android:previewLayout="@layout/widget_preview_steps"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

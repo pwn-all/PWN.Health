@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Odczytaj zdjęcie lub PDF</string>
+    <string name="lab_import_review">Porównaj datę, wartości i jednostki z oryginałem. Wypełniane są tylko puste pola. Wyniki zapiszesz, zapisując formularz.</string>
+    <string name="lab_import_empty">Nie rozpoznano obsługiwanych wyników. Spróbuj wyraźniejszego zdjęcia lub wpisz je ręcznie.</string>
+    <string name="lab_import_veterinary">To wygląda na wynik weterynaryjny. Nie można go użyć jako wyników człowieka.</string>
+    <string name="lab_import_error">Nie można odczytać pliku. Wybierz obraz lub PDF bez hasła (do 20 stron, 32 MB).</string>
+    <string name="lab_import_password">Ten PDF jest chroniony. Wpisz hasło, aby go odczytać.</string>
+    <string name="lab_import_date_unknown">Nie rozpoznano daty pobrania. Sprawdź datę w formularzu.</string>
+    <string name="lab_import_date_conflict">Ta strona ma inną datę. Najpierw zapisz lub usuń bieżące wyniki.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Nierozstrzygnięte wskaźniki: %1$d</string>
+</resources>

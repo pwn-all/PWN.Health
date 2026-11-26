@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">다른 운동 추가</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">지속 시간(분:초)</string>
+    <string name="workout_discard_title">운동 계획을 닫을까요?</string>
+    <string name="workout_discard_body">변경한 내용과 운동 진행 상황이 사라집니다.</string>
+    <string name="workout_discard_confirm">저장하지 않고 닫기</string>
+    <string name="workout_correction_leave_title">저장하지 않고 닫을까요?</string>
+    <string name="workout_correction_leave_body">이 운동에서 변경한 내용이 아직 저장되지 않았습니다. 유지하려면 「%1$s」을(를) 누른 다음 「%2$s」을(를) 누르세요.</string>
+</resources>

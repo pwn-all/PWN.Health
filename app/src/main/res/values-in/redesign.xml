@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kkal</string>
+    <string name="burn_sources">Pengeluaran energi</string>
+    <string name="burn_overlap_note">Jalan kaki dan lari yang dicatat sebagai latihan sudah masuk ke baris langkah agar tidak terhitung dua kali.</string>
+    <string name="burn_rest_so_far">Istirahat sejak awal hari</string>
+    <string name="burn_total_so_far">Total terbakar sejak awal hari</string>
+    <string name="burn_active">aktivitas, kkal</string>
+    <string name="food_history">Riwayat makan</string>
+    <string name="food_history_empty">Belum ada makanan yang dicatat hari ini.</string>
+    <string name="activity_times">Waktu aktivitas</string>
+    <string name="activity_times_empty">Tidak ada aktivitas bertanda waktu pada hari ini.</string>
+    <string name="visit_history">Riwayat kunjungan</string>
+    <string name="visit_history_empty">Kunjungan dokter yang sudah selesai akan muncul di sini.</string>
+    <string name="calendar_schedule">Jadwal</string>
+    <string name="calendar_add_event">Tambah</string>
+    <string name="calendar_expand_month">Tampilkan bulan</string>
+    <string name="calendar_collapse_month">Sembunyikan bulan</string>
+    <string name="calendar_day_summary">Ringkasan hari</string>
+    <string name="events_all">Semua catatan</string>
+    <string name="events_filter">Saring catatan</string>
+    <string name="events_other">Catatan lain</string>
+    <string name="events_no_matches">Tidak ada catatan seperti itu bulan ini.</string>
+    <string name="steps_in_interval">Langkah pada %1$s</string>
+    <string name="metric_goal_reached">Target tercapai</string>
+    <string name="workout_did_it">Berhasil?</string>
+    <string name="workout_actual_reps">Berapa repetisi yang selesai?</string>
+    <string name="answer_yes">Ya</string>
+    <string name="answer_no">Tidak</string>
+    <string name="visit_recent">Kunjungan terakhir</string>
+    <string name="visit_show_all">Tampilkan semua</string>
+    <string name="visit_all_specialties">Semua spesialisasi</string>
+    <string name="visit_all_doctors">Semua dokter</string>
+    <string name="visit_all_time">Sepanjang waktu</string>
+    <string name="steps_hourly_title">Aktivitas per jam</string>
+    <string name="steps_activity_label">aktivitas</string>
+    <string name="steps_distance_title">Jarak tempuh</string>
+    <string name="steps_pace_title">Tempo rata-rata</string>
+    <string name="steps_time_title">Total waktu</string>
+    <string name="steps_distance_note">Jarak diperkirakan dari jumlah langkah hari ini dan tinggi badan di profil Anda.</string>
+    <string name="steps_no_sensor">Ponsel ini tidak punya sensor penghitung langkah, jadi aplikasi tidak menghitungnya sendiri. Langkah tetap bisa datang dari Health Connect atau dari perangkat yang terhubung.</string>
+    <string name="steps_still_title">Rentang diam terpanjang</string>
+    <string name="steps_still_note">Satu jam dihitung bergerak bila ponsel ini menghitung setidaknya 100 langkah di dalamnya — sekitar satu menit jalan kaki, irama yang sama seperti yang diasumsikan waktu di atas. Rentangnya diukur mulai dari jam pertama yang bergerak, sehingga tidur semalam tidak terhitung sebagai duduk. Jam ditandai pada saat langkah dicatat masuk, bukan pada saat langkah itu dilakukan, sehingga sekumpulan langkah yang sempat ditahan ponsel dapat jatuh ke jam sesudahnya dan membuat sebuah rentang tampak lebih panjang daripada yang sebenarnya.\n\nYang dihitung di sini adalah jam tanpa jalan kaki, bukan waktu duduk atau berdiri. Tidak ada sensor Android yang bisa membedakan tubuh yang duduk dari tubuh yang tegak, dan Health Connect tidak punya jenis catatan untuk keduanya, jadi tidak ada apa pun di sini yang dikirim ke sana. Ponsel yang tergeletak di meja tidak menghitung apa pun, entah Anda duduk di depannya, berdiri di sebelahnya, atau tidak berada di ruangan itu.</string>
+    <string name="steps_route_note">Tanpa rute, waktu diperkirakan dari 100 langkah per menit, dan jarak dihitung dari langkah serta tinggi badan Anda. Ini sebuah asumsi, bukan irama langkah yang terukur. Tempo ditimbang menurut jarak: total waktu bergerak dibagi total jarak.\n\nRute yang selesai menyumbang waktu bergeraknya (tanpa berhenti) dan jaraknya. Rekaman yang bertumpang tindih digabungkan; pada tiap jam, hanya langkah di luar jarak yang terekam yang menambah perkiraan waktu. Total harian dari perangkat dicocokkan untuk keseluruhan hari.\n\nTanda ≈ berarti perkiraan. Total per jam tidak dapat menentukan waktu persis tiap langkah atau memisahkan aktivitas yang bertumpang tindih secara tepat.</string>
+    <string name="steps_chart_thousands">%1$srb</string>
+    <string name="home_stat_walks">jalan kaki</string>
+    <string name="burn_total_note">Aktivitas dan perkiraan energi istirahat untuk bagian hari yang sudah berlalu.</string>
+    <string name="burn_daily_estimate">Saat istirahat selama 24 jam: ≈ %1$s kkal</string>
+    <string name="burn_explanation_title">Cara menghitung energi istirahat</string>
+    <string name="burn_explanation_body">Perkiraan harian memakai rumus Mifflin–St Jeor dan data profil Anda: berat, tinggi, usia, dan jenis kelamin. Angka ini memperkirakan energi yang dibutuhkan saat istirahat, tanpa jalan kaki atau latihan.\n\nEnergi istirahat sejak awal hari = perkiraan harian × menit sejak tengah malam ÷ 1.440. Hanya bagian yang sudah berlalu ini yang masuk ke total hari ini; aktivitas ditambahkan terpisah. Perkiraan untuk sehari penuh tidak ditambahkan lagi. Pengeluaran sebenarnya bisa berbeda.</string>
+    <string name="home_good_morning">Selamat pagi</string>
+    <string name="home_good_afternoon">Selamat siang</string>
+    <string name="home_good_evening">Selamat malam</string>
+    <string name="home_good_night">Selamat istirahat</string>
+    <string-array name="home_motivations">
+        <item>Selangkah lagi menuju tujuan</item>
+        <item>Setiap langkah berarti</item>
+        <item>Langkah kecil, hasil besar</item>
+        <item>Hari ini kesempatan baru</item>
+        <item>Bergerak adalah hidup</item>
+        <item>Sehat dimulai dari hal kecil</item>
+    </string-array>
+    <string name="home_focus">Fokus hari ini</string>
+    <string name="home_focus_headline">Konsistensi membuahkan hasil.</string>
+    <string name="home_focus_message">Jalani selangkah demi selangkah.</string>
+    <string name="widget_icon_count">Jumlah ikon</string>
+    <string name="level_details">Level dan XP</string>
+    <string name="level_screen_title">Level saya</string>
+    <string name="level_sources">Sumber XP</string>
+    <string name="level_to_next">ke level berikutnya</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Level %1$d</string>
+    <string name="level_year_xp">%1$s XP tahun ini</string>
+    <string name="level_max">Level maksimum tercapai</string>
+    <string name="level_opens">Membuka aplikasi</string>
+    <string name="level_steps">Langkah</string>
+    <string name="level_meals">Catatan makanan</string>
+    <string name="level_workouts">Hari berlatih</string>
+    <string name="level_visits">Kunjungan selesai</string>
+    <string name="level_medals">Medali</string>
+    <string name="nutrition_unlogged_title">Belum ada makanan tercatat hari ini</string>
+    <string name="nutrition_unlogged_body">Jika Anda sudah makan, tambahkan ke jurnal. Jika belum, luangkan waktu untuk makan yang seimbang; makan teratur penting pada mode target mana pun.</string>
+    <string name="nutrition_tracking_low_title">Baru sedikit makanan yang tercatat</string>
+    <string name="nutrition_tracking_low_body">Jurnal Anda menunjukkan %1$s%% dari target kalori hari ini. Periksa apakah ada makan yang belum dicatat. Jika catatannya sudah lengkap, rencanakan makan seimbang dengan protein, karbohidrat, dan sayur.</string>
+    <string name="nutrition_lose_low_title">Menurunkan berat badan tetap butuh makan</string>
+    <string name="nutrition_lose_low_body">Baru %1$s%% dari target hari ini yang tercatat. Menurunkan berat badan tidak berarti menahan lapar: jika jurnalnya sudah lengkap, makanlah dengan cukup dan tetap makan teratur.</string>
+    <string name="nutrition_gain_low_title">Asupan belum cukup untuk target penambahan</string>
+    <string name="nutrition_gain_low_body">Anda mencatat %1$s%% dari target hari ini. Periksa jurnalnya, lalu pertimbangkan satu lagi makan seimbang atau camilan berprotein. Tingkatkan asupan secara bertahap, tanpa memaksakan diri makan.</string>
+    <string name="nutrition_lose_over_title">Target kalori hari ini terlampaui</string>
+    <string name="nutrition_lose_over_body">Jurnal Anda menunjukkan %1$s%% dari target penurunan berat badan hari ini. Pertimbangkan porsi dan rasa lapar saat merencanakan makan berikutnya. Jangan menebusnya dengan berpuasa atau melewatkan makan.</string>
+    <string name="nutrition_gain_over_title">Jauh di atas target penambahan</string>
+    <string name="nutrition_gain_over_body">Jurnal Anda menunjukkan %1$s%% dari target penambahan hari ini, yang sudah memuat surplus. Periksa porsi dan catatannya; tidak perlu memaksakan makan tambahan. Lanjutkan makan teratur dan seimbang.</string>
+    <string name="nutrition_tracking_over_title">Di atas panduan kalori hari ini</string>
+    <string name="nutrition_tracking_over_body">Jurnal Anda menunjukkan %1$s%% dari panduan kalori hari ini. Periksa porsi dan catatan ganda. Satu hari saja tidak menggambarkan pola makan Anda yang biasa.</string>
+    <string name="nutrition_fat_title">Lemak mengambil bagian besar hari ini</string>
+    <string name="nutrition_fat_body">Sekitar %1$s%% kalori yang tercatat berasal dari lemak. Seimbangkan makan berikutnya dengan protein, sayur, dan biji-bijian utuh. Lemak juga punya tempat dalam pola makan yang beragam; jenisnya yang menentukan.</string>
+    <string name="nutrition_saturated_title">Lemak jenuh di atas panduan harian</string>
+    <string name="nutrition_saturated_body">Lemak jenuh yang tercatat sudah melebihi 10%% dari target energi hari ini. Untuk makan berikutnya, sebagian sumbernya bisa diganti dengan ikan, kacang-kacangan, atau minyak nabati tak jenuh.</string>
+    <string name="nutrition_protein_title">Periksa protein untuk target penambahan</string>
+    <string name="nutrition_protein_body">Energi yang tercatat sudah mendekati target Anda, sedangkan proteinnya kurang dari separuh panduan harian aplikasi. Pertimbangkan sumber protein seperti kacang-kacangan, ikan, telur, tahu, atau produk susu pada makan berikutnya.</string>
+    <string name="nutrition_source">NHS / WHO; ambang saran ditetapkan oleh aplikasi</string>
+    <!-- Singkatan satu huruf untuk makronutrien pada baris makanan; tiap huruf dapat diketuk dan menyebut kata utuhnya. -->
+    <string name="food_macro_letter_protein">P</string>
+    <string name="food_macro_letter_fat">L</string>
+    <string name="food_macro_letter_carbs">K</string>
+</resources>

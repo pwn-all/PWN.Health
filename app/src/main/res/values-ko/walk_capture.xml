@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_photo_take">이곳 사진 찍기</string>
+    <string name="walk_photo_saved">사진이 저장되었습니다</string>
+    <string name="walk_photo_failed">사진을 저장하지 못했습니다</string>
+    <string name="walk_photo_no_camera">카메라 앱이 없습니다</string>
+</resources>

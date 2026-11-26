@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Festa del lattato</item>
+        <item>Passeggiata al tramonto</item>
+        <item>A caccia di salite</item>
+        <item>Di corsa al bar</item>
+        <item>Poesia sull’asfalto</item>
+        <item>Safari urbano</item>
+        <item>Boccata d’aria</item>
+        <item>Deviazione di lusso</item>
+        <item>Ronda delle pozzanghere</item>
+        <item>Giro all’ora dorata</item>
+        <item>Carica a mille</item>
+        <item>Inseguendo la brezza</item>
+        <item>Saga del marciapiede</item>
+        <item>Mangiachilometri</item>
+        <item>Testa tra le nuvole</item>
+        <item>Vista mozzafiato</item>
+        <item>Piccola avventura</item>
+        <item>Spesa di endorfine</item>
+        <item>Collaudo panchine</item>
+        <item>Andatura fiera</item>
+        <item>La strada più lunga</item>
+        <item>A briglia sciolta</item>
+        <item>Chilometri in silenzio</item>
+        <item>Leg day all’aperto</item>
+        <item>Andando a zonzo</item>
+        <item>Per schiarirsi le idee</item>
+        <item>Sinfonia di passi</item>
+        <item>Di buon passo</item>
+        <item>Merenda guadagnata</item>
+        <item>Parata dei piccioni</item>
+        <item>Niente scorciatoie</item>
+        <item>Giro d’onore</item>
+        <item>Anima a spasso</item>
+        <item>Ciao, aria fresca</item>
+        <item>Giretto del weekend</item>
+        <item>Spedizione tascabile</item>
+        <item>Pattuglia dell’alba</item>
+        <item>Crociera cardio</item>
+        <item>Scarabocchio sulla mappa</item>
+        <item>Pensieri in cammino</item>
+    </string-array>
+</resources>

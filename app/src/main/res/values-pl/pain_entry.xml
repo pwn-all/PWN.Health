@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">Mniej więcej tydzień temu</string>
+    <string name="pain_onset_about_month">Mniej więcej miesiąc temu</string>
+    <string name="pain_onset_more_than_month">Ponad miesiąc temu</string>
+    <string name="pain_area_search">Szukaj miejsca</string>
+    <string name="pain_area_search_empty">Nie ma miejsca o tej nazwie</string>
+    <string name="pain_save_needs_area">Aby zapisać, zaznacz, gdzie boli</string>
+    <string name="pain_save_needs_answer">Bez odpowiedzi: %1$s</string>
+</resources>

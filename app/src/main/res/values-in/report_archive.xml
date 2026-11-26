@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Dengan berkas</string>
+    <string name="report_archive_hint">ZIP memuat laporan PDF dan berkas asli yang dilampirkan pada kunjungan yang dihadiri, pemeriksaan laboratorium dan pengobatan dari bagian dan periode yang dipilih: USG, rontgen, CT, MRI, USG Doppler dan dokumen lain. Daftar berkas mencantumkan catatan dan tanggal untuk setiap lampiran.</string>
+    <string name="report_archive_preview">Berkas asli yang dilampirkan: %1$d. ZIP memuat PDF beserta semua berkas ini secara utuh.</string>
+    <string name="report_archive_index_header">Berkas\tTanggal catatan\tBagian\tCatatan\tJenis\tTanggal pemeriksaan\tKeterangan</string>
+    <string name="report_archive_unavailable">Tidak dapat membaca lampiran %1$s. Pulihkan akses ke berkas aslinya, lalu coba ekspor lagi.</string>
+    <string name="report_visits_patient_notes">Kunjungan yang dihadiri dan catatan konsultasi, sebagaimana disebutkan pasien.</string>
+</resources>

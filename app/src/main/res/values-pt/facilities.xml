@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Locais perto de mim</string>
+    <string name="facility_locating">Descobrindo onde você está…</string>
+    <string name="facility_denied">O acesso à localização não foi permitido, então a lista não pode ser ordenada por distância. Você ainda pode digitar um nome.</string>
+    <string name="facility_location_off">A localização está desligada neste telefone.</string>
+    <string name="facility_location_settings">Configurações de localização</string>
+    <string name="facility_no_fix">O telefone não conseguiu descobrir onde você está agora. Tente de novo daqui a pouco.</string>
+    <string name="facility_nothing_near">Nada na lista a menos de %1$s de você.</string>
+    <string name="facility_list_title">Clínicas e hospitais</string>
+    <string name="facility_near_title">Perto de você</string>
+    <string name="facility_near_kind">Perto de você: %1$s</string>
+    <string name="facility_near_gynaecology">Perto de você: ginecologia</string>
+    <string name="facility_near_imaging">Perto de você: diagnóstico por imagem</string>
+    <string name="facility_near_gastroenterology">Perto de você: gastroenterologia</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">De onde vêm estes locais</string>
+    <string name="facility_help_what">As sugestões vêm de cadastros oficiais de estabelecimentos de saúde. A lista fica dentro do aplicativo, e a busca é feita neste telefone. Para o aplicativo, os cadastros foram filtrados para os locais que um paciente pode procurar, e os tipos de atendimento foram reagrupados nos tipos de médico que o aplicativo conhece. O botão de localização no fim do campo “Local” lista apenas os locais que oferecem o atendimento escolhido para esta consulta, ou todos os locais quando a consulta é com outro médico; digitar um nome busca em todos eles.</string>
+    <string name="facility_help_screening">Para um exame de rastreamento, a lista mostra as especialidades em que ele costuma ser feito: ginecologia para o preventivo do colo do útero, diagnóstico por imagem para a mamografia, gastroenterologia para o rastreamento do câncer de intestino. Um cadastro não informa se o próprio setor faz esse exame, por isso pergunte ao agendar.</string>
+    <string name="facility_help_coverage">A lista abrange a Tchéquia, a Ucrânia e os Emirados Árabes Unidos. Na Ucrânia, ela traz apenas locais com contrato com o Serviço Nacional de Saúde da Ucrânia. Nos Emirados, ela traz o cadastro de Dubai na edição de dezembro de 2023, os locais licenciados de Abu Dhabi tal como foram mapeados em 2022 e continuam mapeados em 2026, e os hospitais e centros de saúde públicos da Emirates Health Services; as clínicas particulares de Sharjah, Ajman, Umm al-Quwain, Ras al-Khaimah e Fujairah não estão na lista. Um cadastro pode estar desatualizado: confirme com o local antes de ir.</string>
+    <string name="facility_help_location">O botão de localização pede ao Android a sua localização aproximada uma única vez e a arredonda para cerca de um quilômetro. Ela é usada neste telefone para ordenar a lista, nunca é salva nem enviada a lugar nenhum e é esquecida quando você sai desta página.</string>
+    <string name="facility_help_sources">Fontes</string>
+</resources>

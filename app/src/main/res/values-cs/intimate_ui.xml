@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">Sex</string>
+    <string name="intimate_anything_to_add">Chcete něco doplnit?</string>
+    <string name="intimate_history_title">Historie</string>
+    <string name="intimate_history_empty">Zatím nic zapsáno.</string>
+    <string name="intimate_act_title">Upravit záznam</string>
+    <string name="intimate_act_kind">Co to bylo</string>
+    <string name="intimate_act_day">Den</string>
+    <string name="intimate_act_time">Čas</string>
+    <string name="intimate_act_time_unrecorded">U tohoto záznamu není uveden čas.</string>
+    <string name="intimate_flash_changed">Změněno</string>
+    <string name="intimate_flash_deleted">Smazáno</string>
+    <string name="intimate_charts_title">Grafy</string>
+    <string name="intimate_woke_at">Čas probuzení</string>
+    <string name="intimate_woke_by_unset">Neuvedeno</string>
+    <string name="intimate_woke_phone">Probuzení v %1$s · první použití telefonu</string>
+</resources>

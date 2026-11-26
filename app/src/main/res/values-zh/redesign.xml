@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s 千卡</string>
+    <string name="burn_sources">消耗的构成</string>
+    <string name="burn_overlap_note">记为锻炼的步行和跑步已计入步数一行，以免重复计算。</string>
+    <string name="burn_rest_so_far">今天的静息消耗</string>
+    <string name="burn_total_so_far">今天已消耗合计</string>
+    <string name="burn_active">活动，千卡</string>
+    <string name="food_history">饮食历史</string>
+    <string name="food_history_empty">今天还没有记录饮食。</string>
+    <string name="activity_times">活动时间</string>
+    <string name="activity_times_empty">这一天没有带时间的活动记录。</string>
+    <string name="visit_history">就诊历史</string>
+    <string name="visit_history_empty">已完成的就诊会出现在这里。</string>
+    <string name="calendar_schedule">日程</string>
+    <string name="calendar_add_event">添加</string>
+    <string name="calendar_expand_month">显示整月</string>
+    <string name="calendar_collapse_month">收起整月</string>
+    <string name="calendar_day_summary">当天小结</string>
+    <string name="events_all">全部事件</string>
+    <string name="events_filter">筛选事件</string>
+    <string name="events_other">其他事件</string>
+    <string name="events_no_matches">本月没有符合的事件。</string>
+    <string name="steps_in_interval">%1$s 的步数</string>
+    <string name="metric_goal_reached">已达成目标</string>
+    <string name="workout_did_it">做到了吗？</string>
+    <string name="workout_actual_reps">实际完成了多少次？</string>
+    <string name="answer_yes">是</string>
+    <string name="answer_no">否</string>
+    <string name="visit_recent">最近的就诊</string>
+    <string name="visit_show_all">显示全部</string>
+    <string name="visit_all_specialties">所有科室</string>
+    <string name="visit_all_doctors">所有医生</string>
+    <string name="visit_all_time">全部时间</string>
+    <string name="steps_hourly_title">每小时活动</string>
+    <string name="steps_activity_label">活动</string>
+    <string name="steps_distance_title">步行距离</string>
+    <string name="steps_pace_title">平均配速</string>
+    <string name="steps_time_title">总时间</string>
+    <string name="steps_distance_note">距离是按今天的步数和资料里的身高估算的。</string>
+    <string name="steps_no_sensor">这台手机没有计步传感器，因此应用自己不计步。步数仍然可以来自 Health Connect 或已连接的设备。</string>
+    <string name="steps_still_title">最长无步行时段</string>
+    <string name="steps_still_note">一个小时里这台手机数到至少 100 步，这个小时才算作有移动——大约相当于一分钟的步行，和上面的时间所用的步频一样。这段时长从第一个有移动的小时算起，因此一夜的睡眠不会被算成久坐。步数算在哪个小时，取决于它被记入的时刻，而不是实际走出去的时刻，因此手机暂时扣下、稍后才交出的一批步数会落进靠后的小时里，让这段时长显得比实际更长。\n\n这里数的是没有步行的小时，不是坐着或站着的时间。Android 上没有哪个传感器能分辨一个人是坐着还是站着，Health Connect 里也没有这两者的记录，因此这里的内容不会写入其中。放在桌上的手机什么也数不到，无论你是坐在桌前、站在桌前，还是人不在房间里。</string>
+    <string name="steps_route_note">没有路线时，时间按每分钟 100 步估算，距离由步数和你的身高得出。这是一个假设，不是实测的步频。平均配速按距离加权：总移动时间除以总距离。\n\n已完成的路线提供自己的移动时间（不含停留）和距离。相互重叠的记录会合并；在每个小时里，只有超出已记录距离的那部分步数才会加上估算的时间。设备的当日总量按整天来核对。\n\n≈ 表示估算值。按小时的合计无法确定每一步的准确时间，也无法把相互重叠的活动精确分开。</string>
+    <string name="steps_chart_thousands">%1$s千</string>
+    <string name="home_stat_walks">步行</string>
+    <string name="burn_total_note">今天已过去的这部分时间里的活动消耗，加上估算的静息消耗。</string>
+    <string name="burn_daily_estimate">全天静息：≈ %1$s 千卡</string>
+    <string name="burn_explanation_title">静息消耗怎么算</string>
+    <string name="burn_explanation_body">全天估算采用 Mifflin–St Jeor 公式，以及资料里的体重、身高、年龄和性别。它估算的是身体在静息状态下所需的能量，不含步行和锻炼。\n\n到目前为止的静息消耗 = 全天估算 × 从零点算起的分钟数 ÷ 1440。计入今天总量的只有这一部分，活动另行相加。全天的估算不会再加一次。实际消耗可能有出入。</string>
+    <string name="home_good_morning">早上好</string>
+    <string name="home_good_afternoon">下午好</string>
+    <string name="home_good_evening">晚上好</string>
+    <string name="home_good_night">晚安</string>
+    <string-array name="home_motivations">
+        <item>稳步走向目标</item>
+        <item>每一步都算数</item>
+        <item>积小步，行远路</item>
+        <item>今天又是新的机会</item>
+        <item>生命在于运动</item>
+        <item>健康从小事做起</item>
+    </string-array>
+    <string name="home_focus">今天的重点</string>
+    <string name="home_focus_headline">坚持下去，就会有结果。</string>
+    <string name="home_focus_message">一步一步来。</string>
+    <string name="widget_icon_count">图标数量</string>
+    <string name="level_details">等级和 XP</string>
+    <string name="level_screen_title">我的等级</string>
+    <string name="level_sources">经验来源</string>
+    <string name="level_to_next">距下一等级</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">等级 %1$d</string>
+    <string name="level_year_xp">今年 %1$s XP</string>
+    <string name="level_max">已达到最高等级</string>
+    <string name="level_opens">每日打开</string>
+    <string name="level_steps">步数</string>
+    <string name="level_meals">饮食记录</string>
+    <string name="level_workouts">锻炼天数</string>
+    <string name="level_visits">已完成的就诊</string>
+    <string name="level_medals">奖章</string>
+    <string name="nutrition_unlogged_title">今天还没有记录饮食</string>
+    <string name="nutrition_unlogged_body">已经吃过了，就把它加进日记。还没吃，就给自己留出时间好好吃一顿：无论哪种目标，规律进食都很重要。</string>
+    <string name="nutrition_tracking_low_title">今天记录的饮食还很少</string>
+    <string name="nutrition_tracking_low_body">日记里是今天热量目标的 %1$s%%。看看有没有漏记的。如果记录是完整的，就安排一顿有蛋白质、碳水和蔬菜的正餐。</string>
+    <string name="nutrition_lose_low_title">减重也需要吃够</string>
+    <string name="nutrition_lose_low_body">只记录了今天目标的 %1$s%%。减重不等于挨饿：如果日记已经记全，就好好吃一顿，并保持规律进食。</string>
+    <string name="nutrition_gain_low_title">离增重目标还有空间</string>
+    <string name="nutrition_gain_low_body">已记录今天目标的 %1$s%%。检查一下日记，再考虑一顿正餐或一次带蛋白质的加餐。把量慢慢加上去，不必勉强自己吃。</string>
+    <string name="nutrition_lose_over_title">今天的热量目标已超出</string>
+    <string name="nutrition_lose_over_body">日记里是今天减重目标的 %1$s%%。安排下一餐时，把分量和饥饿感一起考虑进去。不要用断食或漏餐来补回。</string>
+    <string name="nutrition_gain_over_title">明显高于增重目标</string>
+    <string name="nutrition_gain_over_body">日记里是今天增重目标的 %1$s%%，而这个目标本身已经留了盈余。检查分量和记录；不必再勉强多吃。继续规律、均衡地吃就好。</string>
+    <string name="nutrition_tracking_over_title">高于今天的热量参考</string>
+    <string name="nutrition_tracking_over_body">日记里是今天热量参考的 %1$s%%。检查分量，以及有没有重复的记录。单独一天说明不了你平时的饮食。</string>
+    <string name="nutrition_fat_title">记录里脂肪占比偏高</string>
+    <string name="nutrition_fat_body">已记录热量中约 %1$s%% 来自脂肪。接下来几餐用蛋白质、蔬菜和全谷物来平衡。脂肪在多样的饮食里也有位置，关键是种类。</string>
+    <string name="nutrition_saturated_title">饱和脂肪高于每日参考</string>
+    <string name="nutrition_saturated_body">已记录的饱和脂肪已超过今天能量目标的 10%%。接下来几餐可以把一部分来源换成鱼、坚果或含不饱和脂肪的植物油。</string>
+    <string name="nutrition_protein_title">留意一下蛋白质</string>
+    <string name="nutrition_protein_body">热量已接近目标，而记录的蛋白质还不到应用每日参考的一半。下一餐可以加上豆类、鱼、鸡蛋、豆腐或乳制品。</string>
+    <string name="nutrition_source">NHS / WHO；提示的阈值由应用设定</string>
+    <string name="food_macro_letter_protein">蛋</string>
+    <string name="food_macro_letter_fat">脂</string>
+    <string name="food_macro_letter_carbs">碳</string>
+</resources>

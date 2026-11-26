@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">अन्य कसरतें</string>
+    <string name="routines_other_workouts_body">सिर्फ़ समय से: नृत्य, बास्केटबॉल, फ़ुटबॉल, पिलाटेस और भी</string>
+    <string name="routines_indoors">घर के अंदर</string>
+    <string name="routines_indoors_body">कदम और समय गिने जाते हैं</string>
+    <string name="routines_outdoors">बाहर</string>
+    <string name="routines_outdoors_body">“सैर / रूट” खुलता है और रास्ता नक्शे पर दर्ज होता है</string>
+    <string name="track_tracked">गिना गया</string>
+    <string name="track_burned">लगभग खर्च</string>
+    <string name="track_count_question">क्या गिनती सही है?</string>
+    <string name="track_count_fix">गिनती सुधारें</string>
+    <string name="track_count_interrupted">गिनती बीच में रुक गई — हाथ से दर्ज करें</string>
+    <string name="track_phone_title">फ़ोन कहाँ रखें</string>
+    <string name="track_phone_pocket">पैंट की जेब में या कमरबंद पर — यह हर बार ज़मीन पर उतरना गिनता है।</string>
+    <string name="track_phone_lift">पैंट की जेब में — यह हर दोहराव को ऊपर पहुँचने पर गिनता है, जहाँ शरीर धीमा होता है।</string>
+    <string name="track_phone_thigh">पैंट की आगे की जेब में, जांघ पर — यह हर दोहराव में जांघ का झुकाव गिनता है।</string>
+    <string name="track_phone_arm">ऊपरी बाँह पर स्पोर्ट्स आर्मबैंड में — यह हर दोहराव में बाँह का झुकाव गिनता है।</string>
+    <string name="track_phone_steps">जेब में या हाथ में — कदम पेडोमीटर गिनता है।</string>
+    <string name="track_phone_stairs">जेब में या हाथ में — कदम पेडोमीटर गिनता है, मंज़िलें बैरोमीटर।</string>
+    <string name="track_unit_jumps">छलाँग</string>
+    <string name="track_unit_floors">मंज़िल</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d छलाँग</item>
+        <item quantity="other">%1$d छलाँगें</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d कदम</item>
+        <item quantity="other">%1$d कदम</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d मंज़िल</item>
+        <item quantity="other">%1$d मंज़िलें</item>
+    </plurals>
+</resources>

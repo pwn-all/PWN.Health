@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: questo farmaco andava preso prima del pasto; l’assunzione non è segnata.</string>
+    <string name="med_reminder_with">%1$s: c’è un pasto registrato; questo farmaco si prende durante il pasto.</string>
+    <string name="med_reminder_needs_with_food">%1$s: questo farmaco si prende durante il pasto, ma non c’è ancora un pasto registrato.</string>
+    <string name="med_alarm_title">Sveglie per i farmaci</string>
+    <string name="med_alarm_dismiss">Spegni il suono</string>
+    <string name="med_alarm_open">Apri l’app</string>
+    <string name="med_alarm_not_taken">Spegnere il suono non segna il farmaco come assunto.</string>
+    <string name="med_alarm_settings_body">Le sveglie suonano fino a un minuto. Consenti orari esatti e visualizzazione sulla schermata di blocco. Senza questi permessi, i promemoria possono arrivare in ritardo o come notifiche. Pasti e acqua usano notifiche normali.</string>
+    <string name="med_alarm_exact_access">Consenti orari esatti</string>
+    <string name="med_alarm_full_screen_access">Consenti sveglie sulla schermata di blocco</string>
+    <string name="med_alarm_channel_muted">Il canale «%1$s» è silenziato nelle impostazioni di Android, quindi le assunzioni arrivano come notifiche normali, senza suonare.</string>
+    <string name="med_alarm_channel_open">Apri le impostazioni del canale</string>
+    <string name="reminder_food_title">È ora di mangiare?</string>
+    <string name="reminder_food_body">È ora di mangiare? O hai mangiato senza di me?</string>
+    <string name="reminder_water_title">Ricordati di bere</string>
+    <string name="reminder_water_body">Non dimenticare di bere liquidi. Aggiungi acqua.</string>
+    <string name="med_action_taken">L’ho preso</string>
+    <string name="med_action_later">Più tardi</string>
+</resources>

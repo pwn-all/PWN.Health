@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Kalorie v šálku</string>
+    <string name="caffeine_energy_help_body">Kalorie platí pro samotný připravený nápoj podle USDA FoodData Central: černý čaj a káva, espresso, matcha rozšlehaná ve vodě a cappuccino s polotučným mlékem — s plnotučným je to zhruba o pětinu víc. Mléko, smetana, cukr a sirup přidané do šálku se počítají navíc a zapisují se jako jídlo. Cappuccino se ukládá jako jídlo i s kofeinem: jeho kalorie se počítají do jídla za den, ale do počtu jídel se nezapočítává. Ostatní šálky mají jen pár kalorií a zůstávají pouze záznamem kofeinu.</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Bildschirmzeit</string>
+    <string name="screen_time_add_body">Zeit in sozialen Apps, Video, Messengern und Spielen, mit Pausen für Augen und Kopf</string>
+    <string name="screen_time_help">Wie lange soziale Apps und Feeds, Video, Messenger und Spiele heute und diese Woche auf dem Bildschirm waren, aus dem Nutzungsverlauf von Android. Die Erinnerungen für Augen und Kopf beobachten nur soziale Apps und Feeds; ein Wechsel zwischen ihnen ohne Pause zählt als eine Sitzung. Der Rest wird nur gezählt. Nichts wird ins Tagebuch geschrieben und nichts verlässt das Telefon.</string>
+    <string name="screen_time_channel">Bildschirmpausen</string>
+    <string name="screen_time_access_title">Nutzungszugriff nötig</string>
+    <string name="screen_time_access_body">Android verrät einer App nur mit Nutzungszugriff, wie lange andere Apps geöffnet waren. Die Schlafschätzung nutzt denselben Zugriff.</string>
+    <string name="screen_time_access_button">Nutzungszugriff öffnen</string>
+    <string name="screen_time_longest">Längste Sitzung ohne Pause: %1$s</string>
+    <string name="screen_time_over">Über %1$s</string>
+    <string name="screen_time_week">Letzte 7 Tage</string>
+    <string name="screen_time_week_average">Durchschnitt pro Tag: %1$s</string>
+    <string name="screen_time_eyes_switch">An müde Augen erinnern</string>
+    <string name="screen_time_eyes_switch_body">Nach langem Scrollen ohne Pause</string>
+    <string name="screen_time_brain_switch">Vor geistiger Belastung warnen</string>
+    <string name="screen_time_brain_switch_body">Wenn die Tageszeit in diesen Apps groß wird</string>
+    <string name="screen_time_tips_title">Erholung für Augen und Kopf</string>
+    <string name="screen_time_tip_eyes">Alle 20 Minuten 20 Sekunden lang auf etwas in 6 Metern Entfernung schauen.</string>
+    <string name="screen_time_tip_blink">Bewusst blinzeln: Vor dem Bildschirm blinzeln wir viel seltener, und die Augen trocknen aus.</string>
+    <string name="screen_time_tip_brain">Ein endloser Feed lenkt die Aufmerksamkeit alle paar Sekunden um. Ein kurzer Spaziergang oder ein paar langsame Atemzüge beruhigen den Kopf.</string>
+    <string name="screen_time_tip_night">Das Telefon eine Stunde vor dem Schlafen weglegen: Helle Bildschirme schieben den Schlaf nach hinten.</string>
+    <string name="screen_time_breathing">Atempause</string>
+    <string name="screen_time_eyes_title">Zeit, die Augen auszuruhen</string>
+    <string name="screen_time_eyes_body">%1$s seit %2$d Min. ohne Pause. Schau 20 Sekunden in die Ferne und blinzle ein paar Mal.</string>
+    <string name="screen_time_brain_title">Dein Kopf braucht eine Pause</string>
+    <string name="screen_time_brain_body">Heute %1$s in sozialen Apps und Feeds. Der endlose Feed ermüdet die Aufmerksamkeit: Leg das Telefon 10 Minuten weg, geh ein paar Schritte oder atme langsam.</string>
+    <string name="screen_time_feeds_title">Soziale Netzwerke und Feeds</string>
+    <string name="screen_time_video_title">Video und Streaming</string>
+    <string name="screen_time_messengers_title">Messenger</string>
+    <string name="screen_time_games_title">Spiele</string>
+    <string name="screen_time_category_longest">Längste Sitzung: %1$s</string>
+    <string name="screen_time_category_week">Letzte 7 Tage: %1$s, im Schnitt %2$s pro Tag</string>
+    <string name="screen_time_tracked_note">Nur gezählt, ohne Erinnerungen.</string>
+    <string name="screen_time_none_today">Heute nicht geöffnet</string>
+</resources>

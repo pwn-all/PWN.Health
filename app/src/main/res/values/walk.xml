@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A walk's name, drawn at random when its recording starts and kept with the route. Light-hearted
+         and short: the name is the walk page's title. Translations are free, not literal — a name
+         that sounds like a name in the language beats a faithful pun. At most 28 characters each,
+         the same count in every language (WalkNamesTest). -->
+    <string-array name="walk_names">
+        <item>Lactate party</item>
+        <item>Sunset stroll</item>
+        <item>Hill hunter</item>
+        <item>Coffee run</item>
+        <item>Pavement poetry</item>
+        <item>Urban safari</item>
+        <item>Fresh air therapy</item>
+        <item>Detour deluxe</item>
+        <item>Puddle patrol</item>
+        <item>Golden hour loop</item>
+        <item>Big walk energy</item>
+        <item>Breeze chaser</item>
+        <item>Sidewalk saga</item>
+        <item>Mile muncher</item>
+        <item>Cloud spotter</item>
+        <item>Scenic route</item>
+        <item>Tiny adventure</item>
+        <item>Endorphin errand</item>
+        <item>Bench inspector</item>
+        <item>Stride pride</item>
+        <item>The long way round</item>
+        <item>Footloose</item>
+        <item>Quiet miles</item>
+        <item>Leg day out</item>
+        <item>Wander mode</item>
+        <item>Head-clearing hike</item>
+        <item>Step symphony</item>
+        <item>Brisk business</item>
+        <item>Snack-earning loop</item>
+        <item>Pigeon parade</item>
+        <item>Shortcut skeptic</item>
+        <item>Lap of honour</item>
+        <item>Sole searching</item>
+        <item>Hello, fresh air</item>
+        <item>Weekend wander</item>
+        <item>Pocket expedition</item>
+        <item>Dawn patrol</item>
+        <item>Cardio cruise</item>
+        <item>Map doodle</item>
+        <item>Thinking walk</item>
+    </string-array>
+</resources>

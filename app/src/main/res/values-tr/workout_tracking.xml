@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Diğer antrenmanlar</string>
+    <string name="routines_other_workouts_body">Yalnızca süre: dans, basketbol, futbol, pilates ve daha fazlası</string>
+    <string name="routines_indoors">Kapalı alanda</string>
+    <string name="routines_indoors_body">Adımlar ve süre sayılır</string>
+    <string name="routines_outdoors">Açık havada</string>
+    <string name="routines_outdoors_body">Haritada yolu kaydetmek için “Yürüyüş / Rota” açılır</string>
+    <string name="track_tracked">Sayılan</string>
+    <string name="track_burned">Yaklaşık harcanan</string>
+    <string name="track_count_question">Doğru saydık mı?</string>
+    <string name="track_count_fix">Sayıyı düzeltin</string>
+    <string name="track_count_interrupted">Sayım kesintiye uğradı — elle girin</string>
+    <string name="track_phone_title">Telefon nerede durmalı</string>
+    <string name="track_phone_pocket">Pantolon cebinde ya da belde — her inişi sayar.</string>
+    <string name="track_phone_lift">Pantolon cebinde — her tekrarı vücudun yavaşladığı en üst noktada sayar.</string>
+    <string name="track_phone_thigh">Pantolonun ön cebinde, uyluğun üstünde — her tekrarda uyluğun eğilişini sayar.</string>
+    <string name="track_phone_arm">Üst kolda spor kol bandında — her tekrarda kolun eğilişini sayar.</string>
+    <string name="track_phone_steps">Cepte ya da elde — adımları pedometre sayar.</string>
+    <string name="track_phone_stairs">Cepte ya da elde — adımları pedometre, katları barometre sayar.</string>
+    <string name="track_unit_jumps">sıçrama</string>
+    <string name="track_unit_floors">kat</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d sıçrama</item>
+        <item quantity="other">%1$d sıçrama</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d adım</item>
+        <item quantity="other">%1$d adım</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d kat</item>
+        <item quantity="other">%1$d kat</item>
+    </plurals>
+</resources>

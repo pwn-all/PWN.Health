@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">قراءة صورة أو PDF</string>
+    <string name="lab_import_review">طابق التاريخ والقيم والوحدات مع الأصل. تُملأ الحقول الفارغة فقط. لا تُحفظ النتائج حتى تحفظ النموذج.</string>
+    <string name="lab_import_empty">لم تُقرأ نتائج مدعومة. جرّب صورة أوضح أو أدخلها يدويًا.</string>
+    <string name="lab_import_veterinary">يبدو هذا تقريرًا بيطريًا. لا يمكن استخدامه لنتائج تحاليل بشرية.</string>
+    <string name="lab_import_error">تعذرت قراءة الملف. اختر صورة أو PDF بلا كلمة مرور (حتى 20 صفحة، 32 ميغابايت).</string>
+    <string name="lab_import_password">ملف PDF هذا محمي. أدخل كلمة المرور لقراءته.</string>
+    <string name="lab_import_date_unknown">لم يُعرف تاريخ أخذ العينة. تحقق من التاريخ في النموذج.</string>
+    <string name="lab_import_date_conflict">لهذه الصفحة تاريخ مختلف. احفظ النتائج الحالية أو امسحها أولًا.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">مؤشرات لم تُحل: %1$d</string>
+</resources>

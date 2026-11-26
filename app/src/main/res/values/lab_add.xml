@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Step %1$d of %2$d</string>
+    <string name="lab_add_type_title">Type of test</string>
+    <string name="lab_add_choose_one">Choose one. The next step depends on it.</string>
+    <string name="lab_add_method_title">How would you like to add the results?</string>
+    <string name="lab_add_manual">Manual entry</string>
+    <string name="lab_add_manual_body">Type in the figures yourself</string>
+    <string name="lab_add_file">Choose a file</string>
+    <string name="lab_add_file_body">A photo or a PDF from this phone</string>
+    <string name="lab_add_photo">Take a photo</string>
+    <string name="lab_add_photo_body">Photograph the results sheet</string>
+    <string name="lab_add_manual_title">Enter the results</string>
+    <string name="lab_add_check_title">Check the results</string>
+    <string name="lab_add_file_title">Upload a file</string>
+    <string name="lab_add_file_lead">A photo of the sheet, or a PDF of up to 20 pages and 32 MB. Several files can be chosen at once.</string>
+    <string name="lab_add_document_lead">A photo or a PDF of the report.</string>
+    <string name="lab_add_allergy">Allergy panel</string>
+    <string name="lab_add_file_hint">Tap to choose a file on this phone</string>
+    <string name="lab_add_photo_title">Take a photo</string>
+    <string name="lab_add_photo_lead">Lay the page flat in good light, with all of it in the frame.</string>
+    <string name="lab_add_photo_hint">The phone’s camera opens</string>
+    <string name="lab_add_study_day">Examination date: %1$s</string>
+    <string name="lab_add_done_title">Results added</string>
+    <string name="lab_add_done_already">Results already saved</string>
+    <string name="lab_add_done_attached">File added to the saved results</string>
+    <string name="lab_add_done_body">Saved on this phone.</string>
+    <string name="lab_add_open_results">Open results</string>
+    <string name="lab_add_more">Add more results</string>
+</resources>

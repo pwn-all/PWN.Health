@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>乳酸派对</item>
+        <item>夕阳漫步</item>
+        <item>爬坡达人</item>
+        <item>买咖啡去</item>
+        <item>柏油路上的诗</item>
+        <item>城市丛林探险</item>
+        <item>出门透口气</item>
+        <item>绕道豪华版</item>
+        <item>水坑巡逻队</item>
+        <item>黄金时刻兜一圈</item>
+        <item>走路能量爆棚</item>
+        <item>追着微风走</item>
+        <item>人行道传奇</item>
+        <item>公里收割机</item>
+        <item>抬头看云</item>
+        <item>最美风景线</item>
+        <item>一场小冒险</item>
+        <item>内啡肽外卖</item>
+        <item>长椅测评员</item>
+        <item>昂首阔步</item>
+        <item>偏要绕远路</item>
+        <item>说走就走</item>
+        <item>安静的一程</item>
+        <item>今日练腿</item>
+        <item>闲逛模式</item>
+        <item>给脑袋放个假</item>
+        <item>脚步交响曲</item>
+        <item>健步如飞</item>
+        <item>为零食而走</item>
+        <item>鸽子大游行</item>
+        <item>拒绝抄近路</item>
+        <item>荣誉绕场一周</item>
+        <item>寻找自我之旅</item>
+        <item>你好，新鲜空气</item>
+        <item>周末溜达</item>
+        <item>口袋远征</item>
+        <item>清晨遛弯</item>
+        <item>有氧巡航</item>
+        <item>在地图上涂鸦</item>
+        <item>边走边想</item>
+    </string-array>
+</resources>

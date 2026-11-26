@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Etkinleştirmek istediğiniz özellikleri seçin. Her biri Android izinlerini açar. İzin vermeden devam edebilir, sonra değiştirebilirsiniz. Ardından Health Connect sunulur.</string>
+    <string name="onboarding_access_body_alone">Etkinleştirmek istediğiniz özellikleri seçin. Her biri Android izinlerini açar. İzin vermeden devam edebilir, sonra değiştirebilirsiniz.</string>
+    <string name="onboarding_motion_title">Adımlar ve hareket sensörleri</string>
+    <string name="onboarding_motion_body">Fiziksel aktivite izni adım saymayı etkinleştirir. Hareket ve hava basıncı sensörleri ayrı izin gerektirmez.</string>
+    <string name="onboarding_notifications_title">Bildirimler ve hatırlatıcılar</string>
+    <string name="onboarding_notifications_body">Adım sayacı durumunu ve ilaç, yemek ve su hatırlatıcılarını göster.</string>
+    <string name="onboarding_allowed">İzin verildi</string>
+    <string name="onboarding_bluetooth_body">Yakındaki tartıları ve sensörleri bulup Bluetooth üzerinden bağlanın.</string>
+</resources>

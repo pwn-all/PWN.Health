@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The exercise picker: one card for the workouts only a clock can measure — dancing, ball games, pilates — and the heading of their page, where a list chooses which. -->
+    <string name="routines_other_workouts">Other workouts</string>
+    <string name="routines_other_workouts_body">Time only: dancing, basketball, football, pilates and more</string>
+    <!-- A walk, a run or a hike unfolds into where it is done. Indoors: the phone counts the steps on the workout page. -->
+    <string name="routines_indoors">Indoors</string>
+    <string name="routines_indoors_body">Steps and time are counted</string>
+    <!-- Outdoors: the walk page opens and records the route; its name is the add page’s add_walk_route. -->
+    <string name="routines_outdoors">Outdoors</string>
+    <string name="routines_outdoors_body">Opens Walk with the route on the map</string>
+    <!-- Under the clock while a set runs: what the phone has counted so far, as “24 jumps”. -->
+    <string name="track_tracked">Tracked</string>
+    <!-- Under the clock of a workout only timed: its energy so far, as “85 kcal”. -->
+    <string name="track_burned">Burned about</string>
+    <!-- Asked when a counted set is stopped, over what was counted; Yes keeps it, No opens the figures to correct. -->
+    <string name="track_count_question">Did we count it right?</string>
+    <string name="track_count_fix">Correct the count</string>
+    <string name="track_count_interrupted">Counting was interrupted — enter it by hand</string>
+    <!-- Over where the phone has to be for the exercise to be counted. -->
+    <string name="track_phone_title">Where the phone goes</string>
+    <string name="track_phone_pocket">In a trouser pocket or on the waistband — it counts each landing.</string>
+    <string name="track_phone_lift">In a trouser pocket — it counts each rep at the top, where the body slows down.</string>
+    <string name="track_phone_thigh">In a front trouser pocket, on the thigh — it counts the thigh tilting with each rep.</string>
+    <string name="track_phone_arm">In a sports armband on the upper arm — it counts the arm tilting with each rep.</string>
+    <string name="track_phone_steps">In a pocket or in your hand — the step counter counts the steps.</string>
+    <string name="track_phone_stairs">In a pocket or in your hand — the step counter counts the steps, the barometer the floors.</string>
+    <!-- Short units under a figure in a box, beside steps_unit: “24 / jumps”. -->
+    <string name="track_unit_jumps">jumps</string>
+    <string name="track_unit_floors">floors</string>
+    <!-- A count the phone made, as the set lists show it. -->
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d jump</item>
+        <item quantity="other">%1$d jumps</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d step</item>
+        <item quantity="other">%1$d steps</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d floor</item>
+        <item quantity="other">%1$d floors</item>
+    </plurals>
+</resources>

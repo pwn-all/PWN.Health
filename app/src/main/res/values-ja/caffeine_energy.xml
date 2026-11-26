@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">カップ 1 杯のカロリー</string>
+    <string name="caffeine_energy_help_body">カロリーは USDA FoodData Central による、いれたままの飲み物の値です：紅茶とブラックコーヒー、エスプレッソ、水で点てた抹茶、低脂肪乳のカプチーノ — 普通の牛乳ではおよそ 5 分の 1 多くなります。飲むときに加える牛乳、クリーム、砂糖、シロップは別に上乗せされ、食事として記録します。カプチーノはカフェインとともに食事として保存されます：そのカロリーはその日の摂取に数えられますが、食事の回数には数えません。ほかのカップはわずか数 kcal で、カフェインの記録だけになります。</string>
+</resources>

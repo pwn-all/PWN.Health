@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  What the sideload build declares beyond the main manifest, merged into it.
+
+  "Allow all the time", for the Work screen's automatic start by location and nothing else: the
+  workplace check's service is started by an alarm with the app closed, and Android gives such a
+  service no position without it. Asked for only when that feature is switched on, after precise
+  location, and after a card says what it is for — see WorkPlaceCheck.kt.
+
+  Left out of the play build: Google Play holds every update of an app that declares it until Play
+  approves a Location permissions declaration for it (docs/play-release-checklist.md). Moving this
+  line into the main manifest is all it takes to offer the feature there too.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+</manifest>

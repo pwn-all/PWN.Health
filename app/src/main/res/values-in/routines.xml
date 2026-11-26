@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">Tentang latihan</string>
+    <string name="routines_import">Impor file latihan</string>
+    <string name="routines_import_error">File ini bukan templat latihan.</string>
+    <string name="routines_import_cut">File ini berisi lebih banyak latihan (%2$d) daripada yang dimuat satu templat (%1$d): hanya yang pertama yang diimpor.</string>
+    <string name="routines_description">Deskripsi singkat</string>
+    <string name="routines_photo">Foto templat</string>
+    <string name="routines_days_title">Hari latihan</string>
+    <string name="routines_flow_title">Latihan dan istirahat</string>
+    <string name="routines_flow_lead">Tambahkan latihan atau superset, serta istirahat di antaranya.</string>
+    <string name="routines_add_superset">Tambah superset</string>
+    <string name="routines_saved_title">Templat disimpan</string>
+    <string name="routines_open_template">Buka templat</string>
+    <string name="routines_add_another">Tambah templat lain</string>
+    <string name="routines_get_ready">Bersiaplah</string>
+    <string name="routines_finished">Latihan selesai</string>
+    <string name="routines_reminder_title">Latihan hari ini</string>
+    <string name="routines_total_time">Total waktu</string>
+    <string name="routines_total_lifted">Total diangkat</string>
+    <string name="routines_total_work">Waktu latihan</string>
+    <string name="routines_burn">Akan terbakar sekitar</string>
+    <string name="routines_plan_title">Rencana latihan</string>
+    <plurals name="routines_exercises">
+        <item quantity="other">%1$d latihan</item>
+    </plurals>
+    <string name="routines_menu">Tindakan templat</string>
+    <string name="routines_overall">Kemajuan keseluruhan</string>
+    <string name="routines_left">Sisa</string>
+    <string name="routines_set">Set</string>
+    <string name="routines_set_number">Set %1$d</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d dari %2$d</string>
+    <string name="routines_rest_after">Istirahat sesudahnya</string>
+    <string name="routines_previous">Sebelumnya</string>
+    <string name="routines_finish">Selesai</string>
+    <string name="routines_leave_title">Tinggalkan latihan?</string>
+    <string name="routines_leave_body">Yang sudah Anda lakukan sejauh ini tidak akan disimpan. Untuk menyimpannya, ketuk “Selesai”.</string>
+    <string name="routines_pick_title">Pilih latihan</string>
+    <string name="routines_pick_lead">Cari latihan yang Anda butuhkan</string>
+    <string name="routines_setup_lead">Pengaturan latihan</string>
+    <string name="routines_sets_count">Jumlah set</string>
+    <string name="routines_sets_count_lead">Pilih berapa kali latihan ini dilakukan</string>
+    <string name="routines_not_done">Tidak dilakukan</string>
+    <string name="routines_done_of">%1$s dari %2$s</string>
+    <string name="routines_pick_empty">Tidak ada latihan yang cocok</string>
+    <string name="routines_set_done_question">Apakah set ini berhasil diselesaikan?</string>
+    <string name="routines_reps_done_question">Berapa repetisi yang dilakukan?</string>
+    <string name="routines_goal_missed">Target tidak tercapai</string>
+    <string name="routines_freestyle_body">Tanpa rencana: pilih latihan sambil jalan</string>
+    <string name="routines_show_muscles">Tampilkan otot yang dilatih</string>
+    <string name="routines_show_drawing">Tampilkan gambar latihan</string>
+</resources>

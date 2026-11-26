@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">نبذة عن التدريب</string>
+    <string name="routines_import">استيراد ملف تدريب</string>
+    <string name="routines_import_error">هذا الملف ليس قالب تمرين.</string>
+    <string name="routines_import_cut">في الملف تمارين (%2$d) أكثر مما يتسع له القالب (%1$d): استُوردت الأولى منها فقط.</string>
+    <string name="routines_description">وصف قصير</string>
+    <string name="routines_photo">صورة القالب</string>
+    <string name="routines_days_title">أيام التدريب</string>
+    <string name="routines_flow_title">التمارين والراحة</string>
+    <string name="routines_flow_lead">أضف تمارين أو مجموعات سوبر سِت، والراحة بينها.</string>
+    <string name="routines_add_superset">إضافة سوبر سِت</string>
+    <string name="routines_saved_title">حُفظ القالب</string>
+    <string name="routines_open_template">فتح القالب</string>
+    <string name="routines_add_another">إضافة قالب آخر</string>
+    <string name="routines_get_ready">استعد</string>
+    <string name="routines_finished">اكتمل التدريب</string>
+    <string name="routines_reminder_title">تدريب اليوم</string>
+    <string name="routines_total_time">الوقت الإجمالي</string>
+    <string name="routines_total_lifted">إجمالي الوزن المرفوع</string>
+    <string name="routines_total_work">وقت التمرين</string>
+    <string name="routines_burn">ستحرق نحو</string>
+    <string name="routines_plan_title">خطة التدريب</string>
+    <plurals name="routines_exercises">
+        <item quantity="zero">%1$d تمرين</item>
+        <item quantity="one">%1$d تمرين</item>
+        <item quantity="two">%1$d تمرينان</item>
+        <item quantity="few">%1$d تمارين</item>
+        <item quantity="many">%1$d تمرينًا</item>
+        <item quantity="other">%1$d تمرين</item>
+    </plurals>
+    <string name="routines_menu">إجراءات القالب</string>
+    <string name="routines_overall">التقدم الإجمالي</string>
+    <string name="routines_left">المتبقي</string>
+    <string name="routines_set">المجموعة</string>
+    <string name="routines_set_number">المجموعة %1$d</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d من %2$d</string>
+    <string name="routines_rest_after">الراحة بعدها</string>
+    <string name="routines_previous">السابق</string>
+    <string name="routines_finish">إنهاء</string>
+    <string name="routines_leave_title">مغادرة التدريب؟</string>
+    <string name="routines_leave_body">لن يُحفظ ما أنجزته حتى الآن. للاحتفاظ به، اضغط «إنهاء».</string>
+    <string name="routines_pick_title">اختيار تمرين</string>
+    <string name="routines_pick_lead">ابحث عن التمرين الذي تحتاجه</string>
+    <string name="routines_setup_lead">إعداد التمرين</string>
+    <string name="routines_sets_count">عدد المجموعات</string>
+    <string name="routines_sets_count_lead">اختر عدد مرات أداء هذا التمرين</string>
+    <string name="routines_not_done">لم يُنجز</string>
+    <string name="routines_done_of">%1$s من %2$s</string>
+    <string name="routines_pick_empty">لا يوجد تمرين مطابق</string>
+    <string name="routines_set_done_question">هل أكملت المجموعة؟</string>
+    <string name="routines_reps_done_question">كم عدد التكرارات التي أديتها؟</string>
+    <string name="routines_goal_missed">لم يتحقق الهدف</string>
+    <string name="routines_freestyle_body">بلا خطة: اختر التمارين أثناء التمرين</string>
+    <string name="routines_show_muscles">إظهار العضلات العاملة</string>
+    <string name="routines_show_drawing">إظهار رسم التمرين</string>
+</resources>

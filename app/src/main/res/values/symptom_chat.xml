@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The symptom chat (SymptomChat.kt, SymptomChatScreen.kt, SymptomChatHistory.kt, SymptomRules.kt). -->
+<resources>
+    <!-- The page -->
+    <string name="symptom_chat_history">Chat history</string>
+    <string name="symptom_chat_history_empty">No chats yet.</string>
+    <string name="symptom_chat_unreadable">This chat could not be opened.</string>
+    <string name="symptom_chat_unfinished">Not finished</string>
+    <string name="symptom_chat_hint">Write a message</string>
+    <string name="symptom_chat_send">Send</string>
+    <string name="symptom_chat_group_body">Body</string>
+    <string name="symptom_chat_group_mind">Feelings</string>
+    <string name="symptom_chat_book">Add a doctor’s visit to your plans</string>
+    <string name="symptom_chat_breathing">Try a breathing exercise</string>
+    <string name="symptom_chat_pain_map">Mark it on the pain map</string>
+    <string name="symptom_chat_visit_note">Symptom chat, %1$s: %2$s</string>
+    <string name="symptom_chat_left_early">This chat ended before the last question.</string>
+    <!-- What the chat says: fixed sentences, never a diagnosis -->
+    <string name="symptom_chat_open">Hello.</string>
+    <string name="symptom_chat_adults">These questions follow NHS guidance written for adults. For a child, the signs to watch for are different: ask a doctor or an urgent medical helpline.</string>
+    <string name="symptom_chat_match">Thank you. Is it one of these?</string>
+    <string name="symptom_chat_no_match">Thank you. This chat only looks for a few words, and found none it knows.</string>
+    <string name="symptom_chat_start_body">I am sorry you are feeling unwell. I will ask a few short questions, one at a time.</string>
+    <string name="symptom_chat_start_mind">Thank you for sharing this. Let us take it one question at a time.</string>
+    <string name="symptom_chat_start_other">I will ask a few general questions so the entry is complete.</string>
+    <string name="symptom_chat_own_words">You can write about it in your own words below at any time.</string>
+    <string name="symptom_chat_ack_1">Thank you.</string>
+    <string name="symptom_chat_ack_2">Got it.</string>
+    <string name="symptom_chat_ack_3">All right.</string>
+    <string name="symptom_chat_ack_mind">Thank you for telling me.</string>
+    <string name="symptom_chat_heavy">That sounds really hard.</string>
+    <string name="symptom_chat_safety">If you feel this may be an emergency, or that you might not be safe, call emergency services now.</string>
+    <string name="symptom_chat_words_check">Before anything else, one question about what you wrote.</string>
+    <string name="symptom_chat_crisis_support">You do not have to face this alone. If you might act on these thoughts, or have hurt yourself, call emergency services now. A 24-hour crisis helpline can listen at any time, and it can help to tell someone you trust.</string>
+    <string name="symptom_chat_crisis_lead">I would like to ask one more thing, because it matters.</string>
+    <string name="symptom_chat_facts_now">This is what your journal shows around now:</string>
+    <string name="symptom_chat_facts_day">This is what your journal shows for that day:</string>
+    <string name="symptom_chat_saved">Here is what is saved: %1$s.</string>
+    <string name="symptom_chat_same_since">the same as on %1$s</string>
+    <string name="symptom_chat_close_emergency">Please do not wait with this.</string>
+    <string name="symptom_chat_close_emergency_mind">If you cannot call, go somewhere safe, such as a friend’s home, stay with other people, and keep away from alcohol and drugs.</string>
+    <string name="symptom_chat_close_today">Please get medical advice today: ask for an urgent appointment with a doctor, or contact an urgent medical helpline.</string>
+    <string name="symptom_chat_close_crisis">If things get worse, or you feel you might act on these thoughts, call emergency services now.</string>
+    <string name="symptom_chat_close_gp">From what you have told me, it is worth seeing a doctor about this.</string>
+    <string name="symptom_chat_close_body">If it gets worse, does not get better, or you are worried, see a doctor. If any of the serious signs asked about appear, call emergency services.</string>
+    <string name="symptom_chat_close_mind">Talking to someone you trust can help. If it becomes harder to cope, a doctor can help too.</string>
+    <string name="symptom_chat_thanks">Thank you. Take care of yourself.</string>
+    <!-- The chat's topics beyond the symptom diary's -->
+    <string name="symptom_chest_pain">Chest pain</string>
+    <string name="symptom_worry">Worry or anxiety</string>
+    <string name="symptom_stress">Stress</string>
+    <string name="symptom_sleep_worry">Trouble sleeping</string>
+    <string name="symptom_other">Something else</string>
+    <!-- Questions as the chat asks them -->
+    <string name="symptom_ask_onset">When did it start?</string>
+    <string name="symptom_ask_onset_event">When did it happen?</string>
+    <string name="symptom_step_same">The same as before?</string>
+    <string name="symptom_ask_same">You told me about this on %1$s. Is it the same, or something new?</string>
+    <string name="symptom_ask_pattern">Is it there all the time, or does it come and go?</string>
+    <string name="symptom_ask_how_often">How often does it come?</string>
+    <string name="symptom_ask_duration">How long does it last each time?</string>
+    <string name="symptom_ask_duration_once">How long did it last?</string>
+    <string name="symptom_ask_trend">Since it started, is it getting better or worse?</string>
+    <string name="symptom_ask_chest_now">Is the pain there now, and not going away?</string>
+    <string name="symptom_ask_palp_now">Is it happening now, and not stopping?</string>
+    <string name="symptom_ask_breath_now">Is it very hard to breathe right now, so that you are gasping, choking or cannot get words out?</string>
+    <string name="symptom_ask_stroke">Now or in the last 24 hours, has a face drooped on one side, an arm gone weak or numb, or speech become slurred or muddled, even if it has stopped?</string>
+    <string name="symptom_ask_unresponsive">Is someone unconscious, not responding or not breathing right now?</string>
+    <string name="symptom_ask_about">What is it mostly about?</string>
+    <string name="symptom_ask_how_long">How long have you been feeling like this?</string>
+    <string name="symptom_ask_mind_often">How much of the time do you feel this way?</string>
+    <string name="symptom_ask_affects">What is it getting in the way of?</string>
+    <string name="symptom_ask_coping">How are you coping with it?</string>
+    <string name="symptom_ask_night">What happens at night?</string>
+    <string name="symptom_ask_crisis">Sometimes, when things feel this heavy, people have thoughts of suicide or of hurting themselves. Have you had thoughts like that recently?</string>
+    <string name="symptom_ask_crisis_now">Are you able to keep yourself safe right now?</string>
+    <string name="symptom_ask_after_meal">Did it start after a meal?</string>
+    <string name="symptom_ask_cause">What do you think brought it on?</string>
+    <string name="symptom_ask_times">How many times so far?</string>
+    <string name="symptom_ask_when">When do you notice it?</string>
+    <string name="symptom_ask_blood">Have you vomited blood, or something that looks like coffee grounds?</string>
+    <string name="symptom_ask_with">Is any of these happening with it?</string>
+    <string name="symptom_ask_with_mind">Do you notice any of these in your body with it?</string>
+    <string name="symptom_ask_with_mood">Have you noticed any of these?</string>
+    <string name="symptom_ask_severity_mind">How heavy does it feel today?</string>
+    <!-- The chat's own answers: a few words each, neutral in gender -->
+    <string name="symptom_option_same_as_before">The same</string>
+    <string name="symptom_option_something_new">Something new</string>
+    <string name="symptom_option_all_the_time">All the time</string>
+    <string name="symptom_option_comes_and_goes">Comes and goes</string>
+    <string name="symptom_option_just_once">It happened once</string>
+    <string name="symptom_option_several_a_day">Several times a day</string>
+    <string name="symptom_option_daily">About once a day</string>
+    <string name="symptom_option_few_a_week">A few times a week</string>
+    <string name="symptom_option_less_often">Less often</string>
+    <string name="symptom_option_seconds">A few seconds</string>
+    <string name="symptom_option_few_minutes">A few minutes</string>
+    <string name="symptom_option_longer_minutes">Longer than a few minutes</string>
+    <string name="symptom_option_hours">Hours</string>
+    <string name="symptom_option_getting_better">Getting better</string>
+    <string name="symptom_option_no_change">No change</string>
+    <string name="symptom_option_getting_worse">Getting worse</string>
+    <string name="symptom_option_cant_keep_fluids">Cannot keep fluids down</string>
+    <string name="symptom_option_green_vomit">Green vomit</string>
+    <string name="symptom_option_severe_tummy_pain">A sudden, severe tummy ache</string>
+    <string name="symptom_option_sudden_headache">A sudden or very bad headache</string>
+    <string name="symptom_option_confused">Confused, or not making sense</string>
+    <string name="symptom_option_severe_breathing">Severe difficulty breathing, or very fast breathing</string>
+    <string name="symptom_option_pain_spreading">Pain spreading to the arms, neck, jaw, back or stomach</string>
+    <string name="symptom_option_tight_heavy">The chest feels tight, heavy or squeezed</string>
+    <string name="symptom_option_sweaty_sick">Sweating, feeling sick, light-headed or short of breath</string>
+    <string name="symptom_option_non_blanching_rash">A rash that does not fade when pressed</string>
+    <string name="symptom_option_blue_skin">Blue, grey, pale or blotchy skin, lips or tongue</string>
+    <string name="symptom_option_coughing_blood">Coughing up blood</string>
+    <string name="symptom_option_one_leg_swelling">Pain or swelling in one leg</string>
+    <string name="symptom_option_heart_condition">A heart condition, or heart problems in the family</string>
+    <string name="symptom_option_work_study">Work or study</string>
+    <string name="symptom_option_money">Money</string>
+    <string name="symptom_option_family">Family or relationships</string>
+    <string name="symptom_option_health">Health</string>
+    <string name="symptom_option_loneliness">Feeling alone</string>
+    <string name="symptom_option_loss">A loss</string>
+    <string name="symptom_option_future">The future</string>
+    <string name="symptom_option_no_clear_reason">No clear reason</string>
+    <string name="symptom_option_about_a_week">About a week</string>
+    <string name="symptom_option_two_weeks_plus">Two weeks or more</string>
+    <string name="symptom_option_months">Months or longer</string>
+    <string name="symptom_option_now_and_then">Now and then</string>
+    <string name="symptom_option_most_days">Most days</string>
+    <string name="symptom_option_sleep">Sleep</string>
+    <string name="symptom_option_eating">Eating</string>
+    <string name="symptom_option_daily_tasks">Everyday tasks</string>
+    <string name="symptom_option_people">Time with people</string>
+    <string name="symptom_option_not_really">Nothing much</string>
+    <string name="symptom_option_managing">I am managing</string>
+    <string name="symptom_option_struggling">It is hard to cope</string>
+    <string name="symptom_option_not_coping">I am not coping</string>
+    <string name="symptom_option_tried_not_helping">What I try is not helping</string>
+    <string name="symptom_option_stomach">Stomach problems</string>
+    <string name="symptom_option_tense">Tense muscles</string>
+    <string name="symptom_option_headache">Headaches</string>
+    <string name="symptom_option_no_enjoyment">Not enjoying things</string>
+    <string name="symptom_option_hopeless">Feeling hopeless</string>
+    <string name="symptom_option_hard_to_fall_asleep">Hard to fall asleep</string>
+    <string name="symptom_option_waking_in_night">Waking in the night</string>
+    <string name="symptom_option_waking_early">Waking too early</string>
+    <string name="symptom_option_racing_thoughts">Thoughts that will not stop</string>
+    <string name="symptom_option_tired_in_day">Tired in the day</string>
+    <string name="symptom_option_crisis_safe">Yes, but I can keep myself safe</string>
+    <string name="symptom_option_crisis_unsafe">I am not sure I can keep myself safe</string>
+    <string name="symptom_option_crisis_harmed">I have seriously hurt myself or taken an overdose</string>
+    <string name="symptom_option_rather_not_say">I would rather not say</string>
+    <string name="symptom_option_safe_now">Yes, I can keep myself safe</string>
+    <string name="symptom_option_no_such_thoughts">I am not having thoughts like that</string>
+    <!-- Lines the feelings answers call for: what to do, never what it is -->
+    <string name="symptom_alert_emergency_mind">Your safety comes first. Call emergency services or go to the nearest emergency department now. If you can, ask someone to stay with you.</string>
+    <string name="symptom_alert_urgent_mind">Please talk to a doctor or an urgent medical helpline today, and tell someone you trust. A 24-hour crisis helpline can also listen. If you feel you might act on these thoughts, call emergency services now.</string>
+    <string name="symptom_alert_doctor_mind">A doctor can help with this, and it is worth talking to one.</string>
+    <string name="symptom_alert_safety_net">That is all right, you do not have to answer. Please still talk to a doctor or an urgent medical helpline today, and tell someone you trust how you are. A 24-hour crisis helpline can listen at any time. If you feel you might not be safe, call emergency services now.</string>
+    <!-- Where the chat's own rules come from, behind the “?” beside a line -->
+    <string name="symptom_source_d_and_v" translatable="false">NHS, “Diarrhoea and vomiting”.</string>
+    <string name="symptom_source_chest_pain" translatable="false">NHS, “Chest pain”.</string>
+    <string name="symptom_source_chest_spread" translatable="false">NHS, “Chest pain” and “Heart attack”.</string>
+    <string name="symptom_source_heart_attack" translatable="false">NHS, “Heart attack”.</string>
+    <string name="symptom_source_fever_999" translatable="false">NHS, “Meningitis” and “Sepsis”.</string>
+    <string name="symptom_source_stroke" translatable="false">NHS, “Stroke”.</string>
+    <string name="symptom_source_call_999" translatable="false">NHS, “When to call 999”.</string>
+    <string name="symptom_source_other" translatable="false">NHS, “Shortness of breath” and “Stroke”.</string>
+    <string name="symptom_source_worry" translatable="false">NHS, “Anxiety, fear and panic”, “Generalised anxiety disorder in adults”, “Shortness of breath” and “Heart palpitations”.</string>
+    <string name="symptom_source_low_mood" translatable="false">NHS, “Low mood, sadness and depression”.</string>
+    <string name="symptom_source_stress" translatable="false">NHS, “Stress”, “Shortness of breath” and “Heart palpitations”.</string>
+    <string name="symptom_source_sleep_worry" translatable="false">NHS, “Insomnia” and “Anxiety, fear and panic”.</string>
+    <string name="symptom_source_crisis" translatable="false">NHS, “Help for suicidal thoughts” and “Where to get urgent help for mental health”; Samaritans, “Managing self-harm and suicide content online”; Dazzi T, Gribble R, Wessely S, Fear NT, “Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?”, Psychological Medicine 2014;44(16):3361–3363, doi:10.1017/S0033291714001299.</string>
+    <!-- The chat of several threads, its router and its records -->
+    <string name="symptom_topic_pain">Pain</string>
+    <string name="symptom_topic_mood">Note my mood</string>
+    <string name="symptom_topic_dose">I took a medicine</string>
+    <string name="symptom_topic_course">A doctor prescribed a medicine</string>
+    <string name="symptom_chat_option_leave_it">Leave it as it is</string>
+    <string name="symptom_step_chest_spread">Spreads from the chest</string>
+    <string name="symptom_ask_chest_spread">You marked your chest and also: %1$s. Does the pain spread from your chest to there?</string>
+    <string name="symptom_alert_urgent_now">Get medical advice now: contact an urgent medical helpline.</string>
+    <string name="symptom_chat_ask_opening">What would you like to tell me about? Tap the closest one, or write in your own words.</string>
+    <string name="symptom_chat_ask_topic_again">Which one is it? Tap the closest one, or write in your own words.</string>
+    <string name="symptom_chat_match_several">Thank you. There are a few things in your message. Which one first? The others will come after.</string>
+    <string name="symptom_chat_also_mentioned">You also wrote about this. Shall we note it too?</string>
+    <string name="symptom_chat_anything_else">Is there anything else you would like to tell me about or note?</string>
+    <string name="symptom_chat_crisis_talk">If you would like, we can talk about what is hard right now.</string>
+    <string name="symptom_chat_chest_first">Pain in the chest needs a few questions of its own first.</string>
+    <string name="symptom_chat_chest_words">Because you wrote about your chest, a few questions about it come first.</string>
+    <string name="symptom_chat_gone">The chat this was told in has been deleted. Here is what was saved from it.</string>
+    <string name="symptom_chat_remark_short">Thank you, your words are kept in this chat.</string>
+    <string name="symptom_chat_no_match_again">If it is easier, tap one of these. Your own words can be added at any time.</string>
+    <string name="symptom_chat_question">This chat cannot answer questions or say what something is: it is not a doctor. It can note how you are, and say when it is time to get help.</string>
+    <string name="symptom_chat_welcome">You are welcome.</string>
+    <string name="symptom_chat_how_are_you">Thank you for asking. This chat is here to note how you are. What would you like to tell me about?</string>
+    <string name="symptom_chat_sorry">I am sorry this is not helping yet. Tap the closest topic, or write in your own words.</string>
+    <string name="symptom_chat_someone_else">This chat notes how you yourself are, and its entries go in your own journal. If someone else may need urgent help, call emergency services.</string>
+    <string name="symptom_chat_queued">Thank you. Let us finish this first, and then come to that.</string>
+    <!-- Where the records' threads come from, behind the “?” -->
+    <string name="symptom_source_pain" translatable="false">NHS, “Sprains and strains”, “Compartment syndrome” and the page each area of the body follows.</string>
+    <string name="symptom_source_medicines" translatable="false">NHS, the page of each medicine named, “Paracetamol for adults” and “Ibuprofen for adults”.</string>
+    <!-- The router, the saved records' cards and the history over the chats -->
+    <string name="symptom_chat_title">Chat</string>
+    <string name="symptom_chat_add_body">A pain, your mood, a medicine, or anything bothering you</string>
+    <string name="symptom_chat_carry_on">Carry on the last chat</string>
+    <string name="symptom_chat_for_day">Everything you note here will be saved under %1$s.</string>
+    <string name="symptom_chat_that_is_all">That is all for now</string>
+    <string name="symptom_chat_all_topics">Show all topics</string>
+    <string name="symptom_chat_another_topic">Another topic</string>
+    <string name="symptom_chat_group_records">Note down</string>
+    <string name="symptom_chat_talk_about_it">Talk about it</string>
+    <string name="symptom_ask_with_now">Is any of these happening now?</string>
+    <string name="symptom_ask_severity_mind_day">How heavy did it feel that day?</string>
+    <string name="symptom_chat_remark_kept">Thank you. This chat looks in messages only for a few words about safety and about its topics, and does not answer them: your words are kept in this chat as you wrote them.</string>
+    <string name="symptom_chat_mark_words">%1$s, from your message</string>
+    <string name="symptom_chat_mark_chat">%1$s, from this chat</string>
+    <string name="symptom_chat_note_hint">A note for this chat</string>
+    <string name="symptom_chat_record_again">Save again</string>
+    <string name="symptom_chat_record_not_saved">Not saved</string>
+    <string name="symptom_chat_record_change_not_saved">Your last change was not saved</string>
+    <string name="symptom_chat_record_not_undone">Not undone</string>
+    <string name="symptom_chat_record_changed">Changed on its own page</string>
+    <string name="symptom_chat_record_superseded">Updated later in this chat</string>
+    <string name="symptom_chat_record_open_label">Open the entry: %1$s</string>
+    <string name="symptom_chat_record_undo_label">Undo the entry: %1$s</string>
+    <string name="symptom_chat_history_more">%1$s +%2$d</string>
+    <string name="symptom_chat_history_saved">Saved: %1$s</string>
+    <string name="symptom_chat_about">The questions are written from NHS guidance and asked the same way each time. In your messages, this chat looks only for a few words about safety and about its topics; it does not answer them, does not diagnose and does not replace a doctor. The chat is kept on this phone. What it notes for you goes where the app keeps such things: a symptom, a pain or your mood into your journal, a medicine into your medicines. You can open it and delete it there.</string>
+    <!-- Words of feeling unwell, and nothing of what -->
+    <string name="symptom_chat_unwell_ask">I am sorry you are not feeling well. Is it more physical or emotional?</string>
+    <string name="symptom_chat_unwell_body">Physically</string>
+    <string name="symptom_chat_unwell_mind">Emotionally</string>
+    <string name="symptom_chat_unwell_both">Both</string>
+    <string name="symptom_chat_unwell_pick">Which of these is closest?</string>
+    <string name="symptom_chat_start_questions">I will ask a few short questions, one at a time.</string>
+    <!-- The chat's model: the line under the bar for as long as a model reads the messages, and behind its "?" the two after it -->
+    <string name="symptom_chat_model_status">An AI model on this phone reads your messages.</string>
+    <string name="symptom_chat_model_line">An AI model on this phone reads your messages and chooses which of the app’s fixed questions and buttons to show. It can add one of the app’s fixed safety questions, never remove one; whether to seek help comes from your answers and the app’s fixed rules.</string>
+    <string name="symptom_chat_model_more">The model reads only the message you send and where the chat stands, never your journal, and it sends nothing anywhere. What it decided is kept with your message in the chat, so the chat reads the same each time it is opened; it goes wherever the chat goes — into backups and to a new phone, never into Health Connect — and deleting the chat deletes it from the app. The model learns nothing from what you write. It never words a question of its own, and nothing goes into your journal or your medicines without your tap.</string>
+    <!-- What a message told, proposed for one tap on a question it answers: the chips stay unticked -->
+    <string name="symptom_chat_keep_told">From your message: %1$s</string>
+    <!-- The chat's model: the three lines that say the chat looks for a few words only, as they read once a model reads a message in a language its exam was passed in -->
+    <string name="symptom_chat_no_match_model">Thank you. The AI model on this phone found none of this chat’s topics in your message, but it can be wrong.</string>
+    <string name="symptom_chat_remark_model">Thank you. This chat does not answer messages: the AI model on this phone reads them only to choose among the chat’s fixed questions and buttons, and it can be wrong; only you answer the questions, with a tap. Your words are kept in this chat as you wrote them.</string>
+    <string name="symptom_chat_about_model">The questions are written from NHS guidance and asked the same way each time. Your messages are read on this phone by the app’s fixed lists of words and by an AI model, to choose among these questions and the chat’s buttons; the model can be wrong, and only your tap answers a question or notes anything. The chat does not answer messages, does not diagnose and does not replace a doctor. The chat is kept on this phone. What it notes for you goes where the app keeps such things: a symptom, a pain or your mood into your journal, a medicine into your medicines. You can open it and delete it there.</string>
+    <string name="symptom_chat_hello">Hi! What would you like to share or record?</string>
+    <string name="symptom_chat_joke_one">Why did the programmer bring an umbrella? The forecast called for cloud computing.</string>
+    <string name="symptom_chat_joke_two">Coffee told the alarm clock: “I’ll take it from here.”</string>
+    <string name="symptom_chat_sad_company">I’m sorry you feel sad. Let me try to lift your spirits a little.</string>
+    <string name="symptom_chat_sad_reason">What happened? Would you like to tell me?</string>
+    <string name="symptom_chat_reason_heard">Thanks for sharing. I remember you feel sad. Would you like another joke or to tell me more?</string>
+    <string name="symptom_chat_everyday_heard">Got it. What else would you like to share?</string>
+    <string name="symptom_chat_capability">I can help you keep a diary of symptoms, mood, medicines and food. What would you like to record?</string>
+</resources>

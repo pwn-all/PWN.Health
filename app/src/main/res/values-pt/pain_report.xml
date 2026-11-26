@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">O que foi pintado nos últimos 30 dias e em quantos dias cada área doeu</string>
+    <string name="pain_paint_hint">Pinte onde dói e afaste dois dedos para ampliar. Uma dor nas costas e uma no joelho são dois registros.</string>
+    <string name="pain_head_note">A figura começa no pescoço: escolha a área de uma dor de cabeça em “Adicionar área”.</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">%1$d registro desenhado. Cada marca é desenhada onde a pessoa pintou, mais escura onde os registros se sobrepõem. As áreas escolhidas na lista sem pintar não são desenhadas.</item>
+        <item quantity="many">%1$d de registros desenhados. Cada marca é desenhada onde a pessoa pintou, mais escura onde os registros se sobrepõem. As áreas escolhidas na lista sem pintar não são desenhadas.</item>
+        <item quantity="other">%1$d registros desenhados. Cada marca é desenhada onde a pessoa pintou, mais escura onde os registros se sobrepõem. As áreas escolhidas na lista sem pintar não são desenhadas.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Temps d’écran</string>
+    <string name="screen_time_add_body">Temps dans les réseaux sociaux, la vidéo, les messageries et les jeux, avec des pauses pour les yeux et la tête</string>
+    <string name="screen_time_help">Combien de temps les réseaux sociaux et fils, la vidéo, les messageries et les jeux ont été à l’écran aujourd’hui et cette semaine, d’après l’historique d’utilisation d’Android. Les rappels pour les yeux et la tête ne suivent que les réseaux sociaux et fils ; passer de l’un à l’autre sans pause compte comme une seule séance. Le reste est seulement compté. Rien n’est écrit dans le journal et rien ne quitte le téléphone.</string>
+    <string name="screen_time_channel">Pauses d’écran</string>
+    <string name="screen_time_access_title">Accès aux données d’utilisation requis</string>
+    <string name="screen_time_access_body">Android n’indique à une appli combien de temps les autres ont été ouvertes qu’avec l’accès aux données d’utilisation. L’estimation du sommeil utilise le même accès.</string>
+    <string name="screen_time_access_button">Ouvrir l’accès</string>
+    <string name="screen_time_longest">Plus longue séance sans pause : %1$s</string>
+    <string name="screen_time_over">Plus de %1$s</string>
+    <string name="screen_time_week">7 derniers jours</string>
+    <string name="screen_time_week_average">Moyenne par jour : %1$s</string>
+    <string name="screen_time_eyes_switch">Rappel de fatigue oculaire</string>
+    <string name="screen_time_eyes_switch_body">Après une longue séance de défilement sans pause</string>
+    <string name="screen_time_brain_switch">Alerte de charge mentale</string>
+    <string name="screen_time_brain_switch_body">Quand le total du jour dans ces applis devient élevé</string>
+    <string name="screen_time_tips_title">Repos pour les yeux et la tête</string>
+    <string name="screen_time_tip_eyes">Toutes les 20 minutes, regardez quelque chose à 6 mètres pendant 20 secondes.</string>
+    <string name="screen_time_tip_blink">Clignez des yeux volontairement : devant un écran, on cligne beaucoup moins et les yeux s’assèchent.</string>
+    <string name="screen_time_tip_brain">Un fil sans fin déplace l’attention toutes les quelques secondes. Une courte marche ou quelques respirations lentes apaisent l’esprit.</string>
+    <string name="screen_time_tip_night">Posez le téléphone une heure avant de dormir : un écran lumineux retarde le sommeil.</string>
+    <string name="screen_time_breathing">Pause respiration</string>
+    <string name="screen_time_eyes_title">Reposez vos yeux</string>
+    <string name="screen_time_eyes_body">%1$s depuis %2$d min sans pause. Regardez au loin 20 secondes et clignez plusieurs fois des yeux.</string>
+    <string name="screen_time_brain_title">Votre cerveau a besoin d’une pause</string>
+    <string name="screen_time_brain_body">%1$s sur les réseaux sociaux et fils aujourd’hui. Le fil sans fin fatigue l’attention : posez le téléphone 10 minutes, marchez ou respirez lentement.</string>
+    <string name="screen_time_feeds_title">Réseaux sociaux et fils</string>
+    <string name="screen_time_video_title">Vidéo et streaming</string>
+    <string name="screen_time_messengers_title">Messageries</string>
+    <string name="screen_time_games_title">Jeux</string>
+    <string name="screen_time_category_longest">Plus longue session : %1$s</string>
+    <string name="screen_time_category_week">7 derniers jours : %1$s, %2$s par jour en moyenne</string>
+    <string name="screen_time_tracked_note">Seulement compté, sans rappels.</string>
+    <string name="screen_time_none_today">Pas ouvertes aujourd’hui</string>
+</resources>

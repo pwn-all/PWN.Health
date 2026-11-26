@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Waktu layar</string>
+    <string name="screen_time_add_body">Waktu di media sosial, video, pesan, dan game, dengan jeda untuk mata dan pikiran</string>
+    <string name="screen_time_help">Berapa lama media sosial dan feed, video, pesan, dan game ada di layar hari ini dan minggu ini, dari riwayat penggunaan Android. Pengingat mata dan pikiran hanya memantau media sosial dan feed; berpindah di antaranya tanpa jeda dihitung sebagai satu sesi. Sisanya hanya dihitung. Tidak ada yang ditulis ke jurnal dan tidak ada yang keluar dari ponsel.</string>
+    <string name="screen_time_channel">Jeda layar</string>
+    <string name="screen_time_access_title">Perlu akses penggunaan</string>
+    <string name="screen_time_access_body">Android hanya memberi tahu aplikasi berapa lama aplikasi lain dibuka dengan akses penggunaan. Perkiraan tidur memakai akses yang sama.</string>
+    <string name="screen_time_access_button">Buka akses penggunaan</string>
+    <string name="screen_time_longest">Sesi terlama tanpa jeda: %1$s</string>
+    <string name="screen_time_over">Lebih dari %1$s</string>
+    <string name="screen_time_week">7 hari terakhir</string>
+    <string name="screen_time_week_average">Rata-rata per hari: %1$s</string>
+    <string name="screen_time_eyes_switch">Pengingat mata lelah</string>
+    <string name="screen_time_eyes_switch_body">Setelah lama menggulir tanpa jeda</string>
+    <string name="screen_time_brain_switch">Peringatan beban pikiran</string>
+    <string name="screen_time_brain_switch_body">Saat total harian di aplikasi ini menjadi besar</string>
+    <string name="screen_time_tips_title">Istirahat untuk mata dan pikiran</string>
+    <string name="screen_time_tip_eyes">Setiap 20 menit, lihat sesuatu sejauh 6 meter selama 20 detik.</string>
+    <string name="screen_time_tip_blink">Berkediplah dengan sengaja: saat menatap layar kita jauh lebih jarang berkedip dan mata menjadi kering.</string>
+    <string name="screen_time_tip_brain">Feed tanpa akhir memindahkan perhatian setiap beberapa detik. Jalan sebentar atau beberapa napas pelan menenangkan pikiran.</string>
+    <string name="screen_time_tip_night">Simpan ponsel satu jam sebelum tidur: layar terang menunda tidur.</string>
+    <string name="screen_time_breathing">Jeda bernapas</string>
+    <string name="screen_time_eyes_title">Saatnya mengistirahatkan mata</string>
+    <string name="screen_time_eyes_body">%1$s selama %2$d mnt tanpa jeda. Lihat ke kejauhan 20 detik dan berkedip beberapa kali.</string>
+    <string name="screen_time_brain_title">Pikiran Anda perlu jeda</string>
+    <string name="screen_time_brain_body">Hari ini %1$s di media sosial dan feed. Feed tanpa akhir melelahkan perhatian: letakkan ponsel 10 menit, berjalanlah atau bernapas pelan.</string>
+    <string name="screen_time_feeds_title">Media sosial dan feed</string>
+    <string name="screen_time_video_title">Video dan streaming</string>
+    <string name="screen_time_messengers_title">Pesan</string>
+    <string name="screen_time_games_title">Game</string>
+    <string name="screen_time_category_longest">Sesi terlama: %1$s</string>
+    <string name="screen_time_category_week">7 hari terakhir: %1$s, rata-rata %2$s per hari</string>
+    <string name="screen_time_tracked_note">Hanya dihitung, tanpa pengingat.</string>
+    <string name="screen_time_none_today">Belum dibuka hari ini</string>
+</resources>

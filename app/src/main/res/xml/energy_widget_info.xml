@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Today's energy: the eaten figure over a caption that names the allowance and what is left, which at 12sp wants three cells in English.
+  The 30 minutes is the platform floor, and the day rolls over with nobody touching the phone: the
+  period is what turns yesterday's figure into today's. The first frame is the preview's shape with
+  no figure on it (WidgetMetadataTest).
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_energy_description"
+    android:initialLayout="@layout/widget_initial_energy"
+    android:minWidth="180dp"
+    android:minHeight="70dp"
+    android:previewLayout="@layout/widget_preview_energy"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Kembali lagi setelah Anda menambahkan lebih banyak data!</string>
+    <string name="intimate_charts_walking_title">Jalan kaki dan pagi</string>
+    <string name="intimate_charts_alcohol_title">Alkohol dan pagi</string>
+    <string name="intimate_charts_legend_average">Rerata Anda</string>
+    <string name="intimate_charts_legend_night">Jam tidur per malam</string>
+    <string name="intimate_charts_legend_steps">Langkah per hari</string>
+    <string name="intimate_charts_legend_drinks">Takaran standar per minggu</string>
+    <string name="intimate_charts_pair_note">Batang naik dari bawah, satu per minggu. Garis menunjukkan proporsi pagi dengan ereksi keras atau sebagian pada minggu yang sama dibandingkan rerata Anda sendiri selama periode ini: di atas garis tengah saat lebih tinggi, di bawahnya saat lebih rendah. Ini menunjukkan apa yang tercatat pada minggu yang sama, bukan sebab dan akibat.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="other">Satu minggu dihitung bila %1$d paginya sudah dijawab; minggu dengan jumlah lebih sedikit meninggalkan celah pada garis, bukan nol.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="other">Batang satu minggu adalah rerata hari yang memiliki nilai dan memerlukan %1$d hari seperti itu; minggu dengan jumlah lebih sedikit tidak memiliki batang.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="other">Grafik muncul bila data cukup untuk %1$d minggu.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Satu takaran standar setara dengan %1$s alkohol murni. Untuk minuman, hari yang memiliki nilai adalah hari dengan isian apa pun yang dicatat manual, dan rerata disesuaikan ke tujuh hari: hari tanpa catatan bukan berarti hari tanpa minum.</string>
+    <string name="intimate_charts_acts_note">Aktivitas tiap minggu, dengan pasangan dan masturbasi. Minggu yang tidak Anda isi sendiri sama sekali memutus kedua garis: itu bukan minggu tanpa aktivitas.</string>
+    <string name="intimate_charts_desire_note">Titik pada garis: minggu dengan “%1$s” dicentang pada jenis aktivitas itu.</string>
+    <string name="intimate_charts_erection_note">Tanda strip pada garis: minggu dengan “%1$s” dicentang pada jenis aktivitas itu.</string>
+    <string name="intimate_charts_acts_mornings_note">Pagi memiliki grafiknya sendiri: itu satu jawaban per hari dari pencatatan terpisah, bukan jumlah aktivitas, dan bila digambar pada sumbu ini akan terbaca seolah disebabkan olehnya.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="other">%1$s, per minggu selama %2$d minggu terakhir. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Pekan hingga %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">tanpa nilai</string>
+    <string name="intimate_charts_spoken_gap">terlalu sedikit pagi yang dijawab</string>
+    <string name="intimate_charts_spoken_above">pagi di atas rerata Anda</string>
+    <string name="intimate_charts_spoken_below">pagi di bawah rerata Anda</string>
+    <string name="intimate_charts_spoken_at">pagi setara rerata Anda</string>
+    <string name="intimate_charts_spoken_acts">dengan pasangan %1$s, masturbasi %2$s</string>
+</resources>

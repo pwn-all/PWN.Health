@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Ruhepuls</string>
+    <string name="health_rationale_purpose_recovery">Nur Lesen. Auf dem Bildschirm der Vitalwerte als eigene Karten angezeigt, jeweils neben Ihrem üblichen Wert der vier Wochen davor. Eine Uhr oder ein Ring misst sie, meist nachts; die App berechnet sie nicht selbst und schreibt nichts zurück.</string>
+    <string name="vitals_note_resting_measured">Von einer Uhr oder einem Ring in Ruhe gemessen, meist nachts, und aus Health Connect oder einer exportierten Datei gelesen. Er liegt naturgemäß unter einem tagsüber gemessenen Puls.</string>
+    <string name="vitals_note_baseline">Ihr üblicher Wert ist der Median Ihrer eigenen Messungen in den 28 Tagen vor der letzten; dafür braucht es mindestens fünf. Ein Vergleich mit sich selbst, kein Urteil.</string>
+    <string name="vitals_baseline_above">Letzte Messung %1$d %2$s über Ihrem üblichen Wert</string>
+    <string name="vitals_baseline_below">Letzte Messung %1$d %2$s unter Ihrem üblichen Wert</string>
+    <string name="vitals_baseline_same">Letzte Messung entspricht Ihrem üblichen Wert</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Üblich bei Ihnen: %1$s %2$s, Median aus %3$d Messung der 4 Wochen davor</item>
+        <item quantity="other">Üblich bei Ihnen: %1$s %2$s, Median aus %3$d Messungen der 4 Wochen davor</item>
+    </plurals>
+</resources>

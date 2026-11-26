@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Adım %1$d / %2$d</string>
+    <string name="lab_add_type_title">Tetkik türü</string>
+    <string name="lab_add_choose_one">Birini seçin. Sonraki adım buna göre değişir.</string>
+    <string name="lab_add_method_title">Sonuçları nasıl eklemek istersiniz?</string>
+    <string name="lab_add_manual">Elle giriş</string>
+    <string name="lab_add_manual_body">Değerleri kendiniz yazın</string>
+    <string name="lab_add_file">Dosya seç</string>
+    <string name="lab_add_file_body">Bu telefondaki bir fotoğraf veya PDF</string>
+    <string name="lab_add_photo">Fotoğraf çek</string>
+    <string name="lab_add_photo_body">Sonuç kâğıdını fotoğraflayın</string>
+    <string name="lab_add_manual_title">Sonuçları girin</string>
+    <string name="lab_add_check_title">Sonuçları kontrol edin</string>
+    <string name="lab_add_file_title">Dosya ekleyin</string>
+    <string name="lab_add_file_lead">Sonuç kâğıdının fotoğrafı ya da en fazla 20 sayfa ve 32 MB olan bir PDF. Aynı anda birden çok dosya seçilebilir.</string>
+    <string name="lab_add_document_lead">Raporun fotoğrafı ya da PDF dosyası.</string>
+    <string name="lab_add_allergy">Alerji paneli</string>
+    <string name="lab_add_file_hint">Bu telefondan dosya seçmek için dokunun</string>
+    <string name="lab_add_photo_title">Fotoğraf çekin</string>
+    <string name="lab_add_photo_lead">Kâğıdı iyi ışıkta düz bir yere koyun, tamamı kareye girsin.</string>
+    <string name="lab_add_photo_hint">Telefonun kamerası açılır</string>
+    <string name="lab_add_study_day">Tetkik tarihi: %1$s</string>
+    <string name="lab_add_done_title">Sonuçlar eklendi</string>
+    <string name="lab_add_done_already">Sonuçlar zaten kayıtlı</string>
+    <string name="lab_add_done_attached">Dosya kayıtlı sonuçlara eklendi</string>
+    <string name="lab_add_done_body">Bu telefona kaydedildi.</string>
+    <string name="lab_add_open_results">Sonuçları aç</string>
+    <string name="lab_add_more">Başka sonuç ekle</string>
+</resources>

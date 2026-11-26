@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">Activité sexuelle</string>
+    <string name="intimate_anything_to_add">Quelque chose à ajouter ?</string>
+    <string name="intimate_history_title">Historique</string>
+    <string name="intimate_history_empty">Rien d’enregistré pour l’instant.</string>
+    <string name="intimate_act_title">Modifier l’enregistrement</string>
+    <string name="intimate_act_kind">Ce que c’était</string>
+    <string name="intimate_act_day">Jour</string>
+    <string name="intimate_act_time">Heure</string>
+    <string name="intimate_act_time_unrecorded">Aucune heure n’a été enregistrée pour cette entrée.</string>
+    <string name="intimate_flash_changed">Modifié</string>
+    <string name="intimate_flash_deleted">Supprimé</string>
+    <string name="intimate_charts_title">Graphiques</string>
+    <string name="intimate_woke_at">Heure du réveil</string>
+    <string name="intimate_woke_by_unset">Non renseigné</string>
+    <string name="intimate_woke_phone">Réveil à %1$s · première utilisation du téléphone</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Czas przed ekranem</string>
+    <string name="screen_time_add_body">Czas w mediach społecznościowych, wideo, komunikatorach i grach, z przerwami dla oczu i głowy</string>
+    <string name="screen_time_help">Jak długo media społecznościowe i feedy, wideo, komunikatory i gry były na ekranie dziś i w tym tygodniu, według historii użycia Androida. Przypomnienia o oczach i głowie śledzą tylko media społecznościowe i feedy; przechodzenie między nimi bez przerwy liczy się jako jedno posiedzenie. Reszta jest tylko liczona. Nic nie trafia do dziennika i nic nie opuszcza telefonu.</string>
+    <string name="screen_time_channel">Przerwy od ekranu</string>
+    <string name="screen_time_access_title">Potrzebny dostęp do danych o użyciu</string>
+    <string name="screen_time_access_body">Android podaje aplikacji, jak długo były otwarte inne aplikacje, tylko z dostępem do danych o użyciu. Szacowanie snu korzysta z tego samego dostępu.</string>
+    <string name="screen_time_access_button">Otwórz dostęp</string>
+    <string name="screen_time_longest">Najdłuższe posiedzenie bez przerwy: %1$s</string>
+    <string name="screen_time_over">Ponad %1$s</string>
+    <string name="screen_time_week">Ostatnie 7 dni</string>
+    <string name="screen_time_week_average">Średnio dziennie: %1$s</string>
+    <string name="screen_time_eyes_switch">Przypominaj o zmęczeniu oczu</string>
+    <string name="screen_time_eyes_switch_body">Po długim przewijaniu bez przerwy</string>
+    <string name="screen_time_brain_switch">Ostrzegaj o obciążeniu głowy</string>
+    <string name="screen_time_brain_switch_body">Gdy dzienny czas w tych aplikacjach robi się duży</string>
+    <string name="screen_time_tips_title">Odpoczynek dla oczu i głowy</string>
+    <string name="screen_time_tip_eyes">Co 20 minut patrz przez 20 sekund na coś oddalonego o 6 metrów.</string>
+    <string name="screen_time_tip_blink">Mrugaj świadomie: patrząc w ekran mrugamy dużo rzadziej i oczy wysychają.</string>
+    <string name="screen_time_tip_brain">Niekończący się feed przestawia uwagę co kilka sekund. Krótki spacer albo kilka wolnych oddechów uspokaja głowę.</string>
+    <string name="screen_time_tip_night">Odłóż telefon godzinę przed snem: jasny ekran przesuwa sen na później.</string>
+    <string name="screen_time_breathing">Przerwa na oddech</string>
+    <string name="screen_time_eyes_title">Czas dać odpocząć oczom</string>
+    <string name="screen_time_eyes_body">%1$s od %2$d min bez przerwy. Popatrz w dal przez 20 sekund i kilka razy mrugnij.</string>
+    <string name="screen_time_brain_title">Twoja głowa potrzebuje przerwy</string>
+    <string name="screen_time_brain_body">Dziś %1$s w mediach społecznościowych i feedach. Niekończący się feed męczy uwagę: odłóż telefon na 10 minut, przejdź się albo oddychaj powoli.</string>
+    <string name="screen_time_feeds_title">Media społecznościowe i feedy</string>
+    <string name="screen_time_video_title">Wideo i streaming</string>
+    <string name="screen_time_messengers_title">Komunikatory</string>
+    <string name="screen_time_games_title">Gry</string>
+    <string name="screen_time_category_longest">Najdłuższa sesja: %1$s</string>
+    <string name="screen_time_category_week">Ostatnie 7 dni: %1$s, średnio %2$s dziennie</string>
+    <string name="screen_time_tracked_note">Tylko licznik, bez przypomnień.</string>
+    <string name="screen_time_none_today">Dziś nieotwierane</string>
+</resources>

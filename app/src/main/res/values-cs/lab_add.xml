@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Krok %1$d z %2$d</string>
+    <string name="lab_add_type_title">Typ vyšetření</string>
+    <string name="lab_add_choose_one">Vyberte jednu možnost. Na ní závisí další krok.</string>
+    <string name="lab_add_method_title">Jak chcete výsledky přidat?</string>
+    <string name="lab_add_manual">Ruční zadání</string>
+    <string name="lab_add_manual_body">Opište hodnoty z výsledkového listu</string>
+    <string name="lab_add_file">Vybrat soubor</string>
+    <string name="lab_add_file_body">Fotka nebo PDF z tohoto telefonu</string>
+    <string name="lab_add_photo">Vyfotit</string>
+    <string name="lab_add_photo_body">Vyfoťte výsledkový list</string>
+    <string name="lab_add_manual_title">Zadejte výsledky</string>
+    <string name="lab_add_check_title">Zkontrolujte výsledky</string>
+    <string name="lab_add_file_title">Přidejte soubor</string>
+    <string name="lab_add_file_lead">Fotka výsledkového listu nebo PDF do 20 stran a 32 MB. Najednou můžete vybrat i více souborů.</string>
+    <string name="lab_add_document_lead">Fotka nebo PDF lékařské zprávy.</string>
+    <string name="lab_add_allergy">Alergologický panel</string>
+    <string name="lab_add_file_hint">Klepnutím vyberete soubor v tomto telefonu</string>
+    <string name="lab_add_photo_title">Pořiďte fotku</string>
+    <string name="lab_add_photo_lead">Položte stránku naplocho při dobrém světle, aby byla celá v záběru.</string>
+    <string name="lab_add_photo_hint">Otevře se fotoaparát telefonu</string>
+    <string name="lab_add_study_day">Datum vyšetření: %1$s</string>
+    <string name="lab_add_done_title">Výsledky přidány</string>
+    <string name="lab_add_done_already">Výsledky už jsou uložené</string>
+    <string name="lab_add_done_attached">Soubor přidán k uloženým výsledkům</string>
+    <string name="lab_add_done_body">Uloženo v tomto telefonu.</string>
+    <string name="lab_add_open_results">Otevřít výsledky</string>
+    <string name="lab_add_more">Přidat další výsledky</string>
+</resources>

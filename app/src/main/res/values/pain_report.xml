@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Under the pain summary's body: it shows the paintings, and the areas under it are counted by days. -->
+    <string name="pain_summary_note">What was painted in the last 30 days, and how many days each area hurt</string>
+    <!-- Under the paint canvas, printed open: how to paint, and that two pains are two entries. -->
+    <string name="pain_paint_hint">Paint where it hurts, and pinch to zoom in. A sore back and a sore knee are two entries.</string>
+    <!-- Behind the "?" beside the list of areas: the figure has no head, so a headache is chosen by name. -->
+    <string name="pain_head_note">The picture starts at the neck: choose a headache’s area under “Add area”.</string>
+    <!-- Under the pain drawing on the doctor’s report: how many entries are drawn, and how to read the marks. -->
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">%1$d entry drawn. Each mark is drawn where the person painted it, darker where entries overlap. Areas chosen from a list without painting are not drawn.</item>
+        <item quantity="other">%1$d entries drawn. Each mark is drawn where the person painted it, darker where entries overlap. Areas chosen from a list without painting are not drawn.</item>
+    </plurals>
+</resources>

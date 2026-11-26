@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">Pediatra</string>
+    <string name="visit_kind_dermatologist">Dermatologista</string>
+    <string name="visit_kind_ophthalmologist">Oftalmologista</string>
+    <string name="visit_kind_ent">Otorrino (ouvido, nariz e garganta)</string>
+    <string name="visit_kind_orthopaedist">Ortopedista</string>
+    <string name="visit_kind_neurologist">Neurologista</string>
+    <string name="visit_kind_psychiatrist">Psiquiatra</string>
+    <string name="visit_kind_gastroenterologist">Gastroenterologista</string>
+    <string name="visit_kind_laboratory">Exames de laboratório</string>
+    <string name="visit_kind_imaging">Exames de imagem: raio X, ultrassom, tomografia, ressonância</string>
+    <string name="visit_kind_rehabilitation">Reabilitação e fisioterapia</string>
+    <string name="visit_kind_surgeon">Cirurgião</string>
+    <string name="visit_kind_oncologist">Oncologista</string>
+    <string name="visit_kind_allergist">Alergista</string>
+    <string name="visit_kind_pulmonologist">Pneumologista (pulmões)</string>
+    <string name="visit_kind_nephrologist">Nefrologista (rins)</string>
+    <string name="visit_kind_rheumatologist">Reumatologista</string>
+    <string name="visit_kind_infectious_diseases">Infectologista</string>
+    <string name="visit_kind_search_dentist">odontologia, dentes, cirurgião-dentista, odontológico</string>
+    <string name="visit_kind_search_gynecologist">obstetra, ginecologia, pré-natal</string>
+    <string name="visit_kind_search_gp">médico de família, clínica médica, posto de saúde, UBS, atenção primária</string>
+    <string name="visit_kind_search_paediatrician">pediatria, criança, infantil, bebê</string>
+    <string name="visit_kind_search_cardiologist">coração, cardiologia</string>
+    <string name="visit_kind_search_dermatologist">pele, dermatologia</string>
+    <string name="visit_kind_search_ophthalmologist">oculista, olhos, visão, oftalmo</string>
+    <string name="visit_kind_search_ent">otorrinolaringologista, ouvido, nariz, garganta</string>
+    <string name="visit_kind_search_orthopaedist">ortopedia, ossos, articulações, traumatologista, trauma</string>
+    <string name="visit_kind_search_psychologist">terapia, analista, aconselhamento</string>
+    <string name="visit_kind_search_gastroenterologist">estômago, intestino, gastro</string>
+    <string name="visit_kind_search_laboratory">exame de sangue, análises clínicas, laboratório, coleta</string>
+    <string name="visit_kind_search_imaging">radiologia, ultrassonografia, ecografia, raio X, chapa</string>
+    <string name="visit_kind_search_rehabilitation">fisio, fisioterapeuta, terapia física</string>
+    <string name="visit_kind_search_somnologist">somnologista, médico do sono, insônia</string>
+    <string name="visit_kind_field">Médico ou exame</string>
+    <string name="visit_kind_search">Buscar na lista</string>
+    <string name="choice_search_none">Nada na lista corresponde à busca</string>
+    <string name="visit_doctors_here">Médicos com quem você já se consultou neste local</string>
+    <string name="visit_save_needs_place">Para salvar, informe o local</string>
+    <string name="visit_save_needs_doctor">Para salvar, informe o médico</string>
+    <string name="visit_save_needs_kind">Para salvar, escolha o médico ou o exame</string>
+</resources>

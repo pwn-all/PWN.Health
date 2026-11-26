@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">Kinderarztpraxis</string>
+    <string name="visit_kind_dermatologist">Hautarztpraxis</string>
+    <string name="visit_kind_ophthalmologist">Augenarztpraxis</string>
+    <string name="visit_kind_ent">HNO-Praxis</string>
+    <string name="visit_kind_orthopaedist">Orthopädische Praxis</string>
+    <string name="visit_kind_neurologist">Neurologische Praxis</string>
+    <string name="visit_kind_psychiatrist">Psychiatrische Praxis</string>
+    <string name="visit_kind_gastroenterologist">Gastroenterologische Praxis</string>
+    <string name="visit_kind_laboratory">Laboruntersuchungen</string>
+    <string name="visit_kind_imaging">Radiologie: Röntgen, Ultraschall, CT, MRT</string>
+    <string name="visit_kind_rehabilitation">Reha und Physiotherapie</string>
+    <string name="visit_kind_surgeon">Chirurgische Praxis</string>
+    <string name="visit_kind_oncologist">Onkologische Praxis</string>
+    <string name="visit_kind_allergist">Allergologische Praxis</string>
+    <string name="visit_kind_pulmonologist">Lungenfacharztpraxis (Pneumologie)</string>
+    <string name="visit_kind_nephrologist">Nephrologische Praxis (Nieren)</string>
+    <string name="visit_kind_rheumatologist">Rheumatologische Praxis</string>
+    <string name="visit_kind_infectious_diseases">Infektiologische Praxis</string>
+    <string name="visit_kind_search_dentist">Zahnarzt, Zahnärztin, Zähne, Zahn</string>
+    <string name="visit_kind_search_gynecologist">Frauenarzt, Frauenärztin, Gynäkologie, Geburtshilfe</string>
+    <string name="visit_kind_search_gp">Hausarzt, Hausärztin, Allgemeinmedizin, Allgemeinarzt, Internist</string>
+    <string name="visit_kind_search_paediatrician">Kinderarzt, Kinderärztin, Pädiatrie, Kind, Kinder</string>
+    <string name="visit_kind_search_cardiologist">Herz, Kardiologe, Kardiologin</string>
+    <string name="visit_kind_search_dermatologist">Haut, Hautarzt, Hautärztin, Dermatologie</string>
+    <string name="visit_kind_search_ophthalmologist">Augenarzt, Augenärztin, Augen, Ophthalmologie</string>
+    <string name="visit_kind_search_ent">HNO, Hals-Nasen-Ohren, Ohr, Nase, Hals</string>
+    <string name="visit_kind_search_orthopaedist">Orthopäde, Orthopädin, Knochen, Gelenke, Unfallchirurgie</string>
+    <string name="visit_kind_search_psychologist">Therapeut, Therapeutin, Psychotherapie, Beratung</string>
+    <string name="visit_kind_search_gastroenterologist">Magen, Darm, Verdauung</string>
+    <string name="visit_kind_search_laboratory">Bluttest, Blutabnahme, Blutbild, Labor</string>
+    <string name="visit_kind_search_imaging">Radiologie, Röntgen, Aufnahme, Sonografie, Ultraschall</string>
+    <string name="visit_kind_search_rehabilitation">Physio, Krankengymnastik, Physiotherapeut</string>
+    <string name="visit_kind_search_somnologist">Schlafmedizin, Schlafarzt, Schlaflabor</string>
+    <string name="visit_kind_field">Fachrichtung oder Untersuchung</string>
+    <string name="visit_kind_search">In der Liste suchen</string>
+    <string name="choice_search_none">Nichts in der Liste passt</string>
+    <string name="visit_doctors_here">Ärztinnen und Ärzte, bei denen Sie hier schon waren</string>
+    <string name="visit_save_needs_place">Geben Sie zum Speichern den Ort an</string>
+    <string name="visit_save_needs_doctor">Geben Sie zum Speichern die Ärztin oder den Arzt an</string>
+    <string name="visit_save_needs_kind">Wählen Sie zum Speichern eine Fachrichtung oder Untersuchung</string>
+</resources>

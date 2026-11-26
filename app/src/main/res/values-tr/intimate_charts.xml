@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Daha fazla veri ekleyince yeniden bakın!</string>
+    <string name="intimate_charts_walking_title">Yürüyüş ve sabahlar</string>
+    <string name="intimate_charts_alcohol_title">Alkol ve sabahlar</string>
+    <string name="intimate_charts_legend_average">Ortalamanız</string>
+    <string name="intimate_charts_legend_night">Gecelik uyku süresi</string>
+    <string name="intimate_charts_legend_steps">Günlük adım</string>
+    <string name="intimate_charts_legend_drinks">Haftalık standart içki</string>
+    <string name="intimate_charts_pair_note">Çubuklar alttan yükselir, her hafta için bir tane. Çizgi, aynı haftadaki sert ya da kısmen sabahların payını bu haftalardaki kendi ortalamanıza göre gösterir: daha yüksekken orta çizginin üstünde, daha düşükken altında. Neyin neye yol açtığını değil, aynı haftalarda kaydedilenleri gösterirler.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Bir hafta, sabahlarından %1$d tanesi yanıtlandığında sayılır; daha azı olan hafta çizgide sıfır değil, boşluk bırakır.</item>
+        <item quantity="other">Bir hafta, sabahlarından %1$d tanesi yanıtlandığında sayılır; daha azı olan hafta çizgide sıfır değil, boşluk bırakır.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">Bir haftanın çubuğu, değer girilen günlerin ortalamasıdır ve bu günlerden %1$d tane gerekir; daha azı olan haftanın çubuğu olmaz.</item>
+        <item quantity="other">Bir haftanın çubuğu, değer girilen günlerin ortalamasıdır ve bu günlerden %1$d tane gerekir; daha azı olan haftanın çubuğu olmaz.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">Grafik, %1$d haftada yeterli veri olunca görünür.</item>
+        <item quantity="other">Grafik, %1$d haftada yeterli veri olunca görünür.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Bir standart içki %1$s saf alkoldür. İçkilerde değer girilen gün, elle herhangi bir şey girilen gündür ve ortalama yedi güne göre ölçeklenir: hiçbir şey yazılmayan gün, içki içilmeyen gün değildir.</string>
+    <string name="intimate_charts_acts_note">Her haftanın eylemleri, partnerle ve tek başına. Kendiniz hiçbir şey girmediğiniz hafta iki çizgiyi de keser: eylemsiz bir hafta değildir.</string>
+    <string name="intimate_charts_desire_note">Çizgi üzerinde nokta: o tür eylemde “%1$s” işaretlenen hafta.</string>
+    <string name="intimate_charts_erection_note">Çizgi üzerinde tire: o tür eylemde “%1$s” işaretlenen hafta.</string>
+    <string name="intimate_charts_acts_mornings_note">Sabahların kendi grafikleri var: bunlar ayrı bir sorgudan günde bir yanıttır, eylem sayısı değildir; bu eksenlere çizilseler eylemlerin sonucu gibi okunurlardı.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, son %2$d haftada haftalık olarak. %3$s</item>
+        <item quantity="other">%1$s, son %2$d haftada haftalık olarak. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">%1$s tarihinde biten hafta: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">değer yok</string>
+    <string name="intimate_charts_spoken_gap">yanıtlanan sabah çok az</string>
+    <string name="intimate_charts_spoken_above">sabahlar ortalamanızın üstünde</string>
+    <string name="intimate_charts_spoken_below">sabahlar ortalamanızın altında</string>
+    <string name="intimate_charts_spoken_at">sabahlar ortalamanızda</string>
+    <string name="intimate_charts_spoken_acts">partnerle %1$s, tek başına %2$s</string>
+</resources>

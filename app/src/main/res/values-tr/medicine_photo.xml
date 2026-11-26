@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">İlacın fotoğrafını çek</string>
+    <string name="med_photo_of">%1$s fotoğrafı</string>
+    <string name="med_photo_unnamed">İlacın fotoğrafı</string>
+    <string name="med_photo_retake">Yeniden çek</string>
+    <string name="med_photo_remove">Fotoğrafı kaldır</string>
+    <string name="med_photo_open">Tam boyutta aç</string>
+    <string name="med_delete_body_photo">Program ve fotoğrafı silinir; işaretlenmiş dozlar günlükte kalır.</string>
+</resources>

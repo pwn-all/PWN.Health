@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">Vyfotit lék</string>
+    <string name="med_photo_of">Fotka léku „%1$s“</string>
+    <string name="med_photo_unnamed">Fotka léku</string>
+    <string name="med_photo_retake">Vyfotit znovu</string>
+    <string name="med_photo_remove">Odebrat fotku</string>
+    <string name="med_photo_open">Otevřít v plné velikosti</string>
+    <string name="med_delete_body_photo">Plán i jeho fotka se smažou; už zaškrtnuté dávky zůstanou v deníku.</string>
+</resources>

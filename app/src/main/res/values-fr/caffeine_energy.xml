@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Calories dans une tasse</string>
+    <string name="caffeine_energy_help_body">Les calories sont celles de la boisson telle qu’elle est préparée, d’après l’USDA FoodData Central : thé et café noirs, expresso, matcha fouetté dans l’eau, et cappuccino au lait demi-écrémé — au lait entier, c’est environ un cinquième de plus. Le lait, la crème, le sucre et le sirop ajoutés à table viennent en plus et sont enregistrés comme aliments. Un cappuccino est enregistré comme aliment avec sa caféine : ses calories comptent dans l’alimentation du jour, mais il ne compte pas comme un repas. Les autres tasses n’apportent que quelques calories et restent un simple enregistrement de caféine.</string>
+</resources>

@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="@color/art_duo_mid" android:pathData="M23,17 L78,17 Q85,17 85,25 L85,79 Q85,86 77,86 L23,86 Q15,86 15,78 L15,26 Q15,17 23,17Z" />
+    <path android:fillColor="@color/art_duo_tile" android:pathData="M17,12 L72,12 Q80,12 80,20 L80,73 Q80,81 72,81 L17,81 Q9,81 9,73 L9,20 Q9,12 17,12Z" />
+    <path android:fillColor="@color/art_duo_ink" android:pathData="M17,12 L72,12 Q80,12 80,20 L80,31 L9,31 L9,20 Q9,12 17,12Z" />
+    <path android:fillColor="@color/art_duo_mid" android:pathData="M25,6 Q29,6 29,10 L29,21 Q29,25 25,25 Q21,25 21,21 L21,10 Q21,6 25,6Z M64,6 Q68,6 68,10 L68,21 Q68,25 64,25 Q60,25 60,21 L60,10 Q60,6 64,6Z" />
+    <path android:fillColor="@color/art_duo_ink" android:pathData="M27,42 L33,42 L33,68 L27,68 L27,49 L23,52 L20,47Z M41,42 L61,42 L61,47 L49,68 L42,68 L54,48 L41,48Z" />
+    <path android:fillColor="@color/art_duo_mid" android:pathData="M74,57 C67,50 57,57 62,66 L74,79 L86,66 C92,57 81,50 74,57Z" />
+</vector>

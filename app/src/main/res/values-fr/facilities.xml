@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Lieux près de moi</string>
+    <string name="facility_locating">Recherche de votre position…</string>
+    <string name="facility_denied">La localisation n’a pas été autorisée, la liste ne peut donc pas être triée par distance. Vous pouvez toujours saisir un nom.</string>
+    <string name="facility_location_off">La localisation est désactivée sur ce téléphone.</string>
+    <string name="facility_location_settings">Paramètres de localisation</string>
+    <string name="facility_no_fix">Le téléphone n’a pas pu déterminer votre position pour le moment. Réessayez dans un instant.</string>
+    <string name="facility_nothing_near">Aucun lieu de la liste à moins de %1$s de vous.</string>
+    <string name="facility_list_title">Cliniques et hôpitaux</string>
+    <string name="facility_near_title">Près de vous</string>
+    <string name="facility_near_kind">Près de vous : %1$s</string>
+    <string name="facility_near_gynaecology">Près de vous : gynécologie</string>
+    <string name="facility_near_imaging">Près de vous : imagerie médicale</string>
+    <string name="facility_near_gastroenterology">Près de vous : gastro-entérologie</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">D’où viennent ces lieux</string>
+    <string name="facility_help_what">Les suggestions proviennent des registres officiels des établissements de santé. La liste est conservée dans l’application, et la recherche se fait sur ce téléphone. Pour l’application, les registres ont été filtrés pour ne garder que les lieux où un patient peut se rendre, et leurs types de soins ont été regroupés selon les types de médecins que connaît l’application. Le bouton de localisation au bout du champ « Lieu » n’affiche que les lieux qui proposent les soins choisis pour cette visite, ou tous les lieux si la visite concerne un autre médecin ; la saisie d’un nom cherche dans toute la liste.</string>
+    <string name="facility_help_screening">Pour un dépistage, la liste affiche les services où il est souvent pratiqué : la gynécologie pour le dépistage du col de l’utérus, l’imagerie médicale pour la mammographie, la gastro-entérologie pour le dépistage colorectal. Un registre n’indique pas si un service pratique lui-même ce dépistage : renseignez-vous en prenant rendez-vous.</string>
+    <string name="facility_help_coverage">La liste couvre la Tchéquie, l’Ukraine et les Émirats arabes unis. Pour l’Ukraine, elle ne contient que les lieux sous contrat avec le Service national de santé d’Ukraine. Pour les Émirats, elle contient le registre de Dubaï dans son édition de décembre 2023, les lieux autorisés d’Abou Dabi, tels qu’ils étaient cartographiés en 2022 et le sont toujours en 2026, ainsi que les hôpitaux et centres de santé publics d’Emirates Health Services ; les cliniques privées de Charjah, Ajman, Oumm al Qaïwaïn, Ras el Khaïmah et Fujaïrah n’y figurent pas. Un registre peut ne pas être à jour : vérifiez auprès du lieu avant de vous y rendre.</string>
+    <string name="facility_help_location">Le bouton de localisation demande une seule fois à Android votre position approximative et l’arrondit à environ un kilomètre. Elle sert à trier la liste sur ce téléphone, n’est jamais enregistrée ni envoyée nulle part, et elle est oubliée dès que vous quittez cette page.</string>
+    <string name="facility_help_sources">Sources</string>
+</resources>

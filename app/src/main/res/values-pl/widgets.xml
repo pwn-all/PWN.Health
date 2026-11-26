@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">Sen ostatniej nocy</string>
+    <string name="widget_sleep_caption">ostatniej nocy, %1$s – %2$s</string>
+    <string name="widget_sleep_none">Brak zapisanego snu</string>
+    <string name="widget_weight_description">Twoja ostatnia waga i jak zmieniła się w 30 dni</string>
+    <string name="widget_weight_caption">ostatnia waga</string>
+    <string name="widget_weight_change">%1$s w 30 dni</string>
+    <string name="widget_weight_steady">bez zmian w 30 dni</string>
+    <string name="widget_weight_none">Brak zapisanej wagi</string>
+    <string name="widget_energy_description">Dzisiejsze jedzenie wobec dziennego limitu; dotknięcie zapisuje posiłek</string>
+    <string name="widget_energy_caption">z %1$s kcal · %2$s</string>
+    <string name="widget_energy_left">zostało %1$s</string>
+    <string name="widget_energy_over">%1$s ponad</string>
+    <string name="widget_week_description">Kroki w każdym z ostatnich siedmiu dni</string>
+    <string name="widget_week_caption">%1$s kroków w tym tygodniu · %2$s dziennie</string>
+    <string name="widget_week_initial">kroków w tym tygodniu</string>
+    <string name="widget_level_description">Twój poziom, XP do następnego i codzienna seria</string>
+    <string name="widget_level_initial">Poziom</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">seria: %d dzień</item>
+        <item quantity="few">seria: %d dni</item>
+        <item quantity="many">seria: %d dni</item>
+        <item quantity="other">seria: %d dnia</item>
+    </plurals>
+    <string name="widget_dose_description">Następna dawka dnia, oznaczana jako przyjęta jednym dotknięciem</string>
+    <string name="widget_dose_next">Następna: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Przyjęta</string>
+    <string name="widget_dose_done">Wszystkie dzisiejsze dawki przyjęte</string>
+    <string name="widget_dose_none">Dziś brak dawek</string>
+    <string name="widget_cycle_description">Dzień cyklu i następna spodziewana miesiączka</string>
+    <string name="widget_cycle_period">Miesiączka, dzień %1$d</string>
+    <string name="widget_preview_sleep_value">7 godz. 40 min</string>
+    <string name="widget_preview_sleep_caption">ostatniej nocy, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72,4 kg</string>
+    <string name="widget_preview_weight_change">−0,6 kg w 30 dni</string>
+    <string name="widget_preview_energy_value">1 240</string>
+    <string name="widget_preview_energy_caption">z 2 520 kcal · zostało 1 280</string>
+    <string name="widget_preview_week_caption">48 300 kroków w tym tygodniu · 6 900 dziennie</string>
+    <string name="widget_preview_level_title">Poziom 7</string>
+    <string name="widget_preview_level_caption">1 240 / 1 600 XP · seria: 12 dni</string>
+    <string name="widget_preview_dose_next">Następna: Metformina</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">Dzień 12</string>
+    <string name="widget_preview_cycle_next">Następna spodziewana 24 lis</string>
+</resources>

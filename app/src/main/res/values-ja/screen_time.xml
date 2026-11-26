@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">スクリーンタイム</string>
+    <string name="screen_time_add_body">SNS・動画・メッセージ・ゲームの利用時間と、目と頭の休憩</string>
+    <string name="screen_time_help">今日と今週、SNS・フィード、動画、メッセージ、ゲームが画面に表示されていた時間を Android の使用履歴から読み取ります。目と頭の通知は SNS とフィードだけを対象にし、休憩なしにアプリを行き来した場合は 1 回の利用として数えます。その他は記録のみです。日記には何も書き込まれず、何もスマートフォンの外に出ません。</string>
+    <string name="screen_time_channel">画面の休憩</string>
+    <string name="screen_time_access_title">使用状況へのアクセスが必要です</string>
+    <string name="screen_time_access_body">Android は、使用状況へのアクセスがある場合にのみ、他のアプリが開かれていた時間をアプリに伝えます。睡眠の推定も同じアクセスを使います。</string>
+    <string name="screen_time_access_button">使用状況へのアクセスを開く</string>
+    <string name="screen_time_longest">休憩なしの最長利用: %1$s</string>
+    <string name="screen_time_over">%1$sを超過</string>
+    <string name="screen_time_week">過去 7 日間</string>
+    <string name="screen_time_week_average">1 日の平均: %1$s</string>
+    <string name="screen_time_eyes_switch">目の疲れをお知らせ</string>
+    <string name="screen_time_eyes_switch_body">休憩なしにフィードを長く見た後</string>
+    <string name="screen_time_brain_switch">頭の負担を警告</string>
+    <string name="screen_time_brain_switch_body">これらのアプリでの 1 日の合計が多くなったとき</string>
+    <string name="screen_time_tips_title">目と頭の休息</string>
+    <string name="screen_time_tip_eyes">20 分ごとに、6 メートル先のものを 20 秒間見ましょう。</string>
+    <string name="screen_time_tip_blink">意識してまばたきを。画面を見ているとまばたきが大きく減り、目が乾きます。</string>
+    <string name="screen_time_tip_brain">終わりのないフィードは数秒ごとに注意を切り替えさせます。短い散歩やゆっくりした呼吸で頭が落ち着きます。</string>
+    <string name="screen_time_tip_night">寝る 1 時間前にはスマートフォンを置きましょう。明るい画面は眠りを遅らせます。</string>
+    <string name="screen_time_breathing">呼吸の休憩</string>
+    <string name="screen_time_eyes_title">目を休ませましょう</string>
+    <string name="screen_time_eyes_body">%1$s を休憩なしで %2$d 分。20 秒間遠くを見て、何度かまばたきしましょう。</string>
+    <string name="screen_time_brain_title">頭に休憩が必要です</string>
+    <string name="screen_time_brain_body">今日の SNS・フィード: %1$s。終わりのないフィードは注意力を疲れさせます。10 分間スマートフォンを置いて、歩くかゆっくり呼吸しましょう。</string>
+    <string name="screen_time_feeds_title">SNS とフィード</string>
+    <string name="screen_time_video_title">動画と配信</string>
+    <string name="screen_time_messengers_title">メッセージ</string>
+    <string name="screen_time_games_title">ゲーム</string>
+    <string name="screen_time_category_longest">最長の利用: %1$s</string>
+    <string name="screen_time_category_week">過去 7 日間: %1$s、1 日平均 %2$s</string>
+    <string name="screen_time_tracked_note">記録のみ、通知なし。</string>
+    <string name="screen_time_none_today">今日は未使用</string>
+</resources>

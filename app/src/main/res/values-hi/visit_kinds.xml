@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">बाल रोग विशेषज्ञ</string>
+    <string name="visit_kind_dermatologist">त्वचा रोग विशेषज्ञ</string>
+    <string name="visit_kind_ophthalmologist">नेत्र रोग विशेषज्ञ</string>
+    <string name="visit_kind_ent">नाक, कान, गला (ENT) विशेषज्ञ</string>
+    <string name="visit_kind_orthopaedist">हड्डी रोग विशेषज्ञ (ऑर्थोपेडिक)</string>
+    <string name="visit_kind_neurologist">तंत्रिका रोग विशेषज्ञ (न्यूरोलॉजिस्ट)</string>
+    <string name="visit_kind_psychiatrist">मनोचिकित्सक</string>
+    <string name="visit_kind_gastroenterologist">पेट रोग विशेषज्ञ</string>
+    <string name="visit_kind_laboratory">लैब में जाँच</string>
+    <string name="visit_kind_imaging">रेडियोलॉजी: एक्स-रे, अल्ट्रासाउंड, CT, MRI</string>
+    <string name="visit_kind_rehabilitation">पुनर्वास और फ़िज़ियोथेरेपी</string>
+    <string name="visit_kind_surgeon">सर्जन</string>
+    <string name="visit_kind_oncologist">कैंसर रोग विशेषज्ञ</string>
+    <string name="visit_kind_allergist">एलर्जी विशेषज्ञ</string>
+    <string name="visit_kind_pulmonologist">फेफड़ा रोग विशेषज्ञ</string>
+    <string name="visit_kind_nephrologist">गुर्दा रोग विशेषज्ञ</string>
+    <string name="visit_kind_rheumatologist">गठिया रोग विशेषज्ञ</string>
+    <string name="visit_kind_infectious_diseases">संक्रामक रोग विशेषज्ञ</string>
+    <string name="visit_kind_search_dentist">दाँत, दाँतों का डॉक्टर, डेंटिस्ट, डेंटल</string>
+    <string name="visit_kind_search_gynecologist">गायनेकोलॉजिस्ट, प्रसूति विशेषज्ञ, महिला रोग</string>
+    <string name="visit_kind_search_gp">GP, फ़ैमिली डॉक्टर, पारिवारिक चिकित्सक, फ़िज़िशियन, प्राथमिक देखभाल</string>
+    <string name="visit_kind_search_paediatrician">पीडियाट्रिशियन, बच्चों का डॉक्टर, बच्चा, बच्चे</string>
+    <string name="visit_kind_search_cardiologist">दिल, हृदय, कार्डियोलॉजिस्ट</string>
+    <string name="visit_kind_search_dermatologist">त्वचा, चमड़ी, स्किन, डर्मेटोलॉजिस्ट</string>
+    <string name="visit_kind_search_ophthalmologist">आँखों का डॉक्टर, आँखें, आँख, नेत्र, आई स्पेशलिस्ट</string>
+    <string name="visit_kind_search_ent">ENT, ओटोलैरिंगोलॉजिस्ट, कान, नाक, गला</string>
+    <string name="visit_kind_search_orthopaedist">ऑर्थोपेडिक, हड्डी, हड्डियाँ, जोड़, चोट</string>
+    <string name="visit_kind_search_psychologist">थेरेपिस्ट, काउंसलर, परामर्शदाता, साइकोलॉजिस्ट</string>
+    <string name="visit_kind_search_gastroenterologist">पेट, आँत, गैस्ट्रो, गैस्ट्रोएंटेरोलॉजिस्ट</string>
+    <string name="visit_kind_search_laboratory">ख़ून की जाँच, ब्लड टेस्ट, लैब, पैथोलॉजी, टेस्ट</string>
+    <string name="visit_kind_search_imaging">इमेजिंग, स्कैन, सोनोग्राफ़ी, एक्स रे, अल्ट्रासाउंड</string>
+    <string name="visit_kind_search_rehabilitation">फ़िज़ियो, फ़िज़िकल थेरेपी, भौतिक चिकित्सा</string>
+    <string name="visit_kind_search_somnologist">सोम्नोलॉजिस्ट, नींद के डॉक्टर, स्लीप</string>
+    <string name="visit_kind_field">डॉक्टर या जाँच</string>
+    <string name="visit_kind_search">सूची में खोजें</string>
+    <string name="choice_search_none">सूची में कुछ नहीं मिला</string>
+    <string name="visit_doctors_here">इस जगह जिन डॉक्टरों से आप मिल चुके हैं</string>
+    <string name="visit_save_needs_place">सहेजने के लिए जगह बताएँ</string>
+    <string name="visit_save_needs_doctor">सहेजने के लिए डॉक्टर बताएँ</string>
+    <string name="visit_save_needs_kind">सहेजने के लिए डॉक्टर या जाँच चुनें</string>
+</resources>

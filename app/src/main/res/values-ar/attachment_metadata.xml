@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">وصف المرفق</string>
+    <string name="attachment_details_hint">اختر ما يحتويه هذا الملف. فاسمه وصيغته لا يحددان نوع الفحص. ويمكنك ترك النوع دون تحديد.</string>
+    <string name="attachment_description">الوصف أو منطقة الجسم</string>
+    <string name="attachment_study_day">تاريخ الفحص (اختياري)</string>
+    <string name="attachment_study_day_clear">إزالة التاريخ</string>
+    <string name="attachment_kind_unknown">النوع غير محدد</string>
+    <string name="attachment_kind_ct">تصوير مقطعي</string>
+    <string name="attachment_kind_mri">رنين مغناطيسي</string>
+    <string name="attachment_kind_ultrasound">موجات فوق صوتية</string>
+    <string name="attachment_kind_xray">أشعة سينية</string>
+    <string name="attachment_kind_doppler">دوبلر بالموجات فوق الصوتية</string>
+    <string name="attachment_kind_lab">نتائج التحاليل</string>
+    <string name="attachment_kind_prescription">وصفة طبية</string>
+    <string name="attachment_kind_other">مستند آخر</string>
+    <string name="attachment_catalog_note">الملفات المرفقة الأصلية مضمَّنة في ملف ZIP هذا. أنواع الفحوص وتواريخها وأوصافها مقدَّمة من المريض.</string>
+</resources>

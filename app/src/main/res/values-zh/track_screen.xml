@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s。查看详情</string>
+    <string name="track_signal_pill_accuracy">%1$s，%2$s。查看详情</string>
+    <string name="track_signal_good">GPS 信号良好</string>
+    <string name="track_signal_fair">GPS 信号一般</string>
+    <string name="track_signal_poor">GPS 信号弱</string>
+    <string name="track_signal_searching">正在搜索 GPS 信号</string>
+    <string name="track_signal_location_off">定位已关闭</string>
+    <string name="track_signal_no_access">没有位置权限</string>
+    <string name="track_info_title">GPS 信号与路线</string>
+    <string name="track_signal_title">GPS 信号</string>
+    <string name="track_signal_note">信号格表示手机掌握自身位置的精确程度。三格表示误差在 %1$s 以内，两格表示在 %2$s 以内，一格表示误差比这更大。没有信号格时，说明已有 10 秒没有取得位置，手机仍在搜索。这个界面只在打开时读取位置，用来显示信号和你所在的位置。</string>
+    <string name="track_history_empty">还没有保存过路线。</string>
+    <string name="track_map_here">当前位置附近的地图</string>
+    <string name="track_map_waiting">世界地图。尚未确定你的位置。</string>
+    <string name="track_map_follow_here">回到当前位置</string>
+    <string name="track_pause">暂停录制</string>
+    <string name="track_resume">继续录制</string>
+    <string name="track_value_paused">已暂停</string>
+    <string name="track_value_ended">已结束</string>
+    <string name="track_finish_title">结束这次步行？</string>
+    <string name="track_finish_body">录制将停止，这次步行会被保存。如果只是想休息一下，请改用“暂停”。</string>
+    <string name="track_finish">结束</string>
+    <string name="track_keep_recording">继续录制</string>
+    <string name="track_finished">步行已结束</string>
+</resources>

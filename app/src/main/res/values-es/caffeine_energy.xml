@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Calorías en una taza</string>
+    <string name="caffeine_energy_help_body">Las calorías son las de la bebida tal como se prepara, según USDA FoodData Central: té negro y café solo, un espresso, matcha batido con agua y un capuchino con leche semidesnatada; con leche entera sale alrededor de una quinta parte más. La leche, la nata, el azúcar y el sirope que se añaden en la mesa van aparte y se registran como alimentos. Un capuchino se guarda como alimento junto con su cafeína: sus calorías entran en la ingesta del día, pero no cuenta como una comida. Las demás tazas suman pocas calorías y quedan solo como registro de cafeína.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: Dieses Medikament war vor dem Essen fällig; die Einnahme ist nicht vermerkt.</string>
+    <string name="med_reminder_with">%1$s: Eine Mahlzeit ist eingetragen; dieses Medikament wird zum Essen eingenommen.</string>
+    <string name="med_reminder_needs_with_food">%1$s: Dieses Medikament wird zum Essen eingenommen, aber eine Mahlzeit ist noch nicht eingetragen.</string>
+    <string name="med_alarm_title">Medikamentenwecker</string>
+    <string name="med_alarm_dismiss">Ton ausschalten</string>
+    <string name="med_alarm_open">App öffnen</string>
+    <string name="med_alarm_not_taken">Das Ausschalten des Tons bestätigt keine Einnahme.</string>
+    <string name="med_alarm_settings_body">Medikamentenalarme klingeln bis zu einer Minute. Erlauben Sie genaue Alarme und die Anzeige auf dem Sperrbildschirm. Ohne diese Rechte können Erinnerungen verspätet oder als Benachrichtigung erscheinen. Essen und Wasser bleiben normale Benachrichtigungen.</string>
+    <string name="med_alarm_exact_access">Genaue Alarmzeiten erlauben</string>
+    <string name="med_alarm_full_screen_access">Alarme auf dem Sperrbildschirm erlauben</string>
+    <string name="med_alarm_channel_muted">Die Kategorie „%1$s“ ist in den Android-Einstellungen stummgeschaltet, deshalb kommen Einnahmen als normale Benachrichtigungen, ohne Klingeln.</string>
+    <string name="med_alarm_channel_open">Einstellungen der Kategorie öffnen</string>
+    <string name="reminder_food_title">Zeit zum Essen?</string>
+    <string name="reminder_food_body">Zeit zum Essen? Oder haben Sie ohne mich gegessen?</string>
+    <string name="reminder_water_title">Trinken nicht vergessen</string>
+    <string name="reminder_water_body">Vergessen Sie nicht zu trinken. Tragen Sie Wasser ein.</string>
+    <string name="med_action_taken">Eingenommen</string>
+    <string name="med_action_later">Später</string>
+</resources>

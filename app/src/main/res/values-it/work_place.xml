@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Avvio in base alla posizione</string>
+    <string name="work_place_help_what">Salva il luogo in cui lavori e il timer del lavoro si avvierà quando il telefono è lì. A ogni controllo l’app prende una sola posizione dal servizio di localizzazione di Android, la confronta con il punto salvato e la dimentica. Un punto viene salvato solo da una posizione con una precisione entro 100 m. Vengono conservati solo il punto salvato, il suo raggio e le tue sessioni, su questo telefono. Nulla viene inviato da nessuna parte.</string>
+    <string name="work_place_help_when">I controlli avvengono ogni 10 minuti, e solo entro una finestra in ogni giorno lavorativo. La finestra si apre quando ti svegli: alla fine della tua registrazione del sonno o al primo uso del telefono dopo la notte, se l’app riesce a vedere almeno una delle due cose. Un primo uso del telefono prima delle %4$s conta dalle %4$s, a meno che la registrazione del sonno non mostri un risveglio precedente o i tuoi orari abituali non inizino prima. Se l’app non vede né l’una né l’altra, la mattina inizia alle %1$s. Se può vederle ma non ti ha ancora visto svegliarti, aspetta al massimo fino alle %2$s. Quando le ultime 4 settimane contengono almeno 3 sessioni iniziate in giorni lavorativi, senza contare quelle che il timer ha fermato da solo, la finestra si apre un’ora prima del tuo inizio abituale, mai prima del risveglio, e si chiude un’ora dopo la tua fine abituale. Fino ad allora si chiude alle %3$s. Nei giorni liberi non ci sono controlli. Prima che la finestra si apra, l’app guarda solo se sei in piedi, cosa che non richiede alcuna posizione.</string>
+    <string name="work_place_help_leave">Se risulti assente a due controlli di fila, una sessione avviata dall’app si ferma e termina all’ultimo controllo che ti ha trovato lì. Una sessione avviata da te non viene mai fermata in questo modo. Mentre è in corso una sessione avviata dall’app, i controlli continuano anche dopo la chiusura della finestra, al massimo fino a mezzanotte.</string>
+    <string name="work_place_help_yours">Ogni avvio e arresto automatico arriva con una notifica da cui puoi annullarlo: un avvio fino alla fine della giornata, purché non abbia modificato tu la sessione, e un arresto per un’ora, purché il timer non sia stato avviato nel frattempo. Quando sei tu a premere Avvia, Pausa, Riprendi o Ferma, o ad annullare, quel giorno l’app non avvia più nulla.</string>
+    <string name="work_place_help_access">Per questo Android deve consentire sempre l’accesso alla posizione precisa, e le sveglie esatte. Finché l’interruttore è spento, per questa funzione non viene presa alcuna posizione.</string>
+    <string name="work_place_save">Salva dove mi trovo ora</string>
+    <string name="work_place_locating">Ricerca della tua posizione…</string>
+    <string name="work_place_no_fix">Posizione non trovata</string>
+    <string name="work_place_rough_fix">Posizione troppo imprecisa. Prova vicino a una finestra</string>
+    <string name="work_place_point">Il tuo luogo di lavoro</string>
+    <string name="work_place_saved">Salvato %1$s</string>
+    <string name="work_place_saved_within">Salvato %1$s · precisione entro %2$d m</string>
+    <string name="work_place_move">Spostalo dove mi trovo ora</string>
+    <string name="work_place_remove">Rimuovi il luogo di lavoro</string>
+    <string name="work_place_radius">Conta come sul posto entro</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Avvia il timer quando arrivo lì</string>
+    <string name="work_place_access_precise_title">Posizione precisa</string>
+    <string name="work_place_access_precise_body">La posizione approssimativa ha una precisione di circa 1,6 km soltanto, più ampia di qualsiasi luogo di lavoro. Il punto e i controlli richiedono quella precisa.</string>
+    <string name="work_place_access_background_title">Posizione sempre consentita</string>
+    <string name="work_place_access_background_body">PWN.Health usa la tua posizione in background per avviare e fermare il timer del lavoro quando arrivi sul luogo di lavoro o te ne vai, anche quando l’app è chiusa. Controlla ogni 10 minuti, solo tra la tua mattina e la tua sera nei giorni lavorativi, e le posizioni restano su questo telefono. Nella schermata successiva scegli «Consenti sempre».</string>
+    <string name="work_place_access_exact_title">Sveglie e promemoria</string>
+    <string name="work_place_access_exact_body">Solo una sveglia esatta può riattivare l’app per un controllo mentre è chiusa. Android tiene questa autorizzazione nella sua schermata «Sveglie e promemoria».</string>
+    <string name="work_place_access_notifications_title">Notifiche</string>
+    <string name="work_place_access_notifications_body">Ogni avvio e arresto automatico viene segnalato in una notifica con il pulsante «Annulla», sul canale «%1$s». Senza notifiche il timer si avvia e si ferma comunque, ma non c’è nulla da cui annullarlo.</string>
+    <string name="work_place_next_today">Prossimo controllo oggi alle %1$s</string>
+    <string name="work_place_next_tomorrow">Prossimo controllo domani alle %1$s</string>
+    <string name="work_place_next_day">Prossimo controllo: %1$s, alle %2$s</string>
+    <string name="work_place_next_none">Nessun controllo previsto per la prossima settimana.</string>
+    <string name="work_place_started_title">Timer del lavoro avviato</string>
+    <string name="work_place_started_body">Il telefono è sul tuo luogo di lavoro. Avviato alle %1$s.</string>
+    <string name="work_place_stopped_title">Timer del lavoro fermato</string>
+    <string name="work_place_stopped_body">Due controlli di fila non ti hanno trovato sul luogo di lavoro. La sessione termina alle %1$s, all’ultimo controllo che ti ha trovato lì.</string>
+    <string name="work_place_stopped_short">Due controlli di fila non ti hanno trovato sul luogo di lavoro, e lì ti aveva trovato un solo controllo, quindi non è stato conservato nulla.</string>
+    <string name="work_place_undo">Annulla</string>
+    <string name="work_place_channel">Controlli del luogo di lavoro</string>
+    <string name="work_place_notice_channel">Timer del lavoro automatico</string>
+    <string name="work_place_checking">Controllo se sei al lavoro</string>
+</resources>

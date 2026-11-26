@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Foto oder PDF lesen</string>
+    <string name="lab_import_review">Datum, Werte und Einheiten mit dem Original vergleichen. Nur leere Felder werden ausgefüllt. Erst das Speichern des Formulars speichert die Ergebnisse.</string>
+    <string name="lab_import_empty">Keine unterstützten Ergebnisse erkannt. Ein deutlicheres Bild versuchen oder manuell eingeben.</string>
+    <string name="lab_import_veterinary">Dies scheint ein Tierbefund zu sein. Er kann nicht für menschliche Laborwerte verwendet werden.</string>
+    <string name="lab_import_error">Datei nicht lesbar. Ein Bild oder ungeschütztes PDF wählen (bis 20 Seiten, 32 MB).</string>
+    <string name="lab_import_password">Dieses PDF ist geschützt. Passwort eingeben, um es zu lesen.</string>
+    <string name="lab_import_date_unknown">Entnahmedatum nicht erkannt. Datum im Formular prüfen.</string>
+    <string name="lab_import_date_conflict">Diese Seite hat ein anderes Datum. Aktuelle Ergebnisse zuerst speichern oder löschen.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Ungeklärte Werte: %1$d</string>
+</resources>

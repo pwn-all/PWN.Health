@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">Weitere Übung hinzufügen</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">Dauer (MM:SS)</string>
+    <string name="workout_discard_title">Trainingsplan verwerfen?</string>
+    <string name="workout_discard_body">Ihre Änderungen und Ihr Trainingsfortschritt gehen verloren.</string>
+    <string name="workout_discard_confirm">Verwerfen</string>
+    <string name="workout_correction_leave_title">Ohne Speichern verlassen?</string>
+    <string name="workout_correction_leave_body">Die Änderungen an diesem Training sind noch nicht gespeichert. Um sie zu behalten, tippen Sie auf „%1$s“ und dann auf „%2$s“.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: 식전에 복용해야 했지만 아직 복용 기록이 없습니다.</string>
+    <string name="med_reminder_with">%1$s: 식사가 기록되었습니다. 이 약은 식사 중에 복용합니다.</string>
+    <string name="med_reminder_needs_with_food">%1$s: 이 약은 식사 중에 복용하지만 아직 식사 기록이 없습니다.</string>
+    <string name="med_alarm_title">복약 알람</string>
+    <string name="med_alarm_dismiss">소리 끄기</string>
+    <string name="med_alarm_open">앱 열기</string>
+    <string name="med_alarm_not_taken">소리를 꺼도 복용 완료로 표시되지 않습니다.</string>
+    <string name="med_alarm_settings_body">알람은 최대 1분 동안 울립니다. 정확한 시간과 잠금 화면 표시를 허용해 주세요. 권한이 없으면 알림이 늦거나 일반 알림으로 표시될 수 있습니다. 식사와 물은 일반 알림을 사용합니다.</string>
+    <string name="med_alarm_exact_access">정확한 알람 시간 허용</string>
+    <string name="med_alarm_full_screen_access">잠금 화면 알람 허용</string>
+    <string name="med_alarm_channel_muted">Android 설정에서 「%1$s」 채널이 꺼져 있어 복약 알림이 알람 소리 없이 일반 알림으로 표시됩니다.</string>
+    <string name="med_alarm_channel_open">채널 설정 열기</string>
+    <string name="reminder_food_title">식사할 시간인가요?</string>
+    <string name="reminder_food_body">식사할 시간인가요? 아니면 저 몰래 드셨나요?</string>
+    <string name="reminder_water_title">물 마시는 것을 잊지 마세요</string>
+    <string name="reminder_water_body">수분 섭취를 잊지 마세요. 물을 기록해 주세요.</string>
+    <string name="med_action_taken">복용했습니다</string>
+    <string name="med_action_later">나중에</string>
+</resources>

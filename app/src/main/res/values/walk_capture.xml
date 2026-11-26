@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The camera button beside the recording control at the foot of the track screen's map, said
+         by a screen reader. -->
+    <string name="walk_photo_take">Photograph this spot</string>
+    <!-- Flashed once the photograph is kept with the walk, along with where it was taken from. -->
+    <string name="walk_photo_saved">Photo saved</string>
+    <!-- Flashed when the photograph could not be kept: unreadable, or no room left on the phone. -->
+    <string name="walk_photo_failed">Photo not saved</string>
+    <!-- Flashed when the phone has no camera app for the button to open. -->
+    <string name="walk_photo_no_camera">No camera app</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Другие тренировки</string>
+    <string name="routines_other_workouts_body">Только по времени: танцы, баскетбол, футбол, пилатес и другие</string>
+    <string name="routines_indoors">В помещении</string>
+    <string name="routines_indoors_body">Считаем шаги и время</string>
+    <string name="routines_outdoors">На улице</string>
+    <string name="routines_outdoors_body">Откроем «Прогулку» с картой маршрута</string>
+    <string name="track_tracked">Отслежено</string>
+    <string name="track_burned">Сожжено примерно</string>
+    <string name="track_count_question">Посчитали верно?</string>
+    <string name="track_count_fix">Исправьте, сколько было</string>
+    <string name="track_count_interrupted">Счёт прервался — введите вручную</string>
+    <string name="track_phone_title">Где должен быть телефон</string>
+    <string name="track_phone_pocket">В кармане брюк или на поясе — телефон считает каждое приземление.</string>
+    <string name="track_phone_lift">В кармане брюк — телефон считает каждый повтор в верхней точке, где тело замедляется.</string>
+    <string name="track_phone_thigh">В переднем кармане брюк, на бедре — телефон считает наклон бедра в каждом повторе.</string>
+    <string name="track_phone_arm">В спортивном чехле на плече — телефон считает наклон руки в каждом повторе.</string>
+    <string name="track_phone_steps">В кармане или в руке — шаги считает шагомер.</string>
+    <string name="track_phone_stairs">В кармане или в руке — шаги считает шагомер, этажи — барометр.</string>
+    <string name="track_unit_jumps">прыжков</string>
+    <string name="track_unit_floors">этажей</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d прыжок</item>
+        <item quantity="few">%1$d прыжка</item>
+        <item quantity="many">%1$d прыжков</item>
+        <item quantity="other">%1$d прыжка</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d шаг</item>
+        <item quantity="few">%1$d шага</item>
+        <item quantity="many">%1$d шагов</item>
+        <item quantity="other">%1$d шага</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d этаж</item>
+        <item quantity="few">%1$d этажа</item>
+        <item quantity="many">%1$d этажей</item>
+        <item quantity="other">%1$d этажа</item>
+    </plurals>
+</resources>

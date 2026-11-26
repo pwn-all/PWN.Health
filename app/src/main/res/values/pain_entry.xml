@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Three of the answers to "When did it start?", after "2–3 days ago". -->
+    <string name="pain_onset_about_week">About a week ago</string>
+    <string name="pain_onset_about_month">About a month ago</string>
+    <string name="pain_onset_more_than_month">More than a month ago</string>
+    <!-- The search field at the top of the "Add area" dialog. -->
+    <string name="pain_area_search">Search areas</string>
+    <!-- In the "Add area" dialog, when nothing matches what was typed. -->
+    <string name="pain_area_search_empty">No area by that name</string>
+    <!-- Under a disabled Save on the pain page, when no area is marked yet. -->
+    <string name="pain_save_needs_area">Mark where it hurts to save</string>
+    <!-- Under a disabled Save on the pain page: the question still unanswered, e.g. "Still to answer: Is it still there?" -->
+    <string name="pain_save_needs_answer">Still to answer: %1$s</string>
+</resources>

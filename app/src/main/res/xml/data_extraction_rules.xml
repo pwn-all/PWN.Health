@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Two different questions, and this app answers them differently.
+
+  Cloud backup uploads a health record to Google, which is the one thing an app with no INTERNET
+  permission exists not to do. Everything is excluded from it, and it stays excluded.
+
+  Device-to-device transfer is the opposite case: the data goes straight from the old phone to the
+  new one during setup, over cable or Wi-Fi Direct, and never reaches a server. Excluding it too
+  would mean a phone that was lost, broken or replaced took every record with it unless its owner
+  had remembered to press Export. So the manifest's allowBackup is not "false", the database and
+  the settings transfer, and the JSON export is the copy you can read, keep and carry anywhere,
+  rather than the only copy there is.
+
+  The settings go whole, with what in them describes this phone rather than the record, because each
+  of those is read for what it is on the new one: the wrapped database key unwraps to nothing there,
+  and an encrypted file that arrives with it is set aside as another phone's rather than taken for
+  damaged (DatabaseEncryption); a Health Connect change token the new phone's store never issued
+  reads its type whole again (readChangeFeed); the app lock asks for the new phone's own screen lock,
+  and lets one with none straight in (AppLock.prompt). The name this installation signs its backups
+  with must not travel, and is kept in no_backup, which no rule reaches (installId).
+
+  Private image directories go with them. The progress photographs are the record itself, not an
+  input to a recogniser, and they live under files/progress/ with only their names in the database:
+  a transfer that moved the rows and not the pictures would leave every tile blank and every row
+  pointing at nothing, and the export — which leaves out a row whose file is gone — would stop
+  carrying them.
+  The photograph a medicine course carries is kept the same way, under files/medicines/ with its
+  name in the course's row, and goes for the same reason. So do the photographs taken on a walk,
+  under files/walk-photos/ with their names in the route's photograph rows, and the picture a
+  workout template carries, under files/routines/ with its name in the template's row.
+  Lab camera originals also transfer: saved results refer to their files/lab-captures/ URIs.
+  Temporary recognition inputs stay in the cache and do not transfer.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Every domain there is, the device-protected ones too: nothing writes there, and
+             what a library put there would otherwise be uploaded (NoNetworkPermissionTest). -->
+        <exclude domain="root" />
+        <exclude domain="file" />
+        <exclude domain="database" />
+        <exclude domain="sharedpref" />
+        <exclude domain="external" />
+        <exclude domain="device_root" />
+        <exclude domain="device_file" />
+        <exclude domain="device_database" />
+        <exclude domain="device_sharedpref" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- Naming what goes leaves everything else out; there is nothing else worth taking. -->
+        <include domain="database" />
+        <include domain="sharedpref" />
+        <include domain="file" path="progress/" />
+        <include domain="file" path="medicines/" />
+        <include domain="file" path="walk-photos/" />
+        <include domain="file" path="routines/" />
+        <include domain="file" path="lab-captures/" />
+    </device-transfer>
+</data-extraction-rules>

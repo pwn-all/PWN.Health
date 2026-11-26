@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">训练信息</string>
+    <string name="routines_import">导入训练文件</string>
+    <string name="routines_import_error">此文件不是训练模板。</string>
+    <string name="routines_import_cut">文件中的动作数（%2$d）超过了模板可容纳的数量（%1$d），只导入了前面的部分。</string>
+    <string name="routines_description">简短描述</string>
+    <string name="routines_photo">模板照片</string>
+    <string name="routines_days_title">训练日</string>
+    <string name="routines_flow_title">动作与休息</string>
+    <string name="routines_flow_lead">添加动作或超级组，以及它们之间的休息。</string>
+    <string name="routines_add_superset">添加超级组</string>
+    <string name="routines_saved_title">模板已保存</string>
+    <string name="routines_open_template">打开模板</string>
+    <string name="routines_add_another">再添加一个模板</string>
+    <string name="routines_get_ready">准备</string>
+    <string name="routines_finished">训练完成</string>
+    <string name="routines_reminder_title">今天有训练</string>
+    <string name="routines_total_time">总时长</string>
+    <string name="routines_total_lifted">总举重</string>
+    <string name="routines_total_work">训练时间</string>
+    <string name="routines_burn">预计消耗</string>
+    <string name="routines_plan_title">训练计划</string>
+    <plurals name="routines_exercises">
+        <item quantity="other">%1$d 个动作</item>
+    </plurals>
+    <string name="routines_menu">模板操作</string>
+    <string name="routines_overall">总进度</string>
+    <string name="routines_left">剩余</string>
+    <string name="routines_set">组</string>
+    <string name="routines_set_number">第 %1$d 组</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d / %2$d</string>
+    <string name="routines_rest_after">之后休息</string>
+    <string name="routines_previous">上一项</string>
+    <string name="routines_finish">结束</string>
+    <string name="routines_leave_title">离开这次训练？</string>
+    <string name="routines_leave_body">到目前为止完成的内容不会保存。要保留它，请点按“结束”。</string>
+    <string name="routines_pick_title">选择练习</string>
+    <string name="routines_pick_lead">查找所需的练习</string>
+    <string name="routines_setup_lead">练习设置</string>
+    <string name="routines_sets_count">组数</string>
+    <string name="routines_sets_count_lead">选择这个练习要做几组</string>
+    <string name="routines_not_done">未完成</string>
+    <string name="routines_done_of">%1$s / %2$s</string>
+    <string name="routines_pick_empty">没有匹配的练习</string>
+    <string name="routines_set_done_question">这一组完成了吗？</string>
+    <string name="routines_reps_done_question">做了多少次？</string>
+    <string name="routines_goal_missed">未达成目标</string>
+    <string name="routines_freestyle_body">无计划：边练边选动作</string>
+    <string name="routines_show_muscles">显示锻炼的肌肉</string>
+    <string name="routines_show_drawing">显示动作示意图</string>
+</resources>

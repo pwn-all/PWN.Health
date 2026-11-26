@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">المظهر</string>
+    <string name="theme_description">ألوان الواجهة والأيقونات للمظهرين الفاتح والداكن</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_saved_note">تُحفظ كل لوحة ألوان على حدة. ويتبع التطبيق المظهر الفاتح أو الداكن في جهازك.</string>
+    <string name="theme_preview">معاينة</string>
+    <string name="theme_main_accent">لون التمييز الرئيسي</string>
+    <string name="theme_accent_container">خلفية لون التمييز</string>
+    <string name="theme_secondary">لون التمييز الثانوي</string>
+    <string name="theme_secondary_container">الخلفية الثانوية</string>
+    <string name="theme_tertiary">لون التمييز الثالث</string>
+    <string name="theme_tertiary_container">خلفية لون التمييز الثالث</string>
+    <string name="theme_background">خلفية الصفحة</string>
+    <string name="theme_surface">البطاقات</string>
+    <string name="theme_text">النص الأساسي</string>
+    <string name="theme_muted_text">النص الثانوي</string>
+    <string name="theme_border">الحدود</string>
+    <string name="theme_icons">الأيقونات</string>
+    <string name="theme_icon">لون الأيقونات الرئيسي</string>
+    <string name="theme_icon_mid">لون الأيقونات الثانوي</string>
+    <string name="theme_icon_light">التفاصيل الفاتحة في الأيقونات</string>
+    <string name="theme_brightness">السطوع</string>
+    <string name="theme_hex">رمز HEX</string>
+    <string name="theme_hex_error">أدخل 6 أرقام سداسية عشرية، مثلًا #7094EE.</string>
+    <string name="theme_update_all">تحديث كل الألوان</string>
+    <string name="theme_update_all_body">توليد كل الألوان الأخرى في هذه اللوحة من لون التمييز الرئيسي، مع استبدال أي تعديلات يدوية.</string>
+    <string name="theme_reset">إعادة ضبط المظهر</string>
+    <string name="theme_reset_light_body">استعادة ألوان الواجهة والأيقونات الافتراضية للمظهر الفاتح؟ سيبقى المظهر الداكن دون تغيير.</string>
+    <string name="theme_reset_dark_body">استعادة ألوان الواجهة والأيقونات الافتراضية للمظهر الداكن؟ سيبقى المظهر الفاتح دون تغيير.</string>
+    <string name="theme_wheel">عجلة الألوان</string>
+    <string name="theme_wheel_value">درجة اللون %1$d°، التشبّع %2$d%%</string>
+    <string name="theme_next_hue">درجة اللون التالية</string>
+    <string name="theme_previous_hue">درجة اللون السابقة</string>
+    <string name="theme_more_saturation">زيادة التشبّع</string>
+    <string name="theme_less_saturation">تقليل التشبّع</string>
+</resources>

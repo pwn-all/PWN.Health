@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kkal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kkal</string>
+    <string name="caffeine_energy_help_title">Kalori dalam secangkir</string>
+    <string name="caffeine_energy_help_body">Kalorinya untuk minuman sebagaimana diseduh, dari USDA FoodData Central: teh hitam dan kopi, espresso, matcha yang dikocok dengan air, serta cappuccino dengan susu rendah lemak — dengan susu penuh lemak, kalorinya sekitar seperlima lebih banyak. Susu, krim, gula dan sirup yang ditambahkan di meja dihitung terpisah dan dicatat sebagai makanan. Cappuccino disimpan sebagai makanan beserta kafeinnya: kalorinya masuk ke makanan hari itu, tetapi tidak dihitung sebagai satu kali makan. Cangkir lainnya hanya berisi beberapa kalori dan tetap menjadi catatan kafein saja.</string>
+</resources>

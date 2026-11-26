@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Čas u obrazovky</string>
+    <string name="screen_time_add_body">Čas v sociálních sítích, videu, komunikátorech a hrách, s přestávkami pro oči a hlavu</string>
+    <string name="screen_time_help">Jak dlouho byly sociální sítě a feedy, video, komunikátory a hry na obrazovce dnes a tento týden, podle historie používání Androidu. Připomínky pro oči a hlavu sledují jen sociální sítě a feedy; přecházení mezi nimi bez přestávky se počítá jako jedno sezení. Zbytek se jen počítá. Nic se nezapisuje do deníku a nic neopouští telefon.</string>
+    <string name="screen_time_channel">Přestávky od obrazovky</string>
+    <string name="screen_time_access_title">Je potřeba přístup k údajům o využití</string>
+    <string name="screen_time_access_body">Android sdělí aplikaci, jak dlouho byly otevřené jiné aplikace, jen s přístupem k údajům o využití. Odhad spánku používá stejný přístup.</string>
+    <string name="screen_time_access_button">Otevřít přístup</string>
+    <string name="screen_time_longest">Nejdelší sezení bez přestávky: %1$s</string>
+    <string name="screen_time_over">Více než %1$s</string>
+    <string name="screen_time_week">Posledních 7 dní</string>
+    <string name="screen_time_week_average">Průměr za den: %1$s</string>
+    <string name="screen_time_eyes_switch">Připomínat únavu očí</string>
+    <string name="screen_time_eyes_switch_body">Po dlouhém procházení bez přestávky</string>
+    <string name="screen_time_brain_switch">Upozorňovat na zátěž hlavy</string>
+    <string name="screen_time_brain_switch_body">Když denní čas v těchto aplikacích naroste</string>
+    <string name="screen_time_tips_title">Odpočinek pro oči a hlavu</string>
+    <string name="screen_time_tip_eyes">Každých 20 minut se 20 sekund dívejte na něco 6 metrů daleko.</string>
+    <string name="screen_time_tip_blink">Mrkejte vědomě: u obrazovky mrkáme mnohem méně a oči vysychají.</string>
+    <string name="screen_time_tip_brain">Nekonečný feed přesouvá pozornost každých pár vteřin. Krátká procházka nebo pár pomalých nádechů hlavu zklidní.</string>
+    <string name="screen_time_tip_night">Odložte telefon hodinu před spaním: jasná obrazovka posouvá spánek později.</string>
+    <string name="screen_time_breathing">Dechová pauza</string>
+    <string name="screen_time_eyes_title">Čas dopřát očím odpočinek</string>
+    <string name="screen_time_eyes_body">%1$s už %2$d min bez přestávky. Podívejte se 20 sekund do dálky a několikrát mrkněte.</string>
+    <string name="screen_time_brain_title">Hlava potřebuje přestávku</string>
+    <string name="screen_time_brain_body">Dnes %1$s v sociálních sítích a feedech. Nekonečný feed unavuje pozornost: odložte telefon na 10 minut, projděte se nebo pomalu dýchejte.</string>
+    <string name="screen_time_feeds_title">Sociální sítě a feedy</string>
+    <string name="screen_time_video_title">Video a streamování</string>
+    <string name="screen_time_messengers_title">Komunikátory</string>
+    <string name="screen_time_games_title">Hry</string>
+    <string name="screen_time_category_longest">Nejdelší sezení: %1$s</string>
+    <string name="screen_time_category_week">Posledních 7 dní: %1$s, v průměru %2$s denně</string>
+    <string name="screen_time_tracked_note">Jen počítání, bez připomínek.</string>
+    <string name="screen_time_none_today">Dnes neotevřeny</string>
+</resources>

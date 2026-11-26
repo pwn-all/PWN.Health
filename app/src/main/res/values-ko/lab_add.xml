@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">%2$d단계 중 %1$d단계</string>
+    <string name="lab_add_type_title">검사 유형</string>
+    <string name="lab_add_choose_one">하나를 선택하세요. 선택에 따라 다음 단계가 달라집니다.</string>
+    <string name="lab_add_method_title">결과를 어떻게 추가할까요?</string>
+    <string name="lab_add_manual">직접 입력</string>
+    <string name="lab_add_manual_body">수치를 직접 입력합니다</string>
+    <string name="lab_add_file">파일 고르기</string>
+    <string name="lab_add_file_body">이 휴대폰에 있는 사진 또는 PDF</string>
+    <string name="lab_add_photo">사진 찍기</string>
+    <string name="lab_add_photo_body">결과지를 촬영합니다</string>
+    <string name="lab_add_manual_title">결과 입력</string>
+    <string name="lab_add_check_title">결과 확인</string>
+    <string name="lab_add_file_title">파일 추가</string>
+    <string name="lab_add_file_lead">결과지 사진 또는 PDF(최대 20페이지, 32 MB). 여러 파일을 한 번에 고를 수 있습니다.</string>
+    <string name="lab_add_document_lead">검사 보고서의 사진 또는 PDF.</string>
+    <string name="lab_add_allergy">알레르기 패널</string>
+    <string name="lab_add_file_hint">눌러서 이 휴대폰에 있는 파일을 고르세요</string>
+    <string name="lab_add_photo_title">사진 촬영</string>
+    <string name="lab_add_photo_lead">밝은 곳에서 종이를 평평하게 놓고, 전체가 화면에 들어오게 찍으세요.</string>
+    <string name="lab_add_photo_hint">휴대폰 카메라가 열립니다</string>
+    <string name="lab_add_study_day">검사 날짜: %1$s</string>
+    <string name="lab_add_done_title">결과가 추가되었습니다</string>
+    <string name="lab_add_done_already">결과가 이미 저장되어 있습니다</string>
+    <string name="lab_add_done_attached">저장된 결과에 파일이 추가되었습니다</string>
+    <string name="lab_add_done_body">이 휴대폰에 저장되었습니다.</string>
+    <string name="lab_add_open_results">결과 열기</string>
+    <string name="lab_add_more">결과 더 추가</string>
+</resources>

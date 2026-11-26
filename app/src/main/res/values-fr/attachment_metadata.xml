@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Décrire la pièce jointe</string>
+    <string name="attachment_details_hint">Choisissez ce que contient ce fichier. Son nom et son format n’indiquent pas de quel examen il s’agit. Vous pouvez laisser le type non précisé.</string>
+    <string name="attachment_description">Description ou zone du corps</string>
+    <string name="attachment_study_day">Date de l’examen (facultatif)</string>
+    <string name="attachment_study_day_clear">Retirer la date</string>
+    <string name="attachment_kind_unknown">Type non précisé</string>
+    <string name="attachment_kind_ct">Scanner</string>
+    <string name="attachment_kind_mri">IRM</string>
+    <string name="attachment_kind_ultrasound">Échographie</string>
+    <string name="attachment_kind_xray">Radiographie</string>
+    <string name="attachment_kind_doppler">Écho-Doppler</string>
+    <string name="attachment_kind_lab">Résultats d’analyses</string>
+    <string name="attachment_kind_prescription">Ordonnance</string>
+    <string name="attachment_kind_other">Autre document</string>
+    <string name="attachment_catalog_note">Les fichiers joints d’origine sont inclus dans ce ZIP. Les types d’examen, les dates et les descriptions sont fournis par le patient.</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">Energieverbrauch</string>
+    <string name="burn_overlap_note">Als Training erfasstes Gehen und Laufen ist in den Schritten enthalten, damit es nicht doppelt zählt.</string>
+    <string name="burn_rest_so_far">Bisher heute in Ruhe</string>
+    <string name="burn_total_so_far">Bisher heute verbrannt</string>
+    <string name="burn_active">Aktivität, kcal</string>
+    <string name="food_history">Verlauf des Essens</string>
+    <string name="food_history_empty">Heute ist noch kein Essen erfasst.</string>
+    <string name="activity_times">Aktive Zeiten</string>
+    <string name="activity_times_empty">Für diesen Tag ist keine Aktivität mit Uhrzeit erfasst.</string>
+    <string name="visit_history">Verlauf der Arzttermine</string>
+    <string name="visit_history_empty">Hier erscheinen besuchte Arzttermine.</string>
+    <string name="calendar_schedule">Zeitplan</string>
+    <string name="calendar_add_event">Hinzufügen</string>
+    <string name="calendar_expand_month">Monat anzeigen</string>
+    <string name="calendar_collapse_month">Monat einklappen</string>
+    <string name="calendar_day_summary">Tagesbilanz</string>
+    <string name="events_all">Alle Einträge</string>
+    <string name="events_filter">Einträge filtern</string>
+    <string name="events_other">Andere Einträge</string>
+    <string name="events_no_matches">Keine passenden Einträge in diesem Monat.</string>
+    <string name="steps_in_interval">Schritte ab %1$s</string>
+    <string name="metric_goal_reached">Ziel erreicht</string>
+    <string name="workout_did_it">Hat es geklappt?</string>
+    <string name="workout_actual_reps">Wie viele Wiederholungen haben Sie geschafft?</string>
+    <string name="answer_yes">Ja</string>
+    <string name="answer_no">Nein</string>
+    <string name="visit_recent">Letzte Arzttermine</string>
+    <string name="visit_show_all">Alle anzeigen</string>
+    <string name="visit_all_specialties">Alle Fachrichtungen</string>
+    <string name="visit_all_doctors">Alle Ärztinnen und Ärzte</string>
+    <string name="visit_all_time">Gesamter Zeitraum</string>
+    <string name="steps_hourly_title">Aktivität nach Stunden</string>
+    <string name="steps_activity_label">Aktivität</string>
+    <string name="steps_distance_title">Zurückgelegte Distanz</string>
+    <string name="steps_pace_title">Durchschnittstempo</string>
+    <string name="steps_time_title">Gesamtzeit</string>
+    <string name="steps_distance_note">Die Distanz wird aus den heutigen Schritten und der Größe aus Ihrem Profil geschätzt.</string>
+    <string name="steps_no_sensor">Dieses Telefon hat keinen Sensor zum Schrittzählen, deshalb zählt die App selbst keine Schritte. Schritte können weiterhin aus Health Connect oder von einem verbundenen Gerät kommen.</string>
+    <string name="steps_still_title">Längste Phase ohne Bewegung</string>
+    <string name="steps_still_note">Eine Stunde gilt als bewegt, wenn dieses Telefon darin mindestens 100 Schritte gezählt hat — etwa eine Minute Gehen, dieselbe Schrittfrequenz, die auch für die Zeit oben angenommen wird. Die Phase wird ab der ersten bewegten Stunde gemessen, damit der Nachtschlaf nicht als Sitzen zählt. Schritte werden der Stunde zugerechnet, in der sie gutgeschrieben werden, und nicht der Stunde, in der sie gemacht wurden; ein Schwung, den das Telefon zurückgehalten hat, kann deshalb in einer späteren Stunde landen und eine Phase länger erscheinen lassen, als sie war.\n\nGezählt werden Stunden ohne Gehen, nicht die Zeit im Sitzen oder Stehen. Kein Android-Sensor kann einen sitzenden Körper von einem aufrechten unterscheiden, und in Health Connect gibt es für beides keinen Eintragstyp, deshalb wird von hier nichts dorthin gesendet. Ein Telefon, das auf dem Schreibtisch liegt, zählt nichts, egal ob Sie daran sitzen, davor stehen oder gar nicht im Raum sind.</string>
+    <string name="steps_route_note">Ohne Route wird die Zeit mit 100 Schritten pro Minute geschätzt, die Distanz aus Schritten und Ihrer Größe. Das ist eine Annahme, keine gemessene Schrittfrequenz. Das Tempo ist distanzgewichtet: gesamte Bewegungszeit geteilt durch gesamte Distanz.\n\nAbgeschlossene Routen steuern ihre Bewegungszeit (ohne Pausen) und ihre Distanz bei. Überlappende Aufzeichnungen werden zusammengeführt; in jeder Stunde ergänzen nur Schritte über die aufgezeichnete Distanz hinaus geschätzte Zeit. Tagessummen der Geräte werden über den ganzen Tag abgeglichen.\n\n≈ steht für eine Schätzung. Aus Stundensummen lässt sich weder die genaue Zeit jedes Schritts ablesen noch jede Überlappung von Aktivitäten sauber trennen.</string>
+    <string name="steps_chart_thousands">%1$sK</string>
+    <string name="home_stat_walks">Spaziergänge</string>
+    <string name="burn_total_note">Aktivität und geschätzte Ruheenergie für den bisher vergangenen Teil des Tages.</string>
+    <string name="burn_daily_estimate">In Ruhe über 24 Stunden: ≈ %1$s kcal</string>
+    <string name="burn_explanation_title">Wie die Ruheenergie berechnet wird</string>
+    <string name="burn_explanation_body">Die Tagesschätzung nutzt die Formel Mifflin–St Jeor und Ihr Profil: Gewicht, Größe, Alter und Geschlecht. Sie schätzt die Energie, die der Körper in Ruhe braucht, ohne Gehen und Training.\n\nRuheenergie bisher = Tagesschätzung × Minuten seit Mitternacht ÷ 1.440. Nur dieser vergangene Teil geht in den heutigen Gesamtwert ein; die Aktivität kommt getrennt dazu. Die Schätzung für den ganzen Tag wird nicht noch einmal addiert. Der tatsächliche Verbrauch kann abweichen.</string>
+    <string name="home_good_morning">Guten Morgen</string>
+    <string name="home_good_afternoon">Guten Tag</string>
+    <string name="home_good_evening">Guten Abend</string>
+    <string name="home_good_night">Gute Nacht</string>
+    <string-array name="home_motivations">
+        <item>Schritt für Schritt zum Ziel</item>
+        <item>Jeder Schritt zählt</item>
+        <item>Kleine Schritte, großer Weg</item>
+        <item>Heute ist eine neue Chance</item>
+        <item>Bewegung ist Leben</item>
+        <item>Gesundheit beginnt im Kleinen</item>
+    </string-array>
+    <string name="home_focus">Fokus für heute</string>
+    <string name="home_focus_headline">Dranbleiben bringt Ergebnisse.</string>
+    <string name="home_focus_message">Ein Schritt nach dem anderen.</string>
+    <string name="widget_icon_count">Anzahl der Symbole</string>
+    <string name="level_details">Level und XP</string>
+    <string name="level_screen_title">Mein Level</string>
+    <string name="level_sources">XP-Quellen</string>
+    <string name="level_to_next">bis zum nächsten Level</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Level %1$d</string>
+    <string name="level_year_xp">%1$s XP in diesem Jahr</string>
+    <string name="level_max">Höchstes Level erreicht</string>
+    <string name="level_opens">App-Öffnungen</string>
+    <string name="level_steps">Schritte</string>
+    <string name="level_meals">Essenseinträge</string>
+    <string name="level_workouts">Trainingstage</string>
+    <string name="level_visits">Besuchte Arzttermine</string>
+    <string name="level_medals">Medaillen</string>
+    <string name="nutrition_unlogged_title">Heute noch kein Essen erfasst</string>
+    <string name="nutrition_unlogged_body">Wenn Sie gegessen haben, tragen Sie die Mahlzeit ins Tagebuch ein. Wenn nicht, nehmen Sie sich Zeit für eine ausgewogene Mahlzeit; regelmäßiges Essen zählt bei jedem Ziel.</string>
+    <string name="nutrition_tracking_low_title">Bisher wenig Essen erfasst</string>
+    <string name="nutrition_tracking_low_body">Im Tagebuch stehen %1$s%% des heutigen Kalorienziels. Prüfen Sie, ob eine Mahlzeit fehlt. Ist alles erfasst, planen Sie eine ausgewogene Mahlzeit mit Eiweiß, Kohlenhydraten und Gemüse.</string>
+    <string name="nutrition_lose_low_title">Auch beim Abnehmen braucht es Nahrung</string>
+    <string name="nutrition_lose_low_body">Erfasst sind erst %1$s%% des Tagesziels. Zum Abnehmen müssen Sie nicht hungern: Ist das Tagebuch vollständig, essen Sie ausgewogen und bleiben Sie bei regelmäßigen Mahlzeiten.</string>
+    <string name="nutrition_gain_low_title">Zum Zunehmen fehlt noch etwas</string>
+    <string name="nutrition_gain_low_body">Erfasst sind %1$s%% des Tagesziels. Prüfen Sie das Tagebuch und planen Sie dann eine weitere ausgewogene Mahlzeit oder einen Snack mit Eiweiß. Steigern Sie die Menge nach und nach, ohne sich zum Essen zu zwingen.</string>
+    <string name="nutrition_lose_over_title">Kalorienziel für heute überschritten</string>
+    <string name="nutrition_lose_over_body">Im Tagebuch stehen %1$s%% des heutigen Ziels zum Abnehmen. Achten Sie bei der nächsten Mahlzeit auf Portionen und Hunger. Gleichen Sie das nicht durch Fasten oder ausgelassene Mahlzeiten aus.</string>
+    <string name="nutrition_gain_over_title">Deutlich über dem Ziel zum Zunehmen</string>
+    <string name="nutrition_gain_over_body">Im Tagebuch stehen %1$s%% des heutigen Ziels zum Zunehmen, in dem bereits ein Überschuss steckt. Prüfen Sie Portionen und Einträge; zusätzlich essen müssen Sie nicht. Bleiben Sie bei regelmäßigen, ausgewogenen Mahlzeiten.</string>
+    <string name="nutrition_tracking_over_title">Über dem Richtwert für heute</string>
+    <string name="nutrition_tracking_over_body">Im Tagebuch stehen %1$s%% des heutigen Kalorien-Richtwerts. Prüfen Sie Portionen und doppelte Einträge. Ein einzelner Tag beschreibt noch nicht Ihre übliche Ernährung.</string>
+    <string name="nutrition_fat_title">Hoher Fettanteil im heutigen Essen</string>
+    <string name="nutrition_fat_body">Etwa %1$s%% der erfassten Kalorien stammen aus Fett. Ergänzen Sie die nächsten Mahlzeiten mit Eiweiß, Gemüse und Vollkorn. Auch Fette gehören zu einer abwechslungsreichen Ernährung; es kommt auf die Art an.</string>
+    <string name="nutrition_saturated_title">Gesättigte Fettsäuren über dem Richtwert</string>
+    <string name="nutrition_saturated_body">Die erfassten gesättigten Fettsäuren liegen bereits über 10%% des heutigen Energieziels. Ersetzen Sie bei den nächsten Mahlzeiten einen Teil davon durch Fisch, Nüsse oder pflanzliche Öle mit ungesättigten Fettsäuren.</string>
+    <string name="nutrition_protein_title">Beim Zunehmen auf Eiweiß achten</string>
+    <string name="nutrition_protein_body">Die erfasste Energie liegt nahe am Ziel, das Eiweiß aber unter der Hälfte des Tagesrichtwerts der App. Nehmen Sie zur nächsten Mahlzeit eine Eiweißquelle dazu: Hülsenfrüchte, Fisch, Eier, Tofu oder Milchprodukte.</string>
+    <string name="nutrition_source">NHS / WHO; Schwellen der Hinweise von der App festgelegt</string>
+    <!-- Die einbuchstabigen Makro-Kürzel in einer Essenszeile; jedes ist antippbar und nennt sein volles Wort. -->
+    <string name="food_macro_letter_protein">E</string>
+    <string name="food_macro_letter_fat">F</string>
+    <string name="food_macro_letter_carbs">K</string>
+</resources>

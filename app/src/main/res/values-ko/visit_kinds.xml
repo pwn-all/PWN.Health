@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">소아청소년과</string>
+    <string name="visit_kind_dermatologist">피부과</string>
+    <string name="visit_kind_ophthalmologist">안과</string>
+    <string name="visit_kind_ent">이비인후과</string>
+    <string name="visit_kind_orthopaedist">정형외과</string>
+    <string name="visit_kind_neurologist">신경과</string>
+    <string name="visit_kind_psychiatrist">정신건강의학과</string>
+    <string name="visit_kind_gastroenterologist">소화기내과</string>
+    <string name="visit_kind_laboratory">임상검사(혈액·소변 등)</string>
+    <string name="visit_kind_imaging">영상 검사: X선, 초음파, CT, MRI</string>
+    <string name="visit_kind_rehabilitation">재활의학과·물리치료</string>
+    <string name="visit_kind_surgeon">외과</string>
+    <string name="visit_kind_oncologist">종양내과</string>
+    <string name="visit_kind_allergist">알레르기내과</string>
+    <string name="visit_kind_pulmonologist">호흡기내과(폐)</string>
+    <string name="visit_kind_nephrologist">신장내과(콩팥)</string>
+    <string name="visit_kind_rheumatologist">류마티스내과</string>
+    <string name="visit_kind_infectious_diseases">감염내과</string>
+    <string name="visit_kind_search_dentist">치과의사, 치아, 이빨, 잇몸</string>
+    <string name="visit_kind_search_gynecologist">산부인과 의사, 산과, 부인과, 임신</string>
+    <string name="visit_kind_search_gp">가정의학과, 내과, 동네 의원, 1차 진료</string>
+    <string name="visit_kind_search_paediatrician">소아과, 아이, 어린이</string>
+    <string name="visit_kind_search_cardiologist">심장, 심장내과</string>
+    <string name="visit_kind_search_dermatologist">피부, 피부과 의사</string>
+    <string name="visit_kind_search_ophthalmologist">안과 의사, 눈, 시력</string>
+    <string name="visit_kind_search_ent">이비인후과 의사, 귀, 코, 목</string>
+    <string name="visit_kind_search_orthopaedist">정형외과 의사, 뼈, 관절, 외상</string>
+    <string name="visit_kind_search_psychologist">심리상담, 상담사, 심리치료</string>
+    <string name="visit_kind_search_gastroenterologist">위, 장, 소화기</string>
+    <string name="visit_kind_search_laboratory">혈액검사, 피검사, 검사실, 진단검사</string>
+    <string name="visit_kind_search_imaging">영상의학과, 엑스레이, 초음파, 촬영</string>
+    <string name="visit_kind_search_rehabilitation">물리치료사, 도수치료, 재활</string>
+    <string name="visit_kind_search_somnologist">수면 전문의, 수면, 불면</string>
+    <string name="visit_kind_field">진료과 또는 검사</string>
+    <string name="visit_kind_search">목록에서 찾기</string>
+    <string name="choice_search_none">목록에 맞는 항목이 없습니다</string>
+    <string name="visit_doctors_here">이곳에서 진료받은 의사</string>
+    <string name="visit_save_needs_place">저장하려면 장소를 입력하세요</string>
+    <string name="visit_save_needs_doctor">저장하려면 의사를 입력하세요</string>
+    <string name="visit_save_needs_kind">저장하려면 진료과나 검사를 고르세요</string>
+</resources>

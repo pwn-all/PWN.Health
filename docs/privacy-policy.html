@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PWN.Health — Privacy Policy</title>
+<link rel="canonical" href="https://pwn-all.com/app/health/privacy">
+<link rel="stylesheet" href="../../privacy.css">
+</head>
+<body>
+
+<h1>PWN.Health — Privacy Policy</h1>
+<p class="muted">Effective date: 26 November 2026 · App package: <code>com.pwnall.health</code> · App version 2.0</p>
+
+<div class="lead">
+  <strong>The short version:</strong> PWN.Health does not have the Android <code>INTERNET</code>
+  permission. It opens no network connection of its own, and there are no servers, no accounts, no
+  analytics, no advertising and no trackers of any kind — nothing about you is sent to us while you
+  use the app. Data can still leave the app, and always onto your own phone, because you set it up
+  that way: it can be handed as a file to an app you pick — an export, a report, a photograph, a
+  daily copy into a folder you chose — and, if you connect Health Connect, your records are
+  exchanged with it automatically from then on, every time you open the app. Section 8 lists every
+  one of those routes, because a promise that stops at the app's own process is only half the
+  answer.
+</div>
+
+<h2>1. Who we are</h2>
+<p>PWN-ALL Auditing, Reviewing &amp; Testing Cyber Risks CO. L.L.C (&ldquo;PWN-ALL&rdquo;,
+&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is the data controller for the processing
+described in this Notice. Our registered address is: 145, Al Mustaqbal street, Iris Bay Tower
+2101-11, Business Bay, Dubai, United Arab Emirates.</p>
+<p>Questions about the app: <a href="mailto:pub-android-dev@pwn-all.com">pub-android-dev@pwn-all.com</a>.
+For privacy questions or to exercise your rights:
+<a href="mailto:legal@pwn-all.com">legal@pwn-all.com</a>.</p>
+<p>We say &ldquo;controller&rdquo; because we decide what the app records and how. In practice we
+hold none of it: the processing happens on your phone, and we receive nothing from it unless you
+choose to write to us (see §9).</p>
+
+<h2>2. What the app records</h2>
+<p>Everything below is kept in one database in the app's private storage, which no other app on the
+phone can read. What is present depends on which features you use, with a floor everyone has: the
+profile onboarding asks for before the app shows you anything — sex, weight, height and your full
+date of birth — and the weight and height it logs as your first measurement. Past that floor, a
+person who only counts steps has a database of steps, plus the day's climb and average air pressure
+if the phone has a barometer.</p>
+<ul>
+  <li><strong>Profile</strong>: sex, weight, height, your full date of birth, unit system, activity
+    level, daily step goal, whether you are maintaining, losing or gaining weight, whether you have
+    told the app about food allergies (the answer itself, which may be that you have never been
+    tested, or nothing at all if you skipped the question), and whether
+    automatic sleep detection and reminders are switched on. We keep the whole date of birth rather
+    than the year because it decides whether the app offers alcohol, tobacco or intimate logging at
+    all (see §14), and a year alone would open those up to eleven months early.</li>
+  <li><strong>Activity</strong>: steps kept both as a daily total and hour by hour, the time of your
+    most recent step, floors climbed, the day's average air pressure — built from a reading taken
+    roughly every ten minutes and kept only as that day's running total and sample count, never as
+    the separate readings — workouts with their sets, repetitions, loads and rests, where the
+    exercises of one session in Freestyle or from a template carry that session's name and number;
+    workout templates, each with its exercises, their sets and supersets, the rests between them, the
+    days of the week you train it, a short description and a photograph if you add one (§3); the
+    dates you plan a template for, under its name, which go when you delete the template; and
+    breathing sessions.</li>
+  <li><strong>Which dates you opened the app</strong>: one row per date, nothing else — no time, no
+    duration, no screen. It exists so that the level and XP figure on the home screen can count an
+    opening streak, and it is used for nothing else. It travels in a backup file and it goes with
+    Clear data, like the rest.</li>
+  <li><strong>Recorded routes</strong>: while a recording runs, one point roughly every two seconds. Each
+    point holds the coordinates, how accurate the phone said they were, height above sea level, the
+    air pressure and temperature the phone measured there, your speed, and whether the app judged
+    that moment to be walking, running, riding or standing still. Points the app rejected as
+    unreliable are kept beside the accepted ones, so a recording can be argued with later. A
+    recording you pause stores no point until you resume it; the route keeps how long it stood paused
+    in all, and marks the first point after each pause as the start of a new stretch. A route is given
+    a name when its recording starts, picked at random from a list in the app, and it may
+    hold photographs you took while it recorded, each with the spot it was taken from (§3).</li>
+  <li><strong>Nutrition</strong>: meals with calories, protein, fat, carbohydrate, fibre, sugar,
+    saturated fat, sodium and cholesterol; water, caffeine, alcohol by ethanol content, and tobacco.
+    Saved dishes and favourite foods you keep for re-use.</li>
+  <li><strong>Health measurements</strong>: heart rate, heart-rate variability worked out from the
+    beat-to-beat intervals a chest strap reports, the resting heart rate and heart-rate variability
+    a watch or a ring wrote to Health Connect, blood pressure, blood sugar, body
+    temperature, oxygen saturation, sleep, body composition, the waist, hip and chest measurements
+    you take with a tape, and readings taken from Bluetooth devices you connect (see §7). A reading from an instrument is stored with the whole of what the
+    instrument reported, which can be more than the app displays — a body-composition scale's
+    impedance figures, a glucose meter's sample site, a thermometer's measurement site.</li>
+  <li><strong>Mood</strong>, as a five-point self-report, from which the app works out a wellbeing
+    score on the scale the WHO-5 index uses; when you note it in a chat, also what you picked it was
+    about, from a short list.</li>
+  <li><strong>Menstrual-cycle records</strong>: the first and last day of a period, flow, spotting,
+    ovulation-test results and cervical-mucus appearance, from which the app estimates your average
+    cycle length and the likely date of your next period.</li>
+  <li><strong>Medical records you keep yourself</strong>: medicines with their dose, schedule and
+    food instruction, and a photograph of the box if you take one, doses you mark as taken — on the Medicine tab, from a
+    reminder, a widget or in a chat — and doses you record in a chat that belong to no course, doctors' appointments with the specialty, name and
+    place you typed, routine check-ups, and laboratory results — thirty-six markers across blood
+    sugar, lipids, kidneys, liver, blood count, inflammation, thyroid, vitamins and minerals, and
+    urine, most of them compared with a published reference band, together with what you type about
+    the sample itself: whether it was serum, plasma, whole blood, capillary blood or urine — or
+    saliva, on a result saved when the app still offered it — which laboratory or analyser reported it, and the reference range printed on the sheet. An
+    allergy panel is kept as a result of its own: each allergen read off the sheet, by its code and
+    the name printed beside it, with its specific IgE and its class, together with the sheet itself.
+    An ultrasound, an MRI or another examination is kept as one file or photograph, with the date of
+    the examination and the note you typed; the app never reads what is in it.</li>
+  <li><strong>The medical history you write down yourself</strong>: diagnoses, operations and
+    procedures, vaccinations, pregnancy status and contraception method, each with the dates and the
+    note you typed. The app treats all of it as your own statement — it checks nothing, grades
+    nothing and attaches no diagnostic codes of its own.</li>
+  <li><strong>Existing files you attach</strong> to a medicine, an appointment, a lab result, an
+    examination or a chat — a photographed prescription, a scan, a letter. The app does <em>not</em>
+    copy these in. It remembers where the file is and takes Android's permission to read it the
+    moment you pick it, so the file stays in whichever app you picked it from. The permission is given
+    up once no saved entry names the file any more: at once when you delete the lab result, allergy
+    panel or examination it is on, and otherwise at a later fresh start of the app, never within an
+    hour of the pick — not when Android brings it back with its screens as you left them. That covers
+    a file you take off an entry and save, one on an entry you delete, and one you picked into a form
+    you then left unsaved or replaced with another. On a form, the × beside a file only changes the
+    form: leave it unsaved and the entry keeps the file, and the permission with it; a chat saves the
+    × at once, as it saves everything written in it. While a copy of the database the app has set
+    aside is on the phone (§11), that start lets nothing go.</li>
+  <li><strong>Intimate and bodily records</strong>: sexual acts, marked as protected or unprotected,
+    and masturbation as a separate record; on either you can tick symptoms from a fixed list. Visits
+    to the toilet as a bowel movement or a urination, each of which can carry its own symptom ticks.
+    Kept for the same reason as everything else — because you chose to record them.</li>
+  <li><strong>Morning check-ins</strong>, on a profile set to male and only from the intimate screen:
+    whether you woke with an erection — firm, partly, none, or that you did not notice — the time you
+    woke, whether that time came from your sleep record or you set it, and, if you say, what woke you.
+    These are intimate records in the same sense as the ones above, and the app treats them as such:
+    they never appear on the home screen, a widget or a notification.</li>
+  <li><strong>Pain entries</strong>: where it hurt, painted on a drawing of the body, with the areas
+    the painting covers; up to two words for how it felt; a score from 1, mild, to 10, unbearable; when
+    it started and when you first noticed it; whether it has gone and how long it lasted; whether you
+    took a painkiller for it; when you say an area marked again is the same pain as one you logged in
+    the month before, the moment that earlier pain was first logged; and &ldquo;no pain today&rdquo;
+    when you say so.</li>
+  <li><strong>Chats</strong>: everything you write in a chat, word for word, even when you leave
+    before answering anything; the topics you pick — something in the body, such as dizziness or a
+    fever, a feeling, such as worry or low mood, a pain, your mood, a medicine you took or one a doctor
+    prescribed — and your answers to the chat's questions, including any answer to its questions about
+    thoughts of suicide or self-harm, and a pain you painted on its body map before you sent it;
+    where the chat's model read a message, what it made of it (§2.2); a snapshot of the journal around
+    that moment, such as your last meal, your steps and your sleep; any files you attach to it; and,
+    for each entry the chat made for you or you added from one of its cards, its kind and title, the
+    moment it was saved, and a short fingerprint of it — or, for one added from a card, its number in
+    the journal and the amount — so the chat can show it again and open it; and the earlier state of a mood or a pain entry it
+    changed for you, so Undo can put it back — kept until you leave the chat once it is over, or else
+    until you next open it to read. Each topic of a chat is also sorted into a few categories the app
+    works out from your answers on the phone: roughly where it was felt, how long it has gone on,
+    whether it comes back, how much it gets in the way, how urgent the answers were, and which topics
+    your words named. These categories are not a diagnosis, and nothing in the app shows them; they are
+    kept with the chat and, for a symptom, in its entry too, and so they travel wherever the chat and
+    that entry do. A chat is kept apart from your journal and counts for nothing in it. What it
+    records for you, each from your own taps on its answers — a symptom entry, a pain entry, a mood, a
+    dose marked as taken, a medicine taken without a course, a new course of medicine with its
+    reminders — is an ordinary entry of that kind, as if you had made it on its own page; a symptom
+    entry also names the chat it came from, and a course added in a chat rings its dose reminders like
+    any other. An answer to one of its questions about safety — thoughts of suicide or self-harm, an
+    emergency, or having taken more of a medicine than it says — given while the chat is about
+    something other than a symptom is kept in a symptom entry of its own, so that it is in your journal
+    as well as in the chat. When the chat finds an entry in what you wrote — a drink, a meal, a
+    workout, a night's sleep — it offers it on a card: Add saves water, a cup of coffee or tea, or a
+    meal of one food from the app's catalogue straight from the card — a meal with the message you
+    wrote as its note, which stays in your journal even if you delete the chat — and opens any other
+    entry's own page filled in from your message, where it is saved only if you save it there.</li>
+  <li><strong>Work sessions</strong>: when you pressed Start, Pause, Resume and Stop on the work timer
+    or its widget, sessions you typed in afterwards, and the two settings the Work screen keeps — your
+    usual days off and where a long day starts. While the timer runs, its state is kept in the app's
+    own settings, not in the database, until you press Stop.</li>
+  <li><strong>A workplace</strong>, only if you save one for the Work screen's <em>Start by
+    location</em>: one point — the latitude and longitude where you stood when you saved it, how
+    accurate Android said that position was (a point is saved only when that is within 100 metres),
+    and when you saved it — with the radius you set around it. It is kept in the app's own settings, not in the database, so it is not in a backup file you
+    export, and the database-encryption switch does not cover it; a move to a new phone carries the app's
+    settings, and this with them. Between two checks
+    the app also keeps when it last looked and when it looks next, whether it started the session now
+    running, when a check last found you there, how many checks since have found you away, the
+    day you last took the timer over from it, and which session it last stopped and when, for that
+    stop's Undo. No position from a check is ever kept. Removing the
+    workplace deletes all of it.</li>
+  <li><strong>Free text you type</strong>: a note on almost any entry, titles for meals and workouts,
+    the name and description of a workout template, and the doctor and clinic names you have entered before, which the app offers back to you as
+    suggestions. The app does not read these, with one exception: what you write in a chat, the
+    answers you type into it, and the note on one, are searched on the phone for a few words — of
+    suicide, of an emergency, and of the chat's own topics, such as a part of the body, a mood, or the
+    name of a medicine, matched against your own medicines and a short list of common painkillers and
+    antidepressants built into the app — so the chat can ask about them or offer them for you to tap.
+    Where the app carries the chat's model, the same messages, answers and note are also read by that
+    model, on the phone (§2.2). No entry is made from those words alone; the topics they named are kept
+    only among the categories above, and what the model made of a message only with the chat. Whatever
+    you put in a note is in the database.</li>
+  <li><strong>Provenance</strong>: for anything that did not start in this app — a record that arrived
+    through Health Connect, or a row read out of a file you imported — where it came from and the
+    identifier it came under, so the <em>Data sources</em> screen can tell you which figure the app is
+    believing, and so that importing the same thing twice does not duplicate it. Any entry you correct
+    also keeps the moment you last changed it; for one that came through Health Connect, that moment is
+    what tells the next exchange to leave your correction standing.</li>
+</ul>
+<p>A history can also come in from a file another app exported, through the <em>Import from other
+apps</em> page. The health exports of Apple Health, Fitbit and Google Health, Garmin Connect, Samsung
+Health, Withings, Oura, Strava, Nike Run Club, MyFitnessPal, Cronometer and Flo are read — the file or
+the archive that app wrote, as far as this app knows its parts — into steps, weighings and body
+composition, vital signs, sleep, workouts, food, water, caffeine and menstrual periods; the training
+logs of Hevy, Strong, FitNotes and Lyfta become workouts in your journal. wger exports no training log
+as a file at all, only your list of weighings, and those are read here as measurements. This needs no
+permission: Android's own file picker hands over the one file you chose, and nothing else on the phone
+is readable through it. The file is copied into the app's private cache while the import runs and
+read from there — an archive is read in memory, never unpacked onto the phone — and the copy is
+deleted when the import ends, or, for an import cut off by Android closing the app halfway, at a
+later fresh start of the app. What is kept is the rows, each stamped with the name of the
+app the file came from, so opening the same export a second time adds nothing; the file's own name is
+not kept.</p>
+<p>The world map behind a recorded route is part of the app, not a map service: its land and water,
+relief, forests and towns are files inside the installed package. No tile is fetched, and no coordinate of yours is ever sent to a map
+provider, because there is nothing to send it with. The food catalogue the app searches is the same
+— a table shipped inside the app, drawn from the United States Department of Agriculture's public
+data. Searching it sends nothing anywhere. So is the list of clinics and hospitals an appointment's
+Place page suggests: it is drawn from official registers and open data on places of care in Czechia,
+Ukraine and the United Arab Emirates (the page's &ldquo;?&rdquo; says which places it holds), and
+searching it or sorting it by distance from you happens on the phone.</p>
+<p>Pain entries, chats, symptom entries, work sessions and morning check-ins are never written to Health
+Connect, which has no record for any of them. That does not mean they stay on the phone: like everything
+above, they are in a backup you make, in the automatic daily copy if you switch it on and in a move to a
+new phone, and pain entries, work sessions and morning check-ins are on a report for a doctor if you
+tick them; chats and symptom entries are not on the report. §8 sets out each of those routes.</p>
+<p>Almost all of this is data concerning health, and European law treats that whole class as
+special-category data — not only the parts of it that look most delicate. The intimate records,
+morning check-ins among them, are special-category on a second count, as data about your sex life.
+§13 says on what basis we process it.</p>
+
+<h3>2.1 The app's own identifiers</h3>
+<p>The app gives itself a random name — an installation identifier, tied to nothing about you or
+your phone — the first time it needs one, which is when it first writes or reads a backup or
+produces a diagnostics report, and a new one the same way after its database has had to start over. Android's transfer to a new phone does not carry it: the app there gives itself a new one. It exists so that backup files can be told apart, and so that two bug
+reports from one phone can be recognised as coming from one phone. It is written into the header of
+every backup file the app writes, and it appears in the diagnostics report if you send us one. The
+app reads no advertising identifier, no Android ID and no hardware serial.</p>
+<p>The records the app publishes to Health Connect carry a second random name, eight characters long
+and tied to nothing about you or your phone either. It stands inside each record's own identifier
+and names the journal the record was written from, so that a reinstalled app, whose journal numbers
+its entries from 1 again, does not write over what the installation before it published. Health
+Connect may show a record's identifier to any app you allow to read that kind of record. The name is
+made anew after a reinstall, after Clear data and after the database has had to start over. Android's
+device-to-device transfer carries it to a new phone with the settings, and a new one is made there if
+the database that came with it cannot be opened.</p>
+
+<h3>2.2 The chat's model</h3>
+<p>The chat can also read what you write with a small AI model that ships inside the app and runs on
+the phone, with no network. Not every version of the app carries one: while one reads your messages,
+a line under the chat's title says so, and without that line what you write is read by the chat's word
+lists alone. The model is a reader, not a writer: it never words a sentence of its own.</p>
+<ul>
+  <li><strong>What it reads</strong>: only the message you send — each one once, as you send it, and
+    likewise an answer you type and the note — together with where the chat stands: at its start,
+    between topics, at a question (which one, and of which topic) or at the note after the end. It does
+    not read your journal, your medicines, your profile or anything else the app holds.</li>
+  <li><strong>What it does with it</strong>: it only chooses among what the chat already has — which of
+    its fixed topics to offer as buttons, and in which order; which button to mark as what your words
+    said, or to offer for a single tap; where a scale's pointer starts; and which of the chat's fixed
+    questions about safety to add: about thoughts of suicide or self-harm, someone not responding,
+    breathing, chest pain, a stroke, vomiting blood or too much of a medicine. It can add one of those
+    questions, never remove, reword or reorder one: the questions the app's word lists bring are asked
+    as before, and whether the chat says to get help comes from your answers and the app's fixed rules.
+    Nothing it reads answers a question or makes an entry: only your tap does. In a language its
+    reading has not yet passed the app's own checks in, it only adds those questions about safety, and
+    everything else comes from the word lists.</li>
+  <li><strong>It can be wrong</strong>: it may offer a topic you did not mean, miss one you did, or ask
+    a question about safety you did not need. That is why it only offers, and why the questions about
+    danger that the app's word lists find are asked whatever it reads.</li>
+  <li><strong>What is kept</strong>: with each message the chat keeps the model's version and the
+    decisions taken from what it read — the questions it added, the topics it offered, whether you
+    wrote of feeling unwell or about someone else, and what it read your words to say of a pain (where
+    and on which side, when it started and when you noticed it, its kind, whether it is still there or
+    the same as before, its warning signs, how bad or how sudden it was, a number out of ten, a
+    painkiller taken) and of a medicine (its name as you wrote it, what you said of it, an amount, a
+    time of day) — or why it kept to the word lists for that message, such as running out of time. None
+    of the model's probabilities is kept, and a message is never read again: the chat is drawn from
+    these decisions each time you open it. They are kept in the chat, in the app's database, and so
+    they go wherever the chat goes: into a backup you make, into the automatic daily copy if you switch
+    it on, and to a new phone in a move (§8). Like the chat, they are never written to Health Connect
+    and are not on a report for a doctor. Deleting the chat deletes them from the app; a backup written
+    before that still holds them.</li>
+  <li><strong>What it sends, and what it learns</strong>: it sends nothing anywhere — it runs inside the
+    app, which has no internet permission (§4). It was trained before it was put into the app, never on
+    anything written in the app, and it learns nothing from what you write, on the phone or anywhere
+    else: the app sends us none of it (§9).</li>
+</ul>
+
+<h2>3. Photographs</h2>
+<p><strong>The app has no camera permission and never opens a camera.</strong> When you photograph a
+dish or a nutrition label, PWN.Health asks your own camera app to take the picture and hands it one file
+inside PWN.Health's private cache to write into; on a phone with no camera app, the same button opens
+Android's own photo picker so you can choose an existing picture. That camera app is separate
+software with its own permissions and its own privacy policy, and many camera apps keep a copy of
+what they take in your gallery. The app also has no photo-library permission: where a picture is
+picked rather than taken, Android's picker shows PWN.Health only the files you chose. Laboratory
+imports can include several photographs or PDFs at once, and recognised readings fill a form for
+you to review before saving. A PDF is copied into the app's private cache while it is read and
+deleted when the reading ends — or, if Android closed the app in the middle of it, at a fresh start
+of the app at least an hour later; one locked with a password is opened with the password you type, which
+is used for that reading and never stored. Recognition runs entirely on the device.</p>
+<p>The app keeps photographs under six different rules:</p>
+<ul>
+  <li><strong>Dish and nutrition-label photographs are not kept.</strong> Each is written under one
+    fixed name in the app's private cache, read by models that ship inside the app and run on the
+    device, and deleted when the reading is accepted or you leave the page; the next photograph
+    overwrites the last. They are never written to your gallery or to any shared folder, and they are
+    excluded from every Android backup path. The reading itself — what the label said — is what is
+    kept.</li>
+  <li><strong>Laboratory camera photographs are kept.</strong> These are the shots you take of a lab
+    sheet, an allergy panel or an examination's document. The camera app writes each shot into a
+    separate file in PWN.Health's private files directory. A shot larger than a printed page needs —
+    more than 3,508 pixels on its longer side — is then written again at that size, and the copy
+    carries none of the details the camera app put into the file; a smaller one is kept as the camera
+    app wrote it, with whatever details that app put into it — the phone's make and model, the moment
+    it was taken and, if the camera app records it, the place — and goes so into a backup file and a
+    report's archive (§8.1). The photograph is attached to the
+    lab form automatically; later shots do not overwrite it. Tapping one among a result's attachments
+    hands that one file to whatever app your phone views pictures with. Deleting the result deletes its
+    photograph, unless another saved result names the same shot. One no saved result names — taken off
+    the form, or on a form you left unsaved — is deleted at a later fresh start of the app once it is
+    an hour old, except while a copy of the database the app has set aside is on the phone (§11).
+    Every such photograph a saved result still names is included whole inside every backup file,
+    including the automatic daily copy, and all of them are carried by Android's device-to-device
+    transfer. They are excluded from Android cloud backup and are not covered by the
+    database-encryption switch. Existing photos and PDFs selected through the file picker remain in
+    their original provider and are not copied in; a backup carries only where they are.</li>
+  <li><strong>Progress photographs are kept.</strong> These are pictures of yourself, taken alongside
+    a weigh-in, or picked from your gallery, if you choose to. A picked one is copied, and the
+    original stays where it is. Besides the picture itself and which way up it goes, the app reads one
+    thing from the original file: the date and time it says it was taken, which the copy keeps, to the
+    second, as its own — it is filed under that day, its file is named after that moment, and the
+    moment travels with it in backups. Each is shrunk to 1&nbsp;280 pixels on its longer edge and
+    written as a new picture, which carries none of the original file's other details, into the app's
+    private files directory, which no gallery indexes and no other app can read. They
+    are included whole inside every backup file, including the automatic daily copy; they are carried
+    to a new phone by Android's device-to-device transfer; and one button hands all of them at once
+    to an app you choose. The × on a thumbnail deletes the picture, file and all. They are not
+    covered by the database-encryption switch, which protects the database file only.</li>
+  <li><strong>Medicine photographs are kept.</strong> These are pictures of a medicine's box or
+    blister, taken with the camera button beside its name if you choose to — or, on a phone without
+    a camera app, picked from your gallery, in which case a copy is made and the original stays where
+    it is. The picture is shrunk to 1&nbsp;280 pixels on its longer edge at once, and the camera's
+    full-size shot is deleted. Until you save the course, the shrunk copy waits under one fixed name
+    in the app's private cache, and the next photograph replaces it; saving moves it into the app's
+    private files directory, which no gallery indexes and no other app can read. It is shown beside the medicine's name; tapping it hands that one file to
+    whatever app your phone views pictures with. It is included whole inside every backup file,
+    including the automatic daily copy, and carried to a new phone by Android's device-to-device
+    transfer. Removing or retaking it and saving the course, or deleting the course, deletes the old
+    file. It is not covered by the database-encryption switch.</li>
+  <li><strong>Walk photographs are kept.</strong> These are pictures you take while a route is
+    recording or paused, if you choose to; your own camera app takes them. Each is shrunk to no more than
+    1&nbsp;920 pixels on its longer edge and written into the app's private files directory, which
+    no gallery indexes and no other app can read. With it the app stores when it was taken and the
+    spot it was taken from: the position the route recorded nearest that moment, with its height and
+    how accurate it was, when the route has one within a minute of it — or the phone's own position
+    from that minute, if it is no vaguer than about fifty metres, when the route has none or that
+    one is nearer the moment (as during a pause, which records no positions); the compass direction the
+    camera faced, when the phone could tell it, with the sensor's own estimate of how far off it may
+    be; how far the camera tilted up or down; and how the phone was held. A picture with a position is
+    marked on the walk's map under the same number as its thumbnail. Tapping one hands that one file to whatever app your phone views
+    pictures with. They are included whole inside every backup file, including the automatic daily
+    copy, and carried to a new phone by Android's device-to-device transfer. The × beside one on the
+    walk page deletes the picture, file and all. They are not covered by the database-encryption
+    switch.</li>
+  <li><strong>Workout template photographs are kept.</strong> This is the picture you give a workout
+    template, if you choose to: taken by your camera app or picked from your gallery, in which case a
+    copy is made and the original stays where it is. It is shrunk to 1&nbsp;280 pixels on its longer
+    edge and written as a new picture, which carries none of the original file's details. Until you
+    save the template it waits under one fixed name in the app's private cache, and the next picture
+    replaces it; saving moves it into the app's private files directory, which no gallery indexes and
+    no other app can read. It is included whole inside every backup file, including the automatic
+    daily copy, carried to a new phone by Android's device-to-device transfer, and put inside the file
+    when you share the template (§8.1). Removing or replacing it and saving the template, or deleting
+    the template, deletes the old file. It is not covered by the database-encryption switch.</li>
+</ul>
+<p>Every model that reads a photograph runs on the phone. PWN.Health cannot upload a photograph — it has
+no internet permission — but it can hand one to an app you pick, and that app may upload it.</p>
+
+<h2>4. Permissions</h2>
+<p>These are the permissions in the app that ships. Nothing here is on by default that Android would
+otherwise ask you about: every runtime permission below is one you are asked for and may refuse, and
+refusing one costs you only the feature it belongs to. Onboarding offers these permissions before
+Health Connect: step counting, notifications, nearby devices and route location, plus Android's
+settings for exact alarms, lock-screen alarms and optional Usage Access. Each is optional and can
+be changed later. Granting Usage Access alone does not turn on sleep estimation; its separate switch
+remains off until you enable it — or until you choose <em>On waking</em> for a medicine's doses on the
+medicine's page: such a dose is timed by that estimate, so choosing it asks for Usage Access where it
+is missing and then switches the estimate on.</p>
+<table>
+  <tr><th>Permission</th><th>Used for</th></tr>
+  <tr><td>Physical activity</td><td>Counting steps with the phone's built-in step counter — the day's,
+    and those of a walk, a run, a hike or a climb of stairs you count as a set of a workout.</td></tr>
+  <tr><td>Location (precise and approximate)</td><td>Three things, each only when you ask for it.
+    First, routes. While the track screen is open, it asks for a position every couple of seconds to
+    show the GPS signal and where you are on its map, before a recording as well as during one; those
+    positions are only shown, never stored. Recording a route stores positions only while a recording
+    is running; while it is paused the app goes on taking them — so the signal and your position stay
+    current and a photograph can be placed — but stores none of them in the route. Android asks for both at once because it will not offer the
+    precise one alone. A recording can be started from the track screen or from the home-screen
+    widget; while it runs, the app keeps taking positions with the app closed and the screen off, for
+    as long as the ongoing notification says a route is recording or paused. Route coordinates go into the app's own database and are never written
+    to Health Connect. Second, the location button in an appointment's Place field, which asks only
+    for approximate location, and only when you tap it. Android is asked for one position, or for the
+    last one it already holds if that is under an hour old. The app rounds it to about a kilometre,
+    even when precise location was allowed for route recording, and keeps it in memory to sort its
+    built-in list of clinics by distance and forgets it when you leave the page. That position is
+    never written to the database, a backup or Health Connect, and is never sent anywhere. Third,
+    precise location is what the Work screen's <em>Start by location</em> takes its one position
+    from when you press <em>Save where I am now</em>, and what each of its checks uses — see the next
+    row.</td></tr>
+  <tr><td>Location all the time (background location)</td><td>Only in the build installed directly
+    from an APK file; the Google Play build does not ask for this permission and does not offer
+    <em>Start by location</em>. Only for the Work screen's <em>Start by
+    location</em>, which is off until you switch it on, and asked for only then, after precise
+    location and after the app has said what it is for. With it, the app checks whether your phone
+    is at the workplace you saved, so that the work timer starts when you arrive and a session it
+    started stops when you leave — with the app closed. A check is one position from Android's own
+    location service, taken by a foreground service that runs for at most half a minute; if Android
+    already holds a position under two minutes old, that one may stand in. The position is compared
+    with the saved point on the phone and forgotten; it is never stored, never written to Health
+    Connect and never sent anywhere. Checks run every ten minutes, and only on your working days,
+    inside a window: from when you wake — read from your sleep record or, with Usage access, from
+    your first use of the phone after the night, where a use before six counts as six unless your
+    sleep record shows an earlier wake or your usual hours start earlier; with Usage access and no wake seen yet, from ten in
+    the morning at the latest; with neither, from seven — and, once
+    your recent work sessions show your usual hours, from an hour before your usual start to an hour
+    after your usual end; until then, to nine in the evening. Before the window opens the app only
+    looks at whether you are up, which takes no position. While a session the app started is running,
+    the checks continue past the window, to midnight at the latest. No position is taken for this
+    while the switch is off, and taking the permission back in Android Settings ends the checks.</td></tr>
+  <tr><td>Nearby devices (Bluetooth scan)</td><td>Finding health and fitness equipment when you open
+    the device list. Declared &ldquo;never for location&rdquo;. While a search runs,
+    Android hands the app every Bluetooth advertisement in range; anything that is not a device type
+    the app supports is discarded on the spot and never stored. A search runs fifteen seconds — or,
+    for a device that only broadcasts rather than connects, for as long as it stays chosen on the
+    screen you opened it from.</td></tr>
+  <tr><td>Nearby devices (Bluetooth connect)</td><td>Reading the device you chose, and — where the
+    device insists on it, as glucose meters do — pairing with it through Android.</td></tr>
+  <tr><td>Biometrics</td><td>Unlocking the app, if you switch the app lock on. Your device PIN,
+    pattern or password works too. The app never sees your fingerprint or face; Android only tells it
+    whether the check passed.</td></tr>
+  <tr><td>Notifications</td><td>The ongoing step-counter notification and the reminders. See §10 for
+    exactly what they say.</td></tr>
+  <tr><td>Alarms &amp; reminders (exact alarms)</td><td>Waking the phone at the minute a medicine dose
+    is due, so that its reminder is not slid by power saving, and — only if you switch on the Work
+    screen's <em>Start by location</em> — for its ten-minute checks, which need it: no other alarm
+    may start the check with the app closed. Android does not ask for this one in a prompt: it lives
+    on Android's own <em>Alarms &amp; reminders</em> screen, where you can take it back at any time, and on Android 14 and later it
+    starts switched off — the app offers a button that opens that screen. Refusing it does not lose the
+    reminder; the app still books it for the same minute, as an alarm Android may move to a time of its
+    choosing, with the hourly round of §5 behind it.</td></tr>
+  <tr><td>Full-screen notifications</td><td>Letting a due dose turn the screen on and fill it, over the
+    lock screen, rather than only posting a notification. On Android 13 it is granted when the app is
+    installed; from Android 14 it is Android's to give, on its own screen, and the app offers a button
+    that opens it. Refusing it does not silence the alarm — it removes the panel, not the sound. See
+    §10.</td></tr>
+  <tr><td>Foreground service (health)</td><td>Keeping the step counter running, with the permanent
+    notification that Android requires it to show.</td></tr>
+  <tr><td>Foreground service (location)</td><td>Keeping a route recording alive while the app is
+    closed. If you have granted location, the step counter's service also declares this type when you
+    open the app — before it has read whether an interrupted recording is waiting to be picked up —
+    and keeps it declared until the service stops. Declaring it is not taking a position: the step
+    counter's service asks for positions only while a recording runs, and stops the moment it ends.
+    The Work screen's <em>Start by location</em> has a service of its own of this type, which runs
+    for one check — at most half a minute — and stops.</td></tr>
+  <tr><td>Run at startup</td><td>Starting the step counter again after a reboot, so steps taken
+    before you next open the app are still credited — only if you have already allowed physical
+    activity — and putting the medicine alarms and, with <em>Start by location</em> on, the workplace
+    check's alarm back on the clock, which a restart otherwise clears.
+    It never resumes a route recording.</td></tr>
+  <tr><td>Usage access (optional, off by default)</td><td>Automatic sleep detection, and the Screen
+    time cards and their two reminders. See §5.</td></tr>
+  <tr><td>Health Connect</td><td>Only if you connect it — see §6.</td></tr>
+  <tr><td>Prevent sleeping</td><td>Keeping the processor awake, with the screen off, while sensors
+    are counting something you started: a set the phone counts in a workout from a template or in
+    Freestyle (§5), for which it is let go at Stop and after two hours at most, and a sensor trace you record from the sensor view, until
+    you stop it and for three hours at most. Google's WorkManager library, which schedules the
+    reminders and the daily backup, also uses it, so that a scheduled task is not interrupted. It keeps
+    the phone awake and does nothing else: it can neither send nor receive anything.</td></tr>
+  <tr><td>A permission carrying the app's own name, ending
+    <code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code></td><td>Added by a library, not by the app's own code, and it grants
+    nothing at all. AndroidX Core adds it to every app that carries the library: it is a lock a
+    library can put on its own broadcast receivers so that no other app can reach them, and only an
+    app signed with our own key could ever hold it. On Android 13 and later — the oldest version
+    this app runs on — Android does that job with a system flag instead, so nothing here ever uses
+    it.</td></tr>
+</table>
+<p><strong>There is no camera permission, no photo-library permission and no contacts
+permission.</strong> And, above all, there is no <code>INTERNET</code> permission — the one Android requires before any app can open a network connection. Nothing in the app, and
+nothing in any library it carries, can transmit without it. A test in our build fails if any
+dependency ever adds it.</p>
+<p>If you want to check for yourself: the honest place to look is the full permission list on the
+Google Play listing, or any APK inspector. Android's <em>App info</em> screen shows only the
+permissions it asks you about, not everything an app declares — and when you do read the full list,
+you will find more than App info ever prompts for: the ones granted at install — the foreground
+services, run at startup, biometrics, prevent sleeping and, on Android 13, the full-screen
+one; the exact-alarm one, Usage access and, from Android 14, the full-screen one, which Android keeps
+on its own special-access screens rather than in a prompt; the Health Connect ones, which only Health
+Connect's own screen asks about; and one carrying the app's own name that grants nothing at all. What you will not find is <code>INTERNET</code>
+— nor <code>ACCESS_NETWORK_STATE</code>, which would only let the app ask whether a network exists:
+WorkManager brings that one with it, and the app strips it out of what it ships.</p>
+
+<h2>5. Sensors, and what runs when you are not looking</h2>
+<p>Some of what the app measures needs no Android permission, so Android never asks you about it.
+That makes this section the only place you would learn of it.</p>
+<ul>
+  <li>While step counting is on, the <strong>accelerometer</strong> runs at twenty-five readings a
+    second to tell walking from a car, a train or a phone being shaken. The readings themselves are
+    held for about twelve seconds and never stored; only the decision they lead to is. There is one
+    exception, and you have to switch it on yourself: the sensor view, behind seven taps on the
+    version line in About the app, can record a trace. While that recording runs, every reading is
+    kept in memory — up to about two hours of them — until you either discard it or write it to a
+    file of your choosing, and the processor is kept awake meanwhile so that the readings go on with
+    the screen off. The same view can open such a file again, to count the repetitions in it; that
+    reads the file into memory and stores nothing. Nothing sends it anywhere.</li>
+  <li>The <strong>barometer</strong> runs alongside it, to count floors climbed and to fold one
+    air-pressure reading every ten minutes into that day's average.</li>
+  <li>The <strong>gyroscope</strong> and the <strong>accelerometer</strong> run only between Start
+    and Stop, when you ask the app to count repetitions of an exercise — one or the other, whichever
+    that exercise needs, at fifty readings a second: the gyroscope for squats, lunges, push-ups and
+    the glute bridge, and the accelerometer for jump rope, jumping jacks, burpees, calf raises,
+    pull-ups and leg raises on the bars, and, in the form for an earlier day, for stair climbing. In a
+    workout from a template or in Freestyle, a set of walking, running, hiking or stairs is counted by
+    the step counter instead, and the floors of a climb by the barometer, again only between Start
+    and Stop. While a set is counted in a workout from a template or in Freestyle, the app keeps the
+    processor awake so that the sensors go on with the screen locked in a pocket (§4); the form for an
+    earlier day does not. The readings of a set are held in memory while it is open on
+    screen, so the count can be recomputed, and are never stored; only the count you keep is — the
+    repetitions, jumps or steps, and a climb's floors. Apart from that, the gyroscope runs only inside
+    the rotation sensor below.</li>
+  <li>The <strong>thermometer</strong>, on phones that have one, runs only while a route records.</li>
+  <li>The <strong>rotation sensor</strong> — which Android builds from the gyroscope, the
+    accelerometer and, on a phone that has one, the compass — is read for two things. While the track
+    screen or a recorded walk's page is open, with the app in front, it turns the map with the phone,
+    as a compass card turns, and points the arrow on your position, where there is one, the way the
+    phone faces. To point at true rather than magnetic north, the app works out the magnetic
+    declination at the walk's first point, or else at your position, from a model built into Android,
+    on the phone. The heading is only drawn, never stored, and the sensor is let go when you leave the
+    page or the app goes to the background. The second is a walk photograph taken while a route records
+    or stands paused: from the moment you tap the camera button until the photograph comes back, and
+    for five minutes at most, long enough to note which way the camera faced, how far it was tilted
+    and how the phone was held (§3). Nothing else in the app reads it.</li>
+  <li>The app can <strong>estimate a pulse from the accelerometer</strong>: with the phone resting on
+    your chest it listens for thirty to sixty seconds and reads a heart rate from the movement each
+    beat makes. It runs only when you ask for it, and it offers the number for you to correct before
+    it is saved. It is an estimate from motion — not an oximeter, and not an ECG.</li>
+  <li><strong>Automatic sleep detection</strong> is off by default and needs two separate switches:
+    the one in the app, and Android's <em>Usage access</em>, which only you can grant from Android
+    Settings. When it is on, each time you open the app it asks Android about phone activity across
+    the last seven nights and looks for the longest untouched gap. Android hands back a full event
+    log that includes which apps were in the foreground; the app discards all of that immediately,
+    keeping only each event's type and the moment it happened, and stores nothing but the estimated
+    sleep. No list of the apps you use is ever read into the app's memory beyond that instant, and
+    none of it is stored. You can revoke usage access in Android Settings at any time.</li>
+  <li><strong>Screen time</strong> uses the same Usage access, and is the one place the app does read
+    which apps were in front — but only for a fixed list of about sixty social, video, messenger and
+    game apps built into it (TikTok, Instagram, YouTube, Telegram, Roblox and the like). As the log
+    is read, every other app is stripped of its name on the spot: that some app came forward is
+    kept, because it ends a sitting, and which app it was is never held. From the listed apps it
+    works out, for the last seven days, how long each was open and the longest sitting without a
+    break. That is shown and then dropped: nothing about it goes into the journal, the backup or
+    Health Connect, and the app keeps only your two reminder settings and, for each reminder, the
+    sitting or the day it last spoke for and how many times. With a reminder switched on, the app
+    wakes every fifteen minutes to read the log from the start of yesterday — today's figures, and a
+    sitting that began the evening before — and decide whether to remind you; with both off it does
+    not wake for this at all.</li>
+  <li>While reminders are on, the app <strong>wakes about once an hour</strong> to look at the day's
+    steps, whether you have logged anything, whether you have eaten or drunk, whether a dose is due
+    and whether a workout is planned for the day. If you keep a medicine cabinet it <strong>also wakes at the minute each dose is due</strong>,
+    and again at intervals across the four hours after it while the dose stays unmarked, after which it
+    lets that dose go; and once at midnight, whether anything is due or not, to work out the next day's
+    times. Those wakes are exact where Android has granted the exact-alarm permission of §4, and
+    otherwise fall at a moment Android picks. That clock is put back
+    after a restart, after the app updates, and after the phone's time or time zone changes, and it is
+    cleared when you switch reminders off. It can also offer a single
+    note about your average daily steps, at most once a week — and to work out whether there is
+    anything to say, it reads your whole day history and your whole journal on one of those hourly
+    wakes, and reads them again on the next one until such a note has actually been shown, which for
+    someone already walking enough may be never. All of it is worked out on the phone.</li>
+  <li>With the Work screen's <strong>Start by location</strong> switched on, the app wakes every ten
+    minutes inside that day's window, as §4 describes — and, when you have granted Usage access, every
+    ten minutes before it too, from five in the morning or from an hour before your usual start,
+    until it sees that you are up. Each wake reads your recent work sessions and the day's sleep
+    record, and — when you have granted Usage access — asks Android for the phone's activity since the evening before, the same reading
+    the morning check-in makes, keeping only the moment you woke. Only when a check could start or
+    stop the timer does it take a position. Switching it off, or removing the workplace, ends the
+    wakes.</li>
+</ul>
+
+<h2>6. Health Connect</h2>
+<p>Health Connect is Android's own store, which apps on your phone use to share health records with
+each other. Connecting to it is optional, and the app works fully without it.</p>
+<p>PWN.Health asks for a large set of Health Connect permissions — around thirty kinds of record, most of
+which it both reads and writes. Two it only reads: the resting heart rate and the heart-rate
+variability a watch or a ring works out, usually overnight, which the app shows on the vitals screen
+beside your own four-week median and never computes or writes itself. They include intimate categories: menstrual periods and flow,
+intermenstrual bleeding, ovulation tests, cervical mucus, and sexual activity. Those are offered so
+that a cycle or an intimate record you already keep in another app is not lost when you switch. The
+whole set is requested in one of Android's own screens, and you approve or refuse <em>each type
+individually</em> there; refusing one does not break the others, and you may approve none of them.
+That full request is made at the end of the first-run questions, after the height and weight
+wheels, and again from the Health Connect card on the <em>Import from other apps</em> page whenever
+you ask for it. Sexual activity is not asked for
+at all if the birth date you gave puts you under sixteen: the app does not show you that screen, so
+it does not ask for the record behind it. Declining the request, in whole or in part, changes
+nothing else &mdash; the app goes on counting what the phone itself counts.</p>
+<p>Each kind, and what the app does with it, in the words of the screen Health Connect opens when you ask why the app wants access:</p>
+<table>
+  <tr><th>Records</th><th>What the app does with them</th></tr>
+  <tr><td>Weight, Height</td><td>Shown on the profile card, in the weight journal and in the BMI band; the weigh-ins and heights you log here are written back.</td></tr>
+  <tr><td>Body fat, Body water mass, Basal metabolism</td><td>Fill the body-composition card under a weigh-in; what a Bluetooth scale reports here, and the resting energy the day budget is built on, are written back.</td></tr>
+  <tr><td>Heart rate</td><td>Shown on the vitals screen and in the journal as the day’s resting pulse; readings taken here from a strap or an oximeter are written back.</td></tr>
+  <tr><td>Resting heart rate, Heart rate variability</td><td>Read only. Shown on the vitals screen as cards of their own, each beside your usual figure for the four weeks before. A watch or a ring measures these, usually overnight; this app does not compute them and writes nothing back.</td></tr>
+  <tr><td>Sleep</td><td>Shown on the sleep card and in the journal, one night per day; the nights you log here — or that are estimated from phone use, if you turned that on — are written back.</td></tr>
+  <tr><td>Steps</td><td>Fill the step counter for days the phone’s own sensor missed, such as a watch’s; the counter’s own days are written back only where no other app already covers them.</td></tr>
+  <tr><td>Workouts</td><td>Appear in the journal and on the calendar with their calories; workouts logged here, including rides taken from a machine and recorded routes, are written back.</td></tr>
+  <tr><td>Active calories burned, Step cadence, Cycling cadence</td><td>The energy a workout burned, read in place of the estimate on the imported workout’s row; the energy and cadence of your own workouts, from a machine, a sensor or a recorded route, are written out with them.</td></tr>
+  <tr><td>Water</td><td>Fills the water card and its daily target; drinks logged here or from the widget are written back.</td></tr>
+  <tr><td>Nutrition</td><td>Meals and caffeine appear in the food journal and count against the day budget; what you log here is written back with its calories and macronutrients.</td></tr>
+  <tr><td>Blood pressure, Blood glucose, Oxygen saturation, Body temperature</td><td>Shown on the vitals and lab-tests screens, graded against their reference bands; readings saved here from a Bluetooth cuff, meter, oximeter or thermometer are written back.</td></tr>
+  <tr><td>Menstrual period, Menstrual flow, Spotting, Ovulation test, Cervical mucus</td><td>Shown on the cycle screen, where the next period is predicted from them; what you log there is written back.</td></tr>
+  <tr><td>Sexual activity</td><td>Shown on the Sex life screen; only that an act happened and whether protection was used is exchanged — the notes never leave the phone.</td></tr>
+  <tr><td>Mindfulness sessions</td><td>Breathing practices appear in the journal and in the practice statistics; rounds done here are written back.</td></tr>
+  <tr><td>Planned workouts</td><td>A routine put on a date appears on the calendar, as does a plan another app published; plans made here are written so that a watch can run them.</td></tr>
+  <tr><td>Total calories burned, Speed, Distance, Elevation gained, Power</td><td>Written only, never read: the day’s total energy is computed here from resting rate, steps and workouts, and speed from a recorded route’s own points, so another app’s version of either would only double-count what the types above already say; a workout’s distance, climb and power go out with your own workouts and routes, and the app shows no other app’s.</td></tr>
+  <tr><td>Records older than 30 days</td><td>Shows records older than 30 days in the journal, on the calendar and in the trend charts.</td></tr>
+</table>
+<p>One further permission, <em>read historical data</em>, lifts Health Connect's usual thirty-day
+limit, so that switching from another app brings across a good deal more than the last month. What
+the app actually files is a year: the last 365 days of every type you allow, and the last 30 days of
+another app's heart rate. Two things reach further back — your most recent weight and height, read as
+single current values to fill in your profile, however old they are — and one reaches forward: the
+workouts another app has planned and named, from a month back to a year ahead, which are filed as
+plans in your calendar.</p>
+<p>Three things about this exchange are worth being plain about:</p>
+<ul>
+  <li><strong>It is automatic once you have allowed it.</strong> The app is not asking each time. Once
+    any permission stands, records are exchanged whenever you open the app or return to it — at most
+    once every five minutes — and a weigh-in, a height, a pulse, a blood-pressure, oxygen, temperature
+    or blood-sugar reading, a night's sleep, a workout, a drink or a meal you save is published within
+    seconds. Every other kind — cycle and intimate entries, breathing sessions, planned workouts, what
+    a workout measured — waits for the next exchange, as does a deletion (§11). The app offers no
+    switch of its own to stop this: you stop it by revoking the permissions in Health Connect's own
+    settings, which you can do at any moment.</li>
+  <li><strong>Some free text goes with it.</strong> A note on a sleep entry, a workout's title and
+    note, a meal's name, and the name of a workout template you have planned for a date are published as part
+    of those records, and any app you have authorised to read that type can read them. Notes on every other kind of entry stay in the app. Of the intimate
+    records, only the fact that an act happened and whether protection was used is exchanged — never
+    the note. Morning check-ins, pain entries and work sessions are not exchanged at all.</li>
+  <li><strong>Route coordinates are never written to Health Connect.</strong> Figures worked out from a
+    route may be — the distance, the climb, a thinned series of speeds — but never the places you
+    were.</li>
+</ul>
+<p>Records that arrive this way are stored with the name of the app that wrote them, which the
+<em>Data sources</em> screen shows you. To turn a package name into the name you know an app by,
+PWN.Health asks the package manager on your own phone; that lookup stays on the device.</p>
+<p>Deletion across Health Connect has limits, most of them Health Connect's rather than ours, and §11
+sets them out.</p>
+
+<h2>7. Bluetooth devices</h2>
+<p>The app reads scales, heart-rate straps, blood-pressure monitors, pulse oximeters, glucose meters,
+thermometers, smart rings, a Bangle.js 2 watch running PWN.Health's own watch app, cycling power and
+speed sensors, running foot pods, treadmills, rowing
+and ski ergometers, and gym bikes. Most are connected to; some — certain scales and gym-bike consoles —
+simply broadcast their reading, and the app reads it out of the air without connecting or pairing at
+all.</p>
+<p>The app stores what the device reported and enough about the device to recognise it again: not
+its Bluetooth address, but a fingerprint of it. A smart ring's fingerprint comes out the same on
+any phone, so that a backup restored on a new one goes on adding to the days the ring has already
+counted, and anyone with a copy of your data could work the ring's address back out of it.
+Every other device's is mixed with a secret of this installation, which the app's backup
+files leave out. Its
+Bluetooth traffic runs in one direction as far as your records are concerned: no measurement of yours
+is ever sent to a device. What the app does send are the requests a device needs before it will hand
+anything over — &ldquo;send me your stored readings&rdquo;, &ldquo;what is your battery level&rdquo; —
+and, where a device demands it, a pairing request.</p>
+<p>That pairing is the one thing that outlives the app. Android stores it, not us, and clearing the
+app's data or uninstalling the app does not remove it. To remove it, forget the device in Android
+Settings → Connected devices.</p>
+
+<h2>8. When data leaves the device</h2>
+<p>The app cannot open a network connection. But data does leave the phone, and there are two
+different kinds of route: the ones you take deliberately, one file at a time, and the ones that keep
+running once you have switched them on.</p>
+
+<h3>8.1 Copies you make, one at a time</h3>
+<p>Each of these happens when you ask for it. Some are saved to a location you pick in Android's file
+picker; others are handed to an app you pick from Android's share sheet — and from that moment the
+app that received it holds its own copy, under its own privacy policy, not ours.</p>
+<ul>
+  <li>a <strong>full backup</strong>, containing everything you have recorded, with your progress, medicine,
+    walk and workout-template photographs, and the laboratory camera photographs your results still
+    name, inside the same file. The app's settings are not in it — its colours, the Work screen's days
+    off, long day and workplace, and the other choices it keeps as settings rather than as records — so
+    a phone restored from the file asks for them again; a move to a new phone carries them. You can
+    put a password on it, and then it is written as AES-256-GCM in chunks under a
+    key derived from your password with PBKDF2-HMAC-SHA256 and a random salt. The key is never
+    stored — it is derived again from the password when you import — so a forgotten password cannot
+    be recovered, by you or by us, and the file stays sealed. Without a password the export is plain
+    text that anything can read;</li>
+  <li>a <strong>route</strong>, as GPX, GeoJSON or CSV — saved through the file picker or, from the
+    walk page, shared through Android's share sheet;</li>
+  <li>a <strong>report for a doctor</strong>, as a PDF or, if you switch on <em>With files</em>, as a
+    ZIP archive: the PDF, the original files attached to the lab results, attended visits and courses
+    of medicine in the sections you ticked and the period it covers — an examination's file, a lab
+    sheet or an allergy panel among them, each copied whole — and a list linking each file to its
+    entry and date. A file the phone can no longer
+    open is left out and named in that list as unreadable.
+    <br><br>
+    Some of it is on every report: the period it covers, the kind of doctor it is for if you picked
+    one, the country whose units and date format it uses, the time zone your phone is set to, your
+    age, sex and height, and your allergies — what you told the app, or that you were never tested,
+    and, if you saved one, your newest allergy panel: the day of the test, how many allergens it
+    tested and how many were positive, and each positive one by its code and name, with its class and
+    its specific IgE.
+    The heading for your diagnoses is on every report too, but what you wrote under it goes in only if
+    you tick it; otherwise the report says that you left it out. Everything else goes in only if you
+    tick it, section by section. What you can tick is: your weight and BMI; the scale’s estimates of
+    body fat, muscle and water; your waist, hip and chest measurements; your pulse and its
+    variability, blood pressure, blood oxygen and body temperature against the reference bands this
+    app applies; your laboratory results, and what your diary, medicines and supplements held in the
+    weeks before each test; your medicines by name and dose, when each course started and ended, and
+    how many doses you marked as taken; your sleep, activity and food, and the vitamins and minerals
+    worked out from the food you logged and the doses you marked; your mood; what you logged about
+    alcohol and tobacco; what you counted in a bathroom; the diagnoses, operations, vaccinations and
+    contraception method you wrote down; visits you marked as attended, with the doctor’s name, the place
+    and your note; where it hurt and how often,
+    by area of the pain drawing, with the scores, the words and the days you marked a painkiller; the
+    hours you tracked with the work timer, by week and by day, counted against your own usual days off
+    and long-day setting; on a profile set to female, your pregnancy status and your menstrual cycle,
+    including when your last period started, how long your cycles run, and the flow, spotting,
+    ovulation tests and other observations you recorded; and, last, the figures from those sections
+    that changed between the start of the period and its end, side by side.
+    <br><br>
+    <strong>Sexual activity is never in it unless you put it there.</strong> It is not part of any
+    doctor’s preset, “select all” does not reach it, and it goes in only after you answer a question
+    that says what would be sent. You choose then whether to send the counts alone, or those
+    with the individual dates. Before the report is saved or shared, a summary screen states in words
+    whether sexual activity is included or not. Nothing about anybody else is recorded or sent.
+    <br><br>
+    <strong>Nor are the symptoms you ticked on an intimate record</strong> — pain, bleeding, dryness,
+    difficulty — unless you put them there. They have a question of their own, which no preset or
+    &ldquo;select all&rdquo; reaches; what goes is which of them you ticked, never how often, on which
+    days or anything about protection. Because they are ticked while logging sex or masturbation, a
+    symptom on the sheet does say that one of them happened, and the question says so.
+    <br><br>
+    <strong>Morning check-ins are never in it unless you put them there either</strong>, and only on a
+    profile set to male. They have a question of their own, separate from the one about sexual
+    activity — answering one does not include the other — and no preset or &ldquo;select all&rdquo;
+    reaches them. What goes is how many mornings you answered, how often each answer was given and when
+    you usually woke; a chart of the share answered firm or partly, week by week; and, when the report
+    compares the start of the period with its end, that share in the first stretch beside the last,
+    which may be set beside your sleep over the same months. No single morning is listed with its
+    date. When they are included, the summary screen says so on a line of its own.
+    <br><br>
+    The report says on its face that it is a patient-generated summary, compiled by you from your own
+    records; that measurements may come from connected apps or devices and have not been clinically
+    verified; and that the diagnoses, allergies, operations, vaccinations, pregnancy status and
+    contraception on it are your own statements as you wrote them down, not coded or confirmed by a
+    clinician. A reference band printed beside a value is one this app applies from published population guidance;
+    it is not a laboratory’s own range for your sample, and the report says so;</li>
+  <li><strong>progress photographs</strong> — all of them at once, never a selection: the one export
+    button sends the whole gallery. A single picture leaves only if you tap it open, which hands that
+    one file to whatever app your phone views pictures with;</li>
+  <li>a <strong>medicine photograph</strong> — one at a time, only if you tap it open, which hands
+    that one file to whatever app your phone views pictures with;</li>
+  <li>a <strong>walk photograph</strong> — one at a time, only if you tap it open, which hands that
+    one file to whatever app your phone views pictures with;</li>
+  <li>an <strong>attached file</strong> or a <strong>laboratory camera photograph</strong> — one at a
+    time, only if you tap it open on a lab result, an examination, a medicine, an appointment or in a
+    chat, which hands that one file to whatever app your phone opens that kind of file with;</li>
+  <li>a <strong>workout template</strong>, as a file another phone with the app can import — the whole
+    template, its photograph inside it — handed through Android's share sheet to an app you pick,
+    with the template written out in words beside it for anyone without the app;</li>
+  <li>an <strong>achievement card</strong>, as an image;</li>
+  <li>a <strong>sensor trace</strong>, as CSV, if you have been recording one;</li>
+  <li>a <strong>diagnostics report</strong> — see §9.</li>
+</ul>
+<p>A backup is spooled through a temporary file in the app's private cache on its way out, and that
+spool goes as soon as the copy is across. A route, a sensor trace and a report you <em>save</em>
+through the file picker are written straight into the file you chose. A report, an achievement card,
+a route or a workout template you <em>share</em> is written into the app's private cache first,
+because sharing means handing another app a file; progress photographs are shared from where they
+already live, and the diagnostics report is text rather than a file. A shared report, route or
+workout template is
+removed the next time you open the app once the file is an hour old, and in any case the next time the
+app is started afresh; sharing a new report, as a PDF or as an archive, removes the last one sooner;
+one card is kept for each medal you have shared — up to five, each replaced only when you share that
+same medal again. A backup file you import is copied into the same cache as it is — still sealed, if
+it was sealed — and deleted when the import ends, when you leave the page without giving its
+password, or, if Android closed the app halfway, the next time the app is started afresh. All of
+them go when you clear the app's cache.</p>
+
+<h3>8.2 Copies that keep being made</h3>
+<ul>
+  <li><strong>The automatic daily copy</strong>, if you switch it on. You choose a folder once through
+    Android's own folder picker; after that the app writes one complete copy of your record into it
+    every day, keeps the seven newest days of its own copies and deletes its older ones — copies another
+    installation wrote into the folder are left alone — and goes on doing so with the app closed
+    until you switch it off. <strong>These copies are plain, unencrypted JSON</strong>, and they include
+    your progress, medicine, walk and workout-template photographs and the laboratory camera
+    photographs your results still name. They cannot be password-sealed: the app never stores your password, so
+    there is nothing to seal a file with at three in the morning. If the folder you chose belongs to a
+    cloud storage service, that service's app will upload a full copy of your health record every day
+    — so choose a folder you are content to keep medical data in.</li>
+  <li><strong>Health Connect</strong>, once connected — automatically, as §6 describes.</li>
+  <li><strong>Moving to a new phone.</strong> When you set up a new phone from your old one, Android's
+    own transfer copies this app's database, its settings, your progress, medicine, walk and
+    workout-template photographs and laboratory camera photographs straight from
+    one device to the other, over cable or Wi-Fi Direct, without passing through any server. This is
+    deliberate: without it a lost or broken phone would take the whole record with it. Nothing is
+    uploaded — the app excludes itself <em>entirely</em> from Google's cloud backup, and both the
+    exclusion and the transfer list are in the app's <code>data_extraction_rules.xml</code> for
+    anyone to read. If you switched database encryption on, the transferred database cannot be opened
+    on the new phone, because the key stays in the old phone's keystore; move your record with an
+    export instead.</li>
+</ul>
+
+<h2>9. What we receive</h2>
+<p>Nothing, automatically. We run no servers, and the app has no way to reach one.</p>
+<p>The single exception is a bug report you decide to send. The About screen can produce a diagnostics
+summary: the app and Android version, your phone's make and model, your language and unit system,
+whether the app lock is on, how many days ago a backup was last made, by hand or by the automatic copy, and whether the automatic
+copies are on, whether Health Connect is available and how many of the permissions the app asks it
+for are granted, out of how many (fewer on a profile under sixteen, which is not asked about sexual
+activity), how
+many journal entries, step days, routes and progress photographs your database holds, and the random
+installation identifier from §2.1. It contains no
+entry, no measurement, no coordinate and no medicine's name. Producing it also places it on your
+clipboard, and the app offers to hand it to an app you pick or to a mail composer addressed to us.
+Nothing sends it by itself. If you do send it, we hold that message as we hold any email, for as long
+as it takes to answer you; write to <a href="mailto:legal@pwn-all.com">legal@pwn-all.com</a> to have it
+deleted.</p>
+<p>Nor does the app send Android's system log. When something fails — a photograph that could not be
+stored, a reading the chat's model could not finish — it writes a line there saying so, with the error
+Android gave, which can name a file: a progress photograph's file is named after the moment it was
+taken. No entry, measurement or medicine's name is written there. Other apps cannot read the log; it
+leaves the phone only in a bug report made with Android's developer options or over a USB cable.</p>
+
+<h2>10. Notifications and widgets</h2>
+<p>An <strong>ongoing notification</strong> shows the day's step total and, while a route is recording
+or paused, which of the two and the distance so far. Android requires it while the step counter runs; it can be silenced through the
+step-counting notification channel in Android Settings.</p>
+<p><strong>Reminders are on for a new profile</strong> and can be switched off in the app's profile
+settings. They are: a step-goal nudge, an inactivity nudge, an evening nudge if nothing has been
+logged, an occasional note about your average daily steps, a nudge to eat, a nudge to drink, a
+medicine-dose reminder, a doctor's-appointment reminder, and — on the morning of a day you planned a
+workout template for — <em>Workout today</em>, once. While the work timer runs there is one
+more: after ten hours it asks whether you are still working, with a Stop button, and at sixteen it
+stops itself and says so. Neither names anything but the timer. With the Work screen's <em>Start by
+location</em> switched on, an automatic start or stop of the work timer is reported in a notification
+with an Undo button, on a quiet channel of its own, <em>Automatic work timer</em>, so that muting the
+reminders does not take the Undo away with them; it gives the time, never the place. The Undo on a
+start holds until the end of that day while the session is still the one the app started, and the
+Undo on a stop for an hour while the timer stays stopped; after that the notice goes by itself. While a check
+runs, Android may show a notification saying that the app is checking whether you are at work, on a
+channel of its own at the lowest importance, <em>Workplace checks</em>; it goes when the check ends, at
+most half a minute later, and it names neither the place nor the time.</p>
+<p>The nudges to eat and to drink are counted from the clock, not read out of what you logged: four
+hours after the last meal you recorded or the last such nudge, two hours after the last water or its
+own last nudge, and never counting from earlier than nine in the morning — something recorded before
+nine does not bring the nudge forward, and on a day with neither the count simply starts at nine. Both keep to the app's waking hours — nothing between ten at
+night and nine in the morning — and both say only that it may be time; neither names or reads
+anything.</p>
+<p><strong>Medicine and appointment reminders never name what they are about.</strong> A dose reminder
+gives the time and, where it matters, whether to take the dose with food — never the medicine. Doses
+that fall due at the same time with the same instruction share one reminder, which says that there
+are several and nothing else about them. An
+appointment reminder gives the date and the time — never the doctor or the specialty. They do still
+reveal that you take scheduled medication or have an appointment, and they appear on a lock screen
+unless your phone is set to hide sensitive notification content; neither is held back during the
+app's quiet hours, so either can arrive at night. The workout reminder is different: it names the
+templates planned for the day, as you named them, and like the nudges it keeps to the app's waking
+hours.</p>
+<p><strong>A dose reminder rings as an alarm, and this is on unless you turn it off.</strong> It uses
+your phone's alarm tone at alarm volume, vibrates, and goes on sounding until you stop it or a minute
+passes. Where Android allows it — see §4 — the same reminder also turns the screen on and fills it,
+<strong>over your lock screen</strong>, with a panel carrying <em>I took it</em>, <em>Stop sound</em>
+and <em>Open app</em>.
+That panel says exactly what the notification says, the time and where it matters the food instruction,
+and never the medicine; but anyone within sight or earshot of the phone learns that a dose is due, at
+whatever hour it falls. <em>I took it</em> — on the panel, and on the notification itself, which also
+carries <em>Later</em> — marks that dose, or every dose a shared reminder stands for, as taken without
+opening the app or passing the app lock, as
+the dose widget's <em>Taken</em> does; <em>Later</em> puts the reminder off for a quarter of an hour,
+unless the dose would be let go before then (§5). Stopping the sound does not mark the dose as taken, and <em>Open app</em> still
+goes through the app lock if you have one. The switch is <em>Medicine alarms</em>, in the app's profile
+settings beside the reminders switch; with it off the dose is an ordinary notification again.</p>
+<p>With a <strong>Screen time</strong> reminder switched on (§5) — both are off until you switch them
+on, and neither depends on the reminders switch above — there are two more, on a channel of their
+own, <em>Screen time breaks</em>. After a sitting in the social and feed apps that has run for the
+time you set without a break, one names the app the sitting was mostly in and how many minutes it
+has lasted; when the day's total in those apps passes the limit you set, the other gives that total.
+Neither reads anything from your journal, and like any notification they show on a lock screen unless
+your phone is set to hide sensitive notification content.</p>
+<p>These sit on four separate channels in Android Settings → Apps → PWN.Health → Notifications, and
+you can mute any one of them without losing the rest: <strong>Medicine alarms</strong> is the ringing
+dose reminder, <strong>Dose reminder</strong> is the appointment reminder and the dose reminder when
+the alarm is switched off or its own channel is muted, <strong>Screen time breaks</strong> is the two
+Screen time reminders, and
+<strong>Reminders</strong> is everything else. Muting the first does not
+mute the second, and neither touches the step counter's own channel.</p>
+<p>Of the app's health-advice topics, <strong>only the activity one is ever sent as a
+notification</strong>. Advice about sleep, mood, the cycle, energy, hydration, blood results, bowel
+habits, tobacco or intimate health is shown inside the app alone and is never posted where a lock
+screen could show it. The nudges to eat and to drink above are not advice and read nothing you wrote:
+they are worked out from the clock and from when a row of that kind was last recorded, never from what
+it says.</p>
+<p><strong>Home-screen widgets sit outside the app lock</strong>, and this is worth knowing before you
+place one. A widget is drawn by your launcher, which is separate software; with the app lock on, a
+widget still shows what it shows — today's steps against your goal; the water you drank against your
+target, which the app works out from your latest weight, 30 ml a kilogram within limits, so that the
+target can give that weight away; cigarettes today; a mood prompt, or how long until the next mood can
+be logged; whether a route is recording or paused, with its distance and moving time; whether the
+work timer is running or paused, since when, its time so far and today's hours; last night's sleep,
+from when to when; your latest weight and how far it has moved in thirty days; what you have eaten
+today against the day's allowance; the week's steps; your level, XP and daily streak; the next dose
+of the day, by the medicine's name and amount, with a Taken button; the day of your cycle, whether a
+period is running, and when the next period is expected; and on the
+quick-entry widget the icons you chose for it, which may include sex life or the cycle — and a tap on
+one still records a drink of water, a mood, a cigarette or a dose taken without asking for your
+fingerprint or PIN. Route recording can be started and stopped from the track widget the same way,
+and the work timer from its own. A tap on an icon of the quick-entry widget, or on the shortcuts
+widget, only opens the app at that entry, through the app lock. <em>Block screenshots</em> applies to the app's own windows and does
+not hide a widget from a screenshot of your home screen. If you do not want that visible to whoever can
+see your phone, do not place the widget.</p>
+
+<h2>11. Storage, retention and deletion</h2>
+<p>Your record lives in the app's private storage for as long as you keep it. We set no retention
+period, because we hold nothing to retain: what is kept is kept by you, on your phone, and goes when
+you delete it.</p>
+<p>You can delete individual entries inside the app — a progress photograph goes with the × on its
+thumbnail, and the file goes with the row; a medicine photograph goes with its course, or when you
+remove it and save; a walk photograph goes with the × beside it on the walk page; a recorded route
+goes with the bin beside its name on that page, and its points and photographs go with it; a workout
+template's photograph goes with the template, or when you remove it and save, and the dates
+the template was planned for go with it too; a laboratory camera photograph goes with the result it
+belongs to, and one no saved result names at a later fresh start of the app (§3) — or erase
+everything at once via Android Settings → Apps →
+PWN.Health → Clear data, or by uninstalling the app. Either takes the photographs along with the
+database, and both remove any quarantined copy of the database the app is holding (see below).</p>
+<p>Five things a deletion inside the app does not reach:</p>
+<ul>
+  <li><strong>Deleting a chat removes its words and answers, not the entries it made.</strong> A pain, a
+    mood, a dose or a course it saved stays until you delete it on its own page; while a chat is open,
+    Undo on a saved entry deletes that entry the way its own page would. A chat you deleted comes back
+    if you import a backup written before you deleted it.</li>
+  <li><strong>A marker of the deletion stays.</strong> When you delete an entry of your journal, the
+    app keeps a small record that an entry with that identity was deleted. For an entry made in this
+    app the identity is only its number, with the day for a period entry; for one that came through
+    Health Connect, it names the app that wrote the record and the record's own identifier; for one
+    read out of an export file, it names the app the file came from, the kind of record and its date
+    and time, and, for a meal, which meal and the food's name, or, for a workout, the exercise's name.
+    It holds no measured value, and exists only so that something you deleted is not read straight
+    back in and restored: from a copy sitting in Health Connect, from an export file you hand the app
+    a second time, or from a backup. A backup written by this installation of the app brings back no
+    entry you deleted after writing it. A backup from any other installation — the phone you moved
+    from by Android's transfer, and this phone's own from before the app was installed afresh or its
+    database had to start over, among them — is held back only for entries that
+    came from Health Connect or an export file to begin with, and an entry logged by hand in it comes
+    back. A recorded route you delete leaves a marker too: the moment its recording started, and
+    nothing else about it. A backup written before the deletion does not bring that route back,
+    whichever installation wrote it; and the marker goes into the backups you export afterwards, so
+    an installation that has imported one of those keeps the route out as well.
+    Nothing else leaves a marker: a course of medicine, an appointment, your medical
+    history, a workout template or a chat comes back if you import a backup written before you
+    deleted it. These markers go with Clear data and with the app, and they are included in backup
+    files you export.</li>
+  <li><strong>Health Connect has its own rules.</strong> Deleting a record the app itself published
+    withdraws it there too, but only at the next exchange. The exception is what an earlier installation
+    of the app published and a reinstall did not read back — anything dated more than 365 days ago, and
+    the few kinds it never reads back (a planned workout, a workout's distance, climb, speed, power,
+    cadence and active energy, a day's total energy): that stays in Health Connect until you delete it
+    there — but for one whose route, workout or plan a backup has brought back into this installation,
+    which is published again and takes the earlier copy's place. Deleting a record another app wrote removes
+    it only from PWN.Health — Health Connect does not let one app delete another's data, so it has to be
+    deleted in the app that wrote it, or in Health Connect. And uninstalling PWN.Health leaves what it
+    published standing in Health Connect: a reinstall will read those records back.</li>
+  <li><strong>Files that have already left.</strong> The automatic daily copies live in the folder you
+    chose, outside the app, and survive both Clear data and uninstalling; delete them where they are.
+    So do exports you saved, files you shared, and any copy Android moved to a new phone during
+    setup.</li>
+  <li><strong>Existing files you picked as attachments</strong> were never the app's to delete — they still belong to the app
+    you picked them from. What the app gives up is its permission to read one, once no saved entry
+    names it: at once when you delete the lab result, allergy panel or examination it is on, and
+    otherwise at a later fresh start of the app (§2). While a copy of the database that was set
+    aside (see below) is on the phone, that start gives up nothing, because the copy may still name
+    the file.</li>
+</ul>
+<p>One more thing the app keeps on purpose: if the database is ever damaged, arrives from another
+phone locked to that phone's keystore, or cannot be opened because this phone's keystore went on not
+answering, the app moves the file aside inside its own private storage rather than deleting it, so
+that a record is never destroyed for being unreadable. Each kind of copy is shown on the profile page,
+with a button that discards it. A damaged one can also be saved from there as a file of your choosing,
+which is then outside the app like any export; one that this phone's own key opens can be opened
+again, at the next start, in place of the record in use, which is then set aside in its turn. Clear
+data and uninstalling remove them all.</p>
+
+<h2>12. Protecting what is on the phone</h2>
+<p>Three separate protections, all off until you switch them on:</p>
+<ul>
+  <li><strong>App lock</strong> — asks for your device's PIN, or for a fingerprint or a face where the
+    phone itself rates it a strong biometric, before showing the
+    app. It covers the app's own screens; it does not cover home-screen widgets (see §10), and it does
+    not cover the medicine alarm, which is meant to be read without unlocking. That panel carries the
+    dose's time, the food instruction where there is one, whether a meal has been logged where the
+    instruction turns on it, and that the dose is not yet marked as taken — never the medicine, and
+    nothing else from your record. Its <em>I took it</em> marks that dose as taken from there, without
+    the lock (§10). Opening the app from it goes through the lock like any other way
+    in. It asks only while the phone has a screen lock of its own: on a phone without one there is
+    nothing to ask for, and the app opens without asking until a screen lock is set again. Android
+    asks for the screen lock before it lets it be removed.</li>
+  <li><strong>Block screenshots</strong> — hides the app's own window from screenshots and from the
+    recent-apps preview. The app lock brings it along: while the lock is on, this is on whatever its
+    own switch says. It does not reach the medicine alarm panel, which is kept out of the
+    recent-apps list instead.</li>
+  <li><strong>Database encryption</strong> — rewrites the database under SQLCipher with AES-256. Its
+    key is kept wrapped by a second key in this phone's keystore, which never leaves the phone. This is
+    the protection against the storage being read away from the phone: a forensic image, a partition
+    backup. It does not stop software running with root on the phone itself: the keystore key is not
+    tied to your screen lock — the step counter and the widgets have to open the database with nobody
+    there to unlock it — so such software can ask for it the way the app does. Read what the switch
+    says before turning it on: because that key never leaves this phone, an encrypted database cannot be
+    opened after a device-to-device transfer, and your record then has to travel as an export instead.
+    It covers the database file — not your progress, medicine, walk, workout-template or laboratory
+    camera photographs, and not the app's settings.</li>
+</ul>
+<p>These address someone else getting hold of your phone or its storage. The other thing worth guarding
+is a file you have already exported: that is why a manual backup can be sealed with a passphrase, and
+why the automatic daily copy — which cannot be sealed — deserves a folder you have thought about.</p>
+
+<h2>13. Legal basis, and your rights</h2>
+<p>Where the EU or UK GDPR applies to you, the basis for processing health data in this app is your
+<strong>explicit consent</strong> under Article 9(2)(a), given by granting the relevant Android
+permission or Health Connect access and by choosing to record what you record. You may withdraw it at
+any time by revoking that permission or deleting the data; withdrawal does not affect what was done
+before it.</p>
+<p>Your rights are unusual here in that almost all of them are exercised on the device, because we hold
+nothing to act on:</p>
+<ul>
+  <li><strong>Access and portability</strong> — export your record as a backup file, which contains all
+    of it in a readable format;</li>
+  <li><strong>Rectification</strong> — edit any entry in the app;</li>
+  <li><strong>Erasure</strong> — delete the entry, or Clear data, or uninstall (with the limits in
+    §11);</li>
+  <li><strong>Restriction and objection</strong> — revoke the Android permission or the Health Connect
+    grant that feeds the feature, or switch the feature off;</li>
+  <li><strong>Anything concerning a message you sent us</strong> — write to
+    <a href="mailto:legal@pwn-all.com">legal@pwn-all.com</a>, which is the only route that is not
+    self-service, because a bug report you emailed is the only thing we could ever hold.</li>
+</ul>
+<p>You have the right to complain to a supervisory authority: in the EU, the authority in your Member
+State; in the UK, the Information Commissioner's Office; and in the United Arab Emirates, where we are
+established, the UAE Data Office.</p>
+<p>No automated decision producing legal or similarly significant effects is made about you. The app's
+estimates, bands and verdicts — a wellbeing score, a cycle prediction, whether a laboratory result sits
+inside its reference band — are calculations made on your phone and shown to you. Nobody else sees
+them, and they are not profiling for anybody's benefit but yours. Nor is what the chat's model reads in
+a message, in a version that carries one, a decision about you: it only chooses among the chat's fixed
+questions and buttons, and only your taps answer them (§2.2).</p>
+<p>Categories of recipient, for completeness: the camera app that takes a photograph, any app you hand
+a file to, the storage service behind a folder you chose, any app you have authorised in Health
+Connect, and PWN-ALL itself if you send a diagnostics report. Every one of those is a choice you make.</p>
+
+<h2>14. Age</h2>
+<p>PWN.Health is for every age. Before it opens any of its features, the app asks for your date of birth
+on a screen with nothing filled in and no age limit mentioned. That date is stored on the device with the rest of your
+profile and, like everything else here, never leaves it by itself.</p>
+<p>What the date decides is which parts of the app exist for you. Under 18 there is no alcohol or
+tobacco logging: no screen, no button in the add sheet, and the tobacco home-screen widget is switched
+off so the launcher does not offer it. Under 16 there is no sexual-activity logging, on the same terms —
+removed, not locked, because a door that is closed but visible tells a child exactly which lie to tell.
+Everything else — steps, food, sleep, mood, the cycle, lab results, the medicine cabinet — is the same
+app at every age, and the guidance the app gives is banded by age where medicine bands it by age.</p>
+<p>Because the app asks for a date of birth, it knows the age of the person using it. There is no
+minimum: a child can use PWN.Health, and their record stays on their own phone under exactly the same terms
+as anyone else's. Where a child is below the age at which their country lets them consent for themselves
+— between 13 and 16 across the EU and the UK — that consent should come from a parent or guardian, and
+we would expect the parent or guardian to be the one who decides the app goes on the phone.</p>
+
+<h2>15. How you got the app, and what it costs</h2>
+<p>PWN.Health is built in two forms from the same source: the Google Play edition, and an APK you can
+install directly. They are the same code and differ in one thing: only the APK you install directly
+declares location all the time and offers the Work screen's <em>Start by location</em> (§4). Neither contains a
+store client, a billing library or any licence check, and neither contacts Google or us after it is
+installed.</p>
+<p>PWN.Health is free of charge in both forms, and it is free software: its code is licensed under the
+GNU General Public License, version 3 or later. There are no in-app purchases, no subscriptions and no
+upgrade tiers, so there is no payment for the app to see. An install from Google Play is handled by the
+Google Play Store app, and Google's processing there is governed by the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Even in the Play edition the app
+itself carries no internet permission.</p>
+<p>The only third-party code inside the app is software that runs its on-device models — the ones that
+read photographs and, in a version that carries one, the chat's (§2.2) — that stores data, and that
+any Android app is built from, none of which touches a network: ONNX Runtime, built for this app
+without Microsoft's telemetry client, SQLCipher for the optional database encryption, Android's own
+Jetpack libraries, the Kotlin language's own libraries, and Google's Guava, which Android's Health
+Connect library brings with it. There is no crash reporter, no WebView, and no advertising or attribution library of
+any kind.</p>
+
+<h2>16. Not medical advice</h2>
+<p>All figures — calories, heart rate, sleep, reference bands, percentiles, cycle predictions — are
+estimates for self-tracking and motivation. They are not a medical device and do not replace
+professional medical advice.</p>
+<p>The chat does not diagnose: it does not say what a symptom is, what caused it or whether something
+is safe, and it does not replace a doctor. Its questions and its lines about getting help are fixed
+text. The chat's model, in a version that carries one, only chooses among them and can add one of the
+chat's questions about safety, never remove one; whether the chat says to seek help comes from your
+answers and the app's fixed rules.</p>
+
+<h2>17. Changes to this policy</h2>
+<p>If a future version of the app changes how data is handled, this page will be updated and the
+effective date above will change. Material changes will be highlighted in the app's release notes.</p>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">وقت الشاشة</string>
+    <string name="screen_time_add_body">الوقت في التواصل الاجتماعي والفيديو والمراسلة والألعاب مع استراحات للعينين والذهن</string>
+    <string name="screen_time_help">كم بقيت تطبيقات التواصل الاجتماعي والخلاصات والفيديو والمراسلة والألعاب على الشاشة اليوم وهذا الأسبوع، من سجل استخدام Android. تذكيرات العينين والذهن تتابع التواصل الاجتماعي والخلاصات فقط، والتنقل بينها دون استراحة يُحسب جلسة واحدة. أما الباقي فيُعدّ فقط. لا يُكتب شيء في اليوميات ولا يغادر شيء الهاتف.</string>
+    <string name="screen_time_channel">استراحات الشاشة</string>
+    <string name="screen_time_access_title">يلزم الوصول إلى بيانات الاستخدام</string>
+    <string name="screen_time_access_body">لا يخبر Android التطبيق بمدة فتح التطبيقات الأخرى إلا مع إذن الوصول إلى بيانات الاستخدام. يستخدم تقدير النوم الإذن نفسه.</string>
+    <string name="screen_time_access_button">فتح الوصول إلى الاستخدام</string>
+    <string name="screen_time_longest">أطول جلسة دون استراحة: %1$s</string>
+    <string name="screen_time_over">أكثر من %1$s</string>
+    <string name="screen_time_week">آخر 7 أيام</string>
+    <string name="screen_time_week_average">المتوسط اليومي: %1$s</string>
+    <string name="screen_time_eyes_switch">التذكير بإجهاد العينين</string>
+    <string name="screen_time_eyes_switch_body">بعد جلسة طويلة في الخلاصة دون استراحة</string>
+    <string name="screen_time_brain_switch">التحذير من الإجهاد الذهني</string>
+    <string name="screen_time_brain_switch_body">عندما يصبح مجموع اليوم في هذه التطبيقات كبيرًا</string>
+    <string name="screen_time_tips_title">راحة للعينين والذهن</string>
+    <string name="screen_time_tip_eyes">كل 20 دقيقة، انظر إلى شيء يبعد 6 أمتار لمدة 20 ثانية.</string>
+    <string name="screen_time_tip_blink">ارمش عمدًا: أمام الشاشة نرمش أقل بكثير فتجف العينان.</string>
+    <string name="screen_time_tip_brain">الخلاصة اللانهائية تنقل الانتباه كل بضع ثوانٍ. مشي قصير أو بضعة أنفاس بطيئة تهدّئ الذهن.</string>
+    <string name="screen_time_tip_night">ضع الهاتف جانبًا قبل النوم بساعة: الشاشات الساطعة تؤخر النوم.</string>
+    <string name="screen_time_breathing">استراحة تنفس</string>
+    <string name="screen_time_eyes_title">حان وقت إراحة عينيك</string>
+    <string name="screen_time_eyes_body">%1$s منذ %2$d دقيقة دون استراحة. انظر بعيدًا لمدة 20 ثانية وارمش عدة مرات.</string>
+    <string name="screen_time_brain_title">ذهنك يحتاج إلى استراحة</string>
+    <string name="screen_time_brain_body">اليوم %1$s في التواصل الاجتماعي والخلاصات. الخلاصة اللانهائية تُتعب الانتباه: ضع الهاتف جانبًا 10 دقائق، امشِ أو تنفّس ببطء.</string>
+    <string name="screen_time_feeds_title">التواصل الاجتماعي والخلاصات</string>
+    <string name="screen_time_video_title">الفيديو والبث</string>
+    <string name="screen_time_messengers_title">المراسلة</string>
+    <string name="screen_time_games_title">الألعاب</string>
+    <string name="screen_time_category_longest">أطول جلسة: %1$s</string>
+    <string name="screen_time_category_week">آخر 7 أيام: %1$s، بمتوسط %2$s يوميًا</string>
+    <string name="screen_time_tracked_note">للعدّ فقط، دون تذكيرات.</string>
+    <string name="screen_time_none_today">لم تُفتح اليوم</string>
+</resources>

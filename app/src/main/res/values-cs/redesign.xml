@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">Výdej energie</string>
+    <string name="burn_overlap_note">Chůze a běh zapsané jako trénink jsou už započítané v krocích, aby se nepočítaly dvakrát.</string>
+    <string name="burn_rest_so_far">V klidu od začátku dne</string>
+    <string name="burn_total_so_far">Spáleno od začátku dne</string>
+    <string name="burn_active">aktivita, kcal</string>
+    <string name="food_history">Historie jídla</string>
+    <string name="food_history_empty">Dnes zatím není zapsané žádné jídlo.</string>
+    <string name="activity_times">Kdy byla aktivita</string>
+    <string name="activity_times_empty">Pro tento den není zapsaná žádná aktivita s časem.</string>
+    <string name="visit_history">Historie návštěv</string>
+    <string name="visit_history_empty">Tady se objeví absolvované návštěvy lékaře.</string>
+    <string name="calendar_schedule">Program dne</string>
+    <string name="calendar_add_event">Přidat</string>
+    <string name="calendar_expand_month">Zobrazit měsíc</string>
+    <string name="calendar_collapse_month">Sbalit měsíc</string>
+    <string name="calendar_day_summary">Shrnutí dne</string>
+    <string name="events_all">Všechny události</string>
+    <string name="events_filter">Filtrovat události</string>
+    <string name="events_other">Ostatní události</string>
+    <string name="events_no_matches">V tomto měsíci takové události nejsou.</string>
+    <string name="steps_in_interval">Kroky za %1$s</string>
+    <string name="metric_goal_reached">Cíl splněn</string>
+    <string name="workout_did_it">Zvládli jste to?</string>
+    <string name="workout_actual_reps">Kolik opakování jste zvládli?</string>
+    <string name="answer_yes">Ano</string>
+    <string name="answer_no">Ne</string>
+    <string name="visit_recent">Poslední návštěvy</string>
+    <string name="visit_show_all">Zobrazit vše</string>
+    <string name="visit_all_specialties">Všechny obory</string>
+    <string name="visit_all_doctors">Všichni lékaři</string>
+    <string name="visit_all_time">Za celou dobu</string>
+    <string name="steps_hourly_title">Aktivita po hodinách</string>
+    <string name="steps_activity_label">aktivita</string>
+    <string name="steps_distance_title">Ušlá vzdálenost</string>
+    <string name="steps_pace_title">Průměrné tempo</string>
+    <string name="steps_time_title">Celkový čas</string>
+    <string name="steps_distance_note">Vzdálenost je odhadnutá z dnešních kroků a z výšky uvedené v profilu.</string>
+    <string name="steps_no_sensor">Tento telefon nemá senzor kroků, takže je aplikace sama nepočítá. Kroky i tak mohou přicházet z Health Connect nebo z připojeného zařízení.</string>
+    <string name="steps_still_title">Nejdelší úsek bez chůze</string>
+    <string name="steps_still_note">Hodina se počítá jako pohyb, když v ní tento telefon napočítal aspoň 100 kroků — zhruba minutu chůze, tedy stejnou kadenci, jakou předpokládá čas výše. Úsek se měří od první hodiny s pohybem, takže se noční spánek nepočítá jako sezení. Kroky se zařazují do hodiny, ve které se připsaly, ne do té, ve které se ušly, takže dávka, kterou telefon zadržel, může spadnout do pozdější hodiny a úsek pak vypadá delší, než ve skutečnosti byl.\n\nPočítají se hodiny bez chůze, ne čas strávený sezením nebo stáním. Žádný senzor Androidu nerozezná sedící tělo od stojícího a Health Connect nemá záznam ani pro jedno z toho, takže se do něj odsud nic neodesílá. Telefon odložený na stole nepočítá nic, ať už u něj sedíte, stojíte nebo jste mimo místnost.</string>
+    <string name="steps_route_note">Bez trasy se čas odhaduje ze 100 kroků za minutu a vzdálenost z kroků a vaší výšky. Je to předpoklad, ne změřená kadence. Tempo je vážené vzdáleností: celkový čas pohybu dělený celkovou vzdáleností.\n\nZ dokončených tras se bere čas pohybu bez zastávek a vzdálenost. Překrývající se záznamy se slučují; v každé hodině přidávají odhadovaný čas jen kroky nad rámec zaznamenané vzdálenosti. Denní součty ze zařízení se srovnávají s celým dnem.\n\nZnak ≈ označuje odhad. Z hodinových součtů nelze určit přesný čas každého kroku ani přesně oddělit překrývající se aktivity.</string>
+    <string name="steps_chart_thousands">%1$s tis.</string>
+    <string name="home_stat_walks">procházky</string>
+    <string name="burn_total_note">Aktivita a odhadovaný klidový výdej za dosavadní část dne.</string>
+    <string name="burn_daily_estimate">V klidu za 24 hodin: ≈ %1$s kcal</string>
+    <string name="burn_explanation_title">Jak se počítá klidový výdej</string>
+    <string name="burn_explanation_body">Denní odhad vychází ze vzorce Mifflin–St Jeor a z profilu: hmotnosti, výšky, věku a pohlaví. Odhaduje energii potřebnou v klidu, bez chůze a tréninků.\n\nKlidový výdej od začátku dne = denní odhad × minuty od půlnoci ÷ 1 440. Do dnešního součtu vstupuje jen tato uplynulá část; aktivita se přičítá zvlášť. Odhad za celý den se znovu nepřičítá. Skutečný výdej se může lišit.</string>
+    <string name="home_good_morning">Dobré ráno</string>
+    <string name="home_good_afternoon">Dobré odpoledne</string>
+    <string name="home_good_evening">Dobrý večer</string>
+    <string name="home_good_night">Dobrou noc</string>
+    <string-array name="home_motivations">
+        <item>Krok za krokem k cíli</item>
+        <item>Každý krok se počítá</item>
+        <item>Malé kroky vedou daleko</item>
+        <item>Dnes je nová šance</item>
+        <item>Pohyb je život</item>
+        <item>Zdraví začíná v malém</item>
+    </string-array>
+    <string name="home_focus">Dnešní zaměření</string>
+    <string name="home_focus_headline">Pravidelnost přináší výsledky.</string>
+    <string name="home_focus_message">Jděte krok za krokem.</string>
+    <string name="widget_icon_count">Počet ikon</string>
+    <string name="level_details">Úroveň a XP</string>
+    <string name="level_screen_title">Moje úroveň</string>
+    <string name="level_sources">Zdroje XP</string>
+    <string name="level_to_next">do dalšího levelu</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Úroveň %1$d</string>
+    <string name="level_year_xp">%1$s XP letos</string>
+    <string name="level_max">Dosažena nejvyšší úroveň</string>
+    <string name="level_opens">Otevření aplikace</string>
+    <string name="level_steps">Kroky</string>
+    <string name="level_meals">Záznamy jídla</string>
+    <string name="level_workouts">Dny s tréninkem</string>
+    <string name="level_visits">Absolvované návštěvy</string>
+    <string name="level_medals">Medaile</string>
+    <string name="nutrition_unlogged_title">Dnes zatím žádné zapsané jídlo</string>
+    <string name="nutrition_unlogged_body">Pokud jste jedli, zapište jídlo do deníku. Pokud ne, udělejte si čas na plnohodnotné jídlo; pravidelnost v jídle je důležitá v každém režimu.</string>
+    <string name="nutrition_tracking_low_title">Zatím málo zapsaného jídla</string>
+    <string name="nutrition_tracking_low_body">V deníku je %1$s %% dnešního kalorického cíle. Zkontrolujte, jestli něco nechybí. Pokud jsou záznamy úplné, naplánujte plnohodnotné jídlo s bílkovinami, sacharidy a zeleninou.</string>
+    <string name="nutrition_lose_low_title">I při hubnutí je potřeba jíst</string>
+    <string name="nutrition_lose_low_body">Zapsáno je jen %1$s %% dnešního cíle. Hubnutí nevyžaduje hlad: pokud je deník úplný, dejte si plnohodnotné jídlo a jezte dál pravidelně.</string>
+    <string name="nutrition_gain_low_title">Do cíle nabírání ještě kus chybí</string>
+    <string name="nutrition_gain_low_body">Zapsáno je %1$s %% dnešního cíle. Zkontrolujte deník a zvažte další plnohodnotné jídlo nebo svačinu s bílkovinami. Příjem zvyšujte postupně, bez nucení do jídla.</string>
+    <string name="nutrition_lose_over_title">Dnešní kalorický cíl je překročen</string>
+    <string name="nutrition_lose_over_body">V deníku je %1$s %% dnešního cíle pro hubnutí. Při plánování dalšího jídla myslete na porce a na hlad. Nevyrovnávejte to hladověním ani vynecháním jídla.</string>
+    <string name="nutrition_gain_over_title">Výrazně nad cílem nabírání</string>
+    <string name="nutrition_gain_over_body">V deníku je %1$s %% dnešního cíle nabírání, ve kterém je přebytek už započítaný. Zkontrolujte porce a záznamy; jíst navíc přes sílu není potřeba. Pokračujte v pravidelném a vyváženém jídle.</string>
+    <string name="nutrition_tracking_over_title">Nad dnešním orientačním příjmem</string>
+    <string name="nutrition_tracking_over_body">V deníku je %1$s %% dnešního orientačního příjmu kalorií. Zkontrolujte porce a případné duplicitní záznamy. Jeden den sám o sobě váš obvyklý jídelníček nepopisuje.</string>
+    <string name="nutrition_fat_title">Vysoký podíl tuků v dnešních záznamech</string>
+    <string name="nutrition_fat_body">Asi %1$s %% zapsaných kalorií pochází z tuků. Další jídla doplňte bílkovinami, zeleninou a celozrnnými potravinami. Tuky do pestrého jídelníčku patří; záleží na jejich druhu.</string>
+    <string name="nutrition_saturated_title">Nasycené tuky nad denním doporučením</string>
+    <string name="nutrition_saturated_body">Zapsané nasycené tuky už přesahují 10 %% dnešního energetického cíle. V dalších jídlech můžete část jejich zdrojů nahradit rybou, ořechy nebo rostlinnými oleji s nenasycenými tuky.</string>
+    <string name="nutrition_protein_title">Zkontrolujte bílkoviny</string>
+    <string name="nutrition_protein_body">Zapsaná energie je blízko cíli, ale bílkovin je méně než polovina denního orientačního množství aplikace. V dalším jídle zvažte zdroj bílkovin: luštěniny, rybu, vejce, tofu nebo mléčné výrobky.</string>
+    <string name="nutrition_source">NHS / WHO; prahy pro tyto tipy nastavuje aplikace</string>
+    <!-- Jednopísmenné zkratky makroživin v řádku jídla; klepnutím se ukáže celé slovo. -->
+    <string name="food_macro_letter_protein">B</string>
+    <string name="food_macro_letter_fat">T</string>
+    <string name="food_macro_letter_carbs">S</string>
+</resources>

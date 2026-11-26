@@ -1,0 +1,17 @@
+root = true
+
+[*.{kt,kts}]
+ktlint_code_style = intellij_idea
+max_line_length = 120
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+
+# Compose requires PascalCase for @Composable functions.
+ktlint_function_naming_ignore_when_annotated_with = Composable
+# These two collapse multi-line signatures back onto one line; the parameter-per-line style with
+# trailing commas is what the Compose codebase already uses and reads better in diffs.
+ktlint_standard_function-signature = disabled
+ktlint_standard_class-signature = disabled

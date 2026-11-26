@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Record</string>
+    <string name="strength_new_records">Nouveaux records personnels</string>
+    <string name="strength_record_e1rm">Maximum estimé sur une répétition</string>
+    <string name="strength_record_heaviest">Charge la plus lourde</string>
+    <string name="strength_record_reps">Le plus de répétitions en une série</string>
+    <string name="strength_record_volume">Le plus de charge en une séance</string>
+    <string name="strength_record_was">%1$s · avant %2$s</string>
+    <string name="strength_e1rm_note">La valeur sur une répétition est une estimation par la formule d’Epley, à partir de séries de 12 répétitions au plus.</string>
+    <string name="strength_record_line">Meilleur : %1$s · environ %2$s sur une répétition</string>
+    <string name="strength_record_line_reps">Meilleur : %1$s en une série</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">Předchozí měsíc</string>
+    <string name="m3_cal_next_month">Další měsíc</string>
+    <string name="m3_cal_previous_year">Předchozí rok</string>
+    <string name="m3_cal_next_year">Další rok</string>
+    <string name="m3_cal_period_ended">Skončila %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="one">%1$d týden</item>
+        <item quantity="few">%1$d týdny</item>
+        <item quantity="many">%1$d týdne</item>
+        <item quantity="other">%1$d týdnů</item>
+    </plurals>
+    <string name="a11y_state_expanded">Rozbaleno</string>
+    <string name="a11y_state_collapsed">Sbaleno</string>
+    <string name="a11y_hours">Hodiny</string>
+    <string name="a11y_minutes">Minuty</string>
+    <string name="a11y_seconds">Sekundy</string>
+    <string name="a11y_zoom_in">Přiblížit</string>
+    <string name="a11y_zoom_out">Oddálit</string>
+    <string name="m3_editor_attachment_kind">Typ dokumentu</string>
+    <string name="m3_editor_attachment_describe">Popsat soubor %1$s</string>
+    <string name="m3_editor_attachment_remove">Odebrat soubor %1$s</string>
+    <string name="m3_editor_attachment_read_result">Přidat výsledek ze souboru %1$s</string>
+    <string name="m3_editor_energy_share">Podíl z dnešního kalorického cíle</string>
+    <string name="bathroom_kind_previous">Předchozí typ</string>
+    <string name="bathroom_kind_next">Další typ</string>
+    <string name="smoking_bowl_smaller">Menší korunka</string>
+    <string name="smoking_bowl_larger">Větší korunka</string>
+    <string name="smoking_less_nicotine">Méně nikotinu</string>
+    <string name="smoking_more_nicotine">Více nikotinu</string>
+    <string name="progress_photo_delete_dated">Smazat fotku ze dne %1$s</string>
+    <string name="home_notice_dismiss">Skrýt „%1$s“</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">Karta %1$d z %2$d</string>
+    <string name="home_chart_busiest">%1$s: nejrušnější hodina %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">Zobrazit rozpoznané stránky</string>
+    <string name="m3_labs_open_chart">Otevřít graf</string>
+    <string name="m3_labs_chart_sideways">Otočit graf na šířku</string>
+    <string name="m3_labs_chart_earlier">Dřívější výsledky</string>
+    <string name="m3_labs_chart_later">Pozdější výsledky</string>
+    <string name="med_a11y_mark_dose">Zaškrtnout %1$s, %2$s</string>
+    <string name="med_a11y_undo_dose">Zrušit zaškrtnutí %1$s, %2$s</string>
+    <string name="med_a11y_edit_course">Upravit léčbu %1$s</string>
+    <string name="med_a11y_delete_course">Smazat léčbu %1$s</string>
+    <string name="med_history_current">Aktuální</string>
+    <string name="m3_pain_time_left">Zbývá %1$s</string>
+    <string name="m3_pain_remove_area">Odebrat</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">Krok %1$d z %2$d</string>
+    <string name="m3_profile_advice_level_clinician">Stojí za to probrat s lékařem</string>
+    <string name="m3_profile_advice_level_attention">Stojí za to sledovat</string>
+    <string name="m3_profile_advice_level_habit">Návyk, na který se zaměřit</string>
+    <string name="m3_profile_password_mismatch">Hesla se neshodují</string>
+    <string name="m3_profile_password_show">Zobrazit heslo</string>
+    <string name="m3_profile_password_hide">Skrýt heslo</string>
+    <string name="m3_sync_connected">Připojeno k zařízení %1$s.</string>
+    <string name="m3_sync_disconnected">Odpojeno od zařízení %1$s.</string>
+    <string name="m3_sync_error_scan">Hledání se nepodařilo spustit. Chvíli počkejte a pak hledejte znovu.</string>
+    <string name="m3_sync_error_pairing">Párování nebylo dokončeno. Přijměte žádost o spárování a pak se připojte znovu.</string>
+    <string name="m3_sync_error_stale_bond">Spárování tohoto telefonu se zařízením už nefunguje. Zrušte spárování zařízení v nastavení Bluetooth v Androidu, pak se připojte znovu a přijměte žádost o spárování.</string>
+    <string name="m3_sync_error_no_answer">Zařízení neodpovědělo. Probuďte ho, držte ho poblíž a pak se připojte znovu.</string>
+    <string name="m3_sync_error_generic">K zařízení se nepodařilo připojit. Zkuste to znovu.</string>
+    <string name="m3_sync_no_skin_contact">Pás hlásí, že nemá kontakt s kůží. Navlhčete elektrody a utáhněte ho, aby těsně přiléhal.</string>
+    <string name="m3_sync_reading_incomplete">Zařízení neposlalo úplné měření, a proto ho nelze uložit.</string>
+    <string name="m3_sync_connect_named">Připojit %1$s</string>
+    <string name="m3_sync_firmware">Firmware %1$s</string>
+    <string name="m3_sync_scale_clock_unset">Datováno při přijetí: hodiny váhy nebyly nastavené</string>
+    <string name="m3_sync_health_running">Probíhá výměna dat s Health Connect v tomto telefonu…</string>
+    <string name="m3_sync_failed_permission">Health Connect odepřel přístup; zkontrolujte, co je povoleno.</string>
+    <string name="m3_sync_failed_unavailable">Health Connect v tomto telefonu neodpověděl.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect požádal o pauzu; aplikace to zkusí znovu později.</string>
+    <string name="m3_sync_failed_other">Health Connect vrátil chybu.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, obvyklý volný den</string>
+    <string name="m3_work_sensor_unclassified">nezařazeno</string>
+    <string name="m3_work_motion_still">v klidu</string>
+    <string name="m3_work_motion_shaking">třese se</string>
+    <string name="m3_work_motion_non_gait">v pohybu bez kroků</string>
+    <string name="m3_work_posture_in_hand">v ruce</string>
+    <string name="m3_work_posture_pocket">v kapse</string>
+    <string name="m3_work_posture_flat">leží naplocho</string>
+    <string name="workout_rest_change">Změnit odpočinek</string>
+    <string name="workout_delete_round">Smazat kolo %1$d</string>
+    <string name="workout_complete_title">Trénink dokončen</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d ot./min</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d záb./min</string>
+</resources>

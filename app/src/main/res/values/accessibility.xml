@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Accessibility labels and state descriptions. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">Previous month</string>
+    <string name="m3_cal_next_month">Next month</string>
+    <string name="m3_cal_previous_year">Previous year</string>
+    <string name="m3_cal_next_year">Next year</string>
+    <string name="m3_cal_period_ended">Ended %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="one">%1$d week</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <string name="a11y_state_expanded">Expanded</string>
+    <string name="a11y_state_collapsed">Collapsed</string>
+    <string name="a11y_hours">Hours</string>
+    <string name="a11y_minutes">Minutes</string>
+    <string name="a11y_seconds">Seconds</string>
+    <string name="a11y_zoom_in">Zoom in</string>
+    <string name="a11y_zoom_out">Zoom out</string>
+    <string name="m3_editor_attachment_kind">Document type</string>
+    <string name="m3_editor_attachment_describe">Describe %1$s</string>
+    <string name="m3_editor_attachment_remove">Remove %1$s</string>
+    <string name="m3_editor_attachment_read_result">Add a result from %1$s</string>
+    <string name="m3_editor_energy_share">Share of today’s energy target</string>
+    <string name="bathroom_kind_previous">Previous type</string>
+    <string name="bathroom_kind_next">Next type</string>
+    <string name="smoking_bowl_smaller">Smaller bowl</string>
+    <string name="smoking_bowl_larger">Larger bowl</string>
+    <string name="smoking_less_nicotine">Less nicotine</string>
+    <string name="smoking_more_nicotine">More nicotine</string>
+    <string name="progress_photo_delete_dated">Delete photo from %1$s</string>
+    <string name="home_notice_dismiss">Dismiss “%1$s”</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">Card %1$d of %2$d</string>
+    <string name="home_chart_busiest">%1$s: busiest hour %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">Show recognised pages</string>
+    <string name="m3_labs_open_chart">Open the chart</string>
+    <string name="m3_labs_chart_sideways">Turn the chart sideways</string>
+    <string name="m3_labs_chart_earlier">Earlier readings</string>
+    <string name="m3_labs_chart_later">Later readings</string>
+    <string name="med_a11y_mark_dose">Mark %1$s, %2$s</string>
+    <string name="med_a11y_undo_dose">Undo %1$s, %2$s</string>
+    <string name="med_a11y_edit_course">Edit %1$s</string>
+    <string name="med_a11y_delete_course">Delete %1$s</string>
+    <string name="med_history_current">Current</string>
+    <string name="m3_pain_time_left">%1$s left</string>
+    <string name="m3_pain_remove_area">Remove</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">Step %1$d of %2$d</string>
+    <string name="m3_profile_advice_level_clinician">Worth raising with a clinician</string>
+    <string name="m3_profile_advice_level_attention">Worth keeping an eye on</string>
+    <string name="m3_profile_advice_level_habit">A habit to look at</string>
+    <string name="m3_profile_password_mismatch">The passwords do not match</string>
+    <string name="m3_profile_password_show">Show password</string>
+    <string name="m3_profile_password_hide">Hide password</string>
+    <string name="m3_sync_connected">Connected to %1$s.</string>
+    <string name="m3_sync_disconnected">Disconnected from %1$s.</string>
+    <string name="m3_sync_error_scan">The search could not start. Wait a moment, then search again.</string>
+    <string name="m3_sync_error_pairing">Pairing did not finish. Accept the pairing request, then connect again.</string>
+    <string name="m3_sync_error_stale_bond">This phone’s pairing with the device no longer works. Forget the device in Android’s Bluetooth settings, then connect again and accept the pairing request.</string>
+    <string name="m3_sync_error_no_answer">The device did not answer. Wake it, keep it close, then connect again.</string>
+    <string name="m3_sync_error_generic">Could not connect to the device. Try again.</string>
+    <string name="m3_sync_no_skin_contact">The strap reports no skin contact. Moisten the electrodes and fasten it snugly.</string>
+    <string name="m3_sync_reading_incomplete">The device did not send a complete reading, so it cannot be saved.</string>
+    <string name="m3_sync_connect_named">Connect %1$s</string>
+    <string name="m3_sync_firmware">Firmware %1$s</string>
+    <string name="m3_sync_scale_clock_unset">Dated on arrival: the scale’s clock was not set</string>
+    <string name="m3_sync_health_running">Exchanging with Health Connect on this phone…</string>
+    <string name="m3_sync_failed_permission">Health Connect refused access; check what is allowed.</string>
+    <string name="m3_sync_failed_unavailable">Health Connect on this phone did not respond.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect asked for a pause; the app will try again later.</string>
+    <string name="m3_sync_failed_other">Health Connect returned an error.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, usual day off</string>
+    <string name="m3_work_sensor_unclassified">not classified</string>
+    <string name="m3_work_motion_still">still</string>
+    <string name="m3_work_motion_shaking">shaking</string>
+    <string name="m3_work_motion_non_gait">moving without a stride</string>
+    <string name="m3_work_posture_in_hand">in the hand</string>
+    <string name="m3_work_posture_pocket">in a pocket</string>
+    <string name="m3_work_posture_flat">lying flat</string>
+    <string name="workout_rest_change">Change rest</string>
+    <string name="workout_delete_round">Delete round %1$d</string>
+    <string name="workout_complete_title">Workout complete</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d rpm</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d spm</string>
+</resources>

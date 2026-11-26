@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The places of care offered on an appointment's Place page (FacilityPicker.kt, Facilities.kt). -->
+<resources>
+    <!-- The “near me” request and how it went -->
+    <string name="facility_near_me">Места рядом со мной</string>
+    <string name="facility_locating">Определяем, где вы…</string>
+    <string name="facility_denied">Доступ к местоположению не разрешён, поэтому список нельзя упорядочить по расстоянию. Название по-прежнему можно ввести.</string>
+    <string name="facility_location_off">Определение местоположения на этом телефоне выключено.</string>
+    <string name="facility_location_settings">Настройки местоположения</string>
+    <string name="facility_no_fix">Телефону сейчас не удалось определить, где вы. Попробуйте ещё раз чуть позже.</string>
+    <!-- %1$s is a distance such as “50 km” -->
+    <string name="facility_nothing_near">В списке нет мест в пределах %1$s от вас.</string>
+    <!-- The lists: %1$s is the kind of doctor chosen for the visit, such as “Dentist” -->
+    <string name="facility_list_title">Клиники и больницы</string>
+    <string name="facility_near_title">Рядом с вами</string>
+    <string name="facility_near_kind">Рядом с вами: %1$s</string>
+    <!-- A screening's near list, named by the department it was narrowed to -->
+    <string name="facility_near_gynaecology">Рядом с вами: гинекология</string>
+    <string name="facility_near_imaging">Рядом с вами: лучевая диагностика</string>
+    <string name="facility_near_gastroenterology">Рядом с вами: гастроэнтерология</string>
+    <!-- %1$s is a number already formatted for the language, such as “1.4” or “12” -->
+    <string name="facility_distance">%1$s км</string>
+    <string name="facility_distance_miles">%1$s ми</string>
+    <!-- Behind the “?” -->
+    <string name="facility_help_title">Откуда эти места</string>
+    <string name="facility_help_what">Подсказки взяты из официальных реестров медицинских учреждений. Список хранится в приложении, и поиск по нему идёт на этом телефоне. Для приложения реестры отфильтрованы до мест, куда может прийти пациент, а виды помощи сведены к видам врачей, которые знает приложение. Кнопка геолокации в конце поля «Место» показывает только места, где оказывают помощь, выбранную для этого визита, или все места, если визит к другому врачу; поиск по названию идёт по всему списку.</string>
+    <string name="facility_help_screening">Для скрининга список показывает отделения, где его часто проводят: гинекологию для скрининга шейки матки, лучевую диагностику для маммографии, гастроэнтерологию для скрининга на рак кишечника. Реестр не сообщает, проводит ли отделение сам этот скрининг, поэтому уточните это при записи.</string>
+    <string name="facility_help_coverage">Список охватывает Чехию, Украину и Объединённые Арабские Эмираты. По Украине в нём только места, у которых есть договор с Национальной службой здоровья Украины. По Эмиратам в нём реестр Дубая в редакции декабря 2023 года, места с лицензией в Абу-Даби — там, где они отмечены на карте в 2022 году и отмечены до сих пор в 2026-м, — и государственные больницы и центры здоровья Emirates Health Services; частных клиник Шарджи, Аджмана, Умм-эль-Кайвайна, Рас-эль-Хаймы и Фуджейры в нём нет. Реестр может устареть: прежде чем идти, уточните всё у самого учреждения.</string>
+    <string name="facility_help_location">Кнопка геолокации один раз запрашивает у Android ваше приблизительное местоположение и округляет его примерно до километра. Оно используется на этом телефоне, чтобы упорядочить список, нигде не сохраняется, никуда не отправляется и забывается, когда вы уходите с этой страницы.</string>
+    <string name="facility_help_sources">Источники</string>
+</resources>

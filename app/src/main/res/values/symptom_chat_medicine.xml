@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat’s medicine threads: a dose taken and a course a doctor prescribed (ChatMedicine.kt, ChatDose.kt,
+     ChatCourse.kt, ChatMedicineUi.kt). The bot names a medicine as the person does, never its class or what it
+     holds, and never says a dose is safe. -->
+<resources>
+    <!-- Starting -->
+    <string name="med_chat_start_dose">Let us note it down.</string>
+    <string name="med_chat_start_course">Let us add it to your medicines.</string>
+    <string name="med_chat_now_the_medicine">Now the medicine.</string>
+    <!-- Chips for a medicine the person’s words named: “Took: Nurofen”, “Prescribed: sertraline” -->
+    <string name="med_chat_mention_dose">Took: %1$s</string>
+    <string name="med_chat_mention_missed">Missed: %1$s</string>
+    <string name="med_chat_mention_course">Prescribed: %1$s</string>
+    <string name="med_chat_course_today_only">A medicine a doctor prescribed is added in today’s chat, with the day it starts.</string>
+    <string name="med_chat_pharmacist">For questions about a medicine, a pharmacist can help, and the leaflet that came with it says what to avoid.</string>
+
+    <!-- Which medicine -->
+    <string name="med_chat_ask_which">Which medicine was it?</string>
+    <string name="med_chat_pick_other">Another medicine</string>
+    <string name="med_chat_pick_not_listed">%1$s · not in your medicines</string>
+    <string name="med_chat_pick_show_all">All my medicines</string>
+    <string name="med_chat_ask_name">What is it called? You can type the name as it is on the box.</string>
+    <string name="med_chat_name_hint">Name of the medicine</string>
+    <string name="med_chat_name_unknown">I do not know its name</string>
+    <!-- The title of a dose noted without a name -->
+    <string name="med_chat_unnamed">Medicine</string>
+    <string name="med_chat_ask_is_course">Is it %1$s from your medicines?</string>
+    <string name="med_chat_ask_is_course_several">Is it one of your medicines?</string>
+    <string name="med_chat_option_that_one">Yes, that one</string>
+    <string name="med_chat_option_different">No, a different one</string>
+    <!-- %1$s the medicine, %2$s the day its course starts -->
+    <string name="med_chat_future_course">%1$s starts on %2$s in your medicines, so this dose is recorded on its own.</string>
+    <string name="med_chat_course_gone">%1$s is no longer in your medicines, so it can be noted on its own instead.</string>
+
+    <!-- Which dose -->
+    <string name="med_chat_ask_slot">Which of today’s doses was it?</string>
+    <string name="med_chat_ask_slot_day">Which dose on %1$s was it?</string>
+    <string name="med_chat_slot_yesterday">%1$s yesterday</string>
+    <string name="med_chat_slot_extra">An extra one</string>
+    <string name="med_chat_slot_missed">I missed a dose</string>
+    <string name="med_chat_slot_nothing">Nothing to add</string>
+    <!-- %1$s the medicine, %2$s the times of its doses, joined -->
+    <string name="med_chat_all_marked">Today’s doses of %1$s are already marked: %2$s.</string>
+    <string name="med_chat_ask_same_again">%1$s was noted at %2$s. Is this another dose?</string>
+    <string name="med_chat_option_another_dose">Another dose</string>
+    <string name="med_chat_option_same_dose">The same one</string>
+
+    <!-- When -->
+    <string name="med_chat_ask_when">When did you take it?</string>
+    <string name="med_chat_ask_when_day">At what time that day?</string>
+    <string name="med_chat_when_now">Just now</string>
+    <string name="med_chat_when_earlier">Earlier today…</string>
+    <string name="med_chat_when_at">At %1$s</string>
+    <string name="med_chat_when_slot">At its time, %1$s</string>
+    <string name="med_chat_when_other">At another time…</string>
+    <string name="med_chat_when_choose">Choose the time…</string>
+    <string name="med_chat_when_unknown">I do not remember</string>
+    <string name="med_chat_when_future">That time has not come yet today. When did you take it?</string>
+
+    <!-- How much -->
+    <string name="med_chat_ask_amount">How much did you take?</string>
+    <!-- Both chips and the dose’s row: the row is written with the words of a string, never of a plural -->
+    <string name="med_chat_amount_one_tablet">1 tablet</string>
+    <string name="med_chat_amount_two_tablets">2 tablets</string>
+    <string name="med_chat_amount_dose_one">One dose (%1$s)</string>
+    <string name="med_chat_amount_dose_one_bare">One dose</string>
+    <string name="med_chat_amount_dose_two">Two doses</string>
+    <string name="med_chat_amount_two_of">2 × %1$s</string>
+    <string name="med_chat_amount_hint">For example, 10 ml or half a tablet</string>
+
+    <!-- What for -->
+    <string name="med_chat_ask_why">What did you take it for?</string>
+    <string name="med_chat_why_pain">Pain</string>
+    <string name="med_chat_why_temperature">A high temperature</string>
+    <string name="med_chat_why_mood">Mood or nerves</string>
+    <string name="med_chat_why_sleep">Sleep</string>
+    <string name="med_chat_ask_pain_link">The pain noted in this chat says no painkiller was taken today. Change that to yes?</string>
+    <string name="med_chat_option_change_it">Yes, change it</string>
+
+    <!-- More than it says -->
+    <string name="med_chat_ask_max">Is that more than the packet or leaflet says to take, at once or in 24 hours?</string>
+    <string name="med_chat_ask_max_course">Is that more than your prescription says?</string>
+    <string name="med_chat_ask_max_words">Before anything else: have you taken more of a medicine than the packet, leaflet or prescription says?</string>
+    <string name="med_chat_option_more">Yes, more than it says</string>
+    <string name="med_chat_earlier_title">Noted in the last 24 hours</string>
+    <!-- %1$s the time, %2$s how much -->
+    <string name="med_chat_earlier_row">%1$s · %2$s</string>
+    <string name="med_chat_alert_too_much">Please get medical advice now from an urgent medical helpline, even if you feel well. If you are told to go to an emergency department, do not drive: ask someone to take you, or call emergency services. Take the packet or leaflet with you, and any other medicines you take.</string>
+    <string name="med_chat_ask_signs_tca">Do you have any of these now: a fast or uneven heartbeat, a fit, feeling very drowsy or passing out, difficulty breathing, or sudden confusion?</string>
+    <string name="med_chat_ask_signs_opioid">Do you have any of these now: difficulty breathing or short, shallow breathing, a fit, or feeling so sleepy it is hard to stay awake?</string>
+    <string name="med_chat_ask_signs_any">Do you have any of these now: difficulty breathing or short, shallow breathing; a fit; feeling very drowsy or passing out; a fast or uneven heartbeat; sudden confusion?</string>
+    <string name="med_chat_ask_purpose">Did it happen by accident?</string>
+    <string name="med_chat_option_by_accident">Yes, by accident</string>
+    <string name="med_chat_option_on_purpose">No, it was on purpose</string>
+
+    <!-- How it is going, for a medicine in its first weeks -->
+    <string name="med_chat_ask_feel_label">Since starting it</string>
+    <string name="med_chat_ask_feel">How have you been feeling since you started %1$s?</string>
+    <string name="med_chat_feel_better">Better</string>
+    <string name="med_chat_feel_same">About the same</string>
+    <string name="med_chat_feel_worse">Worse</string>
+    <string name="med_chat_feel_side_effects">Side effects bother me</string>
+    <string name="med_chat_ask_crisis_start">It is not common, but some people starting %1$s have thoughts of harming themselves or of not wanting to live. Have you had thoughts like that since you started it?</string>
+    <string name="med_chat_ask_serious">Is any of these happening?</string>
+    <string name="med_chat_serious_harm">Thoughts of harming yourself or of not wanting to live</string>
+    <string name="med_chat_serious_high">Feeling unusually high, or full of energy</string>
+    <string name="med_chat_serious_heart">A fast heartbeat with sweating, shaking, twitching muscles, or feeling confused or agitated</string>
+    <string name="med_chat_serious_heart_tca">A fast or irregular heartbeat</string>
+    <string name="med_chat_serious_bleeding">Unexplained bruising or bleeding, or blood in your pee, poo or vomit</string>
+    <string name="med_chat_serious_throat">A swollen throat or tongue, or difficulty breathing</string>
+    <string name="med_chat_serious_collapse">Passing out, a fit, chest pain, or sudden weakness, numbness or trouble speaking</string>
+    <string name="med_chat_alert_serious">Please get medical advice now from an urgent medical helpline. Keep the medicine’s leaflet with you.</string>
+    <string name="med_chat_alert_side_effects">Side effects that bother you or do not go away are worth talking over with a pharmacist or your doctor. Keep taking it unless you are told to stop.</string>
+
+    <!-- A missed dose, nothing to add -->
+    <string name="med_chat_missed">Please do not take two doses to make up for a missed one. The leaflet says what to do about a missed dose, and a pharmacist can tell you if you are not sure.</string>
+    <string name="med_chat_missed_leaflet">The leaflet that came with it says what to do about a missed dose; if you are not sure, ask a pharmacist.</string>
+    <string name="med_chat_nothing_new">Nothing new is noted.</string>
+    <string name="med_chat_nothing_missed">Nothing is noted, so the %1$s dose stays unmarked.</string>
+    <string name="med_chat_nothing_missed_wake">Nothing is noted, so the dose on waking stays unmarked.</string>
+    <string name="med_chat_already_marked">That dose was already marked at %1$s, so nothing new is noted.</string>
+
+    <!-- Notes at the close: alcohol, and medicines that may not mix -->
+    <string name="med_chat_alcohol_avoid">It is best not to drink alcohol with %1$s. The leaflet says more.</string>
+    <string name="med_chat_alcohol_limit">With %1$s it is best to keep alcohol low. The leaflet says more.</string>
+    <string name="med_chat_alcohol_sleepy">The guidance for %1$s says that with alcohol it can make you more sleepy. It may be best to avoid alcohol until you know how the medicine affects you.</string>
+    <string name="med_chat_mix">The guidance for these medicines says %1$s and %2$s may not mix well. A pharmacist can check the medicines you take together.</string>
+    <string name="med_chat_mix_sjw">Guidance for %1$s says not to use St John’s wort while taking it. Please talk to a pharmacist or your doctor.</string>
+    <string name="med_chat_mix_nsaids">The guidance for %1$s and %2$s says which painkillers not to take at the same time. A pharmacist can check these two for you.</string>
+    <string name="med_chat_mix_paracetamol">Two medicines that both contain paracetamol should not be taken at the same time, as that can mean taking too much. Please check the packets of %1$s and %2$s, or ask a pharmacist.</string>
+    <string name="med_chat_mix_opioids">Two medicines that contain an opioid painkiller, such as codeine or tramadol, are not taken together. Please check the packets of %1$s and %2$s, or ask a pharmacist.</string>
+    <string name="med_chat_mix_tca_opioid">The guidance for %1$s says that, taken with opioid painkillers, it can make you very drowsy and affect your breathing. Please ask a pharmacist or your doctor whether to take it with %2$s.</string>
+    <string name="med_chat_mix_not_together">The guidance for these medicines says %1$s and %2$s are not taken together. Please talk to a pharmacist or your doctor.</string>
+    <string name="med_chat_mix_any_course">If you take other medicines regularly, a pharmacist can check that %1$s goes with them.</string>
+    <string name="med_chat_ask_add_course">Is it a medicine you take every day? It can be added to your medicines, with reminders.</string>
+    <string name="med_chat_offer_add_course">Add it to my medicines</string>
+    <string name="med_chat_offer_pain">Note the pain</string>
+    <string name="med_chat_offer_fever">Tell about the temperature</string>
+    <string name="med_chat_offer_sleep">Talk about sleep</string>
+    <string name="med_chat_offer_dose_now">Record a dose now</string>
+
+    <!-- The saved dose: “Sertraline · the 09:00 dose · marked at 09:00”, “Nurofen · 2 tablets · at 14:10 · not part of a schedule” -->
+    <string name="med_chat_saved_scheduled">%1$s · the %2$s dose · marked at %3$s</string>
+    <string name="med_chat_saved_scheduled_day">%1$s · the %2$s dose · on %3$s</string>
+    <string name="med_chat_saved_scheduled_wake">%1$s · the dose on waking · marked at %2$s</string>
+    <string name="med_chat_saved_scheduled_wake_day">%1$s · the dose on waking · on %2$s</string>
+    <string name="med_chat_saved_one_off">%1$s · %2$s · at %3$s · not part of a schedule</string>
+    <string name="med_chat_saved_one_off_day">%1$s · %2$s · on %3$s · not part of a schedule</string>
+
+    <!-- A course a doctor prescribed -->
+    <string name="med_chat_ask_course_name">What is the medicine called? You can type the name as it is on the box or the prescription.</string>
+    <string name="med_chat_course_name_hint">Name, as on the box</string>
+    <string name="med_chat_course_name_unknown">I do not know the name yet</string>
+    <string name="med_chat_course_needs_name">A medicine is added with its name. Once you know it, tell the chat, or add it on the Medicine tab.</string>
+    <string name="med_chat_course_same_label">Already in your medicines</string>
+    <!-- %1$s the medicine, %2$s its dose and times -->
+    <string name="med_chat_ask_course_same">%1$s is already in your medicines: %2$s. What has changed?</string>
+    <string name="med_chat_course_same_one">Nothing, it is the same one</string>
+    <string name="med_chat_course_changed">The dose or the times</string>
+    <string name="med_chat_course_stopped">It was stopped</string>
+    <string name="med_chat_course_another">It is a different one</string>
+    <string name="med_chat_course_nothing_changed">Nothing is changed.</string>
+    <string name="med_chat_change_on_page">The dose and the times are changed on its own page, so the doses already marked keep their record.</string>
+    <string name="med_chat_ask_stop_who">Did your doctor tell you to stop it?</string>
+    <string name="med_chat_stop_doctor">Yes, the doctor did</string>
+    <string name="med_chat_stop_own">No, it is my own decision</string>
+    <string name="med_chat_alert_stop">Please do not stop taking it suddenly, or without talking to your doctor first. A doctor can help plan how to stop.</string>
+    <string name="med_chat_withdrawal_net">Stopping can bring withdrawal symptoms, sometimes feeling very low or suicidal. If that happens, speak to your doctor; if you might not be safe, call emergency services.</string>
+    <string name="med_chat_end_on_page">The day it ends is set on its page.</string>
+    <!-- %1$s the medicine, %2$s the last day of its earlier course -->
+    <string name="med_chat_ended_before">%1$s was in your medicines until %2$s. This adds it again as a new course.</string>
+    <string name="med_chat_ask_for">What was it prescribed for?</string>
+    <string name="med_chat_ask_course_dose">What dose does the box or the prescription say? For example, 50 mg or 1 tablet.</string>
+    <string name="med_chat_course_dose_unknown">Not known yet</string>
+    <string name="med_chat_ask_often">How often is it taken?</string>
+    <string name="med_chat_often_once">Once a day</string>
+    <string name="med_chat_often_twice">Twice a day</string>
+    <string name="med_chat_often_three">Three times a day</string>
+    <string name="med_chat_often_needed">Only when needed</string>
+    <string name="med_chat_often_other">Another way</string>
+    <string name="med_chat_ask_often_other">How often, then?</string>
+    <string name="med_chat_often_more">More than three times a day</string>
+    <string name="med_chat_often_less">Less often than every day</string>
+    <!-- After “only when needed” or “less often than every day”: a daily course, or each dose noted -->
+    <string name="med_chat_ask_prn">How should it be noted, then?</string>
+    <string name="med_chat_offer_daily">Add it as a daily course</string>
+    <string name="med_chat_help_prn">The medicine list keeps medicines taken on a schedule, with reminders. A medicine taken only when needed can be added as a daily course, or each dose noted when it is taken.</string>
+    <string name="med_chat_help_less_daily">For now the medicine list keeps only daily times, so it would remind you every day. Each dose can also be noted here when it is taken.</string>
+    <string name="med_chat_ask_times">At what times? Tap the times that are right, or add your own.</string>
+    <string name="med_chat_ask_food">Does it say anything about food?</string>
+    <string name="med_chat_ask_start">When do you start it?</string>
+    <string name="med_chat_start_today">Today</string>
+    <string name="med_chat_start_tomorrow">Tomorrow</string>
+    <string name="med_chat_start_other">On another day…</string>
+    <!-- The answer for a day picked: “On 12 October” -->
+    <string name="med_chat_start_that_day">On %1$s</string>
+    <string name="med_chat_ask_length">For how long?</string>
+    <plurals name="med_chat_length_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="med_chat_length_months">
+        <item quantity="one">%1$d month</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <string name="med_chat_length_until">Until another date…</string>
+    <!-- “6 months, until 4 Apr 2027” -->
+    <string name="med_chat_length_answer">%1$s, until %2$s</string>
+    <string name="med_chat_today_label">Today’s dose</string>
+    <string name="med_chat_ask_today">Today’s %1$s dose has already gone by. Has it been taken?</string>
+    <string name="med_chat_ask_today_wake">Today’s dose on waking: has it been taken?</string>
+    <string name="med_chat_ask_today_slots">Today’s doses at %1$s have already gone by. Which have been taken?</string>
+    <string name="med_chat_today_taken">Yes, already taken</string>
+    <string name="med_chat_today_not_yet">Not yet</string>
+    <string name="med_chat_today_none">None yet</string>
+    <string name="med_chat_today_tomorrow">Start from tomorrow instead</string>
+    <string name="med_chat_reminder_soon">As its time has passed, its reminder will sound as soon as it is added.</string>
+    <string name="med_chat_missed_today">The %1$s dose will show as not taken today until it is marked.</string>
+    <string name="med_chat_missed_today_several">The doses at %1$s will show as not taken today until they are marked.</string>
+    <string name="med_chat_ask_who">Who prescribed it?</string>
+    <string name="med_chat_who_hint">Who prescribed it</string>
+    <string name="med_chat_help_who">The answer goes into the medicine’s note.</string>
+    <string name="med_chat_who_gp">A GP</string>
+    <string name="med_chat_who_psychiatrist">A psychiatrist</string>
+    <string name="med_chat_who_other">Another doctor</string>
+    <string name="med_chat_note_prescribed">Prescribed by: %1$s</string>
+
+    <!-- The saved course: “Sertraline · 50 mg · 09:00 · with food · 5 Oct – 4 Apr 2027” -->
+    <string name="med_chat_course_from">from %1$s</string>
+    <string name="med_chat_course_range">%1$s – %2$s</string>
+    <string name="med_chat_course_today_marked">Today’s %1$s dose is marked as taken.</string>
+    <string name="med_chat_course_today_marked_several">Today’s doses at %1$s are marked as taken.</string>
+    <string name="med_chat_course_reminds">It will remind you at %1$s.</string>
+    <string name="med_chat_course_reminds_wake">It will remind you after you wake.</string>
+
+    <!-- What a course’s reminders need -->
+    <string name="med_chat_remind_label">Reminders</string>
+    <string name="med_chat_ask_remind_switch">Reminders are switched off in the app, so nothing will remind you about it. Turn them on? That also turns on the reminders for food, water, steps and the journal.</string>
+    <string name="med_chat_remind_on">Turn reminders on</string>
+    <string name="med_chat_remind_leave">Leave them off</string>
+    <string name="med_chat_remind_left_off">Reminders stay off. The medicine is in your list, and its doses can be marked there or here.</string>
+    <string name="med_chat_ask_remind_notify">Notifications from the app are off on this phone, so a reminder cannot show.</string>
+    <string name="med_chat_notify_allow">Allow notifications</string>
+    <string name="med_chat_not_now">Not now</string>
+    <string name="med_chat_notify_still_off">Notifications are still off, so no reminder can show.</string>
+    <string name="med_chat_ask_remind_alarm">For the reminder to ring on the minute, and over the lock screen, the phone needs these permissions:</string>
+    <string name="med_chat_alarm_done">Done</string>
+    <string name="med_chat_exact_still_off">Exact alarms are still off, so a reminder may come a few minutes late.</string>
+
+    <!-- The first weeks of a course -->
+    <string name="med_chat_start_safety">It is not common, but some people have suicidal thoughts or an urge to harm themselves when they start %1$s. If that happens, speak to a doctor straight away. If you might not be safe, call emergency services.</string>
+    <string name="med_chat_start_safety_tca">It is not common, but some people taking %1$s have thoughts of harming themselves or of ending their life. If that happens, call emergency services or go to an emergency department.</string>
+
+    <!-- Words put together: a bubble of the person’s own, and the four food answers with what each means -->
+    <string name="med_chat_plain" translatable="false">%1$s</string>
+    <string name="med_chat_food_help" translatable="false">%1$s: %2$s\n%3$s: %4$s\n%5$s: %6$s\n%7$s: %8$s</string>
+
+    <!-- Where each line comes from, behind its “?” -->
+    <string name="med_chat_source_too_much" translatable="false">NHS, “Paracetamol for adults”, “Ibuprofen for adults”, “Codeine”, “Naproxen”, “Aspirin”, “Tramadol”, “Co-codamol for adults”, “Sertraline” and “Citalopram”: if you take too much.</string>
+    <string name="med_chat_source_on_purpose" translatable="false">NHS, “Help for suicidal thoughts” and “Naproxen”.</string>
+    <string name="med_chat_source_tca_overdose" translatable="false">NHS, “How and when to take amitriptyline for depression” and “How and when to take nortriptyline”.</string>
+    <string name="med_chat_source_opioid_overdose" translatable="false">NHS, “Side effects of co-codamol for adults” and “Side effects of tramadol”.</string>
+    <string name="med_chat_source_overdose_signs" translatable="false">NHS, “How and when to take amitriptyline for depression”, “How and when to take nortriptyline”, “Side effects of co-codamol for adults” and “Side effects of tramadol”.</string>
+    <string name="med_chat_source_antidepressants" translatable="false">NHS, “Antidepressants”.</string>
+    <string name="med_chat_source_tca_harm" translatable="false">NHS, “Side effects of amitriptyline for depression”, “Side effects of amitriptyline for pain and migraine” and “Side effects of nortriptyline”.</string>
+    <string name="med_chat_source_serious" translatable="false">NHS, “Sertraline”, “Citalopram”, “Escitalopram”, “Fluoxetine”, “Paroxetine”, “Venlafaxine”, “Duloxetine”, “Mirtazapine”, “Trazodone”, “Side effects of amitriptyline for depression” and “Side effects of nortriptyline”: serious side effects.</string>
+    <string name="med_chat_source_side_effects" translatable="false">NHS, “Antidepressants” and “Sertraline”.</string>
+    <string name="med_chat_source_missed" translatable="false">NHS, the pages on sertraline, citalopram, escitalopram, fluoxetine, paroxetine, venlafaxine, duloxetine, mirtazapine, trazodone, amitriptyline, codeine, naproxen, aspirin and tramadol; “What to do if you miss a combined pill or take an extra one”.</string>
+    <string name="med_chat_source_stop" translatable="false">NHS, “Antidepressants”, “Codeine” and “Tramadol”.</string>
+    <string name="med_chat_source_alcohol" translatable="false">NHS, the page of each medicine named.</string>
+    <string name="med_chat_source_mix" translatable="false">NHS, “Antidepressants”, the page of each antidepressant, “Ibuprofen for adults”, “Naproxen”, “Codeine” and “Tramadol”: taking it with other medicines.</string>
+    <string name="med_chat_source_painkiller_mix" translatable="false">NHS, “Paracetamol for adults”, “Ibuprofen for adults”, “Naproxen”, “Codeine” and “Taking tramadol with other medicines and herbal supplements”.</string>
+    <string name="med_chat_source_tca_opioid" translatable="false">NHS, “Taking amitriptyline for depression with other medicines and herbal supplements”.</string>
+    <string name="med_chat_source_tramadol_maoi" translatable="false">NHS, “Taking tramadol with other medicines and herbal supplements”.</string>
+    <string name="med_chat_ask_when_am_pm">Was that AM or PM? Choose the time.</string>
+    <string name="med_chat_when_day_at">%1$s · %2$s</string>
+    <string name="med_chat_when_day_unknown">%1$s · I don’t remember the time</string>
+    <string name="med_chat_when_day_choose">%1$s · Choose a time</string>
+</resources>

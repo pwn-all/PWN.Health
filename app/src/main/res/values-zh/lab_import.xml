@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">读取照片或 PDF</string>
+    <string name="lab_import_review">请对照原件核对日期、数值和单位。仅填写空白字段，保存表单后才会保存结果。</string>
+    <string name="lab_import_empty">未识别到支持的结果。请使用更清晰的图片或手动输入。</string>
+    <string name="lab_import_veterinary">这似乎是兽医报告，不能填入人体化验结果。</string>
+    <string name="lab_import_error">无法读取文件。请选择图片或无密码的 PDF（最多 20 页、32 MB）。</string>
+    <string name="lab_import_password">此 PDF 受密码保护。请输入密码以读取。</string>
+    <string name="lab_import_date_unknown">未识别采样日期，请检查表单中的日期。</string>
+    <string name="lab_import_date_conflict">此页日期不同，请先保存或清空当前结果。</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">未解析的指标：%1$d</string>
+</resources>

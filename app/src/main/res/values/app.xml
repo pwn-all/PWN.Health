@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings, style and colour in one file. -->
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">%1$d step today</item>
+        <item quantity="other">%1$d steps today</item>
+    </plurals>
+    <string name="channel_name">Step counting</string>
+
+    <!-- Sensor / motion gate screen -->
+    <string name="sensors_title">Sensors</string>
+    <string name="wave_title">Acceleration magnitude, last 6 s</string>
+    <string name="gate_open">Gate open — steps are being counted</string>
+    <string name="gate_blocked">Gate blocked — steps are being discarded</string>
+    <string name="field_motion">Motion</string>
+    <string name="field_posture">Posture</string>
+    <string name="field_energy">Energy (std)</string>
+    <string name="field_cadence">Cadence</string>
+    <string name="field_periodicity">Gait periodicity</string>
+    <string name="field_tilt">Tilt from flat</string>
+    <string name="field_screen">Screen</string>
+    <string name="field_axes">Accel x / y / z</string>
+    <string name="field_raw_counter">Raw sensor counter</string>
+    <string name="field_credited">Credited this session</string>
+    <string name="field_rejected">Rejected this session</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+
+    <!-- Sensor trace recording -->
+    <string name="trace_title">Record a sensor trace</string>
+    <string name="trace_body">Start recording, walk, stop, then save. Every accelerometer sample, gate verdict and step decision goes into a CSV file, in order. Nothing leaves the device until you choose where to save it.</string>
+    <string name="trace_rows">Recorded rows</string>
+    <string name="trace_dropped">Dropped (oldest)</string>
+    <string name="trace_recording">Recording…</string>
+    <string name="trace_start">Start recording</string>
+    <string name="trace_stop">Stop</string>
+    <string name="trace_save">Save CSV</string>
+    <string name="trace_saved">Trace saved.</string>
+    <string name="trace_error">Save error: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d row</item>
+        <item quantity="other">%1$d rows</item>
+    </plurals>
+
+    <!-- Track recording -->
+    <string name="track_title">Track</string>
+    <string name="track_start">Start recording</string>
+    <string name="track_stop">Stop recording</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mi</string>
+    <string name="recording_distance">Recording — %1$s</string>
+    <string name="waiting_for_fix">Waiting for a location fix…</string>
+    <string name="track_total_route">Entire route</string>
+    <string name="track_walking_counted">Walking</string>
+    <string name="track_running">Running</string>
+    <string name="track_vehicle">Vehicle</string>
+    <string name="track_speed_now">Current speed</string>
+    <string name="track_speed_max">Maximum speed</string>
+    <string name="track_speed_value">%1$.1f km/h</string>
+    <string name="track_speed_value_mph">%1$.1f mph</string>
+    <string name="track_stops">Stops</string>
+    <string name="track_stops_value">%1$d · %2$d min</string>
+    <string name="track_elevation_gain">Elevation ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f ft</string>
+    <string name="track_telemetry">Route telemetry</string>
+    <string name="track_gps_points">GPS points</string>
+    <string name="track_raw_gps_points">All saved GPS points</string>
+    <string name="track_rejected_points">Corrected/rejected points</string>
+    <string name="track_last_filter_reason">Latest GPS correction</string>
+    <string name="track_filter_none">None</string>
+    <string name="track_filter_low_accuracy">Low accuracy</string>
+    <string name="track_filter_stale_fix">Position too old</string>
+    <string name="track_filter_jump">Jump not confirmed</string>
+    <string name="track_filter_speed">Impossible speed</string>
+    <string name="track_filter_time_order">Time out of order</string>
+    <string name="track_gps_accuracy">GPS accuracy</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f ft</string>
+    <string name="track_movement">Movement</string>
+    <string name="track_movement_walking">walking</string>
+    <string name="track_movement_running">running</string>
+    <string name="track_movement_vehicle">vehicle</string>
+    <string name="track_movement_stopped">stopped</string>
+    <string name="track_movement_unknown">determining…</string>
+    <string name="track_altitude">Altitude</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f ft · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Pressure</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">Ambient temperature</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Environment jumps</string>
+    <string name="track_sensor_unavailable">sensor unavailable</string>
+    <string name="track_environment_note">Pressure altitude is calibrated against the first GPS altitude. A phone temperature sensor is rare and can be affected by device heat.</string>
+    <string name="track_showing_last">The last completed route is shown. Start recording to create a new one.</string>
+    <string name="track_history">Saved routes</string>
+    <string name="track_history_note">Routes and complete sensor telemetry are saved locally and included in data export.</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d accepted point</item>
+        <item quantity="other">%1$d accepted points</item>
+    </plurals>
+
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <!--
+      Platform theme, no AppCompat/Material dependency: Compose draws everything.
+
+      The system bars are set here as well as by enableEdgeToEdge(), because not every window makes
+      that call: the medicine alarm and the quick entry widget's setup screen draw straight from this
+      theme. DeviceDefault leaves windowLightStatusBar false, which by day would give those two
+      windows white bar icons over a light bar or a light page. light_system_bars turns over with
+      the night qualifier, which is the same signal isSystemInDarkTheme() reads for every
+      PwnFitTheme in the app; a window that does call enableEdgeToEdge() replaces all four items at
+      runtime.
+    -->
+    <style name="Theme.Steps" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/light_system_bars</item>
+    </style>
+    <bool name="light_system_bars">true</bool>
+</resources>

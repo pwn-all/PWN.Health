@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">Hacer una foto del medicamento</string>
+    <string name="med_photo_of">Foto de %1$s</string>
+    <string name="med_photo_unnamed">Foto del medicamento</string>
+    <string name="med_photo_retake">Repetir la foto</string>
+    <string name="med_photo_remove">Quitar la foto</string>
+    <string name="med_photo_open">Abrir a tamaño completo</string>
+    <string name="med_delete_body_photo">Se borran la pauta y su foto; las tomas ya marcadas se quedan en el diario.</string>
+</resources>

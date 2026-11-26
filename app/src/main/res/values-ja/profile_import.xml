@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_apps_title">他のアプリからインポート</string>
+    <string name="import_apps_menu_body">Health Connect と、Apple Health・Fitbit・Garmin・Strong などが書き出したファイル</string>
+</resources>

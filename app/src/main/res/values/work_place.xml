@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Start by location</string>
+    <string name="work_place_help_what">Save the place where you work, and the work timer starts when your phone is there. Each check takes one position from Android’s own location service, compares it with the saved point and forgets it. A point is saved only from a position accurate to within 100 m. Only the saved point, its radius and your sessions are kept, on this phone. Nothing is sent anywhere.</string>
+    <string name="work_place_help_when">Checks run every 10 minutes, and only in a window each working day. It opens when you wake: the end of your sleep record or your first use of the phone after the night, if the app can see either. A first use of the phone before %4$s counts from %4$s, unless your sleep record shows an earlier wake or your usual hours start earlier. If the app can see neither, the morning starts at %1$s. If it can but has not seen you wake yet, it waits until %2$s at the latest. Once the last 4 weeks hold at least 3 sessions that began on working days, not counting ones the timer stopped by itself, the window opens an hour before your usual start, never before you wake, and closes an hour after your usual end. Until then it closes at %3$s. There are no checks on your days off. Before the window opens, the app only looks at whether you are up, which takes no position.</string>
+    <string name="work_place_help_leave">If you are away on two checks in a row, a session the app started stops, and ends at the last check that found you there. A session you started yourself is never stopped this way. While a session the app started is running, the checks go on after the window closes, until midnight at the latest.</string>
+    <string name="work_place_help_yours">Each automatic start and stop comes with a notification you can undo it from: a start until the end of the day, as long as you have not changed the session yourself, and a stop for an hour, as long as the timer has not been started since. Once you press Start, Pause, Resume or Stop yourself, or undo, the app starts nothing more that day.</string>
+    <string name="work_place_help_access">For this, Android has to allow precise location all the time and exact alarms. While the switch is off, no position is taken for it.</string>
+    <string name="work_place_save">Save where I am now</string>
+    <string name="work_place_locating">Finding where you are…</string>
+    <string name="work_place_no_fix">Position not found</string>
+    <string name="work_place_rough_fix">Position too rough. Try by a window</string>
+    <string name="work_place_point">Your workplace</string>
+    <string name="work_place_saved">Saved %1$s</string>
+    <string name="work_place_saved_within">Saved %1$s · to within %2$d m</string>
+    <string name="work_place_move">Move it to where I am now</string>
+    <string name="work_place_remove">Remove the workplace</string>
+    <string name="work_place_radius">Counts as there within</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Start the timer when I get there</string>
+    <string name="work_place_access_precise_title">Precise location</string>
+    <string name="work_place_access_precise_body">Approximate location is only accurate to about 1.6 km, wider than any workplace. The point and the checks need the precise one.</string>
+    <string name="work_place_access_background_title">Location all the time</string>
+    <string name="work_place_access_background_body">PWN.Health uses your location in the background to start and stop the work timer when you arrive at or leave your workplace, even when the app is closed. It checks every 10 minutes, only between your morning and evening on working days, and the positions stay on this phone. On the next screen, choose Allow all the time.</string>
+    <string name="work_place_access_exact_title">Alarms and reminders</string>
+    <string name="work_place_access_exact_body">Only an exact alarm can wake the app for a check while it is closed. Android keeps this on its Alarms and reminders screen.</string>
+    <string name="work_place_access_notifications_title">Notifications</string>
+    <string name="work_place_access_notifications_body">Each automatic start and stop is reported in a notification with Undo, on the %1$s channel. Without it the timer still starts and stops, but there is nothing to undo it from.</string>
+    <string name="work_place_next_today">Next check today at %1$s</string>
+    <string name="work_place_next_tomorrow">Next check tomorrow at %1$s</string>
+    <string name="work_place_next_day">Next check on %1$s at %2$s</string>
+    <string name="work_place_next_none">No check is planned for the coming week.</string>
+    <string name="work_place_started_title">Work timer started</string>
+    <string name="work_place_started_body">Your phone is at your workplace. Started at %1$s.</string>
+    <string name="work_place_stopped_title">Work timer stopped</string>
+    <string name="work_place_stopped_body">You were away from your workplace on two checks in a row. The session ends at %1$s, the last check that found you there.</string>
+    <string name="work_place_stopped_short">You were away from your workplace on two checks in a row after a single check there, so nothing was kept.</string>
+    <string name="work_place_undo">Undo</string>
+    <string name="work_place_channel">Workplace checks</string>
+    <string name="work_place_notice_channel">Automatic work timer</string>
+    <string name="work_place_checking">Checking whether you are at work</string>
+</resources>

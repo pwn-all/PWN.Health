@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">性行为</string>
+    <string name="intimate_anything_to_add">还有要补充的吗？</string>
+    <string name="intimate_history_title">历史</string>
+    <string name="intimate_history_empty">还没有任何记录。</string>
+    <string name="intimate_act_title">编辑记录</string>
+    <string name="intimate_act_kind">类型</string>
+    <string name="intimate_act_day">日期</string>
+    <string name="intimate_act_time">时间</string>
+    <string name="intimate_act_time_unrecorded">这条记录没有时间。</string>
+    <string name="intimate_flash_changed">已更改</string>
+    <string name="intimate_flash_deleted">已删除</string>
+    <string name="intimate_charts_title">图表</string>
+    <string name="intimate_woke_at">醒来时间</string>
+    <string name="intimate_woke_by_unset">未填写</string>
+    <string name="intimate_woke_phone">%1$s 醒来 · 取自首次使用手机的时间</string>
+</resources>

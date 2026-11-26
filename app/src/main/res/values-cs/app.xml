@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">%1$d krok dnes</item>
+        <item quantity="few">%1$d kroky dnes</item>
+        <item quantity="many">%1$d kroku dnes</item>
+        <item quantity="other">%1$d kroků dnes</item>
+    </plurals>
+    <string name="channel_name">Počítání kroků</string>
+
+    <!-- Sensor / motion gate screen -->
+    <string name="sensors_title">Senzory</string>
+    <string name="wave_title">Velikost zrychlení, posledních 6 s</string>
+    <string name="gate_open">Brána otevřena – kroky se počítají</string>
+    <string name="gate_blocked">Brána zavřena – kroky se zahazují</string>
+    <string name="field_motion">Pohyb</string>
+    <string name="field_posture">Poloha</string>
+    <string name="field_energy">Energie (směr. odch.)</string>
+    <string name="field_cadence">Kadence</string>
+    <string name="field_periodicity">Periodicita chůze</string>
+    <string name="field_tilt">Náklon od vodorovné roviny</string>
+    <string name="field_screen">Obrazovka</string>
+    <string name="field_axes">Akcelerometr x / y / z</string>
+    <string name="field_raw_counter">Surové počítadlo senzoru</string>
+    <string name="field_credited">Započteno v této relaci</string>
+    <string name="field_rejected">Zamítnuto v této relaci</string>
+    <string name="on">zap.</string>
+    <string name="off">vyp.</string>
+
+    <!-- Sensor trace recording -->
+    <string name="trace_title">Zaznamenat stopu senzorů</string>
+    <string name="trace_body">Spusťte záznam, jděte se projít, zastavte a uložte. Každý vzorek akcelerometru, verdikt brány i rozhodnutí o kroku jde v pořadí do souboru CSV. Ze zařízení neodejde nic, dokud sami nezvolíte, kam se má uložit.</string>
+    <string name="trace_rows">Zaznamenané řádky</string>
+    <string name="trace_dropped">Zahozeno (nejstarší)</string>
+    <string name="trace_recording">Záznam probíhá…</string>
+    <string name="trace_start">Spustit záznam</string>
+    <string name="trace_stop">Zastavit</string>
+    <string name="trace_save">Uložit CSV</string>
+    <string name="trace_saved">Stopa uložena.</string>
+    <string name="trace_error">Chyba při ukládání: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d řádek</item>
+        <item quantity="few">%1$d řádky</item>
+        <item quantity="many">%1$d řádku</item>
+        <item quantity="other">%1$d řádků</item>
+    </plurals>
+
+    <!-- Track recording -->
+    <string name="track_title">Trasa</string>
+    <string name="track_start">Spustit záznam</string>
+    <string name="track_stop">Zastavit záznam</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mi</string>
+    <string name="recording_distance">Záznam – %1$s</string>
+    <string name="waiting_for_fix">Čekání na určení polohy…</string>
+    <string name="track_total_route">Celá trasa</string>
+    <string name="track_walking_counted">Chůze</string>
+    <string name="track_running">Běh</string>
+    <string name="track_vehicle">Vozidlo</string>
+    <string name="track_speed_now">Aktuální rychlost</string>
+    <string name="track_speed_max">Nejvyšší rychlost</string>
+    <string name="track_speed_value">%1$.1f km/h</string>
+    <string name="track_speed_value_mph">%1$.1f mph</string>
+    <string name="track_stops">Zastávky</string>
+    <string name="track_stops_value">%1$d · %2$d min</string>
+    <string name="track_elevation_gain">Převýšení ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f ft</string>
+    <string name="track_telemetry">Telemetrie trasy</string>
+    <string name="track_gps_points">Body GPS</string>
+    <string name="track_raw_gps_points">Všechny uložené body GPS</string>
+    <string name="track_rejected_points">Opravené/zamítnuté body</string>
+    <string name="track_last_filter_reason">Poslední oprava GPS</string>
+    <string name="track_filter_none">Žádná</string>
+    <string name="track_filter_low_accuracy">Nízká přesnost</string>
+    <string name="track_filter_stale_fix">Zastaralá poloha</string>
+    <string name="track_filter_jump">Nepotvrzený skok</string>
+    <string name="track_filter_speed">Nemožná rychlost</string>
+    <string name="track_filter_time_order">Čas mimo pořadí</string>
+    <string name="track_gps_accuracy">Přesnost GPS</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f ft</string>
+    <string name="track_movement">Pohyb</string>
+    <string name="track_movement_walking">chůze</string>
+    <string name="track_movement_running">běh</string>
+    <string name="track_movement_vehicle">vozidlo</string>
+    <string name="track_movement_stopped">stojí</string>
+    <string name="track_movement_unknown">určuje se…</string>
+    <string name="track_altitude">Nadmořská výška</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f ft · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Tlak</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">Teplota okolí</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Skoky prostředí</string>
+    <string name="track_sensor_unavailable">senzor není dostupný</string>
+    <string name="track_environment_note">Barometrická výška se kalibruje podle první výšky z GPS. Teplotní senzor je v telefonu vzácný a může ho ovlivnit zahřívání zařízení.</string>
+    <string name="track_showing_last">Zobrazena je poslední dokončená trasa. Novou vytvoříte spuštěním záznamu.</string>
+    <string name="track_history">Uložené trasy</string>
+    <string name="track_history_note">Trasy a kompletní telemetrie senzorů se ukládají lokálně a jsou součástí exportu dat.</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d přijatý bod</item>
+        <item quantity="few">%1$d přijaté body</item>
+        <item quantity="many">%1$d přijatého bodu</item>
+        <item quantity="other">%1$d přijatých bodů</item>
+    </plurals>
+</resources>

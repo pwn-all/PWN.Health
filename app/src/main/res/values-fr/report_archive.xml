@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Avec fichiers</string>
+    <string name="report_archive_hint">Le ZIP contient le rapport PDF et les fichiers joints d’origine des rendez-vous honorés, des analyses et des traitements, pour les sections et la période choisies : échographies, radiographies, scanners, IRM, écho-Doppler et autres documents. La liste des fichiers associe chaque pièce jointe à son enregistrement et à sa date.</string>
+    <string name="report_archive_preview">Fichiers joints d’origine : %1$d. Le ZIP contient le PDF et ces fichiers en intégralité.</string>
+    <string name="report_archive_index_header">Fichier\tDate de l’enregistrement\tSection\tEnregistrement\tType\tDate de l’examen\tDescription</string>
+    <string name="report_archive_unavailable">Impossible de lire la pièce jointe %1$s. Rétablissez l’accès au fichier d’origine et relancez l’export.</string>
+    <string name="report_visits_patient_notes">Rendez-vous honorés et notes de consultation, tels que déclarés par le patient.</string>
+</resources>

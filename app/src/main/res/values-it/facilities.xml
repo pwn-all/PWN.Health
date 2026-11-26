@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Luoghi vicino a me</string>
+    <string name="facility_locating">Cerchiamo dove ti trovi…</string>
+    <string name="facility_denied">L’accesso alla posizione non è stato consentito, quindi l’elenco non può essere ordinato per distanza. Puoi comunque scrivere un nome.</string>
+    <string name="facility_location_off">La posizione è disattivata su questo telefono.</string>
+    <string name="facility_location_settings">Impostazioni della posizione</string>
+    <string name="facility_no_fix">Il telefono non è riuscito a capire dove ti trovi in questo momento. Riprova tra poco.</string>
+    <string name="facility_nothing_near">Nell’elenco non c’è nulla entro %1$s da te.</string>
+    <string name="facility_list_title">Cliniche e ospedali</string>
+    <string name="facility_near_title">Vicino a te</string>
+    <string name="facility_near_kind">Vicino a te: %1$s</string>
+    <string name="facility_near_gynaecology">Vicino a te: ginecologia</string>
+    <string name="facility_near_imaging">Vicino a te: diagnostica per immagini</string>
+    <string name="facility_near_gastroenterology">Vicino a te: gastroenterologia</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">Da dove vengono questi luoghi</string>
+    <string name="facility_help_what">I suggerimenti provengono dai registri ufficiali delle strutture sanitarie. L’elenco è conservato nell’app e la ricerca avviene su questo telefono. Per l’app, i registri sono stati filtrati ai luoghi in cui un paziente può recarsi, e i loro tipi di assistenza sono stati raggruppati nei tipi di medico che l’app conosce. Il pulsante della posizione alla fine del campo «Luogo» elenca solo i luoghi che offrono l’assistenza scelta per questa visita, oppure tutti i luoghi se la visita è da un altro medico; scrivendo un nome si cerca in tutto l’elenco.</string>
+    <string name="facility_help_screening">Per uno screening, l’elenco mostra i reparti in cui viene eseguito spesso: ginecologia per lo screening cervicale, diagnostica per immagini per la mammografia, gastroenterologia per lo screening colorettale. Un registro non dice se un reparto esegue direttamente quello screening, quindi chiedilo quando prenoti.</string>
+    <string name="facility_help_coverage">L’elenco copre la Repubblica Ceca, l’Ucraina e gli Emirati Arabi Uniti. Per l’Ucraina contiene solo le strutture convenzionate con il Servizio sanitario nazionale dell’Ucraina. Per gli Emirati contiene il registro di Dubai nell’edizione di dicembre 2023, le strutture autorizzate di Abu Dhabi, là dove erano segnate sulla mappa nel 2022 e lo sono ancora nel 2026, e gli ospedali e i centri sanitari pubblici di Emirates Health Services; le cliniche private di Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah e Fujairah non sono incluse. Un registro può non essere aggiornato: verifica con la struttura prima di andarci.</string>
+    <string name="facility_help_location">Il pulsante della posizione chiede ad Android una sola volta la tua posizione approssimativa e la arrotonda a circa un chilometro. Viene usata su questo telefono per ordinare l’elenco, non viene mai salvata né inviata da nessuna parte e viene dimenticata quando lasci questa pagina.</string>
+    <string name="facility_help_sources">Fonti</string>
+</resources>

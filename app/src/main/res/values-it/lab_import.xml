@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Leggi foto o PDF</string>
+    <string name="lab_import_review">Confronta data, valori e unità con l’originale. Si compilano solo i campi vuoti. Salva il modulo per conservare i risultati.</string>
+    <string name="lab_import_empty">Nessun risultato supportato riconosciuto. Prova un’immagine più nitida o inserisci i valori manualmente.</string>
+    <string name="lab_import_veterinary">Sembra un referto veterinario. Non può compilare analisi umane.</string>
+    <string name="lab_import_error">File illeggibile. Scegli un’immagine o PDF senza password (massimo 20 pagine, 32 MB).</string>
+    <string name="lab_import_password">Questo PDF è protetto. Inserisci la password per leggerlo.</string>
+    <string name="lab_import_date_unknown">Data del prelievo non riconosciuta. Controlla la data nel modulo.</string>
+    <string name="lab_import_date_conflict">Questa pagina ha una data diversa. Prima salva o cancella i risultati attuali.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Marcatori non risolti: %1$d</string>
+</resources>

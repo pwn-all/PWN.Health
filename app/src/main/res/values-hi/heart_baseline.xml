@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">आराम की हृदय गति</string>
+    <string name="health_rationale_purpose_recovery">केवल पढ़ने के लिए। जीवन-संकेत स्क्रीन पर अलग कार्डों में दिखाए जाते हैं, हर एक के पास पिछले चार हफ़्तों का आपका सामान्य मान। इन्हें घड़ी या अँगूठी मापती है, अक्सर रात में; ऐप इन्हें ख़ुद नहीं गिनता और वापस कुछ नहीं लिखता।</string>
+    <string name="vitals_note_resting_measured">आराम के दौरान, अक्सर रात में, घड़ी या अँगूठी से मापा गया और Health Connect या निर्यात की गई फ़ाइल से पढ़ा गया। स्वाभाविक है कि यह दिन में मापी गई नब्ज़ से कम हो।</string>
+    <string name="vitals_note_baseline">आपका सामान्य मान आख़िरी पाठ से पहले के 28 दिनों में आपके अपने पाठों की माध्यिका है, और इसके लिए कम से कम पाँच पाठ चाहिए। यह आपकी तुलना आपसे करता है; यह कोई निर्णय नहीं है।</string>
+    <string name="vitals_baseline_above">आख़िरी पाठ आपके सामान्य से %1$d %2$s ऊपर है</string>
+    <string name="vitals_baseline_below">आख़िरी पाठ आपके सामान्य से %1$d %2$s नीचे है</string>
+    <string name="vitals_baseline_same">आख़िरी पाठ आपके सामान्य पर है</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">आपका सामान्य: %1$s %2$s, पिछले 4 हफ़्तों के %3$d पाठ की माध्यिका</item>
+        <item quantity="other">आपका सामान्य: %1$s %2$s, पिछले 4 हफ़्तों के %3$d पाठों की माध्यिका</item>
+    </plurals>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">疼痛历史</string>
+    <string name="pain_history_empty">还没有疼痛记录。</string>
+    <string name="pain_history_onset_just_now">记录时刚开始</string>
+    <string name="pain_history_onset_earlier_today">当天开始</string>
+    <string name="pain_history_onset_yesterday">前一天开始</string>
+    <string name="pain_history_onset_days_2_3">记录前 2–3 天开始</string>
+    <string name="pain_history_onset_about_week">记录前约一周开始</string>
+    <string name="pain_history_onset_about_month">记录前约一个月开始</string>
+    <string name="pain_history_onset_more_than_month">记录前一个多月开始</string>
+    <string name="pain_history_onset_week">记录前 4 天至 3 个月开始</string>
+    <string name="pain_history_onset_months_3">记录前超过 3 个月开始</string>
+    <string name="pain_history_same">与 %1$s 的疼痛相同</string>
+    <string name="pain_history_still_hurts">记录时仍在疼</string>
+    <string name="pain_history_lasted">持续了 %1$s</string>
+</resources>

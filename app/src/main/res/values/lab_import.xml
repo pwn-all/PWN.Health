@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Read photo or PDF</string>
+    <string name="lab_import_review">Check the date, values and units against the original. Only empty fields are filled. Nothing is saved until you save the form.</string>
+    <string name="lab_import_empty">No supported results could be read. Try a clearer image or enter them manually.</string>
+    <string name="lab_import_veterinary">This appears to be a veterinary report. It cannot fill human lab results.</string>
+    <string name="lab_import_error">Cannot read this file. Choose an image or an unprotected PDF (up to 20 pages, 32 MB).</string>
+    <string name="lab_import_password">This PDF is protected. Enter its password to read it.</string>
+    <string name="lab_import_date_unknown">Collection date not recognised. Check the date in the form.</string>
+    <string name="lab_import_date_conflict">This page has a different date. Save or clear the current results first.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Unresolved markers: %1$d</string>
+</resources>

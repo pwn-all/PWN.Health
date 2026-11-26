@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Přečíst fotku nebo PDF</string>
+    <string name="lab_import_review">Porovnejte datum, hodnoty a jednotky s originálem. Vyplní se jen prázdná pole. Výsledky uložíte uložením formuláře.</string>
+    <string name="lab_import_empty">Nebyly rozpoznány podporované výsledky. Zkuste ostřejší snímek nebo je zadejte ručně.</string>
+    <string name="lab_import_veterinary">Zřejmě jde o veterinární zprávu. Nelze ji použít pro lidské laboratorní výsledky.</string>
+    <string name="lab_import_error">Soubor nelze přečíst. Zvolte obrázek nebo PDF bez hesla (nejvýše 20 stran, 32 MB).</string>
+    <string name="lab_import_password">Toto PDF je chráněné. Zadejte heslo, aby šlo přečíst.</string>
+    <string name="lab_import_date_unknown">Datum odběru nebylo rozpoznáno. Zkontrolujte datum ve formuláři.</string>
+    <string name="lab_import_date_conflict">Tato stránka má jiné datum. Nejprve uložte nebo vymažte současné výsledky.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Nerozpoznané ukazatele: %1$d</string>
+</resources>

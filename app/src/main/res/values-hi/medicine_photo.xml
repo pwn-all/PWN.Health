@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">दवा की फ़ोटो लें</string>
+    <string name="med_photo_of">%1$s की फ़ोटो</string>
+    <string name="med_photo_unnamed">दवा की फ़ोटो</string>
+    <string name="med_photo_retake">फिर से फ़ोटो लें</string>
+    <string name="med_photo_remove">फ़ोटो हटाएँ</string>
+    <string name="med_photo_open">पूरे आकार में खोलें</string>
+    <string name="med_delete_body_photo">योजना और उसकी फ़ोटो हट जाएँगी; दर्ज की गई खुराकें जर्नल में रहेंगी।</string>
+</resources>

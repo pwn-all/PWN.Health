@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">आज %1$d कदम</item>
+        <item quantity="other">आज %1$d कदम</item>
+    </plurals>
+    <string name="channel_name">कदमों की गिनती</string>
+
+    <!-- Sensor / motion gate screen -->
+    <string name="sensors_title">सेंसर</string>
+    <string name="wave_title">त्वरण का परिमाण, पिछले 6 सेकंड</string>
+    <string name="gate_open">फ़िल्टर खुला — कदम गिने जा रहे हैं</string>
+    <string name="gate_blocked">फ़िल्टर बंद — कदम छोड़े जा रहे हैं</string>
+    <string name="field_motion">गति</string>
+    <string name="field_posture">मुद्रा</string>
+    <string name="field_energy">ऊर्जा (std)</string>
+    <string name="field_cadence">कदम-दर</string>
+    <string name="field_periodicity">चाल की आवर्तिता</string>
+    <string name="field_tilt">समतल से झुकाव</string>
+    <string name="field_screen">स्क्रीन</string>
+    <string name="field_axes">त्वरण x / y / z</string>
+    <string name="field_raw_counter">सेंसर का कच्चा काउंटर</string>
+    <string name="field_credited">इस सत्र में गिने गए</string>
+    <string name="field_rejected">इस सत्र में छोड़े गए</string>
+    <string name="on">चालू</string>
+    <string name="off">बंद</string>
+
+    <!-- Sensor trace recording -->
+    <string name="trace_title">सेंसर ट्रेस रिकॉर्ड करें</string>
+    <string name="trace_body">रिकॉर्डिंग शुरू कीजिए, चलिए, रोकिए, फिर सहेजिए। एक्सेलेरोमीटर का हर नमूना, फ़िल्टर का हर फ़ैसला और कदम का हर निर्णय क्रम से एक CSV फ़ाइल में जाता है। जब तक आप ख़ुद जगह नहीं चुनते, कुछ भी डिवाइस से बाहर नहीं जाता।</string>
+    <string name="trace_rows">रिकॉर्ड की गई पंक्तियाँ</string>
+    <string name="trace_dropped">छोड़ी गईं (सबसे पुरानी)</string>
+    <string name="trace_recording">रिकॉर्डिंग जारी…</string>
+    <string name="trace_start">रिकॉर्डिंग शुरू करें</string>
+    <string name="trace_stop">रोकें</string>
+    <string name="trace_save">CSV सहेजें</string>
+    <string name="trace_saved">ट्रेस सहेज लिया गया।</string>
+    <string name="trace_error">सहेजने में त्रुटि: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d पंक्ति</item>
+        <item quantity="other">%1$d पंक्तियाँ</item>
+    </plurals>
+
+    <!-- Track recording -->
+    <string name="track_title">रूट</string>
+    <string name="track_start">रिकॉर्डिंग शुरू करें</string>
+    <string name="track_stop">रिकॉर्डिंग रोकें</string>
+    <string name="track_distance">%1$.2f किमी</string>
+    <string name="track_distance_miles">%1$.2f मील</string>
+    <string name="recording_distance">रिकॉर्डिंग — %1$s</string>
+    <string name="waiting_for_fix">स्थान मिलने का इंतज़ार…</string>
+    <string name="track_total_route">पूरा रूट</string>
+    <string name="track_walking_counted">पैदल चलना</string>
+    <string name="track_running">दौड़ना</string>
+    <string name="track_vehicle">वाहन</string>
+    <string name="track_speed_now">मौजूदा गति</string>
+    <string name="track_speed_max">अधिकतम गति</string>
+    <string name="track_speed_value">%1$.1f किमी/घं</string>
+    <string name="track_speed_value_mph">%1$.1f मील/घं</string>
+    <string name="track_stops">ठहराव</string>
+    <string name="track_stops_value">%1$d · %2$d मिनट</string>
+    <string name="track_elevation_gain">ऊँचाई ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f मी</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f फ़ीट</string>
+    <string name="track_telemetry">रूट की टेलीमेट्री</string>
+    <string name="track_gps_points">GPS बिंदु</string>
+    <string name="track_raw_gps_points">सभी सहेजे गए GPS बिंदु</string>
+    <string name="track_rejected_points">सुधारे गए/छोड़े गए बिंदु</string>
+    <string name="track_last_filter_reason">पिछला GPS सुधार</string>
+    <string name="track_filter_none">कोई नहीं</string>
+    <string name="track_filter_low_accuracy">कम सटीकता</string>
+    <string name="track_filter_stale_fix">पुराना स्थान</string>
+    <string name="track_filter_jump">अपुष्ट छलाँग</string>
+    <string name="track_filter_speed">असंभव गति</string>
+    <string name="track_filter_time_order">समय क्रम से बाहर</string>
+    <string name="track_gps_accuracy">GPS की सटीकता</string>
+    <string name="track_accuracy_value">±%1$.0f मी</string>
+    <string name="track_accuracy_value_ft">±%1$.0f फ़ीट</string>
+    <string name="track_movement">गति</string>
+    <string name="track_movement_walking">पैदल</string>
+    <string name="track_movement_running">दौड़ते हुए</string>
+    <string name="track_movement_vehicle">वाहन में</string>
+    <string name="track_movement_stopped">रुके हुए</string>
+    <string name="track_movement_unknown">पता लगाया जा रहा है…</string>
+    <string name="track_altitude">ऊँचाई</string>
+    <string name="track_altitude_value">%1$.0f मी · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f फ़ीट · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">दाब</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">आसपास का तापमान</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">परिवेश में उछाल</string>
+    <string name="track_sensor_unavailable">सेंसर उपलब्ध नहीं</string>
+    <string name="track_environment_note">दाब से निकाली गई ऊँचाई पहली GPS ऊँचाई के हिसाब से समायोजित होती है। फ़ोन में तापमान सेंसर कम ही होता है और उसके पाठ पर डिवाइस के गरम होने का असर पड़ सकता है।</string>
+    <string name="track_showing_last">पिछला पूरा हुआ रूट दिखाया जा रहा है। नया बनाने के लिए रिकॉर्डिंग शुरू करें।</string>
+    <string name="track_history">सहेजे गए रूट</string>
+    <string name="track_history_note">रूट और सेंसर की पूरी टेलीमेट्री डिवाइस पर ही सहेजी जाती है और डेटा निर्यात में शामिल होती है।</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d स्वीकृत बिंदु</item>
+        <item quantity="other">%1$d स्वीकृत बिंदु</item>
+    </plurals>
+</resources>

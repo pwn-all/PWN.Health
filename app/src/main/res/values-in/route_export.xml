@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">Simpan ke berkas</string>
+    <string name="route_format_gpx_hint">Untuk peta, jam tangan dan aplikasi olahraga</string>
+    <string name="route_format_geojson_hint">Untuk aplikasi GIS dan peta web</string>
+    <string name="route_format_csv_hint">Setiap titik lokasi, untuk spreadsheet</string>
+</resources>

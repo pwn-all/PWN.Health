@@ -1,0 +1,62 @@
+# The Gradle build and the workflows' actions, raised by Dependabot and
+# merged by CI once the workflow that tests their kind of manifest has passed on the pull request's
+# head commit (.github/workflows/automerge.yml). A version waits out a cooldown of a few days after
+# its release, so that one pulled or compromised in its first days is not taken; AndroidX cannot be
+# dated and does not wait (below), and an advisory against a library skips the wait. A pull request
+# that stays red is for a person.
+#
+# Monthly: a Gradle pull request costs about two builds of 50 minutes, the one that writes its
+# checksums and the one that tests it. Weekly is one word below each and four times that.
+#
+# Gradle: Dependabot raises a version and not its SHA-256 in gradle/verification-metadata.xml, so
+# .github/workflows/dependabot-gradle.yml writes the hashes onto each of its branches first
+# (docs/BUILDING.md, under Toolchain).
+version: 2
+updates:
+  # The plugins in build.gradle.kts, the libraries and the ktlint/detekt jars in app/build.gradle.kts,
+  # and the wrapper.
+  - package-ecosystem: gradle
+    directory: /
+    schedule:
+      interval: monthly
+    # Dependabot dates a Google Maven library only by the <latest> of its maven-metadata.xml, an alpha
+    # for most of AndroidX, and a cooldown drops a release it cannot date (three days apply even when
+    # none is set): AndroidX would never be proposed. Plugins, AGP's among them, are dated by their POM.
+    cooldown:
+      default-days: 3
+      exclude: ['androidx.*']
+    groups:
+      # One pull request for every minor and patch release of the month, the cheapest in minutes; a
+      # release that breaks the build holds the rest back until a person ignores it or fixes the code.
+      gradle:
+        patterns: ['*']
+        update-types: [minor, patch]
+      # Halves that only work within one release (app/build.gradle.kts beside each): a major moves a
+      # whole family in one pull request. Other majors come one dependency at a time.
+      families-major:
+        patterns:
+          - 'androidx.room:*'
+          - 'org.jetbrains.kotlinx:kotlinx-serialization-*'
+          - 'org.jetbrains.kotlinx:kotlinx-coroutines-*'
+        update-types: [major]
+    ignore:
+      # The release the AAR in app/libs is built from by hand (tools/onnxruntime-android/README.md,
+      # "The next rebuild"); OnnxRuntimeBuildTest holds every side of it to one release.
+      - dependency-name: com.microsoft.onnxruntime:onnxruntime
+      # Held at what Room and SQLCipher resolve it to (app/build.gradle.kts, above it).
+      - dependency-name: androidx.sqlite:sqlite-framework
+
+  # The actions the workflows use, each held to a commit (CiWorkflowTest): Dependabot rewrites the
+  # commit and the version comment beside it. GitHub raises no advisory against an action held to a
+  # commit, so a fixed release comes with this monthly run. Only AUTOMERGE_TOKEN can merge these:
+  # GITHUB_TOKEN may not change .github/workflows.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ['*']
+

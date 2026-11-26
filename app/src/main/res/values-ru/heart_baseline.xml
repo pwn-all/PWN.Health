@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Пульс покоя</string>
+    <string name="health_rationale_purpose_recovery">Только чтение. Показываются на экране показателей отдельными карточками, рядом с вашим обычным значением за четыре недели до этого. Их измеряют часы или кольцо, обычно ночью; приложение само их не вычисляет и ничего не записывает обратно.</string>
+    <string name="vitals_note_resting_measured">Измерен часами или кольцом в покое, обычно ночью, и прочитан из Health Connect или из выгруженного файла. Он и должен быть ниже пульса, измеренного днём.</string>
+    <string name="vitals_note_baseline">Обычное значение — медиана ваших замеров за 28 дней до последнего, и нужно не меньше пяти. Это сравнение с самим собой, а не оценка.</string>
+    <string name="vitals_baseline_above">Последний замер на %1$d %2$s выше обычного</string>
+    <string name="vitals_baseline_below">Последний замер на %1$d %2$s ниже обычного</string>
+    <string name="vitals_baseline_same">Последний замер — как обычно</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Обычно у вас %1$s %2$s — медиана %3$d замера за 4 недели до этого</item>
+        <item quantity="few">Обычно у вас %1$s %2$s — медиана %3$d замеров за 4 недели до этого</item>
+        <item quantity="many">Обычно у вас %1$s %2$s — медиана %3$d замеров за 4 недели до этого</item>
+        <item quantity="other">Обычно у вас %1$s %2$s — медиана %3$d замера за 4 недели до этого</item>
+    </plurals>
+</resources>

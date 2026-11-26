@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">Spánek minulé noci</string>
+    <string name="widget_sleep_caption">minulou noc, %1$s – %2$s</string>
+    <string name="widget_sleep_none">Žádný zaznamenaný spánek</string>
+    <string name="widget_weight_description">Vaše poslední váha a jak se za 30 dní změnila</string>
+    <string name="widget_weight_caption">poslední váha</string>
+    <string name="widget_weight_change">%1$s za 30 dní</string>
+    <string name="widget_weight_steady">beze změny za 30 dní</string>
+    <string name="widget_weight_none">Žádná zaznamenaná váha</string>
+    <string name="widget_energy_description">Dnešní jídlo proti dennímu limitu; klepnutí zapíše jídlo</string>
+    <string name="widget_energy_caption">z %1$s kcal · %2$s</string>
+    <string name="widget_energy_left">zbývá %1$s</string>
+    <string name="widget_energy_over">%1$s navíc</string>
+    <string name="widget_week_description">Kroky v každém z posledních sedmi dnů</string>
+    <string name="widget_week_caption">%1$s kroků tento týden · %2$s denně</string>
+    <string name="widget_week_initial">kroků tento týden</string>
+    <string name="widget_level_description">Vaše úroveň, XP do další a denní série</string>
+    <string name="widget_level_initial">Úroveň</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">série: %d den</item>
+        <item quantity="few">série: %d dny</item>
+        <item quantity="many">série: %d dne</item>
+        <item quantity="other">série: %d dní</item>
+    </plurals>
+    <string name="widget_dose_description">Další dávka dne, jedním klepnutím označená jako užitá</string>
+    <string name="widget_dose_next">Další: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Užito</string>
+    <string name="widget_dose_done">Všechny dnešní dávky užity</string>
+    <string name="widget_dose_none">Dnes žádné dávky</string>
+    <string name="widget_cycle_description">Den cyklu a další očekávaná menstruace</string>
+    <string name="widget_cycle_period">Menstruace, %1$d. den</string>
+    <string name="widget_preview_sleep_value">7 h 40 min</string>
+    <string name="widget_preview_sleep_caption">minulou noc, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72,4 kg</string>
+    <string name="widget_preview_weight_change">−0,6 kg za 30 dní</string>
+    <string name="widget_preview_energy_value">1 240</string>
+    <string name="widget_preview_energy_caption">z 2 520 kcal · zbývá 1 280</string>
+    <string name="widget_preview_week_caption">48 300 kroků tento týden · 6 900 denně</string>
+    <string name="widget_preview_level_title">Úroveň 7</string>
+    <string name="widget_preview_level_caption">1 240 / 1 600 XP · série: 12 dní</string>
+    <string name="widget_preview_dose_next">Další: Metformin</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">12. den</string>
+    <string name="widget_preview_cycle_next">Další očekávaná 24. 11.</string>
+</resources>

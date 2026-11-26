@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat’s pain thread (ChatPain.kt, PainChatRules.kt, SymptomChat.kt, SymptomRules.kt, Symptoms.kt). -->
+<resources>
+    <!-- The thread -->
+    <string name="pain_chat_start">I am sorry it hurts.</string>
+    <string name="pain_chat_chest_resume">Thank you. Now let us finish the pain entry: here is what you marked. Change it if you like, then send.</string>
+    <string name="pain_chat_step_injury">Injury, fall or accident</string>
+    <string name="pain_chat_alert_in_person">This needs to be seen at an emergency department now. Do not drive yourself: ask someone to take you, or call emergency services.</string>
+    <!-- The area question over chips the words proposed -->
+    <string name="pain_chat_ask_where">Where exactly? Tap one, or show it on the body.</string>
+    <!-- The area question over the body map -->
+    <string name="pain_chat_ask_map">Show where it hurts: tap the spot, or paint over it. Then send.</string>
+    <!-- The area question over the head’s chips -->
+    <string name="pain_chat_ask_head">Where on the head? Tick each place that hurts.</string>
+    <!-- A button beside the area chips: unfolds the body map -->
+    <string name="pain_chat_show_on_body">Show on the body</string>
+    <!-- A button beside the area chips: unfolds the list of every area -->
+    <string name="pain_chat_choose_list">Choose from the list</string>
+    <!-- A chip beside the map: unfolds the head’s chips, which no plate shows -->
+    <string name="pain_chat_head">Head or face</string>
+    <!-- An area chip for a pair: “Knee · both sides” -->
+    <string name="pain_chat_both_sides">%1$s · both sides</string>
+    <!-- Under the map after a touch that marked nothing -->
+    <string name="pain_chat_map_hint">Tap where it hurts, or paint over it.</string>
+    <!-- Under the map past the drawing’s caps -->
+    <string name="pain_chat_map_too_much">There is more painting than one entry keeps: the areas will be saved, the drawing will not.</string>
+    <string name="pain_chat_ask_injury">Did it start with an injury, a fall or an accident?</string>
+    <!-- The second list of red flags -->
+    <string name="pain_chat_ask_signs_more">And is any of these true?</string>
+    <!-- After a fever ticked below a call to emergency services -->
+    <string name="pain_chat_ask_sepsis">With that, is any of these happening too?</string>
+    <string name="pain_chat_ask_types">What does it feel like? Choose up to two.</string>
+    <!-- Takes the same pain’s earlier words at once: “Keep: aching, tight” -->
+    <string name="pain_chat_keep_words">Keep: %1$s</string>
+    <!-- The 1–10 in a chat for an earlier day -->
+    <string name="pain_chat_nrs_day">How much, on average that day?</string>
+    <string name="pain_chat_status_day">Was it still there at the end of that day?</string>
+    <string name="pain_chat_painkiller_day">Took a painkiller for it that day?</string>
+    <!-- “The same pain?” about a pain noted earlier in this chat -->
+    <string name="pain_chat_same_here">This pain is already noted above.</string>
+    <!-- “The same pain?” about an entry gone since: its day -->
+    <string name="pain_chat_same_gone">A pain there is noted on %1$s.</string>
+    <!-- A button beside “The same pain?”: opens the earlier entry, answers nothing -->
+    <string name="pain_chat_open_that">Open that entry</string>
+    <!-- A chip after a painkiller answered “yes” -->
+    <string name="pain_chat_follow_dose">Note what you took</string>
+    <!-- A chip for a pain the person’s words named, by its part of the body: “Pain: Knee” -->
+    <string name="pain_chat_topic_area">Pain: %1$s</string>
+    <!-- The red flags, each the generic label of its option (pain_chat_sign_<option>) -->
+    <string name="pain_chat_sign_sudden_severe">It came on suddenly and is very bad</string>
+    <string name="pain_chat_sign_sudden_or_severe">It came on very suddenly, or it is very bad</string>
+    <string name="pain_chat_sign_sudden_or_bad">It came on suddenly, or it is very bad</string>
+    <string name="pain_chat_sign_very_painful">It is very painful</string>
+    <string name="pain_chat_sign_chest_too">Pain, pressure, tightness, heaviness or squeezing in the chest too</string>
+    <string name="pain_chat_sign_breathing_hard">Difficulty breathing</string>
+    <string name="pain_chat_sign_fast_heart">The heart is beating very fast</string>
+    <string name="pain_chat_sign_tingle_numb">Numb, tingling, or pins and needles</string>
+    <string name="pain_chat_sign_odd_shape">It has changed shape or is at an odd angle</string>
+    <string name="pain_chat_sign_crack">A crack, snap, pop or grinding when it happened</string>
+    <string name="pain_chat_sign_bone_out">A bone is showing, or a bad cut or heavy bleeding</string>
+    <string name="pain_chat_sign_blue_cold">The skin around it is blue, grey or white, or cold to touch</string>
+    <string name="pain_chat_sign_skin_colour">The skin around it has changed colour</string>
+    <string name="pain_chat_sign_no_weight">Cannot put weight on it, or walk more than a few steps</string>
+    <string name="pain_chat_sign_cant_move">Cannot move it, or cannot hold things</string>
+    <string name="pain_chat_sign_severe_cant_move">Severe pain, and the arm is hard to move</string>
+    <string name="pain_chat_sign_swell_bruise">A lot of swelling or bruising, or it is getting worse</string>
+    <string name="pain_chat_sign_fast_swell">It swelled up a lot, very quickly</string>
+    <string name="pain_chat_sign_stiff_hard">It is very stiff or hard to move</string>
+    <string name="pain_chat_sign_faint_from_pain">Feeling faint, dizzy or sick from the pain</string>
+    <string name="pain_chat_sign_hot_red_swollen">It is hot, red or swollen</string>
+    <string name="pain_chat_sign_hot_or_cold">The arm or shoulder is hot or cold to touch</string>
+    <string name="pain_chat_sign_swollen_joint">Swelling around the joint</string>
+    <string name="pain_chat_sign_feverish">A high temperature, or feeling hot, cold or shivery</string>
+    <string name="pain_chat_sign_locks_gives">It locks, gives way or clicks painfully</string>
+    <string name="pain_chat_sign_kneecap_slipped">The kneecap seemed to slip out and back</string>
+    <string name="pain_chat_sign_shock">Cold, sweaty skin, a fast or weak pulse, or fast, shallow breathing</string>
+    <string name="pain_chat_sign_tiptoe_stairs">Cannot walk on tiptoes or up the stairs</string>
+    <string name="pain_chat_sign_calf_ankle_swell">Swelling and bruising in the calf and ankle</string>
+    <string name="pain_chat_sign_big_toe">The big toe may be broken</string>
+    <string name="pain_chat_sign_exercise_eases">It hurts with exercise and eases with rest</string>
+    <string name="pain_chat_sign_worse_fast">It is getting worse quickly</string>
+    <string name="pain_chat_sign_severe_since_fall">Severe pain since a fall or injury</string>
+    <string name="pain_chat_sign_seizure">A seizure (fit)</string>
+    <string name="pain_chat_sign_numb_weak">Numbness or weakness in the body or face</string>
+    <string name="pain_chat_sign_speak_balance">Hard to speak, balance, walk or remember things</string>
+    <string name="pain_chat_sign_drowsy_confused">Very drowsy or confused</string>
+    <string name="pain_chat_sign_vision_loss">Blurred vision, or loss of sight in one or both eyes</string>
+    <string name="pain_chat_sign_head_injury">A head injury in the last 3 months</string>
+    <string name="pain_chat_sign_fever_stiff_light">A very high temperature, a stiff neck, or bright light bothers you</string>
+    <string name="pain_chat_sign_eye_problems">Problems with vision or the eyes</string>
+    <string name="pain_chat_sign_worse_strain">Worse with coughing, sneezing, bending down or exercise</string>
+    <string name="pain_chat_sign_jaw_scalp">Jaw pain when eating, or a sore or tender scalp</string>
+    <string name="pain_chat_sign_child_worse">Getting worse, or it wakes you at night</string>
+    <string name="pain_chat_sign_high_temp">A very high or very low temperature, feeling hot or cold to the touch, or shivery</string>
+    <string name="pain_chat_sign_severe_headache">A very painful headache</string>
+    <string name="pain_chat_sign_light_hurts">Cannot look at bright light</string>
+    <string name="pain_chat_sign_walk_sit">Hard to walk or sit upright</string>
+    <string name="pain_chat_sign_electric">A sudden “electric shock” feeling in the neck and back</string>
+    <string name="pain_chat_sign_weak_limbs">Hands, arms or legs feel weak</string>
+    <string name="pain_chat_sign_severe_despite">Severe pain even after paracetamol or ibuprofen</string>
+    <string name="pain_chat_sign_both_legs">Pain, tingling, weakness or numbness in both legs</string>
+    <string name="pain_chat_sign_saddle">No feeling around the genitals or bottom</string>
+    <string name="pain_chat_sign_bladder_bowel">Changes in peeing or pooing, such as difficulty peeing, or not being able to hold it</string>
+    <string name="pain_chat_sign_sex_changes">Changes in feeling during sex, or trouble with erection or orgasm</string>
+    <string name="pain_chat_sign_serious_accident">It started with a serious accident, such as a car accident</string>
+    <string name="pain_chat_sign_pee_blood">Blood in your pee</string>
+    <string name="pain_chat_sign_sick">Feeling or being sick</string>
+    <string name="pain_chat_sign_very_low_temp">A very low temperature, below 36C</string>
+    <string name="pain_chat_sign_lump_shape">A lump or swelling in the back, or its shape has changed</string>
+    <string name="pain_chat_sign_night_rest">No better with rest, or worse at night</string>
+    <string name="pain_chat_sign_cough_sneeze_poo">Worse when sneezing, coughing or pooing</string>
+    <string name="pain_chat_sign_tender_tummy">It hurts when you touch your tummy</string>
+    <string name="pain_chat_sign_worse_or_moving">It is getting worse, or it hurts when you move</string>
+    <string name="pain_chat_sign_vomit_blood">Vomiting blood, or vomit that looks like ground coffee</string>
+    <string name="pain_chat_sign_black_poo">Blood in your poo, or black, sticky, very smelly poo</string>
+    <string name="pain_chat_sign_cant_pee_poo">Cannot pee, or cannot poo or fart</string>
+    <string name="pain_chat_sign_shoulder_tip">Pain in the tip of the shoulder</string>
+    <string name="pain_chat_sign_yellow">Yellow skin, or yellow whites of the eyes</string>
+    <string name="pain_chat_sign_diabetes_sick">You have diabetes and are being sick</string>
+    <string name="pain_chat_sign_confused_pale">Confused, or blue, grey, pale or blotchy skin, lips or tongue</string>
+    <string name="pain_chat_sign_heavy_bleeding">Heavy bleeding from the vagina</string>
+    <string name="pain_chat_sign_keeps_coming">It does not go away, or keeps coming back</string>
+    <string name="pain_chat_sign_bloating">Bloating that does not go away or keeps coming back</string>
+    <string name="pain_chat_sign_pee_change">Peeing more or less often than usual, or it suddenly hurts to pee</string>
+    <string name="pain_chat_sign_bottom_bleed">Bleeding from the bottom, or blood in your pee or poo</string>
+    <string name="pain_chat_sign_hard_to_pee_poo">Hard to pee or poo</string>
+    <string name="pain_chat_sign_sick_diarrhoea">Vomiting and diarrhoea, or feeling sick</string>
+    <string name="pain_chat_sign_diarrhoea_days">Diarrhoea that has not stopped after a few days</string>
+    <string name="pain_chat_sign_moved_right">It has moved to the lower right side</string>
+    <string name="pain_chat_sign_vaginal">Unusual bleeding or discharge from the vagina</string>
+    <string name="pain_chat_sign_clot_signs">Throbbing pain or swelling in one leg, or swollen veins</string>
+    <string name="pain_chat_sign_leg_skin">Red, blue or darkened skin around the painful area</string>
+    <string name="pain_chat_sign_sudden_worse_leg">Pain or swelling that suddenly got worse, or swelling that gets harder or softer</string>
+    <string name="pain_chat_sign_warm_swollen">Swelling, bruising and warm skin on the leg</string>
+    <string name="pain_chat_sign_sick_cant_eat">Feeling sick, or cannot eat</string>
+    <string name="pain_chat_sign_has_diabetes">I have diabetes</string>
+    <string name="pain_chat_sign_spread_back_sick">Pain spreading from the tummy to the back, with being sick</string>
+    <string name="pain_chat_sign_joint_worse">Sudden pain and swelling in the joint, and the pain is getting worse</string>
+    <string name="pain_chat_sign_passed_out">Passing out, even for a moment</string>
+    <!-- A red flag in the words of one family’s pages (pain_chat_sign_<option>_<family>), and the reused options’ own -->
+    <string name="pain_chat_sign_very_painful_inj">It is very painful, or the pain is getting worse</string>
+    <string name="pain_chat_sign_chest_too_back_belly">Chest pain</string>
+    <string name="pain_chat_sign_chest_too_leg">Chest pain, or pain in the upper back</string>
+    <string name="pain_chat_sign_tingle_numb_neck">Pins and needles, or a cold arm</string>
+    <string name="pain_chat_sign_tingle_numb_neck_inj">Tingling or pins and needles on one or both sides of the body</string>
+    <string name="pain_chat_sign_tingle_numb_shoulder">Pins and needles that do not go away, or no feeling in the arm or shoulder</string>
+    <string name="pain_chat_sign_tingle_numb_arm">The arm tingles or feels numb</string>
+    <string name="pain_chat_sign_tingle_numb_hand">Lost the feeling in part or all of the hand</string>
+    <string name="pain_chat_sign_tingle_numb_hip_inj">Tingling or loss of feeling in the hip or leg</string>
+    <string name="pain_chat_sign_tingle_numb_foot">Tingling or loss of feeling in the foot</string>
+    <string name="pain_chat_sign_odd_shape_shoulder">The arm or shoulder has changed shape or is badly swollen</string>
+    <string name="pain_chat_sign_odd_shape_hand">It has changed shape or colour</string>
+    <string name="pain_chat_sign_odd_shape_knee">Badly swollen, or the knee has changed shape</string>
+    <string name="pain_chat_sign_odd_shape_leg_inj">The leg is twisted, bent or at an odd angle</string>
+    <string name="pain_chat_sign_odd_shape_foot">The ankle or foot has changed shape or is at an odd angle</string>
+    <string name="pain_chat_sign_no_weight_hip">Cannot walk or put weight on the leg</string>
+    <string name="pain_chat_sign_no_weight_knee">Cannot move the knee or put any weight on it</string>
+    <string name="pain_chat_sign_no_weight_leg_inj">It hurts to put weight on it</string>
+    <string name="pain_chat_sign_no_weight_foot">Not able to walk</string>
+    <string name="pain_chat_sign_cant_move_shoulder">Cannot move the arm</string>
+    <string name="pain_chat_sign_swell_bruise_knee_inj">Swollen or bruised</string>
+    <string name="pain_chat_sign_hot_red_swollen_hand">A lump that is very painful, hot or red</string>
+    <string name="pain_chat_sign_hot_red_swollen_hip">The hip is swollen and feels hot</string>
+    <string name="pain_chat_sign_hot_red_swollen_foot">The foot is hot and swollen</string>
+    <string name="pain_chat_sign_feverish_shoulder">Feeling feverish or unwell</string>
+    <string name="pain_chat_sign_feverish_back">Hot, cold, shivery or generally unwell</string>
+    <string name="pain_chat_sign_feverish_belly">A very high temperature, or feeling hot, cold or shivery</string>
+    <string name="pain_chat_sign_feverish_hip">Generally unwell with a high temperature, or hot, cold or shivery</string>
+    <string name="pain_chat_sign_clot_signs_arm">Throbbing pain or swelling in that arm, or red, blue or darkened skin around it</string>
+    <string name="pain_chat_sign_confused_neck">Confused, slurred speech, or not making sense</string>
+    <string name="pain_chat_sign_confused_lower_back">Confused, drowsy, or hard to speak</string>
+    <string name="pain_chat_sign_breathless_leg">Short of breath</string>
+    <string name="pain_chat_sign_dizzy_faint_belly">Feeling faint, dizzy or lightheaded, or passing out</string>
+    <string name="pain_chat_sign_pregnancy">Pregnant, or might be</string>
+    <!-- Where the pain thread’s lines come from, behind the “?” -->
+    <string name="pain_source_head" translatable="false">NHS, “Headaches” and “Subarachnoid haemorrhage”.</string>
+    <string name="pain_source_jaw" translatable="false">NHS, “Temporomandibular disorder (TMD)”, “Compartment syndrome” and “Chest pain”.</string>
+    <string name="pain_source_neck" translatable="false">NHS, “Neck pain”, “Whiplash”, “Meningitis”, “Compartment syndrome” and “Chest pain”.</string>
+    <string name="pain_source_shoulder" translatable="false">NHS, “Shoulder pain”, “Sprains and strains”, “Septic arthritis”, “Compartment syndrome” and “Heart attack”.</string>
+    <string name="pain_source_back" translatable="false">NHS, “Back pain”, “Sciatica”, “Abdominal aortic aneurysm”, “Kidney infection”, “Kidney stones” and “Compartment syndrome”.</string>
+    <string name="pain_source_belly" translatable="false">NHS, “Stomach ache”, “Pelvic pain”, “Appendicitis”, “Gallstones”, “Acute pancreatitis” and “Abdominal aortic aneurysm”.</string>
+    <string name="pain_source_arm" translatable="false">NHS, “Elbow and arm pain”, “Broken arm or wrist”, “Sprains and strains”, “Septic arthritis”, “DVT (deep vein thrombosis)”, “Chest pain” and “Compartment syndrome”.</string>
+    <string name="pain_source_hand" translatable="false">NHS, “Wrist pain”, “Finger pain”, “Broken arm or wrist”, “Broken finger or thumb”, “Sprains and strains” and “Compartment syndrome”.</string>
+    <string name="pain_source_hip" translatable="false">NHS, “Hip pain in adults”, “Broken hip”, “Sprains and strains”, “Septic arthritis” and “Compartment syndrome”.</string>
+    <string name="pain_source_knee" translatable="false">NHS, “Knee pain”, “Dislocated kneecap”, “Sprains and strains”, “Broken leg”, “Septic arthritis”, “Gout” and “Compartment syndrome”.</string>
+    <string name="pain_source_leg" translatable="false">NHS, “DVT (deep vein thrombosis)”, “Baker’s cyst”, “Pulmonary embolism”, “Leg cramps”, “Broken leg”, “Sprains and strains” and “Compartment syndrome”.</string>
+    <string name="pain_source_foot" translatable="false">NHS, “Pain in the top of the foot”, “Pain in the bottom of the foot”, “Pain in the ball of the foot”, “Ankle pain”, “Heel pain”, “Toe pain”, “Broken ankle”, “Broken toe”, “Sprains and strains”, “Septic arthritis”, “Gout” and “Compartment syndrome”.</string>
+    <string name="pain_source_sepsis" translatable="false">NHS, “Sepsis”.</string>
+    <string name="pain_source_safety" translatable="false">NHS, “Chest pain” and “Headaches”.</string>
+</resources>

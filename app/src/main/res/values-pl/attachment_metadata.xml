@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Opisz załącznik</string>
+    <string name="attachment_details_hint">Wybierz, co zawiera ten plik. Jego nazwa i format nie wskazują, jakie to badanie. Rodzaj możesz zostawić nieokreślony.</string>
+    <string name="attachment_description">Opis lub okolica ciała</string>
+    <string name="attachment_study_day">Data badania (opcjonalnie)</string>
+    <string name="attachment_study_day_clear">Usuń datę</string>
+    <string name="attachment_kind_unknown">Rodzaj nieokreślony</string>
+    <string name="attachment_kind_ct">TK</string>
+    <string name="attachment_kind_mri">MR</string>
+    <string name="attachment_kind_ultrasound">USG</string>
+    <string name="attachment_kind_xray">RTG</string>
+    <string name="attachment_kind_doppler">USG dopplerowskie</string>
+    <string name="attachment_kind_lab">Wyniki laboratoryjne</string>
+    <string name="attachment_kind_prescription">Recepta</string>
+    <string name="attachment_kind_other">Inny dokument</string>
+    <string name="attachment_catalog_note">Oryginalne załączone pliki znajdują się w tym archiwum ZIP. Rodzaje badań, daty i opisy podał pacjent.</string>
+</resources>

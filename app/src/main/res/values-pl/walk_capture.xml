@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_photo_take">Zrób zdjęcie tego miejsca</string>
+    <string name="walk_photo_saved">Zdjęcie zapisane</string>
+    <string name="walk_photo_failed">Nie zapisano zdjęcia</string>
+    <string name="walk_photo_no_camera">Brak aplikacji aparatu</string>
+</resources>

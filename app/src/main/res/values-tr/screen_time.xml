@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Ekran süresi</string>
+    <string name="screen_time_add_body">Sosyal medya, video, mesajlaşma ve oyunlarda geçen süre, göz ve zihin molalarıyla</string>
+    <string name="screen_time_help">Sosyal medya ve akışlar, video, mesajlaşma ve oyunların bugün ve bu hafta ekranda ne kadar kaldığı, Android’in kullanım geçmişinden. Göz ve zihin hatırlatmaları yalnızca sosyal medya ve akışları izler; ara vermeden aralarında geçiş yapmak tek oturum sayılır. Geri kalanı yalnızca sayılır. Günlüğe hiçbir şey yazılmaz ve hiçbir şey telefondan çıkmaz.</string>
+    <string name="screen_time_channel">Ekran molaları</string>
+    <string name="screen_time_access_title">Kullanım erişimi gerekli</string>
+    <string name="screen_time_access_body">Android, diğer uygulamaların ne kadar açık kaldığını bir uygulamaya yalnızca kullanım erişimiyle bildirir. Uyku tahmini de aynı erişimi kullanır.</string>
+    <string name="screen_time_access_button">Kullanım erişimini aç</string>
+    <string name="screen_time_longest">Arasız en uzun oturum: %1$s</string>
+    <string name="screen_time_over">%1$s aşıldı</string>
+    <string name="screen_time_week">Son 7 gün</string>
+    <string name="screen_time_week_average">Günlük ortalama: %1$s</string>
+    <string name="screen_time_eyes_switch">Göz yorgunluğunu hatırlat</string>
+    <string name="screen_time_eyes_switch_body">Akışta ara vermeden uzun süre kaldıktan sonra</string>
+    <string name="screen_time_brain_switch">Zihinsel yük uyarısı</string>
+    <string name="screen_time_brain_switch_body">Bu uygulamalardaki günlük toplam yükseldiğinde</string>
+    <string name="screen_time_tips_title">Gözler ve zihin için dinlenme</string>
+    <string name="screen_time_tip_eyes">Her 20 dakikada bir, 20 saniye boyunca 6 metre uzaktaki bir şeye bakın.</string>
+    <string name="screen_time_tip_blink">Bilerek göz kırpın: ekrana bakarken çok daha az göz kırparız ve gözler kurur.</string>
+    <string name="screen_time_tip_brain">Sonsuz akış dikkati birkaç saniyede bir başka yere çeker. Kısa bir yürüyüş ya da birkaç yavaş nefes zihni sakinleştirir.</string>
+    <string name="screen_time_tip_night">Uyumadan bir saat önce telefonu bırakın: parlak ekranlar uykuyu geciktirir.</string>
+    <string name="screen_time_breathing">Nefes molası</string>
+    <string name="screen_time_eyes_title">Gözlerinizi dinlendirme zamanı</string>
+    <string name="screen_time_eyes_body">%1$s, %2$d dk ara vermeden. 20 saniye uzağa bakın ve birkaç kez göz kırpın.</string>
+    <string name="screen_time_brain_title">Zihninizin molaya ihtiyacı var</string>
+    <string name="screen_time_brain_body">Bugün sosyal medya ve akışlarda %1$s. Sonsuz akış dikkati yorar: telefonu 10 dakika bırakın, yürüyün ya da yavaşça nefes alın.</string>
+    <string name="screen_time_feeds_title">Sosyal medya ve akışlar</string>
+    <string name="screen_time_video_title">Video ve yayın</string>
+    <string name="screen_time_messengers_title">Mesajlaşma</string>
+    <string name="screen_time_games_title">Oyunlar</string>
+    <string name="screen_time_category_longest">En uzun oturum: %1$s</string>
+    <string name="screen_time_category_week">Son 7 gün: %1$s, günde ortalama %2$s</string>
+    <string name="screen_time_tracked_note">Yalnızca sayılır, hatırlatma yok.</string>
+    <string name="screen_time_none_today">Bugün açılmadı</string>
+</resources>

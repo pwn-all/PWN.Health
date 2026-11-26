@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Theme</string>
+    <string name="theme_description">Interface and icon colors for light and dark themes</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_saved_note">Each palette is saved separately. The app follows your device’s light or dark theme.</string>
+    <string name="theme_preview">Preview</string>
+    <string name="theme_main_accent">Main accent</string>
+    <string name="theme_accent_container">Accent background</string>
+    <string name="theme_secondary">Secondary accent</string>
+    <string name="theme_secondary_container">Secondary background</string>
+    <string name="theme_tertiary">Third accent</string>
+    <string name="theme_tertiary_container">Third accent background</string>
+    <string name="theme_background">Page background</string>
+    <string name="theme_surface">Cards</string>
+    <string name="theme_text">Primary text</string>
+    <string name="theme_muted_text">Secondary text</string>
+    <string name="theme_border">Borders</string>
+    <string name="theme_icons">Icons</string>
+    <string name="theme_icon">Main icon color</string>
+    <string name="theme_icon_mid">Secondary icon color</string>
+    <string name="theme_icon_light">Light icon details</string>
+    <string name="theme_brightness">Brightness</string>
+    <string name="theme_hex">HEX code</string>
+    <string name="theme_hex_error">Enter 6 hexadecimal digits, for example #7094EE.</string>
+    <string name="theme_update_all">Update all colors</string>
+    <string name="theme_update_all_body">Generate all other colors in this palette from the main accent, replacing any manual edits.</string>
+    <string name="theme_reset">Reset theme</string>
+    <string name="theme_reset_light_body">Restore default interface and icon colors for the light theme? The dark theme will stay unchanged.</string>
+    <string name="theme_reset_dark_body">Restore default interface and icon colors for the dark theme? The light theme will stay unchanged.</string>
+    <string name="theme_wheel">Color wheel</string>
+    <string name="theme_wheel_value">Hue %1$d°, saturation %2$d%%</string>
+    <string name="theme_next_hue">Next hue</string>
+    <string name="theme_previous_hue">Previous hue</string>
+    <string name="theme_more_saturation">Increase saturation</string>
+    <string name="theme_less_saturation">Decrease saturation</string>
+</resources>

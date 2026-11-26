@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>लैक्टेट पार्टी</item>
+        <item>ढलते सूरज की सैर</item>
+        <item>चढ़ाई की धुन</item>
+        <item>कॉफ़ी की तलब</item>
+        <item>फ़ुटपाथ की शायरी</item>
+        <item>शहरी सफ़ारी</item>
+        <item>थोड़ी हवाख़ोरी</item>
+        <item>शाही चक्कर</item>
+        <item>मानसून गश्त</item>
+        <item>सुनहरी धूप का फेरा</item>
+        <item>दमदार कदम</item>
+        <item>हवा से बातें</item>
+        <item>गलियों की दास्तान</item>
+        <item>किलोमीटर खाऊ</item>
+        <item>बादलों का जासूस</item>
+        <item>नज़ारों वाला रास्ता</item>
+        <item>छोटा-सा रोमांच</item>
+        <item>मिशन एंडोर्फ़िन</item>
+        <item>बेंच इंस्पेक्टर</item>
+        <item>शान की चाल</item>
+        <item>लंबा रास्ता ही सही</item>
+        <item>मनमौजी सैर</item>
+        <item>शांत किलोमीटर</item>
+        <item>आज लेग डे है</item>
+        <item>घुमक्कड़ मोड</item>
+        <item>दिमाग़ की ताज़गी</item>
+        <item>कदमों की सरगम</item>
+        <item>फुर्ती का काम</item>
+        <item>समोसा कमाने वाला चक्कर</item>
+        <item>कबूतरों की परेड</item>
+        <item>शॉर्टकट से परहेज़</item>
+        <item>विजय परिक्रमा</item>
+        <item>आत्ममंथन के कदम</item>
+        <item>नमस्ते, ताज़ी हवा</item>
+        <item>वीकेंड की आवारगी</item>
+        <item>नन्हा अभियान</item>
+        <item>भोर की गश्त</item>
+        <item>आराम से कार्डियो</item>
+        <item>नक़्शे पर कलाकारी</item>
+        <item>सोच-विचार की सैर</item>
+    </string-array>
+</resources>

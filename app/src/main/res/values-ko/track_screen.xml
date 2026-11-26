@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. 자세히 보기</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. 자세히 보기</string>
+    <string name="track_signal_good">GPS 신호 양호</string>
+    <string name="track_signal_fair">GPS 신호 보통</string>
+    <string name="track_signal_poor">GPS 신호 약함</string>
+    <string name="track_signal_searching">GPS 신호를 찾는 중</string>
+    <string name="track_signal_location_off">위치 꺼짐</string>
+    <string name="track_signal_no_access">위치 접근 권한 없음</string>
+    <string name="track_info_title">GPS 신호와 경로</string>
+    <string name="track_signal_title">GPS 신호</string>
+    <string name="track_signal_note">막대는 휴대폰이 현재 위치를 얼마나 정확하게 알고 있는지 보여 줍니다. 막대가 3개면 오차가 %1$s 이내, 2개면 %2$s 이내이며, 1개면 그보다 큽니다. 막대가 없으면 10초 동안 위치를 받지 못했고 휴대폰이 아직 찾고 있다는 뜻입니다. 이 화면은 신호와 현재 위치를 보여 주기 위해 열려 있는 동안에만 위치를 읽습니다.</string>
+    <string name="track_history_empty">저장된 경로가 아직 없습니다.</string>
+    <string name="track_map_here">현재 위치 주변 지도</string>
+    <string name="track_map_waiting">세계 지도. 아직 현재 위치를 알 수 없습니다.</string>
+    <string name="track_map_follow_here">현재 위치로 돌아가기</string>
+    <string name="track_pause">기록 일시정지</string>
+    <string name="track_resume">기록 재개</string>
+    <string name="track_value_paused">일시정지됨</string>
+    <string name="track_value_ended">종료됨</string>
+    <string name="track_finish_title">이 산책을 종료할까요?</string>
+    <string name="track_finish_body">기록이 중지되고 산책이 저장됩니다. 잠시 쉬려면 종료 대신 「일시정지」를 누르세요.</string>
+    <string name="track_finish">종료</string>
+    <string name="track_keep_recording">계속 기록하기</string>
+    <string name="track_finished">산책을 마쳤습니다</string>
+</resources>

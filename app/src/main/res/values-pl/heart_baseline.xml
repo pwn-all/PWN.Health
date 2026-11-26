@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Tętno spoczynkowe</string>
+    <string name="health_rationale_purpose_recovery">Tylko odczyt. Pokazywane na ekranie parametrów życiowych jako osobne karty, każda obok Twojej zwykłej wartości z czterech poprzednich tygodni. Mierzy je zegarek lub pierścień, zwykle w nocy; aplikacja sama ich nie oblicza i niczego nie zapisuje z powrotem.</string>
+    <string name="vitals_note_resting_measured">Zmierzone przez zegarek lub pierścień w spoczynku, zwykle w nocy, i odczytane z Health Connect lub z wyeksportowanego pliku. Z założenia jest niższe niż tętno zmierzone w ciągu dnia.</string>
+    <string name="vitals_note_baseline">Twoja zwykła wartość to mediana Twoich pomiarów z 28 dni przed ostatnim, a potrzeba ich co najmniej pięciu. To porównanie z samym sobą, nie ocena.</string>
+    <string name="vitals_baseline_above">Ostatni pomiar %1$d %2$s powyżej Twojej normy</string>
+    <string name="vitals_baseline_below">Ostatni pomiar %1$d %2$s poniżej Twojej normy</string>
+    <string name="vitals_baseline_same">Ostatni pomiar w Twojej normie</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Zwykle u Ciebie: %1$s %2$s, mediana z %3$d pomiaru z 4 poprzednich tygodni</item>
+        <item quantity="few">Zwykle u Ciebie: %1$s %2$s, mediana z %3$d pomiarów z 4 poprzednich tygodni</item>
+        <item quantity="many">Zwykle u Ciebie: %1$s %2$s, mediana z %3$d pomiarów z 4 poprzednich tygodni</item>
+        <item quantity="other">Zwykle u Ciebie: %1$s %2$s, mediana z %3$d pomiaru z 4 poprzednich tygodni</item>
+    </plurals>
+</resources>

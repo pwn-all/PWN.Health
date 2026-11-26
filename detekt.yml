@@ -1,0 +1,75 @@
+# Only the deltas from detekt's defaults live here (buildUponDefaultConfig = true).
+#
+# detekt matches `excludes` globs against the absolute path, so the defaults' '**/test/**' also
+# swallows the whole of a checkout that lives under a directory called `test`, and a local run then
+# reports far less than CI. Every exclude here therefore names the source set — '**/src/test/**' —
+# and every active rule whose default excludes the test sources is restated below with that anchor.
+# Anchor the same way when adding one.
+build:
+  maxIssues: 0
+
+complexity:
+  # A @Composable is a UI tree, not a procedure: its length, branching and parameter count are the
+  # screen's shape. Room DAO methods take one parameter per column.
+  LongMethod:
+    ignoreAnnotated: ['Composable']
+  CyclomaticComplexMethod:
+    ignoreAnnotated: ['Composable']
+  NestedBlockDepth:
+    ignoreAnnotated: ['Composable']
+  LongParameterList:
+    ignoreAnnotated: ['Composable', 'Query', 'Update', 'Insert']
+    # Test fixtures build whole domain objects; that is the point of the helper.
+    excludes: &testSourceSets ['**/src/test/**', '**/src/androidTest/**']
+    # A sensor sample is one event with nine facts about it, and a BLE manager reports every
+    # measurement kind it can parse. Bundling them into wrapper types would only move the list.
+    functionThreshold: 10
+    constructorThreshold: 11
+  # A DAO has one method per query, a service one per lifecycle callback, a screen one per section.
+  # The count is the feature list, so the rule only ever fires on files that are working correctly.
+  TooManyFunctions:
+    active: false
+
+# The four sections below only restate the test-source exemption detekt's own defaults give these
+# rules; nothing else about them changes.
+exceptions:
+  InstanceOfCheckForException:
+    excludes: *testSourceSets
+  ThrowingExceptionsWithoutMessageOrCause:
+    excludes: *testSourceSets
+  TooGenericExceptionCaught:
+    excludes: *testSourceSets
+
+naming:
+  # Composables are types in Compose's model, and Compose requires the PascalCase to match.
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+    excludes: *testSourceSets
+
+performance:
+  ForEachOnRange:
+    excludes: *testSourceSets
+  SpreadOperator:
+    excludes: *testSourceSets
+
+potential-bugs:
+  # Limitation: configured, but not in force while detekt runs without the types resolved. The rule
+  # has to know that the value before a `!!` can be null, and the detekt task (app/build.gradle.kts)
+  # gives detekt no classpath to learn it from. The compiler inside detekt 1.23.8 is Kotlin 2.0.21,
+  # not the one this app is compiled with. NotNullAssertionTest counts the `!!` of src/main instead.
+  UnsafeCallOnNullableType:
+    excludes: *testSourceSets
+
+style:
+  # Guard clauses are the idiomatic Kotlin alternative to a nested if-else pyramid.
+  #
+  # Four rather than detekt's two: a parser of a Bluetooth packet, a lab sheet's cell or a typed dose
+  # returns from each check it fails, and at two the rule would be suppressed on dozens of them. At
+  # four, only functions of five returns or more keep a suppression.
+  ReturnCount:
+    excludeGuardClauses: true
+    max: 4
+  # The numbers it would flag are physiological formulas (Mifflin–St Jeor's 6.25), BLE byte offsets
+  # and Compose dp values. Naming those would produce KILOGRAM_COEFFICIENT-style noise, not meaning.
+  MagicNumber:
+    active: false

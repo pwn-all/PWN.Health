@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">Gasto energético</string>
+    <string name="burn_overlap_note">Los paseos y las carreras registrados como entrenamientos van en la fila de pasos, para no contarlos dos veces.</string>
+    <string name="burn_rest_so_far">En reposo en lo que va de día</string>
+    <string name="burn_total_so_far">Total gastado en lo que va de día</string>
+    <string name="burn_active">actividad, kcal</string>
+    <string name="food_history">Historial de comidas</string>
+    <string name="food_history_empty">Hoy todavía no hay comida registrada.</string>
+    <string name="activity_times">Cuándo hubo actividad</string>
+    <string name="activity_times_empty">Este día no tiene actividad con hora registrada.</string>
+    <string name="visit_history">Historial de visitas</string>
+    <string name="visit_history_empty">Aquí aparecerán las visitas completadas.</string>
+    <string name="calendar_schedule">Agenda</string>
+    <string name="calendar_add_event">Añadir evento</string>
+    <string name="calendar_expand_month">Ver el mes</string>
+    <string name="calendar_collapse_month">Ocultar el mes</string>
+    <string name="calendar_day_summary">Resumen del día</string>
+    <string name="events_all">Todos los eventos</string>
+    <string name="events_filter">Filtrar eventos</string>
+    <string name="events_other">Otros eventos</string>
+    <string name="events_no_matches">Este mes no hay eventos que coincidan.</string>
+    <string name="steps_in_interval">Pasos en %1$s</string>
+    <string name="metric_goal_reached">Objetivo alcanzado</string>
+    <string name="workout_did_it">¿Lo has conseguido?</string>
+    <string name="workout_actual_reps">¿Cuántas repeticiones has hecho?</string>
+    <string name="answer_yes">Sí</string>
+    <string name="answer_no">No</string>
+    <string name="visit_recent">Visitas recientes</string>
+    <string name="visit_show_all">Ver todas</string>
+    <string name="visit_all_specialties">Todas las especialidades</string>
+    <string name="visit_all_doctors">Todos los médicos</string>
+    <string name="visit_all_time">Todas las fechas</string>
+    <string name="steps_hourly_title">Actividad por horas</string>
+    <string name="steps_activity_label">actividad</string>
+    <string name="steps_distance_title">Distancia recorrida</string>
+    <string name="steps_pace_title">Ritmo medio</string>
+    <string name="steps_time_title">Tiempo total</string>
+    <string name="steps_distance_note">La distancia se estima con los pasos de hoy y la estatura de tu perfil.</string>
+    <string name="steps_no_sensor">Este teléfono no tiene sensor de pasos, así que la aplicación no cuenta ninguno por sí misma. Los pasos pueden seguir llegando desde Health Connect o desde un dispositivo conectado.</string>
+    <string name="steps_still_title">Mayor racha sin caminar</string>
+    <string name="steps_still_note">Se considera que hay movimiento en una hora cuando este teléfono ha contado en ella al menos 100 pasos — alrededor de un minuto caminando, la misma cadencia que supone el tiempo de arriba. La racha se mide desde la primera hora con movimiento, así que una noche de sueño no cuenta como tiempo sentado. Las horas se sellan cuando los pasos se anotan, no cuando se dieron, así que un lote que el teléfono retuvo puede caer en una hora posterior y hacer que una racha parezca más larga de lo que fue.\n\nAquí se cuentan las horas sin caminar, no el tiempo que pasas sentado o de pie. Ningún sensor de Android distingue un cuerpo sentado de uno erguido, y Health Connect no guarda registro ni de lo uno ni de lo otro, así que nada de esto se le envía. Un teléfono olvidado sobre una mesa no cuenta nada, estés sentado delante, de pie a su lado o fuera de la habitación.</string>
+    <string name="steps_route_note">Sin una ruta, el tiempo se estima a 100 pasos por minuto y la distancia, a partir de los pasos y tu estatura. Es una suposición, no una cadencia medida. El ritmo se pondera por distancia: el tiempo total en movimiento dividido entre la distancia total.\n\nDe las rutas terminadas se toman su tiempo en movimiento (sin las paradas) y su distancia. Las grabaciones que se solapan se fusionan; en cada hora solo los pasos que superan la distancia grabada suman tiempo estimado. Los totales diarios de los dispositivos se cuadran con el día entero.\n\nEl signo ≈ indica una estimación. Los totales por hora no pueden precisar la hora exacta de cada paso ni separar con exactitud las actividades que se solapan.</string>
+    <string name="steps_chart_thousands">%1$sK</string>
+    <string name="home_stat_walks">paseos</string>
+    <string name="burn_total_note">Actividad y gasto estimado en reposo de la parte de hoy ya transcurrida.</string>
+    <string name="burn_daily_estimate">En reposo en 24 h: ≈ %1$s kcal</string>
+    <string name="burn_explanation_title">Cómo se calcula el gasto en reposo</string>
+    <string name="burn_explanation_body">La estimación diaria usa la fórmula Mifflin–St Jeor y tu perfil: peso, estatura, edad y sexo. Calcula la energía que el cuerpo necesita en reposo, sin caminar ni entrenar.\n\nGasto en reposo hasta ahora = estimación diaria × minutos desde medianoche ÷ 1 440. Al total de hoy solo entra esa parte transcurrida; la actividad se suma aparte. La previsión del día completo no se vuelve a sumar. El gasto real puede ser distinto.</string>
+    <string name="home_good_morning">Buenos días</string>
+    <string name="home_good_afternoon">Buenas tardes</string>
+    <string name="home_good_evening">Buenas noches</string>
+    <string name="home_good_night">Que descanses</string>
+    <string-array name="home_motivations">
+        <item>Paso a paso hacia tu meta</item>
+        <item>Cada paso cuenta</item>
+        <item>Pequeños pasos, gran camino</item>
+        <item>Hoy es una nueva oportunidad</item>
+        <item>Moverse es vida</item>
+        <item>La salud nace de lo pequeño</item>
+    </string-array>
+    <string name="home_focus">El foco de hoy</string>
+    <string name="home_focus_headline">La constancia da resultados.</string>
+    <string name="home_focus_message">Ve paso a paso.</string>
+    <string name="widget_icon_count">Número de iconos</string>
+    <string name="level_details">Nivel y XP</string>
+    <string name="level_screen_title">Mi nivel</string>
+    <string name="level_sources">Fuentes de XP</string>
+    <string name="level_to_next">para el siguiente nivel</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Nivel %1$d</string>
+    <string name="level_year_xp">%1$s XP este año</string>
+    <string name="level_max">Nivel máximo alcanzado</string>
+    <string name="level_opens">Aperturas de la aplicación</string>
+    <string name="level_steps">Pasos</string>
+    <string name="level_meals">Registros de comida</string>
+    <string name="level_workouts">Días con entrenamiento</string>
+    <string name="level_visits">Visitas completadas</string>
+    <string name="level_medals">Medallas</string>
+    <string name="nutrition_unlogged_title">Hoy no hay comida registrada</string>
+    <string name="nutrition_unlogged_body">Si ya has comido, añade la comida al diario. Si aún no, busca un rato para una comida equilibrada: comer con regularidad importa con cualquier objetivo.</string>
+    <string name="nutrition_tracking_low_title">Hoy se ha registrado poca comida</string>
+    <string name="nutrition_tracking_low_body">El diario muestra el %1$s%% del objetivo de calorías de hoy. Comprueba si falta alguna comida. Si el registro está completo, planea una comida equilibrada con proteínas, carbohidratos y verduras.</string>
+    <string name="nutrition_lose_low_title">Perder peso también exige comer</string>
+    <string name="nutrition_lose_low_body">Solo hay registrado el %1$s%% del objetivo de hoy. Para perder peso no hace falta pasar hambre: si el diario está completo, come de forma equilibrada y mantén un horario regular.</string>
+    <string name="nutrition_gain_low_title">Aún queda margen hasta tu objetivo de ganancia</string>
+    <string name="nutrition_gain_low_body">Llevas registrado el %1$s%% del objetivo de hoy. Revisa el diario y valora otra comida equilibrada o un tentempié con proteínas. Aumenta la ingesta poco a poco, sin comer a la fuerza.</string>
+    <string name="nutrition_lose_over_title">Objetivo de calorías superado</string>
+    <string name="nutrition_lose_over_body">El diario muestra el %1$s%% del objetivo de pérdida de peso de hoy. Ten en cuenta las raciones y el hambre al planear la próxima comida. No lo compenses ayunando ni saltándote comidas.</string>
+    <string name="nutrition_gain_over_title">Bastante por encima del objetivo de ganancia</string>
+    <string name="nutrition_gain_over_body">El diario muestra el %1$s%% del objetivo de ganancia de hoy, que ya incluye un superávit. Revisa las raciones y los registros; no hace falta comer de más a la fuerza. Sigue con comidas regulares y equilibradas.</string>
+    <string name="nutrition_tracking_over_title">Por encima de la referencia de hoy</string>
+    <string name="nutrition_tracking_over_body">El diario muestra el %1$s%% de la referencia de calorías de hoy. Revisa las raciones y los registros duplicados. Un solo día no describe tu alimentación habitual.</string>
+    <string name="nutrition_fat_title">Mucha grasa en lo registrado hoy</string>
+    <string name="nutrition_fat_body">Alrededor del %1$s%% de las calorías registradas viene de las grasas. Equilibra las próximas comidas con proteínas, verduras y cereales integrales. Las grasas también tienen su sitio en una dieta variada; importa de qué tipo son.</string>
+    <string name="nutrition_saturated_title">Grasas saturadas por encima de la referencia</string>
+    <string name="nutrition_saturated_body">Las grasas saturadas registradas ya superan el 10%% del objetivo de energía de hoy. En las próximas comidas puedes sustituir parte de sus fuentes por pescado, frutos secos o aceites vegetales insaturados.</string>
+    <string name="nutrition_protein_title">Fíjate en las proteínas</string>
+    <string name="nutrition_protein_body">En calorías ya estás cerca del objetivo, pero las proteínas registradas no llegan a la mitad de la referencia diaria de la aplicación. En la próxima comida puedes añadir legumbres, pescado, huevos, tofu o lácteos.</string>
+    <string name="nutrition_source">NHS / OMS; los umbrales de los avisos los fija la aplicación</string>
+    <!-- Abreviaturas de una letra de los macros en la fila de comida; cada una se toca y dice su palabra completa. -->
+    <string name="food_macro_letter_protein">P</string>
+    <string name="food_macro_letter_fat">G</string>
+    <string name="food_macro_letter_carbs">C</string>
+</resources>

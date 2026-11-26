@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Étape %1$d sur %2$d</string>
+    <string name="lab_add_type_title">Type d’examen</string>
+    <string name="lab_add_choose_one">Choisissez une option. L’étape suivante en dépend.</string>
+    <string name="lab_add_method_title">Comment souhaitez-vous ajouter les résultats ?</string>
+    <string name="lab_add_manual">Saisie manuelle</string>
+    <string name="lab_add_manual_body">Saisissez vous-même les valeurs</string>
+    <string name="lab_add_file">Choisir un fichier</string>
+    <string name="lab_add_file_body">Une photo ou un PDF déjà sur ce téléphone</string>
+    <string name="lab_add_photo">Prendre une photo</string>
+    <string name="lab_add_photo_body">Photographiez le compte rendu</string>
+    <string name="lab_add_manual_title">Saisissez les résultats</string>
+    <string name="lab_add_check_title">Vérifiez les résultats</string>
+    <string name="lab_add_file_title">Ajoutez un fichier</string>
+    <string name="lab_add_file_lead">Une photo du compte rendu ou un PDF de 20 pages et 32 Mo maximum. Vous pouvez choisir plusieurs fichiers à la fois.</string>
+    <string name="lab_add_document_lead">Une photo ou un PDF du compte rendu.</string>
+    <string name="lab_add_allergy">Panel d’allergènes</string>
+    <string name="lab_add_file_hint">Touchez pour choisir un fichier sur ce téléphone</string>
+    <string name="lab_add_photo_title">Prenez une photo</string>
+    <string name="lab_add_photo_lead">Posez la feuille à plat, bien éclairée, et cadrez-la en entier.</string>
+    <string name="lab_add_photo_hint">L’appareil photo du téléphone s’ouvrira</string>
+    <string name="lab_add_study_day">Date de l’examen : %1$s</string>
+    <string name="lab_add_done_title">Résultats ajoutés</string>
+    <string name="lab_add_done_already">Résultats déjà enregistrés</string>
+    <string name="lab_add_done_attached">Fichier ajouté aux résultats enregistrés</string>
+    <string name="lab_add_done_body">Enregistrés sur ce téléphone.</string>
+    <string name="lab_add_open_results">Ouvrir les résultats</string>
+    <string name="lab_add_more">Ajouter d’autres résultats</string>
+</resources>

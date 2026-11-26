@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">البدء حسب الموقع</string>
+    <string name="work_place_help_what">احفظ المكان الذي تعمل فيه، فيبدأ مؤقت العمل عندما يكون هاتفك هناك. في كل فحص يُؤخذ موقع واحد من خدمة الموقع الخاصة بـ Android، ويُقارَن بالنقطة المحفوظة ثم يُنسى. ولا تُحفظ النقطة إلا من موقع دقيق في حدود 100 م. ولا يُحتفظ إلا بالنقطة المحفوظة ونصف قطرها وجلساتك، على هذا الهاتف. ولا يُرسَل شيء إلى أي مكان.</string>
+    <string name="work_place_help_when">تجري الفحوص كل 10 دقائق، وفقط ضمن نافذة في كل يوم عمل. تُفتح النافذة عند استيقاظك: نهاية سجل نومك أو أول استخدام للهاتف بعد الليل، إن كان التطبيق يرى أيًّا منهما. وأول استخدام للهاتف قبل %4$s يُحتسب من %4$s، ما لم يُظهر سجل نومك استيقاظًا أبكر أو تبدأ ساعاتك المعتادة أبكر. وإن لم يرَ التطبيق أيًّا منهما، يبدأ الصباح في %1$s. وإن كان يرى أحدهما لكنه لم يرَ استيقاظك بعد، فإنه ينتظر حتى %2$s على الأكثر. وبمجرد أن تضم الأسابيع الأربعة الأخيرة 3 جلسات على الأقل بدأت في أيام عمل، دون احتساب تلك التي أوقفها المؤقت من تلقاء نفسه، تُفتح النافذة قبل ساعة من بدايتك المعتادة، ولا تُفتح أبدًا قبل استيقاظك، وتُغلق بعد ساعة من نهايتك المعتادة. وحتى ذلك الحين تُغلق في %3$s. ولا فحوص في أيام عطلتك. وقبل أن تُفتح النافذة، لا ينظر التطبيق إلا في ما إذا كنت قد استيقظت، وهذا لا يتطلب أخذ أي موقع.</string>
+    <string name="work_place_help_leave">إن كنت بعيدًا في فحصين متتاليين، تتوقف الجلسة التي بدأها التطبيق، وتنتهي عند آخر فحص وجدك هناك. أما الجلسة التي بدأتها بنفسك فلا تتوقف بهذه الطريقة أبدًا. وما دامت جلسة بدأها التطبيق جارية، تستمر الفحوص بعد إغلاق النافذة، حتى منتصف الليل على الأكثر.</string>
+    <string name="work_place_help_yours">يصحب كل بدء وإيقاف تلقائي إشعارٌ تستطيع منه التراجع عنه: عن البدء حتى نهاية اليوم ما دمت لم تغيّر الجلسة بنفسك، وعن الإيقاف لمدة ساعة ما دام المؤقت لم يُشغَّل منذ ذلك الحين. وبمجرد أن تضغط بنفسك «بدء» أو «إيقاف مؤقت» أو «استئناف» أو «إيقاف»، أو تتراجع، لا يبدأ التطبيق شيئًا آخر في ذلك اليوم.</string>
+    <string name="work_place_help_access">لهذا يجب أن يسمح Android بالموقع الدقيق طوال الوقت وبالمنبّهات الدقيقة. وما دام المفتاح مُطفأً، لا يُؤخذ أي موقع لهذا الغرض.</string>
+    <string name="work_place_save">حفظ موقعي الحالي</string>
+    <string name="work_place_locating">جارٍ تحديد موقعك…</string>
+    <string name="work_place_no_fix">تعذّر تحديد الموقع</string>
+    <string name="work_place_rough_fix">الموقع غير دقيق بما يكفي. جرّب قرب نافذة</string>
+    <string name="work_place_point">مكان عملك</string>
+    <string name="work_place_saved">حُفظ %1$s</string>
+    <string name="work_place_saved_within">حُفظ %1$s · بدقة %2$d م</string>
+    <string name="work_place_move">نقله إلى موقعي الحالي</string>
+    <string name="work_place_remove">إزالة مكان العمل</string>
+    <string name="work_place_radius">يُعدّ هناك ضمن</string>
+    <string name="work_place_radius_value">%1$d م</string>
+    <string name="work_place_switch">بدء المؤقت عند وصولي</string>
+    <string name="work_place_access_precise_title">الموقع الدقيق</string>
+    <string name="work_place_access_precise_body">الموقع التقريبي دقيق فقط إلى نحو 1.6 كم، وهذا أوسع من أي مكان عمل. والنقطة والفحوص تحتاج إلى الموقع الدقيق.</string>
+    <string name="work_place_access_background_title">الموقع طوال الوقت</string>
+    <string name="work_place_access_background_body">يستخدم PWN.Health موقعك في الخلفية لبدء مؤقت العمل وإيقافه عندما تصل إلى مكان عملك أو تغادره، حتى عندما يكون التطبيق مغلقًا. ويُجري فحصًا كل 10 دقائق، فقط بين صباحك ومسائك في أيام العمل، وتبقى المواقع على هذا الهاتف. في الشاشة التالية، اختر «السماح طوال الوقت».</string>
+    <string name="work_place_access_exact_title">المنبّهات والتذكيرات</string>
+    <string name="work_place_access_exact_body">وحده المنبّه الدقيق يستطيع إيقاظ التطبيق لإجراء فحص وهو مغلق. ويحتفظ Android بهذا الإذن في شاشة «المنبّهات والتذكيرات» الخاصة به.</string>
+    <string name="work_place_access_notifications_title">الإشعارات</string>
+    <string name="work_place_access_notifications_body">يُبلَّغ عن كل بدء وإيقاف تلقائي في إشعار فيه «تراجع»، على قناة «%1$s». ودونه يظل المؤقت يبدأ ويتوقف، لكن لا يبقى مكان للتراجع منه.</string>
+    <string name="work_place_next_today">الفحص التالي اليوم في %1$s</string>
+    <string name="work_place_next_tomorrow">الفحص التالي غدًا في %1$s</string>
+    <string name="work_place_next_day">الفحص التالي: %1$s في %2$s</string>
+    <string name="work_place_next_none">لا فحص مخطَّط له في الأسبوع القادم.</string>
+    <string name="work_place_started_title">بدأ مؤقت العمل</string>
+    <string name="work_place_started_body">هاتفك في مكان عملك. بدأ في %1$s.</string>
+    <string name="work_place_stopped_title">توقف مؤقت العمل</string>
+    <string name="work_place_stopped_body">كنت بعيدًا عن مكان عملك في فحصين متتاليين. تنتهي الجلسة في %1$s، وهو آخر فحص وجدك هناك.</string>
+    <string name="work_place_stopped_short">كنت بعيدًا عن مكان عملك في فحصين متتاليين بعد فحص واحد فقط وجدك هناك، لذا لم يُحفظ شيء.</string>
+    <string name="work_place_undo">تراجع</string>
+    <string name="work_place_channel">فحوص مكان العمل</string>
+    <string name="work_place_notice_channel">مؤقت العمل التلقائي</string>
+    <string name="work_place_checking">جارٍ التحقق مما إذا كنت في العمل</string>
+</resources>

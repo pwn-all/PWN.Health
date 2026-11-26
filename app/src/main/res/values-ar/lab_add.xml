@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">الخطوة %1$d من %2$d</string>
+    <string name="lab_add_type_title">نوع الفحص</string>
+    <string name="lab_add_choose_one">اختر خيارًا واحدًا. الخطوة التالية تعتمد عليه.</string>
+    <string name="lab_add_method_title">كيف تريد إضافة النتائج؟</string>
+    <string name="lab_add_manual">إدخال يدوي</string>
+    <string name="lab_add_manual_body">أدخل القيم بنفسك</string>
+    <string name="lab_add_file">اختيار ملف</string>
+    <string name="lab_add_file_body">صورة أو PDF من هذا الهاتف</string>
+    <string name="lab_add_photo">التقاط صورة</string>
+    <string name="lab_add_photo_body">صوّر ورقة النتائج</string>
+    <string name="lab_add_manual_title">إدخال النتائج</string>
+    <string name="lab_add_check_title">التحقق من النتائج</string>
+    <string name="lab_add_file_title">إضافة ملف</string>
+    <string name="lab_add_file_lead">صورة للورقة، أو ملف PDF حتى 20 صفحة و32 ميغابايت. يمكن اختيار عدة ملفات دفعة واحدة.</string>
+    <string name="lab_add_document_lead">صورة للتقرير أو نسخة PDF منه.</string>
+    <string name="lab_add_allergy">لوحة الحساسية</string>
+    <string name="lab_add_file_hint">انقر لاختيار ملف من هذا الهاتف</string>
+    <string name="lab_add_photo_title">التقاط صورة</string>
+    <string name="lab_add_photo_lead">ضع الورقة على سطح مستوٍ في إضاءة جيدة، بحيث تظهر كاملةً في الإطار.</string>
+    <string name="lab_add_photo_hint">ستُفتح كاميرا الهاتف</string>
+    <string name="lab_add_study_day">تاريخ الفحص: %1$s</string>
+    <string name="lab_add_done_title">أُضيفت النتائج</string>
+    <string name="lab_add_done_already">النتائج محفوظة مسبقًا</string>
+    <string name="lab_add_done_attached">أُضيف الملف إلى النتائج المحفوظة</string>
+    <string name="lab_add_done_body">محفوظة على هذا الهاتف.</string>
+    <string name="lab_add_open_results">فتح النتائج</string>
+    <string name="lab_add_more">إضافة نتائج أخرى</string>
+</resources>

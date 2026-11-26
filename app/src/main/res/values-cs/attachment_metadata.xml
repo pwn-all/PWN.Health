@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Popsat přílohu</string>
+    <string name="attachment_details_hint">Vyberte, co tento soubor obsahuje. Podle jeho názvu a formátu se vyšetření určit nedá. Typ můžete nechat neurčený.</string>
+    <string name="attachment_description">Popis nebo oblast těla</string>
+    <string name="attachment_study_day">Datum vyšetření (nepovinné)</string>
+    <string name="attachment_study_day_clear">Odebrat datum</string>
+    <string name="attachment_kind_unknown">Typ neurčen</string>
+    <string name="attachment_kind_ct">CT</string>
+    <string name="attachment_kind_mri">MR</string>
+    <string name="attachment_kind_ultrasound">Ultrazvuk</string>
+    <string name="attachment_kind_xray">Rentgen</string>
+    <string name="attachment_kind_doppler">Dopplerovský ultrazvuk</string>
+    <string name="attachment_kind_lab">Laboratorní výsledky</string>
+    <string name="attachment_kind_prescription">Recept</string>
+    <string name="attachment_kind_other">Jiný dokument</string>
+    <string name="attachment_catalog_note">Původní přiložené soubory jsou součástí tohoto archivu ZIP. Typy vyšetření, data a popisy doplnil pacient.</string>
+</resources>

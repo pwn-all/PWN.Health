@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Baca foto atau PDF</string>
+    <string name="lab_import_review">Cocokkan tanggal, nilai, dan satuan dengan dokumen asli. Hanya kolom kosong yang diisi. Hasil disimpan setelah formulir disimpan.</string>
+    <string name="lab_import_empty">Hasil yang didukung tidak dikenali. Coba gambar lebih jelas atau masukkan secara manual.</string>
+    <string name="lab_import_veterinary">Ini tampaknya hasil pemeriksaan hewan. Tidak dapat mengisi hasil laboratorium manusia.</string>
+    <string name="lab_import_error">File tidak terbaca. Pilih gambar atau PDF tanpa sandi (maksimal 20 halaman, 32 MB).</string>
+    <string name="lab_import_password">PDF ini dilindungi. Masukkan sandinya untuk membacanya.</string>
+    <string name="lab_import_date_unknown">Tanggal pengambilan tidak dikenali. Periksa tanggal pada formulir.</string>
+    <string name="lab_import_date_conflict">Halaman ini memiliki tanggal berbeda. Simpan atau hapus hasil saat ini terlebih dahulu.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Penanda belum terbaca: %1$d</string>
+</resources>

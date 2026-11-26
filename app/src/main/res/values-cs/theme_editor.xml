@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Motiv</string>
+    <string name="theme_description">Barvy rozhraní a ikon pro světlý a tmavý motiv</string>
+    <string name="theme_light">Světlý</string>
+    <string name="theme_dark">Tmavý</string>
+    <string name="theme_saved_note">Každá paleta se ukládá zvlášť. Aplikace se řídí světlým nebo tmavým motivem vašeho zařízení.</string>
+    <string name="theme_preview">Náhled</string>
+    <string name="theme_main_accent">Hlavní akcent</string>
+    <string name="theme_accent_container">Pozadí akcentu</string>
+    <string name="theme_secondary">Vedlejší akcent</string>
+    <string name="theme_secondary_container">Vedlejší pozadí</string>
+    <string name="theme_tertiary">Třetí akcent</string>
+    <string name="theme_tertiary_container">Pozadí třetího akcentu</string>
+    <string name="theme_background">Pozadí stránky</string>
+    <string name="theme_surface">Karty</string>
+    <string name="theme_text">Hlavní text</string>
+    <string name="theme_muted_text">Vedlejší text</string>
+    <string name="theme_border">Ohraničení</string>
+    <string name="theme_icons">Ikony</string>
+    <string name="theme_icon">Hlavní barva ikon</string>
+    <string name="theme_icon_mid">Vedlejší barva ikon</string>
+    <string name="theme_icon_light">Světlé detaily ikon</string>
+    <string name="theme_brightness">Jas</string>
+    <string name="theme_hex">Kód HEX</string>
+    <string name="theme_hex_error">Zadejte 6 šestnáctkových číslic, například #7094EE.</string>
+    <string name="theme_update_all">Aktualizovat všechny barvy</string>
+    <string name="theme_update_all_body">Vytvoří všechny ostatní barvy této palety z hlavního akcentu a přepíše ruční úpravy.</string>
+    <string name="theme_reset">Obnovit motiv</string>
+    <string name="theme_reset_light_body">Obnovit výchozí barvy rozhraní a ikon pro světlý motiv? Tmavý motiv zůstane beze změny.</string>
+    <string name="theme_reset_dark_body">Obnovit výchozí barvy rozhraní a ikon pro tmavý motiv? Světlý motiv zůstane beze změny.</string>
+    <string name="theme_wheel">Barevné kolo</string>
+    <string name="theme_wheel_value">Odstín %1$d°, sytost %2$d%%</string>
+    <string name="theme_next_hue">Další odstín</string>
+    <string name="theme_previous_hue">Předchozí odstín</string>
+    <string name="theme_more_saturation">Zvýšit sytost</string>
+    <string name="theme_less_saturation">Snížit sytost</string>
+</resources>

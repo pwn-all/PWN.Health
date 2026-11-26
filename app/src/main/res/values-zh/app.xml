@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings, style and colour in one file. -->
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="other">今天 %1$d 步</item>
+    </plurals>
+    <string name="channel_name">步数统计</string>
+
+    <!-- Sensor / motion gate screen -->
+    <string name="sensors_title">传感器</string>
+    <string name="wave_title">最近 6 秒的加速度幅值</string>
+    <string name="gate_open">闸门开启 — 步数正在计入</string>
+    <string name="gate_blocked">闸门关闭 — 步数正被丢弃</string>
+    <string name="field_motion">运动</string>
+    <string name="field_posture">姿态</string>
+    <string name="field_energy">能量（标准差）</string>
+    <string name="field_cadence">步频</string>
+    <string name="field_periodicity">步态周期性</string>
+    <string name="field_tilt">相对水平的倾角</string>
+    <string name="field_screen">屏幕</string>
+    <string name="field_axes">加速度 x / y / z</string>
+    <string name="field_raw_counter">传感器原始计数</string>
+    <string name="field_credited">本次会话已计入</string>
+    <string name="field_rejected">本次会话已剔除</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+
+    <!-- Sensor trace recording -->
+    <string name="trace_title">录制传感器轨迹</string>
+    <string name="trace_body">开始录制，走一段，停止，然后保存。每一个加速度计采样、每一次闸门判定和每一个计步决策都会按顺序写进 CSV 文件。在你选定保存位置之前，没有任何内容离开设备。</string>
+    <string name="trace_rows">已录制行数</string>
+    <string name="trace_dropped">已丢弃（最旧的）</string>
+    <string name="trace_recording">正在录制…</string>
+    <string name="trace_start">开始录制</string>
+    <string name="trace_stop">停止</string>
+    <string name="trace_save">保存 CSV</string>
+    <string name="trace_saved">轨迹已保存。</string>
+    <string name="trace_error">保存出错：%1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+
+    <!-- Track recording -->
+    <string name="track_title">路线</string>
+    <string name="track_start">开始录制</string>
+    <string name="track_stop">停止录制</string>
+    <string name="track_distance">%1$.2f 公里</string>
+    <string name="track_distance_miles">%1$.2f 英里</string>
+    <string name="recording_distance">正在录制 — %1$s</string>
+    <string name="waiting_for_fix">正在等待定位…</string>
+    <string name="track_total_route">整条路线</string>
+    <string name="track_walking_counted">步行</string>
+    <string name="track_running">跑步</string>
+    <string name="track_vehicle">车行</string>
+    <string name="track_speed_now">当前速度</string>
+    <string name="track_speed_max">最高速度</string>
+    <string name="track_speed_value">%1$.1f 公里/小时</string>
+    <string name="track_speed_value_mph">%1$.1f 英里/小时</string>
+    <string name="track_stops">停顿</string>
+    <string name="track_stops_value">%1$d 次 · %2$d 分钟</string>
+    <string name="track_elevation_gain">高度 ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f 米</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f 英尺</string>
+    <string name="track_telemetry">路线遥测数据</string>
+    <string name="track_gps_points">GPS 点</string>
+    <string name="track_raw_gps_points">已保存的全部 GPS 点</string>
+    <string name="track_rejected_points">已修正/已剔除的点</string>
+    <string name="track_last_filter_reason">最近一次 GPS 修正</string>
+    <string name="track_filter_none">无</string>
+    <string name="track_filter_low_accuracy">精度不足</string>
+    <string name="track_filter_stale_fix">定位已过时</string>
+    <string name="track_filter_jump">未确认的跳点</string>
+    <string name="track_filter_speed">速度不合理</string>
+    <string name="track_filter_time_order">时间顺序错乱</string>
+    <string name="track_gps_accuracy">GPS 精度</string>
+    <string name="track_accuracy_value">±%1$.0f 米</string>
+    <string name="track_accuracy_value_ft">±%1$.0f 英尺</string>
+    <string name="track_movement">移动方式</string>
+    <string name="track_movement_walking">步行</string>
+    <string name="track_movement_running">跑步</string>
+    <string name="track_movement_vehicle">车行</string>
+    <string name="track_movement_stopped">停止</string>
+    <string name="track_movement_unknown">判定中…</string>
+    <string name="track_altitude">海拔</string>
+    <string name="track_altitude_value">%1$.0f 米 · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f 英尺 · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">气压</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">环境温度</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">环境突变</string>
+    <string name="track_sensor_unavailable">没有该传感器</string>
+    <string name="track_environment_note">气压高度以第一个 GPS 海拔为基准校准。手机上的温度传感器很少见，读数还可能受设备发热影响。</string>
+    <string name="track_showing_last">显示的是最近一条完成的路线。开始录制即可新建一条。</string>
+    <string name="track_history">已保存的路线</string>
+    <string name="track_history_note">路线和完整的传感器遥测数据都保存在本地，并包含在数据导出中。</string>
+    <plurals name="track_history_points">
+        <item quantity="other">%1$d 个采纳的点</item>
+    </plurals>
+</resources>

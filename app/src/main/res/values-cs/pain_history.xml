@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">Historie bolesti</string>
+    <string name="pain_history_empty">Zatím žádné záznamy bolesti.</string>
+    <string name="pain_history_onset_just_now">začala v okamžiku zápisu</string>
+    <string name="pain_history_onset_earlier_today">začala téhož dne</string>
+    <string name="pain_history_onset_yesterday">začala den předtím</string>
+    <string name="pain_history_onset_days_2_3">začala 2–3 dny předtím</string>
+    <string name="pain_history_onset_about_week">začala asi týden předtím</string>
+    <string name="pain_history_onset_about_month">začala asi měsíc předtím</string>
+    <string name="pain_history_onset_more_than_month">začala více než měsíc předtím</string>
+    <string name="pain_history_onset_week">začala 4 dny až 3 měsíce předtím</string>
+    <string name="pain_history_onset_months_3">začala více než 3 měsíce předtím</string>
+    <string name="pain_history_same">stejná bolest jako %1$s</string>
+    <string name="pain_history_still_hurts">při zápisu ještě bolela</string>
+    <string name="pain_history_lasted">trvala %1$s</string>
+</resources>

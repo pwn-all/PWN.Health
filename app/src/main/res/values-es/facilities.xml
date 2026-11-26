@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Lugares cerca de mí</string>
+    <string name="facility_locating">Buscando tu ubicación…</string>
+    <string name="facility_denied">No se ha permitido el acceso a la ubicación, así que la lista no se puede ordenar por distancia. Aun así, puedes escribir un nombre.</string>
+    <string name="facility_location_off">La ubicación está desactivada en este teléfono.</string>
+    <string name="facility_location_settings">Ajustes de ubicación</string>
+    <string name="facility_no_fix">El teléfono no ha podido saber dónde estás en este momento. Vuelve a intentarlo dentro de un rato.</string>
+    <string name="facility_nothing_near">No hay nada en la lista a menos de %1$s de ti.</string>
+    <string name="facility_list_title">Clínicas y hospitales</string>
+    <string name="facility_near_title">Cerca de ti</string>
+    <string name="facility_near_kind">Cerca de ti: %1$s</string>
+    <string name="facility_near_gynaecology">Cerca de ti: ginecología</string>
+    <string name="facility_near_imaging">Cerca de ti: diagnóstico por imagen</string>
+    <string name="facility_near_gastroenterology">Cerca de ti: aparato digestivo</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">De dónde salen estos lugares</string>
+    <string name="facility_help_what">Las sugerencias proceden de registros oficiales de centros sanitarios. La lista se guarda dentro de la app y las búsquedas se hacen en este teléfono. Para la app, los registros se filtraron para dejar los lugares a los que puede acudir un paciente, y sus tipos de atención se reagruparon en los tipos de médico que conoce la app. El botón de ubicación al final del campo «Lugar» muestra solo los lugares que ofrecen la atención elegida para esta visita, o todos cuando la visita es a otro médico; al escribir un nombre se busca en la lista entera.</string>
+    <string name="facility_help_screening">Para un cribado, la lista muestra los servicios donde suele hacerse: ginecología para el cribado de cuello de útero, diagnóstico por imagen para la mamografía y aparato digestivo para el cribado de colon. Un registro no indica si un servicio hace ese cribado por sí mismo, así que pregúntalo al pedir cita.</string>
+    <string name="facility_help_coverage">La lista abarca Chequia, Ucrania y los Emiratos Árabes Unidos. En Ucrania solo incluye los centros que tienen contrato con el Servicio Nacional de Salud de Ucrania. En los Emiratos incluye el registro de Dubái en su edición de diciembre de 2023, los centros con licencia de Abu Dabi, tal como figuraban en el mapa en 2022 y siguen figurando en 2026, y los hospitales y centros de salud públicos de Emirates Health Services; las clínicas privadas de Sarja, Ajmán, Umm al Qaywayn, Ras al Jaima y Fuyaira no están en la lista. Un registro puede estar desactualizado: confírmalo con el centro antes de ir.</string>
+    <string name="facility_help_location">El botón de ubicación pide una vez a Android tu ubicación aproximada y la redondea a un kilómetro más o menos. Se usa en este teléfono para ordenar la lista, nunca se guarda ni se envía a ninguna parte y se olvida cuando sales de esta página.</string>
+    <string name="facility_help_sources">Fuentes</string>
+</resources>

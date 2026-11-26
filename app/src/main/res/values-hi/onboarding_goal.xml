@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">रोज़ के क़दम</string>
+    <string name="onboarding_steps_body">ऐसा लक्ष्य चुनें जिसे आप निभाना चाहते हैं। 500 वयस्कों पर हुए एक परीक्षण में ज़्यादा सिर्फ़ वही लोग चले जिन्होंने लक्ष्य ख़ुद चुना था। इसे प्रोफ़ाइल में कभी भी बदला जा सकता है।</string>
+    <string name="onboarding_steps_suggested">आपकी उम्र के लिए सुझाव: %1$s</string>
+    <string name="onboarding_steps_use_suggested">सुझाव अपनाएँ</string>
+    <string name="onboarding_steps_distance">आपके क़दम की लंबाई से रोज़ लगभग %1$s</string>
+    <string name="onboarding_bmi_source">WHO के वयस्क दायरे</string>
+    <string name="onboarding_ready_steps">रोज़ का क़दम लक्ष्य</string>
+    <string name="onboarding_ready_resting">आराम की ऊर्जा</string>
+    <string name="onboarding_ready_kcal_day">रोज़ %1$s kcal</string>
+    <string name="onboarding_ready_local">आपके जवाबों से इसी फ़ोन पर निकाला गया: आराम की ऊर्जा Mifflin–St Jeor से, BMI WHO के वयस्क दायरों से। कुछ भी कहीं नहीं भेजा गया।</string>
+</resources>

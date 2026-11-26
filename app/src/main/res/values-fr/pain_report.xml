@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Ce qui a été colorié ces 30 derniers jours, et combien de jours chaque zone a fait mal</string>
+    <string name="pain_paint_hint">Coloriez là où ça fait mal, et écartez deux doigts pour zoomer. Un mal de dos et un mal au genou font deux entrées.</string>
+    <string name="pain_head_note">Le dessin commence au cou : pour un mal de tête, choisissez la zone dans « Ajouter une zone ».</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">%1$d entrée dessinée. Chaque marque est dessinée là où la personne l’a coloriée, plus foncée là où les entrées se chevauchent. Les zones choisies dans une liste sans coloriage ne sont pas dessinées.</item>
+        <item quantity="many">%1$d entrées dessinées. Chaque marque est dessinée là où la personne l’a coloriée, plus foncée là où les entrées se chevauchent. Les zones choisies dans une liste sans coloriage ne sont pas dessinées.</item>
+        <item quantity="other">%1$d entrées dessinées. Chaque marque est dessinée là où la personne l’a coloriée, plus foncée là où les entrées se chevauchent. Les zones choisies dans une liste sans coloriage ne sont pas dessinées.</item>
+    </plurals>
+</resources>

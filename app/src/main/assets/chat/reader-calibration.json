@@ -1,0 +1,5940 @@
+{
+ "temperatures": {
+  "topics": 1.3857,
+  "safety": 1.896,
+  "unwell_lean": 4.8326,
+  "about": 0.624,
+  "question": 1.2674,
+  "small_talk": 0.6131,
+  "mood_kind": 0.6012,
+  "mood_flags": 2.5385,
+  "lang": 0.5797,
+  "oos": 1.8437,
+  "pain_types": 1.4149,
+  "pain_noticed": 0.4838,
+  "pain_status": 0.5351,
+  "pain_same": 0.3993,
+  "pain_signs": 1.2364,
+  "injury": 1.6416,
+  "painkiller": 1.5335,
+  "place_family": 2.6095,
+  "place_area": 2.3626,
+  "side": 2.0462,
+  "qualifiers": 1.9883,
+  "symptom_topic": 1.7098,
+  "number_class": 2.1397,
+  "nrs": 2.164,
+  "medicine_entry": 2.0424,
+  "medicine_class": 2.6833,
+  "medicine_role": 2.4587,
+  "negated": 1.3305,
+  "time_expr": 2.6548,
+  "time_count": 2.4086,
+  "weekday": 2.7195,
+  "intensity": 2.1545,
+  "mood_valence": 2.4941,
+  "subject": 2.2389,
+  "topical": 2.7515
+ },
+ "temperature_not_fitted": [],
+ "safety_temperatures_by_lang": {},
+ "thresholds": {
+  "safety": {
+   "CRISIS": 0.08,
+   "UNRESPONSIVE": 0.33,
+   "BREATHING": 0.08,
+   "CHEST": 0.05,
+   "STROKE": 0.06,
+   "BLOOD": 0.35,
+   "OVERDOSE": 0.35
+  },
+  "safety_by_lang": {
+   "CRISIS": {
+    "ar": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9333,
+     "wilson_lower": 0.8621,
+     "positives": 90,
+     "false_alarm_ordinary": 0.0198,
+     "false_alarm_hard": 0.0615,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0198,
+       "n": 3592,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0615,
+       "n": 65,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "cs": {
+     "threshold": 0.08,
+     "promise": false,
+     "recall": 0.7982,
+     "wilson_lower": 0.7133,
+     "positives": 109,
+     "false_alarm_ordinary": 0.0186,
+     "false_alarm_hard": 0.0577,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0186,
+       "n": 3438,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0577,
+       "n": 52,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "de": {
+     "threshold": 0.1,
+     "promise": false,
+     "recall": 0.911,
+     "wilson_lower": 0.8536,
+     "positives": 146,
+     "false_alarm_ordinary": 0.0195,
+     "false_alarm_hard": 0.0702,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0195,
+       "n": 3637,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0702,
+       "n": 57,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "en": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.976,
+     "wilson_lower": 0.94,
+     "positives": 167,
+     "false_alarm_ordinary": 0.012,
+     "false_alarm_hard": 0.0278,
+     "budget": {
+      "ordinary": {
+       "rate": 0.012,
+       "n": 3923,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0278,
+       "n": 72,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "es": {
+     "threshold": 0.1,
+     "promise": true,
+     "recall": 0.9805,
+     "wilson_lower": 0.9443,
+     "positives": 154,
+     "false_alarm_ordinary": 0.0133,
+     "false_alarm_hard": 0.0152,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0133,
+       "n": 3687,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0152,
+       "n": 66,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "fr": {
+     "threshold": 0.07,
+     "promise": false,
+     "recall": 0.9612,
+     "wilson_lower": 0.9044,
+     "positives": 103,
+     "false_alarm_ordinary": 0.0182,
+     "false_alarm_hard": 0.0118,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0182,
+       "n": 3691,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0118,
+       "n": 85,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "hi": {
+     "threshold": 0.35,
+     "promise": false,
+     "recall": 0.9381,
+     "wilson_lower": 0.8776,
+     "positives": 113,
+     "false_alarm_ordinary": 0.0116,
+     "false_alarm_hard": 0.1034,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0116,
+       "n": 3357,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.1034,
+       "n": 29,
+       "limit": 0.1,
+       "status": "not measured"
+      }
+     },
+     "why": "over its false-alarm budget at every threshold up to 0.35: it keeps 0.35 and promises nothing (the app reads a threshold and a promise per language)",
+     "over_budget_everywhere": true
+    },
+    "id": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9913,
+     "wilson_lower": 0.9524,
+     "positives": 115,
+     "false_alarm_ordinary": 0.0038,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0038,
+       "n": 3392,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 48,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "it": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9571,
+     "wilson_lower": 0.914,
+     "positives": 163,
+     "false_alarm_ordinary": 0.0101,
+     "false_alarm_hard": 0.0161,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0101,
+       "n": 3362,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0161,
+       "n": 62,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ja": {
+     "threshold": 0.08,
+     "promise": true,
+     "recall": 0.9817,
+     "wilson_lower": 0.9356,
+     "positives": 109,
+     "false_alarm_ordinary": 0.017,
+     "false_alarm_hard": 0.0303,
+     "budget": {
+      "ordinary": {
+       "rate": 0.017,
+       "n": 3185,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0303,
+       "n": 33,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ko": {
+     "threshold": 0.07,
+     "promise": false,
+     "recall": 0.8916,
+     "wilson_lower": 0.8066,
+     "positives": 83,
+     "false_alarm_ordinary": 0.0187,
+     "false_alarm_hard": 0.0263,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0187,
+       "n": 3095,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0263,
+       "n": 38,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "pl": {
+     "threshold": 0.08,
+     "promise": false,
+     "recall": 0.9583,
+     "wilson_lower": 0.9121,
+     "positives": 144,
+     "false_alarm_ordinary": 0.018,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.018,
+       "n": 3610,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 56,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "pt": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9388,
+     "wilson_lower": 0.8877,
+     "positives": 147,
+     "false_alarm_ordinary": 0.0186,
+     "false_alarm_hard": 0.0244,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0186,
+       "n": 3873,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0244,
+       "n": 82,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ru": {
+     "threshold": 0.11,
+     "promise": false,
+     "recall": 0.927,
+     "wilson_lower": 0.8708,
+     "positives": 137,
+     "false_alarm_ordinary": 0.0199,
+     "false_alarm_hard": 0.0167,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0199,
+       "n": 3767,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0167,
+       "n": 60,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "tr": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.8834,
+     "wilson_lower": 0.8251,
+     "positives": 163,
+     "false_alarm_ordinary": 0.0191,
+     "false_alarm_hard": 0.0152,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0191,
+       "n": 3717,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0152,
+       "n": 66,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "zh": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.963,
+     "positives": 100,
+     "false_alarm_ordinary": 0.0062,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0062,
+       "n": 3207,
+       "limit": 0.02,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 42,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    }
+   },
+   "UNRESPONSIVE": {
+    "ar": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9647,
+     "wilson_lower": 0.9013,
+     "positives": 85,
+     "false_alarm_ordinary": 0.0039,
+     "false_alarm_hard": 0.0152,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0039,
+       "n": 3596,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0152,
+       "n": 66,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "cs": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9767,
+     "wilson_lower": 0.9191,
+     "positives": 86,
+     "false_alarm_ordinary": 0.0009,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0009,
+       "n": 3427,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 86,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "de": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9572,
+     "positives": 86,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3669,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 85,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "en": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9519,
+     "positives": 76,
+     "false_alarm_ordinary": 0.0002,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0002,
+       "n": 4014,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 72,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "es": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9762,
+     "wilson_lower": 0.9173,
+     "positives": 84,
+     "false_alarm_ordinary": 0.0011,
+     "false_alarm_hard": 0.0116,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0011,
+       "n": 3737,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0116,
+       "n": 86,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "fr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.988,
+     "wilson_lower": 0.9349,
+     "positives": 83,
+     "false_alarm_ordinary": 0.0011,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0011,
+       "n": 3718,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 78,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "hi": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9552,
+     "positives": 82,
+     "false_alarm_ordinary": 0.0015,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0015,
+       "n": 3342,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 75,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "id": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.963,
+     "wilson_lower": 0.8967,
+     "positives": 81,
+     "false_alarm_ordinary": 0.0124,
+     "false_alarm_hard": 0.0122,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0124,
+       "n": 3392,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0122,
+       "n": 82,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "it": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.989,
+     "wilson_lower": 0.9404,
+     "positives": 91,
+     "false_alarm_ordinary": 0.0006,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0006,
+       "n": 3422,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 74,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ja": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9726,
+     "wilson_lower": 0.9055,
+     "positives": 73,
+     "false_alarm_ordinary": 0.0044,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0044,
+       "n": 3178,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 76,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ko": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9487,
+     "positives": 71,
+     "false_alarm_ordinary": 0.0003,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0003,
+       "n": 3072,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 73,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pl": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9586,
+     "positives": 89,
+     "false_alarm_ordinary": 0.0008,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0008,
+       "n": 3633,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 88,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pt": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9591,
+     "positives": 90,
+     "false_alarm_ordinary": 0.0005,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0005,
+       "n": 3936,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 76,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ru": {
+     "threshold": 0.33,
+     "promise": true,
+     "recall": 0.9767,
+     "wilson_lower": 0.9191,
+     "positives": 86,
+     "false_alarm_ordinary": 0.0011,
+     "false_alarm_hard": 0.0123,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0011,
+       "n": 3797,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0123,
+       "n": 81,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "tr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9582,
+     "positives": 88,
+     "false_alarm_ordinary": 0.0013,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0013,
+       "n": 3774,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 84,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "zh": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9855,
+     "wilson_lower": 0.9224,
+     "positives": 69,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3214,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 66,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    }
+   },
+   "BREATHING": {
+    "ar": {
+     "threshold": 0.12,
+     "promise": true,
+     "recall": 0.9722,
+     "wilson_lower": 0.9043,
+     "positives": 72,
+     "false_alarm_ordinary": 0.0025,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0025,
+       "n": 3612,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 63,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "cs": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9582,
+     "positives": 88,
+     "false_alarm_ordinary": 0.0032,
+     "false_alarm_hard": 0.0263,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0032,
+       "n": 3435,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0263,
+       "n": 76,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "de": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9881,
+     "wilson_lower": 0.9356,
+     "positives": 84,
+     "false_alarm_ordinary": 0.0038,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0038,
+       "n": 3698,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 58,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "en": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.988,
+     "wilson_lower": 0.9349,
+     "positives": 83,
+     "false_alarm_ordinary": 0.0015,
+     "false_alarm_hard": 0.0116,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0015,
+       "n": 3993,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0116,
+       "n": 86,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "es": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.957,
+     "wilson_lower": 0.8946,
+     "positives": 93,
+     "false_alarm_ordinary": 0.0072,
+     "false_alarm_hard": 0.0556,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0072,
+       "n": 3742,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0556,
+       "n": 72,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "fr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.99,
+     "wilson_lower": 0.9455,
+     "positives": 100,
+     "false_alarm_ordinary": 0.0024,
+     "false_alarm_hard": 0.0256,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0024,
+       "n": 3701,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0256,
+       "n": 78,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "hi": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9667,
+     "wilson_lower": 0.9065,
+     "positives": 90,
+     "false_alarm_ordinary": 0.0051,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0051,
+       "n": 3331,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 78,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "id": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9891,
+     "wilson_lower": 0.941,
+     "positives": 92,
+     "false_alarm_ordinary": 0.0018,
+     "false_alarm_hard": 0.0143,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0018,
+       "n": 3393,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0143,
+       "n": 70,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "it": {
+     "threshold": 0.22,
+     "promise": true,
+     "recall": 0.9894,
+     "wilson_lower": 0.9422,
+     "positives": 94,
+     "false_alarm_ordinary": 0.0032,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0032,
+       "n": 3434,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 59,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ja": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9882,
+     "wilson_lower": 0.9363,
+     "positives": 85,
+     "false_alarm_ordinary": 0.0025,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0025,
+       "n": 3166,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 76,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ko": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9775,
+     "wilson_lower": 0.9217,
+     "positives": 89,
+     "false_alarm_ordinary": 0.001,
+     "false_alarm_hard": 0.0196,
+     "budget": {
+      "ordinary": {
+       "rate": 0.001,
+       "n": 3076,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0196,
+       "n": 51,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pl": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9802,
+     "wilson_lower": 0.9307,
+     "positives": 101,
+     "false_alarm_ordinary": 0.003,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.003,
+       "n": 3637,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 72,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pt": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.972,
+     "wilson_lower": 0.9208,
+     "positives": 107,
+     "false_alarm_ordinary": 0.0033,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0033,
+       "n": 3916,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 79,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ru": {
+     "threshold": 0.08,
+     "promise": true,
+     "recall": 0.9798,
+     "wilson_lower": 0.9293,
+     "positives": 99,
+     "false_alarm_ordinary": 0.0058,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0058,
+       "n": 3798,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 67,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "tr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9794,
+     "wilson_lower": 0.9279,
+     "positives": 97,
+     "false_alarm_ordinary": 0.0013,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0013,
+       "n": 3773,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 76,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "zh": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9882,
+     "wilson_lower": 0.9363,
+     "positives": 85,
+     "false_alarm_ordinary": 0.0006,
+     "false_alarm_hard": 0.0147,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0006,
+       "n": 3196,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0147,
+       "n": 68,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    }
+   },
+   "CHEST": {
+    "ar": {
+     "threshold": 0.12,
+     "promise": true,
+     "recall": 0.9796,
+     "wilson_lower": 0.9286,
+     "positives": 98,
+     "false_alarm_ordinary": 0.0072,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0072,
+       "n": 3588,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 61,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "cs": {
+     "threshold": 0.06,
+     "promise": true,
+     "recall": 0.9722,
+     "wilson_lower": 0.9215,
+     "positives": 108,
+     "false_alarm_ordinary": 0.0094,
+     "false_alarm_hard": 0.0282,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0094,
+       "n": 3420,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0282,
+       "n": 71,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "de": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.5421,
+     "wilson_lower": 0.4478,
+     "positives": 107,
+     "false_alarm_ordinary": 0.0147,
+     "false_alarm_hard": 0.0938,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0147,
+       "n": 3669,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0938,
+       "n": 64,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "en": {
+     "threshold": 0.23,
+     "promise": true,
+     "recall": 0.97,
+     "wilson_lower": 0.9155,
+     "positives": 100,
+     "false_alarm_ordinary": 0.0015,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0015,
+       "n": 4003,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 59,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "es": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.8736,
+     "wilson_lower": 0.7876,
+     "positives": 87,
+     "false_alarm_ordinary": 0.0051,
+     "false_alarm_hard": 0.0159,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0051,
+       "n": 3757,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0159,
+       "n": 63,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "fr": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9439,
+     "wilson_lower": 0.883,
+     "positives": 107,
+     "false_alarm_ordinary": 0.0138,
+     "false_alarm_hard": 0.0244,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0138,
+       "n": 3690,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0244,
+       "n": 82,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "hi": {
+     "threshold": 0.05,
+     "promise": true,
+     "recall": 0.9794,
+     "wilson_lower": 0.9279,
+     "positives": 97,
+     "false_alarm_ordinary": 0.0193,
+     "false_alarm_hard": 0.012,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0193,
+       "n": 3319,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.012,
+       "n": 83,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "id": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.98,
+     "wilson_lower": 0.93,
+     "positives": 100,
+     "false_alarm_ordinary": 0.003,
+     "false_alarm_hard": 0.0135,
+     "budget": {
+      "ordinary": {
+       "rate": 0.003,
+       "n": 3381,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0135,
+       "n": 74,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "it": {
+     "threshold": 0.07,
+     "promise": false,
+     "recall": 0.8286,
+     "wilson_lower": 0.7452,
+     "positives": 105,
+     "false_alarm_ordinary": 0.0053,
+     "false_alarm_hard": 0.0877,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0053,
+       "n": 3425,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0877,
+       "n": 57,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ja": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9607,
+     "positives": 94,
+     "false_alarm_ordinary": 0.0038,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0038,
+       "n": 3172,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 61,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ko": {
+     "threshold": 0.06,
+     "promise": false,
+     "recall": 0.9762,
+     "wilson_lower": 0.9173,
+     "positives": 84,
+     "false_alarm_ordinary": 0.0251,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0251,
+       "n": 3071,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 61,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "meets the target at 0.11 within its false-alarm budget, but fails it at the flag's threshold 0.05, where a promise would put it: its own threshold, the lowest where the budget no longer fails, no promise"
+    },
+    "pl": {
+     "threshold": 0.05,
+     "promise": true,
+     "recall": 0.9712,
+     "wilson_lower": 0.9186,
+     "positives": 104,
+     "false_alarm_ordinary": 0.014,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.014,
+       "n": 3636,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 70,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pt": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.75,
+     "wilson_lower": 0.664,
+     "positives": 116,
+     "false_alarm_ordinary": 0.0109,
+     "false_alarm_hard": 0.0179,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0109,
+       "n": 3930,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0179,
+       "n": 56,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ru": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9655,
+     "wilson_lower": 0.9147,
+     "positives": 116,
+     "false_alarm_ordinary": 0.0063,
+     "false_alarm_hard": 0.0152,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0063,
+       "n": 3782,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0152,
+       "n": 66,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "tr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9907,
+     "wilson_lower": 0.9494,
+     "positives": 108,
+     "false_alarm_ordinary": 0.0037,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0037,
+       "n": 3770,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 68,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "zh": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9565,
+     "wilson_lower": 0.8935,
+     "positives": 92,
+     "false_alarm_ordinary": 0.006,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.006,
+       "n": 3193,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 64,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    }
+   },
+   "STROKE": {
+    "ar": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.961,
+     "wilson_lower": 0.8916,
+     "positives": 77,
+     "false_alarm_ordinary": 0.0142,
+     "false_alarm_hard": 0.013,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0142,
+       "n": 3593,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.013,
+       "n": 77,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "cs": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9694,
+     "wilson_lower": 0.9138,
+     "positives": 98,
+     "false_alarm_ordinary": 0.0117,
+     "false_alarm_hard": 0.075,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0117,
+       "n": 3421,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.075,
+       "n": 80,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "de": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9647,
+     "wilson_lower": 0.9013,
+     "positives": 85,
+     "false_alarm_ordinary": 0.019,
+     "false_alarm_hard": 0.0135,
+     "budget": {
+      "ordinary": {
+       "rate": 0.019,
+       "n": 3681,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0135,
+       "n": 74,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "en": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.925,
+     "wilson_lower": 0.8459,
+     "positives": 80,
+     "false_alarm_ordinary": 0.0078,
+     "false_alarm_hard": 0.0235,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0078,
+       "n": 3997,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0235,
+       "n": 85,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "es": {
+     "threshold": 0.07,
+     "promise": true,
+     "recall": 0.9796,
+     "wilson_lower": 0.9286,
+     "positives": 98,
+     "false_alarm_ordinary": 0.0078,
+     "false_alarm_hard": 0.0222,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0078,
+       "n": 3719,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0222,
+       "n": 90,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "fr": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.95,
+     "wilson_lower": 0.8784,
+     "positives": 80,
+     "false_alarm_ordinary": 0.011,
+     "false_alarm_hard": 0.0238,
+     "budget": {
+      "ordinary": {
+       "rate": 0.011,
+       "n": 3715,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0238,
+       "n": 84,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "hi": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9072,
+     "wilson_lower": 0.833,
+     "positives": 97,
+     "false_alarm_ordinary": 0.0123,
+     "false_alarm_hard": 0.0794,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0123,
+       "n": 3339,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0794,
+       "n": 63,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "id": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.961,
+     "wilson_lower": 0.8916,
+     "positives": 77,
+     "false_alarm_ordinary": 0.0129,
+     "false_alarm_hard": 0.025,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0129,
+       "n": 3398,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.025,
+       "n": 80,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "it": {
+     "threshold": 0.06,
+     "promise": true,
+     "recall": 0.9878,
+     "wilson_lower": 0.9341,
+     "positives": 82,
+     "false_alarm_ordinary": 0.0076,
+     "false_alarm_hard": 0.0435,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0076,
+       "n": 3413,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0435,
+       "n": 92,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ja": {
+     "threshold": 0.34,
+     "promise": false,
+     "recall": 0.963,
+     "wilson_lower": 0.8967,
+     "positives": 81,
+     "false_alarm_ordinary": 0.0022,
+     "false_alarm_hard": 0.0816,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0022,
+       "n": 3197,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0816,
+       "n": 49,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ko": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9865,
+     "wilson_lower": 0.9273,
+     "positives": 74,
+     "false_alarm_ordinary": 0.0013,
+     "false_alarm_hard": 0.0448,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0013,
+       "n": 3075,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0448,
+       "n": 67,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pl": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9495,
+     "wilson_lower": 0.8872,
+     "positives": 99,
+     "false_alarm_ordinary": 0.0118,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0118,
+       "n": 3632,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 79,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "pt": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9717,
+     "wilson_lower": 0.9201,
+     "positives": 106,
+     "false_alarm_ordinary": 0.0033,
+     "false_alarm_hard": 0.0267,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0033,
+       "n": 3921,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0267,
+       "n": 75,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ru": {
+     "threshold": 0.12,
+     "promise": true,
+     "recall": 0.97,
+     "wilson_lower": 0.9155,
+     "positives": 100,
+     "false_alarm_ordinary": 0.0063,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0063,
+       "n": 3781,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 83,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "tr": {
+     "threshold": 0.32,
+     "promise": true,
+     "recall": 0.9794,
+     "wilson_lower": 0.9279,
+     "positives": 97,
+     "false_alarm_ordinary": 0.0066,
+     "false_alarm_hard": 0.0571,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0066,
+       "n": 3779,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0571,
+       "n": 70,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "zh": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9868,
+     "wilson_lower": 0.9292,
+     "positives": 76,
+     "false_alarm_ordinary": 0.0019,
+     "false_alarm_hard": 0.0256,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0019,
+       "n": 3195,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0256,
+       "n": 78,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    }
+   },
+   "BLOOD": {
+    "ar": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9872,
+     "wilson_lower": 0.9309,
+     "positives": 78,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3615,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 54,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "cs": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9551,
+     "wilson_lower": 0.8901,
+     "positives": 89,
+     "false_alarm_ordinary": 0.0017,
+     "false_alarm_hard": 0.04,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0017,
+       "n": 3460,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.04,
+       "n": 50,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "de": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9875,
+     "wilson_lower": 0.9325,
+     "positives": 80,
+     "false_alarm_ordinary": 0.0016,
+     "false_alarm_hard": 0.0147,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0016,
+       "n": 3692,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0147,
+       "n": 68,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "en": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9519,
+     "positives": 76,
+     "false_alarm_ordinary": 0.0002,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0002,
+       "n": 4015,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 71,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "es": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9586,
+     "positives": 89,
+     "false_alarm_ordinary": 0.0003,
+     "false_alarm_hard": 0.0156,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0003,
+       "n": 3754,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0156,
+       "n": 64,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "fr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9634,
+     "positives": 101,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3715,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 63,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "hi": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9568,
+     "positives": 85,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3356,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 58,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "id": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9572,
+     "positives": 86,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0364,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3414,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0364,
+       "n": 55,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "it": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.963,
+     "wilson_lower": 0.8967,
+     "positives": 81,
+     "false_alarm_ordinary": 0.0009,
+     "false_alarm_hard": 0.0152,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0009,
+       "n": 3440,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0152,
+       "n": 66,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ja": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9519,
+     "positives": 76,
+     "false_alarm_ordinary": 0.0003,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0003,
+       "n": 3190,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 61,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ko": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.987,
+     "wilson_lower": 0.93,
+     "positives": 77,
+     "false_alarm_ordinary": 0.0007,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0007,
+       "n": 3072,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 67,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pl": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9787,
+     "wilson_lower": 0.9257,
+     "positives": 94,
+     "false_alarm_ordinary": 0.0003,
+     "false_alarm_hard": 0.0256,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0003,
+       "n": 3677,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0256,
+       "n": 39,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pt": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9558,
+     "positives": 83,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0143,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3949,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0143,
+       "n": 70,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ru": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9889,
+     "wilson_lower": 0.9397,
+     "positives": 90,
+     "false_alarm_ordinary": 0.0005,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0005,
+       "n": 3817,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 57,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "tr": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9659,
+     "wilson_lower": 0.9045,
+     "positives": 88,
+     "false_alarm_ordinary": 0.0013,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0013,
+       "n": 3801,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 57,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "zh": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9868,
+     "wilson_lower": 0.9292,
+     "positives": 76,
+     "false_alarm_ordinary": 0.0006,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0006,
+       "n": 3220,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 53,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    }
+   },
+   "OVERDOSE": {
+    "ar": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.945,
+     "positives": 66,
+     "false_alarm_ordinary": 0.0017,
+     "false_alarm_hard": 0.0714,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0017,
+       "n": 3597,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0714,
+       "n": 84,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "cs": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9625,
+     "wilson_lower": 0.8955,
+     "positives": 80,
+     "false_alarm_ordinary": 0.0023,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0023,
+       "n": 3430,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 89,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "de": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9664,
+     "wilson_lower": 0.9168,
+     "positives": 119,
+     "false_alarm_ordinary": 0.0022,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0022,
+       "n": 3629,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 92,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "en": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9792,
+     "wilson_lower": 0.9272,
+     "positives": 96,
+     "false_alarm_ordinary": 0.0,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0,
+       "n": 3971,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 95,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "es": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9875,
+     "wilson_lower": 0.9325,
+     "positives": 80,
+     "false_alarm_ordinary": 0.0003,
+     "false_alarm_hard": 0.0122,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0003,
+       "n": 3745,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0122,
+       "n": 82,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "fr": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.989,
+     "wilson_lower": 0.9404,
+     "positives": 91,
+     "false_alarm_ordinary": 0.0005,
+     "false_alarm_hard": 0.0115,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0005,
+       "n": 3701,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0115,
+       "n": 87,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "hi": {
+     "threshold": 0.16,
+     "promise": false,
+     "recall": 0.9577,
+     "wilson_lower": 0.883,
+     "positives": 71,
+     "false_alarm_ordinary": 0.0009,
+     "false_alarm_hard": 0.0845,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0009,
+       "n": 3357,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0845,
+       "n": 71,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "id": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9513,
+     "positives": 75,
+     "false_alarm_ordinary": 0.0009,
+     "false_alarm_hard": 0.0108,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0009,
+       "n": 3387,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0108,
+       "n": 93,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "it": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9643,
+     "wilson_lower": 0.9002,
+     "positives": 84,
+     "false_alarm_ordinary": 0.0018,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0018,
+       "n": 3417,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 86,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "ja": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 0.9863,
+     "wilson_lower": 0.9264,
+     "positives": 73,
+     "false_alarm_ordinary": 0.0006,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0006,
+       "n": 3173,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 81,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ko": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9605,
+     "wilson_lower": 0.8903,
+     "positives": 76,
+     "false_alarm_ordinary": 0.0052,
+     "false_alarm_hard": 0.0127,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0052,
+       "n": 3061,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0127,
+       "n": 79,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "pl": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9611,
+     "positives": 95,
+     "false_alarm_ordinary": 0.0008,
+     "false_alarm_hard": 0.0309,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0008,
+       "n": 3618,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0309,
+       "n": 97,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "pt": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9572,
+     "positives": 86,
+     "false_alarm_ordinary": 0.002,
+     "false_alarm_hard": 0.0098,
+     "budget": {
+      "ordinary": {
+       "rate": 0.002,
+       "n": 3914,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0098,
+       "n": 102,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    },
+    "ru": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9651,
+     "wilson_lower": 0.9024,
+     "positives": 86,
+     "false_alarm_ordinary": 0.0053,
+     "false_alarm_hard": 0.0208,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0053,
+       "n": 3782,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0208,
+       "n": 96,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "tr": {
+     "threshold": 0.05,
+     "promise": false,
+     "recall": 0.9565,
+     "wilson_lower": 0.8935,
+     "positives": 92,
+     "false_alarm_ordinary": 0.0032,
+     "false_alarm_hard": 0.0345,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0032,
+       "n": 3767,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0345,
+       "n": 87,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     },
+     "why": "misses the recall target inside its false-alarm budget: its own threshold, the lowest inside the budget, no promise"
+    },
+    "zh": {
+     "threshold": 0.35,
+     "promise": true,
+     "recall": 1.0,
+     "wilson_lower": 0.9487,
+     "positives": 71,
+     "false_alarm_ordinary": 0.0003,
+     "false_alarm_hard": 0.0,
+     "budget": {
+      "ordinary": {
+       "rate": 0.0003,
+       "n": 3206,
+       "limit": 0.03,
+       "status": "pass"
+      },
+      "hard": {
+       "rate": 0.0,
+       "n": 72,
+       "limit": 0.1,
+       "status": "pass"
+      }
+     }
+    }
+   }
+  },
+  "topics": {
+   "VOMITING": 0.71,
+   "NAUSEA": 0.61,
+   "DIZZINESS": 0.76,
+   "FAINTING": 0.53,
+   "PALPITATIONS": 0.67,
+   "BREATHLESSNESS": 0.87,
+   "HEARTBURN": 0.88,
+   "DIARRHOEA": 0.89,
+   "FEVER": 0.74,
+   "TIREDNESS": 0.68,
+   "CHEST_PAIN": 0.91,
+   "WORRY": 0.74,
+   "LOW_MOOD": 0.68,
+   "STRESS": 0.84,
+   "SLEEP_WORRY": 0.71,
+   "OTHER": 0.67,
+   "PAIN": 0.56,
+   "MOOD": 0.7,
+   "DOSE": 0.63,
+   "COURSE": 0.76,
+   "UNWELL": 0.46
+  },
+  "topics_add": {
+   "VOMITING": 0.07,
+   "NAUSEA": 0.44,
+   "DIZZINESS": 0.49,
+   "FAINTING": 0.34,
+   "PALPITATIONS": 0.21,
+   "BREATHLESSNESS": 0.25,
+   "HEARTBURN": 0.29,
+   "DIARRHOEA": 0.52,
+   "FEVER": 0.35,
+   "TIREDNESS": 0.5,
+   "CHEST_PAIN": 0.56,
+   "WORRY": 0.79,
+   "LOW_MOOD": 0.83,
+   "STRESS": 0.83,
+   "SLEEP_WORRY": 0.56,
+   "OTHER": 0.89,
+   "PAIN": 0.04,
+   "MOOD": 0.44,
+   "DOSE": 0.16,
+   "COURSE": 0.59,
+   "UNWELL": 0.7
+  }
+ },
+ "rules": {
+  "ambiguity": 0.35,
+  "unwell_lean": {
+   "lean": 0.7,
+   "other_below": 0.3
+  },
+  "side": 0.8,
+  "nrs": 0.9,
+  "onset": 0.8,
+  "oos": 0.5,
+  "abstain_topics_below": 0.35
+ },
+ "ece": {
+  "before": {
+   "topics": 0.0015,
+   "safety": 0.0029,
+   "unwell_lean": 0.1901,
+   "about": 0.035,
+   "question": 0.001,
+   "small_talk": 0.0401,
+   "mood_kind": 0.0406,
+   "mood_flags": 0.0076,
+   "lang": 0.0472,
+   "oos": 0.0031,
+   "pain_types": 0.0007,
+   "pain_noticed": 0.0433,
+   "pain_status": 0.0325,
+   "pain_same": 0.0334,
+   "pain_signs": 0.0002,
+   "injury": 0.0012,
+   "painkiller": 0.0009,
+   "place_family": 0.0573,
+   "place_area": 0.0893,
+   "side": 0.0118,
+   "qualifiers": 0.0064,
+   "symptom_topic": 0.0308,
+   "number_class": 0.003,
+   "nrs": 0.0114,
+   "medicine_entry": 0.03,
+   "medicine_class": 0.0157,
+   "medicine_role": 0.0256,
+   "negated": 0.0009,
+   "time_expr": 0.1094,
+   "time_count": 0.0482,
+   "weekday": 0.0895,
+   "intensity": 0.0261,
+   "mood_valence": 0.0409,
+   "subject": 0.0092,
+   "topical": 0.0149
+  },
+  "after": {
+   "topics": 0.0012,
+   "safety": 0.0025,
+   "unwell_lean": 0.0629,
+   "about": 0.0015,
+   "question": 0.0008,
+   "small_talk": 0.0013,
+   "mood_kind": 0.0013,
+   "mood_flags": 0.0063,
+   "lang": 0.0006,
+   "oos": 0.0013,
+   "pain_types": 0.0005,
+   "pain_noticed": 0.0004,
+   "pain_status": 0.0012,
+   "pain_same": 0.0001,
+   "pain_signs": 0.0001,
+   "injury": 0.0005,
+   "painkiller": 0.0005,
+   "place_family": 0.0168,
+   "place_area": 0.0136,
+   "side": 0.0014,
+   "qualifiers": 0.0031,
+   "symptom_topic": 0.0047,
+   "number_class": 0.0025,
+   "nrs": 0.0063,
+   "medicine_entry": 0.017,
+   "medicine_class": 0.0069,
+   "medicine_role": 0.0086,
+   "negated": 0.0007,
+   "time_expr": 0.022,
+   "time_count": 0.0058,
+   "weekday": 0.0115,
+   "intensity": 0.0188,
+   "mood_valence": 0.0111,
+   "subject": 0.0036,
+   "topical": 0.0094
+  }
+ },
+ "topics_button_unmet": [],
+ "source": {
+  "onnx": "reader-int8-weightonly.onnx",
+  "onnx_sha256": "890bc171adf07c68cfe66a40c60a3ac6df566935ef3076cd3d90bcdf8b3ba14f",
+  "note": "1.64 message calibration: same-as-1.64.json shows its outputs unchanged"
+ },
+ "safety_general_checked": {
+  "CRISIS": {},
+  "UNRESPONSIVE": {},
+  "BREATHING": {},
+  "CHEST": {},
+  "STROKE": {},
+  "BLOOD": {},
+  "OVERDOSE": {}
+ },
+ "n": 69054,
+ "min_rows": 50,
+ "min_positives": 20,
+ "min_negatives": 30,
+ "app_replay": {
+  "CRISIS": {
+   "ar": {
+    "recall": 0.9333,
+    "caught": 84,
+    "of": 90,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0198,
+      "n": 3592,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0615,
+      "n": 65,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8621,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0198,
+    "false_alarm_hard": 0.0615
+   },
+   "cs": {
+    "recall": 0.7982,
+    "caught": 87,
+    "of": 109,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0186,
+      "n": 3438,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0577,
+      "n": 52,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.7133,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0186,
+    "false_alarm_hard": 0.0577
+   },
+   "de": {
+    "recall": 0.911,
+    "caught": 133,
+    "of": 146,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0195,
+      "n": 3637,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0702,
+      "n": 57,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8536,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.0195,
+    "false_alarm_hard": 0.0702
+   },
+   "en": {
+    "recall": 0.976,
+    "caught": 163,
+    "of": 167,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.012,
+      "n": 3923,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0278,
+      "n": 72,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.94,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.012,
+    "false_alarm_hard": 0.0278
+   },
+   "es": {
+    "recall": 0.9805,
+    "caught": 151,
+    "of": 154,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0141,
+      "n": 3687,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0152,
+      "n": 66,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9443,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0141,
+    "false_alarm_hard": 0.0152
+   },
+   "fr": {
+    "recall": 0.9612,
+    "caught": 99,
+    "of": 103,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0182,
+      "n": 3691,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0118,
+      "n": 85,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9044,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.0182,
+    "false_alarm_hard": 0.0118
+   },
+   "hi": {
+    "recall": 0.9381,
+    "caught": 106,
+    "of": 113,
+    "target": 0.98,
+    "within_budget": false,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0116,
+      "n": 3357,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.1034,
+      "n": 29,
+      "limit": 0.1,
+      "status": "not measured"
+     }
+    },
+    "budget_status": "not measured",
+    "wilson_lower": 0.8776,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0116,
+    "false_alarm_hard": 0.1034
+   },
+   "id": {
+    "recall": 0.9913,
+    "caught": 114,
+    "of": 115,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0118,
+      "n": 3392,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 48,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9524,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0118,
+    "false_alarm_hard": 0.0
+   },
+   "it": {
+    "recall": 0.9571,
+    "caught": 156,
+    "of": 163,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0101,
+      "n": 3362,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0161,
+      "n": 62,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.914,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0101,
+    "false_alarm_hard": 0.0161
+   },
+   "ja": {
+    "recall": 0.9817,
+    "caught": 107,
+    "of": 109,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.017,
+      "n": 3185,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0303,
+      "n": 33,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9356,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.017,
+    "false_alarm_hard": 0.0303
+   },
+   "ko": {
+    "recall": 0.8916,
+    "caught": 74,
+    "of": 83,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0187,
+      "n": 3095,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0263,
+      "n": 38,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8066,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0187,
+    "false_alarm_hard": 0.0263
+   },
+   "pl": {
+    "recall": 0.9583,
+    "caught": 138,
+    "of": 144,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.018,
+      "n": 3610,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 56,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9121,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.018,
+    "false_alarm_hard": 0.0
+   },
+   "pt": {
+    "recall": 0.9388,
+    "caught": 138,
+    "of": 147,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0183,
+      "n": 3873,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0244,
+      "n": 82,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8877,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.0183,
+    "false_alarm_hard": 0.0244
+   },
+   "ru": {
+    "recall": 0.927,
+    "caught": 127,
+    "of": 137,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0196,
+      "n": 3767,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0167,
+      "n": 60,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8708,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0196,
+    "false_alarm_hard": 0.0167
+   },
+   "tr": {
+    "recall": 0.8834,
+    "caught": 144,
+    "of": 163,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0191,
+      "n": 3717,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0152,
+      "n": 66,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8251,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0191,
+    "false_alarm_hard": 0.0152
+   },
+   "zh": {
+    "recall": 1.0,
+    "caught": 100,
+    "of": 100,
+    "target": 0.98,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0143,
+      "n": 3207,
+      "limit": 0.02,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 42,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.963,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0143,
+    "false_alarm_hard": 0.0
+   }
+  },
+  "UNRESPONSIVE": {
+   "ar": {
+    "recall": 0.9647,
+    "caught": 82,
+    "of": 85,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0039,
+      "n": 3596,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0152,
+      "n": 66,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9013,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0039,
+    "false_alarm_hard": 0.0152
+   },
+   "cs": {
+    "recall": 0.9767,
+    "caught": 84,
+    "of": 86,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0009,
+      "n": 3427,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 86,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9191,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0009,
+    "false_alarm_hard": 0.0
+   },
+   "de": {
+    "recall": 1.0,
+    "caught": 86,
+    "of": 86,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3669,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 85,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9572,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0
+   },
+   "en": {
+    "recall": 1.0,
+    "caught": 76,
+    "of": 76,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0002,
+      "n": 4014,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 72,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9519,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.0002,
+    "false_alarm_hard": 0.0
+   },
+   "es": {
+    "recall": 0.9762,
+    "caught": 82,
+    "of": 84,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0011,
+      "n": 3737,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0116,
+      "n": 86,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9173,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0011,
+    "false_alarm_hard": 0.0116
+   },
+   "fr": {
+    "recall": 0.988,
+    "caught": 82,
+    "of": 83,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0011,
+      "n": 3718,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 78,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9349,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.0011,
+    "false_alarm_hard": 0.0
+   },
+   "hi": {
+    "recall": 1.0,
+    "caught": 82,
+    "of": 82,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0021,
+      "n": 3342,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 75,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9552,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0021,
+    "false_alarm_hard": 0.0
+   },
+   "id": {
+    "recall": 0.963,
+    "caught": 78,
+    "of": 81,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0124,
+      "n": 3392,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0122,
+      "n": 82,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8967,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0124,
+    "false_alarm_hard": 0.0122
+   },
+   "it": {
+    "recall": 0.989,
+    "caught": 90,
+    "of": 91,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0006,
+      "n": 3422,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 74,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9404,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0006,
+    "false_alarm_hard": 0.0
+   },
+   "ja": {
+    "recall": 0.9726,
+    "caught": 71,
+    "of": 73,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0044,
+      "n": 3178,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 76,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9055,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0044,
+    "false_alarm_hard": 0.0
+   },
+   "ko": {
+    "recall": 1.0,
+    "caught": 71,
+    "of": 71,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0003,
+      "n": 3072,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 73,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9487,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0003,
+    "false_alarm_hard": 0.0
+   },
+   "pl": {
+    "recall": 1.0,
+    "caught": 89,
+    "of": 89,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0008,
+      "n": 3633,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 88,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9586,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.0008,
+    "false_alarm_hard": 0.0
+   },
+   "pt": {
+    "recall": 1.0,
+    "caught": 90,
+    "of": 90,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0005,
+      "n": 3936,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 76,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9591,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.0005,
+    "false_alarm_hard": 0.0
+   },
+   "ru": {
+    "recall": 0.9767,
+    "caught": 84,
+    "of": 86,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0011,
+      "n": 3797,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0123,
+      "n": 81,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9191,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0011,
+    "false_alarm_hard": 0.0123
+   },
+   "tr": {
+    "recall": 1.0,
+    "caught": 88,
+    "of": 88,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0013,
+      "n": 3774,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 84,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9582,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0013,
+    "false_alarm_hard": 0.0
+   },
+   "zh": {
+    "recall": 0.9855,
+    "caught": 68,
+    "of": 69,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3214,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 66,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9224,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0
+   }
+  },
+  "BREATHING": {
+   "ar": {
+    "recall": 0.9722,
+    "caught": 70,
+    "of": 72,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.005,
+      "n": 3612,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0317,
+      "n": 63,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9043,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.005,
+    "false_alarm_hard": 0.0317
+   },
+   "cs": {
+    "recall": 1.0,
+    "caught": 88,
+    "of": 88,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0058,
+      "n": 3435,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0263,
+      "n": 76,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9582,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0058,
+    "false_alarm_hard": 0.0263
+   },
+   "de": {
+    "recall": 0.9881,
+    "caught": 83,
+    "of": 84,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0092,
+      "n": 3698,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 58,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9356,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.0092,
+    "false_alarm_hard": 0.0
+   },
+   "en": {
+    "recall": 1.0,
+    "caught": 83,
+    "of": 83,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0035,
+      "n": 3993,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0116,
+      "n": 86,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9558,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.0035,
+    "false_alarm_hard": 0.0116
+   },
+   "es": {
+    "recall": 0.957,
+    "caught": 89,
+    "of": 93,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0072,
+      "n": 3742,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0556,
+      "n": 72,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8946,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0072,
+    "false_alarm_hard": 0.0556
+   },
+   "fr": {
+    "recall": 1.0,
+    "caught": 100,
+    "of": 100,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0038,
+      "n": 3701,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0256,
+      "n": 78,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.963,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.0038,
+    "false_alarm_hard": 0.0256
+   },
+   "hi": {
+    "recall": 0.9667,
+    "caught": 87,
+    "of": 90,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0051,
+      "n": 3331,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 78,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9065,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0051,
+    "false_alarm_hard": 0.0
+   },
+   "id": {
+    "recall": 1.0,
+    "caught": 92,
+    "of": 92,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0041,
+      "n": 3393,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0286,
+      "n": 70,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9599,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0041,
+    "false_alarm_hard": 0.0286
+   },
+   "it": {
+    "recall": 1.0,
+    "caught": 94,
+    "of": 94,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0102,
+      "n": 3434,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 59,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9607,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0102,
+    "false_alarm_hard": 0.0
+   },
+   "ja": {
+    "recall": 0.9882,
+    "caught": 84,
+    "of": 85,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0047,
+      "n": 3166,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0132,
+      "n": 76,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9363,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0047,
+    "false_alarm_hard": 0.0132
+   },
+   "ko": {
+    "recall": 0.9888,
+    "caught": 88,
+    "of": 89,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0033,
+      "n": 3076,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0588,
+      "n": 51,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9391,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0033,
+    "false_alarm_hard": 0.0588
+   },
+   "pl": {
+    "recall": 0.9901,
+    "caught": 100,
+    "of": 101,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0058,
+      "n": 3637,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 72,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.946,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.0058,
+    "false_alarm_hard": 0.0
+   },
+   "pt": {
+    "recall": 1.0,
+    "caught": 107,
+    "of": 107,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0082,
+      "n": 3916,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.038,
+      "n": 79,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9653,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.0082,
+    "false_alarm_hard": 0.038
+   },
+   "ru": {
+    "recall": 0.9798,
+    "caught": 97,
+    "of": 99,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0058,
+      "n": 3798,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 67,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9293,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0058,
+    "false_alarm_hard": 0.0
+   },
+   "tr": {
+    "recall": 0.9897,
+    "caught": 96,
+    "of": 97,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0058,
+      "n": 3773,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 76,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9439,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0058,
+    "false_alarm_hard": 0.0
+   },
+   "zh": {
+    "recall": 0.9882,
+    "caught": 84,
+    "of": 85,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0009,
+      "n": 3196,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0294,
+      "n": 68,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9363,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0009,
+    "false_alarm_hard": 0.0294
+   }
+  },
+  "CHEST": {
+   "ar": {
+    "recall": 1.0,
+    "caught": 98,
+    "of": 98,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0156,
+      "n": 3588,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 61,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9623,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0156,
+    "false_alarm_hard": 0.0
+   },
+   "cs": {
+    "recall": 0.9722,
+    "caught": 105,
+    "of": 108,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0099,
+      "n": 3420,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0282,
+      "n": 71,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9215,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0099,
+    "false_alarm_hard": 0.0282
+   },
+   "de": {
+    "recall": 0.5421,
+    "caught": 58,
+    "of": 107,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0147,
+      "n": 3669,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0938,
+      "n": 64,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.4478,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.0147,
+    "false_alarm_hard": 0.0938
+   },
+   "en": {
+    "recall": 0.97,
+    "caught": 97,
+    "of": 100,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0042,
+      "n": 4003,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 59,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9155,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.0042,
+    "false_alarm_hard": 0.0
+   },
+   "es": {
+    "recall": 0.8736,
+    "caught": 76,
+    "of": 87,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0051,
+      "n": 3757,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0159,
+      "n": 63,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.7876,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0051,
+    "false_alarm_hard": 0.0159
+   },
+   "fr": {
+    "recall": 0.9439,
+    "caught": 101,
+    "of": 107,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0138,
+      "n": 3690,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0244,
+      "n": 82,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.883,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.0138,
+    "false_alarm_hard": 0.0244
+   },
+   "hi": {
+    "recall": 0.9794,
+    "caught": 95,
+    "of": 97,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0193,
+      "n": 3319,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.012,
+      "n": 83,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9279,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0193,
+    "false_alarm_hard": 0.012
+   },
+   "id": {
+    "recall": 1.0,
+    "caught": 100,
+    "of": 100,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0166,
+      "n": 3381,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.027,
+      "n": 74,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.963,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0166,
+    "false_alarm_hard": 0.027
+   },
+   "it": {
+    "recall": 0.8286,
+    "caught": 87,
+    "of": 105,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0053,
+      "n": 3425,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0877,
+      "n": 57,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.7452,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0053,
+    "false_alarm_hard": 0.0877
+   },
+   "ja": {
+    "recall": 1.0,
+    "caught": 94,
+    "of": 94,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.017,
+      "n": 3172,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 61,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9607,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.017,
+    "false_alarm_hard": 0.0
+   },
+   "ko": {
+    "recall": 0.9762,
+    "caught": 82,
+    "of": 84,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0251,
+      "n": 3071,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 61,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9173,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0251,
+    "false_alarm_hard": 0.0
+   },
+   "pl": {
+    "recall": 0.9712,
+    "caught": 101,
+    "of": 104,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.014,
+      "n": 3636,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 70,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9186,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.014,
+    "false_alarm_hard": 0.0
+   },
+   "pt": {
+    "recall": 0.75,
+    "caught": 87,
+    "of": 116,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0109,
+      "n": 3930,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0179,
+      "n": 56,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.664,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.0109,
+    "false_alarm_hard": 0.0179
+   },
+   "ru": {
+    "recall": 0.9655,
+    "caught": 112,
+    "of": 116,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0063,
+      "n": 3782,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0152,
+      "n": 66,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9147,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0063,
+    "false_alarm_hard": 0.0152
+   },
+   "tr": {
+    "recall": 1.0,
+    "caught": 108,
+    "of": 108,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0114,
+      "n": 3770,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0147,
+      "n": 68,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9657,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0114,
+    "false_alarm_hard": 0.0147
+   },
+   "zh": {
+    "recall": 0.9565,
+    "caught": 88,
+    "of": 92,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.006,
+      "n": 3193,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 64,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8935,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.006,
+    "false_alarm_hard": 0.0
+   }
+  },
+  "STROKE": {
+   "ar": {
+    "recall": 0.961,
+    "caught": 74,
+    "of": 77,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0142,
+      "n": 3593,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.013,
+      "n": 77,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8916,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0142,
+    "false_alarm_hard": 0.013
+   },
+   "cs": {
+    "recall": 0.9694,
+    "caught": 95,
+    "of": 98,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0117,
+      "n": 3421,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.075,
+      "n": 80,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9138,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0117,
+    "false_alarm_hard": 0.075
+   },
+   "de": {
+    "recall": 0.9647,
+    "caught": 82,
+    "of": 85,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.019,
+      "n": 3681,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0135,
+      "n": 74,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9013,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.019,
+    "false_alarm_hard": 0.0135
+   },
+   "en": {
+    "recall": 0.925,
+    "caught": 74,
+    "of": 80,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0078,
+      "n": 3997,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0235,
+      "n": 85,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8459,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.0078,
+    "false_alarm_hard": 0.0235
+   },
+   "es": {
+    "recall": 0.9796,
+    "caught": 96,
+    "of": 98,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0081,
+      "n": 3719,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0222,
+      "n": 90,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9286,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0081,
+    "false_alarm_hard": 0.0222
+   },
+   "fr": {
+    "recall": 0.95,
+    "caught": 76,
+    "of": 80,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.011,
+      "n": 3715,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0238,
+      "n": 84,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8784,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.011,
+    "false_alarm_hard": 0.0238
+   },
+   "hi": {
+    "recall": 0.9072,
+    "caught": 88,
+    "of": 97,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0123,
+      "n": 3339,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0794,
+      "n": 63,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.833,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0123,
+    "false_alarm_hard": 0.0794
+   },
+   "id": {
+    "recall": 0.961,
+    "caught": 74,
+    "of": 77,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0129,
+      "n": 3398,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.025,
+      "n": 80,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8916,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0129,
+    "false_alarm_hard": 0.025
+   },
+   "it": {
+    "recall": 0.9878,
+    "caught": 81,
+    "of": 82,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0076,
+      "n": 3413,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0435,
+      "n": 92,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9341,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0076,
+    "false_alarm_hard": 0.0435
+   },
+   "ja": {
+    "recall": 0.963,
+    "caught": 78,
+    "of": 81,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0022,
+      "n": 3197,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0816,
+      "n": 49,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8967,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0022,
+    "false_alarm_hard": 0.0816
+   },
+   "ko": {
+    "recall": 1.0,
+    "caught": 74,
+    "of": 74,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0101,
+      "n": 3075,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0746,
+      "n": 67,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9507,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0101,
+    "false_alarm_hard": 0.0746
+   },
+   "pl": {
+    "recall": 0.9495,
+    "caught": 94,
+    "of": 99,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0118,
+      "n": 3632,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 79,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8872,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.0118,
+    "false_alarm_hard": 0.0
+   },
+   "pt": {
+    "recall": 0.9906,
+    "caught": 105,
+    "of": 106,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0097,
+      "n": 3921,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.04,
+      "n": 75,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9485,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.0097,
+    "false_alarm_hard": 0.04
+   },
+   "ru": {
+    "recall": 0.99,
+    "caught": 99,
+    "of": 100,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0103,
+      "n": 3781,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 83,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9455,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0103,
+    "false_alarm_hard": 0.0
+   },
+   "tr": {
+    "recall": 0.9897,
+    "caught": 96,
+    "of": 97,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0159,
+      "n": 3779,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0714,
+      "n": 70,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9439,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0159,
+    "false_alarm_hard": 0.0714
+   },
+   "zh": {
+    "recall": 1.0,
+    "caught": 76,
+    "of": 76,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0094,
+      "n": 3195,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0641,
+      "n": 78,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9519,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0094,
+    "false_alarm_hard": 0.0641
+   }
+  },
+  "BLOOD": {
+   "ar": {
+    "recall": 0.9872,
+    "caught": 77,
+    "of": 78,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3615,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 54,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9309,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0
+   },
+   "cs": {
+    "recall": 0.9551,
+    "caught": 85,
+    "of": 89,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0017,
+      "n": 3460,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.04,
+      "n": 50,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8901,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0017,
+    "false_alarm_hard": 0.04
+   },
+   "de": {
+    "recall": 0.9875,
+    "caught": 79,
+    "of": 80,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0016,
+      "n": 3692,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0147,
+      "n": 68,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9325,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.0016,
+    "false_alarm_hard": 0.0147
+   },
+   "en": {
+    "recall": 1.0,
+    "caught": 76,
+    "of": 76,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0002,
+      "n": 4015,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 71,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9519,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.0002,
+    "false_alarm_hard": 0.0
+   },
+   "es": {
+    "recall": 1.0,
+    "caught": 89,
+    "of": 89,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0003,
+      "n": 3754,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0156,
+      "n": 64,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9586,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0003,
+    "false_alarm_hard": 0.0156
+   },
+   "fr": {
+    "recall": 1.0,
+    "caught": 101,
+    "of": 101,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3715,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 63,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9634,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0
+   },
+   "hi": {
+    "recall": 1.0,
+    "caught": 85,
+    "of": 85,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3356,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 58,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9568,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0
+   },
+   "id": {
+    "recall": 1.0,
+    "caught": 86,
+    "of": 86,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3414,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0364,
+      "n": 55,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9572,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0364
+   },
+   "it": {
+    "recall": 0.963,
+    "caught": 78,
+    "of": 81,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0009,
+      "n": 3440,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0152,
+      "n": 66,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8967,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0009,
+    "false_alarm_hard": 0.0152
+   },
+   "ja": {
+    "recall": 1.0,
+    "caught": 76,
+    "of": 76,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0003,
+      "n": 3190,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 61,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9519,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0003,
+    "false_alarm_hard": 0.0
+   },
+   "ko": {
+    "recall": 0.987,
+    "caught": 76,
+    "of": 77,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0007,
+      "n": 3072,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 67,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.93,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0007,
+    "false_alarm_hard": 0.0
+   },
+   "pl": {
+    "recall": 0.9787,
+    "caught": 92,
+    "of": 94,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0003,
+      "n": 3677,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0256,
+      "n": 39,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9257,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.0003,
+    "false_alarm_hard": 0.0256
+   },
+   "pt": {
+    "recall": 1.0,
+    "caught": 83,
+    "of": 83,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3949,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0143,
+      "n": 70,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9558,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0143
+   },
+   "ru": {
+    "recall": 0.9889,
+    "caught": 89,
+    "of": 90,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0005,
+      "n": 3817,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 57,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9397,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0005,
+    "false_alarm_hard": 0.0
+   },
+   "tr": {
+    "recall": 0.9659,
+    "caught": 85,
+    "of": 88,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0013,
+      "n": 3801,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 57,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9045,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0013,
+    "false_alarm_hard": 0.0
+   },
+   "zh": {
+    "recall": 0.9868,
+    "caught": 75,
+    "of": 76,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0006,
+      "n": 3220,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 53,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9292,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0006,
+    "false_alarm_hard": 0.0
+   }
+  },
+  "OVERDOSE": {
+   "ar": {
+    "recall": 1.0,
+    "caught": 66,
+    "of": 66,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0017,
+      "n": 3597,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0714,
+      "n": 84,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.945,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0017,
+    "false_alarm_hard": 0.0714
+   },
+   "cs": {
+    "recall": 0.9625,
+    "caught": 77,
+    "of": 80,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0023,
+      "n": 3430,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 89,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8955,
+    "language_sure": 0.9961,
+    "false_alarm_ordinary": 0.0023,
+    "false_alarm_hard": 0.0
+   },
+   "de": {
+    "recall": 0.9664,
+    "caught": 115,
+    "of": 119,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0022,
+      "n": 3629,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 92,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9168,
+    "language_sure": 0.9984,
+    "false_alarm_ordinary": 0.0022,
+    "false_alarm_hard": 0.0
+   },
+   "en": {
+    "recall": 0.9792,
+    "caught": 94,
+    "of": 96,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0,
+      "n": 3971,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 95,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9272,
+    "language_sure": 0.999,
+    "false_alarm_ordinary": 0.0,
+    "false_alarm_hard": 0.0
+   },
+   "es": {
+    "recall": 0.9875,
+    "caught": 79,
+    "of": 80,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0003,
+      "n": 3745,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0122,
+      "n": 82,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9325,
+    "language_sure": 0.9944,
+    "false_alarm_ordinary": 0.0003,
+    "false_alarm_hard": 0.0122
+   },
+   "fr": {
+    "recall": 0.989,
+    "caught": 90,
+    "of": 91,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0005,
+      "n": 3701,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0115,
+      "n": 87,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9404,
+    "language_sure": 0.9974,
+    "false_alarm_ordinary": 0.0005,
+    "false_alarm_hard": 0.0115
+   },
+   "hi": {
+    "recall": 0.9577,
+    "caught": 68,
+    "of": 71,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0009,
+      "n": 3357,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0845,
+      "n": 71,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.883,
+    "language_sure": 0.9991,
+    "false_alarm_ordinary": 0.0009,
+    "false_alarm_hard": 0.0845
+   },
+   "id": {
+    "recall": 1.0,
+    "caught": 75,
+    "of": 75,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0009,
+      "n": 3387,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0108,
+      "n": 93,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9513,
+    "language_sure": 0.9989,
+    "false_alarm_ordinary": 0.0009,
+    "false_alarm_hard": 0.0108
+   },
+   "it": {
+    "recall": 0.9643,
+    "caught": 81,
+    "of": 84,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0018,
+      "n": 3417,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 86,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9002,
+    "language_sure": 0.993,
+    "false_alarm_ordinary": 0.0018,
+    "false_alarm_hard": 0.0
+   },
+   "ja": {
+    "recall": 0.9863,
+    "caught": 72,
+    "of": 73,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0006,
+      "n": 3173,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 81,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9264,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0006,
+    "false_alarm_hard": 0.0
+   },
+   "ko": {
+    "recall": 0.9605,
+    "caught": 73,
+    "of": 76,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0052,
+      "n": 3061,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0127,
+      "n": 79,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8903,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0052,
+    "false_alarm_hard": 0.0127
+   },
+   "pl": {
+    "recall": 1.0,
+    "caught": 95,
+    "of": 95,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0008,
+      "n": 3618,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0309,
+      "n": 97,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9611,
+    "language_sure": 0.9969,
+    "false_alarm_ordinary": 0.0008,
+    "false_alarm_hard": 0.0309
+   },
+   "pt": {
+    "recall": 1.0,
+    "caught": 86,
+    "of": 86,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.002,
+      "n": 3914,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0098,
+      "n": 102,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9572,
+    "language_sure": 0.9927,
+    "false_alarm_ordinary": 0.002,
+    "false_alarm_hard": 0.0098
+   },
+   "ru": {
+    "recall": 0.9651,
+    "caught": 83,
+    "of": 86,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0053,
+      "n": 3782,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0208,
+      "n": 96,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9024,
+    "language_sure": 0.997,
+    "false_alarm_ordinary": 0.0053,
+    "false_alarm_hard": 0.0208
+   },
+   "tr": {
+    "recall": 0.9565,
+    "caught": 88,
+    "of": 92,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": false,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0032,
+      "n": 3767,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0345,
+      "n": 87,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.8935,
+    "language_sure": 0.9975,
+    "false_alarm_ordinary": 0.0032,
+    "false_alarm_hard": 0.0345
+   },
+   "zh": {
+    "recall": 1.0,
+    "caught": 71,
+    "of": 71,
+    "target": 0.97,
+    "within_budget": true,
+    "meets": true,
+    "budget": {
+     "ordinary": {
+      "rate": 0.0003,
+      "n": 3206,
+      "limit": 0.03,
+      "status": "pass"
+     },
+     "hard": {
+      "rate": 0.0,
+      "n": 72,
+      "limit": 0.1,
+      "status": "pass"
+     }
+    },
+    "budget_status": "pass",
+    "wilson_lower": 0.9487,
+    "language_sure": 0.9997,
+    "false_alarm_ordinary": 0.0003,
+    "false_alarm_hard": 0.0
+   }
+  }
+ },
+ "journal": {
+  "span_threshold": 0.1,
+  "attribute_threshold": 0.65,
+  "binding_threshold": 0.65
+ },
+ "journal_fit": {
+  "meets_precision": false,
+  "precision_min": 0.8,
+  "rows": 4096,
+  "objective": "mean of overlap event F1 and overlap event-bound argument F1 (dev)",
+  "objective_f1": 0.681458716324046,
+  "events": {
+   "tp": 1659,
+   "fp": 2315,
+   "fn": 2832,
+   "precision": 0.4174635128334172,
+   "recall": 0.3694054776219105,
+   "f1": 0.3919669226225635
+  },
+  "events_overlap": {
+   "tp": 3173,
+   "fp": 821,
+   "fn": 1318,
+   "precision": 0.7944416624937406,
+   "recall": 0.706524159429971,
+   "f1": 0.7479080730701237
+  },
+  "bindings_overlap": {
+   "tp": 5421,
+   "fp": 2809,
+   "fn": 3978,
+   "precision": 0.6586877278250304,
+   "recall": 0.5767634854771784,
+   "f1": 0.6150093595779681
+  },
+  "note": "2026-10-14 re-fit by overlap on the same 4096 dev rows; the exact-F1 fit chose .35/.5/.9",
+  "replaces": {
+   "meets_precision": false,
+   "precision_min": 0.8,
+   "rows": 4096,
+   "objective_f1": 0.3301039409966675,
+   "events": {
+    "tp": 1664,
+    "fp": 2327,
+    "fn": 2827,
+    "precision": 0.4169381107491857,
+    "recall": 0.370518815408595,
+    "f1": 0.3923602923838717
+   },
+   "bindings": {
+    "tp": 2253,
+    "fp": 5171,
+    "fn": 7146,
+    "precision": 0.3034752155172414,
+    "recall": 0.23970635173954677,
+    "f1": 0.26784758960946325
+   }
+  }
+ }
+}

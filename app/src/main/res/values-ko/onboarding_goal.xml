@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">하루 걸음 수</string>
+    <string name="onboarding_steps_body">지킬 수 있는 목표를 고르세요. 성인 500명을 대상으로 한 시험에서는 스스로 목표를 고른 사람들만 더 많이 걸었습니다. 목표는 프로필에서 언제든 바꿀 수 있습니다.</string>
+    <string name="onboarding_steps_suggested">연령대 추천: %1$s</string>
+    <string name="onboarding_steps_use_suggested">추천값 사용</string>
+    <string name="onboarding_steps_distance">내 보폭으로 하루 약 %1$s</string>
+    <string name="onboarding_bmi_source">WHO 성인 구간</string>
+    <string name="onboarding_ready_steps">하루 걸음 목표</string>
+    <string name="onboarding_ready_resting">안정 시 에너지</string>
+    <string name="onboarding_ready_kcal_day">하루 %1$s kcal</string>
+    <string name="onboarding_ready_local">답변을 바탕으로 이 휴대전화에서 계산했습니다. 안정 시 에너지는 Mifflin–St Jeor 공식, BMI는 WHO 성인 구간을 따릅니다. 어디로도 보내지 않았습니다.</string>
+</resources>

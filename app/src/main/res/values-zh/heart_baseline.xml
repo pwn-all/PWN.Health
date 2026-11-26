@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">静息心率</string>
+    <string name="health_rationale_purpose_recovery">仅读取。在生命体征页面以单独的卡片显示，每张旁边附有你此前四周的平常值。这些数据由手表或戒指测量，通常在夜间；本应用不自行计算，也不会写回任何内容。</string>
+    <string name="vitals_note_resting_measured">由手表或戒指在你休息时测量，通常在夜间，并从 Health Connect 或导出的文件读取。它本来就会低于白天测得的脉搏。</string>
+    <string name="vitals_note_baseline">平常值是最新一次之前 28 天内你自己读数的中位数，至少需要五次。这是和你自己比较，不是结论。</string>
+    <string name="vitals_baseline_above">最新一次比平常高 %1$d %2$s</string>
+    <string name="vitals_baseline_below">最新一次比平常低 %1$d %2$s</string>
+    <string name="vitals_baseline_same">最新一次与平常相同</string>
+    <plurals name="vitals_baseline">
+        <item quantity="other">你的平常值：%1$s %2$s，此前 4 周 %3$d 次读数的中位数</item>
+    </plurals>
+</resources>

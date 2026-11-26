@@ -1,0 +1,129 @@
+name: dependabot-gradle
+
+# Dependabot raises a version in the build scripts and not its SHA-256 in
+# gradle/verification-metadata.xml, so the build refuses each of its Gradle branches. This writes the
+# hashes back: one job runs Gradle with a read-only token and no secrets and hands over the
+# regenerated file, the next holds that file to additions only, pushes it and asks for the build of
+# the branch, since a push made with GITHUB_TOKEN starts no workflow and a dispatch does (build.yml
+# leaves Dependabot's own push of a Gradle branch alone). automerge.yml takes it from there.
+#
+# Only that one file comes back. After a Gradle bump gradlew, gradlew.bat and the wrapper jar stay
+# the old release's, which runs the new one: anything else the job wrote could be the new
+# dependencies' code speaking, and gradlew is what every later build runs first.
+on:
+  push:
+    branches: ['dependabot/gradle/**']
+
+# A newer push from Dependabot makes this one's hashes pointless.
+concurrency:
+  group: dependabot-gradle-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  hashes:
+    # Dependabot's own commits only; a person pushing to its branch writes the hashes by hand.
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-24.04
+    # The build alone takes 46-57 minutes on this runner, and this one hashes every configuration too.
+    timeout-minutes: 90
+    outputs:
+      patch: ${{ steps.handover.outputs.patch }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Verify the Gradle wrapper
+        uses: gradle/actions/wrapper-validation@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5.7.0
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up the Android SDK
+        uses: android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699 # v4.0.1
+        with:
+          packages: 'platforms;android-37.1 build-tools;37.0.0'
+
+      - uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+        with:
+          cache-read-only: true
+
+      # docs/BUILDING.md's commands in one: the flag resolves every configuration the build declares, and the
+      # tasks fetch what the plugins resolve as they run (Lint, aapt2, R8, the compilers).
+      # --rerun-tasks so that nothing up to date skips a resolution and goes unrecorded. Not the unit
+      # tests: DependencyVerificationTest reads the file, which Gradle writes only when the build ends;
+      # the build of the pushed commit runs them. Two tasks at a time, as in build.yml.
+      - name: Write the hashes
+        run: >
+          ./gradlew --max-workers=2 --write-verification-metadata sha256 check assembleRelease --rerun-tasks
+          -x testSideloadDebugUnitTest
+
+      # As a job output rather than an artifact: an upload is refused while the repository's artifact
+      # storage is full. Packed, an AGP bump's diff is a few kilobytes; the push job reads it from an
+      # environment variable, which holds 128 KiB. The first line keeps the diff from being empty when
+      # the bump added no artifact; git apply reads it as commentary.
+      - name: Hand over the regenerated file
+        id: handover
+        run: |
+          patch=$({ echo "fixup for $GITHUB_SHA"; git diff --binary -- gradle/verification-metadata.xml; } | gzip -9n | base64 -w0)
+          if [ "${#patch}" -gt 120000 ]; then echo "::error::The packed diff is ${#patch} bytes, over what the push job can take."; exit 1; fi
+          echo "patch=$patch" >> "$GITHUB_OUTPUT"
+
+  push:
+    needs: hashes
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    # No Gradle and no code from the new dependencies runs here: only the patch above, held to the one
+    # file, the scripts of main that Dependabot's commit carries, and the .sha256 files Google's Maven
+    # publishes for aapt2.
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      # The commit the hashes were written for. If Dependabot pushed again meanwhile, the push below is
+      # refused and the newer run writes them.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Self-test the scripts below
+        run: python3 -I .github/scripts/test_scripts.py . "$RUNNER_TEMP/selftest"
+
+      - name: Apply the hashes and add aapt2's other platforms
+        env:
+          PACKED: ${{ needs.hashes.outputs.patch }}
+        run: |
+          set -euo pipefail
+          patch="$RUNNER_TEMP/fixup.patch"
+          printf '%s' "$PACKED" | base64 -d | gunzip > "$patch"
+          git show HEAD:gradle/verification-metadata.xml > "$RUNNER_TEMP/old.xml"
+          if grep -q '^diff --git ' "$patch"; then
+            # The job before ran the new dependencies' build code: take from it what it was for and nothing else.
+            unexpected=$(git apply --numstat "$patch" | cut -f3 | grep -vxE 'gradle/verification-metadata\.xml' || true)
+            created=$(git apply --summary "$patch" | grep -E 'create mode|delete mode|mode change|rename' || true)
+            [ -z "$unexpected$created" ] || { echo "refused: $unexpected $created"; exit 1; }
+            git apply --binary "$patch"
+          fi
+          python3 -I .github/scripts/aapt2_platforms.py
+          python3 -I .github/scripts/verification_additions.py "$RUNNER_TEMP/old.xml" gradle/verification-metadata.xml
+
+      # [dependabot skip] lets Dependabot force-push over this commit when it rebases, as it does on a
+      # conflict; it would otherwise stop updating the pull request. The next push runs this again.
+      - name: Commit, push and build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet; then
+            git add gradle/verification-metadata.xml
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -q -m "Hashes for $BRANCH [dependabot skip]"
+            git push origin "HEAD:refs/heads/$BRANCH"
+          fi
+          gh workflow run build.yml --ref "$BRANCH"

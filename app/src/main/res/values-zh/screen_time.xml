@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">屏幕时间</string>
+    <string name="screen_time_add_body">社交、视频、即时通讯和游戏的使用时间，以及眼睛和大脑的休息</string>
+    <string name="screen_time_help">根据 Android 的使用记录，显示今天和本周社交与信息流应用、视频、即时通讯和游戏在屏幕上的时长。眼睛和大脑提醒只关注社交与信息流应用，不间断地在它们之间切换算作一次使用。其余仅计时。不会写入日记，也不会有任何数据离开手机。</string>
+    <string name="screen_time_channel">屏幕休息</string>
+    <string name="screen_time_access_title">需要使用情况访问权限</string>
+    <string name="screen_time_access_body">只有获得使用情况访问权限，Android 才会告诉应用其他应用打开了多久。睡眠估算也使用同一权限。</string>
+    <string name="screen_time_access_button">打开使用情况访问权限</string>
+    <string name="screen_time_longest">最长连续使用：%1$s</string>
+    <string name="screen_time_over">超过 %1$s</string>
+    <string name="screen_time_week">最近 7 天</string>
+    <string name="screen_time_week_average">每日平均：%1$s</string>
+    <string name="screen_time_eyes_switch">提醒眼睛疲劳</string>
+    <string name="screen_time_eyes_switch_body">长时间不间断刷信息流之后</string>
+    <string name="screen_time_brain_switch">提醒大脑负担</string>
+    <string name="screen_time_brain_switch_body">当这些应用的当日总时长变多时</string>
+    <string name="screen_time_tips_title">让眼睛和大脑休息</string>
+    <string name="screen_time_tip_eyes">每 20 分钟，看向 6 米外的物体 20 秒。</string>
+    <string name="screen_time_tip_blink">有意识地眨眼：看屏幕时眨眼次数会大大减少，眼睛容易干涩。</string>
+    <string name="screen_time_tip_brain">无尽的信息流每隔几秒就转移一次注意力。短暂散步或几次缓慢呼吸能让大脑平静下来。</string>
+    <string name="screen_time_tip_night">睡前一小时放下手机：明亮的屏幕会推迟入睡。</string>
+    <string name="screen_time_breathing">呼吸休息</string>
+    <string name="screen_time_eyes_title">该让眼睛休息了</string>
+    <string name="screen_time_eyes_body">已连续使用 %1$s %2$d 分钟。看向远处 20 秒，并眨几次眼。</string>
+    <string name="screen_time_brain_title">你的大脑需要休息</string>
+    <string name="screen_time_brain_body">今天在社交与信息流应用上用了 %1$s。无尽的信息流会让注意力疲劳：放下手机 10 分钟，走一走或慢慢呼吸。</string>
+    <string name="screen_time_feeds_title">社交与信息流</string>
+    <string name="screen_time_video_title">视频与直播</string>
+    <string name="screen_time_messengers_title">即时通讯</string>
+    <string name="screen_time_games_title">游戏</string>
+    <string name="screen_time_category_longest">最长时长：%1$s</string>
+    <string name="screen_time_category_week">最近 7 天：%1$s，平均每天 %2$s</string>
+    <string name="screen_time_tracked_note">仅计时，不提醒。</string>
+    <string name="screen_time_none_today">今天未打开</string>
+</resources>

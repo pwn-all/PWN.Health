@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">Há cerca de uma semana</string>
+    <string name="pain_onset_about_month">Há cerca de um mês</string>
+    <string name="pain_onset_more_than_month">Há mais de um mês</string>
+    <string name="pain_area_search">Pesquisar área</string>
+    <string name="pain_area_search_empty">Nenhuma área com esse nome</string>
+    <string name="pain_save_needs_area">Para salvar, marque onde dói</string>
+    <string name="pain_save_needs_answer">Falta responder: %1$s</string>
+</resources>

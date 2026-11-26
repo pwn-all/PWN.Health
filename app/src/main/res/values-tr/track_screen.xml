@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Ayrıntılar</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Ayrıntılar</string>
+    <string name="track_signal_good">GPS sinyali iyi</string>
+    <string name="track_signal_fair">GPS sinyali orta</string>
+    <string name="track_signal_poor">GPS sinyali zayıf</string>
+    <string name="track_signal_searching">GPS sinyali aranıyor</string>
+    <string name="track_signal_location_off">Konum kapalı</string>
+    <string name="track_signal_no_access">Konum erişimi yok</string>
+    <string name="track_info_title">Sinyal ve rota</string>
+    <string name="track_signal_title">GPS sinyali</string>
+    <string name="track_signal_note">Çubuklar, telefonun nerede olduğunu ne kadar kesin bildiğini gösterir. Üç çubuk: %1$s ya da daha iyi. İki çubuk: en fazla %2$s. Bir çubuk: daha düşük doğruluk. Hiç çubuk yok: on saniyedir konum alınamıyor, telefon hâlâ arıyor. Bu ekran, sinyali ve nerede olduğunuzu göstermek için konumu yalnızca açıkken okur.</string>
+    <string name="track_history_empty">Henüz kaydedilmiş rota yok.</string>
+    <string name="track_map_here">Konumunuzun çevresindeki harita</string>
+    <string name="track_map_waiting">Dünya haritası. Konumunuz henüz bilinmiyor.</string>
+    <string name="track_map_follow_here">Konumunuza dön</string>
+    <string name="track_pause">Kaydı duraklat</string>
+    <string name="track_resume">Kaydı sürdür</string>
+    <string name="track_value_paused">duraklatıldı</string>
+    <string name="track_value_ended">tamamlandı</string>
+    <string name="track_finish_title">Bu rota bitirilsin mi?</string>
+    <string name="track_finish_body">Kayıt durur ve rota kaydedilir. Yalnızca mola vermek istiyorsanız duraklatma düğmesini kullanın.</string>
+    <string name="track_finish">Bitir</string>
+    <string name="track_keep_recording">Kayda devam et</string>
+    <string name="track_finished">Rota tamamlandı</string>
+</resources>

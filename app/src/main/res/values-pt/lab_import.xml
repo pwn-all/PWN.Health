@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Ler foto ou PDF</string>
+    <string name="lab_import_review">Confira data, valores e unidades com o original. Apenas campos vazios são preenchidos. Salve o formulário para guardar os resultados.</string>
+    <string name="lab_import_empty">Nenhum resultado compatível reconhecido. Tente uma imagem mais nítida ou digite os valores.</string>
+    <string name="lab_import_veterinary">Parece um laudo veterinário. Não pode preencher exames humanos.</string>
+    <string name="lab_import_error">Não foi possível ler. Escolha uma imagem ou PDF sem senha (até 20 páginas, 32 MB).</string>
+    <string name="lab_import_password">Este PDF está protegido. Digite a senha para lê-lo.</string>
+    <string name="lab_import_date_unknown">Data da coleta não reconhecida. Confira a data no formulário.</string>
+    <string name="lab_import_date_conflict">Esta página tem outra data. Primeiro salve ou apague os resultados atuais.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Marcadores não resolvidos: %1$d</string>
+</resources>

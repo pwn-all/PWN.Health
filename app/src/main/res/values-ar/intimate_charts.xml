@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">عُد عندما تضيف مزيدًا من البيانات!</string>
+    <string name="intimate_charts_walking_title">المشي والصباحات</string>
+    <string name="intimate_charts_alcohol_title">الكحول والصباحات</string>
+    <string name="intimate_charts_legend_average">متوسطك</string>
+    <string name="intimate_charts_legend_night">ساعات النوم في الليلة</string>
+    <string name="intimate_charts_legend_steps">الخطوات في اليوم</string>
+    <string name="intimate_charts_legend_drinks">الجرعات القياسية في الأسبوع</string>
+    <string name="intimate_charts_pair_note">ترتفع الأعمدة من الأسفل، عمود لكل أسبوع. والخط هو نسبة الصباحات بانتصاب كامل أو جزئي في الأسبوع نفسه مقارنةً بمتوسطك الخاص خلال هذه الأسابيع: فوق الخط الأوسط عندما كانت أعلى، وتحته عندما كانت أدنى. وهي تُظهر ما سُجِّل في الأسابيع نفسها، لا ما سبّب ماذا.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="zero">يُحتسب الأسبوع متى أُجيب عن %1$d من صباحاته؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="one">يُحتسب الأسبوع متى أُجيب عن %1$d من صباحاته؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="two">يُحتسب الأسبوع متى أُجيب عن %1$d من صباحاته؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="few">يُحتسب الأسبوع متى أُجيب عن %1$d من صباحاته؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="many">يُحتسب الأسبوع متى أُجيب عن %1$d من صباحاته؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+        <item quantity="other">يُحتسب الأسبوع متى أُجيب عن %1$d من صباحاته؛ والأسبوع الذي فيه أقل من ذلك يترك فجوة في الخط، لا صفرًا.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="zero">عمود الأسبوع هو متوسط الأيام التي فيها قيمة، ويحتاج إلى %1$d منها؛ والأسبوع الذي فيه أقل من ذلك لا عمود له.</item>
+        <item quantity="one">عمود الأسبوع هو متوسط الأيام التي فيها قيمة، ويحتاج إلى %1$d منها؛ والأسبوع الذي فيه أقل من ذلك لا عمود له.</item>
+        <item quantity="two">عمود الأسبوع هو متوسط الأيام التي فيها قيمة، ويحتاج إلى %1$d منها؛ والأسبوع الذي فيه أقل من ذلك لا عمود له.</item>
+        <item quantity="few">عمود الأسبوع هو متوسط الأيام التي فيها قيمة، ويحتاج إلى %1$d منها؛ والأسبوع الذي فيه أقل من ذلك لا عمود له.</item>
+        <item quantity="many">عمود الأسبوع هو متوسط الأيام التي فيها قيمة، ويحتاج إلى %1$d منها؛ والأسبوع الذي فيه أقل من ذلك لا عمود له.</item>
+        <item quantity="other">عمود الأسبوع هو متوسط الأيام التي فيها قيمة، ويحتاج إلى %1$d منها؛ والأسبوع الذي فيه أقل من ذلك لا عمود له.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="zero">يظهر الرسم البياني عندما تكفي البيانات لمدة %1$d أسبوع.</item>
+        <item quantity="one">يظهر الرسم البياني عندما تكفي البيانات لمدة %1$d أسبوع.</item>
+        <item quantity="two">يظهر الرسم البياني عندما تكفي البيانات لمدة %1$d أسبوعين.</item>
+        <item quantity="few">يظهر الرسم البياني عندما تكفي البيانات لمدة %1$d أسابيع.</item>
+        <item quantity="many">يظهر الرسم البياني عندما تكفي البيانات لمدة %1$d أسبوعًا.</item>
+        <item quantity="other">يظهر الرسم البياني عندما تكفي البيانات لمدة %1$d أسبوع.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">الجرعة القياسية الواحدة تحتوي على %1$s من الكحول الصافي. وبالنسبة إلى الشرب، اليوم الذي فيه قيمة هو يوم أُدخل فيه أي شيء يدويًا، ويُحوَّل المتوسط إلى سبعة أيام: اليوم الذي لم يُكتب فيه شيء ليس يومًا بلا شرب.</string>
+    <string name="intimate_charts_acts_note">الأفعال في كل أسبوع، مع شريك والاستمناء. والأسبوع الذي ليس فيه شيء أدخلته بنفسك يقطع الخطين كليهما: فهو ليس أسبوعًا بلا أفعال.</string>
+    <string name="intimate_charts_desire_note">نقطة على الخط: أسبوع حُدِّد فيه «%1$s» لهذا النوع من الأفعال.</string>
+    <string name="intimate_charts_erection_note">شَرطة على الخط: أسبوع حُدِّد فيه «%1$s» لهذا النوع من الأفعال.</string>
+    <string name="intimate_charts_acts_mornings_note">للصباحات رسوم بيانية خاصة بها: فهي إجابة واحدة في اليوم من تسجيل منفصل، لا عدد أفعال، ولو رُسمت على هذه المحاور لبدت كأنها ناتجة عنها.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="zero">%1$s، أسبوعًا بأسبوع خلال آخر %2$d أسبوع. %3$s</item>
+        <item quantity="one">%1$s، أسبوعًا بأسبوع خلال آخر %2$d أسبوع. %3$s</item>
+        <item quantity="two">%1$s، أسبوعًا بأسبوع خلال آخر %2$d أسبوعين. %3$s</item>
+        <item quantity="few">%1$s، أسبوعًا بأسبوع خلال آخر %2$d أسابيع. %3$s</item>
+        <item quantity="many">%1$s، أسبوعًا بأسبوع خلال آخر %2$d أسبوعًا. %3$s</item>
+        <item quantity="other">%1$s، أسبوعًا بأسبوع خلال آخر %2$d أسبوع. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">الأسبوع حتى %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s؛ %2$s</string>
+    <string name="intimate_charts_spoken_none">لا قيمة</string>
+    <string name="intimate_charts_spoken_gap">صباحات مُجاب عنها قليلة جدًا</string>
+    <string name="intimate_charts_spoken_above">صباحات فوق متوسطك</string>
+    <string name="intimate_charts_spoken_below">صباحات دون متوسطك</string>
+    <string name="intimate_charts_spoken_at">صباحات عند متوسطك</string>
+    <string name="intimate_charts_spoken_acts">مع شريك %1$s، استمناء %2$s</string>
+</resources>

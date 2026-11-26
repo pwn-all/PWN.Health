@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">سجل الألم</string>
+    <string name="pain_history_empty">لا توجد سجلات ألم بعد.</string>
+    <string name="pain_history_onset_just_now">بدأ لحظة التسجيل</string>
+    <string name="pain_history_onset_earlier_today">بدأ في اليوم نفسه</string>
+    <string name="pain_history_onset_yesterday">بدأ في اليوم السابق</string>
+    <string name="pain_history_onset_days_2_3">بدأ قبل التسجيل بـ2–3 أيام</string>
+    <string name="pain_history_onset_about_week">بدأ قبل التسجيل بأسبوع تقريبًا</string>
+    <string name="pain_history_onset_about_month">بدأ قبل التسجيل بشهر تقريبًا</string>
+    <string name="pain_history_onset_more_than_month">بدأ قبل التسجيل بأكثر من شهر</string>
+    <string name="pain_history_onset_week">بدأ قبل التسجيل بـ4 أيام إلى 3 أشهر</string>
+    <string name="pain_history_onset_months_3">بدأ قبل التسجيل بأكثر من 3 أشهر</string>
+    <string name="pain_history_same">الألم نفسه المسجَّل يوم %1$s</string>
+    <string name="pain_history_still_hurts">كان ما زال يؤلم عند التسجيل</string>
+    <string name="pain_history_lasted">استمر %1$s</string>
+</resources>

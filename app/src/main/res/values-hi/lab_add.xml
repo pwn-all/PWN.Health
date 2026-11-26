@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">%2$d में से चरण %1$d</string>
+    <string name="lab_add_type_title">जाँच का प्रकार</string>
+    <string name="lab_add_choose_one">कोई एक चुनें। अगला चरण इसी पर निर्भर है।</string>
+    <string name="lab_add_method_title">आप परिणाम कैसे जोड़ना चाहेंगे?</string>
+    <string name="lab_add_manual">हाथ से भरें</string>
+    <string name="lab_add_manual_body">आँकड़े ख़ुद दर्ज करें</string>
+    <string name="lab_add_file">फ़ाइल चुनें</string>
+    <string name="lab_add_file_body">इस फ़ोन से फ़ोटो या PDF</string>
+    <string name="lab_add_photo">फ़ोटो लें</string>
+    <string name="lab_add_photo_body">रिपोर्ट की फ़ोटो लें</string>
+    <string name="lab_add_manual_title">परिणाम दर्ज करें</string>
+    <string name="lab_add_check_title">परिणाम जाँचें</string>
+    <string name="lab_add_file_title">फ़ाइल जोड़ें</string>
+    <string name="lab_add_file_lead">रिपोर्ट की फ़ोटो, या अधिकतम 20 पृष्ठ और 32 MB का PDF। एक साथ कई फ़ाइलें चुनी जा सकती हैं।</string>
+    <string name="lab_add_document_lead">रिपोर्ट की फ़ोटो या PDF।</string>
+    <string name="lab_add_allergy">एलर्जी पैनल</string>
+    <string name="lab_add_file_hint">इस फ़ोन से फ़ाइल चुनने के लिए टैप करें</string>
+    <string name="lab_add_photo_title">फ़ोटो लें</string>
+    <string name="lab_add_photo_lead">काग़ज़ को अच्छी रोशनी में सपाट रखें, ताकि वह पूरा फ़्रेम में आए।</string>
+    <string name="lab_add_photo_hint">फ़ोन का कैमरा खुलेगा</string>
+    <string name="lab_add_study_day">जाँच की तारीख़: %1$s</string>
+    <string name="lab_add_done_title">परिणाम जोड़े गए</string>
+    <string name="lab_add_done_already">परिणाम पहले से सहेजे गए हैं</string>
+    <string name="lab_add_done_attached">फ़ाइल सहेजे गए परिणामों में जोड़ी गई</string>
+    <string name="lab_add_done_body">इस फ़ोन पर सहेजे गए।</string>
+    <string name="lab_add_open_results">परिणाम खोलें</string>
+    <string name="lab_add_more">और परिणाम जोड़ें</string>
+</resources>

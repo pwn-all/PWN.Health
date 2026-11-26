@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The pain page's history: the top bar's title over every pain entry, and the history icon's spoken name. -->
+    <string name="pain_history_title">Pain history</string>
+    <!-- The pain history with no entries at all. -->
+    <string name="pain_history_empty">No pain entries yet.</string>
+    <!-- In a pain history row, after the rating: when the pain started, counted back from the entry itself, not from today. Lower case, as part of a line. -->
+    <string name="pain_history_onset_just_now">started when logged</string>
+    <string name="pain_history_onset_earlier_today">started the same day</string>
+    <string name="pain_history_onset_yesterday">started the day before</string>
+    <string name="pain_history_onset_days_2_3">started 2–3 days before</string>
+    <string name="pain_history_onset_about_week">started about a week before</string>
+    <string name="pain_history_onset_about_month">started about a month before</string>
+    <string name="pain_history_onset_more_than_month">started more than a month before</string>
+    <!-- Two answers an entry can hold that the pain page does not offer for a new one. -->
+    <string name="pain_history_onset_week">started 4 days to 3 months before</string>
+    <string name="pain_history_onset_months_3">started more than 3 months before</string>
+    <!-- In a pain history row, for an entry that follows up an earlier one: the day that pain was first reported, e.g. "same pain as on 3 Oct". -->
+    <string name="pain_history_same">same pain as on %1$s</string>
+    <!-- In a pain history row: the pain was still there when the entry was made. -->
+    <string name="pain_history_still_hurts">still hurting when logged</string>
+    <!-- In a pain history row: how long a pain that has gone lasted, e.g. "lasted 2 h". -->
+    <string name="pain_history_lasted">lasted %1$s</string>
+</resources>

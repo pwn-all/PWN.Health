@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  First frame only: the resting face's title. The preview shows a route mid-recording with a Stop
+  label, which is right for the picker and wrong here, where it could stand for half an hour after a
+  boot as a recording nobody started. The resting face's second line is left out too: it promises
+  what a tap does, and this frame carries no tap at all.
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:gravity="center"
+    android:padding="12dp"
+    android:text="@string/widget_track_idle"
+    android:textColor="?android:attr/textColorPrimary"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    tools:ignore="Overdraw" />

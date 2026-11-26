@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">लगभग एक हफ़्ता पहले</string>
+    <string name="pain_onset_about_month">लगभग एक महीना पहले</string>
+    <string name="pain_onset_more_than_month">एक महीने से ज़्यादा पहले</string>
+    <string name="pain_area_search">हिस्सा खोजें</string>
+    <string name="pain_area_search_empty">इस नाम का कोई हिस्सा नहीं</string>
+    <string name="pain_save_needs_area">सहेजने के लिए बताएँ कि दर्द कहाँ है</string>
+    <string name="pain_save_needs_answer">अभी जवाब बाकी: %1$s</string>
+</resources>

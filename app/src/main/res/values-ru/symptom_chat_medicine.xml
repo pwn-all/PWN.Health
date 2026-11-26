@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat’s medicine threads: a dose taken and a course a doctor prescribed (ChatMedicine.kt, ChatDose.kt,
+     ChatCourse.kt, ChatMedicineUi.kt). -->
+<resources>
+    <!-- Starting -->
+    <string name="med_chat_start_dose">Давайте запишем.</string>
+    <string name="med_chat_start_course">Давайте добавим его в ваши лекарства.</string>
+    <string name="med_chat_now_the_medicine">Теперь о лекарстве.</string>
+    <string name="med_chat_mention_dose">Принято: %1$s</string>
+    <string name="med_chat_mention_missed">Пропущено: %1$s</string>
+    <string name="med_chat_mention_course">Назначено: %1$s</string>
+    <string name="med_chat_course_today_only">Назначенное врачом лекарство добавляется в сегодняшнем разговоре — с тем днём, когда начинается приём.</string>
+    <string name="med_chat_pharmacist">С вопросами о лекарстве поможет фармацевт, а что с ним нельзя совмещать — написано во вкладыше.</string>
+
+    <!-- Which medicine -->
+    <string name="med_chat_ask_which">Какое это было лекарство?</string>
+    <string name="med_chat_pick_other">Другое лекарство</string>
+    <string name="med_chat_pick_not_listed">%1$s · нет в вашем списке</string>
+    <string name="med_chat_pick_show_all">Все мои лекарства</string>
+    <string name="med_chat_ask_name">Как оно называется? Напишите название так, как на упаковке.</string>
+    <string name="med_chat_name_hint">Название лекарства</string>
+    <string name="med_chat_name_unknown">Не знаю названия</string>
+    <string name="med_chat_unnamed">Лекарство</string>
+    <string name="med_chat_ask_is_course">Это «%1$s» из вашего списка лекарств?</string>
+    <string name="med_chat_ask_is_course_several">Это одно из ваших лекарств?</string>
+    <string name="med_chat_option_that_one">Да, это оно</string>
+    <string name="med_chat_option_different">Нет, другое</string>
+    <string name="med_chat_future_course">В вашем списке приём «%1$s» начинается %2$s, поэтому эта доза записывается отдельно.</string>
+    <string name="med_chat_course_gone">Лекарства «%1$s» больше нет в вашем списке, поэтому его можно записать отдельно.</string>
+
+    <!-- Which dose -->
+    <string name="med_chat_ask_slot">Какой из сегодняшних приёмов это был?</string>
+    <string name="med_chat_ask_slot_day">Какой это был приём %1$s?</string>
+    <string name="med_chat_slot_yesterday">%1$s вчера</string>
+    <string name="med_chat_slot_extra">Дополнительный приём</string>
+    <string name="med_chat_slot_missed">Приём пропущен</string>
+    <string name="med_chat_slot_nothing">Добавлять нечего</string>
+    <string name="med_chat_all_marked">Сегодняшние приёмы лекарства «%1$s» уже отмечены: %2$s.</string>
+    <string name="med_chat_ask_same_again">Лекарство «%1$s» отмечено в %2$s. Это ещё один приём?</string>
+    <string name="med_chat_option_another_dose">Ещё один приём</string>
+    <string name="med_chat_option_same_dose">Тот же самый</string>
+
+    <!-- When -->
+    <string name="med_chat_ask_when">Когда вы его приняли?</string>
+    <string name="med_chat_ask_when_day">В какое время в тот день?</string>
+    <string name="med_chat_when_now">Только что</string>
+    <string name="med_chat_when_earlier">Раньше сегодня…</string>
+    <string name="med_chat_when_at">В %1$s</string>
+    <string name="med_chat_when_slot">В назначенное время, %1$s</string>
+    <string name="med_chat_when_other">В другое время…</string>
+    <string name="med_chat_when_choose">Выбрать время…</string>
+    <string name="med_chat_when_unknown">Не помню</string>
+    <string name="med_chat_when_future">Это время сегодня ещё не наступило. Когда вы его приняли?</string>
+
+    <!-- How much -->
+    <string name="med_chat_ask_amount">Сколько вы приняли?</string>
+    <string name="med_chat_amount_one_tablet">1 таблетка</string>
+    <string name="med_chat_amount_two_tablets">2 таблетки</string>
+    <string name="med_chat_amount_dose_one">Одна доза (%1$s)</string>
+    <string name="med_chat_amount_dose_one_bare">Одна доза</string>
+    <string name="med_chat_amount_dose_two">Две дозы</string>
+    <string name="med_chat_amount_two_of">2 × %1$s</string>
+    <string name="med_chat_amount_hint">Например, 10 мл или половина таблетки</string>
+
+    <!-- What for -->
+    <string name="med_chat_ask_why">Для чего вы его приняли?</string>
+    <string name="med_chat_why_pain">От боли</string>
+    <string name="med_chat_why_temperature">От температуры</string>
+    <string name="med_chat_why_mood">Для настроения или от нервов</string>
+    <string name="med_chat_why_sleep">Чтобы уснуть</string>
+    <string name="med_chat_ask_pain_link">В записи о боли в этом разговоре сказано, что обезболивающее сегодня не принималось. Изменить на «да»?</string>
+    <string name="med_chat_option_change_it">Да, изменить</string>
+
+    <!-- More than it says -->
+    <string name="med_chat_ask_max">Это больше, чем указано на упаковке или в инструкции (за один раз или за сутки)?</string>
+    <string name="med_chat_ask_max_course">Это больше, чем вам назначено?</string>
+    <string name="med_chat_ask_max_words">Сначала один вопрос: вы приняли лекарства больше, чем указано на упаковке, в инструкции или в назначении?</string>
+    <string name="med_chat_option_more">Да, больше, чем указано</string>
+    <string name="med_chat_earlier_title">Записано за последние сутки</string>
+    <string name="med_chat_earlier_row">%1$s · %2$s</string>
+    <string name="med_chat_alert_too_much">Пожалуйста, получите медицинскую консультацию сейчас — обратитесь в службу неотложной помощи, даже если чувствуете себя хорошо. Если вам скажут ехать в приёмное отделение, не садитесь за руль: попросите кого-нибудь отвезти вас или вызовите скорую помощь. Возьмите с собой упаковку или инструкцию и другие лекарства, которые вы принимаете.</string>
+    <string name="med_chat_ask_signs_tca">Есть ли у вас сейчас что-то из этого: частое или неровное сердцебиение, судороги, сильная сонливость или обморок, затруднённое дыхание, или вдруг стали путаться мысли?</string>
+    <string name="med_chat_ask_signs_opioid">Есть ли у вас сейчас что-то из этого: трудно дышать или дыхание поверхностное, судороги, такая сонливость, что трудно не уснуть?</string>
+    <string name="med_chat_ask_signs_any">Есть ли у вас сейчас что-то из этого: трудно дышать или дыхание поверхностное, судороги, сильная сонливость или обморок, частое или неровное сердцебиение, или вдруг стали путаться мысли?</string>
+    <string name="med_chat_ask_purpose">Это вышло случайно?</string>
+    <string name="med_chat_option_by_accident">Да, случайно</string>
+    <string name="med_chat_option_on_purpose">Нет, намеренно</string>
+
+    <!-- How it is going, for a medicine in its first weeks -->
+    <string name="med_chat_ask_feel_label">С начала приёма</string>
+    <string name="med_chat_ask_feel">Как вы себя чувствуете с тех пор, как начали принимать «%1$s»?</string>
+    <string name="med_chat_feel_better">Лучше</string>
+    <string name="med_chat_feel_same">Примерно так же</string>
+    <string name="med_chat_feel_worse">Хуже</string>
+    <string name="med_chat_feel_side_effects">Беспокоят побочные эффекты</string>
+    <string name="med_chat_ask_crisis_start">Это бывает нечасто, но у некоторых людей в начале приёма лекарства «%1$s» появляются мысли о том, чтобы причинить себе вред, или о нежелании жить. Были ли у вас такие мысли с начала приёма?</string>
+    <string name="med_chat_ask_serious">Есть ли сейчас что-то из этого?</string>
+    <string name="med_chat_serious_harm">Мысли причинить себе вред или нежелание жить</string>
+    <string name="med_chat_serious_high">Необычно приподнятое настроение или энергии через край</string>
+    <string name="med_chat_serious_heart">Частое сердцебиение с потливостью, дрожью, подёргиванием мышц, спутанностью или сильным возбуждением</string>
+    <string name="med_chat_serious_heart_tca">Частое или неровное сердцебиение</string>
+    <string name="med_chat_serious_bleeding">Необъяснимые синяки или кровотечения, кровь в моче, стуле или рвоте</string>
+    <string name="med_chat_serious_throat">Отёк горла или языка, или трудно дышать</string>
+    <string name="med_chat_serious_collapse">Обморок, судороги, боль в груди или внезапная слабость, онемение или трудности с речью</string>
+    <string name="med_chat_alert_serious">Пожалуйста, получите медицинскую консультацию сейчас — обратитесь в службу неотложной помощи. Держите под рукой инструкцию к лекарству.</string>
+    <string name="med_chat_alert_side_effects">Побочные эффекты, которые беспокоят или не проходят, стоит обсудить с фармацевтом или врачом. Продолжайте приём, пока вам не скажут его прекратить.</string>
+
+    <!-- A missed dose, nothing to add -->
+    <string name="med_chat_missed">Пожалуйста, не принимайте две дозы сразу, чтобы восполнить пропущенную. Что делать при пропуске, написано в инструкции, а если сомневаетесь, подскажет фармацевт.</string>
+    <string name="med_chat_missed_leaflet">Что делать с пропущенным приёмом, написано во вкладыше; если сомневаетесь, спросите фармацевта.</string>
+    <string name="med_chat_nothing_new">Ничего нового не записано.</string>
+    <string name="med_chat_nothing_missed">Ничего не записано: приём в %1$s остаётся неотмеченным.</string>
+    <string name="med_chat_nothing_missed_wake">Ничего не записано: приём после пробуждения остаётся неотмеченным.</string>
+    <string name="med_chat_already_marked">Этот приём уже отмечен в %1$s, поэтому ничего нового не записано.</string>
+
+    <!-- Notes at the close: alcohol, and medicines that may not mix -->
+    <string name="med_chat_alcohol_avoid">С лекарством «%1$s» лучше не пить алкоголь. Подробнее — в инструкции.</string>
+    <string name="med_chat_alcohol_limit">Вместе с лекарством «%1$s» алкоголь лучше ограничить. Подробнее — в инструкции.</string>
+    <string name="med_chat_alcohol_sleepy">В сведениях о лекарстве «%1$s» сказано, что вместе с алкоголем оно может усиливать сонливость. Пока непонятно, как оно на вас действует, алкоголь лучше не пить.</string>
+    <string name="med_chat_mix">По сведениям об этих лекарствах, «%1$s» и «%2$s» могут плохо сочетаться друг с другом. Фармацевт может проверить, как сочетаются ваши лекарства.</string>
+    <string name="med_chat_mix_sjw">Для лекарства «%1$s» сказано, что во время приёма нельзя использовать зверобой. Пожалуйста, посоветуйтесь с фармацевтом или врачом.</string>
+    <string name="med_chat_mix_nsaids">В инструкциях к «%1$s» и «%2$s» сказано, какие обезболивающие нельзя принимать одновременно. Фармацевт может проверить эти два лекарства.</string>
+    <string name="med_chat_mix_paracetamol">Два лекарства с парацетамолом нельзя принимать одновременно — так можно принять его слишком много. Проверьте упаковки «%1$s» и «%2$s» или спросите фармацевта.</string>
+    <string name="med_chat_mix_opioids">Два лекарства с опиоидным обезболивающим, например с кодеином или трамадолом, вместе не принимают. Проверьте упаковки «%1$s» и «%2$s» или спросите фармацевта.</string>
+    <string name="med_chat_mix_tca_opioid">В сведениях о лекарстве «%1$s» сказано, что вместе с опиоидными обезболивающими оно может вызвать сильную сонливость и затруднить дыхание. Пожалуйста, спросите фармацевта или врача, можно ли принимать его вместе с «%2$s».</string>
+    <string name="med_chat_mix_not_together">По сведениям об этих лекарствах, «%1$s» и «%2$s» вместе не принимают. Пожалуйста, посоветуйтесь с фармацевтом или врачом.</string>
+    <string name="med_chat_mix_any_course">Если вы постоянно принимаете другие лекарства, фармацевт может проверить, сочетается ли с ними «%1$s».</string>
+    <string name="med_chat_ask_add_course">Вы принимаете его каждый день? Его можно добавить в список лекарств, с напоминаниями.</string>
+    <string name="med_chat_offer_add_course">Добавить в мои лекарства</string>
+    <string name="med_chat_offer_pain">Отметить боль</string>
+    <string name="med_chat_offer_fever">Рассказать о температуре</string>
+    <string name="med_chat_offer_sleep">Поговорить о сне</string>
+    <string name="med_chat_offer_dose_now">Записать приём сейчас</string>
+
+    <!-- The saved dose -->
+    <string name="med_chat_saved_scheduled">%1$s · приём в %2$s · отмечено в %3$s</string>
+    <string name="med_chat_saved_scheduled_day">%1$s · приём в %2$s · %3$s</string>
+    <string name="med_chat_saved_scheduled_wake">%1$s · приём после пробуждения · отмечено в %2$s</string>
+    <string name="med_chat_saved_scheduled_wake_day">%1$s · приём после пробуждения · %2$s</string>
+    <string name="med_chat_saved_one_off">%1$s · %2$s · в %3$s · вне расписания</string>
+    <string name="med_chat_saved_one_off_day">%1$s · %2$s · %3$s · вне расписания</string>
+
+    <!-- A course a doctor prescribed -->
+    <string name="med_chat_ask_course_name">Как называется лекарство? Напишите название так, как на упаковке или в рецепте.</string>
+    <string name="med_chat_course_name_hint">Название, как на упаковке</string>
+    <string name="med_chat_course_name_unknown">Названия пока не знаю</string>
+    <string name="med_chat_course_needs_name">Лекарство добавляется вместе с названием. Когда оно станет известно, напишите его в чате или добавьте на вкладке «Медицина».</string>
+    <string name="med_chat_course_same_label">Уже есть в списке</string>
+    <string name="med_chat_ask_course_same">Лекарство «%1$s» уже есть в вашем списке: %2$s. Что изменилось?</string>
+    <string name="med_chat_course_same_one">Ничего, это то же самое</string>
+    <string name="med_chat_course_changed">Доза или время</string>
+    <string name="med_chat_course_stopped">Его отменили</string>
+    <string name="med_chat_course_another">Это другое</string>
+    <string name="med_chat_course_nothing_changed">Ничего не изменено.</string>
+    <string name="med_chat_change_on_page">Дозу и время меняют на странице лекарства — так у отмеченных приёмов сохранится своя история.</string>
+    <string name="med_chat_ask_stop_who">Отменить его сказал врач?</string>
+    <string name="med_chat_stop_doctor">Да, врач</string>
+    <string name="med_chat_stop_own">Нет, это моё решение</string>
+    <string name="med_chat_alert_stop">Пожалуйста, не прекращайте приём резко и не поговорив сначала с врачом. Врач поможет спланировать, как его завершить.</string>
+    <string name="med_chat_withdrawal_net">Когда приём прекращают, бывают симптомы отмены, иногда — очень подавленное состояние или мысли о самоубийстве. Если так случится, обратитесь к врачу; если вам может грозить опасность, вызовите скорую помощь.</string>
+    <string name="med_chat_end_on_page">День окончания указывают на странице лекарства.</string>
+    <string name="med_chat_ended_before">Лекарство «%1$s» уже было в вашем списке — до %2$s. Сейчас оно добавится заново, отдельным курсом.</string>
+    <string name="med_chat_ask_for">Для чего его назначили?</string>
+    <string name="med_chat_ask_course_dose">Какая доза указана на упаковке или в рецепте? Например, 50 мг или 1 таблетка.</string>
+    <string name="med_chat_course_dose_unknown">Пока не знаю</string>
+    <string name="med_chat_ask_often">Как часто его принимать?</string>
+    <string name="med_chat_often_once">Раз в день</string>
+    <string name="med_chat_often_twice">Два раза в день</string>
+    <string name="med_chat_often_three">Три раза в день</string>
+    <string name="med_chat_often_needed">Только при необходимости</string>
+    <string name="med_chat_often_other">По-другому</string>
+    <string name="med_chat_ask_often_other">Тогда как часто?</string>
+    <string name="med_chat_often_more">Больше трёх раз в день</string>
+    <string name="med_chat_often_less">Реже, чем каждый день</string>
+    <string name="med_chat_ask_prn">Как тогда его записать?</string>
+    <string name="med_chat_offer_daily">Добавить как ежедневный курс</string>
+    <string name="med_chat_help_prn">В списке лекарств хранятся те, что принимают по расписанию, с напоминаниями. Лекарство «по необходимости» можно добавить как ежедневный курс или записывать каждый приём.</string>
+    <string name="med_chat_help_less_daily">Пока список лекарств хранит только ежедневное время, поэтому напоминал бы каждый день. Каждый приём можно также записывать здесь.</string>
+    <string name="med_chat_ask_times">В какое время? Отметьте подходящее время или добавьте своё.</string>
+    <string name="med_chat_ask_food">Есть ли указания насчёт еды?</string>
+    <string name="med_chat_ask_start">Когда вы начинаете приём?</string>
+    <string name="med_chat_start_today">Сегодня</string>
+    <string name="med_chat_start_tomorrow">Завтра</string>
+    <string name="med_chat_start_other">В другой день…</string>
+    <string name="med_chat_start_that_day">В тот день, %1$s</string>
+    <string name="med_chat_ask_length">Как долго?</string>
+    <plurals name="med_chat_length_days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <plurals name="med_chat_length_months">
+        <item quantity="one">%1$d месяц</item>
+        <item quantity="few">%1$d месяца</item>
+        <item quantity="many">%1$d месяцев</item>
+        <item quantity="other">%1$d месяца</item>
+    </plurals>
+    <string name="med_chat_length_until">До другой даты…</string>
+    <string name="med_chat_length_answer">%1$s, до %2$s</string>
+    <string name="med_chat_today_label">Сегодняшний приём</string>
+    <string name="med_chat_ask_today">Сегодняшний приём в %1$s уже прошёл. Он уже принят?</string>
+    <string name="med_chat_ask_today_wake">Сегодняшний приём после пробуждения: он уже принят?</string>
+    <string name="med_chat_ask_today_slots">Сегодняшние приёмы в %1$s уже прошли. Какие из них уже приняты?</string>
+    <string name="med_chat_today_taken">Да, уже принято</string>
+    <string name="med_chat_today_not_yet">Ещё нет</string>
+    <string name="med_chat_today_none">Пока ни одного</string>
+    <string name="med_chat_today_tomorrow">Лучше начать с завтра</string>
+    <string name="med_chat_reminder_soon">Время приёма уже прошло, поэтому напоминание прозвучит сразу после добавления.</string>
+    <string name="med_chat_missed_today">Приём в %1$s сегодня будет считаться пропущенным, пока его не отметят.</string>
+    <string name="med_chat_missed_today_several">Приёмы в %1$s сегодня будут считаться пропущенными, пока их не отметят.</string>
+    <string name="med_chat_ask_who">Кто его назначил?</string>
+    <string name="med_chat_who_hint">Кто назначил</string>
+    <string name="med_chat_help_who">Ответ попадёт в заметку к лекарству.</string>
+    <string name="med_chat_who_gp">Терапевт</string>
+    <string name="med_chat_who_psychiatrist">Психиатр</string>
+    <string name="med_chat_who_other">Другой врач</string>
+    <string name="med_chat_note_prescribed">Кем назначено: %1$s</string>
+
+    <!-- The saved course -->
+    <string name="med_chat_course_from">с %1$s</string>
+    <string name="med_chat_course_range">%1$s – %2$s</string>
+    <string name="med_chat_course_today_marked">Сегодняшний приём в %1$s отмечен.</string>
+    <string name="med_chat_course_today_marked_several">Сегодняшние приёмы в %1$s отмечены.</string>
+    <string name="med_chat_course_reminds">Напоминание придёт в %1$s.</string>
+    <string name="med_chat_course_reminds_wake">Напоминание придёт после пробуждения.</string>
+
+    <!-- What a course’s reminders need -->
+    <string name="med_chat_remind_label">Напоминания</string>
+    <string name="med_chat_ask_remind_switch">Напоминания в приложении выключены, поэтому о нём ничего не напомнит. Включить их? Тогда включатся и напоминания о еде, воде, шагах и записях в дневнике.</string>
+    <string name="med_chat_remind_on">Включить напоминания</string>
+    <string name="med_chat_remind_leave">Оставить выключенными</string>
+    <string name="med_chat_remind_left_off">Напоминания остаются выключенными. Лекарство есть в вашем списке, приёмы можно отмечать там или здесь.</string>
+    <string name="med_chat_ask_remind_notify">Уведомления приложения на этом телефоне выключены, поэтому напоминание не сможет появиться.</string>
+    <string name="med_chat_notify_allow">Разрешить уведомления</string>
+    <string name="med_chat_not_now">Не сейчас</string>
+    <string name="med_chat_notify_still_off">Уведомления всё ещё выключены, поэтому напоминания не появятся.</string>
+    <string name="med_chat_ask_remind_alarm">Чтобы напоминание звучало точно в срок и поверх экрана блокировки, телефону нужны эти разрешения:</string>
+    <string name="med_chat_alarm_done">Готово</string>
+    <string name="med_chat_exact_still_off">Точные будильники всё ещё выключены, поэтому напоминание может прийти на несколько минут позже.</string>
+
+    <!-- The first weeks of a course -->
+    <string name="med_chat_start_safety">Это бывает нечасто, но у некоторых людей в начале приёма лекарства «%1$s» появляются мысли о самоубийстве или желание причинить себе вред. Если так случится, сразу обратитесь к врачу. Если вам может грозить опасность, вызовите скорую помощь.</string>
+    <string name="med_chat_start_safety_tca">Это бывает нечасто, но у некоторых людей на лекарстве «%1$s» появляются мысли причинить себе вред или уйти из жизни. Если так случится, вызовите скорую помощь или обратитесь в приёмное отделение больницы.</string>
+    <string name="med_chat_ask_when_am_pm">До полудня или после? Выберите время.</string>
+    <string name="med_chat_when_day_at">%1$s · %2$s</string>
+    <string name="med_chat_when_day_unknown">%1$s · Не помню время</string>
+    <string name="med_chat_when_day_choose">%1$s · Выбрать время</string>
+</resources>

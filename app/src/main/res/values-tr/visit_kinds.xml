@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="visit_kind_paediatrician">Çocuk doktoru</string>
+    <string name="visit_kind_dermatologist">Dermatolog (cildiye)</string>
+    <string name="visit_kind_ophthalmologist">Göz doktoru</string>
+    <string name="visit_kind_ent">Kulak burun boğaz (KBB)</string>
+    <string name="visit_kind_orthopaedist">Ortopedist</string>
+    <string name="visit_kind_neurologist">Nörolog</string>
+    <string name="visit_kind_psychiatrist">Psikiyatrist</string>
+    <string name="visit_kind_gastroenterologist">Gastroenterolog</string>
+    <string name="visit_kind_laboratory">Laboratuvar tahlilleri</string>
+    <string name="visit_kind_imaging">Görüntüleme: röntgen, ultrason, BT, MR</string>
+    <string name="visit_kind_rehabilitation">Fizik tedavi ve rehabilitasyon</string>
+    <string name="visit_kind_surgeon">Cerrah</string>
+    <string name="visit_kind_oncologist">Onkolog</string>
+    <string name="visit_kind_allergist">Alerji uzmanı</string>
+    <string name="visit_kind_pulmonologist">Göğüs hastalıkları uzmanı (akciğer)</string>
+    <string name="visit_kind_nephrologist">Nefrolog (böbrek)</string>
+    <string name="visit_kind_rheumatologist">Romatolog</string>
+    <string name="visit_kind_infectious_diseases">Enfeksiyon hastalıkları uzmanı</string>
+    <string name="visit_kind_search_dentist">dişçi, ağız, diş</string>
+    <string name="visit_kind_search_gynecologist">jinekolog, kadın doğum, obstetrisyen, gebelik</string>
+    <string name="visit_kind_search_gp">aile doktoru, pratisyen hekim, ASM, sağlık ocağı, birinci basamak</string>
+    <string name="visit_kind_search_paediatrician">pediatri, çocuk hastalıkları, bebek</string>
+    <string name="visit_kind_search_cardiologist">kalp</string>
+    <string name="visit_kind_search_dermatologist">cilt, deri, egzama</string>
+    <string name="visit_kind_search_ophthalmologist">oftalmolog, göz hastalıkları, görme, gözlük</string>
+    <string name="visit_kind_search_ent">otorinolaringolog, kulak, burun, boğaz, KBB</string>
+    <string name="visit_kind_search_orthopaedist">ortopedi, kemik, eklem, travmatoloji, kırık</string>
+    <string name="visit_kind_search_psychologist">terapist, danışman, psikolojik destek, terapi</string>
+    <string name="visit_kind_search_gastroenterologist">mide, bağırsak, sindirim</string>
+    <string name="visit_kind_search_laboratory">kan tahlili, analiz, laboratuvar, kan testi</string>
+    <string name="visit_kind_search_imaging">radyoloji, ultrason, ekografi, tomografi, emar, röntgen filmi</string>
+    <string name="visit_kind_search_rehabilitation">fizyoterapi, fizik tedavi, FTR, fizyoterapist</string>
+    <string name="visit_kind_search_somnologist">somnolog, uyku doktoru, uykusuzluk</string>
+    <string name="visit_kind_field">Doktor ya da muayene</string>
+    <string name="visit_kind_search">Listede ara</string>
+    <string name="choice_search_none">Listede eşleşen bir şey yok</string>
+    <string name="visit_doctors_here">Bu yerde gittiğiniz doktorlar</string>
+    <string name="visit_save_needs_place">Kaydetmek için yeri ekleyin</string>
+    <string name="visit_save_needs_doctor">Kaydetmek için doktoru ekleyin</string>
+    <string name="visit_save_needs_kind">Kaydetmek için doktoru ya da muayeneyi seçin</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Udostępnij spacer</string>
+    <string name="walk_delete">Usuń spacer</string>
+    <string name="walk_delete_title">Usunąć ten spacer?</string>
+    <string name="walk_delete_body">Spacer zniknie z telefonu na dobre, razem z trasą, danymi i zdjęciami. Pliki, które zostały już zapisane lub udostępnione, pozostaną tam, gdzie są.</string>
+    <string name="walk_photos">Zdjęcia</string>
+    <string name="walk_photos_help">Numery odpowiadają znacznikom na mapie, które pokazują, gdzie zrobiono każde zdjęcie. Jeśli w chwili robienia zdjęcia telefon nie miał ustalonej pozycji GPS, znacznika nie ma. Kierunek pokazuje, w którą stronę patrzył aparat: to azymut w stopniach liczony od północy geograficznej. Nachylenie mówi, o ile stopni telefon był skierowany powyżej lub poniżej horyzontu. „Pionowo” i „poziomo” opisują, jak trzymano telefon.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">widok na %1$s</string>
+    <string name="walk_photo_up">%1$d° w górę</string>
+    <string name="walk_photo_down">%1$d° w dół</string>
+    <string name="walk_photo_level">na wprost</string>
+    <string name="walk_photo_portrait">pionowo</string>
+    <string name="walk_photo_landscape">poziomo</string>
+    <string name="walk_photo_upside_down">do góry nogami</string>
+    <string name="walk_photo_no_direction">kierunek nieznany</string>
+    <string name="walk_photo_spoken">Zdjęcie %1$d: %2$s</string>
+    <string name="walk_photo_delete">Usuń zdjęcie %1$d</string>
+    <string name="walk_photo_delete_body">Zdjęcie zniknie z telefonu na dobre. Spacer, podczas którego je zrobiono, zostanie.</string>
+    <string-array name="walk_compass_points">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>północ</item>
+        <item>północny wschód</item>
+        <item>wschód</item>
+        <item>południowy wschód</item>
+        <item>południe</item>
+        <item>południowy zachód</item>
+        <item>zachód</item>
+        <item>północny zachód</item>
+    </string-array>
+</resources>

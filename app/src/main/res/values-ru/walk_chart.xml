@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">Высота</string>
+    <string name="walk_chart_speed">Скорость</string>
+    <string name="walk_chart_no_elevation">На этой прогулке слишком мало замеров высоты</string>
+    <string name="walk_chart_no_speed">На этой прогулке слишком мало замеров скорости</string>
+    <string name="walk_chart_spoken_elevation">Высота от %1$s до %2$s</string>
+    <string name="walk_chart_spoken_speed">Скорость: средняя %1$s, максимальная %2$s</string>
+    <string name="walk_chart_unit_m">м</string>
+    <string name="walk_chart_unit_ft">фт</string>
+    <string name="walk_chart_unit_kmh">км/ч</string>
+    <string name="walk_chart_unit_mph">миль/ч</string>
+</resources>

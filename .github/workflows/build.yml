@@ -1,0 +1,230 @@
+name: build
+
+# Every push, every pull request from a fork, and a manual run from the Actions tab.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+# A second push to the same branch makes the first one pointless.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+# Read-only for everything that runs build-script code; the release job raises its own token.
+permissions:
+  contents: read
+
+# Every action is pinned to a full commit SHA. A tag is mutable and can be repointed by whoever
+# owns the action, and on a version tag these steps share a job with the release signing key. The
+# trailing comment is the version the SHA stood for when it was pinned. CiWorkflowTest holds this
+# file to that, and to what the steps below say about the key and the release. The steps both
+# builds take are written once, in `build`, and named again by their anchors in `signed`.
+
+jobs:
+  build:
+    # Not a version tag: `signed` below builds that one, with the key. A pull request from a branch
+    # of this repository is built by the branch's push, in the push's concurrency group; built as a
+    # pull_request too, it would be a second run of the same commit beside it. A fork's pull request has
+    # no push here and is built as one. Dependabot's own push of a Gradle branch is not built
+    # either: its new versions have no checksums yet, and dependabot-gradle.yml writes them onto
+    # the branch and then asks for this build.
+    if: >-
+      !startsWith(github.ref, 'refs/tags/') &&
+      (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository) &&
+      !(github.event_name == 'push' && github.actor == 'dependabot[bot]' &&
+        startsWith(github.ref, 'refs/heads/dependabot/gradle/'))
+    # The image by its release rather than ubuntu-latest, which GitHub moves to the next one when
+    # it chooses; a new image is a change made here, with the run that shows what it changed.
+    runs-on: ubuntu-24.04
+    # A run that hangs is stopped at an hour and a half rather than at the six GitHub allows a job;
+    # the build takes 46 to 57 minutes on this runner.
+    timeout-minutes: 90
+    steps:
+      # The token stays out of .git/config: the build scripts, plugins and tests run below could
+      # read it there, and nothing in this job pushes.
+      - &checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Models and map data are ordinary blobs on purpose (.gitattributes), and every version of one
+      # stays in the history for good. A large file anywhere else is a mistake to catch before it is
+      # in a commit everybody has pulled.
+      - &large-files
+        name: No large file outside the folders the build reads
+        run: |
+          large=$(git ls-files -z | xargs -0 du -b | awk -F'\t' '$1 > 5000000 && $2 !~ /^(app\/src\/main\/assets\/|app\/libs\/)/')
+          if [ -n "$large" ]; then
+            echo "$large"
+            echo "A tracked file over 5 MB outside app/src/main/assets and app/libs: see .gitattributes."
+            exit 1
+          fi
+
+      - &wrapper
+        name: Verify the Gradle wrapper
+        uses: gradle/actions/wrapper-validation@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+
+      - &java
+        uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5.7.0
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      # compileSdk 37.1 is newer than the runner image, so the platform is installed explicitly, with
+      # the build tools app/build.gradle.kts names.
+      - &android-sdk
+        name: Set up the Android SDK
+        uses: android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699 # v4.0.1
+        with:
+          packages: 'platforms;android-37.1 build-tools;37.0.0'
+
+      - &gradle
+        uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
+
+      # `check` is Android Lint, detekt, ktlint and the unit tests; compiler warnings fail the
+      # build. A branch's release APKs come out unsigned, which is all a check of the build needs.
+      # Two tasks at a time: three variants compiling at once in the one Kotlin daemon run it out of
+      # its 3 GB on a four-core runner.
+      - name: Check and build
+        run: ./gradlew --build-cache --max-workers=2 check assembleRelease
+
+      # build/reports/problems is the root project's: Kotlin 2.4.21 prints a warning that fails the
+      # build under allWarningsAsErrors there and nowhere else.
+      - &reports
+        name: Upload reports when something fails
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: reports
+          path: |
+            app/build/reports/**
+            app/build/test-results/**
+            build/reports/problems/**
+          if-no-files-found: ignore
+          retention-days: 7
+
+  # A version tag: the same build with the release key, whose sideload APKs are the download. A job
+  # of its own that nothing but a tag starts, because GitHub hands a runner every secret its job
+  # names, in a step that is skipped as well, and code running in the job can read it from the
+  # runner's memory. A branch's build runs the pushed commit's build scripts, every plugin and every
+  # test with the libraries it loads, and on Dependabot's branches versions no person has read.
+  signed:
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - *checkout
+      - *large-files
+      - *wrapper
+      - *java
+      - *android-sdk
+      - *gradle
+
+      # The key is the identity of every update this app will ever get. A tag without it fails here
+      # rather than publish an unsigned build.
+      - name: Restore release signing
+        env:
+          KEYSTORE_B64: ${{ secrets.KEYSTORE_B64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        run: |
+          [ -n "$KEYSTORE_B64" ] || { echo "::error::No KEYSTORE_B64 secret: a version tag is published signed or not at all."; exit 1; }
+          mkdir -p "$HOME/keys"
+          chmod 700 "$HOME/keys"
+          printf '%s' "$KEYSTORE_B64" | base64 -d > "$HOME/keys/pwnall-release.jks"
+          printf '%s' "$KEYSTORE_PASSWORD" > "$HOME/keys/pwnall-release.password"
+          chmod 600 "$HOME/keys/pwnall-release.jks" "$HOME/keys/pwnall-release.password"
+
+      # -PrequireReleaseSigning turns missing signing material into a failure rather than an
+      # unsigned artifact.
+      - name: Check and build, signed
+        run: ./gradlew --build-cache --max-workers=2 check assembleRelease -PrequireReleaseSigning
+
+      - name: Remove the signing material
+        if: always()
+        run: rm -rf "$HOME/keys"
+
+      # The download, which the release job below takes within minutes. Play's are built above as a
+      # check and left behind, since they differ from these by one manifest line and reach people as
+      # the .aab made for the Play Console. A branch keeps none: its are unsigned, which no phone
+      # installs, and kept for every push they would fill the repository's artifact storage.
+      - name: Keep the sideload APKs
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: app-release-apk
+          path: app/build/outputs/apk/sideload/release/*.apk
+          if-no-files-found: error
+          retention-days: 1
+
+      # R8's mapping of the published APKs, without which a stack trace from them cannot be read
+      # back into names. 130 MB of text, a sixteenth of that packed.
+      - name: Pack the mapping
+        run: >
+          gzip -9 -c app/build/outputs/mapping/sideloadRelease/mapping.txt
+          > app-sideload-release-mapping.txt.gz
+
+      - name: Keep the mapping
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: app-release-mapping
+          path: app-sideload-release-mapping.txt.gz
+          if-no-files-found: error
+          retention-days: 1
+
+      - *reports
+
+  # `git tag v2.0 && git push --tags` is the whole release process. The notes are the changelog's
+  # section for the tagged version. A job of its own so the token that can write to the repository
+  # is never held by a run that executes Gradle.
+  release:
+    needs: signed
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      # First: a checkout cleans the workspace, the downloads below included.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: CHANGELOG.md
+          sparse-checkout-cone-mode: false
+
+      # A tag whose version has no section fails here, before anything is published. GitHub breaks a
+      # release's text at every newline, so an entry's wrapped lines are joined into one. It takes a
+      # body of 125,000 characters at most; a longer section is cut at a line, and the link names the rest.
+      - name: Take the notes from the changelog
+        env:
+          TAG: ${{ github.ref_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          awk -v head="## ${TAG#v}" '$0 == head { found = 1; next } found && /^## / { exit } found' CHANGELOG.md \
+            | awk '/^ +[^ ]/ && !/^ +[-*] / && held != "" { sub(/^ +/, ""); held = held " " $0; next }
+                   { if (n++) print held; held = $0 } END { if (n) print held }' \
+            | awk -v max=120000 '{ n += length($0) + 1; if (n > max) exit; print }' > "$RUNNER_TEMP/notes.md"
+          grep -q '^- \*\*' "$RUNNER_TEMP/notes.md" || { echo "::error::CHANGELOG.md has no '## ${TAG#v}' section for $TAG."; exit 1; }
+          printf '\nThe whole changelog: https://github.com/%s/blob/%s/CHANGELOG.md\n' "$REPO" "$TAG" >> "$RUNNER_TEMP/notes.md"
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: app-release-apk
+          path: apk
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: app-release-mapping
+          path: mapping
+
+      # `*-release.apk` cannot match AGP's `*-release-unsigned.apk`, and no match fails the job, so
+      # a release page can never carry an unsigned build even if the guard above is ever loosened.
+      # `**` because where an artifact puts its files under `apk/` is the upload action's choice.
+      - name: Publish a release for a version tag
+        uses: softprops/action-gh-release@8a0cd651e5b2365bd640854a3fa5dfc70e4875f3 # v3.0.4
+        with:
+          files: |
+            apk/**/*-release.apk
+            mapping/**/*-mapping.txt.gz
+          fail_on_unmatched_files: true
+          body_path: ${{ runner.temp }}/notes.md

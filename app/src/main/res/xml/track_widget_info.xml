@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The 30 minutes is the platform floor, and here it is a backstop rather than the real cadence: a
+  running recording redraws this widget every five seconds from the service itself
+  (StepService.maybeRefreshWidgets). The period is what puts a finished route's widget back to its
+  resting face on a phone nobody has touched since.
+
+  The height is the recording face: Stop is padded to a 48.75dp tap target, and the frame spends
+  10dp above and below it, so that face measures 68.8dp and the widget declares 70dp. The idle face
+  is the shorter of the two at 55.2dp.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_track_description"
+    android:initialLayout="@layout/widget_initial_track"
+    android:minWidth="180dp"
+    android:minHeight="70dp"
+    android:previewLayout="@layout/widget_preview_track"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

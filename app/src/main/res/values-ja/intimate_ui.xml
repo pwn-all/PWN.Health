@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">性行為</string>
+    <string name="intimate_anything_to_add">ほかに記録することは？</string>
+    <string name="intimate_history_title">履歴</string>
+    <string name="intimate_history_empty">まだ記録がありません。</string>
+    <string name="intimate_act_title">記録を編集</string>
+    <string name="intimate_act_kind">種類</string>
+    <string name="intimate_act_day">日付</string>
+    <string name="intimate_act_time">時刻</string>
+    <string name="intimate_act_time_unrecorded">この記録には時刻がありません。</string>
+    <string name="intimate_flash_changed">変更完了</string>
+    <string name="intimate_flash_deleted">削除完了</string>
+    <string name="intimate_charts_title">グラフ</string>
+    <string name="intimate_woke_at">起床時刻</string>
+    <string name="intimate_woke_by_unset">未設定</string>
+    <string name="intimate_woke_phone">起床 %1$s · 端末を最初に使った時刻から</string>
+</resources>

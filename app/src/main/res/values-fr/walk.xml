@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Fête du lactate</item>
+        <item>Balade au soleil couchant</item>
+        <item>À l’assaut des collines</item>
+        <item>Course au café</item>
+        <item>Poésie du bitume</item>
+        <item>Safari urbain</item>
+        <item>Bol d’air frais</item>
+        <item>Détour de luxe</item>
+        <item>Patrouille des flaques</item>
+        <item>Boucle à l’heure dorée</item>
+        <item>La grande forme</item>
+        <item>Au gré de la brise</item>
+        <item>La saga du trottoir</item>
+        <item>Avaler les kilomètres</item>
+        <item>La tête dans les nuages</item>
+        <item>Vue imprenable</item>
+        <item>Petite aventure</item>
+        <item>Livraison d’endorphines</item>
+        <item>Inspection des bancs</item>
+        <item>Fière allure</item>
+        <item>Le chemin des écoliers</item>
+        <item>La bride sur le cou</item>
+        <item>Tout en douceur</item>
+        <item>Leg day en plein air</item>
+        <item>Mode flânerie</item>
+        <item>Se vider la tête</item>
+        <item>Symphonie en pas majeur</item>
+        <item>Au pas de charge</item>
+        <item>Le goûter, ça se mérite</item>
+        <item>La parade des pigeons</item>
+        <item>Raccourcis, non merci</item>
+        <item>Tour d’honneur</item>
+        <item>Semelles de vent</item>
+        <item>Bonjour, grand air</item>
+        <item>Escapade du week-end</item>
+        <item>Expédition de poche</item>
+        <item>Aux aurores</item>
+        <item>Croisière cardio</item>
+        <item>Gribouillis sur la carte</item>
+        <item>Balade philosophique</item>
+    </string-array>
+</resources>

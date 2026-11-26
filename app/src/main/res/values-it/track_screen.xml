@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Dettagli</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Dettagli</string>
+    <string name="track_signal_good">Segnale GPS buono</string>
+    <string name="track_signal_fair">Segnale GPS medio</string>
+    <string name="track_signal_poor">Segnale GPS debole</string>
+    <string name="track_signal_searching">Ricerca del segnale GPS</string>
+    <string name="track_signal_location_off">Posizione disattivata</string>
+    <string name="track_signal_no_access">Nessun accesso alla posizione</string>
+    <string name="track_info_title">Segnale e percorso</string>
+    <string name="track_signal_title">Segnale GPS</string>
+    <string name="track_signal_note">Le tacche indicano con quanta precisione il telefono conosce la propria posizione. Tre tacche: precisione di %1$s o migliore. Due: fino a %2$s. Una: precisione inferiore. Nessuna: da dieci secondi non c’è una posizione, mentre il telefono continua a cercare. Questa schermata rileva la posizione solo finché è aperta, per mostrare il segnale e dove ti trovi.</string>
+    <string name="track_history_empty">Ancora nessun percorso salvato.</string>
+    <string name="track_map_here">Mappa intorno alla tua posizione</string>
+    <string name="track_map_waiting">Mappa del mondo. La tua posizione non è ancora nota.</string>
+    <string name="track_map_follow_here">Torna alla tua posizione</string>
+    <string name="track_pause">Metti in pausa la registrazione</string>
+    <string name="track_resume">Riprendi la registrazione</string>
+    <string name="track_value_paused">in pausa</string>
+    <string name="track_value_ended">terminato</string>
+    <string name="track_finish_title">Terminare questo percorso?</string>
+    <string name="track_finish_body">La registrazione si ferma e il percorso viene salvato. Se vuoi solo fare una pausa, tocca invece Pausa.</string>
+    <string name="track_finish">Termina</string>
+    <string name="track_keep_recording">Continua a registrare</string>
+    <string name="track_finished">Percorso terminato</string>
+</resources>

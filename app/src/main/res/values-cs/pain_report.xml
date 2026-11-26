@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Co bylo vybarveno za posledních 30 dní a kolik dní bolela každá oblast</string>
+    <string name="pain_paint_hint">Vybarvěte, kde to bolí; přiblížíte roztažením dvou prstů. Bolavá záda a bolavé koleno jsou dva samostatné záznamy.</string>
+    <string name="pain_head_note">Obrázek začíná u krku: oblast bolesti hlavy vyberte v seznamu „Přidat oblast“.</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">Na obrázku je %1$d záznam. Každá značka je tam, kde ji někdo vybarvil, a kde se záznamy překrývají, je tmavší. Oblasti vybrané ze seznamu bez vybarvení na obrázku nejsou.</item>
+        <item quantity="few">Na obrázku jsou %1$d záznamy. Každá značka je tam, kde ji někdo vybarvil, a kde se záznamy překrývají, je tmavší. Oblasti vybrané ze seznamu bez vybarvení na obrázku nejsou.</item>
+        <item quantity="many">Na obrázku je %1$d záznamu. Každá značka je tam, kde ji někdo vybarvil, a kde se záznamy překrývají, je tmavší. Oblasti vybrané ze seznamu bez vybarvení na obrázku nejsou.</item>
+        <item quantity="other">Na obrázku je %1$d záznamů. Každá značka je tam, kde ji někdo vybarvil, a kde se záznamy překrývají, je tmavší. Oblasti vybrané ze seznamu bez vybarvení na obrázku nejsou.</item>
+    </plurals>
+</resources>

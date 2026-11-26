@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Inicio por ubicación</string>
+    <string name="work_place_help_what">Guarda el lugar donde trabajas y el temporizador de trabajo se iniciará cuando el teléfono esté allí. Cada comprobación toma una posición del propio servicio de ubicación de Android, la compara con el punto guardado y la olvida. Un punto solo se guarda a partir de una posición con una precisión de hasta 100 m. Solo se conservan el punto guardado, su radio y tus sesiones, en este teléfono. No se envía nada a ninguna parte.</string>
+    <string name="work_place_help_when">Las comprobaciones se hacen cada 10 minutos y solo dentro de una franja horaria cada día laborable. La franja se abre cuando te despiertas: el final de tu registro de sueño o el primer uso del teléfono después de la noche, si la aplicación puede ver alguno de los dos. Un primer uso del teléfono antes de las %4$s cuenta desde las %4$s, salvo que tu registro de sueño muestre un despertar anterior o que tu horario habitual empiece antes. Si la aplicación no puede ver ninguno de los dos, la mañana empieza a las %1$s. Si puede verlos pero aún no te ha visto despertar, espera como mucho hasta las %2$s. Cuando las últimas 4 semanas reúnan al menos 3 sesiones iniciadas en días laborables, sin contar las que el temporizador detuvo solo, la franja se abrirá una hora antes de tu inicio habitual, nunca antes de que te despiertes, y se cerrará una hora después de tu fin habitual. Hasta entonces se cierra a las %3$s. En tus días libres no hay comprobaciones. Antes de que se abra la franja, la aplicación solo mira si ya te has levantado, y para eso no toma ninguna posición.</string>
+    <string name="work_place_help_leave">Si dos comprobaciones seguidas no te encuentran allí, una sesión que inició la aplicación se detiene y termina en la última comprobación que te encontró allí. Una sesión que iniciaste tú nunca se detiene de esta forma. Mientras sigue en marcha una sesión que inició la aplicación, las comprobaciones continúan después de que se cierre la franja, como mucho hasta medianoche.</string>
+    <string name="work_place_help_yours">Cada inicio y cada parada automáticos llegan con una notificación desde la que puedes deshacerlos: un inicio, hasta el final del día, siempre que no hayas cambiado tú la sesión; una parada, durante una hora, siempre que el temporizador no se haya vuelto a iniciar desde entonces. En cuanto pulses tú Iniciar, Pausar, Reanudar o Detener, o deshagas algo, la aplicación no inicia nada más en ese día.</string>
+    <string name="work_place_help_access">Para ello, Android tiene que permitir la ubicación precisa todo el tiempo y las alarmas exactas. Mientras el interruptor está desactivado, no se toma ninguna posición para esta función.</string>
+    <string name="work_place_save">Guardar mi ubicación actual</string>
+    <string name="work_place_locating">Buscando dónde estás…</string>
+    <string name="work_place_no_fix">No se encontró la posición</string>
+    <string name="work_place_rough_fix">Posición poco precisa. Prueba junto a una ventana</string>
+    <string name="work_place_point">Tu lugar de trabajo</string>
+    <string name="work_place_saved">Guardado %1$s</string>
+    <string name="work_place_saved_within">Guardado %1$s · con una precisión de %2$d m</string>
+    <string name="work_place_move">Moverlo a mi ubicación actual</string>
+    <string name="work_place_remove">Quitar el lugar de trabajo</string>
+    <string name="work_place_radius">Cuenta como allí en un radio de</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Iniciar el temporizador cuando llegue</string>
+    <string name="work_place_access_precise_title">Ubicación precisa</string>
+    <string name="work_place_access_precise_body">La ubicación aproximada solo es precisa hasta unos 1,6 km, más que cualquier lugar de trabajo. El punto y las comprobaciones necesitan la precisa.</string>
+    <string name="work_place_access_background_title">Ubicación todo el tiempo</string>
+    <string name="work_place_access_background_body">PWN.Health usa tu ubicación en segundo plano para iniciar y detener el temporizador de trabajo cuando llegas a tu lugar de trabajo o sales de él, incluso con la aplicación cerrada. Comprueba cada 10 minutos, solo entre la mañana y la noche de tus días laborables, y las posiciones se quedan en este teléfono. En la siguiente pantalla, elige «Permitir todo el tiempo».</string>
+    <string name="work_place_access_exact_title">Alarmas y recordatorios</string>
+    <string name="work_place_access_exact_body">Solo una alarma exacta puede despertar la aplicación para una comprobación mientras está cerrada. Android guarda este permiso en su pantalla «Alarmas y recordatorios».</string>
+    <string name="work_place_access_notifications_title">Notificaciones</string>
+    <string name="work_place_access_notifications_body">Cada inicio y cada parada automáticos se comunican en una notificación con Deshacer, en el canal «%1$s». Sin este permiso, el temporizador sigue iniciándose y deteniéndose, pero no habrá desde dónde deshacerlo.</string>
+    <string name="work_place_next_today">Próxima comprobación hoy a las %1$s</string>
+    <string name="work_place_next_tomorrow">Próxima comprobación mañana a las %1$s</string>
+    <string name="work_place_next_day">Próxima comprobación el %1$s a las %2$s</string>
+    <string name="work_place_next_none">No hay ninguna comprobación prevista para la próxima semana.</string>
+    <string name="work_place_started_title">Temporizador de trabajo iniciado</string>
+    <string name="work_place_started_body">Tu teléfono está en tu lugar de trabajo. Iniciado a las %1$s.</string>
+    <string name="work_place_stopped_title">Temporizador de trabajo detenido</string>
+    <string name="work_place_stopped_body">Dos comprobaciones seguidas no te encontraron en tu lugar de trabajo. La sesión termina a las %1$s, en la última comprobación que te encontró allí.</string>
+    <string name="work_place_stopped_short">Dos comprobaciones seguidas no te encontraron en tu lugar de trabajo después de una sola que sí te encontró allí, así que no se guardó nada.</string>
+    <string name="work_place_undo">Deshacer</string>
+    <string name="work_place_channel">Comprobaciones del lugar de trabajo</string>
+    <string name="work_place_notice_channel">Temporizador de trabajo automático</string>
+    <string name="work_place_checking">Comprobando si estás en el trabajo</string>
+</resources>

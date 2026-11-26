@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Fiesta del lactato</item>
+        <item>Paseo al atardecer</item>
+        <item>Cazacuestas</item>
+        <item>Rumbo al café</item>
+        <item>Poesía de acera</item>
+        <item>Safari urbano</item>
+        <item>Soplo de aire fresco</item>
+        <item>Rodeo de lujo</item>
+        <item>Patrulla de charcos</item>
+        <item>Vuelta con luz dorada</item>
+        <item>Caminata épica</item>
+        <item>Tras la brisa</item>
+        <item>Saga callejera</item>
+        <item>Devorakilómetros</item>
+        <item>Contando nubes</item>
+        <item>Ruta panorámica</item>
+        <item>Miniaventura</item>
+        <item>Recado de endorfinas</item>
+        <item>De banco en banco</item>
+        <item>Zancadas con estilo</item>
+        <item>Por el camino largo</item>
+        <item>Rienda suelta</item>
+        <item>Kilómetros en calma</item>
+        <item>Hoy toca pierna</item>
+        <item>Modo sin prisa</item>
+        <item>Despejando la cabeza</item>
+        <item>Sinfonía de pasos</item>
+        <item>A paso ligero</item>
+        <item>Ganándome la merienda</item>
+        <item>Desfile de palomas</item>
+        <item>Sin atajos</item>
+        <item>Vuelta de honor</item>
+        <item>Gastando suela</item>
+        <item>¡Hola, aire libre!</item>
+        <item>Paseíto de finde</item>
+        <item>Expedición de bolsillo</item>
+        <item>Ronda del amanecer</item>
+        <item>Ritmo de crucero</item>
+        <item>Garabato en el mapa</item>
+        <item>Paseo filosófico</item>
+    </string-array>
+</resources>

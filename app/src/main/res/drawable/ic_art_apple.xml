@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <group
+        android:scaleX="0.07552"
+        android:scaleY="0.07552"
+        android:rotation="0"
+        android:translateX="5"
+        android:translateY="5">
+        <path
+            android:pathData="M253.48,120.44c-72.72,6.42-126.34-47.22-119.94-119.92  C206.27-5.89,259.88,47.74,253.48,120.44z"
+            android:fillColor="@color/art_duo_mid" />
+        <path
+            android:pathData="M256.27,171.1c-6.27-1.57-11.2-6.88-11.95-13.68c-3.44-31.15,5.47-61.76,25.06-86.21  c19.6-24.45,47.55-39.81,78.69-43.23c8.74-0.94,16.58,5.34,17.52,14.06c0.96,8.72-5.33,16.56-14.05,17.54  c-22.7,2.5-43.07,13.68-57.36,31.5s-20.77,40.13-18.27,62.83c0.96,8.74-5.33,16.58-14.06,17.55  C259.92,171.69,258.04,171.54,256.27,171.1z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="M374.07,120.25c-17.34-4.62-35.28-3.66-52.88,2c-45.22,14.58-93.3,14.58-138.51,0  c-17.6-5.66-35.54-6.62-52.88-2c-69.25,18.45-102.66,118.62-74.64,223.76s106.85,175.39,176.1,156.94  c0.08-0.02,0.14-0.03,0.22-0.06c13.46-3.63,27.47-3.63,40.93,0c0.08,0.02,0.14,0.03,0.22,0.06  c69.23,18.45,148.08-51.82,176.1-156.94C476.73,238.87,443.31,138.7,374.07,120.25z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="M448.71,343.99c-28,105.12-106.88,175.36-176.16,156.96h-0.16c-13.44-3.68-27.52-3.68-40.96,0  h-0.16c-26.08,6.88-53.44,1.28-78.88-13.92c135.84-52.48,237.6-184.96,258.88-346.4  C454.31,179.19,471.12,259.99,448.71,343.99z"
+            android:fillColor="@color/art_duo_ink" />
+    </group>
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Anhang beschreiben</string>
+    <string name="attachment_details_hint">Wählen Sie, was diese Datei enthält. Name und Format verraten die Untersuchung nicht. Den Typ können Sie offenlassen.</string>
+    <string name="attachment_description">Beschreibung oder Körperregion</string>
+    <string name="attachment_study_day">Untersuchungsdatum (optional)</string>
+    <string name="attachment_study_day_clear">Datum entfernen</string>
+    <string name="attachment_kind_unknown">Typ nicht angegeben</string>
+    <string name="attachment_kind_ct">CT</string>
+    <string name="attachment_kind_mri">MRT</string>
+    <string name="attachment_kind_ultrasound">Ultraschall</string>
+    <string name="attachment_kind_xray">Röntgen</string>
+    <string name="attachment_kind_doppler">Doppler-Ultraschall</string>
+    <string name="attachment_kind_lab">Laborbefund</string>
+    <string name="attachment_kind_prescription">Rezept</string>
+    <string name="attachment_kind_other">Anderes Dokument</string>
+    <string name="attachment_catalog_note">Die angehängten Originaldateien sind in diesem ZIP enthalten. Untersuchungsarten, Daten und Beschreibungen hat die Person selbst angegeben.</string>
+</resources>
