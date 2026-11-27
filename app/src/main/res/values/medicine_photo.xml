@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The camera button beside a course's name, said by a screen reader. -->
+    <string name="med_photo_take">Take a photo of the medicine</string>
+    <!-- A course's photograph, named for a screen reader by the course: Photo of Metformin. -->
+    <string name="med_photo_of">Photo of %1$s</string>
+    <!-- The same while the course has no name yet. -->
+    <string name="med_photo_unnamed">Photo of the medicine</string>
+    <string name="med_photo_retake">Retake photo</string>
+    <string name="med_photo_remove">Remove photo</string>
+    <!-- What a tap on the photograph does, read after the screen reader's double-tap hint. -->
+    <string name="med_photo_open">Open full size</string>
+    <string name="med_delete_body_photo">The schedule and its photo go; the doses already marked stay in the journal.</string>
+</resources>

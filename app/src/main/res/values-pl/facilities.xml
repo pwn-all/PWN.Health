@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Miejsca w pobliżu</string>
+    <string name="facility_locating">Sprawdzamy, gdzie jesteś…</string>
+    <string name="facility_denied">Nie zezwolono na dostęp do lokalizacji, więc listy nie można posortować według odległości. Nadal możesz wpisać nazwę.</string>
+    <string name="facility_location_off">Lokalizacja jest wyłączona na tym telefonie.</string>
+    <string name="facility_location_settings">Ustawienia lokalizacji</string>
+    <string name="facility_no_fix">Telefon nie mógł teraz ustalić, gdzie jesteś. Spróbuj ponownie za chwilę.</string>
+    <string name="facility_nothing_near">Na liście nie ma niczego w promieniu %1$s od Ciebie.</string>
+    <string name="facility_list_title">Przychodnie i szpitale</string>
+    <string name="facility_near_title">W pobliżu</string>
+    <string name="facility_near_kind">W pobliżu: %1$s</string>
+    <string name="facility_near_gynaecology">W pobliżu: ginekologia</string>
+    <string name="facility_near_imaging">W pobliżu: diagnostyka obrazowa</string>
+    <string name="facility_near_gastroenterology">W pobliżu: gastroenterologia</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">Skąd pochodzą te miejsca</string>
+    <string name="facility_help_what">Podpowiedzi pochodzą z oficjalnych rejestrów placówek medycznych. Lista jest zapisana w aplikacji i przeszukiwana na tym telefonie. Na potrzeby aplikacji rejestry zawężono do miejsc, do których może przyjść pacjent, a rodzaje świadczeń pogrupowano według rodzajów lekarzy znanych aplikacji. Przycisk lokalizacji na końcu pola „Miejsce” pokazuje tylko miejsca, które udzielają świadczeń wybranych dla tej wizyty, albo wszystkie miejsca, gdy wizyta jest u innego lekarza; wpisanie nazwy przeszukuje całą listę.</string>
+    <string name="facility_help_screening">W przypadku badań przesiewowych lista pokazuje oddziały i poradnie, w których często się je wykonuje: ginekologię przy cytologii, diagnostykę obrazową przy mammografii i gastroenterologię przy badaniu jelita grubego. Rejestr nie podaje, czy dana poradnia sama wykonuje to badanie, więc zapytaj o to przy zapisie.</string>
+    <string name="facility_help_coverage">Lista obejmuje Czechy, Ukrainę i Zjednoczone Emiraty Arabskie. Z Ukrainy zawiera tylko miejsca, które mają umowę z Narodową Służbą Zdrowia Ukrainy. Z Emiratów zawiera rejestr Dubaju w wydaniu z grudnia 2023 roku, miejsca z licencją w Abu Zabi, które naniesiono na mapę w 2022 roku i które nadal na niej są w 2026 roku, oraz publiczne szpitale i ośrodki zdrowia Emirates Health Services; prywatnych klinik w Szardży, Adżmanie, Umm al-Kajwajn, Ras al-Chajmie i Al-Fudżajrze na liście nie ma. Rejestr może być nieaktualny: przed wizytą sprawdź wszystko bezpośrednio w placówce.</string>
+    <string name="facility_help_location">Przycisk lokalizacji jeden raz prosi Androida o Twoją przybliżoną lokalizację i zaokrągla ją do około kilometra. Służy ona na tym telefonie do posortowania listy, nigdy nie jest zapisywana ani nigdzie wysyłana i zostaje zapomniana, gdy opuścisz tę stronę.</string>
+    <string name="facility_help_sources">Źródła</string>
+</resources>

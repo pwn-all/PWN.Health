@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">添加更多数据后再来看看吧！</string>
+    <string name="intimate_charts_walking_title">步行与晨间</string>
+    <string name="intimate_charts_alcohol_title">饮酒与晨间</string>
+    <string name="intimate_charts_legend_average">你的平均值</string>
+    <string name="intimate_charts_legend_night">每晚睡眠小时数</string>
+    <string name="intimate_charts_legend_steps">每日步数</string>
+    <string name="intimate_charts_legend_drinks">每周标准杯数</string>
+    <string name="intimate_charts_pair_note">柱子从底部升起，每周一根。线表示同一周“坚挺”或“不完全”的早晨所占比例，与你这几周自己的平均值相比：比例更高时在中线上方，更低时在下方。它们显示的是同几周里记录了什么，而不是什么导致了什么。</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="other">一周至少有 %1$d 个早晨作答才计入；不足的那一周在线上留空，而不是记为零。</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="other">每周的柱子是有数值的日子的平均值，需要至少 %1$d 天；不足的那一周没有柱子。</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="other">有 %1$d 周的数据足够时，图表就会出现。</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">一个标准杯含 %1$s 纯酒精。对饮酒而言，有数值的日子是手动记下任何内容的日子，平均值按七天折算：什么都没写的日子并不等于没喝酒的日子。</string>
+    <string name="intimate_charts_acts_note">每周与伴侣的性行为和手淫次数。你自己什么都没记录的一周会让两条线都断开：那并不是没有性行为的一周。</string>
+    <string name="intimate_charts_desire_note">线上的圆点：该类性行为勾选了“%1$s”的那一周。</string>
+    <string name="intimate_charts_erection_note">线上的短横：该类性行为勾选了“%1$s”的那一周。</string>
+    <string name="intimate_charts_acts_mornings_note">晨间有自己的图表：它们来自单独的记录，每天一个回答，而不是性行为次数；画在这些坐标轴上，会被误读为由性行为造成。</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="other">%1$s，最近 %2$d 周的逐周数据。%3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">截至 %1$s 的一周：%2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s：%2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s；%2$s</string>
+    <string name="intimate_charts_spoken_none">无数值</string>
+    <string name="intimate_charts_spoken_gap">作答的早晨太少</string>
+    <string name="intimate_charts_spoken_above">早晨高于你的平均值</string>
+    <string name="intimate_charts_spoken_below">早晨低于你的平均值</string>
+    <string name="intimate_charts_spoken_at">早晨等于你的平均值</string>
+    <string name="intimate_charts_spoken_acts">与伴侣 %1$s，手淫 %2$s</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">每周工作小时数</string>
+    <string name="work_charts_legend_median">你的中位数</string>
+    <string name="work_charts_gap_note">未计入的一周没有柱子：那并不是没有工作的一周。</string>
+    <string name="work_charts_other_days">其他工作日</string>
+    <string name="work_charts_days_off">休息日</string>
+    <string name="work_charts_pair_note">柱子是工作小时数，每个计入的周一根。线是图表下方所标指标在同一周的数值，与你自己的平均值相比，即有数据点的那些周的平均值：更高时在中线上方，更低时在下方。它们显示的是同几周里记录了什么，而不是什么导致了什么。</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="other">一周至少要有 %1$d 天有数值，才会有数据点；不足的那一周在线上留空，而不是记为零。</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s：高于你的平均值</string>
+    <string name="work_charts_spoken_below">%1$s：低于你的平均值</string>
+    <string name="work_charts_spoken_at">%1$s：等于你的平均值</string>
+    <string name="work_charts_spoken_gap">%1$s：有数据的天数太少</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Calories in a cup</string>
+    <string name="caffeine_energy_help_body">The calories are for the drink as brewed, from USDA FoodData Central: black tea and coffee, an espresso, matcha whisked in water, and a cappuccino made with reduced-fat milk — with whole milk it is about a fifth more. Milk, cream, sugar and syrup added at the table come on top and are logged as food. A cappuccino is saved as food with its caffeine: its calories count in the day’s food, but it does not count as a meal. The other cups come to a few calories and stay a caffeine record only.</string>
+</resources>

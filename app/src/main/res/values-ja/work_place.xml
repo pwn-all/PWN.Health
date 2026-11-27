@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">位置情報で自動開始</string>
+    <string name="work_place_help_what">仕事をしている場所を保存すると、スマートフォンがそこにあるときに仕事のタイマーが始まります。チェックのたびに、Android 自身の位置情報サービスから位置を 1 回だけ取得し、保存した地点と比べて、すぐに破棄します。地点は、誤差 100 m 以内で測れた位置からだけ保存します。残すのは、保存した地点とその半径、あなたのセッションだけで、すべてこのスマートフォンの中にあります。どこにも何も送信しません。</string>
+    <string name="work_place_help_when">チェックは 10 分ごと、各勤務日の決まった時間帯の中でだけ行います。時間帯が始まるのは、あなたが起きたときです。アプリから見える場合は、睡眠記録の終わり、または夜が明けて最初にスマートフォンを使った時刻で判断します。%4$s より前の最初の使用は、睡眠記録がもっと早い起床を示しているか、ふだんの勤務時間がもっと早く始まる場合を除き、%4$s からとして数えます。どちらも見えない場合、朝は %1$s に始まります。見えるものの、まだ起床を確認できていない場合は、遅くとも %2$s まで待ちます。直近 4 週間に、勤務日に始まったセッション（タイマーが自動で止めたものを除く）が 3 件以上たまると、時間帯はふだんの開始の 1 時間前に始まり（ただし起床より前にはなりません）、ふだんの終了の 1 時間後に終わります。それまでは %3$s に終わります。休日にはチェックしません。時間帯が始まる前は、あなたが起きているかどうかだけを見ており、位置は取得しません。</string>
+    <string name="work_place_help_leave">チェックで 2 回続けて不在だった場合、アプリが開始したセッションは停止し、そこにいると確認できた最後のチェックの時刻で終わります。ご自分で開始したセッションが、この方法で停止されることはありません。アプリが開始したセッションが続いている間は、時間帯が終わったあともチェックを続けます。ただし遅くとも午前 0 時までです。</string>
+    <string name="work_place_help_yours">自動の開始と停止のたびに通知が届き、そこから元に戻せます。開始は、ご自分でセッションを変更していなければその日の終わりまで、停止は、その後タイマーを開始していなければ 1 時間のあいだ戻せます。ご自分で「開始」「一時停止」「再開」「停止」を押すか、元に戻すと、その日はアプリがそれ以上何も開始しません。</string>
+    <string name="work_place_help_access">そのためには、Android で正確な位置情報の「常に許可」と、正確なアラームを許可する必要があります。スイッチがオフの間は、この機能のために位置を取得することはありません。</string>
+    <string name="work_place_save">今いる場所を保存</string>
+    <string name="work_place_locating">現在地を確認しています…</string>
+    <string name="work_place_no_fix">位置を特定できません</string>
+    <string name="work_place_rough_fix">位置の精度が足りません。窓の近くで試してください</string>
+    <string name="work_place_point">あなたの職場</string>
+    <string name="work_place_saved">%1$s に保存</string>
+    <string name="work_place_saved_within">%1$s に保存 · 誤差 %2$d m 以内</string>
+    <string name="work_place_move">今いる場所に移す</string>
+    <string name="work_place_remove">職場を削除</string>
+    <string name="work_place_radius">職場にいるとみなす範囲</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">着いたらタイマーを開始</string>
+    <string name="work_place_access_precise_title">正確な位置情報</string>
+    <string name="work_place_access_precise_body">おおよその位置情報の精度は約 1.6 km までで、どの職場よりも広い範囲です。地点の保存とチェックには、正確な位置情報が必要です。</string>
+    <string name="work_place_access_background_title">位置情報を常に許可</string>
+    <string name="work_place_access_background_body">PWN.Health は、職場に着いたときや職場を離れたときに仕事のタイマーを開始・停止するため、アプリを閉じているときもバックグラウンドで位置情報を使用します。チェックは 10 分ごと、勤務日の朝から夜までの間だけ行い、位置はこのスマートフォンの中に残ります。次の画面で「常に許可」を選んでください。</string>
+    <string name="work_place_access_exact_title">アラームとリマインダー</string>
+    <string name="work_place_access_exact_body">閉じているアプリをチェックのために起動できるのは、正確なアラームだけです。この許可は、Android の「アラームとリマインダー」画面にあります。</string>
+    <string name="work_place_access_notifications_title">通知</string>
+    <string name="work_place_access_notifications_body">自動の開始と停止は、そのたびに「%1$s」チャンネルの通知でお知らせし、そこに「元に戻す」があります。通知がなくてもタイマーは開始・停止しますが、元に戻す手段がなくなります。</string>
+    <string name="work_place_next_today">次のチェック：今日 %1$s</string>
+    <string name="work_place_next_tomorrow">次のチェック：明日 %1$s</string>
+    <string name="work_place_next_day">次のチェック：%1$s %2$s</string>
+    <string name="work_place_next_none">これから 1 週間、予定されたチェックはありません。</string>
+    <string name="work_place_started_title">仕事のタイマーを開始しました</string>
+    <string name="work_place_started_body">スマートフォンが職場にあります。%1$s に開始しました。</string>
+    <string name="work_place_stopped_title">仕事のタイマーを停止しました</string>
+    <string name="work_place_stopped_body">チェックで 2 回続けて職場にいませんでした。セッションは、そこにいると確認できた最後のチェックの %1$s で終わります。</string>
+    <string name="work_place_stopped_short">職場で確認できたチェックが 1 回だけで、そのあと 2 回続けて不在だったため、何も保存していません。</string>
+    <string name="work_place_undo">元に戻す</string>
+    <string name="work_place_channel">職場のチェック</string>
+    <string name="work_place_notice_channel">仕事の自動タイマー</string>
+    <string name="work_place_checking">職場にいるか確認しています</string>
+</resources>

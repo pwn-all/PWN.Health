@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Altri allenamenti</string>
+    <string name="routines_other_workouts_body">Solo a tempo: ballo, pallacanestro, calcio, pilates e altro</string>
+    <string name="routines_indoors">Al chiuso</string>
+    <string name="routines_indoors_body">Si contano passi e tempo</string>
+    <string name="routines_outdoors">All’aperto</string>
+    <string name="routines_outdoors_body">Apre «Camminata / Percorso» per registrare il tragitto sulla mappa</string>
+    <string name="track_tracked">Contati</string>
+    <string name="track_burned">Consumo stimato</string>
+    <string name="track_count_question">Il conteggio è giusto?</string>
+    <string name="track_count_fix">Correggi il conteggio</string>
+    <string name="track_count_interrupted">Conteggio interrotto — inseriscilo a mano</string>
+    <string name="track_phone_title">Dove tenere il telefono</string>
+    <string name="track_phone_pocket">In una tasca dei pantaloni o alla cintura — conta ogni atterraggio.</string>
+    <string name="track_phone_lift">In una tasca dei pantaloni — conta ogni ripetizione in alto, dove il corpo rallenta.</string>
+    <string name="track_phone_thigh">Nella tasca anteriore dei pantaloni, sulla coscia — conta l’inclinazione della coscia a ogni ripetizione.</string>
+    <string name="track_phone_arm">In una fascia sportiva sul braccio, sopra il gomito — conta l’inclinazione del braccio a ogni ripetizione.</string>
+    <string name="track_phone_steps">In tasca o in mano — il contapassi conta i passi.</string>
+    <string name="track_phone_stairs">In tasca o in mano — il contapassi conta i passi, il barometro i piani.</string>
+    <string name="track_unit_jumps">salti</string>
+    <string name="track_unit_floors">piani</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d salto</item>
+        <item quantity="many">%1$d di salti</item>
+        <item quantity="other">%1$d salti</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d passo</item>
+        <item quantity="many">%1$d di passi</item>
+        <item quantity="other">%1$d passi</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d piano</item>
+        <item quantity="many">%1$d di piani</item>
+        <item quantity="other">%1$d piani</item>
+    </plurals>
+</resources>

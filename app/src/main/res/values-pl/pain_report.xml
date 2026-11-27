@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Co zamalowano w ostatnich 30 dniach i ile dni bolało każde miejsce</string>
+    <string name="pain_paint_hint">Zamaluj miejsce, które boli; aby powiększyć, rozsuń dwa palce. Ból pleców i ból kolana to dwa osobne wpisy.</string>
+    <string name="pain_head_note">Sylwetka zaczyna się od szyi: miejsce bólu głowy wybierz w „Dodaj miejsce”.</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">Na rysunku %1$d wpis. Każdy ślad leży tam, gdzie go zamalowano; gdzie wpisy się nakładają, kolor jest ciemniejszy. Miejsca wybrane z listy bez zamalowania nie są narysowane.</item>
+        <item quantity="few">Na rysunku %1$d wpisy. Każdy ślad leży tam, gdzie go zamalowano; gdzie wpisy się nakładają, kolor jest ciemniejszy. Miejsca wybrane z listy bez zamalowania nie są narysowane.</item>
+        <item quantity="many">Na rysunku %1$d wpisów. Każdy ślad leży tam, gdzie go zamalowano; gdzie wpisy się nakładają, kolor jest ciemniejszy. Miejsca wybrane z listy bez zamalowania nie są narysowane.</item>
+        <item quantity="other">Na rysunku %1$d wpisu. Każdy ślad leży tam, gdzie go zamalowano; gdzie wpisy się nakładają, kolor jest ciemniejszy. Miejsca wybrane z listy bez zamalowania nie są narysowane.</item>
+    </plurals>
+</resources>

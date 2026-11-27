@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">Yükselti</string>
+    <string name="walk_chart_speed">Hız</string>
+    <string name="walk_chart_no_elevation">Bu rotada yeterli yükselti ölçümü yok</string>
+    <string name="walk_chart_no_speed">Bu rotada yeterli hız ölçümü yok</string>
+    <string name="walk_chart_spoken_elevation">Yükselti %1$s ile %2$s arasında</string>
+    <string name="walk_chart_spoken_speed">Hız: ortalama %1$s, en yüksek %2$s</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">ft</string>
+    <string name="walk_chart_unit_kmh">km/sa</string>
+    <string name="walk_chart_unit_mph">mil/sa</string>
+</resources>

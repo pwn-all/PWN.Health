@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">昨夜の睡眠</string>
+    <string name="widget_sleep_caption">昨夜、%1$s – %2$s</string>
+    <string name="widget_sleep_none">睡眠の記録なし</string>
+    <string name="widget_weight_description">最新の体重と30日間の変化</string>
+    <string name="widget_weight_caption">最新の体重</string>
+    <string name="widget_weight_change">30日間で %1$s</string>
+    <string name="widget_weight_steady">30日間変化なし</string>
+    <string name="widget_weight_none">体重の記録なし</string>
+    <string name="widget_energy_description">今日の食事と1日の目安の比較。タップで食事を記録</string>
+    <string name="widget_energy_caption">%1$s kcal 中 · %2$s</string>
+    <string name="widget_energy_left">残り %1$s</string>
+    <string name="widget_energy_over">%1$s 超過</string>
+    <string name="widget_week_description">直近7日間の各日の歩数</string>
+    <string name="widget_week_caption">今週 %1$s 歩 · 1日 %2$s 歩</string>
+    <string name="widget_week_initial">今週の歩数</string>
+    <string name="widget_level_description">レベル、次までの XP、連続記録</string>
+    <string name="widget_level_initial">レベル</string>
+    <plurals name="widget_level_streak">
+        <item quantity="other">%d 日連続</item>
+    </plurals>
+    <string name="widget_dose_description">今日の次の服用。タップ1回で服用済みにできます</string>
+    <string name="widget_dose_next">次: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">服用済み</string>
+    <string name="widget_dose_done">今日の服用はすべて完了</string>
+    <string name="widget_dose_none">今日の服用はありません</string>
+    <string name="widget_cycle_description">周期の日数と次回の予測</string>
+    <string name="widget_cycle_period">生理 %1$d 日目</string>
+    <string name="widget_preview_sleep_value">7 時間 40 分</string>
+    <string name="widget_preview_sleep_caption">昨夜、23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72.4 kg</string>
+    <string name="widget_preview_weight_change">30日間で −0.6 kg</string>
+    <string name="widget_preview_energy_value">1,240</string>
+    <string name="widget_preview_energy_caption">2,520 kcal 中 · 残り 1,280</string>
+    <string name="widget_preview_week_caption">今週 48,300 歩 · 1日 6,900 歩</string>
+    <string name="widget_preview_level_title">レベル 7</string>
+    <string name="widget_preview_level_caption">1,240 / 1,600 XP · 12 日連続</string>
+    <string name="widget_preview_dose_next">次: メトホルミン</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">12 日目</string>
+    <string name="widget_preview_cycle_next">次回の予測 11月24日</string>
+</resources>

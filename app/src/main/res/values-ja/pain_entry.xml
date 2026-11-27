@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">1 週間ほど前</string>
+    <string name="pain_onset_about_month">1 か月ほど前</string>
+    <string name="pain_onset_more_than_month">1 か月より前</string>
+    <string name="pain_area_search">部位を検索</string>
+    <string name="pain_area_search_empty">その名前の部位はありません</string>
+    <string name="pain_save_needs_area">保存するには痛む場所を示してください</string>
+    <string name="pain_save_needs_answer">未回答：%1$s</string>
+</resources>

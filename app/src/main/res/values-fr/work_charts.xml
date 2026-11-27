@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Heures travaillées par semaine</string>
+    <string name="work_charts_legend_median">Votre médiane</string>
+    <string name="work_charts_gap_note">Une semaine non comptée n’a pas de barre : ce n’est pas une semaine sans travail.</string>
+    <string name="work_charts_other_days">Autres journées de travail</string>
+    <string name="work_charts_days_off">Jours de repos</string>
+    <string name="work_charts_pair_note">Les barres sont les heures travaillées, une par semaine comptée. La ligne est la valeur nommée sous le graphique pour la même semaine, rapportée à votre propre moyenne, celle des semaines qui ont un point : au-dessus de la ligne du milieu quand elle était plus élevée, en dessous quand elle était plus basse. Elles montrent ce qui a été enregistré les mêmes semaines, pas ce qui a causé quoi.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Le point d’une semaine demande %1$d jour avec une valeur ; une semaine qui en a moins laisse un trou dans la ligne, jamais un zéro.</item>
+        <item quantity="many">Le point d’une semaine demande %1$d de jours avec une valeur ; une semaine qui en a moins laisse un trou dans la ligne, jamais un zéro.</item>
+        <item quantity="other">Le point d’une semaine demande %1$d jours avec une valeur ; une semaine qui en a moins laisse un trou dans la ligne, jamais un zéro.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s : au-dessus de votre moyenne</string>
+    <string name="work_charts_spoken_below">%1$s : en dessous de votre moyenne</string>
+    <string name="work_charts_spoken_at">%1$s : au niveau de votre moyenne</string>
+    <string name="work_charts_spoken_gap">%1$s : trop peu de jours renseignés</string>
+</resources>

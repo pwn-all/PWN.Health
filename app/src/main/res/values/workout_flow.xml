@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="workout_add_exercise">Add another exercise</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">Duration (MM:SS)</string>
+    <string name="workout_discard_title">Discard workout plan?</string>
+    <string name="workout_discard_body">Your changes and workout progress will be lost.</string>
+    <string name="workout_discard_confirm">Discard</string>
+    <string name="workout_correction_leave_title">Leave without saving?</string>
+    <string name="workout_correction_leave_body">The changes to this workout are not saved yet. To keep them, tap “%1$s” and then “%2$s”.</string>
+</resources>

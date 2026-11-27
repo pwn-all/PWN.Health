@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s ккал</string>
+    <string name="burn_sources">Из чего складывается расход</string>
+    <string name="burn_overlap_note">Ходьба и бег из тренировок учтены в строке шагов, чтобы не считать их дважды.</string>
+    <string name="burn_rest_so_far">В покое с начала дня</string>
+    <string name="burn_total_so_far">Всего потрачено с начала дня</string>
+    <string name="burn_active">активность, ккал</string>
+    <string name="food_history">История питания</string>
+    <string name="food_history_empty">Сегодня еда ещё не записана.</string>
+    <string name="activity_times">Когда была активность</string>
+    <string name="activity_times_empty">За этот день нет активности с временными отметками.</string>
+    <string name="visit_history">История визитов</string>
+    <string name="visit_history_empty">Здесь появятся завершённые визиты к врачам.</string>
+    <string name="calendar_schedule">Расписание</string>
+    <string name="calendar_add_event">Добавить</string>
+    <string name="calendar_expand_month">Показать месяц</string>
+    <string name="calendar_collapse_month">Свернуть месяц</string>
+    <string name="calendar_day_summary">Итоги дня</string>
+    <string name="events_all">Все события</string>
+    <string name="events_filter">Фильтр событий</string>
+    <string name="events_other">Другие события</string>
+    <string name="events_no_matches">В этом месяце таких событий нет.</string>
+    <string name="steps_in_interval">Шагов за %1$s</string>
+    <string name="metric_goal_reached">Цель достигнута</string>
+    <string name="workout_did_it">Получилось?</string>
+    <string name="workout_actual_reps">Сколько повторений получилось?</string>
+    <string name="answer_yes">Да</string>
+    <string name="answer_no">Нет</string>
+    <string name="visit_recent">Последние визиты</string>
+    <string name="visit_show_all">Показать все</string>
+    <string name="visit_all_specialties">Все специальности</string>
+    <string name="visit_all_doctors">Все врачи</string>
+    <string name="visit_all_time">За всё время</string>
+    <string name="steps_hourly_title">Активность по часам</string>
+    <string name="steps_activity_label">активность</string>
+    <string name="steps_distance_title">Пройденная дистанция</string>
+    <string name="steps_pace_title">Средний темп</string>
+    <string name="steps_time_title">Общее время</string>
+    <string name="steps_distance_note">Дистанция рассчитана по шагам за сегодня и росту, указанному в профиле.</string>
+    <string name="steps_no_sensor">В этом телефоне нет датчика шагов, поэтому приложение их не считает. Шаги всё ещё могут приходить из Health Connect или с подключённого устройства.</string>
+    <string name="steps_still_title">Самый долгий перерыв в ходьбе</string>
+    <string name="steps_still_note">Час считается активным, если этот телефон насчитал в нём не менее 100 шагов — это около минуты ходьбы при той же частоте шагов, из которой рассчитано время выше. Промежуток отсчитывается от первого активного часа, поэтому ночной сон не попадает в сидячее время. Час проставляется по моменту, когда шаги засчитаны, а не когда они были сделаны, поэтому придержанная телефоном пачка может попасть в более поздний час, и промежуток покажется длиннее, чем был на самом деле.\n\nЗдесь считаются часы без ходьбы, а не время, проведённое сидя или стоя. Ни один датчик Android не отличит сидящего человека от стоящего, а в Health Connect нет записи ни о том, ни о другом, поэтому ничего из этого туда не отправляется. Телефон, оставленный на столе, не насчитает ничего — сидите вы за ним, стоите рядом или вовсе вышли из комнаты.</string>
+    <string name="steps_route_note">Без маршрута время оценивается из расчёта 100 шагов в минуту, а дистанция — по шагам и росту. Это допущение, а не измеренная частота шагов. Средний темп — общее время движения, делённое на общую дистанцию.\n\nИз завершённых маршрутов берём время без остановок и расстояние. Пересекающиеся записи объединяем. В каждом часе добавляем оценку времени только для шагов сверх дистанции записанных прогулок. Суточные данные устройств сопоставляем с итогом всего дня.\n\nЗнак ≈ означает оценку. По часовым суммам нельзя точно определить время каждого шага и разделить все пересечения активностей.</string>
+    <string name="steps_chart_thousands">%1$sК</string>
+    <string name="home_stat_walks">прогулки</string>
+    <string name="burn_total_note">Активность и примерный расход в покое за прошедшую часть дня.</string>
+    <string name="burn_daily_estimate">В покое за сутки: ≈ %1$s ккал</string>
+    <string name="burn_explanation_title">Как считаем расход в покое</string>
+    <string name="burn_explanation_body">Прогноз на сутки рассчитан по формуле Миффлина — Сан Жеора с учётом веса, роста, возраста и пола из профиля. Это энергия на работу организма в покое, без ходьбы и тренировок.\n\nРасход с начала дня = прогноз на сутки × минуты после полуночи ÷ 1 440. В общий итог входит только эта часть, а активность прибавляется отдельно. Прогноз за полные сутки повторно не прибавляется. Фактический расход может отличаться.</string>
+    <string name="home_good_morning">Доброе утро</string>
+    <string name="home_good_afternoon">Добрый день</string>
+    <string name="home_good_evening">Добрый вечер</string>
+    <string name="home_good_night">Доброй ночи</string>
+    <string-array name="home_motivations">
+        <item>Шаг за шагом к цели</item>
+        <item>Каждый шаг на счету</item>
+        <item>Маленькие шаги — большой путь</item>
+        <item>Сегодня — новый шанс</item>
+        <item>Движение — это жизнь</item>
+        <item>Здоровье начинается с малого</item>
+    </string-array>
+    <string name="home_focus">Сегодняшний фокус</string>
+    <string name="home_focus_headline">Последовательность создаёт результат.</string>
+    <string name="home_focus_message">Делай шаг за шагом.</string>
+    <string name="widget_icon_count">Количество иконок</string>
+    <string name="level_details">Уровень и XP</string>
+    <string name="level_screen_title">Мой уровень</string>
+    <string name="level_sources">Источники опыта</string>
+    <string name="level_to_next">до следующего уровня</string>
+    <string name="level_short">УР.</string>
+    <string name="level_title">Уровень %1$d</string>
+    <string name="level_year_xp">%1$s XP за этот год</string>
+    <string name="level_max">Достигнут максимальный уровень</string>
+    <string name="level_opens">Открытия приложения</string>
+    <string name="level_steps">Шаги</string>
+    <string name="level_meals">Записи еды</string>
+    <string name="level_workouts">Дни с тренировкой</string>
+    <string name="level_visits">Завершённые визиты</string>
+    <string name="level_medals">Медали</string>
+    <string name="nutrition_unlogged_title">Еда сегодня ещё не записана</string>
+    <string name="nutrition_unlogged_body">Если вы уже ели, добавьте еду в дневник. Если ещё нет — найдите время для полноценного приёма пищи: регулярное питание важно при любой цели.</string>
+    <string name="nutrition_tracking_low_title">Сегодня записано мало еды</string>
+    <string name="nutrition_tracking_low_body">В дневнике %1$s%% дневной цели по калориям. Проверьте, всё ли записано. Если записи полные, запланируйте полноценный приём пищи с белком, углеводами и овощами.</string>
+    <string name="nutrition_lose_low_title">Для похудения тоже нужно есть</string>
+    <string name="nutrition_lose_low_body">Записано лишь %1$s%% дневной цели. Для похудения не нужно голодать: если дневник заполнен полностью, поешьте полноценно и сохраняйте регулярное питание.</string>
+    <string name="nutrition_gain_low_title">До цели набора ещё есть запас</string>
+    <string name="nutrition_gain_low_body">Записано %1$s%% дневной цели. Проверьте дневник и запланируйте полноценный приём пищи или перекус с белком. Увеличивайте питание постепенно, без еды через силу.</string>
+    <string name="nutrition_lose_over_title">Цель по калориям превышена</string>
+    <string name="nutrition_lose_over_body">В дневнике %1$s%% дневной цели для похудения. При планировании следующего приёма пищи учитывайте порции и чувство голода. Не компенсируйте превышение голоданием или пропуском еды.</string>
+    <string name="nutrition_gain_over_title">Заметно выше цели набора</string>
+    <string name="nutrition_gain_over_body">В дневнике %1$s%% цели набора, в которой уже заложен профицит. Проверьте порции и записи; дополнительно есть через силу не нужно. Продолжайте питаться регулярно и сбалансированно.</string>
+    <string name="nutrition_tracking_over_title">Выше дневного ориентира</string>
+    <string name="nutrition_tracking_over_body">В дневнике %1$s%% дневного ориентира по калориям. Проверьте порции и возможные дубликаты записей. Один день сам по себе не описывает ваш обычный рацион.</string>
+    <string name="nutrition_fat_title">В записях высокая доля жиров</string>
+    <string name="nutrition_fat_body">Около %1$s%% записанных калорий приходится на жиры. Дополните следующие приёмы пищи белком, овощами и цельнозерновыми продуктами. Жиры тоже нужны разнообразному рациону; важен их тип.</string>
+    <string name="nutrition_saturated_title">Много насыщенных жиров в записях</string>
+    <string name="nutrition_saturated_body">Записанные насыщенные жиры уже превышают 10%% дневной цели по энергии. В следующих приёмах пищи можно заменить часть их источников рыбой, орехами или растительными маслами с ненасыщенными жирами.</string>
+    <string name="nutrition_protein_title">Обратите внимание на белок</string>
+    <string name="nutrition_protein_body">По калориям вы уже близки к цели, а записанного белка меньше половины дневного ориентира приложения. В следующий приём пищи можно добавить бобовые, рыбу, яйца, тофу или молочные продукты.</string>
+    <string name="nutrition_source">NHS / ВОЗ; пороги подсказок заданы приложением</string>
+    <!-- One-letter macronutrient abbreviations on a food row; a tap opens the full word. -->
+    <string name="food_macro_letter_protein">Б</string>
+    <string name="food_macro_letter_fat">Ж</string>
+    <string name="food_macro_letter_carbs">У</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The symptom diary (SymptomScreen.kt, Symptoms.kt). -->
+<resources>
+    <!-- The page and its door -->
+    <string name="symptom_title">Симптом</string>
+    <string name="symptom_local_only">В Health Connect нет записи для симптомов, поэтому записи о симптомах туда не отправляются.</string>
+    <!-- The symptoms -->
+    <string name="symptom_vomiting">Рвота</string>
+    <string name="symptom_nausea">Тошнота</string>
+    <string name="symptom_dizziness">Головокружение</string>
+    <string name="symptom_fainting">Обморок</string>
+    <string name="symptom_palpitations">Сердцебиение</string>
+    <string name="symptom_breathlessness">Одышка</string>
+    <string name="symptom_heartburn">Изжога</string>
+    <string name="symptom_diarrhoea">Диарея</string>
+    <string name="symptom_fever">Температура</string>
+    <string name="symptom_tiredness">Усталость</string>
+    <!-- How bad: adverbs in Russian, so the word agrees with any symptom -->
+    <string name="symptom_severity_mild">Слабо</string>
+    <string name="symptom_severity_moderate">Умеренно</string>
+    <string name="symptom_severity_severe">Сильно</string>
+    <!-- The questions, asked one at a time and shown again as the answer row's question -->
+    <string name="symptom_step_symptom">Что беспокоит?</string>
+    <string name="symptom_step_after_meal">После еды?</string>
+    <string name="symptom_step_cause">С чем это связано?</string>
+    <string name="symptom_step_times">Сколько раз?</string>
+    <string name="symptom_step_blood">Кровь или тёмное, как кофейная гуща?</string>
+    <string name="symptom_step_doing">Что вы делали?</string>
+    <string name="symptom_step_when">Когда?</string>
+    <string name="symptom_step_feel">На что это было похоже?</string>
+    <string name="symptom_step_fainted">Был обморок?</string>
+    <string name="symptom_step_injured">Серьёзная травма?</string>
+    <string name="symptom_step_since">Как давно?</string>
+    <string name="symptom_step_with">Что-то ещё при этом?</string>
+    <string name="symptom_step_severity">Насколько сильно?</string>
+    <!-- The answers: a few words each, neutral in gender -->
+    <string name="symptom_option_ate_too_much">Переедание</string>
+    <string name="symptom_option_food_off">Возможно, несвежая еда</string>
+    <string name="symptom_option_alcohol">Алкоголь</string>
+    <string name="symptom_option_motion">Укачивание в дороге</string>
+    <string name="symptom_option_medicine">Лекарство</string>
+    <string name="symptom_option_stomach_bug">Кишечная инфекция</string>
+    <string name="symptom_option_self_induced">Вызвано специально</string>
+    <string name="symptom_option_pregnancy">Беременность</string>
+    <string name="symptom_option_stress">Стресс или тревога</string>
+    <string name="symptom_option_travel">Поездка</string>
+    <string name="symptom_option_not_sure">Не знаю</string>
+    <string name="symptom_option_once">Один раз</string>
+    <string name="symptom_option_twice">Два раза</string>
+    <string name="symptom_option_three_plus">Три и больше</string>
+    <string name="symptom_option_standing_up">При вставании</string>
+    <string name="symptom_option_exercising">Во время тренировки</string>
+    <string name="symptom_option_after_exercise">Сразу после тренировки</string>
+    <string name="symptom_option_sitting_lying">Сидя или лёжа</string>
+    <string name="symptom_option_turning_head">При повороте головы или в постели</string>
+    <string name="symptom_option_walking">При ходьбе</string>
+    <string name="symptom_option_light_headed">Как перед обмороком</string>
+    <string name="symptom_option_spinning">Всё вокруг кружится</string>
+    <string name="symptom_option_unsteady">Шатает, трудно устоять</string>
+    <string name="symptom_option_racing">Частит</string>
+    <string name="symptom_option_pounding">Колотится</string>
+    <string name="symptom_option_irregular">Неровно, с перебоями</string>
+    <string name="symptom_option_fluttering">Трепещет</string>
+    <string name="symptom_option_at_rest">В покое</string>
+    <string name="symptom_option_at_night">Ночью</string>
+    <string name="symptom_option_walking_stairs">При ходьбе или на лестнице</string>
+    <string name="symptom_option_hard_exercise">При сильной нагрузке</string>
+    <string name="symptom_option_lying_night">Лёжа или ночью</string>
+    <string name="symptom_option_after_eating">После еды</string>
+    <string name="symptom_option_lying_bending">Лёжа или при наклоне</string>
+    <string name="symptom_option_empty_stomach">Натощак</string>
+    <string name="symptom_option_today">Сегодня</string>
+    <string name="symptom_option_few_days">Несколько дней</string>
+    <string name="symptom_option_over_two_weeks">Больше двух недель</string>
+    <string name="symptom_option_chest_pain">Боль в груди</string>
+    <string name="symptom_option_racing_heart">Сердце частит или колотится</string>
+    <string name="symptom_option_one_side_weak">Лицо перекосило, слабость или онемение с одной стороны</string>
+    <string name="symptom_option_speech">Трудно говорить</string>
+    <string name="symptom_option_breathless">Одышка</string>
+    <string name="symptom_option_during_exercise">Случилось во время нагрузки</string>
+    <string name="symptom_option_dizzy_faint">Головокружение или обморок</string>
+    <string name="symptom_option_wheezing">Свистящее дыхание</string>
+    <string name="symptom_option_cough">Кашель</string>
+    <string name="symptom_option_blue_lips">Синие губы или кончики пальцев</string>
+    <string name="symptom_option_swallowing">Трудно глотать</string>
+    <string name="symptom_option_black_stools">Чёрный стул</string>
+    <string name="symptom_option_weight_loss">Похудение без причины</string>
+    <string name="symptom_option_blood">Кровь</string>
+    <string name="symptom_option_dehydration">Признаки обезвоживания</string>
+    <string name="symptom_option_chills">Озноб</string>
+    <string name="symptom_option_sweating">Потливость</string>
+    <string name="symptom_option_sore_throat">Боль в горле</string>
+    <string name="symptom_option_rash">Сыпь</string>
+    <string name="symptom_option_stiff_neck">Шея не сгибается или больно смотреть на яркий свет</string>
+    <string name="symptom_option_poor_sleep">Плохой сон</string>
+    <string name="symptom_option_low_mood">Подавленное настроение</string>
+    <string name="symptom_option_none">Ничего из этого</string>
+    <!-- The card of what the journal held: figures only, each printed the way its own screen prints it -->
+    <string name="symptom_context_today">Записано сегодня</string>
+    <string name="symptom_context_day">Записано за %1$s</string>
+    <string name="symptom_context_help">Цифры из вашего дневника на момент, когда открыта эта запись. Они стоят рядом с симптомом и не говорят о его причине.</string>
+    <string name="symptom_context_none">За этот день ничего подходящего не записано.</string>
+    <string name="symptom_fact_meal">Последняя еда: %1$s, %2$s ккал — %3$s назад</string>
+    <string name="symptom_fact_food">Еда: %1$s из %2$s ккал</string>
+    <string name="symptom_fact_steps">Шаги: %1$s</string>
+    <string name="symptom_fact_workout">Последняя тренировка: %1$s — закончилась %2$s назад</string>
+    <string name="symptom_fact_workout_day">Тренировка: %1$s</string>
+    <string name="symptom_fact_no_workout">Тренировок не записано</string>
+    <string name="symptom_fact_water">Вода: %1$s</string>
+    <string name="symptom_fact_alcohol">Алкоголь: %1$s дозы</string>
+    <string name="symptom_fact_caffeine">Кофеин: %1$s</string>
+    <string name="symptom_fact_sleep">Сон за ночь: %1$s</string>
+    <string name="symptom_fact_pressure">Последнее давление: %1$s — %2$s назад</string>
+    <string name="symptom_fact_pulse">Последний пульс: %1$s уд/мин — %2$s назад</string>
+    <string name="symptom_fact_temperature">Последняя температура: %1$s %2$s — %3$s назад</string>
+    <string name="symptom_fact_stools">Стул: %1$s, жидкий: %2$s</string>
+    <!-- The lines an answer calls for: what to do, never what it is -->
+    <string name="symptom_alert_emergency">Это может быть признаком неотложного состояния. Вызовите скорую помощь сейчас.</string>
+    <string name="symptom_alert_urgent">Нужна консультация врача сегодня: обратитесь к врачу или в службу неотложной помощи.</string>
+    <string name="symptom_alert_doctor">Это стоит показать врачу.</string>
+    <string name="symptom_self_induced">Если такое бывает часто, врач может помочь. Это частая проблема, и она лечится.</string>
+    <string name="symptom_self_induced_help">Вызывать у себя рвоту — один из возможных признаков расстройства пищевого поведения: это первый из пяти вопросов скрининга SCOFF. Такие расстройства встречаются часто и лечатся; начать можно с терапевта.</string>
+    <!-- Where each symptom’s questions and lines come from, behind the “?” beside a line -->
+    <string name="symptom_sources">Источники</string>
+    <string name="symptom_source_vomiting">NHS, «Vomiting in adults» и «Eating disorders»; Morgan JF, Reid F, Lacey JH, «The SCOFF questionnaire», BMJ 1999;319:1467.</string>
+    <string name="symptom_source_nausea">NHS, «Feeling sick (nausea)».</string>
+    <string name="symptom_source_dizziness">NHS, «Dizziness» и «Fainting».</string>
+    <string name="symptom_source_fainting">NHS, «Fainting»; рекомендации NICE CG109, «Transient loss of consciousness (‘blackouts’) in over 16s».</string>
+    <string name="symptom_source_palpitations">NHS, «Heart palpitations».</string>
+    <string name="symptom_source_breathlessness">NHS, «Shortness of breath».</string>
+    <string name="symptom_source_heartburn">NHS, «Heartburn and acid reflux» и «Bleeding from the bottom (rectal bleeding)».</string>
+    <string name="symptom_source_diarrhoea">NHS, «Diarrhoea and vomiting» и «Bleeding from the bottom (rectal bleeding)».</string>
+    <string name="symptom_source_fever">NHS, «High temperature (fever) in adults» и «Meningitis».</string>
+    <string name="symptom_source_tiredness">NHS, «Tiredness and fatigue» и «Depression in adults».</string>
+</resources>

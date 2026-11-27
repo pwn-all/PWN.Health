@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">यौन गतिविधि</string>
+    <string name="intimate_anything_to_add">कुछ और जोड़ना है?</string>
+    <string name="intimate_history_title">इतिहास</string>
+    <string name="intimate_history_empty">अभी कुछ दर्ज नहीं है।</string>
+    <string name="intimate_act_title">रिकॉर्ड संपादित करें</string>
+    <string name="intimate_act_kind">क्या था</string>
+    <string name="intimate_act_day">दिन</string>
+    <string name="intimate_act_time">समय</string>
+    <string name="intimate_act_time_unrecorded">इस रिकॉर्ड का समय दर्ज नहीं है।</string>
+    <string name="intimate_flash_changed">बदला गया</string>
+    <string name="intimate_flash_deleted">हटाया गया</string>
+    <string name="intimate_charts_title">चार्ट</string>
+    <string name="intimate_woke_at">जागने का समय</string>
+    <string name="intimate_woke_by_unset">नहीं भरा गया</string>
+    <string name="intimate_woke_phone">%1$s पर जागे · फ़ोन के पहले इस्तेमाल से</string>
+</resources>

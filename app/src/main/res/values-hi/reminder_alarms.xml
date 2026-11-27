@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: यह दवा खाने से पहले लेनी थी; लेने का रिकॉर्ड नहीं है।</string>
+    <string name="med_reminder_with">%1$s: भोजन दर्ज है; यह दवा खाने के दौरान ली जाती है।</string>
+    <string name="med_reminder_needs_with_food">%1$s: यह दवा खाने के दौरान ली जाती है, लेकिन भोजन अभी दर्ज नहीं है।</string>
+    <string name="med_alarm_title">दवा के अलार्म</string>
+    <string name="med_alarm_dismiss">आवाज़ बंद करें</string>
+    <string name="med_alarm_open">ऐप खोलें</string>
+    <string name="med_alarm_not_taken">आवाज़ बंद करने से दवा ली हुई दर्ज नहीं होती।</string>
+    <string name="med_alarm_settings_body">अलार्म अधिकतम एक मिनट बजते हैं। सटीक समय और लॉक स्क्रीन पर दिखाने की अनुमति दें। अनुमति के बिना याद दिलाने में देरी हो सकती है या सूचना दिखाई जा सकती है। भोजन और पानी के लिए सामान्य सूचनाएँ हैं।</string>
+    <string name="med_alarm_exact_access">सटीक अलार्म समय की अनुमति दें</string>
+    <string name="med_alarm_full_screen_access">लॉक स्क्रीन अलार्म की अनुमति दें</string>
+    <string name="med_alarm_channel_muted">Android सेटिंग में “%1$s” चैनल म्यूट है, इसलिए खुराक की याद सामान्य सूचना के रूप में आती है और अलार्म नहीं बजता।</string>
+    <string name="med_alarm_channel_open">चैनल की सेटिंग खोलें</string>
+    <string name="reminder_food_title">क्या खाने का समय हो गया?</string>
+    <string name="reminder_food_body">क्या खाने का समय हो गया? या आपने मेरे बिना खा लिया?</string>
+    <string name="reminder_water_title">पीना न भूलें</string>
+    <string name="reminder_water_body">तरल पदार्थ पीना न भूलें। पानी दर्ज करें।</string>
+    <string name="med_action_taken">दवा ले ली</string>
+    <string name="med_action_later">बाद में</string>
+</resources>

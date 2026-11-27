@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Tempo de tela</string>
+    <string name="screen_time_add_body">Tempo em redes sociais, vídeo, mensageiros e jogos, com pausas para os olhos e a mente</string>
+    <string name="screen_time_help">Quanto tempo redes sociais e feeds, vídeo, mensageiros e jogos ficaram na tela hoje e nesta semana, pelo histórico de uso do Android. Os lembretes de olhos e mente acompanham só redes sociais e feeds; alternar entre eles sem pausa conta como uma única sessão. O resto é apenas contado. Nada é escrito no diário e nada sai do telefone.</string>
+    <string name="screen_time_channel">Pausas de tela</string>
+    <string name="screen_time_access_title">Acesso ao uso necessário</string>
+    <string name="screen_time_access_body">O Android só informa a um app quanto tempo outros apps ficaram abertos com o acesso ao uso. A estimativa de sono usa o mesmo acesso.</string>
+    <string name="screen_time_access_button">Abrir acesso ao uso</string>
+    <string name="screen_time_longest">Sessão mais longa sem pausa: %1$s</string>
+    <string name="screen_time_over">Mais de %1$s</string>
+    <string name="screen_time_week">Últimos 7 dias</string>
+    <string name="screen_time_week_average">Média por dia: %1$s</string>
+    <string name="screen_time_eyes_switch">Lembrete de cansaço visual</string>
+    <string name="screen_time_eyes_switch_body">Após uma sessão longa no feed sem pausa</string>
+    <string name="screen_time_brain_switch">Aviso de carga mental</string>
+    <string name="screen_time_brain_switch_body">Quando o total do dia nesses apps fica alto</string>
+    <string name="screen_time_tips_title">Descanso para os olhos e a mente</string>
+    <string name="screen_time_tip_eyes">A cada 20 minutos, olhe para algo a 6 metros por 20 segundos.</string>
+    <string name="screen_time_tip_blink">Pisque de propósito: diante de uma tela piscamos bem menos e os olhos ressecam.</string>
+    <string name="screen_time_tip_brain">Um feed infinito desvia a atenção a cada poucos segundos. Uma caminhada curta ou algumas respirações lentas acalmam a mente.</string>
+    <string name="screen_time_tip_night">Guarde o telefone uma hora antes de dormir: telas brilhantes atrasam o sono.</string>
+    <string name="screen_time_breathing">Pausa para respirar</string>
+    <string name="screen_time_eyes_title">Hora de descansar os olhos</string>
+    <string name="screen_time_eyes_body">%1$s há %2$d min sem pausa. Olhe para longe por 20 segundos e pisque algumas vezes.</string>
+    <string name="screen_time_brain_title">Sua mente precisa de uma pausa</string>
+    <string name="screen_time_brain_body">Hoje %1$s em redes sociais e feeds. O feed infinito cansa a atenção: deixe o telefone por 10 minutos, caminhe ou respire devagar.</string>
+    <string name="screen_time_feeds_title">Redes sociais e feeds</string>
+    <string name="screen_time_video_title">Vídeo e streaming</string>
+    <string name="screen_time_messengers_title">Mensageiros</string>
+    <string name="screen_time_games_title">Jogos</string>
+    <string name="screen_time_category_longest">Sessão mais longa: %1$s</string>
+    <string name="screen_time_category_week">Últimos 7 dias: %1$s, %2$s por dia em média</string>
+    <string name="screen_time_tracked_note">Apenas contagem, sem lembretes.</string>
+    <string name="screen_time_none_today">Não abertos hoje</string>
+</resources>

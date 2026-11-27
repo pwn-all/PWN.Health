@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">مشاركة الجولة</string>
+    <string name="walk_delete">حذف الجولة</string>
+    <string name="walk_delete_title">حذف هذه الجولة؟</string>
+    <string name="walk_delete_body">تُحذف الجولة بمسارها وأرقامها وصورها من الهاتف بلا رجعة. أما الملفات التي سبق أن حفظتها أو شاركتها فتبقى في مكانها.</string>
+    <string name="walk_photos">الصور</string>
+    <string name="walk_photos_help">الأرقام تطابق العلامات على الخريطة، وهي تبيّن أين التُقطت كل صورة. والصورة الملتقطة دون تحديد موقع من GPS لا علامة لها. والاتجاه هو زاوية البوصلة التي التُقطت الصورة نحوها، محسوبةً من الشمال الجغرافي. والإمالة هي مقدار توجيه الهاتف فوق الأفق أو تحته. أما الوضع العمودي أو الأفقي فهو طريقة إمساك الهاتف.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">باتجاه %1$s</string>
+    <string name="walk_photo_up">%1$d° للأعلى</string>
+    <string name="walk_photo_down">%1$d° للأسفل</string>
+    <string name="walk_photo_level">مستوٍ</string>
+    <string name="walk_photo_portrait">عمودي</string>
+    <string name="walk_photo_landscape">أفقي</string>
+    <string name="walk_photo_upside_down">مقلوب</string>
+    <string name="walk_photo_no_direction">الاتجاه غير معروف</string>
+    <string name="walk_photo_spoken">الصورة %1$d: %2$s</string>
+    <string name="walk_photo_delete">حذف الصورة %1$d</string>
+    <string name="walk_photo_delete_body">تُحذف الصورة من الهاتف بلا رجعة، وتبقى الجولة التي التُقطت فيها.</string>
+    <string-array name="walk_compass_points">
+        <item>شمال</item>
+        <item>شمال شرق</item>
+        <item>شرق</item>
+        <item>جنوب شرق</item>
+        <item>جنوب</item>
+        <item>جنوب غرب</item>
+        <item>غرب</item>
+        <item>شمال غرب</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>الشمال</item>
+        <item>الشمال الشرقي</item>
+        <item>الشرق</item>
+        <item>الجنوب الشرقي</item>
+        <item>الجنوب</item>
+        <item>الجنوب الغربي</item>
+        <item>الغرب</item>
+        <item>الشمال الغربي</item>
+    </string-array>
+</resources>

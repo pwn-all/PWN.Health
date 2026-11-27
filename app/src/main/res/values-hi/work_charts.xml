@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">हफ़्ते में काम के घंटे</string>
+    <string name="work_charts_legend_median">आपकी माध्यिका</string>
+    <string name="work_charts_gap_note">जिस हफ़्ते की गिनती नहीं हुई, उसका बार नहीं होता: वह बिना काम का हफ़्ता नहीं है।</string>
+    <string name="work_charts_other_days">काम के बाक़ी दिन</string>
+    <string name="work_charts_days_off">छुट्टी के दिन</string>
+    <string name="work_charts_pair_note">बार काम के घंटे हैं, हर गिने गए हफ़्ते का एक। रेखा उसी हफ़्ते का वह आँकड़ा है जिसका नाम चार्ट के नीचे लिखा है, आपके अपने औसत की तुलना में, यानी उन हफ़्तों के औसत की जिनमें बिंदु है: ज़्यादा होने पर बीच की रेखा से ऊपर, कम होने पर नीचे। ये दिखाते हैं कि उन्हीं हफ़्तों में क्या दर्ज हुआ, यह नहीं कि किस वजह से क्या हुआ।</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">हफ़्ते के बिंदु के लिए %1$d ऐसा दिन चाहिए जिसमें मान दर्ज हो; कम वाले हफ़्ते से रेखा में शून्य नहीं, खाली जगह आती है।</item>
+        <item quantity="other">हफ़्ते के बिंदु के लिए %1$d ऐसे दिन चाहिए जिनमें मान दर्ज हो; कम वाले हफ़्ते से रेखा में शून्य नहीं, खाली जगह आती है।</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: आपके औसत से ऊपर</string>
+    <string name="work_charts_spoken_below">%1$s: आपके औसत से नीचे</string>
+    <string name="work_charts_spoken_at">%1$s: आपके औसत पर</string>
+    <string name="work_charts_spoken_gap">%1$s: बहुत कम दिन दर्ज</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">Экранное время</string>
+    <string name="screen_time_add_body">Время в соцсетях, видео, мессенджерах и играх; паузы для глаз и мозга</string>
+    <string name="screen_time_help">Сколько соцсети и ленты, видео, мессенджеры и игры были на экране сегодня и за неделю, по истории использования Android. Напоминания про глаза и мозг следят только за соцсетями и лентами; переходы между ними без перерыва считаются одним заходом. Остальное только учитывается. В дневник ничего не записывается, и ничего не покидает телефон.</string>
+    <string name="screen_time_channel">Перерывы от экрана</string>
+    <string name="screen_time_access_title">Нужен доступ к истории использования</string>
+    <string name="screen_time_access_body">Android сообщает приложению, сколько были открыты другие приложения, только при доступе к истории использования. Тот же доступ использует оценка сна.</string>
+    <string name="screen_time_access_button">Открыть доступ</string>
+    <string name="screen_time_longest">Самый долгий заход без перерыва: %1$s</string>
+    <string name="screen_time_over">Больше %1$s</string>
+    <string name="screen_time_week">Последние 7 дней</string>
+    <string name="screen_time_week_average">В среднем за день: %1$s</string>
+    <string name="screen_time_eyes_switch">Напоминать об усталости глаз</string>
+    <string name="screen_time_eyes_switch_body">После долгого просмотра ленты без перерыва</string>
+    <string name="screen_time_brain_switch">Предупреждать о нагрузке на мозг</string>
+    <string name="screen_time_brain_switch_body">Когда за день в этих приложениях набирается много времени</string>
+    <string name="screen_time_tips_title">Отдых для глаз и головы</string>
+    <string name="screen_time_tip_eyes">Каждые 20 минут смотрите на предмет в 6 метрах от себя в течение 20 секунд.</string>
+    <string name="screen_time_tip_blink">Моргайте намеренно: глядя в экран, мы моргаем гораздо реже, и глаза пересыхают.</string>
+    <string name="screen_time_tip_brain">Бесконечная лента переключает внимание каждые несколько секунд. Короткая прогулка или несколько медленных вдохов помогают мозгу успокоиться.</string>
+    <string name="screen_time_tip_night">Отложите телефон за час до сна: яркий экран сдвигает сон позже.</string>
+    <string name="screen_time_breathing">Дыхательная пауза</string>
+    <string name="screen_time_eyes_title">Пора дать отдых глазам</string>
+    <string name="screen_time_eyes_body">%1$s уже %2$d мин без перерыва. Посмотрите вдаль 20 секунд и несколько раз моргните.</string>
+    <string name="screen_time_brain_title">Мозгу нужен перерыв</string>
+    <string name="screen_time_brain_body">Сегодня в соцсетях и лентах: %1$s. Бесконечная лента утомляет внимание: отложите телефон на 10 минут, пройдитесь или медленно подышите.</string>
+    <string name="screen_time_feeds_title">Соцсети и ленты</string>
+    <string name="screen_time_video_title">Видео и стриминг</string>
+    <string name="screen_time_messengers_title">Мессенджеры</string>
+    <string name="screen_time_games_title">Игры</string>
+    <string name="screen_time_category_longest">Самая долгая сессия: %1$s</string>
+    <string name="screen_time_category_week">За 7 дней: %1$s, в среднем %2$s в день</string>
+    <string name="screen_time_tracked_note">Только учёт, без напоминаний.</string>
+    <string name="screen_time_none_today">Сегодня не открывались</string>
+</resources>

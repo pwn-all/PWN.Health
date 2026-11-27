@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Tema</string>
+    <string name="theme_description">Colori dell’interfaccia e delle icone per i temi chiaro e scuro</string>
+    <string name="theme_light">Chiaro</string>
+    <string name="theme_dark">Scuro</string>
+    <string name="theme_saved_note">Ogni tavolozza viene salvata a parte. L’app segue il tema chiaro o scuro del dispositivo.</string>
+    <string name="theme_preview">Anteprima</string>
+    <string name="theme_main_accent">Colore principale</string>
+    <string name="theme_accent_container">Sfondo del colore principale</string>
+    <string name="theme_secondary">Colore secondario</string>
+    <string name="theme_secondary_container">Sfondo secondario</string>
+    <string name="theme_tertiary">Terzo colore</string>
+    <string name="theme_tertiary_container">Sfondo del terzo colore</string>
+    <string name="theme_background">Sfondo della pagina</string>
+    <string name="theme_surface">Schede</string>
+    <string name="theme_text">Testo principale</string>
+    <string name="theme_muted_text">Testo secondario</string>
+    <string name="theme_border">Bordi</string>
+    <string name="theme_icons">Icone</string>
+    <string name="theme_icon">Colore principale delle icone</string>
+    <string name="theme_icon_mid">Colore secondario delle icone</string>
+    <string name="theme_icon_light">Dettagli chiari delle icone</string>
+    <string name="theme_brightness">Luminosità</string>
+    <string name="theme_hex">Codice HEX</string>
+    <string name="theme_hex_error">Inserisci 6 cifre esadecimali, per esempio #7094EE.</string>
+    <string name="theme_update_all">Aggiorna tutti i colori</string>
+    <string name="theme_update_all_body">Genera tutti gli altri colori di questa tavolozza dal colore principale, sostituendo le modifiche manuali.</string>
+    <string name="theme_reset">Ripristina il tema</string>
+    <string name="theme_reset_light_body">Ripristinare i colori predefiniti dell’interfaccia e delle icone per il tema chiaro? Il tema scuro resterà invariato.</string>
+    <string name="theme_reset_dark_body">Ripristinare i colori predefiniti dell’interfaccia e delle icone per il tema scuro? Il tema chiaro resterà invariato.</string>
+    <string name="theme_wheel">Ruota dei colori</string>
+    <string name="theme_wheel_value">Tonalità %1$d°, saturazione %2$d%%</string>
+    <string name="theme_next_hue">Tonalità successiva</string>
+    <string name="theme_previous_hue">Tonalità precedente</string>
+    <string name="theme_more_saturation">Aumenta la saturazione</string>
+    <string name="theme_less_saturation">Riduci la saturazione</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">Výška</string>
+    <string name="walk_chart_speed">Rychlost</string>
+    <string name="walk_chart_no_elevation">Z této procházky je příliš málo měření výšky</string>
+    <string name="walk_chart_no_speed">Z této procházky je příliš málo měření rychlosti</string>
+    <string name="walk_chart_spoken_elevation">Výška od %1$s do %2$s</string>
+    <string name="walk_chart_spoken_speed">Rychlost: průměrná %1$s, nejvyšší %2$s</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">ft</string>
+    <string name="walk_chart_unit_kmh">km/h</string>
+    <string name="walk_chart_unit_mph">mph</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">स्थान से शुरुआत</string>
+    <string name="work_place_help_what">जहाँ आप काम करते हैं, वह जगह सहेजें, और जब आपका फ़ोन वहाँ होगा तो काम का टाइमर शुरू हो जाएगा। हर जाँच Android की अपनी स्थान सेवा से एक स्थिति लेती है, उसे सहेजे गए बिंदु से मिलाती है और भुला देती है। बिंदु सिर्फ़ उसी स्थिति से सहेजा जाता है जो 100 मी के भीतर तक सटीक हो। सिर्फ़ सहेजा गया बिंदु, उसका दायरा और आपके सत्र रखे जाते हैं, इसी फ़ोन पर। कुछ भी कहीं नहीं भेजा जाता।</string>
+    <string name="work_place_help_when">जाँच हर 10 मिनट में होती है, और हर काम के दिन सिर्फ़ एक समय-खिड़की के भीतर। खिड़की तब खुलती है जब आप जागते हैं: आपकी नींद के रिकॉर्ड के अंत पर या रात के बाद फ़ोन के पहले इस्तेमाल पर, अगर ऐप इनमें से कोई एक देख सके। %4$s से पहले फ़ोन का पहला इस्तेमाल %4$s से गिना जाता है, जब तक आपकी नींद का रिकॉर्ड इससे पहले जागना न दिखाए या आपके आम घंटे पहले शुरू न होते हों। अगर ऐप दोनों में से कुछ भी नहीं देख सकता, तो सुबह %1$s पर शुरू होती है। अगर देख सकता है पर अभी आपको जागते नहीं देखा, तो वह ज़्यादा से ज़्यादा %2$s तक इंतज़ार करता है। जब पिछले 4 हफ़्तों में काम के दिनों पर शुरू हुए कम से कम 3 सत्र हो जाएँ, उन्हें छोड़कर जिन्हें टाइमर ने अपने आप रोका, तो खिड़की आपकी आम शुरुआत से एक घंटा पहले खुलती है, पर आपके जागने से पहले कभी नहीं, और आपके आम अंत से एक घंटा बाद बंद होती है। तब तक वह %3$s पर बंद होती है। छुट्टी के दिनों में कोई जाँच नहीं होती। खिड़की खुलने से पहले ऐप सिर्फ़ यह देखता है कि आप उठ गए हैं या नहीं, और इसके लिए कोई स्थिति नहीं ली जाती।</string>
+    <string name="work_place_help_leave">अगर लगातार दो जाँचों में आप वहाँ नहीं मिलते, तो ऐप का शुरू किया सत्र रुक जाता है, और उस आख़िरी जाँच पर ख़त्म होता है जिसने आपको वहाँ पाया। जो सत्र आपने ख़ुद शुरू किया, वह इस तरह कभी नहीं रोका जाता। जब तक ऐप का शुरू किया सत्र चल रहा है, खिड़की बंद होने के बाद भी जाँच चलती रहती है, ज़्यादा से ज़्यादा आधी रात तक।</string>
+    <string name="work_place_help_yours">अपने आप हुई हर शुरुआत और रुकावट के साथ एक सूचना आती है, जिससे आप उसे पूर्ववत कर सकते हैं: शुरुआत को दिन के अंत तक, जब तक आपने ख़ुद सत्र न बदला हो, और रुकावट को एक घंटे तक, जब तक उसके बाद टाइमर फिर से शुरू न किया गया हो। जैसे ही आप ख़ुद “शुरू करें”, “रोकें”, “फिर शुरू करें” या “समाप्त करें” दबाते हैं, या पूर्ववत करते हैं, उस दिन ऐप और कुछ शुरू नहीं करता।</string>
+    <string name="work_place_help_access">इसके लिए Android को हर समय सटीक स्थान और सटीक अलार्म की अनुमति देनी होगी। जब तक स्विच बंद है, इसके लिए कोई स्थिति नहीं ली जाती।</string>
+    <string name="work_place_save">मेरी अभी की जगह सहेजें</string>
+    <string name="work_place_locating">आपकी जगह ढूँढी जा रही है…</string>
+    <string name="work_place_no_fix">स्थिति नहीं मिली</string>
+    <string name="work_place_rough_fix">स्थिति काफ़ी सटीक नहीं। खिड़की के पास आज़माएँ</string>
+    <string name="work_place_point">आपके काम की जगह</string>
+    <string name="work_place_saved">%1$s को सहेजा गया</string>
+    <string name="work_place_saved_within">%1$s को सहेजा गया · %2$d मी के भीतर तक</string>
+    <string name="work_place_move">इसे मेरी अभी की जगह पर ले जाएँ</string>
+    <string name="work_place_remove">काम की जगह हटाएँ</string>
+    <string name="work_place_radius">इतने दायरे में वहाँ माना जाए</string>
+    <string name="work_place_radius_value">%1$d मी</string>
+    <string name="work_place_switch">वहाँ पहुँचने पर टाइमर शुरू करें</string>
+    <string name="work_place_access_precise_title">सटीक स्थान</string>
+    <string name="work_place_access_precise_body">अनुमानित स्थान सिर्फ़ लगभग 1.6 किमी तक सटीक होता है, जो किसी भी काम की जगह से बड़ा है। बिंदु और जाँचों को सटीक स्थान चाहिए।</string>
+    <string name="work_place_access_background_title">हर समय स्थान</string>
+    <string name="work_place_access_background_body">PWN.Health आपके स्थान का उपयोग पृष्ठभूमि में करता है, ताकि आपके काम की जगह पर पहुँचने या वहाँ से निकलने पर काम का टाइमर शुरू हो और रुके, तब भी जब ऐप बंद हो। यह हर 10 मिनट में जाँच करता है, सिर्फ़ काम के दिनों में आपकी सुबह और शाम के बीच, और स्थितियाँ इसी फ़ोन पर रहती हैं। अगली स्क्रीन पर “हर समय अनुमति दें” चुनें।</string>
+    <string name="work_place_access_exact_title">अलार्म और रिमाइंडर</string>
+    <string name="work_place_access_exact_body">बंद ऐप को जाँच के लिए सिर्फ़ सटीक अलार्म ही जगा सकता है। Android इसे अपनी “अलार्म और रिमाइंडर” स्क्रीन पर रखता है।</string>
+    <string name="work_place_access_notifications_title">सूचनाएँ</string>
+    <string name="work_place_access_notifications_body">अपने आप हुई हर शुरुआत और रुकावट की ख़बर “%1$s” चैनल पर “पूर्ववत करें” वाली सूचना में दी जाती है। इसके बिना भी टाइमर शुरू होता और रुकता है, पर उसे पूर्ववत करने की कोई जगह नहीं रहती।</string>
+    <string name="work_place_next_today">अगली जाँच आज %1$s पर</string>
+    <string name="work_place_next_tomorrow">अगली जाँच कल %1$s पर</string>
+    <string name="work_place_next_day">अगली जाँच %1$s को %2$s पर</string>
+    <string name="work_place_next_none">आने वाले हफ़्ते के लिए कोई जाँच तय नहीं है।</string>
+    <string name="work_place_started_title">काम का टाइमर शुरू हुआ</string>
+    <string name="work_place_started_body">आपका फ़ोन आपके काम की जगह पर है। %1$s पर शुरू हुआ।</string>
+    <string name="work_place_stopped_title">काम का टाइमर रुक गया</string>
+    <string name="work_place_stopped_body">लगातार दो जाँचों में आप अपने काम की जगह पर नहीं थे। सत्र %1$s पर ख़त्म होता है, उस आख़िरी जाँच पर जिसने आपको वहाँ पाया।</string>
+    <string name="work_place_stopped_short">आप सिर्फ़ एक जाँच में अपने काम की जगह पर मिले, फिर लगातार दो जाँचों में वहाँ नहीं थे, इसलिए कुछ भी नहीं रखा गया।</string>
+    <string name="work_place_undo">पूर्ववत करें</string>
+    <string name="work_place_channel">काम की जगह की जाँच</string>
+    <string name="work_place_notice_channel">अपने आप चलने वाला काम का टाइमर</string>
+    <string name="work_place_checking">जाँच हो रही है कि आप काम पर हैं या नहीं</string>
+</resources>

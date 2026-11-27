@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Pilih fitur yang ingin diaktifkan. Masing-masing membuka izin Android. Anda dapat melanjutkan tanpa akses dan mengubahnya nanti. Setelah itu, Health Connect akan ditawarkan.</string>
+    <string name="onboarding_access_body_alone">Pilih fitur yang ingin diaktifkan. Masing-masing membuka izin Android. Anda dapat melanjutkan tanpa akses dan mengubahnya nanti.</string>
+    <string name="onboarding_motion_title">Langkah dan sensor gerak</string>
+    <string name="onboarding_motion_body">Aktivitas fisik mengaktifkan penghitung langkah. Sensor gerak dan tekanan udara tidak memerlukan izin terpisah.</string>
+    <string name="onboarding_notifications_title">Notifikasi dan pengingat</string>
+    <string name="onboarding_notifications_body">Tampilkan status penghitung langkah dan pengingat obat, makan, serta air.</string>
+    <string name="onboarding_allowed">Diizinkan</string>
+    <string name="onboarding_bluetooth_body">Temukan timbangan dan sensor terdekat lalu hubungkan melalui Bluetooth.</string>
+</resources>

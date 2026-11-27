@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Rekor</string>
+    <string name="strength_new_records">Rekor pribadi baru</string>
+    <string name="strength_record_e1rm">Perkiraan maksimum satu repetisi</string>
+    <string name="strength_record_heaviest">Beban terberat</string>
+    <string name="strength_record_reps">Repetisi terbanyak dalam satu set</string>
+    <string name="strength_record_volume">Beban terbanyak dalam satu sesi</string>
+    <string name="strength_record_was">%1$s · sebelumnya %2$s</string>
+    <string name="strength_e1rm_note">Angka satu repetisi adalah perkiraan rumus Epley, dari set hingga 12 repetisi.</string>
+    <string name="strength_record_line">Terbaik: %1$s · sekitar %2$s untuk satu repetisi</string>
+    <string name="strength_record_line_reps">Terbaik: %1$s dalam satu set</string>
+</resources>

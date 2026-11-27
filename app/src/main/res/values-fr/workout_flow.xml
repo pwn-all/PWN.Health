@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">Ajouter un autre exercice</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">Durée (MM:SS)</string>
+    <string name="workout_discard_title">Abandonner le plan de séance ?</string>
+    <string name="workout_discard_body">Vos modifications et votre progression dans la séance seront perdues.</string>
+    <string name="workout_discard_confirm">Abandonner</string>
+    <string name="workout_correction_leave_title">Quitter sans enregistrer ?</string>
+    <string name="workout_correction_leave_body">Les modifications de cette séance ne sont pas encore enregistrées. Pour les conserver, touchez « %1$s », puis « %2$s ».</string>
+</resources>

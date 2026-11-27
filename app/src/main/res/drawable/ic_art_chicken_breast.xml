@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <group
+        android:scaleX="0.33572"
+        android:scaleY="0.33572"
+        android:rotation="0"
+        android:translateX="2.544"
+        android:translateY="2.544">
+        <path
+            android:pathData="m7.3 70.41c13.39 32.49 104.7 24.19 113.4-13.49z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="m9.3 73.35a4.71 4.71 0 0 1 -.45-7.35 187.52 187.52 0 0 0 14.39-14.57c6.14-7.12 28.63-20.43 52.2-10.43 17.32 7.31 34.08 5.75 41.74 10.38a7.33 7.33 0 0 1 1.21 11.59c-22.39 20.89-90.49 23.22-109.09 10.38z"
+            android:fillColor="@color/art_duo_mid" />
+        <path
+            android:pathData="m47.72 74.14a1.5 1.5 0 0 1 -1.48-1.3c-1-7.54-4.47-13-10.5-16.61a1.49 1.49 0 0 1 -.51-2 1.51 1.51 0 0 1 2.06-.52c6.76 4.08 10.77 10.39 11.92 18.77a1.5 1.5 0 0 1 -1.28 1.69z"
+            android:fillColor="@color/art_duo_tile" />
+        <path
+            android:pathData="m64.35 71a1.5 1.5 0 0 1 -1.48-1.3c-1-7.54-4.48-13-10.5-16.61a1.5 1.5 0 0 1 1.54-2.57c6.76 4.08 10.77 10.39 11.93 18.77a1.5 1.5 0 0 1 -1.28 1.71z"
+            android:fillColor="@color/art_duo_tile" />
+        <path
+            android:pathData="m81 67.82a1.51 1.51 0 0 1 -1.49-1.3c-1.06-7.52-4.51-12.97-10.51-16.61a1.5 1.5 0 0 1 1.55-2.57c6.76 4.08 10.77 10.39 11.92 18.77a1.49 1.49 0 0 1 -1.28 1.69z"
+            android:fillColor="@color/art_duo_tile" />
+    </group>
+</vector>

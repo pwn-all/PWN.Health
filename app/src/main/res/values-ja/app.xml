@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="other">今日 %1$d 歩</item>
+    </plurals>
+    <string name="channel_name">歩数の計測</string>
+
+    <!-- Sensor / motion gate screen -->
+    <string name="sensors_title">センサー</string>
+    <string name="wave_title">加速度の大きさ、直近 6 秒</string>
+    <string name="gate_open">ゲート開 — 歩数を計上しています</string>
+    <string name="gate_blocked">ゲート閉 — 歩数を破棄しています</string>
+    <string name="field_motion">動き</string>
+    <string name="field_posture">姿勢</string>
+    <string name="field_energy">エネルギー（std）</string>
+    <string name="field_cadence">ケイデンス</string>
+    <string name="field_periodicity">歩行の周期性</string>
+    <string name="field_tilt">水平からの傾き</string>
+    <string name="field_screen">画面</string>
+    <string name="field_axes">加速度 x / y / z</string>
+    <string name="field_raw_counter">センサーの生カウンター</string>
+    <string name="field_credited">このセッションで計上</string>
+    <string name="field_rejected">このセッションで破棄</string>
+    <string name="on">オン</string>
+    <string name="off">オフ</string>
+
+    <!-- Sensor trace recording -->
+    <string name="trace_title">センサーのトレースを記録</string>
+    <string name="trace_body">記録を開始し、歩いて、停止してから保存します。加速度センサーの全サンプル、ゲートの判定、歩数の決定が、順番どおり CSV ファイルに入ります。保存先を選ぶまで、何も端末から出ません。</string>
+    <string name="trace_rows">記録した行数</string>
+    <string name="trace_dropped">破棄（古いもの）</string>
+    <string name="trace_recording">記録中…</string>
+    <string name="trace_start">記録を開始</string>
+    <string name="trace_stop">停止</string>
+    <string name="trace_save">CSV を保存</string>
+    <string name="trace_saved">トレースを保存しました。</string>
+    <string name="trace_error">保存エラー：%1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+
+    <!-- Track recording -->
+    <string name="track_title">ルート</string>
+    <string name="track_start">記録を開始</string>
+    <string name="track_stop">記録を停止</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mi</string>
+    <string name="recording_distance">記録中 — %1$s</string>
+    <string name="waiting_for_fix">位置の測定を待っています…</string>
+    <string name="track_total_route">ルート全体</string>
+    <string name="track_walking_counted">歩行</string>
+    <string name="track_running">走行</string>
+    <string name="track_vehicle">乗り物</string>
+    <string name="track_speed_now">現在の速度</string>
+    <string name="track_speed_max">最高速度</string>
+    <string name="track_speed_value">%1$.1f km/h</string>
+    <string name="track_speed_value_mph">%1$.1f mph</string>
+    <string name="track_stops">停止</string>
+    <string name="track_stops_value">%1$d · %2$d 分</string>
+    <string name="track_elevation_gain">標高 ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f ft</string>
+    <string name="track_telemetry">ルートのテレメトリー</string>
+    <string name="track_gps_points">GPS の測位点</string>
+    <string name="track_raw_gps_points">保存したすべての GPS 測位点</string>
+    <string name="track_rejected_points">補正・除外した測位点</string>
+    <string name="track_last_filter_reason">直近の GPS 補正</string>
+    <string name="track_filter_none">なし</string>
+    <string name="track_filter_low_accuracy">精度不足</string>
+    <string name="track_filter_stale_fix">古い測位</string>
+    <string name="track_filter_jump">未確認の位置飛び</string>
+    <string name="track_filter_speed">あり得ない速度</string>
+    <string name="track_filter_time_order">時刻の逆転</string>
+    <string name="track_gps_accuracy">GPS の精度</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f ft</string>
+    <string name="track_movement">移動</string>
+    <string name="track_movement_walking">歩行</string>
+    <string name="track_movement_running">走行</string>
+    <string name="track_movement_vehicle">乗り物</string>
+    <string name="track_movement_stopped">停止</string>
+    <string name="track_movement_unknown">判定中…</string>
+    <string name="track_altitude">標高</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f ft · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">気圧</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">外気温</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">環境値の急変</string>
+    <string name="track_sensor_unavailable">センサーがありません</string>
+    <string name="track_environment_note">気圧高度は最初の GPS 標高で較正します。温度センサーを備えたスマートフォンはまれで、値は端末の発熱に左右されることがあります。</string>
+    <string name="track_showing_last">最後に完了したルートを表示しています。新しく作るには記録を開始してください。</string>
+    <string name="track_history">保存したルート</string>
+    <string name="track_history_note">ルートとセンサーの全テレメトリーはローカルに保存され、データの書き出しに含まれます。</string>
+    <plurals name="track_history_points">
+        <item quantity="other">採用した測位点 %1$d 件</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">Başka bir egzersiz ekle</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">Süre (DD:SN)</string>
+    <string name="workout_discard_title">Antrenman planı kapatılsın mı?</string>
+    <string name="workout_discard_body">Yaptığınız değişiklikler ve antrenman ilerlemeniz kaybolacak.</string>
+    <string name="workout_discard_confirm">Kaydetmeden kapat</string>
+    <string name="workout_correction_leave_title">Kaydetmeden çıkılsın mı?</string>
+    <string name="workout_correction_leave_body">Bu antrenmandaki değişiklikler henüz kaydedilmedi. Korumak için önce “%1$s”, ardından “%2$s” öğesine dokunun.</string>
+</resources>

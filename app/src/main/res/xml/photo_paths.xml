@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- One folder of the cache, never its root (sharedCacheDir): every camera shot the app asks
+         for (a meal, a progress picture, a course's, a walk's or a template's photograph), a medal
+         card, a shared route or template. The backup spool, an import's copy and a restore's parts
+         lie in the cache's root, where no URI this provider makes can name them; and no tap opens
+         a file of this folder either (attachmentOpens). -->
+    <cache-path
+        name="shared"
+        path="shared/" />
+    <!-- Progress pictures, opened full-size by a viewer. -->
+    <files-path
+        name="progress-photos"
+        path="progress/" />
+    <!-- The photograph a course carries, opened full-size by a viewer like a progress picture. -->
+    <files-path
+        name="medicine-photos"
+        path="medicines/" />
+    <!-- A walk's photographs, opened full-size by the phone's viewer like a progress picture. -->
+    <files-path
+        name="walk-photos"
+        path="walk-photos/" />
+    <!-- Lab camera originals remain readable as attachments after the cache is cleared. -->
+    <files-path
+        name="lab-captures"
+        path="lab-captures/" />
+    <!-- The report for the doctor, a PDF or an archive, written for sharing. The one before goes
+         as the next is made; the last goes once it is an hour old and the app comes forward
+         (sweepStaleShares), and at the latest at the next fresh start (sweepExportLeftovers). -->
+    <cache-path
+        name="reports"
+        path="reports/" />
+</paths>

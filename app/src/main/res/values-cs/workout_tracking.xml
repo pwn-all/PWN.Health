@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Další tréninky</string>
+    <string name="routines_other_workouts_body">Jen podle času: tanec, basketbal, fotbal, pilates a další</string>
+    <string name="routines_indoors">Uvnitř</string>
+    <string name="routines_indoors_body">Počítáme kroky a čas</string>
+    <string name="routines_outdoors">Venku</string>
+    <string name="routines_outdoors_body">Otevře „Procházka / trasa“ a zaznamená cestu do mapy</string>
+    <string name="track_tracked">Napočítáno</string>
+    <string name="track_burned">Spáleno zhruba</string>
+    <string name="track_count_question">Napočítali jsme správně?</string>
+    <string name="track_count_fix">Opravte počet</string>
+    <string name="track_count_interrupted">Počítání se přerušilo – zadejte to ručně</string>
+    <string name="track_phone_title">Kde má být telefon</string>
+    <string name="track_phone_pocket">V kapse kalhot nebo u pasu — počítá každé dopadnutí.</string>
+    <string name="track_phone_lift">V kapse kalhot — počítá každé opakování v horní poloze, kde tělo zpomalí.</string>
+    <string name="track_phone_thigh">V přední kapse kalhot, na stehně — počítá náklon stehna při každém opakování.</string>
+    <string name="track_phone_arm">Ve sportovním pouzdře na paži — počítá náklon paže při každém opakování.</string>
+    <string name="track_phone_steps">V kapse nebo v ruce — kroky počítá krokoměr.</string>
+    <string name="track_phone_stairs">V kapse nebo v ruce — kroky počítá krokoměr, patra barometr.</string>
+    <string name="track_unit_jumps">skoků</string>
+    <string name="track_unit_floors">pater</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d skok</item>
+        <item quantity="few">%1$d skoky</item>
+        <item quantity="many">%1$d skoku</item>
+        <item quantity="other">%1$d skoků</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d krok</item>
+        <item quantity="few">%1$d kroky</item>
+        <item quantity="many">%1$d kroku</item>
+        <item quantity="other">%1$d kroků</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d patro</item>
+        <item quantity="few">%1$d patra</item>
+        <item quantity="many">%1$d patra</item>
+        <item quantity="other">%1$d pater</item>
+    </plurals>
+</resources>

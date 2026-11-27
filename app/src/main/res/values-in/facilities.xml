@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Tempat di dekat saya</string>
+    <string name="facility_locating">Mencari lokasi Anda…</string>
+    <string name="facility_denied">Akses lokasi tidak diizinkan, jadi daftar tidak bisa diurutkan menurut jarak. Anda tetap bisa mengetik nama.</string>
+    <string name="facility_location_off">Lokasi dinonaktifkan di ponsel ini.</string>
+    <string name="facility_location_settings">Pengaturan lokasi</string>
+    <string name="facility_no_fix">Ponsel belum bisa menentukan lokasi Anda saat ini. Tunggu sebentar, lalu coba lagi.</string>
+    <string name="facility_nothing_near">Tidak ada tempat di daftar dalam jarak %1$s dari Anda.</string>
+    <string name="facility_list_title">Klinik dan rumah sakit</string>
+    <string name="facility_near_title">Di dekat Anda</string>
+    <string name="facility_near_kind">Di dekat Anda: %1$s</string>
+    <string name="facility_near_gynaecology">Di dekat Anda: ginekologi</string>
+    <string name="facility_near_imaging">Di dekat Anda: radiologi</string>
+    <string name="facility_near_gastroenterology">Di dekat Anda: gastroenterologi</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mil</string>
+    <string name="facility_help_title">Asal daftar tempat ini</string>
+    <string name="facility_help_what">Sarannya berasal dari registri resmi fasilitas pelayanan kesehatan. Daftarnya disimpan di dalam aplikasi dan dicari di ponsel ini. Untuk aplikasi ini, registri disaring menjadi tempat yang dapat didatangi pasien, dan jenis layanannya dikelompokkan ulang menjadi jenis dokter yang dikenal aplikasi. Tombol lokasi di ujung kolom “Tempat” hanya menampilkan tempat yang menyediakan layanan yang dipilih untuk kunjungan ini, atau semua tempat bila kunjungannya ke dokter lain; mengetik nama akan mencari di seluruh daftar.</string>
+    <string name="facility_help_screening">Untuk skrining, daftar menampilkan bagian yang biasanya melakukannya: ginekologi untuk skrining serviks, radiologi untuk mamografi, gastroenterologi untuk skrining usus besar. Registri tidak menyebutkan apakah bagian tersebut melakukan skrining itu sendiri, jadi tanyakan saat membuat jadwal.</string>
+    <string name="facility_help_coverage">Daftar ini mencakup Ceko, Ukraina, dan Uni Emirat Arab. Untuk Ukraina, daftar hanya memuat tempat yang memiliki kontrak dengan Layanan Kesehatan Nasional Ukraina. Untuk Uni Emirat Arab, daftar memuat registri Dubai edisi Desember 2023, tempat berizin di Abu Dhabi sebagaimana dipetakan pada 2022 dan masih terpetakan pada 2026, serta rumah sakit dan pusat kesehatan pemerintah yang dikelola Emirates Health Services; klinik swasta di Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, dan Fujairah tidak tercantum di dalamnya. Registri bisa saja sudah usang: pastikan dulu kepada tempat tersebut sebelum Anda pergi.</string>
+    <string name="facility_help_location">Tombol lokasi meminta lokasi perkiraan Anda kepada Android satu kali dan membulatkannya hingga sekitar satu kilometer. Lokasi itu dipakai di ponsel ini untuk mengurutkan daftar, tidak pernah disimpan atau dikirim ke mana pun, dan dilupakan saat Anda meninggalkan halaman ini.</string>
+    <string name="facility_help_sources">Sumber</string>
+</resources>

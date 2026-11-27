@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The report on its way out of the phone: a sheet with a medical badge and the months of a record
+  drawn as three bars, over the soft discs the rest of the drawn set stands on.
+
+  The card has no drop shadow, since a vector drawable has no blur; it keeps an eight-degree tilt.
+
+  Its intrinsic size is the size it is drawn at, since Lint holds vector icons to 200dp and the
+  screen asks for 116dp of it anyway.
+
+  Painted in named colours with a night twin, like the duotone set: the discs share one colour and
+  the bars another, and the discs are told apart by their own fillAlpha.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <path android:fillColor="@color/art_paper_disc" android:fillAlpha="0.72" android:pathData="M48,86a56,56 0 1,0 112,0a56,56 0 1,0 -112,0Z" />
+    <path android:fillColor="@color/art_paper_disc" android:fillAlpha="0.62" android:pathData="M106,54a54,54 0 1,0 108,0a54,54 0 1,0 -108,0Z" />
+    <path android:fillColor="@color/art_paper_disc" android:fillAlpha="0.58" android:pathData="M123,116a54,54 0 1,0 108,0a54,54 0 1,0 -108,0Z" />
+    <group android:name="card" android:rotation="8" android:pivotX="140" android:pivotY="126">
+        <path android:fillColor="@color/art_paper" android:pathData="M106,59h68a18,18 0 0,1 18,18v106a18,18 0 0,1 -18,18h-68a18,18 0 0,1 -18,-18v-106a18,18 0 0,1 18,-18Z" />
+        <path android:fillColor="@color/art_paper_mark" android:pathData="M100,91a18,18 0 1,0 36,0a18,18 0 1,0 -36,0Z" />
+        <path android:fillColor="@color/art_paper" android:pathData="M118,81h0a2,2 0 0,1 2,2v16a2,2 0 0,1 -2,2h0a2,2 0 0,1 -2,-2v-16a2,2 0 0,1 2,-2Z" />
+        <path android:fillColor="@color/art_paper" android:pathData="M110,89h16a2,2 0 0,1 2,2v0a2,2 0 0,1 -2,2h-16a2,2 0 0,1 -2,-2v0a2,2 0 0,1 2,-2Z" />
+        <path android:fillColor="@color/art_paper_bar" android:pathData="M113,152h6a3,3 0 0,1 3,3v22a3,3 0 0,1 -3,3h-6a3,3 0 0,1 -3,-3v-22a3,3 0 0,1 3,-3Z" />
+        <path android:fillColor="@color/art_paper_bar" android:pathData="M135,136h6a3,3 0 0,1 3,3v38a3,3 0 0,1 -3,3h-6a3,3 0 0,1 -3,-3v-38a3,3 0 0,1 3,-3Z" />
+        <path android:fillColor="@color/art_paper_bar" android:pathData="M157,117h6a3,3 0 0,1 3,3v57a3,3 0 0,1 -3,3h-6a3,3 0 0,1 -3,-3v-57a3,3 0 0,1 3,-3Z" />
+    </group>
+</vector>

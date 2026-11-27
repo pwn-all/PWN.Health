@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Início pela localização</string>
+    <string name="work_place_help_what">Salve o lugar onde você trabalha, e o cronômetro de trabalho começa quando o seu telefone estiver lá. Cada verificação obtém uma posição do próprio serviço de localização do Android, compara-a com o ponto salvo e a esquece. Um ponto só é salvo a partir de uma posição com precisão de até 100 m. Só o ponto salvo, o raio dele e as suas sessões são guardados, neste telefone. Nada é enviado a lugar nenhum.</string>
+    <string name="work_place_help_when">As verificações acontecem a cada 10 minutos, e só dentro de uma janela em cada dia de trabalho. Ela se abre quando você acorda: o fim do seu registro de sono ou o seu primeiro uso do telefone depois da noite, se o aplicativo puder ver um dos dois. Um primeiro uso do telefone antes das %4$s conta a partir das %4$s, a menos que o seu registro de sono mostre um despertar anterior ou que o seu horário habitual comece mais cedo. Se o aplicativo não puder ver nenhum dos dois, a manhã começa às %1$s. Se puder, mas ainda não tiver visto você acordar, ele espera no máximo até as %2$s. Quando as últimas 4 semanas tiverem pelo menos 3 sessões iniciadas em dias de trabalho, sem contar as que o cronômetro parou sozinho, a janela passa a abrir uma hora antes do seu início habitual, nunca antes de você acordar, e a fechar uma hora depois do seu fim habitual. Até lá, ela fecha às %3$s. Não há verificações nas suas folgas. Antes de a janela abrir, o aplicativo só verifica se você já está de pé, o que não exige nenhuma posição.</string>
+    <string name="work_place_help_leave">Se você estiver fora em duas verificações seguidas, uma sessão iniciada pelo aplicativo para e termina na última verificação que encontrou você lá. Uma sessão que você mesmo iniciou nunca é parada dessa forma. Enquanto uma sessão iniciada pelo aplicativo estiver em andamento, as verificações continuam depois que a janela fecha, no máximo até a meia-noite.</string>
+    <string name="work_place_help_yours">Cada início e parada automáticos vêm com uma notificação de onde é possível desfazê-los: um início até o fim do dia, desde que você não tenha alterado a sessão por conta própria, e uma parada durante uma hora, desde que o cronômetro não tenha sido iniciado desde então. Depois que você mesmo toca em Iniciar, Pausar, Retomar ou Parar, ou desfaz, o aplicativo não inicia mais nada naquele dia.</string>
+    <string name="work_place_help_access">Para isso, o Android precisa permitir a localização precisa o tempo todo e os alarmes exatos. Enquanto esta opção estiver desligada, nenhuma posição é obtida para ela.</string>
+    <string name="work_place_save">Salvar onde estou agora</string>
+    <string name="work_place_locating">Procurando onde você está…</string>
+    <string name="work_place_no_fix">Posição não encontrada</string>
+    <string name="work_place_rough_fix">Posição imprecisa demais. Tente perto de uma janela</string>
+    <string name="work_place_point">Seu local de trabalho</string>
+    <string name="work_place_saved">Salvo em %1$s</string>
+    <string name="work_place_saved_within">Salvo em %1$s · com precisão de até %2$d m</string>
+    <string name="work_place_move">Mover para onde estou agora</string>
+    <string name="work_place_remove">Remover o local de trabalho</string>
+    <string name="work_place_radius">Considerado no local até</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Iniciar o cronômetro quando eu chegar lá</string>
+    <string name="work_place_access_precise_title">Localização precisa</string>
+    <string name="work_place_access_precise_body">A localização aproximada só acerta até cerca de 1,6 km, mais do que qualquer local de trabalho. O ponto e as verificações exigem a localização precisa.</string>
+    <string name="work_place_access_background_title">Localização o tempo todo</string>
+    <string name="work_place_access_background_body">O PWN.Health usa a sua localização em segundo plano para iniciar e parar o cronômetro de trabalho quando você chega ao seu local de trabalho ou sai dele, mesmo com o aplicativo fechado. Ele verifica a cada 10 minutos, só entre a sua manhã e a sua noite nos dias de trabalho, e as posições ficam neste telefone. Na próxima tela, escolha “Permitir o tempo todo”.</string>
+    <string name="work_place_access_exact_title">Alarmes e lembretes</string>
+    <string name="work_place_access_exact_body">Só um alarme exato pode despertar o aplicativo para uma verificação enquanto ele está fechado. O Android mantém essa permissão na tela “Alarmes e lembretes”.</string>
+    <string name="work_place_access_notifications_title">Notificações</string>
+    <string name="work_place_access_notifications_body">Cada início e parada automáticos são informados em uma notificação com Desfazer, no canal “%1$s”. Sem ela, o cronômetro ainda inicia e para, mas não há de onde desfazer.</string>
+    <string name="work_place_next_today">Próxima verificação hoje às %1$s</string>
+    <string name="work_place_next_tomorrow">Próxima verificação amanhã às %1$s</string>
+    <string name="work_place_next_day">Próxima verificação: %1$s, às %2$s</string>
+    <string name="work_place_next_none">Nenhuma verificação planejada para a próxima semana.</string>
+    <string name="work_place_started_title">Cronômetro de trabalho iniciado</string>
+    <string name="work_place_started_body">O seu telefone está no seu local de trabalho. Iniciado às %1$s.</string>
+    <string name="work_place_stopped_title">Cronômetro de trabalho parado</string>
+    <string name="work_place_stopped_body">Você esteve fora do seu local de trabalho em duas verificações seguidas. A sessão termina às %1$s, a última verificação que encontrou você lá.</string>
+    <string name="work_place_stopped_short">Você esteve fora do seu local de trabalho em duas verificações seguidas depois de uma única verificação lá, então nada foi salvo.</string>
+    <string name="work_place_undo">Desfazer</string>
+    <string name="work_place_channel">Verificações do local de trabalho</string>
+    <string name="work_place_notice_channel">Cronômetro de trabalho automático</string>
+    <string name="work_place_checking">Verificando se você está no trabalho</string>
+</resources>

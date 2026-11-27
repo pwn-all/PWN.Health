@@ -1,0 +1,102 @@
+name: automerge
+
+# Dependabot's pull requests go into main once the workflow that tests their kind of manifest has
+# passed on their head commit, and nothing else that ran on it failed, with nobody to click Merge:
+# the merge is this job's. It runs on main's copy of this file (workflow_run always does), checks nothing out
+# and runs nothing from the branch: it reads the runs and merges.
+#
+# A run that ends wakes it, but not one started with GITHUB_TOKEN: GitHub raises no workflow_run for
+# those, and that is how dependabot-gradle.yml asks for a Gradle branch's build. So it also looks
+# once an hour, and when started by hand, at every open Dependabot pull request.
+on:
+  workflow_run:
+    workflows: [build, dependabot-gradle]
+    types: [completed]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+# One at a time: two workflows of one commit can finish together, and the hourly pass reads every
+# branch. The second then finds the pull request merged; a pending run a newer one replaces is the
+# next hour's.
+concurrency:
+  group: automerge
+
+jobs:
+  merge:
+    if: >-
+      github.event_name != 'workflow_run' || (
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      startsWith(github.event.workflow_run.head_branch, 'dependabot/'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      # GITHUB_TOKEN reads and merges. It may not change .github/workflows, which every
+      # github-actions update does: those take AUTOMERGE_TOKEN, a fine-grained personal access token
+      # scoped to this repository alone (Contents, Pull requests and Workflows: write), set as an Actions
+      # and as a Dependabot secret. A merge made with GITHUB_TOKEN starts no build of main, which is
+      # the tree the branch was built as unless main moved on meanwhile; then that build is asked for.
+      - name: Merge once the commit's builds have passed
+        env:
+          PAT: ${{ secrets.AUTOMERGE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EVENT: ${{ github.event_name }}
+          RUN_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          RUN_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -euo pipefail
+          # One pull request; `return 1` for a failure, since -e does not reach into a function
+          # called under ||, which keeps one pull request's failure from holding back the others.
+          merge() {
+          local BRANCH=$1 SHA=$2
+          pr=$(gh pr list --head "$BRANCH" --state open --json number,author,headRefOid \
+            --jq ".[] | select(.author.login == \"app/dependabot\" and .headRefOid == \"$SHA\") | .number") || return 1
+          if [ -z "$pr" ]; then echo "No open Dependabot pull request at $SHA on $BRANCH."; return 0; fi
+          gate=build
+          # The runs this repository's workflows made of the commit for a push or a dispatch. Pull request
+          # runs of a branch here are skipped or wait for approval, and the dynamic ones are GitHub's.
+          runs=$(gh api "repos/$GH_REPO/actions/runs?head_sha=$SHA&per_page=100" --jq '.workflow_runs[]
+            | select((.event == "push" or .event == "workflow_dispatch") and (.path | startswith(".github/workflows/")))
+            | "\(.name) \(.status) \(.conclusion)"') || return 1
+          echo "$runs"
+          if grep -qv ' completed ' <<< "$runs"; then echo "A run of $SHA is still going: its end decides."; return 0; fi
+          if grep -qvE ' completed (success|skipped)$' <<< "$runs"; then echo "A run of $SHA did not pass: not merged."; return 0; fi
+          # Which workflows a push starts depends on the paths it changed, a force-push's against the old
+          # head: the one that tests this kind of manifest has to be among them.
+          if ! grep -qx "$gate completed success" <<< "$runs"; then echo "No passed $gate run of $SHA: not merged."; return 0; fi
+          token=$GH_TOKEN
+          case "$BRANCH" in dependabot/github_actions/*) token=$PAT ;; esac
+          if [ -z "$token" ]; then
+            echo "::error::A change to .github/workflows needs the AUTOMERGE_TOKEN secret to be merged (automerge.yml)."
+            return 1
+          fi
+          behind=$(gh api "repos/$GH_REPO/compare/main...$SHA" --jq .behind_by) || return 1
+          GH_TOKEN=$token gh pr merge "$pr" --squash --match-head-commit "$SHA" --delete-branch || return 1
+          if [ "$behind" != 0 ] && [ "$token" = "$GH_TOKEN" ]; then
+            echo "Main had $behind commit(s) the branch was not built with: building main."
+            gh workflow run "$gate.yml" --ref main || return 1
+          fi
+          }
+
+          if [ "$EVENT" = workflow_run ]; then
+            heads="$RUN_BRANCH $RUN_SHA"
+          else
+            heads=$(gh pr list --state open --json author,headRefName,headRefOid \
+              --jq '.[] | select(.author.login == "app/dependabot") | "\(.headRefName) \(.headRefOid)"')
+          fi
+          failed=0
+          while read -r branch sha; do
+            [ -n "$branch" ] || continue
+            echo "::group::$branch"
+            merge "$branch" "$sha" < /dev/null || failed=1
+            echo "::endgroup::"
+          done <<< "$heads"
+          exit "$failed"

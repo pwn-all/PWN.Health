@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The symptom diary (SymptomScreen.kt, Symptoms.kt). -->
+<resources>
+    <!-- The page and its door -->
+    <string name="symptom_title">Symptom</string>
+    <string name="symptom_local_only">Health Connect has no record for symptoms, so symptom entries are not sent to it.</string>
+    <!-- The symptoms -->
+    <string name="symptom_vomiting">Vomiting</string>
+    <string name="symptom_nausea">Nausea</string>
+    <string name="symptom_dizziness">Dizziness</string>
+    <string name="symptom_fainting">Fainting</string>
+    <string name="symptom_palpitations">Palpitations</string>
+    <string name="symptom_breathlessness">Shortness of breath</string>
+    <string name="symptom_heartburn">Heartburn</string>
+    <string name="symptom_diarrhoea">Diarrhoea</string>
+    <string name="symptom_fever">Fever</string>
+    <string name="symptom_tiredness">Tiredness</string>
+    <!-- How bad: adverbs in Russian, so the word agrees with any symptom -->
+    <string name="symptom_severity_mild">Mild</string>
+    <string name="symptom_severity_moderate">Moderate</string>
+    <string name="symptom_severity_severe">Severe</string>
+    <!-- The questions, asked one at a time and shown again as the answer row's question -->
+    <string name="symptom_step_symptom">What is it?</string>
+    <string name="symptom_step_after_meal">After a meal?</string>
+    <string name="symptom_step_cause">What brought it on?</string>
+    <string name="symptom_step_times">How many times?</string>
+    <string name="symptom_step_blood">Blood or dark “coffee grounds” in it?</string>
+    <string name="symptom_step_doing">What were you doing?</string>
+    <string name="symptom_step_when">When?</string>
+    <string name="symptom_step_feel">What did it feel like?</string>
+    <string name="symptom_step_fainted">Did you faint?</string>
+    <string name="symptom_step_injured">Did you hurt yourself badly?</string>
+    <string name="symptom_step_since">Since when?</string>
+    <string name="symptom_step_with">Anything with it?</string>
+    <string name="symptom_step_severity">How bad is it?</string>
+    <!-- The answers: a few words each, neutral in gender -->
+    <string name="symptom_option_ate_too_much">Ate too much</string>
+    <string name="symptom_option_food_off">Food that may have been off</string>
+    <string name="symptom_option_alcohol">Alcohol</string>
+    <string name="symptom_option_motion">Motion or travel</string>
+    <string name="symptom_option_medicine">A medicine</string>
+    <string name="symptom_option_stomach_bug">A stomach bug</string>
+    <string name="symptom_option_self_induced">I made myself sick</string>
+    <string name="symptom_option_pregnancy">Pregnancy</string>
+    <string name="symptom_option_stress">Stress or anxiety</string>
+    <string name="symptom_option_travel">Travel</string>
+    <string name="symptom_option_not_sure">Not sure</string>
+    <string name="symptom_option_once">Once</string>
+    <string name="symptom_option_twice">Twice</string>
+    <string name="symptom_option_three_plus">Three or more</string>
+    <string name="symptom_option_standing_up">Standing up</string>
+    <string name="symptom_option_exercising">Exercising</string>
+    <string name="symptom_option_after_exercise">Just after exercise</string>
+    <string name="symptom_option_sitting_lying">Sitting or lying down</string>
+    <string name="symptom_option_turning_head">Turning the head or rolling over in bed</string>
+    <string name="symptom_option_walking">Walking</string>
+    <string name="symptom_option_light_headed">Light-headed, about to faint</string>
+    <string name="symptom_option_spinning">The room spinning</string>
+    <string name="symptom_option_unsteady">Unsteady on the feet</string>
+    <string name="symptom_option_racing">Racing</string>
+    <string name="symptom_option_pounding">Pounding</string>
+    <string name="symptom_option_irregular">Irregular or skipping</string>
+    <string name="symptom_option_fluttering">Fluttering</string>
+    <string name="symptom_option_at_rest">At rest</string>
+    <string name="symptom_option_at_night">At night</string>
+    <string name="symptom_option_walking_stairs">Walking or on stairs</string>
+    <string name="symptom_option_hard_exercise">Hard exercise</string>
+    <string name="symptom_option_lying_night">Lying down or at night</string>
+    <string name="symptom_option_after_eating">After eating</string>
+    <string name="symptom_option_lying_bending">Lying down or bending</string>
+    <string name="symptom_option_empty_stomach">On an empty stomach</string>
+    <string name="symptom_option_today">Today</string>
+    <string name="symptom_option_few_days">A few days</string>
+    <string name="symptom_option_over_two_weeks">Over two weeks</string>
+    <string name="symptom_option_chest_pain">Chest pain</string>
+    <string name="symptom_option_racing_heart">A racing or pounding heart</string>
+    <string name="symptom_option_one_side_weak">Face drooping, or weakness or numbness on one side</string>
+    <string name="symptom_option_speech">Trouble speaking</string>
+    <string name="symptom_option_breathless">Breathlessness</string>
+    <string name="symptom_option_during_exercise">It happened during exercise</string>
+    <string name="symptom_option_dizzy_faint">Dizziness or fainting</string>
+    <string name="symptom_option_wheezing">Wheezing</string>
+    <string name="symptom_option_cough">Cough</string>
+    <string name="symptom_option_blue_lips">Blue lips or fingertips</string>
+    <string name="symptom_option_swallowing">Trouble swallowing</string>
+    <string name="symptom_option_black_stools">Black stools</string>
+    <string name="symptom_option_weight_loss">Weight loss without trying</string>
+    <string name="symptom_option_blood">Blood</string>
+    <string name="symptom_option_dehydration">Signs of dehydration</string>
+    <string name="symptom_option_chills">Chills</string>
+    <string name="symptom_option_sweating">Sweating</string>
+    <string name="symptom_option_sore_throat">Sore throat</string>
+    <string name="symptom_option_rash">Rash</string>
+    <string name="symptom_option_stiff_neck">A stiff neck, or pain looking at bright lights</string>
+    <string name="symptom_option_poor_sleep">Poor sleep</string>
+    <string name="symptom_option_low_mood">Low mood</string>
+    <string name="symptom_option_none">None of these</string>
+    <!-- The card of what the journal held: figures only, each printed the way its own screen prints it -->
+    <string name="symptom_context_today">Logged today</string>
+    <string name="symptom_context_day">Logged on %1$s</string>
+    <string name="symptom_context_help">Figures from your own record, as they stood when this entry was opened. They are set beside the symptom; they do not say what caused it.</string>
+    <string name="symptom_context_none">Nothing relevant is logged for this day.</string>
+    <string name="symptom_fact_meal">Last meal: %1$s, %2$s kcal — %3$s before</string>
+    <string name="symptom_fact_food">Food: %1$s of %2$s kcal</string>
+    <string name="symptom_fact_steps">Steps: %1$s</string>
+    <string name="symptom_fact_workout">Last workout: %1$s — ended %2$s before</string>
+    <string name="symptom_fact_workout_day">Workout: %1$s</string>
+    <string name="symptom_fact_no_workout">No workout logged</string>
+    <string name="symptom_fact_water">Water: %1$s</string>
+    <string name="symptom_fact_alcohol">Alcohol: %1$s drinks</string>
+    <string name="symptom_fact_caffeine">Caffeine: %1$s</string>
+    <string name="symptom_fact_sleep">Night’s sleep: %1$s</string>
+    <string name="symptom_fact_pressure">Last blood pressure: %1$s — %2$s before</string>
+    <string name="symptom_fact_pulse">Last pulse: %1$s bpm — %2$s before</string>
+    <string name="symptom_fact_temperature">Last temperature: %1$s %2$s — %3$s before</string>
+    <string name="symptom_fact_stools">Stools: %1$s, loose: %2$s</string>
+    <!-- The lines an answer calls for: what to do, never what it is -->
+    <string name="symptom_alert_emergency">This can be a sign of an emergency. Call emergency services now.</string>
+    <string name="symptom_alert_urgent">Get medical advice today: contact a doctor or an urgent medical helpline.</string>
+    <string name="symptom_alert_doctor">This is worth having checked by a doctor.</string>
+    <string name="symptom_self_induced">If this happens often, a doctor can help. It is common, and it can be treated.</string>
+    <string name="symptom_self_induced_help">Making yourself sick can be part of an eating disorder: it is the first of the five SCOFF screening questions. Eating disorders are common and treatable, and a GP is a good place to start.</string>
+    <!-- Where each symptom’s questions and lines come from, behind the “?” beside a line -->
+    <string name="symptom_sources">Sources</string>
+    <string name="symptom_source_vomiting">NHS, “Vomiting in adults” and “Eating disorders”; Morgan JF, Reid F, Lacey JH, “The SCOFF questionnaire”, BMJ 1999;319:1467.</string>
+    <string name="symptom_source_nausea">NHS, “Feeling sick (nausea)”.</string>
+    <string name="symptom_source_dizziness">NHS, “Dizziness” and “Fainting”.</string>
+    <string name="symptom_source_fainting">NHS, “Fainting”; NICE guideline CG109, “Transient loss of consciousness (‘blackouts’) in over 16s”.</string>
+    <string name="symptom_source_palpitations">NHS, “Heart palpitations”.</string>
+    <string name="symptom_source_breathlessness">NHS, “Shortness of breath”.</string>
+    <string name="symptom_source_heartburn">NHS, “Heartburn and acid reflux” and “Bleeding from the bottom (rectal bleeding)”.</string>
+    <string name="symptom_source_diarrhoea">NHS, “Diarrhoea and vomiting” and “Bleeding from the bottom (rectal bleeding)”.</string>
+    <string name="symptom_source_fever">NHS, “High temperature (fever) in adults” and “Meningitis”.</string>
+    <string name="symptom_source_tiredness">NHS, “Tiredness and fatigue” and “Depression in adults”.</string>
+</resources>

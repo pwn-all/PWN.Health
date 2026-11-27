@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_recording_paused">記録を一時停止中 — %1$s</string>
+    <string name="widget_track_paused">一時停止中</string>
+</resources>

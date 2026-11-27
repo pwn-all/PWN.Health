@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">ステップ %1$d（全 %2$d）</string>
+    <string name="lab_add_type_title">検査の種類</string>
+    <string name="lab_add_choose_one">ひとつ選んでください。選択に応じて次のステップが変わります。</string>
+    <string name="lab_add_method_title">どの方法で結果を追加しますか？</string>
+    <string name="lab_add_manual">手入力</string>
+    <string name="lab_add_manual_body">数値を自分で入力</string>
+    <string name="lab_add_file">ファイルを選ぶ</string>
+    <string name="lab_add_file_body">このスマートフォン内の写真または PDF</string>
+    <string name="lab_add_photo">写真を撮る</string>
+    <string name="lab_add_photo_body">検査結果を撮影</string>
+    <string name="lab_add_manual_title">結果を入力</string>
+    <string name="lab_add_check_title">結果を確認</string>
+    <string name="lab_add_file_title">ファイルを追加</string>
+    <string name="lab_add_file_lead">検査結果の写真、または PDF（最大20ページ、32 MB）。複数のファイルを一度に選べます。</string>
+    <string name="lab_add_document_lead">検査報告書の写真または PDF。</string>
+    <string name="lab_add_allergy">アレルギー検査</string>
+    <string name="lab_add_file_hint">タップして、このスマートフォン内のファイルを選んでください</string>
+    <string name="lab_add_photo_title">写真を撮影</string>
+    <string name="lab_add_photo_lead">明るい場所で用紙を平らに置き、全体が画面に収まるようにしてください。</string>
+    <string name="lab_add_photo_hint">スマートフォンのカメラが起動します</string>
+    <string name="lab_add_study_day">検査日：%1$s</string>
+    <string name="lab_add_done_title">結果を追加しました</string>
+    <string name="lab_add_done_already">結果は保存済みです</string>
+    <string name="lab_add_done_attached">保存済みの結果にファイルを追加しました</string>
+    <string name="lab_add_done_body">このスマートフォンに保存されました。</string>
+    <string name="lab_add_open_results">結果を開く</string>
+    <string name="lab_add_more">さらに結果を追加</string>
+</resources>

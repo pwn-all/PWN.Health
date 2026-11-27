@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Günlük adım</string>
+    <string name="onboarding_steps_body">Sürdürmeyi düşündüğünüz bir hedef seçin. 500 yetişkinle yapılan bir çalışmada yalnızca hedefini kendisi seçenler daha çok yürümeye başladı. Hedefi profilde istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="onboarding_steps_suggested">Yaşınız için önerilen: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Öneriyi kullan</string>
+    <string name="onboarding_steps_distance">Adım uzunluğunuzla günde yaklaşık %1$s</string>
+    <string name="onboarding_bmi_source">DSÖ yetişkin aralıkları</string>
+    <string name="onboarding_ready_steps">Günlük adım hedefi</string>
+    <string name="onboarding_ready_resting">Dinlenme enerjisi</string>
+    <string name="onboarding_ready_kcal_day">Günde %1$s kcal</string>
+    <string name="onboarding_ready_local">Yanıtlarınızdan bu telefonda hesaplandı: dinlenme enerjisi Mifflin–St Jeor ile, VKİ DSÖ yetişkin aralıklarına göre. Hiçbir şey hiçbir yere gönderilmedi.</string>
+</resources>

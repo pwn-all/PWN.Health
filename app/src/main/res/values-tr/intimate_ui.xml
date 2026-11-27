@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">Seks</string>
+    <string name="intimate_anything_to_add">Eklemek istediğiniz bir şey var mı?</string>
+    <string name="intimate_history_title">Geçmiş</string>
+    <string name="intimate_history_empty">Henüz kayıt yok.</string>
+    <string name="intimate_act_title">Kaydı düzenle</string>
+    <string name="intimate_act_kind">Türü</string>
+    <string name="intimate_act_day">Gün</string>
+    <string name="intimate_act_time">Saat</string>
+    <string name="intimate_act_time_unrecorded">Bu kayıt için saat girilmemiş.</string>
+    <string name="intimate_flash_changed">Değiştirildi</string>
+    <string name="intimate_flash_deleted">Silindi</string>
+    <string name="intimate_charts_title">Grafikler</string>
+    <string name="intimate_woke_at">Uyanma saati</string>
+    <string name="intimate_woke_by_unset">Belirtilmedi</string>
+    <string name="intimate_woke_phone">Uyanış %1$s · telefonun ilk kullanımı</string>
+</resources>

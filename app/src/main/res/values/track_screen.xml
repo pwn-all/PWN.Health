@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The track screen: a map from edge to edge with its controls laid over it, and two pages held
+         over the map. The words it shares with the other track pages keep their track_* names in
+         app.xml and ui.xml. -->
+
+    <!-- What the GPS signal pill in the map's top corner says to a screen reader: the signal in
+         words (track_signal_good and the rest), then where a tap on it goes. The second also says
+         how close the position is, as track_accuracy_value writes it: "±8 m". -->
+    <string name="track_signal_pill">%1$s. Details</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Details</string>
+
+    <!-- The signal in words, said by the pill and printed beside the bars on the page it opens:
+         three bars, two, one, and none while the phone looks for a position it has not got. -->
+    <string name="track_signal_good">GPS signal good</string>
+    <string name="track_signal_fair">GPS signal fair</string>
+    <string name="track_signal_poor">GPS signal poor</string>
+    <string name="track_signal_searching">Searching for GPS signal</string>
+    <!-- Why the pill's bars are empty and its mark is red: the device's location switch, or the
+         permission. The page it opens says the same at length in track_location_off and
+         track_permission_needed. -->
+    <string name="track_signal_location_off">Location is off</string>
+    <string name="track_signal_no_access">No location access</string>
+
+    <!-- The title of the page the pill opens: the GPS signal first, then the walk recording, or else
+         the last one taken. -->
+    <string name="track_info_title">Signal and route</string>
+    <!-- The GPS section's heading on that page, and what its bars mean, behind the question mark
+         beside it. The two placeholders are the accuracies three bars and two bars stand for, as
+         track_accuracy_value writes them: "±10 m" and "±25 m", or the same in feet. -->
+    <string name="track_signal_title">GPS signal</string>
+    <string name="track_signal_note">The bars show how closely the phone knows where it is. Three bars: to %1$s or better. Two: to %2$s. One: coarser than that. None: no position for ten seconds, while the phone is still searching. This screen reads the position only while it is open, to show the signal and where you are.</string>
+
+    <!-- The saved routes page, before any walk has been saved. -->
+    <string name="track_history_empty">No saved routes yet.</string>
+
+    <!-- The map's description for a screen reader before a walk starts: centred on the phone, or
+         still the whole world while its first position is awaited. -->
+    <string name="track_map_here">Map around your position</string>
+    <string name="track_map_waiting">World map. Your position is not known yet.</string>
+    <!-- The map's corner button once it has been moved by hand before a walk: back to the phone. -->
+    <string name="track_map_follow_here">Back to your position</string>
+
+    <!-- The round button the Start pill parts into beside Stop while a walk records, said by a screen
+         reader. It reads Resume while the walk stands paused. -->
+    <string name="track_pause">Pause recording</string>
+    <string name="track_resume">Resume recording</string>
+
+    <!-- The walk's current speed and its movement on the signal page while the walk stands paused:
+         no fix is kept then, and the last one is from before the pause. Lowercase, as the movement
+         words track_movement_walking and the rest are. -->
+    <string name="track_value_paused">paused</string>
+    <string name="track_value_ended">finished</string>
+
+    <!-- Stop's question. Finish ends the walk for good; Pause is the way to stop for a while. -->
+    <string name="track_finish_title">Finish this walk?</string>
+    <string name="track_finish_body">Recording stops and the walk is saved. To take a break instead, use Pause.</string>
+    <string name="track_finish">Finish</string>
+    <string name="track_keep_recording">Keep recording</string>
+    <!-- Flashed over the map once Finish is tapped. -->
+    <string name="track_finished">Walk finished</string>
+</resources>

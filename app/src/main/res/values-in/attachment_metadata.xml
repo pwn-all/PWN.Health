@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Keterangan lampiran</string>
+    <string name="attachment_details_hint">Pilih apa isi berkas ini. Nama dan formatnya tidak menunjukkan pemeriksaannya. Jenisnya boleh dibiarkan tidak ditentukan.</string>
+    <string name="attachment_description">Keterangan atau area tubuh</string>
+    <string name="attachment_study_day">Tanggal pemeriksaan (opsional)</string>
+    <string name="attachment_study_day_clear">Hapus tanggal</string>
+    <string name="attachment_kind_unknown">Jenis tidak ditentukan</string>
+    <string name="attachment_kind_ct">CT</string>
+    <string name="attachment_kind_mri">MRI</string>
+    <string name="attachment_kind_ultrasound">USG</string>
+    <string name="attachment_kind_xray">Rontgen</string>
+    <string name="attachment_kind_doppler">USG Doppler</string>
+    <string name="attachment_kind_lab">Hasil laboratorium</string>
+    <string name="attachment_kind_prescription">Resep</string>
+    <string name="attachment_kind_other">Dokumen lain</string>
+    <string name="attachment_catalog_note">Berkas asli yang dilampirkan disertakan dalam ZIP ini. Jenis pemeriksaan, tanggal dan keterangan diberikan oleh pasien.</string>
+</resources>

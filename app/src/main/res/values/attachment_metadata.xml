@@ -1,0 +1,17 @@
+<resources>
+    <string name="attachment_details">Describe attachment</string>
+    <string name="attachment_details_hint">Choose what this file contains. Its name and format do not identify the examination. You can leave the type unspecified.</string>
+    <string name="attachment_description">Description or body area</string>
+    <string name="attachment_study_day">Examination date (optional)</string>
+    <string name="attachment_study_day_clear">Remove the date</string>
+    <string name="attachment_kind_unknown">Type not specified</string>
+    <string name="attachment_kind_ct">CT</string>
+    <string name="attachment_kind_mri">MRI</string>
+    <string name="attachment_kind_ultrasound">Ultrasound</string>
+    <string name="attachment_kind_xray">X-ray</string>
+    <string name="attachment_kind_doppler">Doppler ultrasound</string>
+    <string name="attachment_kind_lab">Lab results</string>
+    <string name="attachment_kind_prescription">Prescription</string>
+    <string name="attachment_kind_other">Other document</string>
+    <string name="attachment_catalog_note">Original attached files are included in this ZIP. Examination types, dates and descriptions are supplied by the patient.</string>
+</resources>

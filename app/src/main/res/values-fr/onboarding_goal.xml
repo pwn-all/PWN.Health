@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Pas par jour</string>
+    <string name="onboarding_steps_body">Choisissez un objectif que vous comptez tenir. Dans un essai mené auprès de 500 adultes, seuls ceux qui avaient choisi leur objectif ont marché davantage. Vous pourrez le changer à tout moment dans le profil.</string>
+    <string name="onboarding_steps_suggested">Suggéré pour votre âge : %1$s</string>
+    <string name="onboarding_steps_use_suggested">Prendre la suggestion</string>
+    <string name="onboarding_steps_distance">Environ %1$s par jour à votre foulée</string>
+    <string name="onboarding_bmi_source">Seuils adultes de l’OMS</string>
+    <string name="onboarding_ready_steps">Objectif de pas quotidien</string>
+    <string name="onboarding_ready_resting">Énergie au repos</string>
+    <string name="onboarding_ready_kcal_day">%1$s kcal par jour</string>
+    <string name="onboarding_ready_local">Calculé sur ce téléphone à partir de vos réponses : énergie au repos selon Mifflin–St Jeor, IMC selon les seuils adultes de l’OMS. Rien n’a été envoyé nulle part.</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat’s mood thread (ChatMood.kt, ChatMoodUi.kt, Symptoms.kt, SymptomRules.kt). -->
+<resources>
+    <!-- How a mood thread starts -->
+    <string name="chat_mood_both">Спасибо. Настроение можно отметить, а можно и поговорить о нём. С чего начнём?</string>
+    <string name="chat_mood_today_only">Настроение можно отметить только за сегодня.</string>
+    <!-- A mood noted inside the four hours: update it, or leave it -->
+    <string name="chat_mood_step_update">Обновить прежнее настроение?</string>
+    <string name="chat_mood_ask_update">В %1$s уже отмечено настроение: «%2$s». Обновить его?</string>
+    <string name="chat_mood_ask_clash">Только что, в %1$s, уже отмечено настроение. Заменить его этим?</string>
+    <string name="chat_mood_option_update">Обновить</string>
+    <string name="chat_mood_kept">Хорошо, пусть остаётся как есть. Следующее настроение можно будет отметить с %1$s.</string>
+    <string name="chat_mood_not_saved">Это настроение не сохранено: остаётся то, что отмечено в %1$s.</string>
+    <!-- The dial’s “?” -->
+    <string name="chat_mood_help_update">Вот как было отмечено. Сдвиньте к тому, что сейчас, или нажмите то же слово, чтобы оставить.</string>
+    <string name="chat_mood_help_changes">Настроение может меняться в течение дня. Здесь отмечается то, что вы чувствуете сейчас, а следующее можно будет отметить с %1$s.</string>
+    <!-- What it is about, by the face -->
+    <string name="chat_mood_ack_good">Приятно это слышать.</string>
+    <string name="chat_mood_ask_about_neutral">Это с чем-то связано?</string>
+    <string name="chat_mood_ask_about_good">Что поднимает вам настроение?</string>
+    <string name="chat_mood_no_reason_low">Иногда настроение падает без явной причины.</string>
+    <string name="chat_mood_no_reason_good">Хорошему настроению не всегда нужна причина.</string>
+    <string name="chat_mood_option_rest">Отдых или хороший сон</string>
+    <string name="chat_mood_option_movement">Спорт или движение</string>
+    <string name="chat_mood_option_went_well">Что-то удалось</string>
+    <string name="chat_mood_option_nature">Природа или погода</string>
+    <string name="chat_mood_option_good_news">Хорошие новости</string>
+    <!-- “Something else”, in the person’s own words: kept in the chat only -->
+    <string name="chat_mood_step_else">Своими словами</string>
+    <string name="chat_mood_ask_else">Хотите рассказать, что именно? Это останется в разговоре.</string>
+    <string name="chat_mood_option_not_now">Не сейчас</string>
+    <!-- Changing moods -->
+    <string name="chat_mood_step_swings">Перепады настроения</string>
+    <string name="chat_mood_ask_swings">Эти перепады очень сильные и держатся долго — или мешают жить как обычно?</string>
+    <string name="chat_mood_swings_net">Если перепады станут очень сильными и затянутся или начнут мешать в повседневной жизни, стоит поговорить с врачом.</string>
+    <!-- The optional check on sleep and energy -->
+    <string name="chat_mood_step_high">Сон и силы</string>
+    <string name="chat_mood_ask_high">Можно задать два коротких вопроса о сне и о том, сколько у вас сил в последние дни? Отвечать не обязательно.</string>
+    <string name="chat_mood_option_ask_me">Да, спрашивайте</string>
+    <string name="chat_mood_option_no_thanks">Нет, спасибо</string>
+    <string name="chat_mood_ask_high_signs">Замечали ли вы что-то из этого в последние дни?</string>
+    <string name="chat_mood_option_less_sleep">Нужно намного меньше сна, а усталости нет</string>
+    <string name="chat_mood_option_racing">Мысли несутся, трудно сосредоточиться</string>
+    <string name="chat_mood_option_risks">Поступаю не как обычно: много трачу или рискую</string>
+    <string name="chat_mood_option_talking">Говорю намного больше или быстрее обычного</string>
+    <string name="chat_mood_step_life">Повседневная жизнь</string>
+    <string name="chat_mood_ask_life">Это мешает в повседневной жизни?</string>
+    <string name="chat_mood_high_net">Если так будет продолжаться, об этом стоит рассказать врачу, даже если вам хорошо.</string>
+    <string name="chat_mood_alert_high_antidepressant">Если на фоне приёма лекарства «%1$s» настроение необычно приподнятое или энергии через край, об этом стоит сегодня же посоветоваться: обратитесь к врачу или в службу неотложной помощи.</string>
+    <!-- The close -->
+    <string name="chat_mood_close_neutral">Спасибо, отмечено.</string>
+    <string name="chat_mood_close_good">Спасибо, что поделились. Надеюсь, день таким и останется.</string>
+    <string name="chat_mood_talk_lead">Если хотите, можно поговорить о том, как вы себя чувствуете в последнее время.</string>
+    <string name="chat_mood_offer_talk">Поговорить о своём настроении</string>
+    <!-- The saved card and its flash -->
+    <string name="chat_mood_restored">Возвращено как было</string>
+    <string name="chat_mood_updated">обновлено</string>
+</resources>

@@ -1,0 +1,2167 @@
+{
+ "schema_version": 1,
+ "about": "Labels of the chat reader, generated from the app's Kotlin sources; do not edit by hand.",
+ "languages": [
+  "en",
+  "ar",
+  "cs",
+  "de",
+  "es",
+  "fr",
+  "hi",
+  "id",
+  "it",
+  "ja",
+  "ko",
+  "pl",
+  "pt",
+  "ru",
+  "tr",
+  "zh"
+ ],
+ "context": {
+  "where": [
+   "START",
+   "BETWEEN",
+   "QUESTION",
+   "NOTE"
+  ],
+  "steps": [
+   "PAIN_AREA",
+   "ONSET",
+   "PAIN_TYPES",
+   "PAIN_NOTICED",
+   "PAIN_STATUS",
+   "PAIN_SAME",
+   "PAIN_SIGNS",
+   "PAIN_SIGNS_MORE",
+   "PAIN_NRS",
+   "PAIN_PAINKILLER",
+   "MOOD_DIAL",
+   "MOOD_ENERGY",
+   "MOOD_ABOUT",
+   "MOOD_SWINGS",
+   "MOOD_HIGH_ASK",
+   "MOOD_HIGH_SIGNS",
+   "MED_WHICH",
+   "MED_NAME",
+   "MED_SLOT",
+   "MED_WHEN",
+   "MED_AMOUNT",
+   "COURSE_NAME",
+   "COURSE_SAME",
+   "COURSE_DOSE",
+   "COURSE_TIMES"
+  ],
+  "step_other": "OTHER",
+  "thread_topics": [
+   "VOMITING",
+   "NAUSEA",
+   "DIZZINESS",
+   "FAINTING",
+   "PALPITATIONS",
+   "BREATHLESSNESS",
+   "HEARTBURN",
+   "DIARRHOEA",
+   "FEVER",
+   "TIREDNESS",
+   "CHEST_PAIN",
+   "WORRY",
+   "LOW_MOOD",
+   "STRESS",
+   "SLEEP_WORRY",
+   "OTHER",
+   "PAIN",
+   "MOOD",
+   "DOSE",
+   "COURSE"
+  ],
+  "tokens": [
+   "[W=START]",
+   "[W=BETWEEN]",
+   "[W=QUESTION]",
+   "[W=NOTE]",
+   "[S=PAIN_AREA]",
+   "[S=ONSET]",
+   "[S=PAIN_TYPES]",
+   "[S=PAIN_NOTICED]",
+   "[S=PAIN_STATUS]",
+   "[S=PAIN_SAME]",
+   "[S=PAIN_SIGNS]",
+   "[S=PAIN_SIGNS_MORE]",
+   "[S=PAIN_NRS]",
+   "[S=PAIN_PAINKILLER]",
+   "[S=MOOD_DIAL]",
+   "[S=MOOD_ENERGY]",
+   "[S=MOOD_ABOUT]",
+   "[S=MOOD_SWINGS]",
+   "[S=MOOD_HIGH_ASK]",
+   "[S=MOOD_HIGH_SIGNS]",
+   "[S=MED_WHICH]",
+   "[S=MED_NAME]",
+   "[S=MED_SLOT]",
+   "[S=MED_WHEN]",
+   "[S=MED_AMOUNT]",
+   "[S=COURSE_NAME]",
+   "[S=COURSE_SAME]",
+   "[S=COURSE_DOSE]",
+   "[S=COURSE_TIMES]",
+   "[S=OTHER]",
+   "[S=NONE]",
+   "[T=VOMITING]",
+   "[T=NAUSEA]",
+   "[T=DIZZINESS]",
+   "[T=FAINTING]",
+   "[T=PALPITATIONS]",
+   "[T=BREATHLESSNESS]",
+   "[T=HEARTBURN]",
+   "[T=DIARRHOEA]",
+   "[T=FEVER]",
+   "[T=TIREDNESS]",
+   "[T=CHEST_PAIN]",
+   "[T=WORRY]",
+   "[T=LOW_MOOD]",
+   "[T=STRESS]",
+   "[T=SLEEP_WORRY]",
+   "[T=OTHER]",
+   "[T=PAIN]",
+   "[T=MOOD]",
+   "[T=DOSE]",
+   "[T=COURSE]",
+   "[T=NONE]"
+  ],
+  "order": "[<s>] [W=…] [S=…|OTHER|NONE] [T=…|NONE] pieces… [</s>]"
+ },
+ "topic_groups": [
+  {
+   "group": "records",
+   "topics": [
+    "PAIN",
+    "MOOD",
+    "DOSE",
+    "COURSE"
+   ]
+  },
+  {
+   "group": "body",
+   "topics": [
+    "VOMITING",
+    "NAUSEA",
+    "DIARRHOEA",
+    "HEARTBURN",
+    "DIZZINESS",
+    "FAINTING",
+    "PALPITATIONS",
+    "CHEST_PAIN",
+    "BREATHLESSNESS",
+    "FEVER",
+    "TIREDNESS"
+   ]
+  },
+  {
+   "group": "mind",
+   "topics": [
+    "WORRY",
+    "LOW_MOOD",
+    "STRESS",
+    "SLEEP_WORRY"
+   ]
+  },
+  {
+   "group": "other",
+   "topics": [
+    "OTHER"
+   ]
+  }
+ ],
+ "message_heads": [
+  {
+   "name": "topics",
+   "kind": "multilabel",
+   "labels": [
+    "VOMITING",
+    "NAUSEA",
+    "DIZZINESS",
+    "FAINTING",
+    "PALPITATIONS",
+    "BREATHLESSNESS",
+    "HEARTBURN",
+    "DIARRHOEA",
+    "FEVER",
+    "TIREDNESS",
+    "CHEST_PAIN",
+    "WORRY",
+    "LOW_MOOD",
+    "STRESS",
+    "SLEEP_WORRY",
+    "OTHER",
+    "PAIN",
+    "MOOD",
+    "DOSE",
+    "COURSE",
+    "UNWELL"
+   ],
+   "output": "topic_logits",
+   "weight": 1.0,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce",
+   "class_weights": "pos_weight=sqrt(neg/pos), clipped 1..10",
+   "new_labels": [
+    "UNWELL"
+   ],
+   "source": "Symptom (Symptoms.kt) + UNWELL"
+  },
+  {
+   "name": "safety",
+   "kind": "multilabel",
+   "labels": [
+    "CRISIS",
+    "UNRESPONSIVE",
+    "BREATHING",
+    "CHEST",
+    "STROKE",
+    "BLOOD",
+    "OVERDOSE"
+   ],
+   "output": "safety_logits",
+   "weight": 4.0,
+   "window_combine": "max",
+   "pooling": "mean+max",
+   "loss": "bce",
+   "class_weights": "pos_weight=sqrt(neg/pos), clipped 1..10",
+   "label_smoothing": 0.0,
+   "adds_step": {
+    "CRISIS": "CRISIS_NOW",
+    "UNRESPONSIVE": "UNRESPONSIVE",
+    "BREATHING": "BREATH_NOW",
+    "CHEST": "CHEST_NOW",
+    "STROKE": "STROKE_SIGNS",
+    "BLOOD": "BLOOD",
+    "OVERDOSE": "MED_MAX_WORDS"
+   },
+   "source": "steps are SymptomStep"
+  },
+  {
+   "name": "unwell_lean",
+   "kind": "multilabel",
+   "labels": [
+    "BODY",
+    "MIND"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce",
+   "only_when": {
+    "topics": "UNWELL"
+   },
+   "new": true
+  },
+  {
+   "name": "about",
+   "kind": "softmax",
+   "labels": [
+    "SELF",
+    "ADULT_OTHER",
+    "CHILD",
+    "PET"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "new": true
+  },
+  {
+   "name": "question",
+   "kind": "binary",
+   "labels": [
+    "QUESTION"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce"
+  },
+  {
+   "name": "small_talk",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "GREETING",
+    "THANKS",
+    "HOW_ARE_YOU",
+    "UPSET",
+    "CAPABILITY"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "new_labels": [
+    "NONE",
+    "CAPABILITY"
+   ],
+   "source": "SmallTalk (ChatWords.kt)"
+  },
+  {
+   "name": "mood_kind",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "GENERIC",
+    "GOOD",
+    "SO_SO",
+    "CHANGES",
+    "BAD"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "source": "MoodKind (ChatMood.kt), never a rating"
+  },
+  {
+   "name": "mood_flags",
+   "kind": "multilabel",
+   "labels": [
+    "SLEEP_NEED",
+    "HIGH_SIGN"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce",
+   "source": "MoodKind (ChatMood.kt): read only inside the mood thread"
+  },
+  {
+   "name": "lang",
+   "kind": "softmax",
+   "labels": [
+    "en",
+    "ar",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "hi",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "ru",
+    "tr",
+    "zh",
+    "OTHER"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "source": "res/values-* (values-in is id)"
+  },
+  {
+   "name": "oos",
+   "kind": "binary",
+   "labels": [
+    "OOS"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "min",
+   "pooling": "mean",
+   "loss": "bce",
+   "new": true
+  },
+  {
+   "name": "pain_types",
+   "kind": "multilabel",
+   "labels": [
+    "ACHING",
+    "STIFF",
+    "THROBBING",
+    "SHARP",
+    "BURNING",
+    "CRAMPING"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce",
+   "max_labels": 2,
+   "source": "PainType (Pain.kt)"
+  },
+  {
+   "name": "pain_noticed",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "NOTICED_DURING_WORKOUT",
+    "NOTICED_AFTER_WORKOUT",
+    "NOTICED_WORK_OR_SITTING",
+    "NOTICED_ON_WAKING",
+    "NOTICED_AFTER_LIFTING",
+    "NOTICED_NO_CLEAR_MOMENT"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "source": "SymptomOption NOTICED_*"
+  },
+  {
+   "name": "pain_status",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "STILL_HURTS",
+    "GONE"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "source": "SymptomOption via STATUS_OPTIONS (PainWords.kt)"
+  },
+  {
+   "name": "pain_same",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "PAIN_SAME_YES",
+    "PAIN_NEW"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "mean",
+   "pooling": "mean",
+   "loss": "ce",
+   "label_smoothing": 0.05,
+   "source": "SymptomOption via SAME_OPTIONS (PainWords.kt)"
+  },
+  {
+   "name": "pain_signs",
+   "kind": "multilabel",
+   "labels": [
+    "SUDDEN_SEVERE",
+    "SUDDEN_OR_SEVERE",
+    "VERY_PAINFUL",
+    "TINGLE_NUMB",
+    "CRACK",
+    "SWELL_BRUISE",
+    "FAST_SWELL",
+    "HOT_RED_SWOLLEN",
+    "FEVERISH",
+    "NUMB_WEAK",
+    "HIGH_TEMP",
+    "BOTH_LEGS"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce",
+   "source": "SymptomOption via SIGN_WORDS and painMention (PainWords.kt): marks, never a choice"
+  },
+  {
+   "name": "injury",
+   "kind": "binary",
+   "labels": [
+    "INJURY"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce"
+  },
+  {
+   "name": "painkiller",
+   "kind": "binary",
+   "labels": [
+    "PAINKILLER_TODAY"
+   ],
+   "output": "meta_logits",
+   "weight": 0.5,
+   "window_combine": "max",
+   "pooling": "mean",
+   "loss": "bce"
+  }
+ ],
+ "slots": {
+  "scheme": "BIO",
+  "kinds": [
+   "PLACE",
+   "SIDE",
+   "QUALIFIER",
+   "SYMPTOM",
+   "NUMBER",
+   "MEDICINE",
+   "AMOUNT",
+   "TIME",
+   "INTENSITY",
+   "MOOD",
+   "NEGATION",
+   "SUBJECT"
+  ],
+  "tags": [
+   "O",
+   "B-PLACE",
+   "I-PLACE",
+   "B-SIDE",
+   "I-SIDE",
+   "B-QUALIFIER",
+   "I-QUALIFIER",
+   "B-SYMPTOM",
+   "I-SYMPTOM",
+   "B-NUMBER",
+   "I-NUMBER",
+   "B-MEDICINE",
+   "I-MEDICINE",
+   "B-AMOUNT",
+   "I-AMOUNT",
+   "B-TIME",
+   "I-TIME",
+   "B-INTENSITY",
+   "I-INTENSITY",
+   "B-MOOD",
+   "I-MOOD",
+   "B-NEGATION",
+   "I-NEGATION",
+   "B-SUBJECT",
+   "I-SUBJECT"
+  ],
+  "labelled_pieces": "all pieces of a span (B on the first)"
+ },
+ "span_heads": [
+  {
+   "name": "place_family",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "HEAD",
+    "JAW",
+    "NECK",
+    "SHOULDER",
+    "CHEST",
+    "BACK",
+    "BELLY",
+    "ARM",
+    "HAND",
+    "HIP",
+    "KNEE",
+    "LEG",
+    "FOOT"
+   ],
+   "applies_to": [
+    "PLACE"
+   ],
+   "weight": 1.0,
+   "source": "FAMILY_NAMES (PainWords.kt); NONE is the whole body"
+  },
+  {
+   "name": "place_area",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "HEAD_FRONT",
+    "TEMPLE",
+    "HEAD_TOP",
+    "HEAD_BACK",
+    "JAW",
+    "NECK",
+    "SHOULDER",
+    "TRAPEZIUS",
+    "CHEST",
+    "STERNUM",
+    "UPPER_BACK",
+    "SHOULDER_BLADE",
+    "LOWER_BACK",
+    "FLANK",
+    "UPPER_BELLY",
+    "UNDER_RIBS",
+    "LOWER_BELLY",
+    "LOWER_SIDE",
+    "UPPER_ARM",
+    "BACK_OF_UPPER_ARM",
+    "ELBOW",
+    "ELBOW_INNER",
+    "FOREARM",
+    "BACK_OF_FOREARM",
+    "WRIST_HAND",
+    "FINGERS",
+    "HIP",
+    "GROIN",
+    "GLUTE",
+    "SACRUM",
+    "TAILBONE",
+    "THIGH_FRONT",
+    "INNER_THIGH",
+    "THIGH_BACK",
+    "KNEE",
+    "BACK_OF_KNEE",
+    "SHIN",
+    "CALF",
+    "ANKLE",
+    "ACHILLES",
+    "HEEL",
+    "TOP_OF_FOOT",
+    "SOLE",
+    "TOES"
+   ],
+   "applies_to": [
+    "PLACE"
+   ],
+   "weight": 1.0,
+   "source": "PainRegion on map V2 (painAreasOffered)"
+  },
+  {
+   "name": "side",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "L",
+    "R",
+    "BOTH"
+   ],
+   "applies_to": [
+    "PLACE",
+    "SIDE"
+   ],
+   "weight": 1.0,
+   "source": "BodySide codes L/R (PainRegions.kt) + BOTH + NONE (not said)"
+  },
+  {
+   "name": "qualifiers",
+   "kind": "multilabel",
+   "labels": [
+    "UPPER",
+    "LOWER",
+    "MIDDLE",
+    "FRONT",
+    "BACK",
+    "INNER",
+    "OUTER"
+   ],
+   "applies_to": [
+    "PLACE",
+    "QUALIFIER"
+   ],
+   "weight": 0.5,
+   "source": "Qualifier (PainWords.kt)"
+  },
+  {
+   "name": "symptom_topic",
+   "kind": "softmax",
+   "labels": [
+    "VOMITING",
+    "NAUSEA",
+    "DIZZINESS",
+    "FAINTING",
+    "PALPITATIONS",
+    "BREATHLESSNESS",
+    "HEARTBURN",
+    "DIARRHOEA",
+    "FEVER",
+    "TIREDNESS",
+    "CHEST_PAIN",
+    "WORRY",
+    "LOW_MOOD",
+    "STRESS",
+    "SLEEP_WORRY",
+    "OTHER",
+    "PAIN",
+    "MOOD",
+    "DOSE",
+    "COURSE",
+    "UNWELL"
+   ],
+   "applies_to": [
+    "SYMPTOM"
+   ],
+   "weight": 0.5
+  },
+  {
+   "name": "number_class",
+   "kind": "softmax",
+   "labels": [
+    "NRS",
+    "TEMPERATURE",
+    "PULSE",
+    "PRESSURE",
+    "DOSE",
+    "COUNT",
+    "CLOCK",
+    "DATE",
+    "OTHER"
+   ],
+   "applies_to": [
+    "NUMBER"
+   ],
+   "weight": 1.0,
+   "new": true
+  },
+  {
+   "name": "nrs",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+   ],
+   "applies_to": [
+    "NUMBER"
+   ],
+   "weight": 1.0
+  },
+  {
+   "name": "medicine_entry",
+   "kind": "softmax",
+   "labels": [
+    "paracetamol",
+    "ibuprofen",
+    "ibuprofen+codeine",
+    "ibuprofen+paracetamol",
+    "naproxen",
+    "diclofenac",
+    "ketoprofen",
+    "ketorolac",
+    "nimesulide",
+    "aspirin",
+    "aspirin+paracetamol",
+    "metamizole",
+    "codeine",
+    "co-codamol",
+    "tramadol",
+    "tramadol+paracetamol",
+    "sumatriptan",
+    "пенталгин",
+    "солпадеин",
+    "седалгин",
+    "каффетин",
+    "sertraline",
+    "escitalopram",
+    "citalopram",
+    "fluoxetine",
+    "paroxetine",
+    "fluvoxamine",
+    "venlafaxine",
+    "duloxetine",
+    "mirtazapine",
+    "amitriptyline",
+    "nortriptyline",
+    "moclobemide",
+    "bupropion",
+    "trazodone",
+    "agomelatine",
+    "vortioxetine",
+    "st-johns-wort",
+    "OUT_OF_LIST"
+   ],
+   "applies_to": [
+    "MEDICINE"
+   ],
+   "weight": 0.5,
+   "source": "KNOWN_MEDICINES (MedicineWords.kt)"
+  },
+  {
+   "name": "medicine_class",
+   "kind": "softmax",
+   "labels": [
+    "PAINKILLER",
+    "ANTIDEPRESSANT",
+    "GENERIC",
+    "OTHER"
+   ],
+   "applies_to": [
+    "MEDICINE"
+   ],
+   "weight": 0.5
+  },
+  {
+   "name": "medicine_role",
+   "kind": "multilabel",
+   "labels": [
+    "TAKEN",
+    "PRESCRIBED",
+    "RECIPE",
+    "REGULAR",
+    "MISSED",
+    "STOPPED",
+    "EXCLUDED"
+   ],
+   "applies_to": [
+    "MEDICINE"
+   ],
+   "weight": 1.0,
+   "source": "MedVerb (MedicineWords.kt)"
+  },
+  {
+   "name": "negated",
+   "kind": "binary",
+   "labels": [
+    "NEGATED"
+   ],
+   "applies_to": [
+    "PLACE",
+    "SYMPTOM",
+    "MEDICINE",
+    "MOOD"
+   ],
+   "weight": 1.0
+  },
+  {
+   "name": "time_expr",
+   "kind": "softmax",
+   "labels": [
+    "NOW",
+    "TODAY",
+    "YESTERDAY",
+    "DAYS",
+    "WEEKS",
+    "MONTHS",
+    "WEEKDAY",
+    "WEEKEND",
+    "LONG",
+    "CLOCK",
+    "OTHER"
+   ],
+   "applies_to": [
+    "TIME"
+   ],
+   "weight": 0.5,
+   "new": true
+  },
+  {
+   "name": "time_count",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "MORE"
+   ],
+   "applies_to": [
+    "TIME"
+   ],
+   "weight": 0.5
+  },
+  {
+   "name": "weekday",
+   "kind": "softmax",
+   "labels": [
+    "NONE",
+    "MON",
+    "TUE",
+    "WED",
+    "THU",
+    "FRI",
+    "SAT",
+    "SUN"
+   ],
+   "applies_to": [
+    "TIME"
+   ],
+   "weight": 0.5
+  },
+  {
+   "name": "intensity",
+   "kind": "multilabel",
+   "labels": [
+    "SEVERE",
+    "SUDDEN",
+    "MILD"
+   ],
+   "applies_to": [
+    "INTENSITY"
+   ],
+   "weight": 0.5
+  },
+  {
+   "name": "mood_valence",
+   "kind": "softmax",
+   "labels": [
+    "GENERIC",
+    "GOOD",
+    "SO_SO",
+    "CHANGES",
+    "BAD"
+   ],
+   "applies_to": [
+    "MOOD"
+   ],
+   "weight": 0.5,
+   "source": "MoodKind (ChatMood.kt)"
+  },
+  {
+   "name": "subject",
+   "kind": "softmax",
+   "labels": [
+    "SELF",
+    "ADULT_OTHER",
+    "CHILD",
+    "PET"
+   ],
+   "applies_to": [
+    "SUBJECT"
+   ],
+   "weight": 0.5
+  },
+  {
+   "name": "topical",
+   "kind": "binary",
+   "labels": [
+    "TOPICAL"
+   ],
+   "applies_to": [
+    "AMOUNT"
+   ],
+   "weight": 0.5
+  }
+ ],
+ "pain_map": {
+  "version": "V2",
+  "areas": [
+   {
+    "area": "HEAD_FRONT",
+    "paired": false,
+    "families": [
+     "HEAD"
+    ],
+    "codes": [
+     "HEAD_FRONT:C"
+    ]
+   },
+   {
+    "area": "TEMPLE",
+    "paired": true,
+    "families": [
+     "HEAD"
+    ],
+    "codes": [
+     "TEMPLE:L",
+     "TEMPLE:R"
+    ]
+   },
+   {
+    "area": "HEAD_TOP",
+    "paired": false,
+    "families": [
+     "HEAD"
+    ],
+    "codes": [
+     "HEAD_TOP:C"
+    ]
+   },
+   {
+    "area": "HEAD_BACK",
+    "paired": false,
+    "families": [
+     "HEAD"
+    ],
+    "codes": [
+     "HEAD_BACK:C"
+    ]
+   },
+   {
+    "area": "JAW",
+    "paired": true,
+    "families": [
+     "JAW"
+    ],
+    "codes": [
+     "JAW:L",
+     "JAW:R"
+    ]
+   },
+   {
+    "area": "NECK",
+    "paired": false,
+    "families": [
+     "NECK"
+    ],
+    "codes": [
+     "NECK:C"
+    ]
+   },
+   {
+    "area": "SHOULDER",
+    "paired": true,
+    "families": [
+     "SHOULDER"
+    ],
+    "codes": [
+     "SHOULDER:L",
+     "SHOULDER:R"
+    ]
+   },
+   {
+    "area": "TRAPEZIUS",
+    "paired": true,
+    "families": [
+     "SHOULDER"
+    ],
+    "codes": [
+     "TRAPEZIUS:L",
+     "TRAPEZIUS:R"
+    ]
+   },
+   {
+    "area": "CHEST",
+    "paired": true,
+    "families": [
+     "CHEST"
+    ],
+    "codes": [
+     "CHEST:L",
+     "CHEST:R"
+    ]
+   },
+   {
+    "area": "STERNUM",
+    "paired": false,
+    "families": [
+     "CHEST"
+    ],
+    "codes": [
+     "STERNUM:C"
+    ]
+   },
+   {
+    "area": "UPPER_BACK",
+    "paired": false,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "UPPER_BACK:C"
+    ]
+   },
+   {
+    "area": "SHOULDER_BLADE",
+    "paired": true,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "SHOULDER_BLADE:L",
+     "SHOULDER_BLADE:R"
+    ]
+   },
+   {
+    "area": "LOWER_BACK",
+    "paired": false,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "LOWER_BACK:C"
+    ]
+   },
+   {
+    "area": "FLANK",
+    "paired": true,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "FLANK:L",
+     "FLANK:R"
+    ]
+   },
+   {
+    "area": "UPPER_BELLY",
+    "paired": false,
+    "families": [
+     "BELLY"
+    ],
+    "codes": [
+     "UPPER_BELLY:C"
+    ]
+   },
+   {
+    "area": "UNDER_RIBS",
+    "paired": true,
+    "families": [
+     "BELLY"
+    ],
+    "codes": [
+     "UNDER_RIBS:L",
+     "UNDER_RIBS:R"
+    ]
+   },
+   {
+    "area": "LOWER_BELLY",
+    "paired": false,
+    "families": [
+     "BELLY"
+    ],
+    "codes": [
+     "LOWER_BELLY:C"
+    ]
+   },
+   {
+    "area": "LOWER_SIDE",
+    "paired": true,
+    "families": [
+     "BELLY"
+    ],
+    "codes": [
+     "LOWER_SIDE:L",
+     "LOWER_SIDE:R"
+    ]
+   },
+   {
+    "area": "UPPER_ARM",
+    "paired": true,
+    "families": [
+     "ARM"
+    ],
+    "codes": [
+     "UPPER_ARM:L",
+     "UPPER_ARM:R"
+    ]
+   },
+   {
+    "area": "BACK_OF_UPPER_ARM",
+    "paired": true,
+    "families": [
+     "ARM"
+    ],
+    "codes": [
+     "BACK_OF_UPPER_ARM:L",
+     "BACK_OF_UPPER_ARM:R"
+    ]
+   },
+   {
+    "area": "ELBOW",
+    "paired": true,
+    "families": [
+     "ARM"
+    ],
+    "codes": [
+     "ELBOW:L",
+     "ELBOW:R"
+    ]
+   },
+   {
+    "area": "ELBOW_INNER",
+    "paired": true,
+    "families": [
+     "ARM"
+    ],
+    "codes": [
+     "ELBOW_INNER:L",
+     "ELBOW_INNER:R"
+    ]
+   },
+   {
+    "area": "FOREARM",
+    "paired": true,
+    "families": [
+     "ARM"
+    ],
+    "codes": [
+     "FOREARM:L",
+     "FOREARM:R"
+    ]
+   },
+   {
+    "area": "BACK_OF_FOREARM",
+    "paired": true,
+    "families": [
+     "ARM"
+    ],
+    "codes": [
+     "BACK_OF_FOREARM:L",
+     "BACK_OF_FOREARM:R"
+    ]
+   },
+   {
+    "area": "WRIST_HAND",
+    "paired": true,
+    "families": [
+     "HAND"
+    ],
+    "codes": [
+     "WRIST_HAND:L",
+     "WRIST_HAND:R"
+    ]
+   },
+   {
+    "area": "FINGERS",
+    "paired": true,
+    "families": [
+     "HAND"
+    ],
+    "codes": [
+     "FINGERS:L",
+     "FINGERS:R"
+    ]
+   },
+   {
+    "area": "HIP",
+    "paired": true,
+    "families": [
+     "HIP"
+    ],
+    "codes": [
+     "HIP:L",
+     "HIP:R"
+    ]
+   },
+   {
+    "area": "GROIN",
+    "paired": true,
+    "families": [
+     "HIP"
+    ],
+    "codes": [
+     "GROIN:L",
+     "GROIN:R"
+    ]
+   },
+   {
+    "area": "GLUTE",
+    "paired": true,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "GLUTE:L",
+     "GLUTE:R"
+    ]
+   },
+   {
+    "area": "SACRUM",
+    "paired": true,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "SACRUM:L",
+     "SACRUM:R"
+    ]
+   },
+   {
+    "area": "TAILBONE",
+    "paired": false,
+    "families": [
+     "BACK"
+    ],
+    "codes": [
+     "TAILBONE:C"
+    ]
+   },
+   {
+    "area": "THIGH_FRONT",
+    "paired": true,
+    "families": [
+     "LEG"
+    ],
+    "codes": [
+     "THIGH_FRONT:L",
+     "THIGH_FRONT:R"
+    ]
+   },
+   {
+    "area": "INNER_THIGH",
+    "paired": true,
+    "families": [
+     "LEG"
+    ],
+    "codes": [
+     "INNER_THIGH:L",
+     "INNER_THIGH:R"
+    ]
+   },
+   {
+    "area": "THIGH_BACK",
+    "paired": true,
+    "families": [
+     "LEG"
+    ],
+    "codes": [
+     "THIGH_BACK:L",
+     "THIGH_BACK:R"
+    ]
+   },
+   {
+    "area": "KNEE",
+    "paired": true,
+    "families": [
+     "KNEE"
+    ],
+    "codes": [
+     "KNEE:L",
+     "KNEE:R"
+    ]
+   },
+   {
+    "area": "BACK_OF_KNEE",
+    "paired": true,
+    "families": [
+     "KNEE",
+     "LEG"
+    ],
+    "codes": [
+     "BACK_OF_KNEE:L",
+     "BACK_OF_KNEE:R"
+    ]
+   },
+   {
+    "area": "SHIN",
+    "paired": true,
+    "families": [
+     "LEG"
+    ],
+    "codes": [
+     "SHIN:L",
+     "SHIN:R"
+    ]
+   },
+   {
+    "area": "CALF",
+    "paired": true,
+    "families": [
+     "LEG"
+    ],
+    "codes": [
+     "CALF:L",
+     "CALF:R"
+    ]
+   },
+   {
+    "area": "ANKLE",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "ANKLE:L",
+     "ANKLE:R"
+    ]
+   },
+   {
+    "area": "ACHILLES",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "ACHILLES:L",
+     "ACHILLES:R"
+    ]
+   },
+   {
+    "area": "HEEL",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "HEEL:L",
+     "HEEL:R"
+    ]
+   },
+   {
+    "area": "TOP_OF_FOOT",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "TOP_OF_FOOT:L",
+     "TOP_OF_FOOT:R"
+    ]
+   },
+   {
+    "area": "SOLE",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "SOLE:L",
+     "SOLE:R"
+    ]
+   },
+   {
+    "area": "TOES",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "TOES:L",
+     "TOES:R"
+    ]
+   }
+  ],
+  "legacy_v1_areas": [
+   {
+    "area": "ABDOMEN",
+    "paired": false,
+    "families": [
+     "BELLY"
+    ],
+    "codes": [
+     "ABDOMEN:C"
+    ]
+   },
+   {
+    "area": "ANKLE_FOOT",
+    "paired": true,
+    "families": [
+     "FOOT"
+    ],
+    "codes": [
+     "ANKLE_FOOT:L",
+     "ANKLE_FOOT:R"
+    ]
+   }
+  ],
+  "codes": [
+   "HEAD_FRONT:C",
+   "TEMPLE:L",
+   "TEMPLE:R",
+   "HEAD_TOP:C",
+   "HEAD_BACK:C",
+   "JAW:L",
+   "JAW:R",
+   "NECK:C",
+   "SHOULDER:L",
+   "SHOULDER:R",
+   "TRAPEZIUS:L",
+   "TRAPEZIUS:R",
+   "CHEST:L",
+   "CHEST:R",
+   "STERNUM:C",
+   "UPPER_BACK:C",
+   "SHOULDER_BLADE:L",
+   "SHOULDER_BLADE:R",
+   "LOWER_BACK:C",
+   "FLANK:L",
+   "FLANK:R",
+   "UPPER_BELLY:C",
+   "UNDER_RIBS:L",
+   "UNDER_RIBS:R",
+   "LOWER_BELLY:C",
+   "LOWER_SIDE:L",
+   "LOWER_SIDE:R",
+   "UPPER_ARM:L",
+   "UPPER_ARM:R",
+   "BACK_OF_UPPER_ARM:L",
+   "BACK_OF_UPPER_ARM:R",
+   "ELBOW:L",
+   "ELBOW:R",
+   "ELBOW_INNER:L",
+   "ELBOW_INNER:R",
+   "FOREARM:L",
+   "FOREARM:R",
+   "BACK_OF_FOREARM:L",
+   "BACK_OF_FOREARM:R",
+   "WRIST_HAND:L",
+   "WRIST_HAND:R",
+   "FINGERS:L",
+   "FINGERS:R",
+   "HIP:L",
+   "HIP:R",
+   "GROIN:L",
+   "GROIN:R",
+   "GLUTE:L",
+   "GLUTE:R",
+   "SACRUM:L",
+   "SACRUM:R",
+   "TAILBONE:C",
+   "THIGH_FRONT:L",
+   "THIGH_FRONT:R",
+   "INNER_THIGH:L",
+   "INNER_THIGH:R",
+   "THIGH_BACK:L",
+   "THIGH_BACK:R",
+   "KNEE:L",
+   "KNEE:R",
+   "BACK_OF_KNEE:L",
+   "BACK_OF_KNEE:R",
+   "SHIN:L",
+   "SHIN:R",
+   "CALF:L",
+   "CALF:R",
+   "ANKLE:L",
+   "ANKLE:R",
+   "ACHILLES:L",
+   "ACHILLES:R",
+   "HEEL:L",
+   "HEEL:R",
+   "TOP_OF_FOOT:L",
+   "TOP_OF_FOOT:R",
+   "SOLE:L",
+   "SOLE:R",
+   "TOES:L",
+   "TOES:R"
+  ]
+ },
+ "pain_families": [
+  "HEAD",
+  "JAW",
+  "NECK",
+  "SHOULDER",
+  "CHEST",
+  "BACK",
+  "BELLY",
+  "ARM",
+  "HAND",
+  "HIP",
+  "KNEE",
+  "LEG",
+  "FOOT"
+ ],
+ "medicines": [
+  {
+   "id": "paracetamol",
+   "inn": "paracetamol",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "ibuprofen",
+   "inn": "ibuprofen",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "ibuprofen+codeine",
+   "inn": "ibuprofen+codeine",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "ibuprofen+paracetamol",
+   "inn": "ibuprofen+paracetamol",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "naproxen",
+   "inn": "naproxen",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "diclofenac",
+   "inn": "diclofenac",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "ketoprofen",
+   "inn": "ketoprofen",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "ketorolac",
+   "inn": "ketorolac",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "nimesulide",
+   "inn": "nimesulide",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "aspirin",
+   "inn": "aspirin",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "aspirin+paracetamol",
+   "inn": "aspirin+paracetamol",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "metamizole",
+   "inn": "metamizole",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "codeine",
+   "inn": "codeine",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "co-codamol",
+   "inn": "co-codamol",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "tramadol",
+   "inn": "tramadol",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "tramadol+paracetamol",
+   "inn": "tramadol+paracetamol",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "sumatriptan",
+   "inn": "sumatriptan",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "пенталгин",
+   "inn": "",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "солпадеин",
+   "inn": "",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "седалгин",
+   "inn": "",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "каффетин",
+   "inn": "",
+   "class": "PAINKILLER"
+  },
+  {
+   "id": "sertraline",
+   "inn": "sertraline",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "escitalopram",
+   "inn": "escitalopram",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "citalopram",
+   "inn": "citalopram",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "fluoxetine",
+   "inn": "fluoxetine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "paroxetine",
+   "inn": "paroxetine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "fluvoxamine",
+   "inn": "fluvoxamine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "venlafaxine",
+   "inn": "venlafaxine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "duloxetine",
+   "inn": "duloxetine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "mirtazapine",
+   "inn": "mirtazapine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "amitriptyline",
+   "inn": "amitriptyline",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "nortriptyline",
+   "inn": "nortriptyline",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "moclobemide",
+   "inn": "moclobemide",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "bupropion",
+   "inn": "bupropion",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "trazodone",
+   "inn": "trazodone",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "agomelatine",
+   "inn": "agomelatine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "vortioxetine",
+   "inn": "vortioxetine",
+   "class": "ANTIDEPRESSANT"
+  },
+  {
+   "id": "st-johns-wort",
+   "inn": "st-johns-wort",
+   "class": "ANTIDEPRESSANT"
+  }
+ ],
+ "adapter_labels": {
+  "onset_options": [
+   "STARTED_NOW",
+   "STARTED_TODAY",
+   "STARTED_YESTERDAY",
+   "STARTED_2_3_DAYS",
+   "STARTED_A_WEEK",
+   "STARTED_A_MONTH",
+   "STARTED_LONGER"
+  ],
+  "comment": "What the Kotlin adapter turns TIME spans into, counted from the chat's day (onsetsIn)."
+ },
+ "windows": {
+  "max_positions": 512,
+  "overlap": 128,
+  "specials_per_window": 5,
+  "combine": "message heads by window_combine (max / min / mean of logits); token outputs from the window where the token is farthest from an edge (ties: earlier window)"
+ },
+ "outputs": {
+  "topic_logits": {
+   "rank": 2,
+   "layout": [
+    {
+     "head": "topics",
+     "offset": 0,
+     "size": 21
+    }
+   ],
+   "size": 21
+  },
+  "safety_logits": {
+   "rank": 2,
+   "layout": [
+    {
+     "head": "safety",
+     "offset": 0,
+     "size": 7
+    }
+   ],
+   "size": 7
+  },
+  "slot_logits": {
+   "rank": 3,
+   "size": 25,
+   "layout": [
+    {
+     "head": "slots",
+     "offset": 0,
+     "size": 25
+    }
+   ]
+  },
+  "meta_logits": {
+   "rank": 2,
+   "layout": [
+    {
+     "head": "unwell_lean",
+     "offset": 0,
+     "size": 2
+    },
+    {
+     "head": "about",
+     "offset": 2,
+     "size": 4
+    },
+    {
+     "head": "question",
+     "offset": 6,
+     "size": 1
+    },
+    {
+     "head": "small_talk",
+     "offset": 7,
+     "size": 6
+    },
+    {
+     "head": "mood_kind",
+     "offset": 13,
+     "size": 6
+    },
+    {
+     "head": "mood_flags",
+     "offset": 19,
+     "size": 2
+    },
+    {
+     "head": "lang",
+     "offset": 21,
+     "size": 17
+    },
+    {
+     "head": "oos",
+     "offset": 38,
+     "size": 1
+    },
+    {
+     "head": "pain_types",
+     "offset": 39,
+     "size": 6
+    },
+    {
+     "head": "pain_noticed",
+     "offset": 45,
+     "size": 7
+    },
+    {
+     "head": "pain_status",
+     "offset": 52,
+     "size": 3
+    },
+    {
+     "head": "pain_same",
+     "offset": 55,
+     "size": 3
+    },
+    {
+     "head": "pain_signs",
+     "offset": 58,
+     "size": 12
+    },
+    {
+     "head": "injury",
+     "offset": 70,
+     "size": 1
+    },
+    {
+     "head": "painkiller",
+     "offset": 71,
+     "size": 1
+    }
+   ],
+   "size": 72
+  },
+  "span_logits": {
+   "rank": 3,
+   "layout": [
+    {
+     "head": "place_family",
+     "offset": 0,
+     "size": 14
+    },
+    {
+     "head": "place_area",
+     "offset": 14,
+     "size": 45
+    },
+    {
+     "head": "side",
+     "offset": 59,
+     "size": 4
+    },
+    {
+     "head": "qualifiers",
+     "offset": 63,
+     "size": 7
+    },
+    {
+     "head": "symptom_topic",
+     "offset": 70,
+     "size": 21
+    },
+    {
+     "head": "number_class",
+     "offset": 91,
+     "size": 9
+    },
+    {
+     "head": "nrs",
+     "offset": 100,
+     "size": 11
+    },
+    {
+     "head": "medicine_entry",
+     "offset": 111,
+     "size": 39
+    },
+    {
+     "head": "medicine_class",
+     "offset": 150,
+     "size": 4
+    },
+    {
+     "head": "medicine_role",
+     "offset": 154,
+     "size": 7
+    },
+    {
+     "head": "negated",
+     "offset": 161,
+     "size": 1
+    },
+    {
+     "head": "time_expr",
+     "offset": 162,
+     "size": 11
+    },
+    {
+     "head": "time_count",
+     "offset": 173,
+     "size": 14
+    },
+    {
+     "head": "weekday",
+     "offset": 187,
+     "size": 8
+    },
+    {
+     "head": "intensity",
+     "offset": 195,
+     "size": 3
+    },
+    {
+     "head": "mood_valence",
+     "offset": 198,
+     "size": 5
+    },
+    {
+     "head": "subject",
+     "offset": 203,
+     "size": 4
+    },
+    {
+     "head": "topical",
+     "offset": 207,
+     "size": 1
+    }
+   ],
+   "size": 208
+  },
+  "journal_anchor_logits": {
+   "rank": 3,
+   "size": 3,
+   "layout": []
+  },
+  "journal_attribute_logits": {
+   "rank": 3,
+   "size": 50,
+   "layout": [
+    {
+     "head": "record_type",
+     "offset": 0,
+     "size": 32
+    },
+    {
+     "head": "subject",
+     "offset": 32,
+     "size": 4
+    },
+    {
+     "head": "assertion",
+     "offset": 36,
+     "size": 3
+    },
+    {
+     "head": "phase",
+     "offset": 39,
+     "size": 4
+    },
+    {
+     "head": "operation",
+     "offset": 43,
+     "size": 7
+    }
+   ]
+  },
+  "journal_argument_logits": {
+   "rank": 3,
+   "size": 129,
+   "layout": []
+  },
+  "journal_query": {
+   "rank": 3,
+   "size": 344,
+   "layout": []
+  },
+  "journal_key": {
+   "rank": 3,
+   "size": 344,
+   "layout": []
+  }
+ },
+ "journal": {
+  "journal_contract_version": 2,
+  "status": "optional journal-v2 schema; trained weights and release gates required",
+  "attributes": {
+   "record_type": [
+    "SYMPTOM",
+    "PAIN",
+    "MOOD",
+    "DOSE",
+    "COURSE",
+    "FOOD_LOG",
+    "WORKOUT_LOG",
+    "WORKOUT_PLAN",
+    "STOOL_LOG",
+    "URINATION_LOG",
+    "WORK_LOG",
+    "WORK_TIMER",
+    "SLEEP_LOG",
+    "WEIGHT_LOG",
+    "HEIGHT_LOG",
+    "HEART_RATE_LOG",
+    "GIRTH_LOG",
+    "BREATHING_LOG",
+    "WATER_LOG",
+    "CAFFEINE_LOG",
+    "ALCOHOL_LOG",
+    "SMOKING_LOG",
+    "PERIOD_START",
+    "PERIOD_END",
+    "CYCLE_NOTE",
+    "SEX_LOG",
+    "MORNING_CHECK",
+    "APPOINTMENT_LOG",
+    "LAB_RESULT_LOG",
+    "MEDICAL_HISTORY_LOG",
+    "ALLERGY_UPDATE",
+    "ATTACHMENT"
+   ],
+   "subject": [
+    "SELF",
+    "ADULT_OTHER",
+    "CHILD",
+    "PET"
+   ],
+   "assertion": [
+    "AFFIRMED",
+    "NEGATED",
+    "UNCERTAIN"
+   ],
+   "phase": [
+    "DONE",
+    "ONGOING",
+    "PLANNED",
+    "UNKNOWN"
+   ],
+   "operation": [
+    "REPORT",
+    "START",
+    "PAUSE",
+    "RESUME",
+    "STOP",
+    "CORRECT",
+    "ATTACH"
+   ]
+  },
+  "argument_roles": [
+   "SUBJECT",
+   "TIME",
+   "START_TIME",
+   "END_TIME",
+   "DURATION",
+   "BREAK_DURATION",
+   "ITEM",
+   "VALUE",
+   "UNIT",
+   "AMOUNT",
+   "COUNT",
+   "PLACE",
+   "SIDE",
+   "SYMPTOM",
+   "MEDICINE",
+   "DOSE",
+   "FOOD",
+   "PORTION",
+   "MEAL",
+   "EXERCISE",
+   "MUSCLE",
+   "SETS",
+   "REPS",
+   "LOAD",
+   "DISTANCE",
+   "MARK",
+   "STOOL_KIND",
+   "CYCLE_MARK",
+   "INTIMATE_KIND",
+   "DRINK_KIND",
+   "TOBACCO_KIND",
+   "GIRTH_SITE",
+   "LAB_MARKER",
+   "REFERENCE_LOW",
+   "REFERENCE_HIGH",
+   "SPECIMEN",
+   "METHOD",
+   "SPECIALTY",
+   "HISTORY_KIND",
+   "ALLERGEN",
+   "ALLERGY_STATE",
+   "DOCUMENT_KIND",
+   "REFERENCE"
+  ],
+  "offsets": "Unicode code points of original text; end exclusive; evidence.text must match exactly",
+  "coverage": [
+   "COMPLETE",
+   "PARTIAL"
+  ],
+  "coverage_scope": "Event-list coverage only; missing attributes and arguments remain unknown",
+  "missing": "Missing journal or events is unknown; COMPLETE plus events=[] is a known negative",
+  "evidence": "Each provided event attribute needs its own text evidence; omitted attributes are masked",
+  "binding": "Arguments belong to their event id; identical argument spans may be shared explicitly",
+  "attachments": "ATTACH describes text intent. Actual received files and ownership are application state",
+  "encoding": "A relation is supervised only in a window containing the entire anchor and argument",
+  "relation_dim": 8,
+  "anchor_tags": [
+   "O",
+   "B",
+   "I"
+  ],
+  "argument_tags": [
+   "O",
+   "B",
+   "I"
+  ],
+  "argument_coverage": "Provided arguments is complete for its event; missing is unknown"
+ },
+ "capabilities": [
+  "journal-events-v2"
+ ]
+}

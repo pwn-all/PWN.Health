@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">Enerji harcaması</string>
+    <string name="burn_overlap_note">Antrenman olarak kaydedilen yürüyüş ve koşu, iki kez sayılmasın diye adımlara dâhildir.</string>
+    <string name="burn_rest_so_far">Gün başından beri dinlenirken</string>
+    <string name="burn_total_so_far">Gün başından beri toplam yakılan</string>
+    <string name="burn_active">aktivite, kcal</string>
+    <string name="food_history">Yemek geçmişi</string>
+    <string name="food_history_empty">Bugün yemek kaydı yok.</string>
+    <string name="activity_times">Aktivite saatleri</string>
+    <string name="activity_times_empty">Bu gün için saat bilgisi olan aktivite kaydı yok.</string>
+    <string name="visit_history">Ziyaret geçmişi</string>
+    <string name="visit_history_empty">Tamamlanan ziyaretler burada görünür.</string>
+    <string name="calendar_schedule">Program</string>
+    <string name="calendar_add_event">Etkinlik ekle</string>
+    <string name="calendar_expand_month">Ayı göster</string>
+    <string name="calendar_collapse_month">Ayı daralt</string>
+    <string name="calendar_day_summary">Günün özeti</string>
+    <string name="events_all">Tüm etkinlikler</string>
+    <string name="events_filter">Etkinlikleri filtrele</string>
+    <string name="events_other">Diğer etkinlikler</string>
+    <string name="events_no_matches">Bu ay eşleşen etkinlik yok.</string>
+    <string name="steps_in_interval">%1$s içindeki adımlar</string>
+    <string name="metric_goal_reached">Hedefe ulaşıldı</string>
+    <string name="workout_did_it">Yapabildiniz mi?</string>
+    <string name="workout_actual_reps">Kaç tekrar yaptınız?</string>
+    <string name="answer_yes">Evet</string>
+    <string name="answer_no">Hayır</string>
+    <string name="visit_recent">Son ziyaretler</string>
+    <string name="visit_show_all">Tümünü göster</string>
+    <string name="visit_all_specialties">Tüm branşlar</string>
+    <string name="visit_all_doctors">Tüm doktorlar</string>
+    <string name="visit_all_time">Tüm tarihler</string>
+    <string name="steps_hourly_title">Saatlere göre aktivite</string>
+    <string name="steps_activity_label">aktivite</string>
+    <string name="steps_distance_title">Yürünen mesafe</string>
+    <string name="steps_pace_title">Ortalama tempo</string>
+    <string name="steps_time_title">Toplam süre</string>
+    <string name="steps_distance_note">Mesafe, bugünkü adım sayısından ve profilinizdeki boydan kestirilir.</string>
+    <string name="steps_no_sensor">Bu telefonda adım sayan bir sensör yok, bu yüzden uygulama kendisi adım saymaz. Adımlar yine de Health Connect’ten ya da bağlı bir cihazdan gelebilir.</string>
+    <string name="steps_still_title">En uzun hareketsiz aralık</string>
+    <string name="steps_still_note">Bu telefon bir saat içinde en az 100 adım saydıysa o saat hareketli sayılır — yaklaşık bir dakikalık yürüyüş, yukarıdaki sürenin varsaydığı adım sıklığıyla aynı. Aralık, hareketli geçen ilk saatten itibaren ölçülür; böylece gece uykusu oturma olarak sayılmaz. Saatler, adımların atıldığı ana göre değil, hesaba geçtiği ana göre damgalanır; bu yüzden telefonun bekletip sonradan toplu verdiği adımlar daha geç bir saate düşebilir ve aralık gerçekte olduğundan uzun görünebilir.\n\nBurada yürünmeyen saatler sayılır, oturarak ya da ayakta geçirilen süre değil. Hiçbir Android sensörü oturan bir bedeni ayakta duran bir bedenden ayıramaz, Health Connect’te de ikisi için bir kayıt türü yoktur; bu yüzden buradaki hiçbir şey oraya gönderilmez. Masada bırakılan bir telefon hiçbir şey saymaz: başında otursanız da, ayakta dursanız da, odada olmasanız da.</string>
+    <string name="steps_route_note">Rota yoksa süre, dakikada 100 adım varsayımıyla kestirilir; mesafe ise adımlardan ve boyunuzdan hesaplanır. Bu bir varsayımdır, ölçülmüş bir adım sıklığı değil. Tempo mesafeye göre ağırlıklandırılır: toplam hareket süresi, toplam mesafeye bölünür.\n\nTamamlanan rotalardan hareket süresi (duraklamalar hariç) ve mesafe alınır. Çakışan kayıtlar birleştirilir; her saatte yalnızca kaydedilen mesafenin ötesindeki adımlar için süre kestirilir. Cihazların günlük toplamları, günün tamamıyla uzlaştırılır.\n\n≈ işareti kestirim demektir. Saatlik toplamlarla her adımın tam saati belirlenemez ve çakışan aktiviteler tam olarak ayrılamaz.</string>
+    <string name="steps_chart_thousands">%1$sB</string>
+    <string name="home_stat_walks">yürüyüş</string>
+    <string name="burn_total_note">Günün geçen kısmı için aktivite ve kestirilen dinlenme harcaması.</string>
+    <string name="burn_daily_estimate">24 saatte dinlenirken: ≈ %1$s kcal</string>
+    <string name="burn_explanation_title">Dinlenme harcaması nasıl hesaplanır</string>
+    <string name="burn_explanation_body">Günlük kestirim, Mifflin–St Jeor formülünü ve profilinizi kullanır: kilo, boy, yaş ve cinsiyet. Yürüyüş ve antrenmanlar hariç, dinlenirken gereken enerjiyi kestirir.\n\nGün başından beri dinlenme harcaması = günlük kestirim × gece yarısından beri geçen dakika ÷ 1.440. Günün toplamına yalnızca geçen bu kısım katılır; aktivite ayrıca eklenir. Tüm günün öngörüsü ikinci kez eklenmez. Gerçek harcama farklı olabilir.</string>
+    <string name="home_good_morning">Günaydın</string>
+    <string name="home_good_afternoon">İyi günler</string>
+    <string name="home_good_evening">İyi akşamlar</string>
+    <string name="home_good_night">İyi geceler</string>
+    <string-array name="home_motivations">
+        <item>Her adımla hedefe daha yakın</item>
+        <item>Her adım önemli</item>
+        <item>Küçük adımlar uzağa götürür</item>
+        <item>Bugün yeni bir fırsat</item>
+        <item>Hareket hayattır</item>
+        <item>Sağlık küçük şeylerle başlar</item>
+    </string-array>
+    <string name="home_focus">Günün odağı</string>
+    <string name="home_focus_headline">Süreklilik sonuç getirir.</string>
+    <string name="home_focus_message">Adım adım ilerleyin.</string>
+    <string name="widget_icon_count">Simge sayısı</string>
+    <string name="level_details">Seviye ve XP</string>
+    <string name="level_screen_title">Seviyem</string>
+    <string name="level_sources">XP kaynakları</string>
+    <string name="level_to_next">sonraki seviyeye</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Seviye %1$d</string>
+    <string name="level_year_xp">Bu yıl %1$s XP</string>
+    <string name="level_max">En yüksek seviyeye ulaşıldı</string>
+    <string name="level_opens">Uygulama açılışları</string>
+    <string name="level_steps">Adımlar</string>
+    <string name="level_meals">Yemek kayıtları</string>
+    <string name="level_workouts">Antrenman günleri</string>
+    <string name="level_visits">Tamamlanan ziyaretler</string>
+    <string name="level_medals">Madalyalar</string>
+    <string name="nutrition_unlogged_title">Bugün yemek kaydedilmedi</string>
+    <string name="nutrition_unlogged_body">Yediyseniz öğünü günlüğe ekleyin. Yemediyseniz dengeli bir öğün için zaman ayırın; düzenli beslenmek her hedefte önemlidir.</string>
+    <string name="nutrition_tracking_low_title">Bugün az yemek kaydedildi</string>
+    <string name="nutrition_tracking_low_body">Günlükte bugünkü kalori hedefinin %%%1$s kadarı var. Eksik öğün olup olmadığına bakın. Kayıt eksiksizse protein, karbonhidrat ve sebze içeren dengeli bir öğün planlayın.</string>
+    <string name="nutrition_lose_low_title">Kilo verirken de beslenmek gerekir</string>
+    <string name="nutrition_lose_low_body">Bugünkü hedefin yalnızca %%%1$s kadarı kayıtlı. Kilo vermek için aç kalmak gerekmez: günlük eksiksizse dengeli bir öğün yiyin ve düzenli beslenmeyi sürdürün.</string>
+    <string name="nutrition_gain_low_title">Kilo alma hedefine daha var</string>
+    <string name="nutrition_gain_low_body">Bugünkü hedefin %%%1$s kadarını kaydettiniz. Günlüğü gözden geçirin, sonra protein içeren dengeli bir öğün ya da ara öğün düşünün. Zorlamadan, kademeli olarak artırın.</string>
+    <string name="nutrition_lose_over_title">Bugünkü kalori hedefi aşıldı</string>
+    <string name="nutrition_lose_over_body">Günlükte bugünkü kilo verme hedefinin %%%1$s kadarı var. Sonraki öğünü planlarken porsiyonları ve açlığınızı göz önünde bulundurun. Aşan kısmı aç kalarak ya da öğün atlayarak telafi etmeyin.</string>
+    <string name="nutrition_gain_over_title">Kilo alma hedefinin epey üstünde</string>
+    <string name="nutrition_gain_over_body">Günlükte, fazlası zaten hesaba katılmış kilo alma hedefinin %%%1$s kadarı var. Porsiyonları ve kayıtları gözden geçirin; zorla fazladan yemeye gerek yok. Düzenli ve dengeli beslenmeyi sürdürün.</string>
+    <string name="nutrition_tracking_over_title">Bugünkü kalori rehberinin üstünde</string>
+    <string name="nutrition_tracking_over_body">Günlükte bugünkü kalori rehberinin %%%1$s kadarı var. Porsiyonları ve yinelenen kayıtları gözden geçirin. Tek bir gün, olağan beslenmenizi anlatmaz.</string>
+    <string name="nutrition_fat_title">Bugünkü yemeklerde yağ payı yüksek</string>
+    <string name="nutrition_fat_body">Kaydedilen kalorilerin yaklaşık %%%1$s kadarı yağdan geliyor. Sonraki öğünleri protein, sebze ve tam tahılla dengeleyin. Yağların da çeşitli bir beslenmede yeri vardır; önemli olan türüdür.</string>
+    <string name="nutrition_saturated_title">Doymuş yağ günlük rehberin üstünde</string>
+    <string name="nutrition_saturated_body">Kaydedilen doymuş yağ, bugünkü enerji hedefinin %%10’unu şimdiden aşıyor. Sonraki öğünlerde kaynaklarının bir kısmının yerine balık, kuruyemiş ya da doymamış bitkisel yağ koymayı düşünebilirsiniz.</string>
+    <string name="nutrition_protein_title">Kilo alma hedefi için proteine bakın</string>
+    <string name="nutrition_protein_body">Kaydedilen enerji hedefe yakın, protein ise uygulamanın günlük rehberinin yarısının altında. Sonraki öğünde baklagil, balık, yumurta, tofu ya da süt ürünü gibi bir protein kaynağı düşünün.</string>
+    <string name="nutrition_source">NHS / DSÖ; ipucu eşiklerini uygulama belirler</string>
+    <!-- Yemek satırındaki tek harflik makro kısaltmaları; her biri dokunulabilir ve tam sözcüğünü söyler. -->
+    <string name="food_macro_letter_protein">P</string>
+    <string name="food_macro_letter_fat">Y</string>
+    <string name="food_macro_letter_carbs">K</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Vraťte se, až přidáte více dat!</string>
+    <string name="intimate_charts_walking_title">Chůze a rána</string>
+    <string name="intimate_charts_alcohol_title">Alkohol a rána</string>
+    <string name="intimate_charts_legend_average">Váš průměr</string>
+    <string name="intimate_charts_legend_night">Hodiny spánku za noc</string>
+    <string name="intimate_charts_legend_steps">Kroky za den</string>
+    <string name="intimate_charts_legend_drinks">Standardní dávky za týden</string>
+    <string name="intimate_charts_pair_note">Sloupce rostou odspodu, jeden za týden. Čára je podíl rán s pevnou nebo částečnou erekcí v tomtéž týdnu oproti vašemu vlastnímu průměru za tyto týdny: nad prostřední čarou, když byl vyšší, pod ní, když byl nižší. Ukazují, co bylo zapsáno ve stejných týdnech, ne příčinu a následek.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Týden se počítá, jakmile má odpověď alespoň %1$d jeho ráno; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+        <item quantity="few">Týden se počítá, jakmile mají odpověď alespoň %1$d jeho rána; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+        <item quantity="many">Týden se počítá, jakmile má odpověď alespoň %1$d jeho rána; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+        <item quantity="other">Týden se počítá, jakmile má odpověď alespoň %1$d jeho rán; týden s menším počtem nechá v čáře mezeru, nikdy nulu.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">Sloupec týdne je průměr dnů s hodnotou a potřebuje alespoň %1$d takový den; týden s menším počtem sloupec nemá.</item>
+        <item quantity="few">Sloupec týdne je průměr dnů s hodnotou a potřebuje alespoň %1$d takové dny; týden s menším počtem sloupec nemá.</item>
+        <item quantity="many">Sloupec týdne je průměr dnů s hodnotou a potřebuje alespoň %1$d takového dne; týden s menším počtem sloupec nemá.</item>
+        <item quantity="other">Sloupec týdne je průměr dnů s hodnotou a potřebuje alespoň %1$d takových dnů; týden s menším počtem sloupec nemá.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">Graf se zobrazí, jakmile bude dost dat na %1$d týden.</item>
+        <item quantity="few">Graf se zobrazí, jakmile bude dost dat na %1$d týdny.</item>
+        <item quantity="many">Graf se zobrazí, jakmile bude dost dat na %1$d týdne.</item>
+        <item quantity="other">Graf se zobrazí, jakmile bude dost dat na %1$d týdnů.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Jedna standardní dávka je %1$s čistého alkoholu. U alkoholu je den s hodnotou den, kdy bylo cokoli zapsáno ručně, a průměr je přepočten na sedm dní: den bez zápisu není den bez alkoholu.</string>
+    <string name="intimate_charts_acts_note">Styky s partnerem a masturbace v každém týdnu. Týden, kdy jste sami nic nezapsali, přeruší obě čáry: není to týden bez aktivit.</string>
+    <string name="intimate_charts_desire_note">Tečka na čáře: týden, kdy bylo u tohoto druhu aktivity zaškrtnuto „%1$s“.</string>
+    <string name="intimate_charts_erection_note">Čárka na čáře: týden, kdy bylo u tohoto druhu aktivity zaškrtnuto „%1$s“.</string>
+    <string name="intimate_charts_acts_mornings_note">Rána mají vlastní grafy: jsou jednou odpovědí denně z odděleného dotazu, ne počtem aktivit, a nakreslená v těchto osách by vypadala jako jejich důsledek.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, týden po týdnu za poslední %2$d týden. %3$s</item>
+        <item quantity="few">%1$s, týden po týdnu za poslední %2$d týdny. %3$s</item>
+        <item quantity="many">%1$s, týden po týdnu za posledních %2$d týdne. %3$s</item>
+        <item quantity="other">%1$s, týden po týdnu za posledních %2$d týdnů. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Týden do %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">bez hodnoty</string>
+    <string name="intimate_charts_spoken_gap">příliš málo zodpovězených rán</string>
+    <string name="intimate_charts_spoken_above">rána nad vaším průměrem</string>
+    <string name="intimate_charts_spoken_below">rána pod vaším průměrem</string>
+    <string name="intimate_charts_spoken_at">rána na úrovni vašeho průměru</string>
+    <string name="intimate_charts_spoken_acts">s partnerem %1$s, masturbace %2$s</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">Seks</string>
+    <string name="intimate_anything_to_add">Coś do dodania?</string>
+    <string name="intimate_history_title">Historia</string>
+    <string name="intimate_history_empty">Nic jeszcze nie zapisano.</string>
+    <string name="intimate_act_title">Edytuj wpis</string>
+    <string name="intimate_act_kind">Co to było</string>
+    <string name="intimate_act_day">Dzień</string>
+    <string name="intimate_act_time">Godzina</string>
+    <string name="intimate_act_time_unrecorded">Ten wpis nie ma zapisanej godziny.</string>
+    <string name="intimate_flash_changed">Zmieniono</string>
+    <string name="intimate_flash_deleted">Usunięto</string>
+    <string name="intimate_charts_title">Wykresy</string>
+    <string name="intimate_woke_at">Godzina pobudki</string>
+    <string name="intimate_woke_by_unset">Nie podano</string>
+    <string name="intimate_woke_phone">Pobudka o %1$s · pierwsze użycie telefonu</string>
+</resources>

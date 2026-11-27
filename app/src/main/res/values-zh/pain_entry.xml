@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">大约一周前</string>
+    <string name="pain_onset_about_month">大约一个月前</string>
+    <string name="pain_onset_more_than_month">超过一个月前</string>
+    <string name="pain_area_search">搜索部位</string>
+    <string name="pain_area_search_empty">没有这个名称的部位</string>
+    <string name="pain_save_needs_area">要保存，请标出疼痛的位置</string>
+    <string name="pain_save_needs_answer">尚未回答：%1$s</string>
+</resources>

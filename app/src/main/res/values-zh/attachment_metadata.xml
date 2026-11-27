@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">附件说明</string>
+    <string name="attachment_details_hint">请选择这个文件包含的内容。文件名和格式无法说明是哪项检查。类型可以不指定。</string>
+    <string name="attachment_description">说明或身体部位</string>
+    <string name="attachment_study_day">检查日期（可选）</string>
+    <string name="attachment_study_day_clear">去掉日期</string>
+    <string name="attachment_kind_unknown">未指定类型</string>
+    <string name="attachment_kind_ct">CT</string>
+    <string name="attachment_kind_mri">磁共振（MRI）</string>
+    <string name="attachment_kind_ultrasound">超声</string>
+    <string name="attachment_kind_xray">X 光</string>
+    <string name="attachment_kind_doppler">多普勒超声</string>
+    <string name="attachment_kind_lab">化验结果</string>
+    <string name="attachment_kind_prescription">处方</string>
+    <string name="attachment_kind_other">其他文件</string>
+    <string name="attachment_catalog_note">此 ZIP 中包含附件的原始文件。检查类型、日期和说明均由患者提供。</string>
+</resources>

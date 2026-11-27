@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Lire une photo ou un PDF</string>
+    <string name="lab_import_review">Vérifiez la date, les valeurs et les unités avec l’original. Seuls les champs vides sont remplis. Enregistrez le formulaire pour conserver les résultats.</string>
+    <string name="lab_import_empty">Aucun résultat pris en charge reconnu. Essayez une image plus nette ou saisissez les valeurs.</string>
+    <string name="lab_import_veterinary">Ce document semble vétérinaire. Il ne peut pas remplir les analyses humaines.</string>
+    <string name="lab_import_error">Fichier illisible. Choisissez une image ou un PDF sans mot de passe (20 pages, 32 Mo maximum).</string>
+    <string name="lab_import_password">Ce PDF est protégé. Saisissez son mot de passe pour le lire.</string>
+    <string name="lab_import_date_unknown">Date du prélèvement non reconnue. Vérifiez la date du formulaire.</string>
+    <string name="lab_import_date_conflict">Cette page porte une autre date. Enregistrez ou effacez les résultats actuels.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Marqueurs non résolus : %1$d</string>
+</resources>

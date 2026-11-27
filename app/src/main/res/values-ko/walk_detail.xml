@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">산책 공유</string>
+    <string name="walk_delete">산책 삭제</string>
+    <string name="walk_delete_title">이 산책을 삭제할까요?</string>
+    <string name="walk_delete_body">이 산책의 경로와 수치, 사진이 휴대폰에서 영구히 사라집니다. 이미 저장했거나 공유한 파일은 그대로 남습니다.</string>
+    <string name="walk_photos">사진</string>
+    <string name="walk_photos_help">번호는 지도의 마커 번호와 같으며, 마커는 각 사진을 찍은 곳을 보여 줍니다. 휴대폰이 GPS로 위치를 측정하지 못했을 때 찍은 사진에는 마커가 없습니다. 방향은 사진을 찍은 쪽의 방위각으로, 진북을 기준으로 잽니다. 기울기는 휴대폰이 수평보다 얼마나 위나 아래를 향했는지를 나타냅니다. 세로와 가로는 휴대폰을 어떻게 들었는지를 뜻합니다.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">%1$s 방향</string>
+    <string name="walk_photo_up">위로 %1$d°</string>
+    <string name="walk_photo_down">아래로 %1$d°</string>
+    <string name="walk_photo_level">수평</string>
+    <string name="walk_photo_portrait">세로</string>
+    <string name="walk_photo_landscape">가로</string>
+    <string name="walk_photo_upside_down">거꾸로</string>
+    <string name="walk_photo_no_direction">방향 알 수 없음</string>
+    <string name="walk_photo_spoken">%1$d번 사진: %2$s</string>
+    <string name="walk_photo_delete">%1$d번 사진 삭제</string>
+    <string name="walk_photo_delete_body">사진은 휴대폰에서 영구히 사라집니다. 이 사진을 찍은 산책은 그대로 남습니다.</string>
+    <string-array name="walk_compass_points">
+        <item>북</item>
+        <item>북동</item>
+        <item>동</item>
+        <item>남동</item>
+        <item>남</item>
+        <item>남서</item>
+        <item>서</item>
+        <item>북서</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>북쪽</item>
+        <item>북동쪽</item>
+        <item>동쪽</item>
+        <item>남동쪽</item>
+        <item>남쪽</item>
+        <item>남서쪽</item>
+        <item>서쪽</item>
+        <item>북서쪽</item>
+    </string-array>
+</resources>

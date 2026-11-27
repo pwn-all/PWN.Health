@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">कल रात की नींद</string>
+    <string name="widget_sleep_caption">कल रात, %1$s – %2$s</string>
+    <string name="widget_sleep_none">कोई नींद दर्ज नहीं</string>
+    <string name="widget_weight_description">आपका ताज़ा वज़न और 30 दिनों में उसका बदलाव</string>
+    <string name="widget_weight_caption">ताज़ा वज़न</string>
+    <string name="widget_weight_change">30 दिनों में %1$s</string>
+    <string name="widget_weight_steady">30 दिनों में कोई बदलाव नहीं</string>
+    <string name="widget_weight_none">कोई वज़न दर्ज नहीं</string>
+    <string name="widget_energy_description">आज का खाना दिन की सीमा के सामने; एक टैप से भोजन दर्ज होता है</string>
+    <string name="widget_energy_caption">%1$s किलो कैलोरी में से · %2$s</string>
+    <string name="widget_energy_left">%1$s बाकी</string>
+    <string name="widget_energy_over">%1$s ज़्यादा</string>
+    <string name="widget_week_description">पिछले सात दिनों में हर दिन के कदम</string>
+    <string name="widget_week_caption">इस हफ़्ते %1$s कदम · रोज़ %2$s</string>
+    <string name="widget_week_initial">इस हफ़्ते के कदम</string>
+    <string name="widget_level_description">आपका स्तर, अगले तक का XP और रोज़ की लगातार शृंखला</string>
+    <string name="widget_level_initial">स्तर</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">%d दिन की शृंखला</item>
+        <item quantity="other">%d दिन की शृंखला</item>
+    </plurals>
+    <string name="widget_dose_description">दिन की अगली खुराक, एक टैप में ली गई के रूप में चिह्नित</string>
+    <string name="widget_dose_next">अगली: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">ली गई</string>
+    <string name="widget_dose_done">आज की सभी खुराकें ली गईं</string>
+    <string name="widget_dose_none">आज कोई खुराक नहीं</string>
+    <string name="widget_cycle_description">चक्र का दिन और अगली अनुमानित माहवारी</string>
+    <string name="widget_cycle_period">माहवारी, दिन %1$d</string>
+    <string name="widget_preview_sleep_value">7 घं 40 मिनट</string>
+    <string name="widget_preview_sleep_caption">कल रात, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72.4 kg</string>
+    <string name="widget_preview_weight_change">30 दिनों में −0.6 kg</string>
+    <string name="widget_preview_energy_value">1,240</string>
+    <string name="widget_preview_energy_caption">2,520 किलो कैलोरी में से · 1,280 बाकी</string>
+    <string name="widget_preview_week_caption">इस हफ़्ते 48,300 कदम · रोज़ 6,900</string>
+    <string name="widget_preview_level_title">स्तर 7</string>
+    <string name="widget_preview_level_caption">1,240 / 1,600 XP · 12 दिन की शृंखला</string>
+    <string name="widget_preview_dose_next">अगली: मेटफ़ॉर्मिन</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">दिन 12</string>
+    <string name="widget_preview_cycle_next">अगला अनुमानित 24 नव॰</string>
+</resources>

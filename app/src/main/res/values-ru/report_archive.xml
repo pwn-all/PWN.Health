@@ -1,0 +1,8 @@
+<resources>
+    <string name="report_with_files">С файлами</string>
+    <string name="report_archive_hint">В ZIP войдут PDF-отчёт и оригиналы файлов из состоявшихся приёмов, анализов и курсов лекарств за выбранный период и из выбранных разделов: УЗИ, рентген, КТ, МРТ, доплерография и другие документы. Список файлов указывает дату и запись для каждого вложения.</string>
+    <string name="report_archive_preview">Прикреплённых файлов: %1$d. В ZIP войдут PDF и эти файлы целиком.</string>
+    <string name="report_archive_index_header">Файл\tДата записи\tРаздел\tЗапись\tТип\tДата исследования\tОписание</string>
+    <string name="report_archive_unavailable">Не удалось прочитать вложение %1$s. Восстановите доступ к исходному файлу и повторите экспорт.</string>
+    <string name="report_visits_patient_notes">Состоявшиеся приёмы и заметки о консультациях со слов пациента.</string>
+</resources>

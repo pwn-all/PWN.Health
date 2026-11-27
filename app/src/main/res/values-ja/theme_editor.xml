@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">テーマ</string>
+    <string name="theme_description">ライトテーマとダークテーマの画面とアイコンの色</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="theme_saved_note">パレットはそれぞれ別に保存されます。アプリは端末のライト／ダークテーマに従います。</string>
+    <string name="theme_preview">プレビュー</string>
+    <string name="theme_main_accent">メインアクセント</string>
+    <string name="theme_accent_container">アクセントの背景</string>
+    <string name="theme_secondary">サブアクセント</string>
+    <string name="theme_secondary_container">サブアクセントの背景</string>
+    <string name="theme_tertiary">第 3 アクセント</string>
+    <string name="theme_tertiary_container">第 3 アクセントの背景</string>
+    <string name="theme_background">ページの背景</string>
+    <string name="theme_surface">カード</string>
+    <string name="theme_text">メインテキスト</string>
+    <string name="theme_muted_text">サブテキスト</string>
+    <string name="theme_border">枠線</string>
+    <string name="theme_icons">アイコン</string>
+    <string name="theme_icon">アイコンのメインの色</string>
+    <string name="theme_icon_mid">アイコンのサブの色</string>
+    <string name="theme_icon_light">アイコンの明るい部分</string>
+    <string name="theme_brightness">明るさ</string>
+    <string name="theme_hex">HEX コード</string>
+    <string name="theme_hex_error">16 進数を 6 桁入力してください（例：#7094EE）。</string>
+    <string name="theme_update_all">すべての色を更新</string>
+    <string name="theme_update_all_body">このパレットのほかの色をすべてメインアクセントから生成し、手動で変更した色を置き換えます。</string>
+    <string name="theme_reset">テーマをリセット</string>
+    <string name="theme_reset_light_body">ライトテーマの画面とアイコンの色を初期設定に戻しますか？ダークテーマは変わりません。</string>
+    <string name="theme_reset_dark_body">ダークテーマの画面とアイコンの色を初期設定に戻しますか？ライトテーマは変わりません。</string>
+    <string name="theme_wheel">カラーホイール</string>
+    <string name="theme_wheel_value">色相 %1$d°、彩度 %2$d%%</string>
+    <string name="theme_next_hue">次の色相</string>
+    <string name="theme_previous_hue">前の色相</string>
+    <string name="theme_more_saturation">彩度を上げる</string>
+    <string name="theme_less_saturation">彩度を下げる</string>
+</resources>

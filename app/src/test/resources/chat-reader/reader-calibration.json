@@ -1,0 +1,41 @@
+{
+ "temperatures": {
+  "topics": 1.0,
+  "safety": 1.0,
+  "unwell_lean": 1.0,
+  "about": 1.0,
+  "question": 1.0,
+  "small_talk": 1.0,
+  "mood_kind": 1.0,
+  "mood_flags": 1.0,
+  "lang": 1.0,
+  "oos": 1.0,
+  "pain_types": 1.0,
+  "pain_noticed": 1.0,
+  "pain_status": 1.0,
+  "pain_same": 1.0,
+  "pain_signs": 1.0,
+  "injury": 1.0,
+  "painkiller": 1.0
+ },
+ "safety_temperatures_by_lang": {},
+ "thresholds": {
+  "safety": {},
+  "safety_by_lang": {},
+  "topics": {},
+  "topics_add": {}
+ },
+ "rules": {
+  "ambiguity": 0.35,
+  "unwell_lean": {
+   "lean": 0.7,
+   "other_below": 0.3
+  },
+  "side": 0.8,
+  "nrs": 0.9,
+  "onset": 0.8,
+  "oos": 0.5,
+  "abstain_topics_below": 0.35
+ },
+ "comment": "The fixture's calibration: temperature 1, so the app's tests read what fixture-golden.json holds."
+}

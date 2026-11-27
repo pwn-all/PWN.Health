@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">Yaklaşık bir hafta önce</string>
+    <string name="pain_onset_about_month">Yaklaşık bir ay önce</string>
+    <string name="pain_onset_more_than_month">Bir aydan uzun süre önce</string>
+    <string name="pain_area_search">Bölge ara</string>
+    <string name="pain_area_search_empty">Bu adla bir bölge yok</string>
+    <string name="pain_save_needs_area">Kaydetmek için ağrıyan yeri işaretleyin</string>
+    <string name="pain_save_needs_answer">Yanıtlanmayan: %1$s</string>
+</resources>

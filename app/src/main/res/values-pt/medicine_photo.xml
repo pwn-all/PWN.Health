@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">Fotografar o medicamento</string>
+    <string name="med_photo_of">Foto de %1$s</string>
+    <string name="med_photo_unnamed">Foto do medicamento</string>
+    <string name="med_photo_retake">Tirar outra foto</string>
+    <string name="med_photo_remove">Remover a foto</string>
+    <string name="med_photo_open">Abrir em tamanho real</string>
+    <string name="med_delete_body_photo">O plano e a foto dele são apagados; as tomas já marcadas ficam no diário.</string>
+</resources>

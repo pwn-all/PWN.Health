@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">添付ファイルの説明</string>
+    <string name="attachment_details_hint">このファイルの内容を選んでください。ファイル名や形式からは検査の種類はわかりません。種類は未指定のままでもかまいません。</string>
+    <string name="attachment_description">説明または検査部位</string>
+    <string name="attachment_study_day">検査日（任意）</string>
+    <string name="attachment_study_day_clear">日付を消す</string>
+    <string name="attachment_kind_unknown">種類未指定</string>
+    <string name="attachment_kind_ct">CT</string>
+    <string name="attachment_kind_mri">MRI</string>
+    <string name="attachment_kind_ultrasound">超音波検査</string>
+    <string name="attachment_kind_xray">X 線検査</string>
+    <string name="attachment_kind_doppler">ドップラー超音波検査</string>
+    <string name="attachment_kind_lab">臨床検査の結果</string>
+    <string name="attachment_kind_prescription">処方箋</string>
+    <string name="attachment_kind_other">その他の書類</string>
+    <string name="attachment_catalog_note">この ZIP には添付ファイルの原本が含まれています。検査の種類、日付、説明は患者本人が入力したものです。</string>
+</resources>

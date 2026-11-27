@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">Dün geceki uyku</string>
+    <string name="widget_sleep_caption">dün gece, %1$s – %2$s</string>
+    <string name="widget_sleep_none">Uyku kaydı yok</string>
+    <string name="widget_weight_description">Son kilonuz ve 30 günde nasıl değiştiği</string>
+    <string name="widget_weight_caption">son kilo</string>
+    <string name="widget_weight_change">30 günde %1$s</string>
+    <string name="widget_weight_steady">30 günde değişmedi</string>
+    <string name="widget_weight_none">Kilo kaydı yok</string>
+    <string name="widget_energy_description">Bugünkü yemekler günün bütçesine karşı; bir dokunuş öğün kaydeder</string>
+    <string name="widget_energy_caption">%1$s kcal’den · %2$s</string>
+    <string name="widget_energy_left">%1$s kaldı</string>
+    <string name="widget_energy_over">%1$s fazla</string>
+    <string name="widget_week_description">Son yedi günün her birindeki adımlar</string>
+    <string name="widget_week_caption">bu hafta %1$s adım · günde %2$s</string>
+    <string name="widget_week_initial">bu hafta adım</string>
+    <string name="widget_level_description">Seviyeniz, bir sonrakine kadar XP ve günlük seri</string>
+    <string name="widget_level_initial">Seviye</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">%d günlük seri</item>
+        <item quantity="other">%d günlük seri</item>
+    </plurals>
+    <string name="widget_dose_description">Günün bir sonraki dozu, tek dokunuşla alındı olarak işaretlenir</string>
+    <string name="widget_dose_next">Sıradaki: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Alındı</string>
+    <string name="widget_dose_done">Bugünkü tüm dozlar alındı</string>
+    <string name="widget_dose_none">Bugün doz yok</string>
+    <string name="widget_cycle_description">Döngü günü ve beklenen bir sonraki regl</string>
+    <string name="widget_cycle_period">Regl, %1$d. gün</string>
+    <string name="widget_preview_sleep_value">7 sa 40 dk</string>
+    <string name="widget_preview_sleep_caption">dün gece, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72,4 kg</string>
+    <string name="widget_preview_weight_change">30 günde −0,6 kg</string>
+    <string name="widget_preview_energy_value">1.240</string>
+    <string name="widget_preview_energy_caption">2.520 kcal’den · 1.280 kaldı</string>
+    <string name="widget_preview_week_caption">bu hafta 48.300 adım · günde 6.900</string>
+    <string name="widget_preview_level_title">Seviye 7</string>
+    <string name="widget_preview_level_caption">1.240 / 1.600 XP · 12 günlük seri</string>
+    <string name="widget_preview_dose_next">Sıradaki: Metformin</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">12. gün</string>
+    <string name="widget_preview_cycle_next">Sonraki beklenen: 24 Kas</string>
+</resources>

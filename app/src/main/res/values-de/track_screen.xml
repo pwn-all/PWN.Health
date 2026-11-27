@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Details</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Details</string>
+    <string name="track_signal_good">Gutes GPS-Signal</string>
+    <string name="track_signal_fair">Mittleres GPS-Signal</string>
+    <string name="track_signal_poor">Schwaches GPS-Signal</string>
+    <string name="track_signal_searching">GPS-Signal wird gesucht</string>
+    <string name="track_signal_location_off">Standort ist ausgeschaltet</string>
+    <string name="track_signal_no_access">Kein Zugriff auf den Standort</string>
+    <string name="track_info_title">Signal und Route</string>
+    <string name="track_signal_title">GPS-Signal</string>
+    <string name="track_signal_note">Die Balken zeigen, wie genau das Telefon seine Position kennt. Drei Balken: auf %1$s genau oder besser. Zwei: auf %2$s genau. Einer: noch ungenauer. Keiner: seit zehn Sekunden keine Position, während das Telefon noch sucht. Dieser Bildschirm fragt die Position nur ab, solange er geöffnet ist, um das Signal und Ihren Standort anzuzeigen.</string>
+    <string name="track_history_empty">Noch keine gespeicherten Routen.</string>
+    <string name="track_map_here">Karte rund um Ihren Standort</string>
+    <string name="track_map_waiting">Weltkarte. Ihr Standort ist noch nicht bekannt.</string>
+    <string name="track_map_follow_here">Zurück zu Ihrem Standort</string>
+    <string name="track_pause">Aufzeichnung pausieren</string>
+    <string name="track_resume">Aufzeichnung fortsetzen</string>
+    <string name="track_value_paused">pausiert</string>
+    <string name="track_value_ended">beendet</string>
+    <string name="track_finish_title">Route beenden?</string>
+    <string name="track_finish_body">Die Aufzeichnung endet, und die Route wird gespeichert. Für eine Unterbrechung tippen Sie stattdessen auf Pause.</string>
+    <string name="track_finish">Beenden</string>
+    <string name="track_keep_recording">Weiter aufzeichnen</string>
+    <string name="track_finished">Route beendet</string>
+</resources>

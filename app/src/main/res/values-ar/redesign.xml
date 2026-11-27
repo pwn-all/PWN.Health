@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s سعرة</string>
+    <string name="burn_sources">الطاقة المحروقة</string>
+    <string name="burn_overlap_note">المشي والجري المسجَّلان كتمارين محسوبان ضمن سطر الخطوات، كي لا يُحتسبا مرتين.</string>
+    <string name="burn_rest_so_far">في الراحة منذ بداية اليوم</string>
+    <string name="burn_total_so_far">إجمالي المحروق منذ بداية اليوم</string>
+    <string name="burn_active">النشاط، سعرة</string>
+    <string name="food_history">سجل الطعام</string>
+    <string name="food_history_empty">لا طعام مسجَّل اليوم.</string>
+    <string name="activity_times">أوقات النشاط</string>
+    <string name="activity_times_empty">لا نشاط بأوقات مسجَّلة في هذا اليوم.</string>
+    <string name="visit_history">سجل الزيارات</string>
+    <string name="visit_history_empty">ستظهر هنا الزيارات التي تمّت.</string>
+    <string name="calendar_schedule">الجدول</string>
+    <string name="calendar_add_event">إضافة حدث</string>
+    <string name="calendar_expand_month">عرض الشهر</string>
+    <string name="calendar_collapse_month">طيّ الشهر</string>
+    <string name="calendar_day_summary">ملخّص اليوم</string>
+    <string name="events_all">كل الأحداث</string>
+    <string name="events_filter">تصفية الأحداث</string>
+    <string name="events_other">أحداث أخرى</string>
+    <string name="events_no_matches">لا أحداث مطابقة في هذا الشهر.</string>
+    <string name="steps_in_interval">الخطوات خلال %1$s</string>
+    <string name="metric_goal_reached">تحقق الهدف</string>
+    <string name="workout_did_it">هل أتممتها؟</string>
+    <string name="workout_actual_reps">كم تكرارًا أتممت؟</string>
+    <string name="answer_yes">نعم</string>
+    <string name="answer_no">لا</string>
+    <string name="visit_recent">أحدث الزيارات</string>
+    <string name="visit_show_all">عرض الكل</string>
+    <string name="visit_all_specialties">كل التخصصات</string>
+    <string name="visit_all_doctors">كل الأطباء</string>
+    <string name="visit_all_time">كل التواريخ</string>
+    <string name="steps_hourly_title">النشاط حسب الساعة</string>
+    <string name="steps_activity_label">النشاط</string>
+    <string name="steps_distance_title">المسافة المقطوعة</string>
+    <string name="steps_pace_title">متوسط الوتيرة</string>
+    <string name="steps_time_title">الوقت الإجمالي</string>
+    <string name="steps_distance_note">تُقدَّر المسافة من عدد خطوات اليوم ومن الطول المذكور في ملفك.</string>
+    <string name="steps_no_sensor">لا يوجد في هذا الهاتف مستشعر لعدّ الخطوات، فلا يعدّها التطبيق بنفسه. ومع ذلك قد تصل الخطوات من Health Connect أو من جهاز متصل.</string>
+    <string name="steps_still_title">أطول فترة بلا مشي</string>
+    <string name="steps_still_note">تُحسب الساعة متحركة إذا عدّ فيها هذا الهاتف 100 خطوة على الأقل — أي نحو دقيقة من المشي، وهي الوتيرة نفسها التي يفترضها الوقت أعلاه. وتُقاس الفترة من أول ساعة متحركة، فلا يُحسب نوم الليل جلوسًا. وتُؤرَّخ الساعات بوقت قيد الخطوات لا بوقت وقوعها، فقد تحطّ دفعةٌ أخّرها الهاتف في ساعة لاحقة فتبدو الفترة أطول مما كانت.\n\nوهذا إحصاء لساعات بلا مشي، لا لوقت الجلوس أو الوقوف. فلا مستشعر في أندرويد يميّز الجسد الجالس من القائم، ولا في Health Connect سجلّ لأيٍّ منهما، فلا يُرسَل إليه شيء مما هنا. والهاتف المتروك على المكتب لا يعدّ شيئًا، سواء أكنت جالسًا إليه أم واقفًا عنده أم خارج الغرفة.</string>
+    <string name="steps_route_note">بلا مسار، يُقدَّر الوقت على أساس 100 خطوة في الدقيقة، وتُحسب المسافة من الخطوات ومن طولك. وهذا افتراض لا وتيرة مقيسة. ومتوسط الوتيرة موزون بالمسافة: إجمالي وقت الحركة مقسومًا على إجمالي المسافة.\n\nوتُسهم المسارات المكتملة بوقت حركتها (دون التوقفات) وبمسافتها. وتُدمج التسجيلات المتداخلة؛ وفي كل ساعة لا يضيف وقتًا مقدَّرًا إلا ما زاد من الخطوات عن المسافة المسجَّلة. وتُوفَّق إجماليات الأجهزة اليومية على مدى اليوم كله.\n\nوتعني ≈ أن الرقم تقدير. ولا تستطيع مجاميع الساعات تحديد وقت كل خطوة بدقة، ولا الفصل التام بين الأنشطة المتداخلة.</string>
+    <string name="steps_chart_thousands">%1$s ألف</string>
+    <string name="home_stat_walks">جولات مشي</string>
+    <string name="burn_total_note">النشاط مع تقدير طاقة الراحة للجزء المنقضي من اليوم.</string>
+    <string name="burn_daily_estimate">في الراحة خلال 24 ساعة: ≈ %1$s سعرة</string>
+    <string name="burn_explanation_title">كيف تُحسب طاقة الراحة</string>
+    <string name="burn_explanation_body">يستند تقدير اليوم إلى معادلة Mifflin–St Jeor وإلى ملفك: الوزن والطول والعمر والجنس. وهو يقدّر الطاقة اللازمة في الراحة، دون مشي ولا تمارين.\n\nطاقة الراحة منذ بداية اليوم = تقدير اليوم × الدقائق منذ منتصف الليل ÷ 1,440. ولا يدخل في إجمالي اليوم إلا هذا القدر المنقضي، ويُضاف النشاط على حدة. ولا يُضاف تقدير اليوم كاملًا مرة أخرى. وقد يختلف الإنفاق الفعلي.</string>
+    <string name="home_good_morning">صباح الخير</string>
+    <string name="home_good_afternoon">طاب نهارك</string>
+    <string name="home_good_evening">مساء الخير</string>
+    <string name="home_good_night">طابت ليلتك</string>
+    <string-array name="home_motivations">
+        <item>خطوة بعد خطوة نحو هدفك</item>
+        <item>كل خطوة لها قيمة</item>
+        <item>الخطوات الصغيرة تصنع الفرق</item>
+        <item>اليوم فرصة جديدة</item>
+        <item>الحركة حياة</item>
+        <item>الصحة تبدأ بخطوة صغيرة</item>
+    </string-array>
+    <string name="home_focus">تركيز اليوم</string>
+    <string name="home_focus_headline">المواظبة تصنع النتيجة.</string>
+    <string name="home_focus_message">خطوة واحدة في كل مرة.</string>
+    <string name="widget_icon_count">عدد الرموز</string>
+    <string name="level_details">المستوى وXP</string>
+    <string name="level_screen_title">مستواي</string>
+    <string name="level_sources">مصادر نقاط الخبرة</string>
+    <string name="level_to_next">حتى المستوى التالي</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">المستوى %1$d</string>
+    <string name="level_year_xp">%1$s XP هذا العام</string>
+    <string name="level_max">بلغت المستوى الأقصى</string>
+    <string name="level_opens">فتح التطبيق</string>
+    <string name="level_steps">الخطوات</string>
+    <string name="level_meals">سجلات الطعام</string>
+    <string name="level_workouts">أيام التمارين</string>
+    <string name="level_visits">الزيارات التي تمّت</string>
+    <string name="level_medals">الميداليات</string>
+    <string name="nutrition_unlogged_title">لا طعام مسجَّل اليوم</string>
+    <string name="nutrition_unlogged_body">إن كنت قد أكلت فأضف الوجبة إلى دفترك. وإن لم تفعل فخصّص وقتًا لوجبة متوازنة؛ فالانتظام في الأكل مهم في كل وضع من أوضاع الهدف.</string>
+    <string name="nutrition_tracking_low_title">المسجَّل من الطعام قليل حتى الآن</string>
+    <string name="nutrition_tracking_low_body">يُظهر دفترك %1$s%% من هدف اليوم من السعرات. تحقّق من وجبة لم تُسجَّل. وإن كان السجل كاملًا فخطّط لوجبة متوازنة فيها بروتين وكربوهيدرات وخضار.</string>
+    <string name="nutrition_lose_low_title">إنقاص الوزن يحتاج إلى غذاء أيضًا</string>
+    <string name="nutrition_lose_low_body">المسجَّل %1$s%% فقط من هدف اليوم. وإنقاص الوزن لا يحتاج إلى جوع: إن كان الدفتر كاملًا فتناول وجبة متوازنة وحافظ على انتظام الأكل.</string>
+    <string name="nutrition_gain_low_title">هدف الزيادة يحتاج إلى غذاء أكثر</string>
+    <string name="nutrition_gain_low_body">سجّلت %1$s%% من هدف اليوم. راجع الدفتر، ثم فكّر في وجبة متوازنة أخرى أو وجبة خفيفة فيها بروتين. وزد كميتك تدريجيًا دون أن تُجبر نفسك على الأكل.</string>
+    <string name="nutrition_lose_over_title">تجاوزت هدف اليوم من السعرات</string>
+    <string name="nutrition_lose_over_body">يُظهر دفترك %1$s%% من هدف إنقاص الوزن لليوم. وعند التخطيط للوجبة التالية انظر في الحصص وفي شعورك بالجوع. ولا تعوّض ذلك بالصيام أو بترك وجبة.</string>
+    <string name="nutrition_gain_over_title">أعلى بكثير من هدف الزيادة</string>
+    <string name="nutrition_gain_over_body">يُظهر دفترك %1$s%% من هدف الزيادة لليوم، وهو هدف يحمل فائضًا أصلًا. راجع الحصص والسجلات؛ ولا داعي لأكل إضافي بالإكراه. واصل وجبات منتظمة متوازنة.</string>
+    <string name="nutrition_tracking_over_title">فوق المرجع اليومي للسعرات</string>
+    <string name="nutrition_tracking_over_body">يُظهر دفترك %1$s%% من مرجع اليوم للسعرات. راجع الحصص والسجلات المكرّرة. ويوم واحد وحده لا يصف نظامك المعتاد.</string>
+    <string name="nutrition_fat_title">نسبة الدهون مرتفعة في طعام اليوم</string>
+    <string name="nutrition_fat_body">نحو %1$s%% من السعرات المسجَّلة يأتي من الدهون. وازِن وجباتك التالية ببروتين وخضار وحبوب كاملة. وللدهون مكانها في نظام متنوع؛ والمهم نوعها.</string>
+    <string name="nutrition_saturated_title">الدهون المشبعة فوق المرجع اليومي</string>
+    <string name="nutrition_saturated_body">تجاوزت الدهون المشبعة المسجَّلة 10%% من هدف اليوم من الطاقة. وفي الوجبات التالية يمكن استبدال جزء من مصادرها بالسمك أو المكسرات أو الزيوت النباتية غير المشبعة.</string>
+    <string name="nutrition_protein_title">انتبه للبروتين في هدف الزيادة</string>
+    <string name="nutrition_protein_body">الطاقة المسجَّلة قريبة من هدفك، والبروتين دون نصف المرجع اليومي في التطبيق. أضف في وجبتك التالية مصدر بروتين مثل البقوليات أو السمك أو البيض أو التوفو أو الألبان.</string>
+    <string name="nutrition_source">NHS / منظمة الصحة العالمية؛ وعتبات التنبيه يضعها التطبيق</string>
+    <!-- اختصارات المغذيات الكبرى بحرف واحد في سطر الطعام؛ وكل حرف يُنقر فيقول كلمته كاملة. -->
+    <string name="food_macro_letter_protein">ب</string>
+    <string name="food_macro_letter_fat">د</string>
+    <string name="food_macro_letter_carbs">ك</string>
+</resources>

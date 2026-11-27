@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Подробнее</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Подробнее</string>
+    <string name="track_signal_good">Хороший сигнал GPS</string>
+    <string name="track_signal_fair">Средний сигнал GPS</string>
+    <string name="track_signal_poor">Слабый сигнал GPS</string>
+    <string name="track_signal_searching">Поиск сигнала GPS</string>
+    <string name="track_signal_location_off">Геолокация выключена</string>
+    <string name="track_signal_no_access">Нет доступа к геолокации</string>
+    <string name="track_info_title">Сигнал и маршрут</string>
+    <string name="track_signal_title">Сигнал GPS</string>
+    <string name="track_signal_note">Полоски показывают, насколько точно телефон знает, где он находится. Три полоски — точность %1$s или лучше. Две — до %2$s. Одна — хуже. Ни одной — координат нет уже десять секунд, а телефон всё ещё ищет сигнал. Этот экран получает местоположение, только пока он открыт, — чтобы показать сигнал и вас на карте.</string>
+    <string name="track_history_empty">Сохранённых маршрутов пока нет.</string>
+    <string name="track_map_here">Карта вокруг вашего местоположения</string>
+    <string name="track_map_waiting">Карта мира. Ваше местоположение пока не определено.</string>
+    <string name="track_map_follow_here">Вернуться к вашему местоположению</string>
+    <string name="track_pause">Приостановить запись</string>
+    <string name="track_resume">Возобновить запись</string>
+    <string name="track_value_paused">пауза</string>
+    <string name="track_value_ended">завершено</string>
+    <string name="track_finish_title">Завершить прогулку?</string>
+    <string name="track_finish_body">Запись остановится, а прогулка сохранится. Если нужен только перерыв, приостановите запись.</string>
+    <string name="track_finish">Завершить</string>
+    <string name="track_keep_recording">Продолжить запись</string>
+    <string name="track_finished">Прогулка завершена</string>
+</resources>

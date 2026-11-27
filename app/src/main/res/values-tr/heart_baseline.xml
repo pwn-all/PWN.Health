@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Dinlenik kalp atış hızı</string>
+    <string name="health_rationale_purpose_recovery">Yalnızca okuma. Yaşam bulguları ekranında ayrı kartlar olarak, her biri önceki dört haftadaki olağan değerinizin yanında gösterilir. Bunları bir saat ya da yüzük, genellikle gece ölçer; uygulama bunları kendisi hesaplamaz ve geri hiçbir şey yazmaz.</string>
+    <string name="vitals_note_resting_measured">Dinlenirken, genellikle gece, bir saat ya da yüzük tarafından ölçülür ve Health Connect’ten ya da dışa aktarılmış bir dosyadan okunur. Gün içinde ölçülen nabızdan düşük olması doğaldır.</string>
+    <string name="vitals_note_baseline">Olağan değeriniz, sonuncudan önceki 28 gündeki kendi ölçümlerinizin medyanıdır ve en az beş ölçüm gerekir. Sizi kendinizle karşılaştırır; bir hüküm değildir.</string>
+    <string name="vitals_baseline_above">Son ölçüm olağan değerinizin %1$d %2$s üstünde</string>
+    <string name="vitals_baseline_below">Son ölçüm olağan değerinizin %1$d %2$s altında</string>
+    <string name="vitals_baseline_same">Son ölçüm olağan değerinizde</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Olağan değeriniz: %1$s %2$s, önceki 4 haftadaki %3$d ölçümün medyanı</item>
+        <item quantity="other">Olağan değeriniz: %1$s %2$s, önceki 4 haftadaki %3$d ölçümün medyanı</item>
+    </plurals>
+</resources>

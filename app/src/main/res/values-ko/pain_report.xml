@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">지난 30일 동안 칠한 곳과 부위별로 아팠던 날수</string>
+    <string name="pain_paint_hint">아픈 곳을 칠하고, 두 손가락을 벌려 확대하세요. 허리 통증과 무릎 통증은 각각 따로 기록합니다.</string>
+    <string name="pain_head_note">그림은 목에서 시작합니다. 두통 부위는 「부위 추가」에서 고르세요.</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="other">그린 기록 %1$d건. 각 표시는 본인이 칠한 자리에 그렸으며, 기록이 겹치는 곳은 더 진합니다. 칠하지 않고 목록에서 고른 부위는 그리지 않았습니다.</item>
+    </plurals>
+</resources>

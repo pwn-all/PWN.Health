@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">مع الملفات</string>
+    <string name="report_archive_hint">يضم ملف ZIP تقرير PDF والملفات الأصلية المرفقة بالزيارات التي تمّت وبسجلات التحاليل وبالعلاجات الدوائية ضمن الأقسام والفترة المختارة: موجات فوق صوتية وأشعة سينية وتصوير مقطعي ورنين مغناطيسي ودوبلر بالموجات فوق الصوتية ومستندات أخرى. وتربط قائمة الملفات كل مرفق بسجله وتاريخه.</string>
+    <string name="report_archive_preview">الملفات المرفقة الأصلية: %1$d. ويضم ملف ZIP تقرير PDF وهذه الملفات كاملةً.</string>
+    <string name="report_archive_index_header">الملف\tتاريخ السجل\tالقسم\tالسجل\tالنوع\tتاريخ الفحص\tالوصف</string>
+    <string name="report_archive_unavailable">تعذّرت قراءة المرفق %1$s. استعِد الوصول إلى الملف الأصلي، ثم أعِد المحاولة.</string>
+    <string name="report_visits_patient_notes">الزيارات التي تمّت وملاحظات الاستشارات كما دوّنها المريض.</string>
+</resources>

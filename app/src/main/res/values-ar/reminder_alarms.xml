@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: كان ينبغي تناول هذا الدواء قبل الأكل؛ ولم يُسجَّل تناوله.</string>
+    <string name="med_reminder_with">%1$s: هناك وجبة مسجَّلة؛ يُؤخذ هذا الدواء أثناء الأكل.</string>
+    <string name="med_reminder_needs_with_food">%1$s: يُؤخذ هذا الدواء أثناء الأكل، ولا توجد وجبة مسجَّلة بعد.</string>
+    <string name="med_alarm_title">منبّهات الأدوية</string>
+    <string name="med_alarm_dismiss">إيقاف الصوت</string>
+    <string name="med_alarm_open">فتح التطبيق</string>
+    <string name="med_alarm_not_taken">إيقاف الصوت لا يسجّل الدواء على أنه تم تناوله.</string>
+    <string name="med_alarm_settings_body">ترن المنبّهات لمدة دقيقة كحد أقصى. اسمح بالتوقيت الدقيق والعرض على شاشة القفل. دون هذه الأذونات قد تتأخر التذكيرات أو تظهر كإشعارات. تذكيرات الطعام والماء إشعارات عادية.</string>
+    <string name="med_alarm_exact_access">السماح بتوقيت المنبّه الدقيق</string>
+    <string name="med_alarm_full_screen_access">السماح بالمنبّه على شاشة القفل</string>
+    <string name="med_alarm_channel_muted">قناة «%1$s» مكتومة في إعدادات أندرويد، لذا تصل الجرعات كإشعارات عادية دون رنين.</string>
+    <string name="med_alarm_channel_open">فتح إعدادات القناة</string>
+    <string name="reminder_food_title">ألم يحن وقت الأكل؟</string>
+    <string name="reminder_food_body">ألم يحن وقت الأكل؟ أم أكلتم من دوني؟</string>
+    <string name="reminder_water_title">لا تنسوا شرب السوائل</string>
+    <string name="reminder_water_body">لا تنسوا شرب السوائل. أضيفوا الماء.</string>
+    <string name="med_action_taken">تناولتها</string>
+    <string name="med_action_later">لاحقًا</string>
+</resources>

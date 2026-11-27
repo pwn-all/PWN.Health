@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">Sekitar seminggu lalu</string>
+    <string name="pain_onset_about_month">Sekitar sebulan lalu</string>
+    <string name="pain_onset_more_than_month">Lebih dari sebulan lalu</string>
+    <string name="pain_area_search">Cari area</string>
+    <string name="pain_area_search_empty">Tidak ada area dengan nama itu</string>
+    <string name="pain_save_needs_area">Untuk menyimpan, tandai bagian yang sakit</string>
+    <string name="pain_save_needs_answer">Belum dijawab: %1$s</string>
+</resources>

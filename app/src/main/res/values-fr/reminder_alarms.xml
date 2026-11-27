@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s : ce médicament devait être pris avant le repas ; la prise n’est pas notée.</string>
+    <string name="med_reminder_with">%1$s : un repas est noté ; ce médicament se prend pendant le repas.</string>
+    <string name="med_reminder_needs_with_food">%1$s : ce médicament se prend pendant le repas, mais aucun repas n’est encore noté.</string>
+    <string name="med_alarm_title">Alarmes des médicaments</string>
+    <string name="med_alarm_dismiss">Arrêter le son</string>
+    <string name="med_alarm_open">Ouvrir l’application</string>
+    <string name="med_alarm_not_taken">Arrêter le son ne marque pas le médicament comme pris.</string>
+    <string name="med_alarm_settings_body">Les alarmes sonnent pendant une minute au maximum. Autorisez les horaires exacts et l’affichage sur l’écran verrouillé. Sinon, les rappels peuvent être retardés ou apparaître comme des notifications. Repas et eau restent des notifications ordinaires.</string>
+    <string name="med_alarm_exact_access">Autoriser les horaires exacts</string>
+    <string name="med_alarm_full_screen_access">Autoriser les alarmes sur écran verrouillé</string>
+    <string name="med_alarm_channel_muted">Le canal « %1$s » est coupé dans les paramètres Android : les prises arrivent donc comme des notifications ordinaires, sans sonnerie.</string>
+    <string name="med_alarm_channel_open">Ouvrir les paramètres du canal</string>
+    <string name="reminder_food_title">L’heure de manger ?</string>
+    <string name="reminder_food_body">L’heure de manger ? Ou avez-vous mangé sans moi ?</string>
+    <string name="reminder_water_title">Pensez à boire</string>
+    <string name="reminder_water_body">Pensez à boire. Ajoutez de l’eau.</string>
+    <string name="med_action_taken">Je l’ai pris</string>
+    <string name="med_action_later">Plus tard</string>
+</resources>

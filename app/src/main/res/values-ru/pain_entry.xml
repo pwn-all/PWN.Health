@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">Около недели назад</string>
+    <string name="pain_onset_about_month">Около месяца назад</string>
+    <string name="pain_onset_more_than_month">Больше месяца назад</string>
+    <string name="pain_area_search">Поиск области</string>
+    <string name="pain_area_search_empty">Такой области нет</string>
+    <string name="pain_save_needs_area">Чтобы сохранить, отметьте, где болит</string>
+    <string name="pain_save_needs_answer">Осталось ответить: %1$s</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The walk page: one walk from the track page's history, opened out. -->
+
+    <!-- The share button beside the walk's name, said by a screen reader, and the title over the share
+         sheet it opens once a file format is picked from its menu. -->
+    <string name="walk_share">Share the walk</string>
+    <string name="walk_delete">Delete the walk</string>
+    <string name="walk_delete_title">Delete this walk?</string>
+    <string name="walk_delete_body">The route, its figures and its photos go from the phone for good. Files you already saved or shared stay where they are.</string>
+
+    <!-- The heading over the photographs taken on the walk. -->
+    <string name="walk_photos">Photos</string>
+    <string name="walk_photos_help">The numbers match the markers on the map, which show where each photo was taken. A photo taken while the phone had no GPS fix has no marker. The direction is the compass bearing the picture was taken toward, counted from true north. The tilt is how far the phone pointed above or below the horizon. Portrait or landscape is how it was held.</string>
+
+    <!-- Under a photograph: the point of the compass the camera faced and its bearing, “SW 245°”. -->
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <!-- The same for a screen reader, with the point spelt out: “facing south-west”. -->
+    <string name="walk_photo_facing_spoken">facing %1$s</string>
+    <!-- How far the camera pointed above or below the horizon, in degrees. -->
+    <string name="walk_photo_up">%1$d° up</string>
+    <string name="walk_photo_down">%1$d° down</string>
+    <!-- Pointed within a few degrees of the horizon. -->
+    <string name="walk_photo_level">level</string>
+    <!-- How the phone was held. -->
+    <string name="walk_photo_portrait">portrait</string>
+    <string name="walk_photo_landscape">landscape</string>
+    <string name="walk_photo_upside_down">upside down</string>
+    <!-- No direction was kept with the photograph: no compass, nowhere to read true north from, or no
+         reading while the camera was open. -->
+    <string name="walk_photo_no_direction">direction unknown</string>
+    <!-- A photograph for a screen reader: its number, then its readings, “Photo 2: facing south-west, 12° up, portrait, 14:32”. -->
+    <string name="walk_photo_spoken">Photo %1$d: %2$s</string>
+    <!-- The cross in a photograph's corner, named with its number. -->
+    <string name="walk_photo_delete">Delete photo %1$d</string>
+    <string name="walk_photo_delete_body">The picture goes from the phone for good. The walk it was taken on stays.</string>
+
+    <!-- The eight points of the compass, from north clockwise, as written short under a photograph.
+         Exactly eight, in this order, in every language (WalkScreenTest). -->
+    <string-array name="walk_compass_points">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <!-- The same eight spelt out, for a screen reader: “facing south-west”. -->
+    <string-array name="walk_compass_names">
+        <item>north</item>
+        <item>north-east</item>
+        <item>east</item>
+        <item>south-east</item>
+        <item>south</item>
+        <item>south-west</item>
+        <item>west</item>
+        <item>north-west</item>
+    </string-array>
+</resources>

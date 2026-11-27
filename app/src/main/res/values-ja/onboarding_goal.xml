@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">1日の歩数</string>
+    <string name="onboarding_steps_body">続けられる目標を選んでください。成人500人の試験では、自分で目標を選んだ人だけが歩く量を増やしました。目標はプロフィールでいつでも変更できます。</string>
+    <string name="onboarding_steps_suggested">あなたの年齢のおすすめ: %1$s</string>
+    <string name="onboarding_steps_use_suggested">おすすめを使う</string>
+    <string name="onboarding_steps_distance">あなたの歩幅で1日約%1$s</string>
+    <string name="onboarding_bmi_source">WHO の成人区分</string>
+    <string name="onboarding_ready_steps">1日の歩数目標</string>
+    <string name="onboarding_ready_resting">安静時エネルギー</string>
+    <string name="onboarding_ready_kcal_day">1日 %1$s kcal</string>
+    <string name="onboarding_ready_local">あなたの回答からこの端末で計算しました。安静時エネルギーは Mifflin–St Jeor 式、BMI は WHO の成人区分によります。どこにも送信していません。</string>
+</resources>

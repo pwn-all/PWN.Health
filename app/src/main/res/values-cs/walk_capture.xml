@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_photo_take">Vyfotit toto místo</string>
+    <string name="walk_photo_saved">Fotka uložena</string>
+    <string name="walk_photo_failed">Fotka se neuložila</string>
+    <string name="walk_photo_no_camera">Chybí aplikace fotoaparátu</string>
+</resources>

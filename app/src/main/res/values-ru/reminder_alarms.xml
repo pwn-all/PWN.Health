@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: лекарство нужно было принять до еды; приём не отмечен.</string>
+    <string name="med_reminder_with">%1$s: еда записана; это лекарство принимают во время еды.</string>
+    <string name="med_reminder_needs_with_food">%1$s: лекарство принимают во время еды, а записи о еде пока нет.</string>
+    <string name="med_alarm_title">Будильник для лекарств</string>
+    <string name="med_alarm_dismiss">Выключить звук</string>
+    <string name="med_alarm_open">Открыть приложение</string>
+    <string name="med_alarm_not_taken">Выключение звука не отмечает лекарство как принятое.</string>
+    <string name="med_alarm_settings_body">Лекарства: звук будильника до минуты. Разрешите точное время и показ поверх блокировки. Без этих разрешений напоминания могут задерживаться или появляться обычным уведомлением. Еда и вода — обычные уведомления.</string>
+    <string name="med_alarm_exact_access">Разрешить точное время будильника</string>
+    <string name="med_alarm_full_screen_access">Разрешить будильник поверх блокировки</string>
+    <string name="med_alarm_channel_muted">Канал «%1$s» отключён в настройках Android, поэтому о приёмах напоминают обычные уведомления, без звонка.</string>
+    <string name="med_alarm_channel_open">Открыть настройки канала</string>
+    <string name="reminder_food_title">Не пора ли покушать?</string>
+    <string name="reminder_food_body">Не пора ли покушать? Или Вы кушали без меня?</string>
+    <string name="reminder_water_title">Не забывайте пить жидкость</string>
+    <string name="reminder_water_body">Не забывайте пить жидкость. Добавьте воду.</string>
+    <string name="med_action_taken">Принято</string>
+    <string name="med_action_later">Позже</string>
+</resources>

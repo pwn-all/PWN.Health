@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Pesta laktat</item>
+        <item>Jalan santai senja</item>
+        <item>Pemburu tanjakan</item>
+        <item>Ngopi dulu</item>
+        <item>Puisi trotoar</item>
+        <item>Safari kota</item>
+        <item>Hirup oksigen gratis</item>
+        <item>Memutar ala sultan</item>
+        <item>Patroli genangan</item>
+        <item>Keliling cahaya emas</item>
+        <item>Langkah penuh gaya</item>
+        <item>Pengejar angin</item>
+        <item>Kisah dari gang</item>
+        <item>Pemakan kilometer</item>
+        <item>Pengamat awan</item>
+        <item>Jalur pemandangan indah</item>
+        <item>Petualangan mini</item>
+        <item>Misi endorfin</item>
+        <item>Inspektur bangku taman</item>
+        <item>Bangga melangkah</item>
+        <item>Sengaja lewat jalan jauh</item>
+        <item>Bebas tanpa tujuan</item>
+        <item>Kilometer tenang</item>
+        <item>Leg day di alam terbuka</item>
+        <item>Mode keluyuran</item>
+        <item>Penjernih pikiran</item>
+        <item>Simfoni langkah</item>
+        <item>Urusan jalan cepat</item>
+        <item>Jalan demi gorengan</item>
+        <item>Parade merpati</item>
+        <item>Ogah jalan pintas</item>
+        <item>Putaran kehormatan</item>
+        <item>Mencari jati diri</item>
+        <item>Halo, udara segar</item>
+        <item>Kelana akhir pekan</item>
+        <item>Ekspedisi ukuran saku</item>
+        <item>Patroli subuh</item>
+        <item>Kardio santai</item>
+        <item>Coretan di peta</item>
+        <item>Jalan sambil merenung</item>
+    </string-array>
+</resources>

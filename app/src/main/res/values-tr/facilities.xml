@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Yakınımdaki yerler</string>
+    <string name="facility_locating">Konumunuz belirleniyor…</string>
+    <string name="facility_denied">Konum izni verilmedi, bu yüzden liste uzaklığa göre sıralanamıyor. Yine de bir ad yazabilirsiniz.</string>
+    <string name="facility_location_off">Bu telefonda konum kapalı.</string>
+    <string name="facility_location_settings">Konum ayarları</string>
+    <string name="facility_no_fix">Telefon şu anda nerede olduğunuzu belirleyemedi. Birazdan yeniden deneyin.</string>
+    <string name="facility_nothing_near">Listede size %1$s uzaklığa kadar hiçbir yer yok.</string>
+    <string name="facility_list_title">Klinikler ve hastaneler</string>
+    <string name="facility_near_title">Yakınınızda</string>
+    <string name="facility_near_kind">Yakınınızda: %1$s</string>
+    <string name="facility_near_gynaecology">Yakınınızda: kadın hastalıkları</string>
+    <string name="facility_near_imaging">Yakınınızda: radyoloji</string>
+    <string name="facility_near_gastroenterology">Yakınınızda: gastroenteroloji</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mil</string>
+    <string name="facility_help_title">Bu yerlerin kaynağı</string>
+    <string name="facility_help_what">Öneriler, sağlık kuruluşlarının resmî sicillerinden gelir. Liste uygulamanın içinde tutulur ve arama bu telefonda yapılır. Uygulama için siciller hastaların gidebileceği yerlerle sınırlandırıldı, sundukları hizmet türleri de uygulamanın bildiği doktor türlerine göre yeniden gruplandı. “Yer” alanının sonundaki konum düğmesi yalnızca bu ziyaret için seçilen hizmeti sunan yerleri, ziyaret başka bir doktoraysa tüm yerleri listeler; bir ad yazdığınızda ise arama hepsinde yapılır.</string>
+    <string name="facility_help_screening">Bir tarama için liste, o taramanın sık yapıldığı bölümleri gösterir: rahim ağzı taraması için kadın hastalıkları, mamografi için radyoloji, bağırsak taraması için gastroenteroloji. Sicil, bir bölümün bu taramayı kendisinin yapıp yapmadığını belirtmez; bu yüzden randevu alırken sorun.</string>
+    <string name="facility_help_coverage">Liste Çekya’yı, Ukrayna’yı ve Birleşik Arap Emirlikleri’ni kapsar. Ukrayna’da yalnızca Ukrayna Ulusal Sağlık Hizmeti ile sözleşmesi olan yerleri içerir. BAE’de ise şunları içerir: Dubai sicilinin Aralık 2023 sürümü; Abu Dabi’deki ruhsatlı yerler, 2022’de haritaya işlendikleri ve 2026’da hâlâ haritada bulundukları hâliyle; Emirates Health Services kurumuna bağlı devlet hastaneleri ve sağlık merkezleri. Şarika, Acman, Ümmülkayveyn, Ras el-Hayme ve Füceyre’deki özel klinikler listede yoktur. Bir sicil güncelliğini yitirmiş olabilir: gitmeden önce kurumun kendisine danışın.</string>
+    <string name="facility_help_location">Konum düğmesi Android’den yaklaşık konumunuzu bir kez ister ve bunu kabaca bir kilometreye yuvarlar. Konum bu telefonda listeyi sıralamak için kullanılır, hiçbir zaman kaydedilmez ya da bir yere gönderilmez ve bu sayfadan çıktığınızda unutulur.</string>
+    <string name="facility_help_sources">Kaynaklar</string>
+</resources>

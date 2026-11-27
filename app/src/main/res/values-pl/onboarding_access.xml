@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Wybierz potrzebne funkcje. Każda otwiera uprawnienia Androida. Możesz kontynuować bez dostępu i zmienić go później. Następnie pojawi się Health Connect.</string>
+    <string name="onboarding_access_body_alone">Wybierz potrzebne funkcje. Każda otwiera uprawnienia Androida. Możesz kontynuować bez dostępu i zmienić go później.</string>
+    <string name="onboarding_motion_title">Kroki i czujniki ruchu</string>
+    <string name="onboarding_motion_body">Aktywność fizyczna umożliwia liczenie kroków. Czujniki ruchu i ciśnienia powietrza nie wymagają osobnego uprawnienia.</string>
+    <string name="onboarding_notifications_title">Powiadomienia i przypomnienia</string>
+    <string name="onboarding_notifications_body">Pokazuj stan krokomierza oraz przypomnienia o lekach, jedzeniu i wodzie.</string>
+    <string name="onboarding_allowed">Zezwolono</string>
+    <string name="onboarding_bluetooth_body">Znajdowanie pobliskich wag i czujników oraz łączenie z nimi przez Bluetooth.</string>
+</resources>

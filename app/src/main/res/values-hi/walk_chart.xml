@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">ऊँचाई</string>
+    <string name="walk_chart_speed">गति</string>
+    <string name="walk_chart_no_elevation">इस सैर में ऊँचाई के पर्याप्त माप नहीं हैं</string>
+    <string name="walk_chart_no_speed">इस सैर में गति के पर्याप्त माप नहीं हैं</string>
+    <string name="walk_chart_spoken_elevation">ऊँचाई %1$s से %2$s तक</string>
+    <string name="walk_chart_spoken_speed">गति: औसत %1$s, अधिकतम %2$s</string>
+    <string name="walk_chart_unit_m">मी</string>
+    <string name="walk_chart_unit_ft">फ़ीट</string>
+    <string name="walk_chart_unit_kmh">किमी/घं</string>
+    <string name="walk_chart_unit_mph">मील/घं</string>
+</resources>

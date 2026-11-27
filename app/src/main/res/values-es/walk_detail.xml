@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Compartir la ruta</string>
+    <string name="walk_delete">Eliminar la ruta</string>
+    <string name="walk_delete_title">¿Eliminar esta ruta?</string>
+    <string name="walk_delete_body">La ruta, sus datos y sus fotos se borran del teléfono para siempre. Los archivos que ya hayas guardado o compartido se quedan donde están.</string>
+    <string name="walk_photos">Fotos</string>
+    <string name="walk_photos_help">Los números coinciden con los marcadores del mapa, que muestran dónde se hizo cada foto. Una foto hecha cuando el teléfono no tenía señal de GPS no tiene marcador. La dirección es el rumbo de brújula hacia el que se hizo la foto, contado desde el norte geográfico. La inclinación es cuánto apuntaba el teléfono por encima o por debajo del horizonte. «Vertical» u «horizontal» indica cómo se sostenía el teléfono.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">hacia el %1$s</string>
+    <string name="walk_photo_up">%1$d° arriba</string>
+    <string name="walk_photo_down">%1$d° abajo</string>
+    <string name="walk_photo_level">nivelada</string>
+    <string name="walk_photo_portrait">vertical</string>
+    <string name="walk_photo_landscape">horizontal</string>
+    <string name="walk_photo_upside_down">al revés</string>
+    <string name="walk_photo_no_direction">rumbo desconocido</string>
+    <string name="walk_photo_spoken">Foto %1$d: %2$s</string>
+    <string name="walk_photo_delete">Eliminar la foto %1$d</string>
+    <string name="walk_photo_delete_body">La imagen se borra del teléfono para siempre; la ruta en la que se hizo se queda.</string>
+    <string-array name="walk_compass_points">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>norte</item>
+        <item>noreste</item>
+        <item>este</item>
+        <item>sureste</item>
+        <item>sur</item>
+        <item>suroeste</item>
+        <item>oeste</item>
+        <item>noroeste</item>
+    </string-array>
+</resources>

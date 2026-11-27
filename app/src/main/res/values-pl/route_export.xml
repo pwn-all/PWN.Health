@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">Zapisz do pliku</string>
+    <string name="route_format_gpx_hint">Do map, zegarków i aplikacji sportowych</string>
+    <string name="route_format_geojson_hint">Do narzędzi GIS i map internetowych</string>
+    <string name="route_format_csv_hint">Każdy pomiar pozycji – do arkusza</string>
+</resources>

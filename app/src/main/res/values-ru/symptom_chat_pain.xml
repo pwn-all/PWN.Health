@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The chat’s pain thread (ChatPain.kt, PainChatRules.kt, SymptomChat.kt, SymptomRules.kt, Symptoms.kt). -->
+<resources>
+    <!-- The thread -->
+    <string name="pain_chat_start">Сочувствую, что болит.</string>
+    <string name="pain_chat_chest_resume">Спасибо. Теперь закончим запись о боли: вот что вы отметили. Если нужно, поправьте и отправьте.</string>
+    <string name="pain_chat_step_injury">Травма, падение или авария</string>
+    <string name="pain_chat_alert_in_person">Это нужно показать врачу прямо сейчас — в приёмном отделении больницы. Не садитесь за руль сами: попросите кого-нибудь отвезти вас или вызовите скорую помощь.</string>
+    <!-- The area question over chips the words proposed -->
+    <string name="pain_chat_ask_where">Где именно? Выберите место или покажите на теле.</string>
+    <!-- The area question over the body map -->
+    <string name="pain_chat_ask_map">Покажите, где болит: нажмите на это место или закрасьте его. Затем отправьте.</string>
+    <!-- The area question over the head’s chips -->
+    <string name="pain_chat_ask_head">Где именно на голове? Отметьте каждое место, где болит.</string>
+    <!-- A button beside the area chips: unfolds the body map -->
+    <string name="pain_chat_show_on_body">Показать на теле</string>
+    <!-- A button beside the area chips: unfolds the list of every area -->
+    <string name="pain_chat_choose_list">Выбрать из списка</string>
+    <!-- A chip beside the map: unfolds the head’s chips, which no plate shows -->
+    <string name="pain_chat_head">Голова или лицо</string>
+    <!-- An area chip for a pair: “Knee · both sides” -->
+    <string name="pain_chat_both_sides">%1$s · с обеих сторон</string>
+    <!-- Under the map after a touch that marked nothing -->
+    <string name="pain_chat_map_hint">Нажмите там, где болит, или закрасьте это место.</string>
+    <!-- Under the map past the drawing’s caps -->
+    <string name="pain_chat_map_too_much">Рисунка больше, чем помещается в одну запись: области сохранятся, а сам рисунок — нет.</string>
+    <string name="pain_chat_ask_injury">Это началось после травмы, падения или аварии?</string>
+    <!-- The second list of red flags -->
+    <string name="pain_chat_ask_signs_more">А что-то из этого есть?</string>
+    <!-- After a fever ticked below a call to emergency services -->
+    <string name="pain_chat_ask_sepsis">А вместе с этим есть что-нибудь из перечисленного?</string>
+    <string name="pain_chat_ask_types">Какая это боль? Выберите не больше двух.</string>
+    <!-- Takes the same pain’s earlier words at once: “Keep: aching, tight” -->
+    <string name="pain_chat_keep_words">Оставить: %1$s</string>
+    <!-- The 1–10 in a chat for an earlier day -->
+    <string name="pain_chat_nrs_day">Насколько сильно — в среднем за тот день?</string>
+    <string name="pain_chat_status_day">К концу того дня боль ещё была?</string>
+    <string name="pain_chat_painkiller_day">Принимали в тот день обезболивающее от этой боли?</string>
+    <!-- “The same pain?” about a pain noted earlier in this chat -->
+    <string name="pain_chat_same_here">Эта боль уже записана выше.</string>
+    <!-- “The same pain?” about an entry gone since: its day -->
+    <string name="pain_chat_same_gone">Боль в этом месте записана %1$s.</string>
+    <!-- A button beside “The same pain?”: opens the earlier entry, answers nothing -->
+    <string name="pain_chat_open_that">Открыть ту запись</string>
+    <!-- A chip after a painkiller answered “yes” -->
+    <string name="pain_chat_follow_dose">Записать, что вы приняли</string>
+    <!-- A chip for a pain the person’s words named, by its part of the body: “Pain: Knee” -->
+    <string name="pain_chat_topic_area">Боль: %1$s</string>
+    <!-- The red flags, each the generic label of its option (pain_chat_sign_<option>) -->
+    <string name="pain_chat_sign_sudden_severe">Началась внезапно и очень сильная</string>
+    <string name="pain_chat_sign_sudden_or_severe">Началась очень внезапно или очень сильная</string>
+    <string name="pain_chat_sign_sudden_or_bad">Началась внезапно или очень сильная</string>
+    <string name="pain_chat_sign_very_painful">Очень сильная боль</string>
+    <string name="pain_chat_sign_chest_too">Также боль, давление, стеснение, тяжесть или сдавливание в груди</string>
+    <string name="pain_chat_sign_breathing_hard">Трудно дышать</string>
+    <string name="pain_chat_sign_fast_heart">Сердце бьётся очень часто</string>
+    <string name="pain_chat_sign_tingle_numb">Онемение, покалывание или мурашки</string>
+    <string name="pain_chat_sign_odd_shape">Изменилась форма или стоит под неестественным углом</string>
+    <string name="pain_chat_sign_crack">В момент травмы был хруст, щелчок или треск</string>
+    <string name="pain_chat_sign_bone_out">Видна кость, глубокая рана или сильное кровотечение</string>
+    <string name="pain_chat_sign_blue_cold">Кожа вокруг синяя, серая или бледная либо холодная на ощупь</string>
+    <string name="pain_chat_sign_skin_colour">Кожа вокруг изменила цвет</string>
+    <string name="pain_chat_sign_no_weight">Не получается наступить на ногу или пройти больше нескольких шагов</string>
+    <string name="pain_chat_sign_cant_move">Не получается пошевелить или удержать предметы</string>
+    <string name="pain_chat_sign_severe_cant_move">Сильная боль, и рукой трудно двигать</string>
+    <string name="pain_chat_sign_swell_bruise">Сильный отёк или синяк, или он увеличивается</string>
+    <string name="pain_chat_sign_fast_swell">Очень быстро сильно отекло</string>
+    <string name="pain_chat_sign_stiff_hard">Очень скованно, трудно двигать</string>
+    <string name="pain_chat_sign_faint_from_pain">От боли кружится голова, тошнит или становится дурно</string>
+    <string name="pain_chat_sign_hot_red_swollen">Это место горячее, красное или опухшее</string>
+    <string name="pain_chat_sign_hot_or_cold">Рука или плечо горячие или холодные на ощупь</string>
+    <string name="pain_chat_sign_swollen_joint">Отёк вокруг сустава</string>
+    <string name="pain_chat_sign_feverish">Высокая температура, жар, холод или озноб</string>
+    <string name="pain_chat_sign_locks_gives">Заклинивает, подкашивается или болезненно щёлкает</string>
+    <string name="pain_chat_sign_kneecap_slipped">Коленная чашечка будто выскочила и встала на место</string>
+    <string name="pain_chat_sign_shock">Холодный пот, частый или слабый пульс, частое поверхностное дыхание</string>
+    <string name="pain_chat_sign_tiptoe_stairs">Не получается встать на носки или подняться по лестнице</string>
+    <string name="pain_chat_sign_calf_ankle_swell">Отёк и синяк на икре и лодыжке</string>
+    <string name="pain_chat_sign_big_toe">Возможно, сломан большой палец ноги</string>
+    <string name="pain_chat_sign_exercise_eases">Болит при нагрузке и проходит в покое</string>
+    <string name="pain_chat_sign_worse_fast">Быстро становится хуже</string>
+    <string name="pain_chat_sign_severe_since_fall">Сильная боль после падения или травмы</string>
+    <string name="pain_chat_sign_seizure">Судороги (припадок)</string>
+    <string name="pain_chat_sign_numb_weak">Онемение или слабость в теле или лице</string>
+    <string name="pain_chat_sign_speak_balance">Трудно говорить, держать равновесие, ходить или вспоминать</string>
+    <string name="pain_chat_sign_drowsy_confused">Сильная сонливость или путаются мысли</string>
+    <string name="pain_chat_sign_vision_loss">Помутнение зрения или потеря зрения на один или оба глаза</string>
+    <string name="pain_chat_sign_head_injury">Травма головы за последние 3 месяца</string>
+    <string name="pain_chat_sign_fever_stiff_light">Очень высокая температура, скованность шеи или раздражает яркий свет</string>
+    <string name="pain_chat_sign_eye_problems">Проблемы со зрением или с глазами</string>
+    <string name="pain_chat_sign_worse_strain">Хуже при кашле, чихании, наклоне или нагрузке</string>
+    <string name="pain_chat_sign_jaw_scalp">Боль в челюсти при еде или болезненная кожа головы</string>
+    <string name="pain_chat_sign_child_worse">Становится хуже или будит ночью</string>
+    <string name="pain_chat_sign_high_temp">Очень высокая или очень низкая температура, жар или холод на ощупь, озноб</string>
+    <string name="pain_chat_sign_severe_headache">Очень сильная головная боль</string>
+    <string name="pain_chat_sign_light_hurts">Невозможно смотреть на яркий свет</string>
+    <string name="pain_chat_sign_walk_sit">Трудно ходить или сидеть прямо</string>
+    <string name="pain_chat_sign_electric">Внезапное ощущение «удара током» в шее и спине</string>
+    <string name="pain_chat_sign_weak_limbs">Слабость в кистях, руках или ногах</string>
+    <string name="pain_chat_sign_severe_despite">Сильная боль даже после парацетамола или ибупрофена</string>
+    <string name="pain_chat_sign_both_legs">Боль, покалывание, слабость или онемение в обеих ногах</string>
+    <string name="pain_chat_sign_saddle">Нет чувствительности вокруг половых органов или заднего прохода</string>
+    <string name="pain_chat_sign_bladder_bowel">Изменения при мочеиспускании или стуле: трудно помочиться или не получается удержать</string>
+    <string name="pain_chat_sign_sex_changes">Изменились ощущения при сексе, трудности с эрекцией или оргазмом</string>
+    <string name="pain_chat_sign_serious_accident">Началось после серьёзной аварии, например автомобильной</string>
+    <string name="pain_chat_sign_pee_blood">Кровь в моче</string>
+    <string name="pain_chat_sign_sick">Тошнит или рвёт</string>
+    <string name="pain_chat_sign_very_low_temp">Очень низкая температура, ниже 36 °C</string>
+    <string name="pain_chat_sign_lump_shape">Шишка или припухлость на спине, или изменилась её форма</string>
+    <string name="pain_chat_sign_night_rest">Не легче в покое или хуже ночью</string>
+    <string name="pain_chat_sign_cough_sneeze_poo">Хуже при чихании, кашле или в туалете</string>
+    <string name="pain_chat_sign_tender_tummy">Больно, когда касаетесь живота</string>
+    <string name="pain_chat_sign_worse_or_moving">Усиливается или болит, когда вы двигаетесь</string>
+    <string name="pain_chat_sign_vomit_blood">Рвота кровью или похожая на кофейную гущу</string>
+    <string name="pain_chat_sign_black_poo">Кровь в стуле или чёрный, липкий стул с резким запахом</string>
+    <string name="pain_chat_sign_cant_pee_poo">Не получается помочиться, сходить в туалет или выпустить газы</string>
+    <string name="pain_chat_sign_shoulder_tip">Боль в самом верху плеча</string>
+    <string name="pain_chat_sign_yellow">Пожелтели кожа или белки глаз</string>
+    <string name="pain_chat_sign_diabetes_sick">У вас диабет и рвота</string>
+    <string name="pain_chat_sign_confused_pale">Спутанность или синяя, серая, бледная либо пятнистая кожа, губы или язык</string>
+    <string name="pain_chat_sign_heavy_bleeding">Сильное кровотечение из влагалища</string>
+    <string name="pain_chat_sign_keeps_coming">Не проходит или возвращается</string>
+    <string name="pain_chat_sign_bloating">Вздутие, которое не проходит или возвращается</string>
+    <string name="pain_chat_sign_pee_change">Мочеиспускание чаще или реже обычного, или вдруг стало больно мочиться</string>
+    <string name="pain_chat_sign_bottom_bleed">Кровь из заднего прохода, в моче или в стуле</string>
+    <string name="pain_chat_sign_hard_to_pee_poo">Трудно помочиться или сходить в туалет</string>
+    <string name="pain_chat_sign_sick_diarrhoea">Рвота и понос или тошнота</string>
+    <string name="pain_chat_sign_diarrhoea_days">Понос, который не прошёл за несколько дней</string>
+    <string name="pain_chat_sign_moved_right">Боль сместилась вниз вправо</string>
+    <string name="pain_chat_sign_vaginal">Необычное кровотечение или выделения из влагалища</string>
+    <string name="pain_chat_sign_clot_signs">Пульсирующая боль или отёк в одной ноге либо набухшие вены</string>
+    <string name="pain_chat_sign_leg_skin">Покраснение, посинение или потемнение кожи вокруг больного места</string>
+    <string name="pain_chat_sign_sudden_worse_leg">Боль или отёк внезапно усилились, или отёк стал твёрже либо мягче</string>
+    <string name="pain_chat_sign_warm_swollen">Отёк, синяк и горячая кожа на ноге</string>
+    <string name="pain_chat_sign_sick_cant_eat">Тошнит или не получается есть</string>
+    <string name="pain_chat_sign_has_diabetes">У меня диабет</string>
+    <string name="pain_chat_sign_spread_back_sick">Боль отдаёт из живота в спину, и есть рвота</string>
+    <string name="pain_chat_sign_joint_worse">Внезапная боль и отёк в суставе, и боль усиливается</string>
+    <string name="pain_chat_sign_passed_out">Потеря сознания, даже ненадолго</string>
+    <!-- A red flag in the words of one family’s pages (pain_chat_sign_<option>_<family>), and the reused options’ own -->
+    <string name="pain_chat_sign_very_painful_inj">Очень сильная боль или она усиливается</string>
+    <string name="pain_chat_sign_chest_too_back_belly">Боль в груди</string>
+    <string name="pain_chat_sign_chest_too_leg">Боль в груди или в верхней части спины</string>
+    <string name="pain_chat_sign_tingle_numb_neck">Покалывание, мурашки или холодная рука</string>
+    <string name="pain_chat_sign_tingle_numb_neck_inj">Покалывание или мурашки с одной или с обеих сторон тела</string>
+    <string name="pain_chat_sign_tingle_numb_shoulder">Мурашки, которые не проходят, или рука либо плечо онемели</string>
+    <string name="pain_chat_sign_tingle_numb_arm">Рука покалывает или немеет</string>
+    <string name="pain_chat_sign_tingle_numb_hand">Пропала чувствительность в части кисти или во всей кисти</string>
+    <string name="pain_chat_sign_tingle_numb_hip_inj">Покалывание или потеря чувствительности в бедре или ноге</string>
+    <string name="pain_chat_sign_tingle_numb_foot">Покалывание или потеря чувствительности в стопе</string>
+    <string name="pain_chat_sign_odd_shape_shoulder">Рука или плечо изменили форму или сильно опухли</string>
+    <string name="pain_chat_sign_odd_shape_hand">Изменились форма или цвет</string>
+    <string name="pain_chat_sign_odd_shape_knee">Колено сильно опухло или изменило форму</string>
+    <string name="pain_chat_sign_odd_shape_leg_inj">Нога вывернута, согнута или стоит под неестественным углом</string>
+    <string name="pain_chat_sign_odd_shape_foot">Лодыжка или стопа изменили форму или стоят под неестественным углом</string>
+    <string name="pain_chat_sign_no_weight_hip">Не получается ходить или наступать на ногу</string>
+    <string name="pain_chat_sign_no_weight_knee">Не получается подвигать коленом или наступить на ногу</string>
+    <string name="pain_chat_sign_no_weight_leg_inj">Больно наступать на ногу</string>
+    <string name="pain_chat_sign_no_weight_foot">Не получается ходить</string>
+    <string name="pain_chat_sign_cant_move_shoulder">Не получается пошевелить рукой</string>
+    <string name="pain_chat_sign_swell_bruise_knee_inj">Отёк или синяк</string>
+    <string name="pain_chat_sign_hot_red_swollen_hand">Шишка — очень болезненная, горячая или красная</string>
+    <string name="pain_chat_sign_hot_red_swollen_hip">Тазобедренный сустав опух и горячий</string>
+    <string name="pain_chat_sign_hot_red_swollen_foot">Стопа горячая и опухшая</string>
+    <string name="pain_chat_sign_feverish_shoulder">Знобит, температура или общее недомогание</string>
+    <string name="pain_chat_sign_feverish_back">Жар, холод, озноб или общее недомогание</string>
+    <string name="pain_chat_sign_feverish_belly">Очень высокая температура, жар, холод или озноб</string>
+    <string name="pain_chat_sign_feverish_hip">Общее недомогание и высокая температура, жар, холод или озноб</string>
+    <string name="pain_chat_sign_clot_signs_arm">Пульсирующая боль или отёк в этой руке либо покраснение, посинение или потемнение кожи вокруг</string>
+    <string name="pain_chat_sign_confused_neck">Спутанность, невнятная речь или бессвязность</string>
+    <string name="pain_chat_sign_confused_lower_back">Спутанность, сонливость или трудно говорить</string>
+    <string name="pain_chat_sign_breathless_leg">Одышка</string>
+    <string name="pain_chat_sign_dizzy_faint_belly">Дурнота, головокружение или обморок</string>
+    <string name="pain_chat_sign_pregnancy">Беременность или возможная беременность</string>
+</resources>

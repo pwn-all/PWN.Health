@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">ファイル付き</string>
+    <string name="report_archive_hint">ZIP には、PDF レポートと、選んだ項目と期間に含まれる、済んだ受診、臨床検査の記録、服薬に添付したファイルの原本が入ります：超音波検査、X 線検査、CT、MRI、ドップラー超音波検査、その他の書類です。ファイル一覧には、添付ファイルごとに、それが属する記録と日付を載せています。</string>
+    <string name="report_archive_preview">添付ファイルの原本：%1$d 件。ZIP には PDF と、これらのファイルがそのまま入ります。</string>
+    <string name="report_archive_index_header">ファイル\t記録日\t項目\t記録\t種類\t検査日\t説明</string>
+    <string name="report_archive_unavailable">添付ファイル %1$s を読み取れませんでした。元のファイルにアクセスできる状態に戻してから、もう一度書き出してください。</string>
+    <string name="report_visits_patient_notes">済んだ受診と診察のメモは、患者本人が記録したとおりに載せています。</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">每日步数</string>
+    <string name="onboarding_steps_body">选一个你打算坚持的目标。在一项有 500 名成年人参加的试验中，只有自己选定目标的人走得更多了。目标随时可以在个人资料里修改。</string>
+    <string name="onboarding_steps_suggested">按你的年龄建议：%1$s</string>
+    <string name="onboarding_steps_use_suggested">采用建议</string>
+    <string name="onboarding_steps_distance">按你的步幅每天约 %1$s</string>
+    <string name="onboarding_bmi_source">世卫组织成人区间</string>
+    <string name="onboarding_ready_steps">每日步数目标</string>
+    <string name="onboarding_ready_resting">静息能量</string>
+    <string name="onboarding_ready_kcal_day">每天 %1$s 千卡</string>
+    <string name="onboarding_ready_local">根据你的回答在这台手机上算出：静息能量用 Mifflin–St Jeor 公式，BMI 按世卫组织成人区间。没有发送到任何地方。</string>
+</resources>

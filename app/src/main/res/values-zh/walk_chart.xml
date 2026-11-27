@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">海拔</string>
+    <string name="walk_chart_speed">速度</string>
+    <string name="walk_chart_no_elevation">这次步行的海拔读数不足</string>
+    <string name="walk_chart_no_speed">这次步行的速度读数不足</string>
+    <string name="walk_chart_spoken_elevation">海拔从 %1$s 到 %2$s</string>
+    <string name="walk_chart_spoken_speed">速度：平均 %1$s，最高 %2$s</string>
+    <string name="walk_chart_unit_m">米</string>
+    <string name="walk_chart_unit_ft">英尺</string>
+    <string name="walk_chart_unit_kmh">公里/小时</string>
+    <string name="walk_chart_unit_mph">英里/小时</string>
+</resources>

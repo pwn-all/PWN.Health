@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">اختر الميزات التي تريد تفعيلها. تفتح كل ميزة أذونات Android. يمكنك المتابعة دون منح الإذن وتغييره لاحقًا. سيُعرض Health Connect بعد ذلك.</string>
+    <string name="onboarding_access_body_alone">اختر الميزات التي تريد تفعيلها. تفتح كل ميزة أذونات Android. يمكنك المتابعة دون منح الإذن وتغييره لاحقًا.</string>
+    <string name="onboarding_motion_title">الخطوات ومستشعرات الحركة</string>
+    <string name="onboarding_motion_body">يتيح إذن النشاط البدني عدّ الخطوات. لا تحتاج مستشعرات الحركة والضغط الجوي إلى إذن منفصل.</string>
+    <string name="onboarding_notifications_title">الإشعارات والتذكيرات</string>
+    <string name="onboarding_notifications_body">عرض حالة عدّاد الخطوات والتذكير بالأدوية والطعام والماء.</string>
+    <string name="onboarding_allowed">مسموح</string>
+    <string name="onboarding_bluetooth_body">العثور على الموازين وأجهزة الاستشعار القريبة والاتصال بها عبر Bluetooth.</string>
+</resources>

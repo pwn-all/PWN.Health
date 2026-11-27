@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Kroky za den</string>
+    <string name="onboarding_steps_body">Zvolte cíl, který chcete dodržet. Ve studii s 500 dospělými začali víc chodit jen ti, kdo si cíl vybrali sami. V profilu ho můžete kdykoli změnit.</string>
+    <string name="onboarding_steps_suggested">Doporučeno pro váš věk: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Použít doporučení</string>
+    <string name="onboarding_steps_distance">Asi %1$s denně při vaší délce kroku</string>
+    <string name="onboarding_bmi_source">Pásma WHO pro dospělé</string>
+    <string name="onboarding_ready_steps">Denní cíl kroků</string>
+    <string name="onboarding_ready_resting">Klidová energie</string>
+    <string name="onboarding_ready_kcal_day">%1$s kcal denně</string>
+    <string name="onboarding_ready_local">Spočítáno v tomto telefonu z vašich odpovědí: klidová energie podle Mifflina–St Jeora, BMI podle pásem WHO pro dospělé. Nic nebylo nikam odesláno.</string>
+</resources>

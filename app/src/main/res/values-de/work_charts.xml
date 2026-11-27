@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Arbeitsstunden pro Woche</string>
+    <string name="work_charts_legend_median">Ihr Median</string>
+    <string name="work_charts_gap_note">Eine Woche, die nicht gezählt wurde, hat keinen Balken: Sie ist keine Woche ohne Arbeit.</string>
+    <string name="work_charts_other_days">Andere Arbeitstage</string>
+    <string name="work_charts_days_off">Freie Tage</string>
+    <string name="work_charts_pair_note">Die Balken sind die Arbeitsstunden, einer für jede gezählte Woche. Die Linie ist der unter dem Diagramm genannte Wert für dieselbe Woche, gemessen an Ihrem eigenen Durchschnitt, dem Mittelwert der Wochen mit einem Punkt: über der Mittellinie, wenn er höher war, darunter, wenn er niedriger war. Sie zeigen, was in denselben Wochen erfasst wurde, nicht Ursache und Wirkung.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Der Punkt einer Woche braucht %1$d Tag mit Wert; eine Woche mit weniger hinterlässt eine Lücke in der Linie, nie eine Null.</item>
+        <item quantity="other">Der Punkt einer Woche braucht %1$d Tage mit Wert; eine Woche mit weniger hinterlässt eine Lücke in der Linie, nie eine Null.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: über Ihrem Durchschnitt</string>
+    <string name="work_charts_spoken_below">%1$s: unter Ihrem Durchschnitt</string>
+    <string name="work_charts_spoken_at">%1$s: genau bei Ihrem Durchschnitt</string>
+    <string name="work_charts_spoken_gap">%1$s: zu wenige Tage erfasst</string>
+</resources>

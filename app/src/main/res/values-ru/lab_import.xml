@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">Прочитать фото или PDF</string>
+    <string name="lab_import_review">Сверьте дату, значения и единицы с оригиналом. Заполняются только пустые поля. Результаты сохранятся после сохранения формы.</string>
+    <string name="lab_import_empty">Поддерживаемые результаты не распознаны. Попробуйте более чёткое фото или введите их вручную.</string>
+    <string name="lab_import_veterinary">Похоже, это ветеринарный бланк. Его нельзя перенести в анализы человека.</string>
+    <string name="lab_import_error">Не удалось прочитать файл. Выберите фото или PDF без пароля (до 20 страниц, 32 МБ).</string>
+    <string name="lab_import_password">Этот PDF защищён. Введите пароль, чтобы его прочитать.</string>
+    <string name="lab_import_date_unknown">Дата взятия образца не распознана. Проверьте дату в форме.</string>
+    <string name="lab_import_date_conflict">На этой странице другая дата. Сначала сохраните или очистите текущие результаты.</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">Не разобрано показателей: %1$d</string>
+</resources>

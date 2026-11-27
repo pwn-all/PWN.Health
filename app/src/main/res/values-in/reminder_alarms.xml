@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: obat ini seharusnya diminum sebelum makan; belum ditandai diminum.</string>
+    <string name="med_reminder_with">%1$s: makanan sudah dicatat; obat ini diminum saat makan.</string>
+    <string name="med_reminder_needs_with_food">%1$s: obat ini diminum saat makan, tetapi belum ada catatan makanan.</string>
+    <string name="med_alarm_title">Alarm obat</string>
+    <string name="med_alarm_dismiss">Matikan suara</string>
+    <string name="med_alarm_open">Buka aplikasi</string>
+    <string name="med_alarm_not_taken">Mematikan suara tidak menandai obat sudah diminum.</string>
+    <string name="med_alarm_settings_body">Alarm berbunyi hingga satu menit. Izinkan waktu yang tepat dan tampilan di layar kunci. Tanpa izin ini, pengingat bisa terlambat atau muncul sebagai notifikasi. Makanan dan air memakai notifikasi biasa.</string>
+    <string name="med_alarm_exact_access">Izinkan waktu alarm yang tepat</string>
+    <string name="med_alarm_full_screen_access">Izinkan alarm di layar kunci</string>
+    <string name="med_alarm_channel_muted">Saluran “%1$s” dibisukan di pengaturan Android, jadi dosis muncul sebagai notifikasi biasa, tanpa bunyi alarm.</string>
+    <string name="med_alarm_channel_open">Buka pengaturan saluran</string>
+    <string name="reminder_food_title">Sudah waktunya makan?</string>
+    <string name="reminder_food_body">Sudah waktunya makan? Atau Anda makan tanpa saya?</string>
+    <string name="reminder_water_title">Jangan lupa minum</string>
+    <string name="reminder_water_body">Jangan lupa minum cairan. Tambahkan air.</string>
+    <string name="med_action_taken">Sudah diminum</string>
+    <string name="med_action_later">Nanti</string>
+</resources>

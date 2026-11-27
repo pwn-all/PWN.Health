@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">痛みの履歴</string>
+    <string name="pain_history_empty">痛みの記録はまだありません。</string>
+    <string name="pain_history_onset_just_now">記録した時点で始まった</string>
+    <string name="pain_history_onset_earlier_today">記録と同じ日に始まった</string>
+    <string name="pain_history_onset_yesterday">記録の前日に始まった</string>
+    <string name="pain_history_onset_days_2_3">記録の 2〜3 日前に始まった</string>
+    <string name="pain_history_onset_about_week">記録の 1 週間ほど前に始まった</string>
+    <string name="pain_history_onset_about_month">記録の 1 か月ほど前に始まった</string>
+    <string name="pain_history_onset_more_than_month">記録の 1 か月より前に始まった</string>
+    <string name="pain_history_onset_week">記録の 4 日〜3 か月前に始まった</string>
+    <string name="pain_history_onset_months_3">記録の 3 か月より前に始まった</string>
+    <string name="pain_history_same">%1$s の記録と同じ痛み</string>
+    <string name="pain_history_still_hurts">記録時もまだ痛んでいた</string>
+    <string name="pain_history_lasted">%1$s 続いた</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Rotayı paylaş</string>
+    <string name="walk_delete">Rotayı sil</string>
+    <string name="walk_delete_title">Bu rota silinsin mi?</string>
+    <string name="walk_delete_body">Rota, verileri ve fotoğraflarıyla birlikte telefondan kalıcı olarak silinir. Daha önce kaydettiğiniz veya paylaştığınız dosyalar olduğu yerde kalır.</string>
+    <string name="walk_photos">Fotoğraflar</string>
+    <string name="walk_photos_help">Numaralar haritadaki işaretlerle eşleşir; işaretler her fotoğrafın çekildiği yeri gösterir. Telefonun GPS konumu yokken çekilen fotoğrafın işareti olmaz. Yön, fotoğrafın çekildiği doğrultunun coğrafi kuzeyden ölçülen pusula açısıdır. Eğim, telefonun ufkun ne kadar üstüne ya da altına baktığıdır. Dikey ya da yatay, telefonun nasıl tutulduğunu gösterir.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">%1$s yönünde</string>
+    <string name="walk_photo_up">%1$d° yukarı</string>
+    <string name="walk_photo_down">%1$d° aşağı</string>
+    <string name="walk_photo_level">ufuk hizasında</string>
+    <string name="walk_photo_portrait">dikey</string>
+    <string name="walk_photo_landscape">yatay</string>
+    <string name="walk_photo_upside_down">baş aşağı</string>
+    <string name="walk_photo_no_direction">yön bilinmiyor</string>
+    <string name="walk_photo_spoken">Fotoğraf %1$d: %2$s</string>
+    <string name="walk_photo_delete">%1$d. fotoğrafı sil</string>
+    <string name="walk_photo_delete_body">Fotoğraf telefondan kalıcı olarak silinir. Çekildiği rota ise kalır.</string>
+    <string-array name="walk_compass_points">
+        <item>K</item>
+        <item>KD</item>
+        <item>D</item>
+        <item>GD</item>
+        <item>G</item>
+        <item>GB</item>
+        <item>B</item>
+        <item>KB</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>kuzey</item>
+        <item>kuzeydoğu</item>
+        <item>doğu</item>
+        <item>güneydoğu</item>
+        <item>güney</item>
+        <item>güneybatı</item>
+        <item>batı</item>
+        <item>kuzeybatı</item>
+    </string-array>
+</resources>

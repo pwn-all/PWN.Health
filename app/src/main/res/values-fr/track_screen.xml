@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Détails</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Détails</string>
+    <string name="track_signal_good">Bon signal GPS</string>
+    <string name="track_signal_fair">Signal GPS moyen</string>
+    <string name="track_signal_poor">Signal GPS faible</string>
+    <string name="track_signal_searching">Recherche du signal GPS</string>
+    <string name="track_signal_location_off">Localisation désactivée</string>
+    <string name="track_signal_no_access">Pas d’accès à la localisation</string>
+    <string name="track_info_title">Signal et itinéraire</string>
+    <string name="track_signal_title">Signal GPS</string>
+    <string name="track_signal_note">Les barres indiquent avec quelle précision le téléphone connaît sa position. Trois barres : précision de %1$s ou mieux. Deux : jusqu’à %2$s. Une : précision plus faible. Aucune : pas de position depuis dix secondes, pendant que le téléphone cherche encore. Cet écran n’accède à la position que lorsqu’il est ouvert, pour afficher le signal et l’endroit où vous êtes.</string>
+    <string name="track_history_empty">Aucun itinéraire enregistré pour l’instant.</string>
+    <string name="track_map_here">Carte autour de votre position</string>
+    <string name="track_map_waiting">Carte du monde. Votre position n’est pas encore connue.</string>
+    <string name="track_map_follow_here">Revenir à votre position</string>
+    <string name="track_pause">Mettre l’enregistrement en pause</string>
+    <string name="track_resume">Reprendre l’enregistrement</string>
+    <string name="track_value_paused">en pause</string>
+    <string name="track_value_ended">terminé</string>
+    <string name="track_finish_title">Terminer cet itinéraire ?</string>
+    <string name="track_finish_body">L’enregistrement s’arrête et l’itinéraire est enregistré. Pour une simple pause, appuyez plutôt sur Pause.</string>
+    <string name="track_finish">Terminer</string>
+    <string name="track_keep_recording">Continuer l’enregistrement</string>
+    <string name="track_finished">Itinéraire terminé</string>
+</resources>

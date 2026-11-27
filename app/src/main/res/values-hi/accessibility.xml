@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">पिछला महीना</string>
+    <string name="m3_cal_next_month">अगला महीना</string>
+    <string name="m3_cal_previous_year">पिछला साल</string>
+    <string name="m3_cal_next_year">अगला साल</string>
+    <string name="m3_cal_period_ended">समाप्त: %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s।</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="one">%1$d सप्ताह</item>
+        <item quantity="other">%1$d सप्ताह</item>
+    </plurals>
+    <string name="a11y_state_expanded">बड़ा किया गया</string>
+    <string name="a11y_state_collapsed">छोटा किया गया</string>
+    <string name="a11y_hours">घंटे</string>
+    <string name="a11y_minutes">मिनट</string>
+    <string name="a11y_seconds">सेकंड</string>
+    <string name="a11y_zoom_in">ज़ूम इन करें</string>
+    <string name="a11y_zoom_out">ज़ूम आउट करें</string>
+    <string name="m3_editor_attachment_kind">दस्तावेज़ का प्रकार</string>
+    <string name="m3_editor_attachment_describe">%1$s का ब्यौरा लिखें</string>
+    <string name="m3_editor_attachment_remove">%1$s हटाएँ</string>
+    <string name="m3_editor_attachment_read_result">%1$s से परिणाम जोड़ें</string>
+    <string name="m3_editor_energy_share">आज के ऊर्जा लक्ष्य का हिस्सा</string>
+    <string name="bathroom_kind_previous">पिछला प्रकार</string>
+    <string name="bathroom_kind_next">अगला प्रकार</string>
+    <string name="smoking_bowl_smaller">छोटी चिलम</string>
+    <string name="smoking_bowl_larger">बड़ी चिलम</string>
+    <string name="smoking_less_nicotine">कम निकोटीन</string>
+    <string name="smoking_more_nicotine">ज़्यादा निकोटीन</string>
+    <string name="progress_photo_delete_dated">%1$s की फ़ोटो हटाएँ</string>
+    <string name="home_notice_dismiss">“%1$s” ख़ारिज करें</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">%2$d में से कार्ड %1$d</string>
+    <string name="home_chart_busiest">%1$s: सबसे व्यस्त घंटा %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">पहचाने गए पृष्ठ दिखाएँ</string>
+    <string name="m3_labs_open_chart">चार्ट खोलें</string>
+    <string name="m3_labs_chart_sideways">चार्ट को आड़ा घुमाएँ</string>
+    <string name="m3_labs_chart_earlier">पहले के मान</string>
+    <string name="m3_labs_chart_later">बाद के मान</string>
+    <string name="med_a11y_mark_dose">%1$s, %2$s दर्ज करें</string>
+    <string name="med_a11y_undo_dose">%1$s, %2$s पूर्ववत करें</string>
+    <string name="med_a11y_edit_course">%1$s बदलें</string>
+    <string name="med_a11y_delete_course">%1$s हटाएँ</string>
+    <string name="med_history_current">चालू</string>
+    <string name="m3_pain_time_left">%1$s बाक़ी</string>
+    <string name="m3_pain_remove_area">हटाएँ</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">%2$d में से चरण %1$d</string>
+    <string name="m3_profile_advice_level_clinician">चिकित्सक से बात करने लायक़</string>
+    <string name="m3_profile_advice_level_attention">नज़र रखने लायक़</string>
+    <string name="m3_profile_advice_level_habit">ग़ौर करने लायक़ एक आदत</string>
+    <string name="m3_profile_password_mismatch">पासवर्ड मेल नहीं खाते</string>
+    <string name="m3_profile_password_show">पासवर्ड दिखाएँ</string>
+    <string name="m3_profile_password_hide">पासवर्ड छिपाएँ</string>
+    <string name="m3_sync_connected">%1$s से जुड़ गया।</string>
+    <string name="m3_sync_disconnected">%1$s से अलग हो गया।</string>
+    <string name="m3_sync_error_scan">खोज शुरू नहीं हो सकी। थोड़ा रुकें, फिर दोबारा खोजें।</string>
+    <string name="m3_sync_error_pairing">पेयरिंग पूरी नहीं हुई। पेयरिंग का अनुरोध स्वीकार करें, फिर दोबारा जोड़ें।</string>
+    <string name="m3_sync_error_stale_bond">इस फ़ोन की उपकरण से पेयरिंग अब काम नहीं करती। Android की ब्लूटूथ सेटिंग में उपकरण को भूल जाएँ, फिर दोबारा जोड़ें और पेयरिंग का अनुरोध स्वीकार करें।</string>
+    <string name="m3_sync_error_no_answer">उपकरण ने जवाब नहीं दिया। उसे जगाएँ, पास रखें, फिर दोबारा जोड़ें।</string>
+    <string name="m3_sync_error_generic">उपकरण से जुड़ा नहीं जा सका। दोबारा कोशिश करें।</string>
+    <string name="m3_sync_no_skin_contact">स्ट्रैप बता रहा है कि त्वचा से संपर्क नहीं है। इलेक्ट्रोड गीले करें और स्ट्रैप को कसकर बाँधें।</string>
+    <string name="m3_sync_reading_incomplete">उपकरण ने पूरी रीडिंग नहीं भेजी, इसलिए इसे सहेजा नहीं जा सकता।</string>
+    <string name="m3_sync_connect_named">%1$s से जुड़ें</string>
+    <string name="m3_sync_firmware">फ़र्मवेयर %1$s</string>
+    <string name="m3_sync_scale_clock_unset">आने के समय की तारीख़: तराज़ू की घड़ी सेट नहीं थी</string>
+    <string name="m3_sync_health_running">इस फ़ोन पर Health Connect के साथ आदान-प्रदान हो रहा है…</string>
+    <string name="m3_sync_failed_permission">Health Connect ने पहुँच नहीं दी; जाँचें कि किसकी अनुमति दी गई है।</string>
+    <string name="m3_sync_failed_unavailable">इस फ़ोन पर Health Connect ने जवाब नहीं दिया।</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect ने रुकने को कहा; ऐप बाद में फिर कोशिश करेगा।</string>
+    <string name="m3_sync_failed_other">Health Connect ने एक त्रुटि लौटाई।</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, आम छुट्टी का दिन</string>
+    <string name="m3_work_sensor_unclassified">वर्गीकृत नहीं</string>
+    <string name="m3_work_motion_still">स्थिर</string>
+    <string name="m3_work_motion_shaking">हिल रहा है</string>
+    <string name="m3_work_motion_non_gait">कदमों के बिना हलचल</string>
+    <string name="m3_work_posture_in_hand">हाथ में</string>
+    <string name="m3_work_posture_pocket">जेब में</string>
+    <string name="m3_work_posture_flat">सपाट रखा हुआ</string>
+    <string name="workout_rest_change">विश्राम बदलें</string>
+    <string name="workout_delete_round">राउंड %1$d हटाएँ</string>
+    <string name="workout_complete_title">वर्कआउट पूरा हुआ</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d वॉट</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d चक्कर/मिनट</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d स्ट्रोक/मिनट</string>
+</resources>

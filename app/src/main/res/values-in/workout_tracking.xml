@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Latihan lain</string>
+    <string name="routines_other_workouts_body">Hanya waktu: menari, bola basket, sepak bola, pilates, dan lainnya</string>
+    <string name="routines_indoors">Di dalam ruangan</string>
+    <string name="routines_indoors_body">Langkah dan waktu dihitung</string>
+    <string name="routines_outdoors">Di luar ruangan</string>
+    <string name="routines_outdoors_body">Membuka “Jalan / Rute” untuk merekam perjalanan di peta</string>
+    <string name="track_tracked">Terhitung</string>
+    <string name="track_burned">Perkiraan energi</string>
+    <string name="track_count_question">Hitungannya benar?</string>
+    <string name="track_count_fix">Perbaiki hitungan</string>
+    <string name="track_count_interrupted">Hitungan terputus — masukkan secara manual</string>
+    <string name="track_phone_title">Letak ponsel</string>
+    <string name="track_phone_pocket">Di saku celana atau di pinggang — ponsel menghitung setiap pendaratan.</string>
+    <string name="track_phone_lift">Di saku celana — ponsel menghitung setiap repetisi di titik teratas, saat tubuh melambat.</string>
+    <string name="track_phone_thigh">Di saku depan celana, di paha — ponsel menghitung kemiringan paha di setiap repetisi.</string>
+    <string name="track_phone_arm">Di armband olahraga pada lengan atas — ponsel menghitung kemiringan lengan di setiap repetisi.</string>
+    <string name="track_phone_steps">Di saku atau di tangan — pedometer menghitung langkah Anda.</string>
+    <string name="track_phone_stairs">Di saku atau di tangan — pedometer menghitung langkah, barometer menghitung lantai.</string>
+    <string name="track_unit_jumps">lompatan</string>
+    <string name="track_unit_floors">lantai</string>
+    <plurals name="track_jumps">
+        <item quantity="other">%1$d lompatan</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="other">%1$d langkah</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="other">%1$d lantai</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <group
+        android:scaleX="0.09291"
+        android:scaleY="0.09291"
+        android:rotation="0"
+        android:translateX="5"
+        android:translateY="5">
+        <path
+            android:pathData="M204.8,136.53C204.8,61.13,170.38,0,128,0C85.6,0,51.2,61.13,51.2,136.53c0,32.81,20.68,60.62,49.63,71.6    l-6.97,167.33c0,18.85,15.28,34.13,34.13,34.13c18.85,0,34.13-15.28,34.13-34.13l-6.97-167.32    C184.14,197.15,204.8,169.35,204.8,136.53z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="M358.4,123.73L354.13,0H332.8l-4.26,123.73h-17.07L307.2,0h-25.6l-4.26,123.73h-17.07L256,0h-21.34L230.4,123.73    c0,26.03,15.6,48.33,37.93,58.33l-8.07,193.4c0,18.85,15.28,34.13,34.13,34.13c18.85,0,34.13-15.28,34.13-34.13    l-8.07-193.4C342.8,172.06,358.4,149.76,358.4,123.73z"
+            android:fillColor="@color/art_duo_ink" />
+    </group>
+</vector>

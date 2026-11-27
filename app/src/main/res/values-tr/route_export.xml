@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">Dosyaya kaydet</string>
+    <string name="route_format_gpx_hint">Haritalar, saatler ve spor uygulamaları için</string>
+    <string name="route_format_geojson_hint">CBS araçları ve web haritaları için</string>
+    <string name="route_format_csv_hint">Her konum verisi, elektronik tablolar için</string>
+</resources>

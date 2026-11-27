@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Thème</string>
+    <string name="theme_description">Couleurs de l’interface et des icônes pour les thèmes clair et sombre</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_saved_note">Chaque palette est enregistrée séparément. L’application suit le thème clair ou sombre de votre appareil.</string>
+    <string name="theme_preview">Aperçu</string>
+    <string name="theme_main_accent">Accent principal</string>
+    <string name="theme_accent_container">Fond d’accent</string>
+    <string name="theme_secondary">Accent secondaire</string>
+    <string name="theme_secondary_container">Fond secondaire</string>
+    <string name="theme_tertiary">Troisième accent</string>
+    <string name="theme_tertiary_container">Fond du troisième accent</string>
+    <string name="theme_background">Fond de page</string>
+    <string name="theme_surface">Cartes</string>
+    <string name="theme_text">Texte principal</string>
+    <string name="theme_muted_text">Texte secondaire</string>
+    <string name="theme_border">Bordures</string>
+    <string name="theme_icons">Icônes</string>
+    <string name="theme_icon">Couleur principale des icônes</string>
+    <string name="theme_icon_mid">Couleur secondaire des icônes</string>
+    <string name="theme_icon_light">Détails clairs des icônes</string>
+    <string name="theme_brightness">Luminosité</string>
+    <string name="theme_hex">Code HEX</string>
+    <string name="theme_hex_error">Saisissez 6 chiffres hexadécimaux, par exemple #7094EE.</string>
+    <string name="theme_update_all">Mettre à jour toutes les couleurs</string>
+    <string name="theme_update_all_body">Générer toutes les autres couleurs de cette palette à partir de l’accent principal, en remplaçant les modifications manuelles.</string>
+    <string name="theme_reset">Réinitialiser le thème</string>
+    <string name="theme_reset_light_body">Rétablir les couleurs par défaut de l’interface et des icônes pour le thème clair ? Le thème sombre restera inchangé.</string>
+    <string name="theme_reset_dark_body">Rétablir les couleurs par défaut de l’interface et des icônes pour le thème sombre ? Le thème clair restera inchangé.</string>
+    <string name="theme_wheel">Roue chromatique</string>
+    <string name="theme_wheel_value">Teinte %1$d°, saturation %2$d%%</string>
+    <string name="theme_next_hue">Teinte suivante</string>
+    <string name="theme_previous_hue">Teinte précédente</string>
+    <string name="theme_more_saturation">Augmenter la saturation</string>
+    <string name="theme_less_saturation">Diminuer la saturation</string>
+</resources>

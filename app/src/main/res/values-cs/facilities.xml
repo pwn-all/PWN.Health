@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Místa v mém okolí</string>
+    <string name="facility_locating">Zjišťujeme, kde jste…</string>
+    <string name="facility_denied">Přístup k poloze nebyl povolen, takže seznam nelze seřadit podle vzdálenosti. Název můžete napsat i tak.</string>
+    <string name="facility_location_off">Určování polohy je v tomto telefonu vypnuté.</string>
+    <string name="facility_location_settings">Nastavení polohy</string>
+    <string name="facility_no_fix">Telefon teď nedokázal určit, kde jste. Zkuste to za chvíli znovu.</string>
+    <string name="facility_nothing_near">V seznamu není nic do vzdálenosti %1$s od vás.</string>
+    <string name="facility_list_title">Ordinace a nemocnice</string>
+    <string name="facility_near_title">Ve vašem okolí</string>
+    <string name="facility_near_kind">Ve vašem okolí: %1$s</string>
+    <string name="facility_near_gynaecology">Ve vašem okolí: gynekologie</string>
+    <string name="facility_near_imaging">Ve vašem okolí: radiologie</string>
+    <string name="facility_near_gastroenterology">Ve vašem okolí: gastroenterologie</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">Odkud tato místa pocházejí</string>
+    <string name="facility_help_what">Návrhy pocházejí z oficiálních registrů poskytovatelů zdravotní péče. Seznam je uložen v aplikaci a prohledává se v tomto telefonu. Pro aplikaci byly registry zúženy na místa, kam může přijít pacient, a jejich druhy péče byly přeskupeny do druhů lékařů, které aplikace zná. Tlačítko polohy na konci pole „Místo“ ukazuje jen místa, která poskytují péči zvolenou pro tuto návštěvu, nebo všechna místa, pokud jde o návštěvu u jiného lékaře; při psaní názvu se prohledává celý seznam.</string>
+    <string name="facility_help_screening">U screeningu seznam ukazuje oddělení, kde se často provádí: gynekologii pro screening děložního hrdla, radiologii pro mamografii a gastroenterologii pro screening tlustého střeva. Registr neuvádí, zda oddělení tento screening samo provádí, proto se při objednání zeptejte.</string>
+    <string name="facility_help_coverage">Seznam pokrývá Česko, Ukrajinu a Spojené arabské emiráty. Na Ukrajině obsahuje jen místa se smlouvou s Národní službou zdraví Ukrajiny. V Emirátech obsahuje registr Dubaje ve vydání z prosince 2023, místa s licencí v Abú Zabí tak, jak byla zakreslena do mapy v roce 2022 a jak jsou v ní zakreslena i v roce 2026, a veřejné nemocnice a zdravotní střediska organizace Emirates Health Services; soukromé kliniky v emirátech Šardžá, Adžmán, Umm al-Kajvajn, Rás al-Chajma a Fudžajra v seznamu nejsou. Registr může být zastaralý: než vyrazíte, ověřte si vše přímo u daného zařízení.</string>
+    <string name="facility_help_location">Tlačítko polohy jednou požádá Android o vaši přibližnou polohu a zaokrouhlí ji asi na kilometr. Používá se v tomto telefonu k seřazení seznamu, nikdy se neukládá ani nikam neodesílá a zapomene se, jakmile tuto stránku opustíte.</string>
+    <string name="facility_help_sources">Zdroje</string>
+</resources>

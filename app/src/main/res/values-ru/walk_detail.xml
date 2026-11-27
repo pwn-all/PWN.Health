@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Поделиться прогулкой</string>
+    <string name="walk_delete">Удалить прогулку</string>
+    <string name="walk_delete_title">Удалить эту прогулку?</string>
+    <string name="walk_delete_body">Прогулка удалится с телефона навсегда вместе с маршрутом, показателями и фотографиями. Файлы, которые вы уже сохранили или отправили, останутся там, где лежат.</string>
+    <string name="walk_photos">Фото</string>
+    <string name="walk_photos_help">Номера совпадают с метками на карте, а метки показывают, где сделан каждый снимок. Если в момент съёмки телефон не мог определить место по GPS, метки у снимка нет. Направление — куда смотрела камера: азимут в градусах от истинного севера. Наклон — на сколько градусов телефон был направлен выше или ниже горизонта. «Вертикально» или «горизонтально» — так держали телефон.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">вид на %1$s</string>
+    <string name="walk_photo_up">%1$d° вверх</string>
+    <string name="walk_photo_down">%1$d° вниз</string>
+    <string name="walk_photo_level">без наклона</string>
+    <string name="walk_photo_portrait">вертикально</string>
+    <string name="walk_photo_landscape">горизонтально</string>
+    <string name="walk_photo_upside_down">вверх ногами</string>
+    <string name="walk_photo_no_direction">направление неизвестно</string>
+    <string name="walk_photo_spoken">Фото %1$d: %2$s</string>
+    <string name="walk_photo_delete">Удалить фото %1$d</string>
+    <string name="walk_photo_delete_body">Фотография удалится с телефона навсегда. Прогулка, на которой она снята, останется.</string>
+    <string-array name="walk_compass_points">
+        <item>С</item>
+        <item>СВ</item>
+        <item>В</item>
+        <item>ЮВ</item>
+        <item>Ю</item>
+        <item>ЮЗ</item>
+        <item>З</item>
+        <item>СЗ</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>север</item>
+        <item>северо-восток</item>
+        <item>восток</item>
+        <item>юго-восток</item>
+        <item>юг</item>
+        <item>юго-запад</item>
+        <item>запад</item>
+        <item>северо-запад</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">थीम</string>
+    <string name="theme_description">हल्की और गहरी थीम के लिए इंटरफ़ेस और आइकन के रंग</string>
+    <string name="theme_light">हल्की</string>
+    <string name="theme_dark">गहरी</string>
+    <string name="theme_saved_note">हर पैलेट अलग से सहेजा जाता है। ऐप आपके डिवाइस की हल्की या गहरी थीम के हिसाब से चलता है।</string>
+    <string name="theme_preview">पूर्वावलोकन</string>
+    <string name="theme_main_accent">मुख्य एक्सेंट</string>
+    <string name="theme_accent_container">एक्सेंट की पृष्ठभूमि</string>
+    <string name="theme_secondary">दूसरा एक्सेंट</string>
+    <string name="theme_secondary_container">दूसरे एक्सेंट की पृष्ठभूमि</string>
+    <string name="theme_tertiary">तीसरा एक्सेंट</string>
+    <string name="theme_tertiary_container">तीसरे एक्सेंट की पृष्ठभूमि</string>
+    <string name="theme_background">पेज की पृष्ठभूमि</string>
+    <string name="theme_surface">कार्ड</string>
+    <string name="theme_text">मुख्य टेक्स्ट</string>
+    <string name="theme_muted_text">गौण टेक्स्ट</string>
+    <string name="theme_border">बॉर्डर</string>
+    <string name="theme_icons">आइकन</string>
+    <string name="theme_icon">आइकन का मुख्य रंग</string>
+    <string name="theme_icon_mid">आइकन का गौण रंग</string>
+    <string name="theme_icon_light">आइकन के हल्के हिस्से</string>
+    <string name="theme_brightness">चमक</string>
+    <string name="theme_hex">HEX कोड</string>
+    <string name="theme_hex_error">6 हेक्साडेसिमल अंक दर्ज करें, जैसे #7094EE।</string>
+    <string name="theme_update_all">सभी रंग अपडेट करें</string>
+    <string name="theme_update_all_body">इस पैलेट के बाक़ी सभी रंग मुख्य एक्सेंट से बनाएँ; हाथ से किए गए बदलाव मिट जाएँगे।</string>
+    <string name="theme_reset">थीम रीसेट करें</string>
+    <string name="theme_reset_light_body">हल्की थीम के लिए इंटरफ़ेस और आइकन के डिफ़ॉल्ट रंग वापस लाएँ? गहरी थीम जैसी है वैसी रहेगी।</string>
+    <string name="theme_reset_dark_body">गहरी थीम के लिए इंटरफ़ेस और आइकन के डिफ़ॉल्ट रंग वापस लाएँ? हल्की थीम जैसी है वैसी रहेगी।</string>
+    <string name="theme_wheel">रंग चक्र</string>
+    <string name="theme_wheel_value">रंगत %1$d°, संतृप्ति %2$d%%</string>
+    <string name="theme_next_hue">अगली रंगत</string>
+    <string name="theme_previous_hue">पिछली रंगत</string>
+    <string name="theme_more_saturation">संतृप्ति बढ़ाएँ</string>
+    <string name="theme_less_saturation">संतृप्ति घटाएँ</string>
+</resources>

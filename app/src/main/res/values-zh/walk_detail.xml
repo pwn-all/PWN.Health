@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">分享这次步行</string>
+    <string name="walk_delete">删除这次步行</string>
+    <string name="walk_delete_title">删除这次步行？</string>
+    <string name="walk_delete_body">这次步行的路线、数据和照片会从手机上彻底删除。之前已保存或分享出去的文件不受影响。</string>
+    <string name="walk_photos">照片</string>
+    <string name="walk_photos_help">编号与地图上的标记相对应，标记显示每张照片的拍摄地点。手机未取得 GPS 定位时拍下的照片没有标记。方向是拍照时镜头朝向的方位角，从真北起算。倾角是手机朝上或朝下偏离水平的角度。竖拍或横拍，说的是拍照时手机的拿法。</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">朝向%1$s</string>
+    <string name="walk_photo_up">向上 %1$d°</string>
+    <string name="walk_photo_down">向下 %1$d°</string>
+    <string name="walk_photo_level">水平</string>
+    <string name="walk_photo_portrait">竖拍</string>
+    <string name="walk_photo_landscape">横拍</string>
+    <string name="walk_photo_upside_down">倒着拍</string>
+    <string name="walk_photo_no_direction">方向未知</string>
+    <string name="walk_photo_spoken">照片 %1$d：%2$s</string>
+    <string name="walk_photo_delete">删除照片 %1$d</string>
+    <string name="walk_photo_delete_body">照片会从手机上彻底删除。拍下它的那次步行仍会保留。</string>
+    <string-array name="walk_compass_points">
+        <item>北</item>
+        <item>东北</item>
+        <item>东</item>
+        <item>东南</item>
+        <item>南</item>
+        <item>西南</item>
+        <item>西</item>
+        <item>西北</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>北方</item>
+        <item>东北方</item>
+        <item>东方</item>
+        <item>东南方</item>
+        <item>南方</item>
+        <item>西南方</item>
+        <item>西方</item>
+        <item>西北方</item>
+    </string-array>
+</resources>

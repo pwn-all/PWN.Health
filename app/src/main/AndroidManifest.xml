@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- WorkManager contributes this permission, but our only constrained worker checks local
+         storage, never connectivity. Keep the merged APK within the strict offline policy. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.barometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.ambient_temperature"
+        android:required="false" />
+    <!-- The compass, for which way a walk's photograph looked; without one it keeps its place, and
+         its tilt where there is a gyroscope. -->
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Install-time, not a runtime prompt: it only lets the app ask the system for the user's own
+         fingerprint, face or PIN when the app lock is switched on. -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <!-- No VIBRATE: the dose alarm's vibration is its notification channel's, which the system
+         plays under its own identity, and nothing in the app drives the vibrator itself.
+         ManifestSurfaceTest holds every permission in this list to a use of it in the code. -->
+    <!-- Held only while a sensor trace records or a workout set is counted (SetTracker), so the
+         accelerometer and the barometer keep running with the screen off. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--
+      Steps taken between a reboot and the next time somebody opens the app. The hardware counter
+      keeps counting without us, but nothing credits a day until a listener reads it — see
+      BootReceiver.
+    -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Special app-op granted only from Android's Usage Access settings. -->
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.health.READ_WEIGHT" />
+    <uses-permission android:name="android.permission.health.WRITE_WEIGHT" />
+    <uses-permission android:name="android.permission.health.READ_HEIGHT" />
+    <uses-permission android:name="android.permission.health.WRITE_HEIGHT" />
+    <uses-permission android:name="android.permission.health.READ_HEART_RATE" />
+    <uses-permission android:name="android.permission.health.READ_RESTING_HEART_RATE" />
+    <uses-permission android:name="android.permission.health.READ_HEART_RATE_VARIABILITY" />
+    <uses-permission android:name="android.permission.health.WRITE_HEART_RATE" />
+    <uses-permission android:name="android.permission.health.READ_SLEEP" />
+    <uses-permission android:name="android.permission.health.WRITE_SLEEP" />
+    <uses-permission android:name="android.permission.health.READ_EXERCISE" />
+    <uses-permission android:name="android.permission.health.WRITE_EXERCISE" />
+    <uses-permission android:name="android.permission.health.READ_STEPS" />
+    <uses-permission android:name="android.permission.health.WRITE_STEPS" />
+    <uses-permission android:name="android.permission.health.READ_HYDRATION" />
+    <uses-permission android:name="android.permission.health.WRITE_HYDRATION" />
+    <uses-permission android:name="android.permission.health.READ_NUTRITION" />
+    <uses-permission android:name="android.permission.health.WRITE_NUTRITION" />
+    <uses-permission android:name="android.permission.health.READ_BLOOD_PRESSURE" />
+    <uses-permission android:name="android.permission.health.WRITE_BLOOD_PRESSURE" />
+    <uses-permission android:name="android.permission.health.READ_OXYGEN_SATURATION" />
+    <uses-permission android:name="android.permission.health.WRITE_OXYGEN_SATURATION" />
+    <uses-permission android:name="android.permission.health.READ_BODY_TEMPERATURE" />
+    <uses-permission android:name="android.permission.health.WRITE_BODY_TEMPERATURE" />
+    <uses-permission android:name="android.permission.health.READ_BLOOD_GLUCOSE" />
+    <uses-permission android:name="android.permission.health.WRITE_BLOOD_GLUCOSE" />
+    <uses-permission android:name="android.permission.health.READ_BODY_FAT" />
+    <uses-permission android:name="android.permission.health.WRITE_BODY_FAT" />
+    <uses-permission android:name="android.permission.health.READ_MENSTRUATION" />
+    <uses-permission android:name="android.permission.health.WRITE_MENSTRUATION" />
+    <uses-permission android:name="android.permission.health.READ_INTERMENSTRUAL_BLEEDING" />
+    <uses-permission android:name="android.permission.health.WRITE_INTERMENSTRUAL_BLEEDING" />
+    <uses-permission android:name="android.permission.health.READ_OVULATION_TEST" />
+    <uses-permission android:name="android.permission.health.WRITE_OVULATION_TEST" />
+    <uses-permission android:name="android.permission.health.READ_CERVICAL_MUCUS" />
+    <uses-permission android:name="android.permission.health.WRITE_CERVICAL_MUCUS" />
+    <uses-permission android:name="android.permission.health.READ_SEXUAL_ACTIVITY" />
+    <uses-permission android:name="android.permission.health.WRITE_SEXUAL_ACTIVITY" />
+    <uses-permission android:name="android.permission.health.READ_BASAL_METABOLIC_RATE" />
+    <uses-permission android:name="android.permission.health.WRITE_BASAL_METABOLIC_RATE" />
+    <uses-permission android:name="android.permission.health.READ_BODY_WATER_MASS" />
+    <uses-permission android:name="android.permission.health.WRITE_BODY_WATER_MASS" />
+    <uses-permission android:name="android.permission.health.READ_ACTIVE_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.WRITE_ACTIVE_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.WRITE_TOTAL_CALORIES_BURNED" />
+    <uses-permission android:name="android.permission.health.WRITE_DISTANCE" />
+    <uses-permission android:name="android.permission.health.WRITE_ELEVATION_GAINED" />
+    <uses-permission android:name="android.permission.health.WRITE_SPEED" />
+    <uses-permission android:name="android.permission.health.WRITE_POWER" />
+    <uses-permission android:name="android.permission.health.READ_PLANNED_EXERCISE" />
+    <uses-permission android:name="android.permission.health.WRITE_PLANNED_EXERCISE" />
+    <uses-permission android:name="android.permission.health.READ_MINDFULNESS" />
+    <uses-permission android:name="android.permission.health.WRITE_MINDFULNESS" />
+    <!-- Lifts the 30-day import horizon so switching from another app brings the whole history. -->
+    <uses-permission android:name="android.permission.health.READ_HEALTH_DATA_HISTORY" />
+
+    <!--
+      No ACCESS_BACKGROUND_LOCATION here. A route recording does not need it: its foreground service
+      is started while the app is open and keeps its fixes with the screen off. The Work screen's
+      automatic start by location does — its service is started by an alarm with the app closed —
+      and only the sideload build declares it (src/sideload/AndroidManifest.xml): Google Play holds
+      every update of an app that declares it until a Location permissions declaration is approved.
+      The settings section shows only where it is declared (workPlaceAvailable).
+    -->
+
+    <!--
+      No INTERNET permission, and no rule removing one: ONNX Runtime is built in this repository
+      without the telemetry Microsoft's AAR declares it for (tools/onnxruntime-android).
+      NoNetworkPermissionTest asserts the merged manifest stays that way, so a dependency that adds
+      it fails the build instead of being stripped in silence.
+    -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Steps">
+
+        <activity android:name=".PrivacyPolicyActivity" android:exported="false" />
+
+        <activity
+            android:name=".MedicineAlarmActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:showWhenLocked="true"
+            android:turnScreenOn="true" />
+
+        <!-- The widgets' midnight and the end of a mood's pause: asked of the alarm service by WidgetClock. -->
+        <receiver android:name=".WidgetClockReceiver" android:exported="false" />
+        <receiver android:name=".MedicineAlarmDismissReceiver" android:exported="false" />
+        <receiver android:name=".MedicineTakenReceiver" android:exported="false" />
+        <receiver android:name=".MedicineSnoozeReceiver" android:exported="false" />
+        <receiver android:name=".MedicineAlarmReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PermissionsRationaleActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".ViewPermissionUsageActivity"
+            android:exported="true"
+            android:permission="android.permission.START_VIEW_PERMISSION_USAGE"
+            android:targetActivity=".PermissionsRationaleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />
+                <category android:name="android.intent.category.HEALTH_PERMISSIONS" />
+            </intent-filter>
+        </activity-alias>
+
+        <!--
+          Every widget receiver hears LOCALE_CHANGED besides its update. The words on a widget are put
+          there by this process, in the language of the moment, and the launcher keeps them: after the
+          phone's language changes, each face would stay in the old one until its half-hourly update.
+          GlanceAppWidgetReceiver draws all of its widgets again on that broadcast, which comes from
+          the system and so reaches a receiver that is not exported. WidgetMetadataTest holds every
+          widget receiver to it.
+        -->
+        <receiver
+            android:name=".StepsWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/steps_widget_info" />
+        </receiver>
+
+        <!--
+          The figure widgets: one number each — last night's sleep, the latest weight, today's
+          energy, the week's steps, the level — and the dose and cycle widgets, which the medicine
+          and cycle rows redraw. The cycle widget's provider is switched off for a profile without
+          a cycle (applyHabitWidgetVisibility), as the tobacco one is for a profile too young.
+        -->
+        <receiver
+            android:name=".SleepWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/sleep_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".WeightWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/weight_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".EnergyWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/energy_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".WeekWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/week_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".LevelWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/level_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".DoseWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/dose_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".CycleWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/cycle_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".WaterWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/water_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".MoodWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mood_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".QuickAddWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/quick_add_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".MultiWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/multi_widget_info" />
+        </receiver>
+
+        <!--
+          The widget's Start goes through here rather than straight to the service. A widget tap is
+          on both of the platform's exemption lists, but the privilege reaches a Glance broadcast as
+          a token that expires about ten seconds later, and that path has no track record on OEM
+          builds; an activity is the plainest form of the same grant. NoDisplay and finished from
+          onCreate, so nothing is ever drawn. Not exported: only this app's own widget starts it.
+        -->
+        <activity
+            android:name=".TrackStartActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <receiver
+            android:name=".TrackWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/track_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".SmokingWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/smoking_widget_info" />
+        </receiver>
+
+        <!--
+          The work timer acts in place: a tap is a Glance callback that writes the timer's state and,
+          on Stop, the journal row. No trampoline activity and no service — it holds no sensor.
+        -->
+        <receiver
+            android:name=".WorkWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/work_widget_info" />
+        </receiver>
+
+        <!-- The "Still working?" notification's Stop; only this app's own PendingIntent reaches it. -->
+        <receiver android:name=".WorkActionReceiver" android:exported="false" />
+
+        <!--
+          The workplace check: its alarm and the Undo on its notices, both this app's own
+          PendingIntents, and the system broadcasts after which its alarm has to be set again.
+        -->
+        <receiver android:name=".WorkPlaceReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- One position per check, for half a minute at most; started by the check's exact alarm. -->
+        <service
+            android:name=".WorkPlaceCheckService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+
+        <!--
+          The launcher opens this when the multi widget is placed, to pick the bottom row, and it
+          stays unexported while doing so. The host never starts this component itself: it asks
+          the system for an IntentSender (AppWidgetHost.startAppWidgetConfigureActivityForResult)
+          and fires that, and an IntentSender runs with the identity and permissions of whoever
+          created it — here the system, which is not subject to the export check. Exporting it
+          would add nothing but a way for any installed app to rewrite a widget's row.
+        -->
+        <activity
+            android:name=".MultiWidgetConfigActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Steps">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".StepService"
+            android:exported="false"
+            android:foregroundServiceType="health|location" />
+
+        <!--
+          Not exported, like the medicine and workplace receivers above that hear the same
+          broadcasts: BOOT_COMPLETED and MY_PACKAGE_REPLACED come from the system, which the export
+          check does not apply to, and no other app has any business starting this one. The second
+          is here because an update ends the step service and START_STICKY does not bring it back:
+          without it the pedometer stands still until the app is next opened. PedometerRestartTest holds this
+          filter to what the receiver acts on, ManifestSurfaceTest the list of what is exported.
+        -->
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+          Compose brings androidx.emoji2, whose startup initializer asks the phone's downloadable
+          fonts provider for an emoji font shortly after the first screen. On a phone with Google
+          Play services that provider is Google's, and the request is logged there: the app would
+          tell Google when it was opened, which the privacy policy says it never does. From Android
+          13, the floor here, the system's own emoji font is current, so nothing is lost by not
+          asking. Only that one initializer is removed; WorkManager's and the others stay.
+          NoNetworkPermissionTest holds the merged manifest to it.
+        -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                tools:node="remove" />
+        </provider>
+
+        <!--
+          The one file the system camera app writes a meal photograph into. Handing out a content
+          URI for it is what lets the meal editor take a picture without the app holding the CAMERA
+          permission: the camera app owns the capture, this app only reads the result back.
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.photos"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/photo_paths" />
+        </provider>
+    </application>
+
+    <queries>
+        <package android:name="com.google.android.apps.healthdata" />
+        <!-- Not to launch anything: the data sources screen names the app behind each imported
+             row, and without visibility of it the package manager answers with the package name.
+             Both actions are the same question asked of the two Health Connect implementations —
+             the pre-Android-14 APK and the platform one — so an app that writes our data is
+             nameable on either. -->
+        <intent>
+            <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+        </intent>
+        <intent>
+            <action android:name="androidx.health.connect.action.SHOW_PERMISSIONS_RATIONALE" />
+        </intent>
+    </queries>
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">その他の運動</string>
+    <string name="routines_other_workouts_body">時間のみ：ダンス、バスケットボール、サッカー、ピラティスなど</string>
+    <string name="routines_indoors">屋内</string>
+    <string name="routines_indoors_body">歩数と時間を数えます</string>
+    <string name="routines_outdoors">屋外</string>
+    <string name="routines_outdoors_body">「散歩／ルート」を開いて地図に道のりを記録します</string>
+    <string name="track_tracked">計測</string>
+    <string name="track_burned">消費の目安</string>
+    <string name="track_count_question">カウントは正しいですか？</string>
+    <string name="track_count_fix">数を修正してください</string>
+    <string name="track_count_interrupted">カウントが途切れました — 手で入力してください</string>
+    <string name="track_phone_title">スマートフォンの位置</string>
+    <string name="track_phone_pocket">ズボンのポケットかウエストに — 着地を1回ずつ数えます。</string>
+    <string name="track_phone_lift">ズボンのポケットに — 体の動きがゆるむ一番上で1回ずつ数えます。</string>
+    <string name="track_phone_thigh">ズボンの前ポケット（太もも）に — 1回ごとの太ももの傾きを数えます。</string>
+    <string name="track_phone_arm">上腕のスポーツ用アームバンドに — 1回ごとの腕の傾きを数えます。</string>
+    <string name="track_phone_steps">ポケットか手に — 歩数計が歩数を数えます。</string>
+    <string name="track_phone_stairs">ポケットか手に — 歩数は歩数計、階数は気圧計が数えます。</string>
+    <string name="track_unit_jumps">回</string>
+    <string name="track_unit_floors">階</string>
+    <plurals name="track_jumps">
+        <item quantity="other">%1$d 回</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="other">%1$d 歩</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="other">%1$d 階</item>
+    </plurals>
+</resources>

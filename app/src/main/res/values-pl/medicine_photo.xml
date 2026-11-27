@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">Zrób zdjęcie leku</string>
+    <string name="med_photo_of">Zdjęcie leku „%1$s”</string>
+    <string name="med_photo_unnamed">Zdjęcie leku</string>
+    <string name="med_photo_retake">Zrób nowe zdjęcie</string>
+    <string name="med_photo_remove">Usuń zdjęcie</string>
+    <string name="med_photo_open">Otwórz w pełnym rozmiarze</string>
+    <string name="med_delete_body_photo">Plan i jego zdjęcie znikną; odhaczone dawki zostaną w dzienniku.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">記録</string>
+    <string name="strength_new_records">自己ベスト更新</string>
+    <string name="strength_record_e1rm">推定1回最大挙上重量</string>
+    <string name="strength_record_heaviest">最大重量</string>
+    <string name="strength_record_reps">1セットの最多回数</string>
+    <string name="strength_record_volume">1回のトレーニングの最大重量</string>
+    <string name="strength_record_was">%1$s · 以前 %2$s</string>
+    <string name="strength_e1rm_note">1回の値は Epley 式による推定で、12回までのセットから計算しています。</string>
+    <string name="strength_record_line">ベスト: %1$s · 1回なら約 %2$s</string>
+    <string name="strength_record_line_reps">ベスト: 1セット %1$s</string>
+</resources>

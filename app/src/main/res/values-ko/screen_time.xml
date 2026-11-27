@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">스크린 타임</string>
+    <string name="screen_time_add_body">소셜, 동영상, 메신저, 게임 사용 시간과 눈·머리 휴식</string>
+    <string name="screen_time_help">오늘과 이번 주에 소셜·피드 앱, 동영상, 메신저, 게임이 화면에 떠 있던 시간을 Android 사용 기록에서 읽습니다. 눈과 머리 알림은 소셜·피드 앱만 지켜보며, 쉬지 않고 그 사이를 오가면 한 번의 사용으로 셉니다. 나머지는 기록만 합니다. 일지에는 아무것도 기록되지 않으며 아무것도 휴대전화를 떠나지 않습니다.</string>
+    <string name="screen_time_channel">화면 휴식</string>
+    <string name="screen_time_access_title">사용 정보 접근 권한이 필요합니다</string>
+    <string name="screen_time_access_body">Android는 사용 정보 접근 권한이 있을 때만 다른 앱이 얼마나 열려 있었는지 앱에 알려 줍니다. 수면 추정도 같은 권한을 사용합니다.</string>
+    <string name="screen_time_access_button">사용 정보 접근 열기</string>
+    <string name="screen_time_longest">쉬지 않은 가장 긴 사용: %1$s</string>
+    <string name="screen_time_over">%1$s 초과</string>
+    <string name="screen_time_week">최근 7일</string>
+    <string name="screen_time_week_average">하루 평균: %1$s</string>
+    <string name="screen_time_eyes_switch">눈 피로 알림</string>
+    <string name="screen_time_eyes_switch_body">쉬지 않고 피드를 오래 본 뒤</string>
+    <string name="screen_time_brain_switch">머리 부담 경고</string>
+    <string name="screen_time_brain_switch_body">이 앱들의 하루 합계가 많아졌을 때</string>
+    <string name="screen_time_tips_title">눈과 머리를 위한 휴식</string>
+    <string name="screen_time_tip_eyes">20분마다 6미터 떨어진 곳을 20초 동안 바라보세요.</string>
+    <string name="screen_time_tip_blink">의식적으로 눈을 깜빡이세요. 화면을 볼 때는 훨씬 덜 깜빡여서 눈이 마릅니다.</string>
+    <string name="screen_time_tip_brain">끝없는 피드는 몇 초마다 주의를 옮기게 합니다. 짧은 산책이나 느린 호흡 몇 번이 머리를 진정시킵니다.</string>
+    <string name="screen_time_tip_night">잠들기 한 시간 전에는 휴대전화를 내려놓으세요. 밝은 화면은 잠을 늦춥니다.</string>
+    <string name="screen_time_breathing">호흡 휴식</string>
+    <string name="screen_time_eyes_title">눈을 쉬게 할 시간입니다</string>
+    <string name="screen_time_eyes_body">%1$s을(를) %2$d분 동안 쉬지 않고 보고 있어요. 20초 동안 먼 곳을 보고 몇 번 눈을 깜빡이세요.</string>
+    <string name="screen_time_brain_title">머리에 휴식이 필요합니다</string>
+    <string name="screen_time_brain_body">오늘 소셜·피드 앱에서 %1$s. 끝없는 피드는 주의력을 지치게 합니다. 휴대전화를 10분 내려놓고 걷거나 천천히 호흡하세요.</string>
+    <string name="screen_time_feeds_title">소셜과 피드</string>
+    <string name="screen_time_video_title">동영상과 스트리밍</string>
+    <string name="screen_time_messengers_title">메신저</string>
+    <string name="screen_time_games_title">게임</string>
+    <string name="screen_time_category_longest">가장 긴 사용: %1$s</string>
+    <string name="screen_time_category_week">최근 7일: %1$s, 하루 평균 %2$s</string>
+    <string name="screen_time_tracked_note">기록만, 알림 없음.</string>
+    <string name="screen_time_none_today">오늘 사용하지 않음</string>
+</resources>

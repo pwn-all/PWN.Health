@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Laktátová párty</item>
+        <item>Za zapadajícím sluncem</item>
+        <item>Lovec kopců</item>
+        <item>Pro kafe a zpátky</item>
+        <item>Poezie dlažby</item>
+        <item>Městské safari</item>
+        <item>Doušek čerstvého vzduchu</item>
+        <item>Oklika de luxe</item>
+        <item>Loužová hlídka</item>
+        <item>Kolečko ve zlaté hodince</item>
+        <item>Procházka ve velkém stylu</item>
+        <item>Honba za vánkem</item>
+        <item>Chodníková sága</item>
+        <item>Polykač kilometrů</item>
+        <item>Počítání mráčků</item>
+        <item>Malebná trasa</item>
+        <item>Malé dobrodružství</item>
+        <item>Skok pro endorfiny</item>
+        <item>Inspektor laviček</item>
+        <item>Hrdým krokem</item>
+        <item>Tou delší cestou</item>
+        <item>Kam nohy ponesou</item>
+        <item>Tiché kilometry</item>
+        <item>Den nohou bez posilovny</item>
+        <item>Režim tuláka</item>
+        <item>Vyvětrat si hlavu</item>
+        <item>Symfonie kroků</item>
+        <item>Svižně a k věci</item>
+        <item>Zasloužená svačina</item>
+        <item>Holubí přehlídka</item>
+        <item>Zkratkám nevěřím</item>
+        <item>Čestné kolo</item>
+        <item>Hledání sebe sama</item>
+        <item>Ahoj, světe</item>
+        <item>Víkendové toulky</item>
+        <item>Kapesní expedice</item>
+        <item>Ranní ptáče</item>
+        <item>Kardio v pohodě</item>
+        <item>Čmáranice na mapě</item>
+        <item>Procházka na přemýšlení</item>
+    </string-array>
+</resources>

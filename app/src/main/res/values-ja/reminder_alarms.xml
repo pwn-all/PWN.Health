@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s：この薬は食前に飲む予定でしたが、服用が記録されていません。</string>
+    <string name="med_reminder_with">%1$s：食事が記録されています。この薬は食事と一緒に飲みます。</string>
+    <string name="med_reminder_needs_with_food">%1$s：この薬は食事と一緒に飲みますが、食事はまだ記録されていません。</string>
+    <string name="med_alarm_title">服薬アラーム</string>
+    <string name="med_alarm_dismiss">音を止める</string>
+    <string name="med_alarm_open">アプリを開く</string>
+    <string name="med_alarm_not_taken">音を止めても服用済みにはなりません。</string>
+    <string name="med_alarm_settings_body">アラームは最大1分間鳴ります。正確な時刻とロック画面への表示を許可してください。許可がない場合、通知が遅れたり通常の通知として表示されたりします。食事と水分は通常の通知です。</string>
+    <string name="med_alarm_exact_access">正確なアラーム時刻を許可</string>
+    <string name="med_alarm_full_screen_access">ロック画面のアラームを許可</string>
+    <string name="med_alarm_channel_muted">Android の設定で「%1$s」チャンネルがミュートされているため、服薬のお知らせは通常の通知として届き、アラームは鳴りません。</string>
+    <string name="med_alarm_channel_open">チャンネルの設定を開く</string>
+    <string name="reminder_food_title">そろそろ食事ですか？</string>
+    <string name="reminder_food_body">そろそろ食事ですか？それとも私に内緒で食べましたか？</string>
+    <string name="reminder_water_title">水分補給を忘れずに</string>
+    <string name="reminder_water_body">水分補給を忘れずに。飲んだ水を記録しましょう。</string>
+    <string name="med_action_taken">飲んだ</string>
+    <string name="med_action_later">あとで</string>
+</resources>

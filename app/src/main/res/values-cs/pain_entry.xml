@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">Asi před týdnem</string>
+    <string name="pain_onset_about_month">Asi před měsícem</string>
+    <string name="pain_onset_more_than_month">Před více než měsícem</string>
+    <string name="pain_area_search">Hledat oblast</string>
+    <string name="pain_area_search_empty">Oblast s tímto názvem není</string>
+    <string name="pain_save_needs_area">Pro uložení označte, kde to bolí</string>
+    <string name="pain_save_needs_answer">Zbývá odpovědět: %1$s</string>
+</resources>

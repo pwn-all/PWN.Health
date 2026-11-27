@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">약 사진 찍기</string>
+    <string name="med_photo_of">%1$s 사진</string>
+    <string name="med_photo_unnamed">약 사진</string>
+    <string name="med_photo_retake">다시 찍기</string>
+    <string name="med_photo_remove">사진 삭제</string>
+    <string name="med_photo_open">전체 크기로 보기</string>
+    <string name="med_delete_body_photo">일정과 사진은 사라지지만 기록된 복약은 일지에 남습니다.</string>
+</resources>

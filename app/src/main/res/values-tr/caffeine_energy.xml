@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Bir fincandaki kalori</string>
+    <string name="caffeine_energy_help_body">Kaloriler, demlendiği hâliyle içeceğe aittir ve USDA FoodData Central’dan alınmıştır: siyah çay ve kahve, espresso, suyla çırpılmış matcha ve yağı azaltılmış sütle yapılan cappuccino — tam yağlı sütle yaklaşık beşte bir daha fazladır. Masada eklenen süt, krema, şeker ve şurup bunun üstüne gelir ve yemek olarak kaydedilir. Cappuccino kafeiniyle birlikte yemek olarak kaydedilir: kalorileri günün yemeğine sayılır, ama öğün sayılmaz. Diğer fincanlar birkaç kaloriyi geçmez ve yalnızca kafein kaydı olarak kalır.</string>
+</resources>

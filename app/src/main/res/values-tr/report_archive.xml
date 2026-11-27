@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Dosyalarla</string>
+    <string name="report_archive_hint">ZIP, PDF raporunu ve seçtiğiniz dönem ile bölümlerdeki gerçekleşen ziyaretlere, tahlil kayıtlarına ve ilaç kürlerine eklenmiş dosyaların asıllarını içerir: ultrason, röntgen, BT, MR, Doppler ultrason ve diğer belgeler. Dosya listesi her eki kendi kaydına ve tarihine bağlar.</string>
+    <string name="report_archive_preview">Ekli dosya sayısı: %1$d. ZIP, PDF’yi ve bu dosyaların asıllarını eksiksiz içerir.</string>
+    <string name="report_archive_index_header">Dosya\tKayıt tarihi\tBölüm\tKayıt\tTür\tTetkik tarihi\tAçıklama</string>
+    <string name="report_archive_unavailable">Ek okunamadı: %1$s. Asıl dosyaya erişimi yeniden sağlayın ve dışa aktarmayı tekrar deneyin.</string>
+    <string name="report_visits_patient_notes">Gerçekleşen ziyaretler ve görüşme notları, hastanın kaydettiği hâliyle.</string>
+</resources>

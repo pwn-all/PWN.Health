@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">纪录</string>
+    <string name="strength_new_records">新的个人纪录</string>
+    <string name="strength_record_e1rm">估算单次最大重量</string>
+    <string name="strength_record_heaviest">最大重量</string>
+    <string name="strength_record_reps">单组最多次数</string>
+    <string name="strength_record_volume">单次训练最大总重量</string>
+    <string name="strength_record_was">%1$s · 之前 %2$s</string>
+    <string name="strength_e1rm_note">单次数值是用 Epley 公式根据不超过 12 次的组估算的。</string>
+    <string name="strength_record_line">最佳：%1$s · 单次约 %2$s</string>
+    <string name="strength_record_line_reps">最佳：单组 %1$s</string>
+</resources>

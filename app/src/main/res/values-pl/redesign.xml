@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s kcal</string>
+    <string name="burn_sources">Wydatek energii</string>
+    <string name="burn_overlap_note">Chodzenie i bieganie zapisane jako treningi są liczone w krokach, żeby nie policzyć ich dwa razy.</string>
+    <string name="burn_rest_so_far">W spoczynku od początku dnia</string>
+    <string name="burn_total_so_far">Łącznie spalone od początku dnia</string>
+    <string name="burn_active">aktywność, kcal</string>
+    <string name="food_history">Historia jedzenia</string>
+    <string name="food_history_empty">Dziś nie ma jeszcze zapisanego jedzenia.</string>
+    <string name="activity_times">Godziny aktywności</string>
+    <string name="activity_times_empty">Tego dnia nie zapisano aktywności z godzinami.</string>
+    <string name="visit_history">Historia wizyt</string>
+    <string name="visit_history_empty">Tu pojawią się odbyte wizyty.</string>
+    <string name="calendar_schedule">Plan dnia</string>
+    <string name="calendar_add_event">Dodaj wydarzenie</string>
+    <string name="calendar_expand_month">Pokaż miesiąc</string>
+    <string name="calendar_collapse_month">Zwiń miesiąc</string>
+    <string name="calendar_day_summary">Podsumowanie dnia</string>
+    <string name="events_all">Wszystkie wydarzenia</string>
+    <string name="events_filter">Filtruj wydarzenia</string>
+    <string name="events_other">Inne wydarzenia</string>
+    <string name="events_no_matches">W tym miesiącu nie ma takich wydarzeń.</string>
+    <string name="steps_in_interval">Kroki o godz. %1$s</string>
+    <string name="metric_goal_reached">Cel osiągnięty</string>
+    <string name="workout_did_it">Udało się?</string>
+    <string name="workout_actual_reps">Ile powtórzeń udało się zrobić?</string>
+    <string name="answer_yes">Tak</string>
+    <string name="answer_no">Nie</string>
+    <string name="visit_recent">Ostatnie wizyty</string>
+    <string name="visit_show_all">Pokaż wszystkie</string>
+    <string name="visit_all_specialties">Wszystkie specjalizacje</string>
+    <string name="visit_all_doctors">Wszyscy lekarze</string>
+    <string name="visit_all_time">Cały okres</string>
+    <string name="steps_hourly_title">Aktywność według godzin</string>
+    <string name="steps_activity_label">aktywność</string>
+    <string name="steps_distance_title">Pokonany dystans</string>
+    <string name="steps_pace_title">Średnie tempo</string>
+    <string name="steps_time_title">Łączny czas</string>
+    <string name="steps_distance_note">Dystans jest szacowany z dzisiejszych kroków i wzrostu podanego w profilu.</string>
+    <string name="steps_no_sensor">Ten telefon nie ma czujnika kroków, więc aplikacja sama ich nie liczy. Kroki nadal mogą przychodzić z Health Connect lub z podłączonego urządzenia.</string>
+    <string name="steps_still_title">Najdłuższa przerwa w ruchu</string>
+    <string name="steps_still_note">Godzina liczy się jako ruch, gdy ten telefon naliczył w niej co najmniej 100 kroków — to mniej więcej minuta chodzenia, ta sama kadencja, którą zakłada czas powyżej. Przerwę mierzymy od pierwszej godziny z ruchem, więc nocny sen nie zostaje uznany za siedzenie. Godziny są oznaczane czasem zaliczenia kroków, a nie czasem ich wykonania, więc porcja wstrzymana przez telefon może trafić do późniejszej godziny i sprawić, że przerwa wyda się dłuższa, niż była naprawdę.\n\nLiczymy tu godziny bez chodzenia, a nie czas spędzony w pozycji siedzącej lub stojącej. Żaden czujnik Androida nie odróżni osoby siedzącej od stojącej, a Health Connect nie ma zapisu ani dla jednej, ani dla drugiej, więc nic z tego do niego nie trafia. Telefon leżący na biurku nie naliczy nic, niezależnie od tego, czy przy nim siedzisz, stoisz, czy nie ma Cię w pokoju.</string>
+    <string name="steps_route_note">Bez trasy czas szacujemy z 100 kroków na minutę, a dystans z kroków i wzrostu. To założenie, a nie zmierzona kadencja. Tempo jest ważone dystansem: łączny czas ruchu podzielony przez łączny dystans.\n\nZakończone trasy wnoszą swój czas ruchu (bez postojów) i dystans. Nakładające się zapisy są łączone; w każdej godzinie czas dolicza się tylko za kroki ponad zapisany dystans. Dzienne sumy z urządzeń uzgadniamy w skali całej doby.\n\nZnak ≈ oznacza szacunek. Z sum godzinowych nie da się ustalić dokładnej pory każdego kroku ani precyzyjnie rozdzielić nakładających się aktywności.</string>
+    <string name="steps_chart_thousands">%1$s tys.</string>
+    <string name="home_stat_walks">spacery</string>
+    <string name="burn_total_note">Aktywność i szacowany wydatek spoczynkowy za dotychczasową część dnia.</string>
+    <string name="burn_daily_estimate">W spoczynku przez dobę: ≈ %1$s kcal</string>
+    <string name="burn_explanation_title">Jak liczymy wydatek spoczynkowy</string>
+    <string name="burn_explanation_body">Prognozę na dobę liczymy według wzoru Mifflin–St Jeor z danych profilu: masy ciała, wzrostu, wieku i płci. To energia potrzebna w spoczynku, bez chodzenia i treningów.\n\nWydatek spoczynkowy od początku dnia = prognoza na dobę × minuty od północy ÷ 1440. Do dzisiejszego wyniku wchodzi tylko ta część, a aktywność dolicza się osobno. Prognoza za pełną dobę nie jest dodawana ponownie. Rzeczywisty wydatek może się różnić.</string>
+    <string name="home_good_morning">Dzień dobry</string>
+    <string name="home_good_afternoon">Dobrego dnia</string>
+    <string name="home_good_evening">Dobry wieczór</string>
+    <string name="home_good_night">Dobranoc</string>
+    <string-array name="home_motivations">
+        <item>Krok po kroku do celu</item>
+        <item>Każdy krok się liczy</item>
+        <item>Małe kroki, wielka droga</item>
+        <item>Dziś masz nową szansę</item>
+        <item>Ruch to życie</item>
+        <item>Zdrowie buduje się po trochu</item>
+    </string-array>
+    <string name="home_focus">Na czym się dziś skupić</string>
+    <string name="home_focus_headline">Regularność przynosi efekty.</string>
+    <string name="home_focus_message">Krok po kroku.</string>
+    <string name="widget_icon_count">Liczba ikon</string>
+    <string name="level_details">Poziom i XP</string>
+    <string name="level_screen_title">Mój poziom</string>
+    <string name="level_sources">Źródła XP</string>
+    <string name="level_to_next">do następnego poziomu</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">Poziom %1$d</string>
+    <string name="level_year_xp">%1$s XP w tym roku</string>
+    <string name="level_max">Osiągnięto maksymalny poziom</string>
+    <string name="level_opens">Otwarcia aplikacji</string>
+    <string name="level_steps">Kroki</string>
+    <string name="level_meals">Wpisy jedzenia</string>
+    <string name="level_workouts">Dni z treningiem</string>
+    <string name="level_visits">Odbyte wizyty</string>
+    <string name="level_medals">Medale</string>
+    <string name="nutrition_unlogged_title">Dziś nie zapisano jedzenia</string>
+    <string name="nutrition_unlogged_body">Jeśli posiłek już był, dodaj go do dziennika. Jeśli nie — znajdź czas na pełnowartościowy posiłek; regularne jedzenie ma znaczenie przy każdym celu.</string>
+    <string name="nutrition_tracking_low_title">Dziś zapisano mało jedzenia</string>
+    <string name="nutrition_tracking_low_body">W dzienniku jest %1$s%% dziennego celu kalorii. Sprawdź, czy nie brakuje posiłków. Jeśli zapis jest pełny, zaplanuj pełnowartościowy posiłek z białkiem, węglowodanami i warzywami.</string>
+    <string name="nutrition_lose_low_title">Przy redukcji też trzeba jeść</string>
+    <string name="nutrition_lose_low_body">Zapisano dopiero %1$s%% dziennego celu. Redukcja nie wymaga głodzenia się: jeśli dziennik jest kompletny, zjedz pełnowartościowy posiłek i jedz dalej regularnie.</string>
+    <string name="nutrition_gain_low_title">Do celu przyrostu jeszcze daleko</string>
+    <string name="nutrition_gain_low_body">Zapisano %1$s%% dziennego celu. Sprawdź dziennik i zaplanuj kolejny pełnowartościowy posiłek lub przekąskę z białkiem. Zwiększaj jedzenie stopniowo, bez jedzenia na siłę.</string>
+    <string name="nutrition_lose_over_title">Dzienny cel kalorii przekroczony</string>
+    <string name="nutrition_lose_over_body">W dzienniku jest %1$s%% dziennego celu przy redukcji. Planując kolejny posiłek, weź pod uwagę porcje i głód. Nie nadrabiaj tego głodówką ani pomijaniem posiłków.</string>
+    <string name="nutrition_gain_over_title">Wyraźnie powyżej celu przyrostu</string>
+    <string name="nutrition_gain_over_body">W dzienniku jest %1$s%% dziennego celu przyrostu, w którym nadwyżka jest już uwzględniona. Sprawdź porcje i wpisy; dojadanie na siłę nie jest potrzebne. Jedz dalej regularnie i pełnowartościowo.</string>
+    <string name="nutrition_tracking_over_title">Powyżej dziennej normy kalorii</string>
+    <string name="nutrition_tracking_over_body">W dzienniku jest %1$s%% dziennej normy kalorii. Sprawdź porcje i możliwe duplikaty wpisów. Jeden dzień sam w sobie nie opisuje zwykłego sposobu odżywiania.</string>
+    <string name="nutrition_fat_title">Wysoki udział tłuszczu w zapisach</string>
+    <string name="nutrition_fat_body">Około %1$s%% zapisanych kalorii pochodzi z tłuszczu. Kolejne posiłki uzupełnij białkiem, warzywami i pełnymi ziarnami. Tłuszcze też są potrzebne w urozmaiconej diecie; liczy się ich rodzaj.</string>
+    <string name="nutrition_saturated_title">Dużo tłuszczów nasyconych w zapisach</string>
+    <string name="nutrition_saturated_body">Zapisane tłuszcze nasycone przekraczają już 10%% dziennego celu energii. W kolejnych posiłkach część ich źródeł można zastąpić rybami, orzechami lub olejami roślinnymi z tłuszczami nienasyconymi.</string>
+    <string name="nutrition_protein_title">Zwróć uwagę na białko</string>
+    <string name="nutrition_protein_body">Kalorie są już blisko celu, a zapisanego białka jest mniej niż połowa dziennej normy w aplikacji. W kolejnym posiłku warto dodać strączki, rybę, jajka, tofu lub nabiał.</string>
+    <string name="nutrition_source">NHS / WHO; progi podpowiedzi ustala aplikacja</string>
+    <!-- Jednoliterowe skróty makroskładników w wierszu jedzenia; każdy po dotknięciu podaje pełne słowo. -->
+    <string name="food_macro_letter_protein">B</string>
+    <string name="food_macro_letter_fat">T</string>
+    <string name="food_macro_letter_carbs">W</string>
+</resources>

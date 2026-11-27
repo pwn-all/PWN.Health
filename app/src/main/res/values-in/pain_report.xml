@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Apa yang diwarnai dalam 30 hari terakhir, dan berapa hari tiap area terasa sakit</string>
+    <string name="pain_paint_hint">Warnai tempat yang sakit, dan regangkan dua jari untuk memperbesar. Punggung yang sakit dan lutut yang sakit adalah dua entri.</string>
+    <string name="pain_head_note">Gambarnya dimulai dari leher: pilih area sakit kepala di “Tambah area”.</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="other">%1$d entri digambar. Setiap tanda digambar di tempat yang diwarnai oleh yang bersangkutan, lebih gelap di bagian entri yang bertumpang tindih. Area yang dipilih dari daftar tanpa diwarnai tidak digambar.</item>
+    </plurals>
+</resources>

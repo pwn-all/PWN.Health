@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>حفلة اللاكتات</item>
+        <item>تمشية الغروب</item>
+        <item>صياد التلال</item>
+        <item>مشوار القهوة</item>
+        <item>قصيدة الرصيف</item>
+        <item>سفاري المدينة</item>
+        <item>استراحة من الشاشات</item>
+        <item>لفة ديلوكس</item>
+        <item>دورية البرك</item>
+        <item>جولة الساعة الذهبية</item>
+        <item>مشية الواثقين</item>
+        <item>مطارد النسيم</item>
+        <item>ملحمة الشارع</item>
+        <item>آكل الكيلومترات</item>
+        <item>راصد الغيوم</item>
+        <item>الطريق الأجمل</item>
+        <item>مغامرة صغيرة</item>
+        <item>مهمة الإندورفين</item>
+        <item>مفتش المقاعد</item>
+        <item>خطوات بكل فخر</item>
+        <item>الطريق الأطول عمدًا</item>
+        <item>على راحتي</item>
+        <item>كيلومترات هادئة</item>
+        <item>يوم الأرجل</item>
+        <item>وضع التجوال</item>
+        <item>مشية لتصفية الذهن</item>
+        <item>سيمفونية الخطوات</item>
+        <item>مشية رشيقة</item>
+        <item>لفة تستحق وجبة خفيفة</item>
+        <item>استعراض الحمام</item>
+        <item>عدو الطرق المختصرة</item>
+        <item>لفة الشرف</item>
+        <item>رحلة البحث عن الذات</item>
+        <item>أهلًا بالهواء الطلق</item>
+        <item>نزهة آخر الأسبوع</item>
+        <item>استكشاف بحجم الجيب</item>
+        <item>مع خيوط الفجر</item>
+        <item>كارديو على مهل</item>
+        <item>خربشة على الخريطة</item>
+        <item>مشي وتفكير</item>
+    </string-array>
+</resources>

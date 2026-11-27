@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Vyberte požadované funkce. Každá otevře oprávnění Androidu. Můžete pokračovat bez přístupu a změnit jej později. Poté se nabídne Health Connect.</string>
+    <string name="onboarding_access_body_alone">Vyberte požadované funkce. Každá otevře oprávnění Androidu. Můžete pokračovat bez přístupu a změnit jej později.</string>
+    <string name="onboarding_motion_title">Kroky a snímače pohybu</string>
+    <string name="onboarding_motion_body">Fyzická aktivita umožňuje počítání kroků. Snímače pohybu a tlaku vzduchu nepotřebují samostatné oprávnění.</string>
+    <string name="onboarding_notifications_title">Oznámení a připomínky</string>
+    <string name="onboarding_notifications_body">Zobrazovat stav krokoměru a připomínky léků, jídla a vody.</string>
+    <string name="onboarding_allowed">Povoleno</string>
+    <string name="onboarding_bluetooth_body">Vyhledávat váhy a senzory v okolí a připojovat je přes Bluetooth.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Choose the features you want to enable. Each opens Android’s permission screen. You can continue without granting access and change it later. Health Connect is offered next.</string>
+    <string name="onboarding_access_body_alone">Choose the features you want to enable. Each opens Android’s permission screen. You can continue without granting access and change it later.</string>
+    <string name="onboarding_motion_title">Steps and motion sensors</string>
+    <string name="onboarding_motion_body">Physical activity enables the step counter. Motion and air-pressure sensors need no separate permission.</string>
+    <string name="onboarding_notifications_title">Notifications and reminders</string>
+    <string name="onboarding_notifications_body">Show step-counting status and reminders for medicines, food and water.</string>
+    <string name="onboarding_allowed">Allowed</string>
+    <string name="onboarding_bluetooth_body">Find and connect to nearby scales and sensors over Bluetooth.</string>
+</resources>

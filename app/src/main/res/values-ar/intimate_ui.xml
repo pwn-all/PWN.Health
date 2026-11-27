@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_acts_title">النشاط الجنسي</string>
+    <string name="intimate_anything_to_add">هل من شيء تضيفه؟</string>
+    <string name="intimate_history_title">السجل</string>
+    <string name="intimate_history_empty">لا شيء مسجَّل بعد.</string>
+    <string name="intimate_act_title">تعديل السجل</string>
+    <string name="intimate_act_kind">ماذا كان</string>
+    <string name="intimate_act_day">التاريخ</string>
+    <string name="intimate_act_time">الوقت</string>
+    <string name="intimate_act_time_unrecorded">لم يُسجَّل وقت لهذا الإدخال.</string>
+    <string name="intimate_flash_changed">عُدِّل</string>
+    <string name="intimate_flash_deleted">حُذف</string>
+    <string name="intimate_charts_title">الرسوم البيانية</string>
+    <string name="intimate_woke_at">وقت الاستيقاظ</string>
+    <string name="intimate_woke_by_unset">غير محدد</string>
+    <string name="intimate_woke_phone">استيقظت عند %1$s · أول استخدام للهاتف</string>
+</resources>

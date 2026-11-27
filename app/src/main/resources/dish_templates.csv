@@ -1,0 +1,62 @@
+keywords;name_ru;name_en;items
+ramen;Рамен;Ramen;pasta_cooked=180|chicken_soup=250|pork_tenderloin=80|egg_boiled=25|onion=10
+pho|beef noodle soup;Фо;Pho;pasta_cooked=110|beef_boiled=70|onion=15
+fried rice;Жареный рис;Fried rice;white_rice=180|egg_boiled=50|green_peas=30|onion=15|sunflower_oil=10
+bibimbap;Пибимпап;Bibimbap;white_rice=180|ground_beef=60|egg_boiled=50|carrot=30|sunflower_oil=5
+carbonara;Карбонара;Carbonara;pasta_cooked=180|bacon=30|parmesan=15|egg_boiled=25
+bolognese|spaghetti|lasagne|lasagna;Паста с мясным соусом;Pasta with meat sauce;pasta_cooked=180|ground_beef=90|tomato=60|parmesan=10
+pad thai|chow mein|lo mein|udon|soba|noodle|noodles;Лапша с курицей;Noodles with chicken;pasta_cooked=180|chicken_breast_grilled=60|onion=20|carrot=20|sunflower_oil=10
+shakshouka;Шакшука;Shakshouka;egg_boiled=100|tomato=150|bell_pepper=60|onion=30|olive_oil=8
+eggs benedict|eggs sardou|eggs neptune;Яйца Бенедикт;Eggs Benedict;egg_boiled=100|ham=40|white_bread=60
+eggplant;Баклажан;Eggplant;eggplant=150
+scrambled;Скрэмбл;Scrambled eggs;egg_scrambled=120
+loco moco|tamago kake gohan|arroz a la cubana|huevos;Яичница;Fried eggs;egg_boiled=100|sunflower_oil=5
+omelette|omelet|frittata;Омлет;Omelet;omelet=180
+french toast;Французский тост;French toast;white_bread=60|egg_boiled=50|butter=10
+poke;Поке;Poke bowl;white_rice=150|salmon=100|avocado=50|cucumber=40
+curry;Карри с рисом;Curry with rice;chicken_breast_grilled=120|white_rice=150|onion=20|sunflower_oil=10
+risotto;Ризотто;Risotto;white_rice=200|mushrooms=50|parmesan=20|butter=10
+paella;Паэлья;Paella;white_rice=200|shrimp=60|chicken_breast_grilled=60|green_peas=30|olive_oil=10
+pierogi|vareniki;Вареники;Pierogi;pelmeni=200|sour_cream=25
+dumpling|pelmeni|ravioli|gyoza|manti|khinkali;Пельмени;Dumplings;pelmeni=200|sour_cream=25
+syrniki;Сырники;Syrniki;syrniki=150|sour_cream=25
+pancake|blini|crepe|hotcake;Блины;Pancakes;pancakes=120|sour_cream=25
+waffle;Вафли;Waffles;pancakes=120|honey=21
+yakitori;Якитори;Yakitori;chicken_breast_grilled=150
+shashlik|kebab|shish|souvlaki|espetada|satay|skewer;Шашлык;Shashlik;lamb=180|onion=30
+fish and chips;Рыба с картофелем фри;Fish and chips;fish_nfs=150|fast_food_fries=145
+chips;Чипсы;Potato chips;potato_chips=60
+schnitzel|cutlet|katsu|milanesa;Отбивная;Breaded cutlet;pork_chop=160|sunflower_oil=12
+stroganoff;Бефстроганов;Beef Stroganoff;beef_stew=150|sour_cream=30|pasta_cooked=150
+goulash|stew|ragout|ragu;Мясное рагу;Meat stew;beef_stew=180|potato_boiled=100|carrot=40
+club sandwich|sandwich|panini|reuben;Сэндвич;Sandwich;white_bread=60|ham=40|cheddar=30|tomato=40
+quesadilla|nachos;Кесадилья;Quesadilla;flour_tortilla=45|cheddar=40|tomato=30
+taco;Тако;Tacos;beef_taco=160
+sushi|maki|nigiri|sashimi|temaki|onigiri;Суши;Sushi;california_roll=200
+oatmeal|porridge|congee|kasha|gruel;Каша;Porridge;oatmeal_milk=250
+muesli|granola;Гранола;Granola;granola=45|milk_whole=150
+shchi|solyanka|rassolnik|okroshka|ukha|borsch;Суп;Soup;chicken_soup=350|sour_cream=20
+smoothie|milkshake;Смузи;Smoothie;milk_whole=200|banana=100
+cappuccino|americano|macchiato|mocha|flat white;Кофе с молоком;Coffee with milk;latte=300
+cookie|biscuit|shortbread|gingerbread;Печенье;Cookies;chocolate_cookie=30
+cinnamon roll|bun|brioche|croissant|danish|scone|donut|doughnut;Булочка;Bun;croissant=57
+pie|tart|cake|pastry|muffin|brownie|cupcake|strudel|cobbler|crumble|crisp|cheesecake|tiramisu|eclair|pudding;Выпечка;Pastry;donut=80
+chocolate|truffle|praline|fudge;Шоколад;Chocolate;milk_chocolate=20
+shrimp|prawn|lobster|crab|mussel|clam|oyster|squid|octopus|scallop;Морепродукты;Seafood;shrimp=100
+fish|seafood|fillet;Рыба;Fish;cod=150
+sausage|frankfurter|wurst|salami|chorizo|kielbasa;Колбаски;Sausage;sausage=100
+duck|goose|turkey;Индейка;Poultry;turkey_breast=150
+wrap|shawarma|doner|burrito bowl;Шаурма;Shawarma;chicken_shawarma=350
+burrito;Буррито;Burrito;beef_burrito=200
+bagel|naan|focaccia|baguette|toast|crouton;Хлеб;Bread;white_bread=60
+juice|lemonade|soda|cola|kvass|compote|punch;Напиток;Drink;orange_juice=250
+soup|chowder|broth|bisque;Суп;Soup;chicken_soup=350
+salad|slaw;Салат;Salad;greek_salad=250
+steak|churrasco|grillades;Стейк;Steak;beef_steak=200
+fried chicken;Курица жареная;Fried chicken;chicken_breast_grilled=150|sunflower_oil=12
+white cut chicken|wenchang chicken|hainanese chicken rice;Курица отварная;Boiled chicken;chicken_breast_grilled=150
+chicken|poultry;Курица;Chicken;chicken_breast_grilled=150
+beef|veal|brisket;Говядина;Beef;beef_boiled=150
+pork|ham|bacon;Свинина;Pork;pork_tenderloin=150
+lamb|mutton;Баранина;Lamb;lamb=150
+egg|eggs;Яйцо;Egg;egg_boiled=50

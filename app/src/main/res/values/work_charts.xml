@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The Work charts page: hours a week, and what was recorded beside them in the same weeks. -->
+    <string name="work_charts_legend_hours">Hours worked a week</string>
+    <string name="work_charts_legend_median">Your median</string>
+    <string name="work_charts_gap_note">A week that was not counted has no bar: it is not a week without work.</string>
+    <string name="work_charts_other_days">Other work days</string>
+    <string name="work_charts_days_off">Days off</string>
+    <string name="work_charts_pair_note">The bars are the hours worked, one for each counted week. The line is the figure named under the chart for the same week, against your own average, the mean of the weeks that have a point: above the middle line when it was higher, below when it was lower. They show what was recorded in the same weeks, not what caused what.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">A week’s point needs %1$d day with a reading; a week with fewer leaves a gap in the line, never a zero.</item>
+        <item quantity="other">A week’s point needs %1$d days with a reading; a week with fewer leaves a gap in the line, never a zero.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: above your average</string>
+    <string name="work_charts_spoken_below">%1$s: below your average</string>
+    <string name="work_charts_spoken_at">%1$s: at your average</string>
+    <string name="work_charts_spoken_gap">%1$s: too few days recorded</string>
+</resources>

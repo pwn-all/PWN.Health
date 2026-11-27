@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">Uložit do souboru</string>
+    <string name="route_format_gpx_hint">Pro mapy, hodinky a sportovní aplikace</string>
+    <string name="route_format_geojson_hint">Pro nástroje GIS a webové mapy</string>
+    <string name="route_format_csv_hint">Každé zaměření polohy – do tabulky</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">上个月</string>
+    <string name="m3_cal_next_month">下个月</string>
+    <string name="m3_cal_previous_year">上一年</string>
+    <string name="m3_cal_next_year">下一年</string>
+    <string name="m3_cal_period_ended">%1$s 结束</string>
+    <string name="m3_cal_chart_spoken_days">%1$s：%2$s。</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="other">%1$d 周</item>
+    </plurals>
+    <string name="a11y_state_expanded">已展开</string>
+    <string name="a11y_state_collapsed">已收起</string>
+    <string name="a11y_hours">小时</string>
+    <string name="a11y_minutes">分钟</string>
+    <string name="a11y_seconds">秒</string>
+    <string name="a11y_zoom_in">放大</string>
+    <string name="a11y_zoom_out">缩小</string>
+    <string name="m3_editor_attachment_kind">文件类型</string>
+    <string name="m3_editor_attachment_describe">为 %1$s 添加说明</string>
+    <string name="m3_editor_attachment_remove">移除 %1$s</string>
+    <string name="m3_editor_attachment_read_result">从 %1$s 添加一项结果</string>
+    <string name="m3_editor_energy_share">占今日热量目标的比例</string>
+    <string name="bathroom_kind_previous">上一种类型</string>
+    <string name="bathroom_kind_next">下一种类型</string>
+    <string name="smoking_bowl_smaller">更小的烟锅</string>
+    <string name="smoking_bowl_larger">更大的烟锅</string>
+    <string name="smoking_less_nicotine">尼古丁更少</string>
+    <string name="smoking_more_nicotine">尼古丁更多</string>
+    <string name="progress_photo_delete_dated">删除 %1$s 的照片</string>
+    <string name="home_notice_dismiss">关闭“%1$s”</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">第 %1$d 张卡片，共 %2$d 张</string>
+    <string name="home_chart_busiest">%1$s：高峰时段 %2$s，%3$s</string>
+    <string name="m3_labs_import_reopen">显示已识别的页面</string>
+    <string name="m3_labs_open_chart">打开图表</string>
+    <string name="m3_labs_chart_sideways">横过来查看图表</string>
+    <string name="m3_labs_chart_earlier">较早的结果</string>
+    <string name="m3_labs_chart_later">较晚的结果</string>
+    <string name="med_a11y_mark_dose">记录 %1$s，%2$s</string>
+    <string name="med_a11y_undo_dose">撤销 %1$s，%2$s</string>
+    <string name="med_a11y_edit_course">编辑 %1$s</string>
+    <string name="med_a11y_delete_course">删除 %1$s</string>
+    <string name="med_history_current">目前</string>
+    <string name="m3_pain_time_left">剩余 %1$s</string>
+    <string name="m3_pain_remove_area">移除</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">第 %1$d 步，共 %2$d 步</string>
+    <string name="m3_profile_advice_level_clinician">值得向临床医生提出</string>
+    <string name="m3_profile_advice_level_attention">值得留意</string>
+    <string name="m3_profile_advice_level_habit">值得审视的习惯</string>
+    <string name="m3_profile_password_mismatch">两次输入的密码不一致</string>
+    <string name="m3_profile_password_show">显示密码</string>
+    <string name="m3_profile_password_hide">隐藏密码</string>
+    <string name="m3_sync_connected">已连接到 %1$s。</string>
+    <string name="m3_sync_disconnected">已与 %1$s 断开连接。</string>
+    <string name="m3_sync_error_scan">无法开始搜索。请稍等片刻，然后重新搜索。</string>
+    <string name="m3_sync_error_pairing">配对未完成。请接受配对请求，然后重新连接。</string>
+    <string name="m3_sync_error_stale_bond">此手机与设备的配对已失效。请在 Android 的蓝牙设置中取消配对该设备，然后重新连接并接受配对请求。</string>
+    <string name="m3_sync_error_no_answer">设备没有响应。请唤醒设备并放在近处，然后重新连接。</string>
+    <string name="m3_sync_error_generic">无法连接到设备。请重试。</string>
+    <string name="m3_sync_no_skin_contact">心率带报告未接触皮肤。请润湿电极并把它系紧。</string>
+    <string name="m3_sync_reading_incomplete">设备没有发送完整的读数，因此无法保存。</string>
+    <string name="m3_sync_connect_named">连接 %1$s</string>
+    <string name="m3_sync_firmware">固件 %1$s</string>
+    <string name="m3_sync_scale_clock_unset">按接收时间记录日期：体重秤的时钟未设置</string>
+    <string name="m3_sync_health_running">正在与本机的 Health Connect 交换数据…</string>
+    <string name="m3_sync_failed_permission">Health Connect 拒绝了访问；请检查已允许的内容。</string>
+    <string name="m3_sync_failed_unavailable">本机的 Health Connect 没有响应。</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect 要求暂停；应用稍后会重试。</string>
+    <string name="m3_sync_failed_other">Health Connect 返回了错误。</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s，通常的休息日</string>
+    <string name="m3_work_sensor_unclassified">未分类</string>
+    <string name="m3_work_motion_still">静止</string>
+    <string name="m3_work_motion_shaking">晃动</string>
+    <string name="m3_work_motion_non_gait">在动，但不是步行</string>
+    <string name="m3_work_posture_in_hand">拿在手中</string>
+    <string name="m3_work_posture_pocket">在口袋里</string>
+    <string name="m3_work_posture_flat">平放</string>
+    <string name="workout_rest_change">更改休息时间</string>
+    <string name="workout_delete_round">删除第 %1$d 轮</string>
+    <string name="workout_complete_title">锻炼完成</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d 瓦</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d 转/分</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d 桨/分</string>
+</resources>

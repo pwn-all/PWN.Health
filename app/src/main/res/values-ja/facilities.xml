@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">近くの医療機関</string>
+    <string name="facility_locating">現在地を確認しています…</string>
+    <string name="facility_denied">位置情報が許可されなかったため、一覧を距離順に並べられません。名前を入力して探すことはできます。</string>
+    <string name="facility_location_off">このスマートフォンの位置情報がオフになっています。</string>
+    <string name="facility_location_settings">位置情報の設定</string>
+    <string name="facility_no_fix">いまは現在地を特定できませんでした。少したってからもう一度お試しください。</string>
+    <string name="facility_nothing_near">現在地から %1$s 以内に、一覧の場所はありません。</string>
+    <string name="facility_list_title">病院・クリニック</string>
+    <string name="facility_near_title">現在地の近く</string>
+    <string name="facility_near_kind">現在地の近く：%1$s</string>
+    <string name="facility_near_gynaecology">現在地の近く：婦人科</string>
+    <string name="facility_near_imaging">現在地の近く：放射線科</string>
+    <string name="facility_near_gastroenterology">現在地の近く：消化器内科</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">これらの場所の出典</string>
+    <string name="facility_help_what">候補は、医療機関の公的な登録簿から取っています。一覧はアプリの中に保存され、検索はこのスマートフォン上で行います。アプリ用に、登録簿は患者が受診できる場所に絞り込み、診療の種類はアプリが扱う診療科にまとめ直しました。「場所」欄の末尾にある位置情報ボタンは、この受診で選んだ診療を行う場所だけを表示し、ほかの医師への受診ならすべての場所を表示します。名前を入力すると、すべての場所から検索します。</string>
+    <string name="facility_help_screening">検診の場合、一覧にはその検診がよく行われる診療科を表示します：子宮頸がん検診は婦人科、マンモグラフィーは放射線科、大腸がん検診は消化器内科です。その診療科が実際にその検診を行っているかどうかは登録簿からはわからないため、予約のときに確認してください。</string>
+    <string name="facility_help_coverage">一覧の対象は、チェコ、ウクライナ、アラブ首長国連邦です。ウクライナについては、ウクライナ国民健康サービスと契約している場所だけを含みます。アラブ首長国連邦については、2023 年 12 月版のドバイの登録簿、アブダビで認可を受けた場所、エミレーツ保健サービスの公立病院と保健センターを含みます。アブダビの場所は、2022 年に地図に載り、2026 年時点でも載っているものだけを、その地図上の位置に表示します。シャルジャ、アジュマン、ウンム・アル・カイワイン、ラス・アル・ハイマ、フジャイラの民間クリニックは含まれていません。登録簿の情報は古くなっていることがあります。行く前にその場所に確認してください。</string>
+    <string name="facility_help_location">位置情報ボタンは、Android におおよその現在地を 1 回だけ問い合わせ、約 1 km 単位に丸めます。この位置は一覧を並べ替えるためにこのスマートフォン上でだけ使われ、保存も送信もされず、このページを離れると破棄されます。</string>
+    <string name="facility_help_sources">出典</string>
+</resources>

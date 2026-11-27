@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">अनुलग्नक का ब्यौरा</string>
+    <string name="attachment_details_hint">चुनें कि इस फ़ाइल में क्या है। उसके नाम और फ़ॉर्मेट से जाँच का पता नहीं चलता। प्रकार बिना बताए भी छोड़ा जा सकता है।</string>
+    <string name="attachment_description">ब्यौरा या शरीर का हिस्सा</string>
+    <string name="attachment_study_day">जाँच की तारीख़ (वैकल्पिक)</string>
+    <string name="attachment_study_day_clear">तारीख़ हटाएँ</string>
+    <string name="attachment_kind_unknown">प्रकार नहीं बताया गया</string>
+    <string name="attachment_kind_ct">सीटी स्कैन</string>
+    <string name="attachment_kind_mri">एमआरआई</string>
+    <string name="attachment_kind_ultrasound">अल्ट्रासाउंड</string>
+    <string name="attachment_kind_xray">एक्स-रे</string>
+    <string name="attachment_kind_doppler">डॉप्लर अल्ट्रासाउंड</string>
+    <string name="attachment_kind_lab">जाँच के परिणाम</string>
+    <string name="attachment_kind_prescription">नुस्ख़ा</string>
+    <string name="attachment_kind_other">दूसरा दस्तावेज़</string>
+    <string name="attachment_catalog_note">मूल संलग्न फ़ाइलें इस ZIP में शामिल हैं। जाँच के प्रकार, तारीख़ें और ब्यौरे मरीज़ ने दिए हैं।</string>
+</resources>

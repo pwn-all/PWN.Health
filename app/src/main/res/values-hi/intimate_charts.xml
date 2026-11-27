@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">और डेटा जोड़ने के बाद फिर आइए!</string>
+    <string name="intimate_charts_walking_title">पैदल चलना और सुबहें</string>
+    <string name="intimate_charts_alcohol_title">शराब और सुबहें</string>
+    <string name="intimate_charts_legend_average">आपका औसत</string>
+    <string name="intimate_charts_legend_night">रात में सोने के घंटे</string>
+    <string name="intimate_charts_legend_steps">रोज़ के कदम</string>
+    <string name="intimate_charts_legend_drinks">हफ़्ते के मानक ड्रिंक</string>
+    <string name="intimate_charts_pair_note">बार नीचे से उठते हैं, हर हफ़्ते का एक। रेखा उसी हफ़्ते की पूरा या आंशिक वाली सुबहों का हिस्सा है, इन हफ़्तों के आपके अपने औसत की तुलना में: ज़्यादा होने पर बीच की रेखा से ऊपर, कम होने पर नीचे। ये दिखाते हैं कि उन्हीं हफ़्तों में क्या दर्ज हुआ, यह नहीं कि किस वजह से क्या हुआ।</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">हफ़्ता तब गिना जाता है जब उसकी कम से कम %1$d सुबह का जवाब दिया गया हो; कम वाले हफ़्ते से रेखा में शून्य नहीं, खाली जगह आती है।</item>
+        <item quantity="other">हफ़्ता तब गिना जाता है जब उसकी कम से कम %1$d सुबहों का जवाब दिया गया हो; कम वाले हफ़्ते से रेखा में शून्य नहीं, खाली जगह आती है।</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">हफ़्ते का बार उन दिनों का औसत है जिनमें मान दर्ज है, और इसके लिए %1$d ऐसा दिन चाहिए; कम वाले हफ़्ते का बार नहीं बनता।</item>
+        <item quantity="other">हफ़्ते का बार उन दिनों का औसत है जिनमें मान दर्ज है, और इसके लिए %1$d ऐसे दिन चाहिए; कम वाले हफ़्ते का बार नहीं बनता।</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">चार्ट तब दिखेगा जब %1$d हफ़्ते के लिए पर्याप्त डेटा हो।</item>
+        <item quantity="other">चार्ट तब दिखेगा जब %1$d हफ़्तों के लिए पर्याप्त डेटा हो।</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">एक मानक ड्रिंक में %1$s शुद्ध अल्कोहल होता है। शराब के लिए मान वाला दिन वह दिन है जिसमें हाथ से कुछ भी दर्ज किया गया हो, और ऐसे दिनों के औसत को सात से गुणा किया जाता है: जिस दिन कुछ नहीं लिखा, वह बिना शराब का दिन नहीं है।</string>
+    <string name="intimate_charts_acts_note">हर हफ़्ते की यौन गतिविधि, साथी के साथ और हस्तमैथुन। जिस हफ़्ते आपने खुद कुछ दर्ज नहीं किया, वह दोनों रेखाएँ तोड़ देता है: वह बिना गतिविधि वाला हफ़्ता नहीं है।</string>
+    <string name="intimate_charts_desire_note">रेखा पर बिंदु: वह हफ़्ता जिसमें उस तरह की गतिविधि पर “%1$s” चुना गया।</string>
+    <string name="intimate_charts_erection_note">रेखा पर डैश: वह हफ़्ता जिसमें उस तरह की गतिविधि पर “%1$s” चुना गया।</string>
+    <string name="intimate_charts_acts_mornings_note">सुबहों के अपने चार्ट हैं: वे अलग जाँच से दिन का एक जवाब हैं, गतिविधियों की गिनती नहीं, और इन अक्षों पर बनतीं तो उनका नतीजा लगतीं।</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, पिछले %2$d हफ़्ते का साप्ताहिक ब्योरा। %3$s</item>
+        <item quantity="other">%1$s, पिछले %2$d हफ़्तों का साप्ताहिक ब्योरा। %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">%1$s तक का हफ़्ता: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">कोई मान नहीं</string>
+    <string name="intimate_charts_spoken_gap">बहुत कम सुबहों का जवाब</string>
+    <string name="intimate_charts_spoken_above">सुबहें आपके औसत से ऊपर</string>
+    <string name="intimate_charts_spoken_below">सुबहें आपके औसत से नीचे</string>
+    <string name="intimate_charts_spoken_at">सुबहें आपके औसत पर</string>
+    <string name="intimate_charts_spoken_acts">साथी के साथ %1$s, हस्तमैथुन %2$s</string>
+</resources>

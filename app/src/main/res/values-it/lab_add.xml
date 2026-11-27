@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Passaggio %1$d di %2$d</string>
+    <string name="lab_add_type_title">Tipo di esame</string>
+    <string name="lab_add_choose_one">Scegli un’opzione. Da questa dipende il passaggio successivo.</string>
+    <string name="lab_add_method_title">Come vuoi aggiungere i risultati?</string>
+    <string name="lab_add_manual">Inserimento manuale</string>
+    <string name="lab_add_manual_body">Inserisci tu i valori</string>
+    <string name="lab_add_file">Scegli un file</string>
+    <string name="lab_add_file_body">Una foto o un PDF da questo telefono</string>
+    <string name="lab_add_photo">Scatta una foto</string>
+    <string name="lab_add_photo_body">Fotografa il referto</string>
+    <string name="lab_add_manual_title">Inserisci i risultati</string>
+    <string name="lab_add_check_title">Controlla i risultati</string>
+    <string name="lab_add_file_title">Aggiungi un file</string>
+    <string name="lab_add_file_lead">Una foto del referto o un PDF fino a 20 pagine e 32 MB. Puoi scegliere più file alla volta.</string>
+    <string name="lab_add_document_lead">Una foto o un PDF del referto.</string>
+    <string name="lab_add_allergy">Pannello allergologico</string>
+    <string name="lab_add_file_hint">Tocca per scegliere un file su questo telefono</string>
+    <string name="lab_add_photo_title">Scatta una foto</string>
+    <string name="lab_add_photo_lead">Appoggia il foglio in piano, con una buona luce, e inquadralo per intero.</string>
+    <string name="lab_add_photo_hint">Si aprirà la fotocamera del telefono</string>
+    <string name="lab_add_study_day">Data dell’esame: %1$s</string>
+    <string name="lab_add_done_title">Risultati aggiunti</string>
+    <string name="lab_add_done_already">Risultati già salvati</string>
+    <string name="lab_add_done_attached">File aggiunto ai risultati salvati</string>
+    <string name="lab_add_done_body">Salvati su questo telefono.</string>
+    <string name="lab_add_open_results">Apri i risultati</string>
+    <string name="lab_add_more">Aggiungi altri risultati</string>
+</resources>

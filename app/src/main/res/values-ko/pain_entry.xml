@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_onset_about_week">일주일쯤 전</string>
+    <string name="pain_onset_about_month">한 달쯤 전</string>
+    <string name="pain_onset_more_than_month">한 달 이상 전</string>
+    <string name="pain_area_search">부위 검색</string>
+    <string name="pain_area_search_empty">그런 이름의 부위가 없습니다</string>
+    <string name="pain_save_needs_area">저장하려면 아픈 곳을 표시하세요</string>
+    <string name="pain_save_needs_answer">아직 답하지 않음: %1$s</string>
+</resources>

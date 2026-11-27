@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Laktatowa impreza</item>
+        <item>Spacer o zachodzie słońca</item>
+        <item>Łowca pagórków</item>
+        <item>Wypad na kawę</item>
+        <item>Poezja bruku</item>
+        <item>Miejskie safari</item>
+        <item>Łyk świeżego powietrza</item>
+        <item>Naokoło, ale z klasą</item>
+        <item>Kałużowy patrol</item>
+        <item>Pętla o złotej godzinie</item>
+        <item>Spacer z rozmachem</item>
+        <item>W pogoni za wiaterkiem</item>
+        <item>Chodnikowa saga</item>
+        <item>Połykacz kilometrów</item>
+        <item>Licząc chmury</item>
+        <item>Malownicza trasa</item>
+        <item>Mała przygoda</item>
+        <item>Skok po endorfiny</item>
+        <item>Inspektor ławek</item>
+        <item>Dumnym krokiem</item>
+        <item>Najdłuższą drogą</item>
+        <item>Gdzie nogi poniosą</item>
+        <item>Ciche kilometry</item>
+        <item>Dzień nóg bez siłowni</item>
+        <item>Tryb wędrowca</item>
+        <item>Przewietrzyć głowę</item>
+        <item>Symfonia kroków</item>
+        <item>Szybko i konkretnie</item>
+        <item>Zasłużyć na przekąskę</item>
+        <item>Parada gołębi</item>
+        <item>Skrótom mówię nie</item>
+        <item>Runda honorowa</item>
+        <item>W poszukiwaniu siebie</item>
+        <item>Dzień dobry, świecie</item>
+        <item>Weekendowa włóczęga</item>
+        <item>Kieszonkowa wyprawa</item>
+        <item>Ranny ptaszek</item>
+        <item>Cardio na luzie</item>
+        <item>Bazgroł na mapie</item>
+        <item>Myśli w ruchu</item>
+    </string-array>
+</resources>

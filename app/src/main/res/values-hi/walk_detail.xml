@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">सैर साझा करें</string>
+    <string name="walk_delete">सैर हटाएँ</string>
+    <string name="walk_delete_title">यह सैर हटाएँ?</string>
+    <string name="walk_delete_body">यह सैर अपने रूट, आँकड़ों और फ़ोटो के साथ फ़ोन से हमेशा के लिए हट जाएगी। जो फ़ाइलें आप पहले सहेज या साझा कर चुके हैं, वे जहाँ हैं वहीं रहेंगी।</string>
+    <string name="walk_photos">फ़ोटो</string>
+    <string name="walk_photos_help">संख्याएँ मानचित्र पर बने निशानों से मेल खाती हैं, जो बताते हैं कि हर फ़ोटो कहाँ ली गई थी। जब फ़ोन GPS से अपना स्थान तय नहीं कर पाया था, तब ली गई फ़ोटो का कोई निशान नहीं होता। दिशा कंपास का वह कोण है जिसकी ओर फ़ोटो ली गई थी, और इसे भौगोलिक उत्तर से गिना जाता है। झुकाव बताता है कि फ़ोन क्षितिज से कितना ऊपर या नीचे की ओर था। पोर्ट्रेट या लैंडस्केप बताता है कि फ़ोन किस तरह पकड़ा गया था।</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">%1$s की ओर</string>
+    <string name="walk_photo_up">%1$d° ऊपर</string>
+    <string name="walk_photo_down">%1$d° नीचे</string>
+    <string name="walk_photo_level">समतल</string>
+    <string name="walk_photo_portrait">पोर्ट्रेट</string>
+    <string name="walk_photo_landscape">लैंडस्केप</string>
+    <string name="walk_photo_upside_down">उल्टा</string>
+    <string name="walk_photo_no_direction">दिशा अज्ञात</string>
+    <string name="walk_photo_spoken">फ़ोटो %1$d: %2$s</string>
+    <string name="walk_photo_delete">हटाएँ: फ़ोटो %1$d</string>
+    <string name="walk_photo_delete_body">फ़ोटो फ़ोन से हमेशा के लिए हट जाएगी। जिस सैर में यह ली गई थी, वह बनी रहेगी।</string>
+    <string-array name="walk_compass_points">
+        <item>उ</item>
+        <item>उ-पू</item>
+        <item>पू</item>
+        <item>द-पू</item>
+        <item>द</item>
+        <item>द-प</item>
+        <item>प</item>
+        <item>उ-प</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>उत्तर</item>
+        <item>उत्तर-पूर्व</item>
+        <item>पूर्व</item>
+        <item>दक्षिण-पूर्व</item>
+        <item>दक्षिण</item>
+        <item>दक्षिण-पश्चिम</item>
+        <item>पश्चिम</item>
+        <item>उत्तर-पश्चिम</item>
+    </string-array>
+</resources>

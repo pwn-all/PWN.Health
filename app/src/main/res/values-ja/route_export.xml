@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">ファイルに保存</string>
+    <string name="route_format_gpx_hint">地図、スマートウォッチ、スポーツアプリ向け</string>
+    <string name="route_format_geojson_hint">GIS ツールやウェブ地図向け</string>
+    <string name="route_format_csv_hint">すべての測位点、表計算ソフト向け</string>
+</resources>

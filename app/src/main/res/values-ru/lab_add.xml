@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Шаг %1$d из %2$d</string>
+    <string name="lab_add_type_title">Выбор типа анализов</string>
+    <string name="lab_add_choose_one">Выберите один вариант. От него зависит следующий шаг.</string>
+    <string name="lab_add_method_title">Как вы хотите добавить результаты?</string>
+    <string name="lab_add_manual">Ручной ввод</string>
+    <string name="lab_add_manual_body">Ввести показатели самостоятельно</string>
+    <string name="lab_add_file">Выбор файла</string>
+    <string name="lab_add_file_body">Фото или PDF из памяти телефона</string>
+    <string name="lab_add_photo">Сделать фото</string>
+    <string name="lab_add_photo_body">Сфотографировать результаты анализов</string>
+    <string name="lab_add_manual_title">Ручной ввод результатов</string>
+    <string name="lab_add_check_title">Проверьте результаты</string>
+    <string name="lab_add_file_title">Загрузите файл</string>
+    <string name="lab_add_file_lead">Фото бланка или PDF до 20 страниц и 32 МБ. Можно выбрать несколько файлов сразу.</string>
+    <string name="lab_add_document_lead">Фото или PDF заключения.</string>
+    <string name="lab_add_allergy">Аллергопанель</string>
+    <string name="lab_add_file_hint">Нажмите, чтобы выбрать файл на телефоне</string>
+    <string name="lab_add_photo_title">Сделайте фото</string>
+    <string name="lab_add_photo_lead">Положите лист ровно, при хорошем свете, чтобы он весь попал в кадр.</string>
+    <string name="lab_add_photo_hint">Откроется камера телефона</string>
+    <string name="lab_add_study_day">Дата исследования: %1$s</string>
+    <string name="lab_add_done_title">Результаты добавлены</string>
+    <string name="lab_add_done_already">Результаты уже сохранены</string>
+    <string name="lab_add_done_attached">Файл добавлен к сохранённым результатам</string>
+    <string name="lab_add_done_body">Сохранено на этом телефоне.</string>
+    <string name="lab_add_open_results">Открыть результаты</string>
+    <string name="lab_add_more">Добавить ещё анализы</string>
+</resources>

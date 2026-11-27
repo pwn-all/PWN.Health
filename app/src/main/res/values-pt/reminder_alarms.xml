@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: este medicamento devia ser tomado antes da refeição; a toma não está marcada.</string>
+    <string name="med_reminder_with">%1$s: há uma refeição registrada; este medicamento é tomado durante a refeição.</string>
+    <string name="med_reminder_needs_with_food">%1$s: este medicamento é tomado durante a refeição, mas ainda não há refeição registrada.</string>
+    <string name="med_alarm_title">Alarmes de medicamentos</string>
+    <string name="med_alarm_dismiss">Desligar o som</string>
+    <string name="med_alarm_open">Abrir o aplicativo</string>
+    <string name="med_alarm_not_taken">Desligar o som não marca o medicamento como tomado.</string>
+    <string name="med_alarm_settings_body">Os alarmes tocam por até um minuto. Permita horários exatos e exibição na tela bloqueada. Sem essas permissões, os lembretes podem atrasar ou aparecer como notificações. Comida e água usam notificações normais.</string>
+    <string name="med_alarm_exact_access">Permitir horários exatos</string>
+    <string name="med_alarm_full_screen_access">Permitir alarmes na tela bloqueada</string>
+    <string name="med_alarm_channel_muted">O canal “%1$s” está silenciado nas configurações do Android, então as tomas chegam como notificações normais, sem tocar.</string>
+    <string name="med_alarm_channel_open">Abrir as configurações do canal</string>
+    <string name="reminder_food_title">Está na hora de comer?</string>
+    <string name="reminder_food_body">Está na hora de comer? Ou comeu sem mim?</string>
+    <string name="reminder_water_title">Lembre-se de beber</string>
+    <string name="reminder_water_body">Não se esqueça de beber líquidos. Adicione água.</string>
+    <string name="med_action_taken">Tomei</string>
+    <string name="med_action_later">Mais tarde</string>
+</resources>

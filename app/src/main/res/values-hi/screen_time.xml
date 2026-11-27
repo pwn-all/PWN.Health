@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_time_title">स्क्रीन टाइम</string>
+    <string name="screen_time_add_body">सोशल, वीडियो, मैसेंजर और गेम में समय, आँखों और दिमाग के लिए ब्रेक के साथ</string>
+    <string name="screen_time_help">आज और इस हफ़्ते सोशल और फ़ीड ऐप, वीडियो, मैसेंजर और गेम कितनी देर स्क्रीन पर रहे, Android के उपयोग इतिहास से। आँखों और दिमाग के रिमाइंडर केवल सोशल और फ़ीड ऐप देखते हैं; बिना ब्रेक के इनके बीच आना-जाना एक सत्र गिना जाता है। बाकी केवल गिना जाता है। जर्नल में कुछ नहीं लिखा जाता और फ़ोन से कुछ बाहर नहीं जाता।</string>
+    <string name="screen_time_channel">स्क्रीन ब्रेक</string>
+    <string name="screen_time_access_title">उपयोग एक्सेस चाहिए</string>
+    <string name="screen_time_access_body">Android किसी ऐप को दूसरे ऐप कितनी देर खुले रहे, यह केवल उपयोग एक्सेस से बताता है। नींद का अनुमान भी यही एक्सेस इस्तेमाल करता है।</string>
+    <string name="screen_time_access_button">उपयोग एक्सेस खोलें</string>
+    <string name="screen_time_longest">बिना ब्रेक का सबसे लंबा सत्र: %1$s</string>
+    <string name="screen_time_over">%1$s से अधिक</string>
+    <string name="screen_time_week">पिछले 7 दिन</string>
+    <string name="screen_time_week_average">प्रति दिन औसत: %1$s</string>
+    <string name="screen_time_eyes_switch">आँखों की थकान की याद दिलाएँ</string>
+    <string name="screen_time_eyes_switch_body">फ़ीड में बिना ब्रेक के लंबे सत्र के बाद</string>
+    <string name="screen_time_brain_switch">दिमागी बोझ की चेतावनी</string>
+    <string name="screen_time_brain_switch_body">जब इन ऐप में दिन का कुल समय ज़्यादा हो जाए</string>
+    <string name="screen_time_tips_title">आँखों और दिमाग के लिए आराम</string>
+    <string name="screen_time_tip_eyes">हर 20 मिनट में, 6 मीटर दूर किसी चीज़ को 20 सेकंड तक देखें।</string>
+    <string name="screen_time_tip_blink">जानबूझकर पलकें झपकाएँ: स्क्रीन देखते समय हम बहुत कम पलकें झपकाते हैं और आँखें सूख जाती हैं।</string>
+    <string name="screen_time_tip_brain">अंतहीन फ़ीड हर कुछ सेकंड में ध्यान बदल देती है। छोटी सैर या कुछ धीमी साँसें दिमाग को शांत करती हैं।</string>
+    <string name="screen_time_tip_night">सोने से एक घंटा पहले फ़ोन रख दें: तेज़ स्क्रीन नींद को देर से लाती है।</string>
+    <string name="screen_time_breathing">साँस का ब्रेक</string>
+    <string name="screen_time_eyes_title">आँखों को आराम देने का समय</string>
+    <string name="screen_time_eyes_body">%1$s पर %2$d मिनट से बिना ब्रेक। 20 सेकंड दूर देखें और कुछ बार पलकें झपकाएँ।</string>
+    <string name="screen_time_brain_title">आपके दिमाग को ब्रेक चाहिए</string>
+    <string name="screen_time_brain_body">आज सोशल और फ़ीड ऐप पर %1$s। अंतहीन फ़ीड ध्यान को थका देती है: फ़ोन 10 मिनट के लिए रख दें, टहलें या धीरे साँस लें।</string>
+    <string name="screen_time_feeds_title">सोशल और फ़ीड</string>
+    <string name="screen_time_video_title">वीडियो और स्ट्रीमिंग</string>
+    <string name="screen_time_messengers_title">मैसेंजर</string>
+    <string name="screen_time_games_title">गेम</string>
+    <string name="screen_time_category_longest">सबसे लंबा सत्र: %1$s</string>
+    <string name="screen_time_category_week">पिछले 7 दिन: %1$s, औसतन %2$s प्रति दिन</string>
+    <string name="screen_time_tracked_note">केवल गिनती, कोई रिमाइंडर नहीं।</string>
+    <string name="screen_time_none_today">आज नहीं खोले गए</string>
+</resources>

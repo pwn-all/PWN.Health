@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Démarrage selon le lieu</string>
+    <string name="work_place_help_what">Enregistrez le lieu où vous travaillez, et le chronomètre de travail démarre quand votre téléphone s’y trouve. Chaque vérification prend une seule position auprès du service de localisation d’Android lui-même, la compare au point enregistré, puis l’oublie. Un point n’est enregistré qu’à partir d’une position précise à 100 m près. Seuls le point enregistré, son rayon et vos périodes sont conservés, sur ce téléphone. Rien n’est envoyé nulle part.</string>
+    <string name="work_place_help_when">Les vérifications ont lieu toutes les 10 minutes, et seulement dans une plage horaire chaque jour de travail. Elle s’ouvre à votre réveil : la fin de votre enregistrement de sommeil ou votre première utilisation du téléphone après la nuit, si l’application peut voir l’une ou l’autre. Une première utilisation du téléphone avant %4$s compte à partir de %4$s, sauf si votre enregistrement de sommeil montre un réveil plus tôt ou si vos horaires habituels commencent plus tôt. Si l’application ne voit ni l’une ni l’autre, la matinée commence à %1$s. Si elle peut les voir mais n’a pas encore constaté votre réveil, elle attend jusqu’à %2$s au plus tard. Dès que les 4 dernières semaines comptent au moins 3 périodes commencées un jour de travail, sans compter celles que le chronomètre a arrêtées de lui-même, la plage s’ouvre une heure avant votre début habituel, jamais avant votre réveil, et se ferme une heure après votre fin habituelle. D’ici là, elle se ferme à %3$s. Il n’y a aucune vérification les jours de repos. Avant l’ouverture de la plage, l’application regarde seulement si vous êtes debout, ce qui ne prend aucune position.</string>
+    <string name="work_place_help_leave">Si deux vérifications de suite ne vous trouvent pas sur place, une période lancée par l’application s’arrête, et se termine à la dernière vérification où vous étiez sur place. Une période que vous avez lancée vous-même n’est jamais arrêtée de cette façon. Tant qu’une période lancée par l’application est en cours, les vérifications continuent après la fermeture de la plage, jusqu’à minuit au plus tard.</string>
+    <string name="work_place_help_yours">Chaque démarrage et chaque arrêt automatiques s’accompagnent d’une notification depuis laquelle vous pouvez les annuler : un démarrage jusqu’à la fin de la journée, tant que vous n’avez pas modifié la période vous-même, et un arrêt pendant une heure, tant que le chronomètre n’a pas été redémarré depuis. Dès que vous appuyez vous-même sur Démarrer, Pause, Reprendre ou Arrêter, ou que vous annulez, l’application ne démarre plus rien ce jour-là.</string>
+    <string name="work_place_help_access">Pour cela, Android doit autoriser la localisation précise en permanence ainsi que les alarmes exactes. Tant que l’interrupteur est désactivé, aucune position n’est prise pour cette fonction.</string>
+    <string name="work_place_save">Enregistrer l’endroit où je suis</string>
+    <string name="work_place_locating">Recherche de votre position…</string>
+    <string name="work_place_no_fix">Position introuvable</string>
+    <string name="work_place_rough_fix">Position trop imprécise. Essayez près d’une fenêtre</string>
+    <string name="work_place_point">Votre lieu de travail</string>
+    <string name="work_place_saved">Enregistré : %1$s</string>
+    <string name="work_place_saved_within">Enregistré : %1$s · à %2$d m près</string>
+    <string name="work_place_move">Le déplacer là où je suis</string>
+    <string name="work_place_remove">Supprimer le lieu de travail</string>
+    <string name="work_place_radius">Sur place dans un rayon de</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Démarrer le chronomètre à mon arrivée</string>
+    <string name="work_place_access_precise_title">Localisation précise</string>
+    <string name="work_place_access_precise_body">La localisation approximative n’est fiable qu’à environ 1,6 km près, plus que l’étendue de tout lieu de travail. Le point et les vérifications exigent la localisation précise.</string>
+    <string name="work_place_access_background_title">Localisation en permanence</string>
+    <string name="work_place_access_background_body">PWN.Health utilise votre localisation en arrière-plan pour démarrer et arrêter le chronomètre de travail quand vous arrivez sur votre lieu de travail ou le quittez, même lorsque l’application est fermée. La vérification a lieu toutes les 10 minutes, uniquement entre le matin et le soir de vos jours de travail, et les positions restent sur ce téléphone. Sur l’écran suivant, choisissez « Toujours autoriser ».</string>
+    <string name="work_place_access_exact_title">Alarmes et rappels</string>
+    <string name="work_place_access_exact_body">Seule une alarme exacte peut réveiller l’application fermée pour une vérification. Android range ce réglage sur son écran « Alarmes et rappels ».</string>
+    <string name="work_place_access_notifications_title">Notifications</string>
+    <string name="work_place_access_notifications_body">Chaque démarrage et chaque arrêt automatiques sont signalés par une notification avec un bouton « Annuler », sur le canal « %1$s ». Sans cette autorisation, le chronomètre démarre et s’arrête quand même, mais rien ne permet de l’annuler.</string>
+    <string name="work_place_next_today">Prochaine vérification aujourd’hui à %1$s</string>
+    <string name="work_place_next_tomorrow">Prochaine vérification demain à %1$s</string>
+    <string name="work_place_next_day">Prochaine vérification : %1$s à %2$s</string>
+    <string name="work_place_next_none">Aucune vérification n’est prévue pour la semaine à venir.</string>
+    <string name="work_place_started_title">Chronomètre de travail démarré</string>
+    <string name="work_place_started_body">Votre téléphone est sur votre lieu de travail. Démarré à %1$s.</string>
+    <string name="work_place_stopped_title">Chronomètre de travail arrêté</string>
+    <string name="work_place_stopped_body">Lors de deux vérifications de suite, votre téléphone était hors de votre lieu de travail. La période se termine à %1$s, la dernière vérification où vous étiez sur place.</string>
+    <string name="work_place_stopped_short">Lors de deux vérifications de suite, votre téléphone était hors de votre lieu de travail, après une seule vérification sur place : rien n’a donc été gardé.</string>
+    <string name="work_place_undo">Annuler</string>
+    <string name="work_place_channel">Vérifications du lieu de travail</string>
+    <string name="work_place_notice_channel">Chronomètre de travail automatique</string>
+    <string name="work_place_checking">Vérification de votre présence au travail</string>
+</resources>

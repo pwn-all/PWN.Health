@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">Сфотографировать лекарство</string>
+    <string name="med_photo_of">Фото лекарства «%1$s»</string>
+    <string name="med_photo_unnamed">Фото лекарства</string>
+    <string name="med_photo_retake">Переснять</string>
+    <string name="med_photo_remove">Убрать фото</string>
+    <string name="med_photo_open">Открыть в полном размере</string>
+    <string name="med_delete_body_photo">Расписание и фото будут удалены, но уже отмеченные приёмы останутся в журнале.</string>
+</resources>

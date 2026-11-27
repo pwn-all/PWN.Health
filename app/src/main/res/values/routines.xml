@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Adding a workout template, page 1: its name, its picture and a few words about it. -->
+    <string name="routines_about_title">About the workout</string>
+    <!-- The icon in the top corner of the first page that fills the pages from a shared template file. -->
+    <string name="routines_import">Import a workout file</string>
+    <!-- Said on the first page when the chosen file holds no template. -->
+    <string name="routines_import_error">This file is not a workout template.</string>
+    <string name="routines_import_cut">The file lists more exercises (%2$d) than a template takes (%1$d): only the first ones were imported.</string>
+    <!-- The field under the template's name. -->
+    <string name="routines_description">Short description</string>
+    <!-- Spoken label of the square beside the name that takes a photo or picks one from the gallery. -->
+    <string name="routines_photo">Template photo</string>
+    <!-- Over the circles of the week on page 1: the days the template is for. -->
+    <string name="routines_days_title">Training days</string>
+    <!-- Page 2: the exercises, the supersets and the rests between them. -->
+    <string name="routines_flow_title">Exercises and rests</string>
+    <string name="routines_flow_lead">Add exercises or supersets, and the rest between them.</string>
+    <string name="routines_add_superset">Add superset</string>
+    <!-- Page 3, once it is saved. -->
+    <string name="routines_saved_title">Template saved</string>
+    <string name="routines_open_template">Open template</string>
+    <string name="routines_add_another">Add another template</string>
+    <!-- Doing a template, stretch by stretch: the few seconds before the first exercise. -->
+    <string name="routines_get_ready">Get ready</string>
+    <!-- Over the salute once the last stretch is done or the workout is ended. -->
+    <string name="routines_finished">Workout complete</string>
+    <!-- The notification on the morning of a day a template was planned for; its text is the template’s name. -->
+    <string name="routines_reminder_title">Workout today</string>
+    <!-- A template’s own page: the figures over its plan — the minutes it takes, rests included… -->
+    <string name="routines_total_time">Total time</string>
+    <string name="routines_total_lifted">Lifted in all</string>
+    <string name="routines_total_work">Time training</string>
+    <!-- …and, over a figure in kcal, the energy it is estimated to use. -->
+    <string name="routines_burn">You’ll burn about</string>
+    <!-- The heading over the template’s exercises, with how many there are beside it. -->
+    <string name="routines_plan_title">Workout plan</string>
+    <plurals name="routines_exercises">
+        <item quantity="one">%1$d exercise</item>
+        <item quantity="other">%1$d exercises</item>
+    </plurals>
+    <!-- Spoken label of the round “⋯” over the photo that opens Share, Edit and Delete. -->
+    <string name="routines_menu">Template actions</string>
+    <!-- The player: over the bar of the whole session done so far, with its percentage beside it. -->
+    <string name="routines_overall">Overall progress</string>
+    <!-- The player's tiles: the time left of the stretch under way… -->
+    <string name="routines_left">Left</string>
+    <!-- …which set of the exercise this is… -->
+    <string name="routines_set">Set</string>
+    <string name="routines_set_number">Set %1$d</string>
+    <!-- …as “2 of 3”… -->
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d of %2$d</string>
+    <!-- …and the rest that follows the step. -->
+    <string name="routines_rest_after">Rest after</string>
+    <!-- Spoken label of the button that goes back a stretch. -->
+    <string name="routines_previous">Previous</string>
+    <!-- Under the stop icon: ends the session and logs what was begun. -->
+    <string name="routines_finish">Finish</string>
+    <string name="routines_leave_title">Leave the workout?</string>
+    <string name="routines_leave_body">What you have done so far will not be saved. To keep it, tap Finish.</string>
+    <string name="routines_pick_title">Choose an exercise</string>
+    <string name="routines_pick_lead">Find the exercise you need</string>
+    <string name="routines_setup_lead">Exercise setup</string>
+    <string name="routines_sets_count">Number of sets</string>
+    <string name="routines_sets_count_lead">Choose how many times to do this exercise</string>
+    <string name="routines_not_done">Not done</string>
+    <string name="routines_done_of">%1$s of %2$s</string>
+    <string name="routines_pick_empty">No exercise matches</string>
+    <string name="routines_set_done_question">Did you complete the set?</string>
+    <string name="routines_reps_done_question">How many reps did you do?</string>
+    <string name="routines_goal_missed">Goal not reached</string>
+    <!-- The workouts page, under the rule beneath the templates: a session with no plan, picked as it goes. -->
+    <string name="routines_freestyle" translatable="false">Freestyle</string>
+    <string name="routines_freestyle_body">No plan: pick exercises as you go</string>
+    <!-- Spoken action on a freestyle exercise's drawing, which a two-second hold turns into the muscles it works. -->
+    <string name="routines_show_muscles">Show the muscles it works</string>
+    <string name="routines_show_drawing">Show the drawing of the exercise</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: this dose was due before food; it is not marked as taken.</string>
+    <string name="med_reminder_with">%1$s: a meal is logged; this dose is taken with food.</string>
+    <string name="med_reminder_needs_with_food">%1$s: this dose is taken with food, but no meal is logged yet.</string>
+    <string name="med_action_taken">I took it</string>
+    <string name="med_action_later">Later</string>
+    <string name="med_alarm_title">Medicine alarms</string>
+    <string name="med_alarm_dismiss">Stop sound</string>
+    <string name="med_alarm_open">Open app</string>
+    <string name="med_alarm_not_taken">Stopping the sound does not mark the dose as taken.</string>
+    <string name="med_alarm_settings_body">Medicine alarms ring for up to a minute. Allow exact alarms for scheduled times and full-screen access for the lock screen. Without these permissions, reminders may be delayed or shown as notifications. Food and water use ordinary notifications.</string>
+    <string name="med_alarm_exact_access">Allow exact alarm times</string>
+    <string name="med_alarm_full_screen_access">Allow lock-screen alarms</string>
+    <string name="med_alarm_channel_muted">The “%1$s” channel is muted in Android settings, so doses arrive as ordinary notifications, without the ring.</string>
+    <string name="med_alarm_channel_open">Open channel settings</string>
+    <string name="reminder_food_title">Time to eat?</string>
+    <string name="reminder_food_body">Is it time to eat? Or did you eat without me?</string>
+    <string name="reminder_water_title">Remember to drink</string>
+    <string name="reminder_water_body">Remember to drink fluids. Add water.</string>
+</resources>

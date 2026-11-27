@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <!-- The halftone-heart logo ships as a full-bleed 108dp layer per density: the dot field runs
+         to the edge, where every mask shape crops it, and the heart itself sits inside the safe
+         zone, so there is no inset. The themed layer cannot be the same picture — a stencil of a
+         dot field is a sieve — so it is the heart drawn solid. -->
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+    <monochrome>
+        <inset android:drawable="@drawable/ic_heart" android:inset="25%" />
+    </monochrome>
+</adaptive-icon>

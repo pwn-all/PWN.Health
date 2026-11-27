@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">Salvar em um arquivo</string>
+    <string name="route_format_gpx_hint">Para mapas, relógios e apps esportivos</string>
+    <string name="route_format_geojson_hint">Para ferramentas SIG e mapas web</string>
+    <string name="route_format_csv_hint">Todos os pontos, para planilhas</string>
+</resources>

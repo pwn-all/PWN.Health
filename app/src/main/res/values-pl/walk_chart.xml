@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">Wysokość</string>
+    <string name="walk_chart_speed">Prędkość</string>
+    <string name="walk_chart_no_elevation">Za mało pomiarów wysokości z tego spaceru</string>
+    <string name="walk_chart_no_speed">Za mało pomiarów prędkości z tego spaceru</string>
+    <string name="walk_chart_spoken_elevation">Wysokość od %1$s do %2$s</string>
+    <string name="walk_chart_spoken_speed">Prędkość: średnia %1$s, maksymalna %2$s</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">ft</string>
+    <string name="walk_chart_unit_kmh">km/h</string>
+    <string name="walk_chart_unit_mph">mph</string>
+</resources>

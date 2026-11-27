@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">Klidová tepová frekvence</string>
+    <string name="health_rationale_purpose_recovery">Pouze čtení. Zobrazují se na obrazovce vitálních funkcí jako samostatné karty, každá vedle vaší obvyklé hodnoty za předchozí čtyři týdny. Měří je hodinky nebo prsten, obvykle v noci; aplikace je sama nepočítá a nic zpět nezapisuje.</string>
+    <string name="vitals_note_resting_measured">Změřeno hodinkami nebo prstenem v klidu, obvykle v noci, a načteno z Health Connect nebo z exportovaného souboru. Přirozeně je nižší než tep změřený přes den.</string>
+    <string name="vitals_note_baseline">Vaše obvyklá hodnota je medián vašich měření za 28 dní před tím posledním a jsou potřeba alespoň pět. Je to srovnání se sebou samým, ne verdikt.</string>
+    <string name="vitals_baseline_above">Poslední měření o %1$d %2$s nad obvyklou hodnotou</string>
+    <string name="vitals_baseline_below">Poslední měření o %1$d %2$s pod obvyklou hodnotou</string>
+    <string name="vitals_baseline_same">Poslední měření odpovídá obvyklé hodnotě</string>
+    <plurals name="vitals_baseline">
+        <item quantity="one">Obvykle u vás: %1$s %2$s, medián z %3$d měření za předchozí 4 týdny</item>
+        <item quantity="few">Obvykle u vás: %1$s %2$s, medián ze %3$d měření za předchozí 4 týdny</item>
+        <item quantity="many">Obvykle u vás: %1$s %2$s, medián z %3$d měření za předchozí 4 týdny</item>
+        <item quantity="other">Obvykle u vás: %1$s %2$s, medián z %3$d měření za předchozí 4 týdny</item>
+    </plurals>
+</resources>

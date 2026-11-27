@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">إضافة تمرين آخر</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">المدة (دد:ثث)</string>
+    <string name="workout_discard_title">تجاهل خطة التمرين؟</string>
+    <string name="workout_discard_body">ستضيع التغييرات وتقدّم التمرين.</string>
+    <string name="workout_discard_confirm">تجاهل</string>
+    <string name="workout_correction_leave_title">الخروج دون حفظ؟</string>
+    <string name="workout_correction_leave_body">لم تُحفظ بعدُ التغييرات على هذا التمرين. للاحتفاظ بها، اضغط «%1$s» ثم «%2$s».</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Preview and first frame: what the picker shows before the widget is placed, and what lands until
+  the first update draws the three shortcuts. It is a description and holds no figure.
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:gravity="center"
+    android:padding="12dp"
+    android:text="@string/widget_quick_description"
+    android:textColor="?android:attr/textColorPrimary"
+    android:textSize="16sp"
+    tools:ignore="Overdraw" />

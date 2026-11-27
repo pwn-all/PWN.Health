@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_signal_pill">%1$s. Detalhes</string>
+    <string name="track_signal_pill_accuracy">%1$s, %2$s. Detalhes</string>
+    <string name="track_signal_good">Sinal de GPS bom</string>
+    <string name="track_signal_fair">Sinal de GPS razoável</string>
+    <string name="track_signal_poor">Sinal de GPS fraco</string>
+    <string name="track_signal_searching">Procurando sinal de GPS</string>
+    <string name="track_signal_location_off">Localização desligada</string>
+    <string name="track_signal_no_access">Sem acesso à localização</string>
+    <string name="track_info_title">Sinal e percurso</string>
+    <string name="track_signal_title">Sinal de GPS</string>
+    <string name="track_signal_note">As barras mostram com que precisão o telefone sabe onde está. Três barras: %1$s ou melhor. Duas: até %2$s. Uma: pior que isso. Nenhuma: sem posição por dez segundos, enquanto o telefone continua procurando. Esta tela só lê a posição enquanto está aberta, para mostrar o sinal e onde você está.</string>
+    <string name="track_history_empty">Nenhum percurso salvo ainda.</string>
+    <string name="track_map_here">Mapa ao redor da sua posição</string>
+    <string name="track_map_waiting">Mapa-múndi. Sua posição ainda não é conhecida.</string>
+    <string name="track_map_follow_here">Voltar à sua posição</string>
+    <string name="track_pause">Pausar a gravação</string>
+    <string name="track_resume">Retomar a gravação</string>
+    <string name="track_value_paused">em pausa</string>
+    <string name="track_value_ended">terminado</string>
+    <string name="track_finish_title">Terminar este percurso?</string>
+    <string name="track_finish_body">A gravação termina e o percurso é salvo. Se quiser só descansar um pouco, use o botão de pausa.</string>
+    <string name="track_finish">Terminar</string>
+    <string name="track_keep_recording">Continuar gravando</string>
+    <string name="track_finished">Percurso terminado</string>
+</resources>

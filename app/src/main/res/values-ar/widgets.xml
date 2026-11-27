@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">نوم الليلة الماضية</string>
+    <string name="widget_sleep_caption">الليلة الماضية، %1$s – %2$s</string>
+    <string name="widget_sleep_none">لا يوجد نوم مسجّل</string>
+    <string name="widget_weight_description">آخر وزن لك وكيف تغيّر خلال 30 يومًا</string>
+    <string name="widget_weight_caption">آخر وزن</string>
+    <string name="widget_weight_change">%1$s خلال 30 يومًا</string>
+    <string name="widget_weight_steady">بلا تغيير خلال 30 يومًا</string>
+    <string name="widget_weight_none">لا يوجد وزن مسجّل</string>
+    <string name="widget_energy_description">طعام اليوم مقابل حصة اليوم؛ نقرة واحدة تسجّل وجبة</string>
+    <string name="widget_energy_caption">من %1$s سعرة · %2$s</string>
+    <string name="widget_energy_left">متبقٍ %1$s</string>
+    <string name="widget_energy_over">زيادة %1$s</string>
+    <string name="widget_week_description">الخطوات في كل يوم من الأيام السبعة الأخيرة</string>
+    <string name="widget_week_caption">%1$s خطوة هذا الأسبوع · %2$s في اليوم</string>
+    <string name="widget_week_initial">خطوات هذا الأسبوع</string>
+    <string name="widget_level_description">مستواك، ونقاط الخبرة حتى التالي، وسلسلة الأيام المتتالية</string>
+    <string name="widget_level_initial">المستوى</string>
+    <plurals name="widget_level_streak">
+        <item quantity="zero">سلسلة: %d يوم</item>
+        <item quantity="one">سلسلة: %d يوم</item>
+        <item quantity="two">سلسلة: %d يومين</item>
+        <item quantity="few">سلسلة: %d أيام</item>
+        <item quantity="many">سلسلة: %d يومًا</item>
+        <item quantity="other">سلسلة: %d يوم</item>
+    </plurals>
+    <string name="widget_dose_description">الجرعة التالية لليوم، تُعلَّم كمأخوذة بنقرة واحدة</string>
+    <string name="widget_dose_next">التالي: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">أُخذت</string>
+    <string name="widget_dose_done">أُخذت كل جرعات اليوم</string>
+    <string name="widget_dose_none">لا جرعات اليوم</string>
+    <string name="widget_cycle_description">يوم الدورة والموعد التالي المتوقع للحيض</string>
+    <string name="widget_cycle_period">الحيض، اليوم %1$d</string>
+    <string name="widget_preview_sleep_value">7 س 40 د</string>
+    <string name="widget_preview_sleep_caption">الليلة الماضية، 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72.4 كجم</string>
+    <string name="widget_preview_weight_change">−0.6 كجم خلال 30 يومًا</string>
+    <string name="widget_preview_energy_value">1 240</string>
+    <string name="widget_preview_energy_caption">من 2 520 سعرة · متبقٍ 1 280</string>
+    <string name="widget_preview_week_caption">48 300 خطوة هذا الأسبوع · 6 900 في اليوم</string>
+    <string name="widget_preview_level_title">المستوى 7</string>
+    <string name="widget_preview_level_caption">1 240 / 1 600 XP · سلسلة 12 يومًا</string>
+    <string name="widget_preview_dose_next">التالي: ميتفورمين</string>
+    <string name="widget_preview_dose_at">500 ملغ · 14:00</string>
+    <string name="widget_preview_cycle_day">اليوم 12</string>
+    <string name="widget_preview_cycle_next">الموعد التالي المتوقع 24 نوفمبر</string>
+</resources>

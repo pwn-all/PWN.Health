@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">Ağrı geçmişi</string>
+    <string name="pain_history_empty">Henüz ağrı kaydı yok.</string>
+    <string name="pain_history_onset_just_now">kayıt anında başladı</string>
+    <string name="pain_history_onset_earlier_today">aynı gün başladı</string>
+    <string name="pain_history_onset_yesterday">kayıttan bir gün önce başladı</string>
+    <string name="pain_history_onset_days_2_3">kayıttan 2–3 gün önce başladı</string>
+    <string name="pain_history_onset_about_week">kayıttan yaklaşık bir hafta önce başladı</string>
+    <string name="pain_history_onset_about_month">kayıttan yaklaşık bir ay önce başladı</string>
+    <string name="pain_history_onset_more_than_month">kayıttan bir aydan uzun süre önce başladı</string>
+    <string name="pain_history_onset_week">kayıttan 4 gün – 3 ay önce başladı</string>
+    <string name="pain_history_onset_months_3">kayıttan 3 aydan uzun süre önce başladı</string>
+    <string name="pain_history_same">%1$s tarihli kayıttakiyle aynı ağrı</string>
+    <string name="pain_history_still_hurts">kayıt anında hâlâ ağrıyordu</string>
+    <string name="pain_history_lasted">%1$s sürdü</string>
+</resources>

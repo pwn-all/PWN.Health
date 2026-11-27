@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Laktat-Party</item>
+        <item>Ab in den Sonnenuntergang</item>
+        <item>Hügeljagd</item>
+        <item>Kaffeerunde</item>
+        <item>Pflasterpoesie</item>
+        <item>Stadtsafari</item>
+        <item>Frischluft tanken</item>
+        <item>Umweg deluxe</item>
+        <item>Pfützenpatrouille</item>
+        <item>Runde zur goldenen Stunde</item>
+        <item>Läuft bei mir</item>
+        <item>Dem Wind hinterher</item>
+        <item>Gehweg-Geschichten</item>
+        <item>Kilometer fressen</item>
+        <item>Wolkengucken</item>
+        <item>Schöne Aussichten</item>
+        <item>Kleines Abenteuer</item>
+        <item>Endorphine abholen</item>
+        <item>Parkbank-Inspektion</item>
+        <item>Stolz wie Bolle</item>
+        <item>Der Weg ist das Ziel</item>
+        <item>Völlig losgelöst</item>
+        <item>Stille Kilometer</item>
+        <item>Leg Day im Grünen</item>
+        <item>Schlendermodus</item>
+        <item>Den Kopf auslüften</item>
+        <item>Sinfonie der Schritte</item>
+        <item>Zackige Angelegenheit</item>
+        <item>Erst laufen, dann Kuchen</item>
+        <item>Taubenparade</item>
+        <item>Abkürzung verweigert</item>
+        <item>Ehrenrunde</item>
+        <item>Mit Leib und Sohle</item>
+        <item>Hallo, frische Luft</item>
+        <item>Wochenendbummel</item>
+        <item>Expedition um die Ecke</item>
+        <item>Frühstreife</item>
+        <item>Cardio-Kreuzfahrt</item>
+        <item>Kartenkritzelei</item>
+        <item>Gedankengang</item>
+    </string-array>
+</resources>

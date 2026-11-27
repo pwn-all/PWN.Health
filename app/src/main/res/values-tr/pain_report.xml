@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_summary_note">Son 30 günde boyananlar ve her bölgenin kaç gün ağrıdığı</string>
+    <string name="pain_paint_hint">Ağrıyan yeri boyayın; yakınlaştırmak için iki parmağınızı açın. Ağrıyan bir sırt ile ağrıyan bir diz iki ayrı kayıttır.</string>
+    <string name="pain_head_note">Figür boyundan başlar: baş ağrısının bölgesini “Bölge ekle” altında seçin.</string>
+    <plurals name="report_pain_drawing_caption">
+        <item quantity="one">%1$d kayıt çizildi. Her işaret, kişinin boyadığı yere çizilir; kayıtların çakıştığı yerler daha koyudur. Listeden boyamadan seçilen bölgeler çizilmez.</item>
+        <item quantity="other">%1$d kayıt çizildi. Her işaret, kişinin boyadığı yere çizilir; kayıtların çakıştığı yerler daha koyudur. Listeden boyamadan seçilen bölgeler çizilmez.</item>
+    </plurals>
+</resources>

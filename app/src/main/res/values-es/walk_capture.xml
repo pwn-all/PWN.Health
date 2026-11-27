@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_photo_take">Fotografiar este lugar</string>
+    <string name="walk_photo_saved">Foto guardada</string>
+    <string name="walk_photo_failed">Foto no guardada</string>
+    <string name="walk_photo_no_camera">No hay app de cámara</string>
+</resources>

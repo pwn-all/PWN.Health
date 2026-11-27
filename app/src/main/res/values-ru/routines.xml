@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">О тренировке</string>
+    <string name="routines_import">Импортировать файл тренировки</string>
+    <string name="routines_import_error">Этот файл не является шаблоном тренировки.</string>
+    <string name="routines_import_cut">В файле упражнений больше (%2$d), чем вмещает шаблон (%1$d): импортированы только первые.</string>
+    <string name="routines_description">Краткое описание</string>
+    <string name="routines_photo">Фото шаблона</string>
+    <string name="routines_days_title">Дни тренировок</string>
+    <string name="routines_flow_title">Упражнения и отдых</string>
+    <string name="routines_flow_lead">Добавьте упражнения или суперсеты и отдых между ними.</string>
+    <string name="routines_add_superset">Добавить суперсет</string>
+    <string name="routines_saved_title">Шаблон сохранён</string>
+    <string name="routines_open_template">Открыть шаблон</string>
+    <string name="routines_add_another">Добавить ещё шаблон</string>
+    <string name="routines_get_ready">Приготовьтесь</string>
+    <string name="routines_finished">Тренировка завершена</string>
+    <string name="routines_reminder_title">Сегодня тренировка</string>
+    <string name="routines_total_time">Общее время</string>
+    <string name="routines_total_lifted">Всего поднято</string>
+    <string name="routines_total_work">Время занятий</string>
+    <string name="routines_burn">Сожжёте примерно</string>
+    <string name="routines_plan_title">План тренировки</string>
+    <plurals name="routines_exercises">
+        <item quantity="one">%1$d упражнение</item>
+        <item quantity="few">%1$d упражнения</item>
+        <item quantity="many">%1$d упражнений</item>
+        <item quantity="other">%1$d упражнения</item>
+    </plurals>
+    <string name="routines_menu">Действия с шаблоном</string>
+    <string name="routines_overall">Общий прогресс</string>
+    <string name="routines_left">Осталось</string>
+    <string name="routines_set">Подход</string>
+    <string name="routines_set_number">Подход %1$d</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d из %2$d</string>
+    <string name="routines_rest_after">Отдых после</string>
+    <string name="routines_previous">Предыдущее</string>
+    <string name="routines_finish">Завершить</string>
+    <string name="routines_leave_title">Выйти из тренировки?</string>
+    <string name="routines_leave_body">То, что вы уже сделали, не сохранится. Чтобы сохранить, нажмите «Завершить».</string>
+    <string name="routines_pick_title">Выбор упражнения</string>
+    <string name="routines_pick_lead">Найдите нужное упражнение</string>
+    <string name="routines_setup_lead">Настройка упражнения</string>
+    <string name="routines_sets_count">Количество подходов</string>
+    <string name="routines_sets_count_lead">Выберите, сколько раз выполнить это упражнение</string>
+    <string name="routines_not_done">Не сделано</string>
+    <string name="routines_done_of">%1$s из %2$s</string>
+    <string name="routines_pick_empty">Такого упражнения нет</string>
+    <string name="routines_set_done_question">Получилось сделать подход?</string>
+    <string name="routines_reps_done_question">Сколько повторений получилось?</string>
+    <string name="routines_goal_missed">Цель не достигнута</string>
+    <string name="routines_freestyle_body">Без плана: выбирайте упражнения по ходу</string>
+    <string name="routines_show_muscles">Показать, какие мышцы работают</string>
+    <string name="routines_show_drawing">Показать рисунок упражнения</string>
+</resources>

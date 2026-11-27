@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The sex-life charts page: shown only when nothing on it has enough to draw. -->
+    <string name="intimate_charts_empty">Come back when you add more data!</string>
+    <string name="intimate_charts_walking_title">Walking and mornings</string>
+    <string name="intimate_charts_alcohol_title">Alcohol and mornings</string>
+    <string name="intimate_charts_legend_average">Your average</string>
+    <string name="intimate_charts_legend_night">Hours asleep a night</string>
+    <string name="intimate_charts_legend_steps">Steps a day</string>
+    <string name="intimate_charts_legend_drinks">Standard drinks a week</string>
+    <string name="intimate_charts_pair_note">The bars rise from the floor, one a week. The line is the share of firm or partly mornings in the same week against your own average over these weeks: above the middle line when it was higher, below when it was lower. They show what was recorded in the same weeks, not what caused what.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">A week counts once %1$d of its mornings was answered; a week with fewer leaves a gap in the line, never a zero.</item>
+        <item quantity="other">A week counts once %1$d of its mornings were answered; a week with fewer leaves a gap in the line, never a zero.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">A week’s bar is the mean of the days with a reading and needs %1$d of them; a week with fewer has no bar.</item>
+        <item quantity="other">A week’s bar is the mean of the days with a reading and needs %1$d of them; a week with fewer has no bar.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">The chart appears once %1$d week has enough to show.</item>
+        <item quantity="other">The chart appears once %1$d weeks have enough to show.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">One standard drink is %1$s of pure alcohol. For drinks, a day with a reading is a day with anything kept by hand, and the mean is scaled to seven days: a day with nothing written is not a day without a drink.</string>
+    <string name="intimate_charts_acts_note">Acts each week, partnered and solo. A week in which you wrote nothing down yourself breaks both lines: it is not a week without acts.</string>
+    <string name="intimate_charts_desire_note">A dot on a line: a week with “%1$s” ticked on that kind of act.</string>
+    <string name="intimate_charts_erection_note">A dash on a line: a week with “%1$s” ticked on that kind of act.</string>
+    <string name="intimate_charts_acts_mornings_note">The mornings have charts of their own: they are one answer a day from a separate check-in, not a count of acts, and drawn on these axes they would read as caused by them.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, week by week over the last %2$d week. %3$s</item>
+        <item quantity="other">%1$s, week by week over the last %2$d weeks. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Week to %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">no figure</string>
+    <string name="intimate_charts_spoken_gap">too few mornings answered</string>
+    <string name="intimate_charts_spoken_above">mornings above your average</string>
+    <string name="intimate_charts_spoken_below">mornings below your average</string>
+    <string name="intimate_charts_spoken_at">mornings at your average</string>
+    <string name="intimate_charts_spoken_acts">partnered %1$s, solo %2$s</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_details">Descrivi l’allegato</string>
+    <string name="attachment_details_hint">Scegli che cosa contiene questo file. Il nome e il formato non indicano di quale esame si tratta. Puoi lasciare il tipo non specificato.</string>
+    <string name="attachment_description">Descrizione o parte del corpo</string>
+    <string name="attachment_study_day">Data dell’esame (facoltativa)</string>
+    <string name="attachment_study_day_clear">Togli la data</string>
+    <string name="attachment_kind_unknown">Tipo non specificato</string>
+    <string name="attachment_kind_ct">TC</string>
+    <string name="attachment_kind_mri">RM</string>
+    <string name="attachment_kind_ultrasound">Ecografia</string>
+    <string name="attachment_kind_xray">Radiografia</string>
+    <string name="attachment_kind_doppler">Ecodoppler</string>
+    <string name="attachment_kind_lab">Risultati di laboratorio</string>
+    <string name="attachment_kind_prescription">Ricetta</string>
+    <string name="attachment_kind_other">Altro documento</string>
+    <string name="attachment_catalog_note">I file originali allegati sono inclusi in questo ZIP. Tipi di esame, date e descrizioni sono forniti dal paziente.</string>
+</resources>

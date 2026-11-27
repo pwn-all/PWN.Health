@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Horas trabalhadas por semana</string>
+    <string name="work_charts_legend_median">Sua mediana</string>
+    <string name="work_charts_gap_note">Uma semana não contada não tem barra: não é uma semana sem trabalho.</string>
+    <string name="work_charts_other_days">Outros dias de trabalho</string>
+    <string name="work_charts_days_off">Folgas</string>
+    <string name="work_charts_pair_note">As barras são as horas trabalhadas, uma para cada semana contada. A linha é o valor indicado abaixo do gráfico na mesma semana, em relação à sua própria média, a média das semanas que têm um ponto: acima da linha do meio quando foi maior, abaixo quando foi menor. Elas mostram o que foi registrado nas mesmas semanas, não o que causou o quê.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">O ponto de uma semana precisa de %1$d dia com dados; uma semana com menos deixa uma lacuna na linha, nunca um zero.</item>
+        <item quantity="many">O ponto de uma semana precisa de %1$d de dias com dados; uma semana com menos deixa uma lacuna na linha, nunca um zero.</item>
+        <item quantity="other">O ponto de uma semana precisa de %1$d dias com dados; uma semana com menos deixa uma lacuna na linha, nunca um zero.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: acima da sua média</string>
+    <string name="work_charts_spoken_below">%1$s: abaixo da sua média</string>
+    <string name="work_charts_spoken_at">%1$s: na sua média</string>
+    <string name="work_charts_spoken_gap">%1$s: poucos dias registrados</string>
+</resources>

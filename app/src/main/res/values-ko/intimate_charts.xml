@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">데이터를 더 추가한 뒤 다시 와 주세요!</string>
+    <string name="intimate_charts_walking_title">걷기와 아침</string>
+    <string name="intimate_charts_alcohol_title">음주와 아침</string>
+    <string name="intimate_charts_legend_average">내 평균</string>
+    <string name="intimate_charts_legend_night">하룻밤 수면 시간</string>
+    <string name="intimate_charts_legend_steps">하루 걸음 수</string>
+    <string name="intimate_charts_legend_drinks">주간 표준잔</string>
+    <string name="intimate_charts_pair_note">막대는 아래에서 올라가며 한 주에 하나입니다. 선은 같은 주에 「단단함」 또는 「부분적」이었던 아침의 비율을 이 기간의 내 평균과 비교한 것입니다. 더 높았던 주는 가운데 선 위에, 더 낮았던 주는 아래에 있습니다. 같은 주에 기록된 내용을 보여 줄 뿐, 원인과 결과를 보여 주지는 않습니다.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="other">아침 응답이 %1$d번 이상인 주만 셉니다. 그보다 적은 주는 선이 0이 아니라 끊긴 채로 남습니다.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="other">한 주의 막대는 값이 있는 날의 평균이며 그런 날이 %1$d일 이상 필요합니다. 그보다 적은 주에는 막대가 없습니다.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="other">%1$d주 분량의 데이터가 모이면 차트가 나타납니다.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">표준잔 1잔은 순수 알코올 %1$s입니다. 음주에서 값이 있는 날은 직접 무언가를 입력한 날이며, 평균은 7일 기준으로 환산합니다. 아무것도 적지 않은 날이 술을 마시지 않은 날은 아닙니다.</string>
+    <string name="intimate_charts_acts_note">주별 성관계와 자위 횟수입니다. 직접 아무것도 기록하지 않은 주는 두 선이 모두 끊깁니다. 성행위가 없었던 주라는 뜻은 아닙니다.</string>
+    <string name="intimate_charts_desire_note">선 위의 점: 그 종류의 행위에 「%1$s」 표시가 있는 주입니다.</string>
+    <string name="intimate_charts_erection_note">선 위의 짧은 가로선: 그 종류의 행위에 「%1$s」 표시가 있는 주입니다.</string>
+    <string name="intimate_charts_acts_mornings_note">아침에는 별도의 차트가 있습니다. 아침 기록은 따로 하는 확인에서 나온 하루 한 번의 응답이지 행위 횟수가 아니며, 이 축에 그리면 행위의 결과처럼 읽힐 수 있습니다.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="other">%1$s, 최근 %2$d주 동안의 주별 값. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">%1$s까지의 주: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">값 없음</string>
+    <string name="intimate_charts_spoken_gap">아침 응답이 너무 적음</string>
+    <string name="intimate_charts_spoken_above">아침이 평균보다 높음</string>
+    <string name="intimate_charts_spoken_below">아침이 평균보다 낮음</string>
+    <string name="intimate_charts_spoken_at">아침이 평균과 같음</string>
+    <string name="intimate_charts_spoken_acts">성관계 %1$s, 자위 %2$s</string>
+</resources>

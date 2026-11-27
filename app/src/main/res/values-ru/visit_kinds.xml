@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Who an appointment is with (VisitKinds.kt), and what the booking form still needs to be saved. -->
+<resources>
+    <!-- The kinds of doctor the “Who” list offers beside the ones the routine examinations already name -->
+    <string name="visit_kind_paediatrician">Педиатр</string>
+    <string name="visit_kind_dermatologist">Дерматолог</string>
+    <string name="visit_kind_ophthalmologist">Офтальмолог (окулист)</string>
+    <string name="visit_kind_ent">Оториноларинголог (ЛОР)</string>
+    <string name="visit_kind_orthopaedist">Травматолог-ортопед</string>
+    <string name="visit_kind_neurologist">Невролог (невропатолог)</string>
+    <string name="visit_kind_psychiatrist">Психиатр</string>
+    <string name="visit_kind_gastroenterologist">Гастроэнтеролог</string>
+    <string name="visit_kind_laboratory">Анализы в лаборатории</string>
+    <string name="visit_kind_imaging">Лучевая диагностика: рентген, УЗИ, КТ, МРТ</string>
+    <string name="visit_kind_rehabilitation">Реабилитация и физиотерапия</string>
+    <string name="visit_kind_surgeon">Хирург</string>
+    <string name="visit_kind_oncologist">Онколог</string>
+    <string name="visit_kind_allergist">Аллерголог</string>
+    <string name="visit_kind_pulmonologist">Пульмонолог</string>
+    <string name="visit_kind_nephrologist">Нефролог</string>
+    <string name="visit_kind_rheumatologist">Ревматолог</string>
+    <string name="visit_kind_infectious_diseases">Инфекционист</string>
+    <!-- Never shown: the other words a kind of doctor goes by, which the search over the list finds too -->
+    <string name="visit_kind_search_dentist">дантист, зубной врач, зубы</string>
+    <string name="visit_kind_search_gynecologist">акушер, женская консультация</string>
+    <string name="visit_kind_search_gp">семейный врач, врач общей практики, участковый</string>
+    <string name="visit_kind_search_paediatrician">детский врач, дети</string>
+    <string name="visit_kind_search_cardiologist">сердце</string>
+    <string name="visit_kind_search_dermatologist">кожа, дерматовенеролог</string>
+    <string name="visit_kind_search_ophthalmologist">глазной врач, глаза, зрение</string>
+    <string name="visit_kind_search_ent">отоларинголог, ухо, горло, нос</string>
+    <string name="visit_kind_search_orthopaedist">ортопед, кости, суставы, травма</string>
+    <string name="visit_kind_search_psychologist">психотерапия, консультант</string>
+    <string name="visit_kind_search_gastroenterologist">желудок, кишечник</string>
+    <string name="visit_kind_search_laboratory">анализ крови, кровь, лаборатория</string>
+    <string name="visit_kind_search_imaging">рентгенолог, снимок, ультразвук, томография</string>
+    <string name="visit_kind_search_rehabilitation">физиотерапевт, ЛФК, реабилитолог</string>
+    <string name="visit_kind_search_somnologist">сон, врач сна</string>
+    <!-- The selector's label and the search field over its list -->
+    <string name="visit_kind_field">Врач или обследование</string>
+    <string name="visit_kind_search">Найти в списке</string>
+    <!-- Any searchable list whose search found nothing -->
+    <string name="choice_search_none">В списке ничего не нашлось</string>
+    <!-- The doctor page: the doctors the person has seen at the place already chosen -->
+    <string name="visit_doctors_here">Врачи, у которых вы были в этом месте</string>
+    <!-- Under a Save that is off: what the booking still needs -->
+    <string name="visit_save_needs_place">Чтобы сохранить, укажите место</string>
+    <string name="visit_save_needs_doctor">Чтобы сохранить, укажите врача</string>
+    <string name="visit_save_needs_kind">Чтобы сохранить, выберите врача или обследование</string>
+</resources>

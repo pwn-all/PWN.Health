@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">कसरत के बारे में</string>
+    <string name="routines_import">कसरत की फ़ाइल आयात करें</string>
+    <string name="routines_import_error">यह फ़ाइल कसरत का टेम्पलेट नहीं है।</string>
+    <string name="routines_import_cut">फ़ाइल में व्यायाम (%2$d) एक टेम्पलेट की सीमा (%1$d) से ज़्यादा हैं: केवल शुरू के व्यायाम आयात किए गए।</string>
+    <string name="routines_description">छोटा विवरण</string>
+    <string name="routines_photo">टेम्पलेट की फ़ोटो</string>
+    <string name="routines_days_title">कसरत के दिन</string>
+    <string name="routines_flow_title">व्यायाम और विश्राम</string>
+    <string name="routines_flow_lead">व्यायाम या सुपरसेट जोड़ें, और उनके बीच विश्राम।</string>
+    <string name="routines_add_superset">सुपरसेट जोड़ें</string>
+    <string name="routines_saved_title">टेम्पलेट सहेजा गया</string>
+    <string name="routines_open_template">टेम्पलेट खोलें</string>
+    <string name="routines_add_another">एक और टेम्पलेट जोड़ें</string>
+    <string name="routines_get_ready">तैयार हो जाइए</string>
+    <string name="routines_finished">कसरत पूरी हुई</string>
+    <string name="routines_reminder_title">आज कसरत है</string>
+    <string name="routines_total_time">कुल समय</string>
+    <string name="routines_total_lifted">कुल उठाया वज़न</string>
+    <string name="routines_total_work">कसरत का समय</string>
+    <string name="routines_burn">लगभग इतनी जलेंगी</string>
+    <string name="routines_plan_title">कसरत की योजना</string>
+    <plurals name="routines_exercises">
+        <item quantity="one">%1$d व्यायाम</item>
+        <item quantity="other">%1$d व्यायाम</item>
+    </plurals>
+    <string name="routines_menu">टेम्पलेट के विकल्प</string>
+    <string name="routines_overall">कुल प्रगति</string>
+    <string name="routines_left">बाकी</string>
+    <string name="routines_set">सेट</string>
+    <string name="routines_set_number">सेट %1$d</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%2$d में से %1$d</string>
+    <string name="routines_rest_after">बाद में विश्राम</string>
+    <string name="routines_previous">पिछला</string>
+    <string name="routines_finish">समाप्त करें</string>
+    <string name="routines_leave_title">कसरत छोड़ें?</string>
+    <string name="routines_leave_body">अब तक जो किया है, वह सहेजा नहीं जाएगा। उसे रखने के लिए “समाप्त करें” दबाएँ।</string>
+    <string name="routines_pick_title">व्यायाम चुनें</string>
+    <string name="routines_pick_lead">अपना व्यायाम खोजें</string>
+    <string name="routines_setup_lead">व्यायाम की सेटिंग</string>
+    <string name="routines_sets_count">सेटों की संख्या</string>
+    <string name="routines_sets_count_lead">चुनें कि यह व्यायाम कितनी बार करना है</string>
+    <string name="routines_not_done">नहीं किया गया</string>
+    <string name="routines_done_of">%2$s में से %1$s</string>
+    <string name="routines_pick_empty">कोई मेल खाता व्यायाम नहीं</string>
+    <string name="routines_set_done_question">क्या आपने सेट पूरा किया?</string>
+    <string name="routines_reps_done_question">आपने कितने रेप्स किए?</string>
+    <string name="routines_goal_missed">लक्ष्य पूरा नहीं हुआ</string>
+    <string name="routines_freestyle_body">बिना योजना: व्यायाम चलते-चलते चुनें</string>
+    <string name="routines_show_muscles">काम करने वाली मांसपेशियाँ दिखाएँ</string>
+    <string name="routines_show_drawing">व्यायाम का चित्र दिखाएँ</string>
+</resources>

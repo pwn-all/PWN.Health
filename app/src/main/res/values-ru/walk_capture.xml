@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_photo_take">Сфотографировать это место</string>
+    <string name="walk_photo_saved">Фото сохранено</string>
+    <string name="walk_photo_failed">Фото не сохранено</string>
+    <string name="walk_photo_no_camera">Нет приложения камеры</string>
+</resources>

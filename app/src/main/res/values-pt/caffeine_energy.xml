@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d mg · %2$s kcal</string>
+    <string name="caffeine_energy_estimated">≈ %1$s kcal</string>
+    <string name="caffeine_energy_help_title">Calorias em uma xícara</string>
+    <string name="caffeine_energy_help_body">As calorias são da bebida tal como preparada, segundo o USDA FoodData Central: chá preto e café, um espresso, matcha batido em água e um cappuccino feito com leite semidesnatado — com leite integral fica cerca de um quinto a mais. Leite, creme, açúcar e xarope adicionados à mesa somam-se a isso e são registrados como comida. Um cappuccino é salvo como comida com a sua cafeína: as calorias dele entram na comida do dia, mas ele não conta como refeição. As outras xícaras têm poucas calorias e ficam apenas como registro de cafeína.</string>
+</resources>

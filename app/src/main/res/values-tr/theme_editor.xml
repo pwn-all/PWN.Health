@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Tema</string>
+    <string name="theme_description">Açık ve koyu temalar için arayüz ve simge renkleri</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_saved_note">Her palet ayrı kaydedilir. Uygulama, cihazınızın açık ya da koyu temasını izler.</string>
+    <string name="theme_preview">Önizleme</string>
+    <string name="theme_main_accent">Ana vurgu</string>
+    <string name="theme_accent_container">Vurgu arka planı</string>
+    <string name="theme_secondary">İkincil vurgu</string>
+    <string name="theme_secondary_container">İkincil arka plan</string>
+    <string name="theme_tertiary">Üçüncü vurgu</string>
+    <string name="theme_tertiary_container">Üçüncü vurgu arka planı</string>
+    <string name="theme_background">Sayfa arka planı</string>
+    <string name="theme_surface">Kartlar</string>
+    <string name="theme_text">Birincil metin</string>
+    <string name="theme_muted_text">İkincil metin</string>
+    <string name="theme_border">Kenarlıklar</string>
+    <string name="theme_icons">Simgeler</string>
+    <string name="theme_icon">Ana simge rengi</string>
+    <string name="theme_icon_mid">İkincil simge rengi</string>
+    <string name="theme_icon_light">Açık simge ayrıntıları</string>
+    <string name="theme_brightness">Parlaklık</string>
+    <string name="theme_hex">HEX kodu</string>
+    <string name="theme_hex_error">6 onaltılık basamak girin, örneğin #7094EE.</string>
+    <string name="theme_update_all">Tüm renkleri güncelle</string>
+    <string name="theme_update_all_body">Bu paletteki diğer tüm renkleri ana vurgudan yeniden oluşturur; elle yaptığınız değişikliklerin yerini alır.</string>
+    <string name="theme_reset">Temayı sıfırla</string>
+    <string name="theme_reset_light_body">Açık temanın varsayılan arayüz ve simge renkleri geri yüklensin mi? Koyu tema değişmeden kalır.</string>
+    <string name="theme_reset_dark_body">Koyu temanın varsayılan arayüz ve simge renkleri geri yüklensin mi? Açık tema değişmeden kalır.</string>
+    <string name="theme_wheel">Renk çarkı</string>
+    <string name="theme_wheel_value">Ton %1$d°, doygunluk %%%2$d</string>
+    <string name="theme_next_hue">Sonraki ton</string>
+    <string name="theme_previous_hue">Önceki ton</string>
+    <string name="theme_more_saturation">Doygunluğu artır</string>
+    <string name="theme_less_saturation">Doygunluğu azalt</string>
+</resources>

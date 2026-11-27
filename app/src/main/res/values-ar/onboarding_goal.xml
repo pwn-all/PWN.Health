@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">الخطوات اليومية</string>
+    <string name="onboarding_steps_body">اختر هدفًا تنوي الالتزام به. في تجربة شملت 500 بالغ، لم يزد مشيهم إلا من اختاروا الهدف بأنفسهم. يمكنك تغييره من الملف الشخصي في أي وقت.</string>
+    <string name="onboarding_steps_suggested">المقترح لعمرك: %1$s</string>
+    <string name="onboarding_steps_use_suggested">استخدام الاقتراح</string>
+    <string name="onboarding_steps_distance">نحو %1$s يوميًا بطول خطوتك</string>
+    <string name="onboarding_bmi_source">نطاقات منظمة الصحة العالمية للبالغين</string>
+    <string name="onboarding_ready_steps">هدف الخطوات اليومي</string>
+    <string name="onboarding_ready_resting">طاقة الراحة</string>
+    <string name="onboarding_ready_kcal_day">%1$s سعرة في اليوم</string>
+    <string name="onboarding_ready_local">حُسب على هذا الهاتف من إجاباتك: طاقة الراحة بمعادلة ميفلين-سانت جيور، ومؤشر كتلة الجسم وفق نطاقات منظمة الصحة العالمية للبالغين. لم يُرسل أي شيء إلى أي مكان.</string>
+</resources>

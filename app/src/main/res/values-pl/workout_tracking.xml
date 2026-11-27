@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">Inne treningi</string>
+    <string name="routines_other_workouts_body">Tylko czas: taniec, koszykówka, piłka nożna, pilates i inne</string>
+    <string name="routines_indoors">W pomieszczeniu</string>
+    <string name="routines_indoors_body">Liczymy kroki i czas</string>
+    <string name="routines_outdoors">Na zewnątrz</string>
+    <string name="routines_outdoors_body">Otwiera „Spacer / trasa”, by zapisać drogę na mapie</string>
+    <string name="track_tracked">Policzono</string>
+    <string name="track_burned">Spalono około</string>
+    <string name="track_count_question">Dobrze policzyliśmy?</string>
+    <string name="track_count_fix">Popraw liczbę</string>
+    <string name="track_count_interrupted">Liczenie zostało przerwane – wpisz ręcznie</string>
+    <string name="track_phone_title">Gdzie trzymać telefon</string>
+    <string name="track_phone_pocket">W kieszeni spodni albo przy pasku — liczy każde lądowanie.</string>
+    <string name="track_phone_lift">W kieszeni spodni — liczy każde powtórzenie w górnym punkcie, gdzie ciało zwalnia.</string>
+    <string name="track_phone_thigh">W przedniej kieszeni spodni, na udzie — liczy pochylenie uda w każdym powtórzeniu.</string>
+    <string name="track_phone_arm">W sportowej opasce na ramieniu — liczy pochylenie ręki w każdym powtórzeniu.</string>
+    <string name="track_phone_steps">W kieszeni albo w ręce — kroki liczy krokomierz.</string>
+    <string name="track_phone_stairs">W kieszeni albo w ręce — kroki liczy krokomierz, piętra barometr.</string>
+    <string name="track_unit_jumps">skoków</string>
+    <string name="track_unit_floors">pięter</string>
+    <plurals name="track_jumps">
+        <item quantity="one">%1$d skok</item>
+        <item quantity="few">%1$d skoki</item>
+        <item quantity="many">%1$d skoków</item>
+        <item quantity="other">%1$d skoku</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="one">%1$d krok</item>
+        <item quantity="few">%1$d kroki</item>
+        <item quantity="many">%1$d kroków</item>
+        <item quantity="other">%1$d kroku</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="one">%1$d piętro</item>
+        <item quantity="few">%1$d piętra</item>
+        <item quantity="many">%1$d pięter</item>
+        <item quantity="other">%1$d piętra</item>
+    </plurals>
+</resources>

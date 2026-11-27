@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Two cells is the smallest this widget comes. Its narrowest face is two 48dp targets — Start, Pause
+  or Resume, and Stop — inside the 10dp frame every widget here wears: 10 + 48 + 48 + 10 = 116dp.
+  One cell is 57-80dp across depending on the launcher, which cannot hold two 48dp targets side by
+  side, and a 1x1 with Stop taken away would leave a running timer that can only be stopped from
+  inside the app. So there is no 1x1.
+
+  The height is the same arithmetic on the other axis: one 48dp target and the frame above and
+  below it, 68dp. The wide face's three lines of figures — 14sp bold over two 12sp captions, 16.4 +
+  14.1 + 14.1dp of Roboto line box — are 44.6dp and fit beside the buttons in the same height.
+
+  The 30 minutes is the platform floor, and it is what moves the "today" figure over midnight on a
+  phone nobody touches. Every tap and every journal write redraws the widget straight away.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_work_description"
+    android:initialLayout="@layout/widget_preview_work"
+    android:minWidth="116dp"
+    android:minHeight="68dp"
+    android:previewLayout="@layout/widget_preview_work"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

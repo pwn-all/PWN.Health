@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">이전 달</string>
+    <string name="m3_cal_next_month">다음 달</string>
+    <string name="m3_cal_previous_year">이전 연도</string>
+    <string name="m3_cal_next_year">다음 연도</string>
+    <string name="m3_cal_period_ended">%1$s 종료</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="other">%1$d주</item>
+    </plurals>
+    <string name="a11y_state_expanded">펼쳐짐</string>
+    <string name="a11y_state_collapsed">접힘</string>
+    <string name="a11y_hours">시간</string>
+    <string name="a11y_minutes">분</string>
+    <string name="a11y_seconds">초</string>
+    <string name="a11y_zoom_in">확대</string>
+    <string name="a11y_zoom_out">축소</string>
+    <string name="m3_editor_attachment_kind">문서 유형</string>
+    <string name="m3_editor_attachment_describe">%1$s 설명 입력</string>
+    <string name="m3_editor_attachment_remove">%1$s 제거</string>
+    <string name="m3_editor_attachment_read_result">%1$s에서 결과 추가</string>
+    <string name="m3_editor_energy_share">오늘 열량 목표에서 차지하는 비율</string>
+    <string name="bathroom_kind_previous">이전 종류</string>
+    <string name="bathroom_kind_next">다음 종류</string>
+    <string name="smoking_bowl_smaller">더 작은 볼</string>
+    <string name="smoking_bowl_larger">더 큰 볼</string>
+    <string name="smoking_less_nicotine">니코틴 더 적게</string>
+    <string name="smoking_more_nicotine">니코틴 더 많이</string>
+    <string name="progress_photo_delete_dated">%1$s의 사진 삭제</string>
+    <string name="home_notice_dismiss">「%1$s」 닫기</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">%2$d개 중 %1$d번째 카드</string>
+    <string name="home_chart_busiest">%1$s: 가장 많았던 시간대 %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">인식한 페이지 보기</string>
+    <string name="m3_labs_open_chart">차트 열기</string>
+    <string name="m3_labs_chart_sideways">차트 가로로 돌리기</string>
+    <string name="m3_labs_chart_earlier">이전 측정값</string>
+    <string name="m3_labs_chart_later">이후 측정값</string>
+    <string name="med_a11y_mark_dose">%1$s, %2$s 복용 기록</string>
+    <string name="med_a11y_undo_dose">%1$s, %2$s 기록 되돌리기</string>
+    <string name="med_a11y_edit_course">%1$s 편집</string>
+    <string name="med_a11y_delete_course">%1$s 삭제</string>
+    <string name="med_history_current">현재</string>
+    <string name="m3_pain_time_left">%1$s 남음</string>
+    <string name="m3_pain_remove_area">제거</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">%2$d단계 중 %1$d단계</string>
+    <string name="m3_profile_advice_level_clinician">진료진에게 이야기해 볼 만함</string>
+    <string name="m3_profile_advice_level_attention">지켜볼 만함</string>
+    <string name="m3_profile_advice_level_habit">살펴볼 습관</string>
+    <string name="m3_profile_password_mismatch">비밀번호가 일치하지 않습니다</string>
+    <string name="m3_profile_password_show">비밀번호 표시</string>
+    <string name="m3_profile_password_hide">비밀번호 숨기기</string>
+    <string name="m3_sync_connected">%1$s에 연결되었습니다.</string>
+    <string name="m3_sync_disconnected">%1$s 연결이 해제되었습니다.</string>
+    <string name="m3_sync_error_scan">검색을 시작하지 못했습니다. 잠시 기다린 뒤 다시 검색하세요.</string>
+    <string name="m3_sync_error_pairing">페어링이 완료되지 않았습니다. 페어링 요청을 수락한 뒤 다시 연결하세요.</string>
+    <string name="m3_sync_error_stale_bond">이 휴대전화와 기기의 페어링이 더 이상 작동하지 않습니다. Android 블루투스 설정에서 기기 등록을 해제한 뒤 다시 연결하고 페어링 요청을 수락하세요.</string>
+    <string name="m3_sync_error_no_answer">기기가 응답하지 않았습니다. 기기를 깨우고 가까이 둔 뒤 다시 연결하세요.</string>
+    <string name="m3_sync_error_generic">기기에 연결하지 못했습니다. 다시 시도하세요.</string>
+    <string name="m3_sync_no_skin_contact">스트랩이 피부에 닿지 않았다고 알립니다. 전극을 적시고 스트랩을 몸에 꼭 맞게 채우세요.</string>
+    <string name="m3_sync_reading_incomplete">기기가 완전한 측정값을 보내지 않아 저장할 수 없습니다.</string>
+    <string name="m3_sync_connect_named">%1$s 연결</string>
+    <string name="m3_sync_firmware">펌웨어 %1$s</string>
+    <string name="m3_sync_scale_clock_unset">수신 시각으로 기록됨: 체중계 시계가 설정되지 않았습니다</string>
+    <string name="m3_sync_health_running">이 휴대폰의 Health Connect와 주고받는 중…</string>
+    <string name="m3_sync_failed_permission">Health Connect가 접근을 거부했습니다. 허용된 항목을 확인하세요.</string>
+    <string name="m3_sync_failed_unavailable">이 휴대폰의 Health Connect가 응답하지 않았습니다.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect가 잠시 멈춰 달라고 요청했습니다. 앱이 나중에 다시 시도합니다.</string>
+    <string name="m3_sync_failed_other">Health Connect가 오류를 반환했습니다.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, 평소 쉬는 날</string>
+    <string name="m3_work_sensor_unclassified">분류되지 않음</string>
+    <string name="m3_work_motion_still">가만히 있음</string>
+    <string name="m3_work_motion_shaking">흔들림</string>
+    <string name="m3_work_motion_non_gait">걸음 없이 움직임</string>
+    <string name="m3_work_posture_in_hand">손에 들고 있음</string>
+    <string name="m3_work_posture_pocket">주머니 속</string>
+    <string name="m3_work_posture_flat">평평하게 놓임</string>
+    <string name="workout_rest_change">휴식 변경</string>
+    <string name="workout_delete_round">%1$d라운드 삭제</string>
+    <string name="workout_complete_title">운동 완료</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d rpm</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d spm</string>
+</resources>

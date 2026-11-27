@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">रिकॉर्ड</string>
+    <string name="strength_new_records">नए निजी रिकॉर्ड</string>
+    <string name="strength_record_e1rm">एक दोहराव का अनुमानित अधिकतम</string>
+    <string name="strength_record_heaviest">सबसे भारी वज़न</string>
+    <string name="strength_record_reps">एक सेट में सबसे ज़्यादा दोहराव</string>
+    <string name="strength_record_volume">एक सत्र में सबसे ज़्यादा वज़न</string>
+    <string name="strength_record_was">%1$s · पहले %2$s</string>
+    <string name="strength_e1rm_note">एक दोहराव का आँकड़ा Epley सूत्र से अनुमान है, 12 तक दोहराव वाले सेटों से।</string>
+    <string name="strength_record_line">सबसे अच्छा: %1$s · एक दोहराव पर लगभग %2$s</string>
+    <string name="strength_record_line_reps">सबसे अच्छा: एक सेट में %1$s</string>
+</resources>

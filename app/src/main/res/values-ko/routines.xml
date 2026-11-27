@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">운동 정보</string>
+    <string name="routines_import">운동 파일 가져오기</string>
+    <string name="routines_import_error">이 파일은 운동 템플릿이 아닙니다.</string>
+    <string name="routines_import_cut">파일의 운동 수(%2$d)가 템플릿에 담을 수 있는 수(%1$d)보다 많아, 앞의 운동만 가져왔습니다.</string>
+    <string name="routines_description">짧은 설명</string>
+    <string name="routines_photo">템플릿 사진</string>
+    <string name="routines_days_title">운동 요일</string>
+    <string name="routines_flow_title">운동과 휴식</string>
+    <string name="routines_flow_lead">운동이나 슈퍼세트를 추가하고 그 사이의 휴식을 정하세요.</string>
+    <string name="routines_add_superset">슈퍼세트 추가</string>
+    <string name="routines_saved_title">템플릿이 저장되었습니다</string>
+    <string name="routines_open_template">템플릿 열기</string>
+    <string name="routines_add_another">다른 템플릿 추가</string>
+    <string name="routines_get_ready">준비하세요</string>
+    <string name="routines_finished">운동 완료</string>
+    <string name="routines_reminder_title">오늘 운동</string>
+    <string name="routines_total_time">총 시간</string>
+    <string name="routines_total_lifted">총 들어 올린 무게</string>
+    <string name="routines_total_work">운동 시간</string>
+    <string name="routines_burn">예상 소모 칼로리</string>
+    <string name="routines_plan_title">운동 계획</string>
+    <plurals name="routines_exercises">
+        <item quantity="other">운동 %1$d개</item>
+    </plurals>
+    <string name="routines_menu">템플릿 작업</string>
+    <string name="routines_overall">전체 진행률</string>
+    <string name="routines_left">남은 시간</string>
+    <string name="routines_set">세트</string>
+    <string name="routines_set_number">%1$d세트</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d / %2$d</string>
+    <string name="routines_rest_after">이후 휴식</string>
+    <string name="routines_previous">이전</string>
+    <string name="routines_finish">종료</string>
+    <string name="routines_leave_title">운동을 닫을까요?</string>
+    <string name="routines_leave_body">지금까지 한 내용은 저장되지 않습니다. 저장하려면 「종료」를 누르세요.</string>
+    <string name="routines_pick_title">운동 선택</string>
+    <string name="routines_pick_lead">필요한 운동을 찾아보세요</string>
+    <string name="routines_setup_lead">운동 설정</string>
+    <string name="routines_sets_count">세트 수</string>
+    <string name="routines_sets_count_lead">이 운동을 몇 번 할지 선택하세요</string>
+    <string name="routines_not_done">하지 않음</string>
+    <string name="routines_done_of">%1$s / %2$s</string>
+    <string name="routines_pick_empty">일치하는 운동이 없습니다</string>
+    <string name="routines_set_done_question">세트를 완료했나요?</string>
+    <string name="routines_reps_done_question">몇 회 했나요?</string>
+    <string name="routines_goal_missed">목표 미달성</string>
+    <string name="routines_freestyle_body">계획 없이: 운동은 그때그때 고릅니다</string>
+    <string name="routines_show_muscles">사용되는 근육 보기</string>
+    <string name="routines_show_drawing">운동 그림 보기</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The update period is half an hour because which slots the row is allowed depends on the
+  profile's age, and nothing redraws the widget on the day a birthday passes.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.pwnall.health.MultiWidgetConfigActivity"
+    android:description="@string/widget_multi_description"
+    android:initialLayout="@layout/widget_preview_multi"
+    android:minWidth="74dp"
+    android:minResizeWidth="74dp"
+    android:minHeight="74dp"
+    android:minResizeHeight="74dp"
+    android:previewLayout="@layout/widget_preview_multi"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="2"
+    android:widgetFeatures="reconfigurable"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

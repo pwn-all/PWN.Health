@@ -1,0 +1,17 @@
+{
+ "format": "chat-reader-manifest",
+ "version": 1,
+ "model": "chat-reader fixture (tiny, random weights, never ships)",
+ "smoke": true,
+ "onnx": {
+  "file": "reader-tiny.onnx",
+  "bytes": 652600,
+  "sha256": "47a0dbfd6f09ec97c185d71f16059a8c443a37f3ab60b13c5f10f94a1c22bb10"
+ },
+ "calibration": {
+  "file": "reader-calibration.json",
+  "sha256": "db15462a9fbd548b77e8d0d838f43278ad2611c1200184c79b76522e162dcbed"
+ },
+ "tokenizer_sha256": "860ead0a3e545819c9ddc0eb19366f6e40f394ee7161ae495eef702d20055983",
+ "schema_sha256": "136b2d5534759f13358039f0cc6b1245b2a9590bdf16f50b4bc091ef07cfd00a"
+}

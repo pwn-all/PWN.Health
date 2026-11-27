@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">其他运动</string>
+    <string name="routines_other_workouts_body">只计时间：舞蹈、篮球、足球、普拉提等</string>
+    <string name="routines_indoors">室内</string>
+    <string name="routines_indoors_body">计步数和时间</string>
+    <string name="routines_outdoors">户外</string>
+    <string name="routines_outdoors_body">打开“步行/路线”，在地图上记录行程</string>
+    <string name="track_tracked">已计数</string>
+    <string name="track_burned">约消耗</string>
+    <string name="track_count_question">计数对吗？</string>
+    <string name="track_count_fix">请更正计数</string>
+    <string name="track_count_interrupted">计数中断了，请手动输入</string>
+    <string name="track_phone_title">手机放在哪里</string>
+    <string name="track_phone_pocket">放在裤袋里或别在腰间——每次落地都会计数。</string>
+    <string name="track_phone_lift">放在裤袋里——在身体减速的最高点计算每次重复。</string>
+    <string name="track_phone_thigh">放在裤子前袋里，贴着大腿——计算每次重复时大腿的倾斜。</string>
+    <string name="track_phone_arm">放在上臂的运动臂包里——计算每次重复时手臂的倾斜。</string>
+    <string name="track_phone_steps">放在口袋里或拿在手上——由计步器计步。</string>
+    <string name="track_phone_stairs">放在口袋里或拿在手上——计步器计步，气压计计楼层。</string>
+    <string name="track_unit_jumps">次</string>
+    <string name="track_unit_floors">层</string>
+    <plurals name="track_jumps">
+        <item quantity="other">%1$d 次</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="other">%1$d 步</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="other">%1$d 层</item>
+    </plurals>
+</resources>

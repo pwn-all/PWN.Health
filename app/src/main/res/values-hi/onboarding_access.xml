@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">जिन सुविधाओं को चालू करना चाहते हैं, उन्हें चुनें। हर सुविधा Android की अनुमति स्क्रीन खोलती है। बिना अनुमति दिए आगे बढ़ सकते हैं और बाद में बदल सकते हैं। इसके बाद Health Connect आएगा।</string>
+    <string name="onboarding_access_body_alone">जिन सुविधाओं को चालू करना चाहते हैं, उन्हें चुनें। हर सुविधा Android की अनुमति स्क्रीन खोलती है। बिना अनुमति दिए आगे बढ़ सकते हैं और बाद में बदल सकते हैं।</string>
+    <string name="onboarding_motion_title">कदम और गति सेंसर</string>
+    <string name="onboarding_motion_body">शारीरिक गतिविधि की अनुमति से कदम गिने जाते हैं। गति और वायुदाब सेंसर के लिए अलग अनुमति नहीं चाहिए।</string>
+    <string name="onboarding_notifications_title">सूचनाएँ और रिमाइंडर</string>
+    <string name="onboarding_notifications_body">कदमों की गिनती और दवा, भोजन व पानी के रिमाइंडर दिखाएँ।</string>
+    <string name="onboarding_allowed">अनुमति दी गई</string>
+    <string name="onboarding_bluetooth_body">आस-पास के तराज़ू और सेंसर खोजें और Bluetooth से जुड़ें।</string>
+</resources>

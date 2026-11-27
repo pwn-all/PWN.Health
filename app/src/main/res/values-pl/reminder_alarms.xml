@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_reminder_missed_before">%1$s: ten lek należało przyjąć przed posiłkiem; przyjęcie nie jest zaznaczone.</string>
+    <string name="med_reminder_with">%1$s: zapisano posiłek; ten lek przyjmuje się podczas jedzenia.</string>
+    <string name="med_reminder_needs_with_food">%1$s: ten lek przyjmuje się podczas jedzenia, ale nie zapisano jeszcze posiłku.</string>
+    <string name="med_alarm_title">Alarmy leków</string>
+    <string name="med_alarm_dismiss">Wyłącz dźwięk</string>
+    <string name="med_alarm_open">Otwórz aplikację</string>
+    <string name="med_alarm_not_taken">Wyłączenie dźwięku nie oznacza przyjęcia leku.</string>
+    <string name="med_alarm_settings_body">Alarmy dzwonią do minuty. Zezwól na dokładne godziny i wyświetlanie na ekranie blokady. Bez tych uprawnień przypomnienia mogą być opóźnione lub pojawiać się jako powiadomienia. Jedzenie i woda używają zwykłych powiadomień.</string>
+    <string name="med_alarm_exact_access">Zezwól na dokładne godziny</string>
+    <string name="med_alarm_full_screen_access">Zezwól na alarmy na ekranie blokady</string>
+    <string name="med_alarm_channel_muted">Kanał „%1$s” jest wyciszony w ustawieniach Androida, więc dawki przychodzą jako zwykłe powiadomienia, bez dzwonienia.</string>
+    <string name="med_alarm_channel_open">Otwórz ustawienia kanału</string>
+    <string name="reminder_food_title">Czas coś zjeść?</string>
+    <string name="reminder_food_body">Czas coś zjeść? A może posiłek był beze mnie?</string>
+    <string name="reminder_water_title">Pamiętaj o piciu</string>
+    <string name="reminder_water_body">Nie zapominaj o płynach. Dodaj wodę.</string>
+    <string name="med_action_taken">Przyjęte</string>
+    <string name="med_action_later">Później</string>
+</resources>

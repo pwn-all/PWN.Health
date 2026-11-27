@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Konuma göre başlatma</string>
+    <string name="work_place_help_what">Çalıştığınız yeri kaydedin; telefonunuz oradayken iş sayacı başlar. Her kontrolde Android’in kendi konum hizmetinden tek bir konum alınır, kayıtlı noktayla karşılaştırılır ve unutulur. Nokta yalnızca en fazla 100 m sapmayla belirlenmiş bir konumdan kaydedilir. Yalnızca kayıtlı nokta, yarıçapı ve oturumlarınız saklanır, o da bu telefonda. Hiçbir şey hiçbir yere gönderilmez.</string>
+    <string name="work_place_help_when">Kontroller 10 dakikada bir ve her iş gününde yalnızca belirli bir aralık içinde yapılır. Aralık siz uyandığınızda açılır: uyku kaydınızın bittiği an ya da geceden sonra telefonu ilk kullandığınız an; tabii uygulama bunlardan birini görebiliyorsa. Telefonun saat %4$s öncesindeki ilk kullanımı, uyku kaydınız daha erken bir uyanış göstermiyorsa ya da olağan saatleriniz daha erken başlamıyorsa, saat %4$s itibarıyla sayılır. Uygulama ikisini de göremiyorsa sabah saat %1$s olunca başlar. Görebiliyor ama henüz uyandığınızı görmediyse en geç saat %2$s olana dek bekler. Son 4 haftada iş günlerinde başlamış en az 3 oturum olduğunda (sayacın kendiliğinden durdurdukları sayılmaz) aralık olağan başlangıcınızdan bir saat önce açılır, ama hiçbir zaman uyanmanızdan önce değil, ve olağan bitişinizden bir saat sonra kapanır. O zamana kadar aralık saat %3$s olunca kapanır. İzin günlerinizde kontrol yapılmaz. Aralık açılmadan önce uygulama yalnızca uyandığınızı gösteren bir işaret arar; bunun için konum almaz.</string>
+    <string name="work_place_help_leave">Ardışık iki kontrolde orada değilseniz, uygulamanın başlattığı oturum durur ve sizi orada bulan son kontrolde biter. Kendi başlattığınız bir oturum bu şekilde asla durdurulmaz. Uygulamanın başlattığı bir oturum sürerken kontroller aralık kapandıktan sonra da devam eder, en geç gece yarısına kadar.</string>
+    <string name="work_place_help_yours">Her otomatik başlatma ve durdurma, geri alabileceğiniz bir bildirimle gelir: başlatma, oturumu kendiniz değiştirmediğiniz sürece gün sonuna kadar; durdurma ise o andan bu yana sayaç başlatılmadığı sürece bir saat boyunca. “Başlat”, “Duraklat”, “Sürdür” ya da “Durdur” düğmesine kendiniz bastığınızda ya da geri aldığınızda, uygulama o gün başka hiçbir şey başlatmaz.</string>
+    <string name="work_place_help_access">Bunun için Android’in her zaman tam konuma ve kesin alarmlara izin vermesi gerekir. Anahtar kapalıyken bu özellik için konum alınmaz.</string>
+    <string name="work_place_save">Şu anki yerimi kaydet</string>
+    <string name="work_place_locating">Konumunuz bulunuyor…</string>
+    <string name="work_place_no_fix">Konum bulunamadı</string>
+    <string name="work_place_rough_fix">Konum yeterince kesin değil. Pencere kenarında deneyin</string>
+    <string name="work_place_point">İş yeriniz</string>
+    <string name="work_place_saved">Kaydedildi: %1$s</string>
+    <string name="work_place_saved_within">Kaydedildi: %1$s · %2$d m hassasiyetle</string>
+    <string name="work_place_move">Şu anki yerime taşı</string>
+    <string name="work_place_remove">İş yerini kaldır</string>
+    <string name="work_place_radius">Orada sayılma yarıçapı</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Oraya varınca sayacı başlat</string>
+    <string name="work_place_access_precise_title">Tam konum</string>
+    <string name="work_place_access_precise_body">Yaklaşık konum ancak 1,6 km kadar hassastır, bu da herhangi bir iş yerinden geniştir. Nokta ve kontroller tam konum gerektirir.</string>
+    <string name="work_place_access_background_title">Konuma her zaman erişim</string>
+    <string name="work_place_access_background_body">PWN.Health, iş yerinize vardığınızda ya da oradan ayrıldığınızda iş sayacını başlatıp durdurmak için, uygulama kapalıyken bile konumunuzu arka planda kullanır. 10 dakikada bir, yalnızca iş günlerinde sabahınızla akşamınız arasında kontrol eder ve konumlar bu telefonda kalır. Sonraki ekranda “Her zaman izin ver” seçeneğine dokunun.</string>
+    <string name="work_place_access_exact_title">Alarmlar ve hatırlatıcılar</string>
+    <string name="work_place_access_exact_body">Kapalıyken uygulamayı bir kontrol için yalnızca kesin alarm uyandırabilir. Android bu izni kendi “Alarmlar ve hatırlatıcılar” ekranında tutar.</string>
+    <string name="work_place_access_notifications_title">Bildirimler</string>
+    <string name="work_place_access_notifications_body">Her otomatik başlatma ve durdurma, “%1$s” kanalında “Geri al” düğmesi olan bir bildirimde gösterilir. Bu izin olmadan sayaç yine başlar ve durur, ama geri almak için bir yer kalmaz.</string>
+    <string name="work_place_next_today">Sonraki kontrol bugün saat %1$s</string>
+    <string name="work_place_next_tomorrow">Sonraki kontrol yarın saat %1$s</string>
+    <string name="work_place_next_day">Sonraki kontrol: %1$s, saat %2$s</string>
+    <string name="work_place_next_none">Önümüzdeki hafta için planlanmış kontrol yok.</string>
+    <string name="work_place_started_title">İş sayacı başladı</string>
+    <string name="work_place_started_body">Telefonunuz iş yerinizde. Başlangıç: %1$s.</string>
+    <string name="work_place_stopped_title">İş sayacı durdu</string>
+    <string name="work_place_stopped_body">Ardışık iki kontrolde iş yerinizde değildiniz. Oturum, sizi orada bulan son kontrolün saati olan %1$s itibarıyla biter.</string>
+    <string name="work_place_stopped_short">Sizi orada yalnızca bir kontrol buldu, ardından ardışık iki kontrolde iş yerinizde değildiniz; bu yüzden hiçbir şey saklanmadı.</string>
+    <string name="work_place_undo">Geri al</string>
+    <string name="work_place_channel">İş yeri kontrolleri</string>
+    <string name="work_place_notice_channel">Otomatik iş sayacı</string>
+    <string name="work_place_checking">İş yerinde misiniz, kontrol ediliyor</string>
+</resources>

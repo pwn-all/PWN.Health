@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d 毫克 · %2$s 千卡</string>
+    <string name="caffeine_energy_estimated">≈ %1$s 千卡</string>
+    <string name="caffeine_energy_help_title">一杯里的热量</string>
+    <string name="caffeine_energy_help_body">热量指冲泡好的饮品本身，数据来自 USDA FoodData Central：红茶和咖啡、浓缩咖啡、用水调开的抹茶，以及用低脂牛奶做的卡布奇诺——用全脂牛奶约多五分之一。另外加进杯里的牛奶、奶油、糖和糖浆不含在内，作为食物记录。卡布奇诺会连同咖啡因一起保存为食物：它的热量计入当天的饮食，但不算作一餐。其他饮品只有几千卡热量，只保留为咖啡因记录。</string>
+</resources>

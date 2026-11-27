@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">Сон прошлой ночи</string>
+    <string name="widget_sleep_caption">прошлой ночью, %1$s – %2$s</string>
+    <string name="widget_sleep_none">Сон не записан</string>
+    <string name="widget_weight_description">Последний вес и как он изменился за 30 дней</string>
+    <string name="widget_weight_caption">последний вес</string>
+    <string name="widget_weight_change">%1$s за 30 дней</string>
+    <string name="widget_weight_steady">без изменений за 30 дней</string>
+    <string name="widget_weight_none">Вес не записан</string>
+    <string name="widget_energy_description">Еда за сегодня против дневной нормы; касание записывает приём пищи</string>
+    <string name="widget_energy_caption">из %1$s ккал · %2$s</string>
+    <string name="widget_energy_left">осталось %1$s</string>
+    <string name="widget_energy_over">сверх нормы %1$s</string>
+    <string name="widget_week_description">Шаги за каждый из последних семи дней</string>
+    <string name="widget_week_caption">%1$s шагов за неделю · %2$s в день</string>
+    <string name="widget_week_initial">шагов за неделю</string>
+    <string name="widget_level_description">Ваш уровень, опыт до следующего и ежедневная серия</string>
+    <string name="widget_level_initial">Уровень</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">серия: %d день</item>
+        <item quantity="few">серия: %d дня</item>
+        <item quantity="many">серия: %d дней</item>
+        <item quantity="other">серия: %d дня</item>
+    </plurals>
+    <string name="widget_dose_description">Ближайшая доза дня, одно касание отмечает её принятой</string>
+    <string name="widget_dose_next">Далее: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Принято</string>
+    <string name="widget_dose_done">Все дозы за сегодня приняты</string>
+    <string name="widget_dose_none">Сегодня доз нет</string>
+    <string name="widget_cycle_description">День цикла и ожидаемые следующие месячные</string>
+    <string name="widget_cycle_period">Месячные, день %1$d</string>
+    <string name="widget_preview_sleep_value">7 ч 40 мин</string>
+    <string name="widget_preview_sleep_caption">прошлой ночью, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72,4 кг</string>
+    <string name="widget_preview_weight_change">−0,6 кг за 30 дней</string>
+    <string name="widget_preview_energy_value">1 240</string>
+    <string name="widget_preview_energy_caption">из 2 520 ккал · осталось 1 280</string>
+    <string name="widget_preview_week_caption">48 300 шагов за неделю · 6 900 в день</string>
+    <string name="widget_preview_level_title">Уровень 7</string>
+    <string name="widget_preview_level_caption">1 240 / 1 600 XP · серия: 12 дней</string>
+    <string name="widget_preview_dose_next">Далее: Метформин</string>
+    <string name="widget_preview_dose_at">500 мг · 14:00</string>
+    <string name="widget_preview_cycle_day">День 12</string>
+    <string name="widget_preview_cycle_next">Ожидается 24 нояб.</string>
+</resources>

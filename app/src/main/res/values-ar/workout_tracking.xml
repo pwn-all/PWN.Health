@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="routines_other_workouts">تمارين أخرى</string>
+    <string name="routines_other_workouts_body">بالوقت فقط: الرقص وكرة السلة وكرة القدم والبيلاتس وغيرها</string>
+    <string name="routines_indoors">في الداخل</string>
+    <string name="routines_indoors_body">تُحسب الخطوات والوقت</string>
+    <string name="routines_outdoors">في الخارج</string>
+    <string name="routines_outdoors_body">يفتح «مشي / مسار» لتسجيل الطريق على الخريطة</string>
+    <string name="track_tracked">المحسوب</string>
+    <string name="track_burned">الحرق التقريبي</string>
+    <string name="track_count_question">هل كان العدّ صحيحًا؟</string>
+    <string name="track_count_fix">صحّح العدد</string>
+    <string name="track_count_interrupted">انقطع العدّ — أدخل العدد يدويًا</string>
+    <string name="track_phone_title">أين يوضع الهاتف</string>
+    <string name="track_phone_pocket">في جيب البنطال أو على الحزام — يعدّ كل هبوط.</string>
+    <string name="track_phone_lift">في جيب البنطال — يعدّ كل تكرار عند أعلى نقطة، حيث يتباطأ الجسم.</string>
+    <string name="track_phone_thigh">في الجيب الأمامي للبنطال، على الفخذ — يعدّ ميل الفخذ في كل تكرار.</string>
+    <string name="track_phone_arm">في حامل رياضي على أعلى الذراع — يعدّ ميل الذراع في كل تكرار.</string>
+    <string name="track_phone_steps">في الجيب أو في اليد — يحسب عدّاد الخطوات مشيك.</string>
+    <string name="track_phone_stairs">في الجيب أو في اليد — يحسب عدّاد الخطوات مشيك، ويحسب البارومتر الطوابق.</string>
+    <string name="track_unit_jumps">قفزة</string>
+    <string name="track_unit_floors">طابق</string>
+    <plurals name="track_jumps">
+        <item quantity="zero">%1$d قفزة</item>
+        <item quantity="one">%1$d قفزة</item>
+        <item quantity="two">%1$d قفزتان</item>
+        <item quantity="few">%1$d قفزات</item>
+        <item quantity="many">%1$d قفزة</item>
+        <item quantity="other">%1$d قفزة</item>
+    </plurals>
+    <plurals name="track_steps">
+        <item quantity="zero">%1$d خطوة</item>
+        <item quantity="one">%1$d خطوة</item>
+        <item quantity="two">%1$d خطوتان</item>
+        <item quantity="few">%1$d خطوات</item>
+        <item quantity="many">%1$d خطوة</item>
+        <item quantity="other">%1$d خطوة</item>
+    </plurals>
+    <plurals name="track_floors">
+        <item quantity="zero">%1$d طابق</item>
+        <item quantity="one">%1$d طابق</item>
+        <item quantity="two">%1$d طابقان</item>
+        <item quantity="few">%1$d طوابق</item>
+        <item quantity="many">%1$d طابقًا</item>
+        <item quantity="other">%1$d طابق</item>
+    </plurals>
+</resources>

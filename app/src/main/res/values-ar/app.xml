@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="zero">%1$d خطوة اليوم</item>
+        <item quantity="one">%1$d خطوة اليوم</item>
+        <item quantity="two">%1$d خطوتان اليوم</item>
+        <item quantity="few">%1$d خطوات اليوم</item>
+        <item quantity="many">%1$d خطوةً اليوم</item>
+        <item quantity="other">%1$d خطوة اليوم</item>
+    </plurals>
+    <string name="channel_name">عدّ الخطوات</string>
+
+    <!-- شاشة المستشعرات / بوابة الحركة -->
+    <string name="sensors_title">المستشعرات</string>
+    <string name="wave_title">مقدار التسارع، آخر 6 ث</string>
+    <string name="gate_open">البوابة مفتوحة — الخطوات تُعدّ</string>
+    <string name="gate_blocked">البوابة مغلقة — الخطوات تُهمَل</string>
+    <string name="field_motion">الحركة</string>
+    <string name="field_posture">وضعية الجهاز</string>
+    <string name="field_energy">الطاقة (انحراف معياري)</string>
+    <string name="field_cadence">الإيقاع</string>
+    <string name="field_periodicity">دورية المشية</string>
+    <string name="field_tilt">الميل عن المستوي</string>
+    <string name="field_screen">الشاشة</string>
+    <string name="field_axes">تسارع س / ص / ع</string>
+    <string name="field_raw_counter">عدّاد المستشعر الخام</string>
+    <string name="field_credited">المحتسَبة في هذه الجلسة</string>
+    <string name="field_rejected">المرفوضة في هذه الجلسة</string>
+    <string name="on">مشغّل</string>
+    <string name="off">مطفأ</string>
+
+    <!-- تسجيل تتبّع المستشعرات -->
+    <string name="trace_title">تسجيل تتبّع للمستشعرات</string>
+    <string name="trace_body">ابدأ التسجيل، وامشِ، ثم أوقف واحفظ. تذهب كل عيّنة من مقياس التسارع وكل حكم للبوابة وكل قرار خطوة إلى ملف CSV، بالترتيب. ولا يغادر شيء الجهاز حتى تختار مكان الحفظ.</string>
+    <string name="trace_rows">الصفوف المسجَّلة</string>
+    <string name="trace_dropped">المُسقَطة (الأقدم)</string>
+    <string name="trace_recording">جارٍ التسجيل…</string>
+    <string name="trace_start">ابدأ التسجيل</string>
+    <string name="trace_stop">إيقاف</string>
+    <string name="trace_save">حفظ CSV</string>
+    <string name="trace_saved">حُفظ التتبّع.</string>
+    <string name="trace_error">خطأ في الحفظ: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="zero">%1$d صف</item>
+        <item quantity="one">%1$d صف</item>
+        <item quantity="two">%1$d صفان</item>
+        <item quantity="few">%1$d صفوف</item>
+        <item quantity="many">%1$d صفًا</item>
+        <item quantity="other">%1$d صف</item>
+    </plurals>
+
+    <!-- تسجيل المسار -->
+    <string name="track_title">المسار</string>
+    <string name="track_start">ابدأ التسجيل</string>
+    <string name="track_stop">أوقف التسجيل</string>
+    <string name="track_distance">%1$.2f كم</string>
+    <string name="track_distance_miles">%1$.2f ميل</string>
+    <string name="recording_distance">جارٍ التسجيل — %1$s</string>
+    <string name="waiting_for_fix">في انتظار تحديد الموقع…</string>
+    <string name="track_total_route">المسار كاملًا</string>
+    <string name="track_walking_counted">مشي</string>
+    <string name="track_running">جري</string>
+    <string name="track_vehicle">مركبة</string>
+    <string name="track_speed_now">السرعة الحالية</string>
+    <string name="track_speed_max">السرعة القصوى</string>
+    <string name="track_speed_value">%1$.1f كم/س</string>
+    <string name="track_speed_value_mph">%1$.1f ميل/س</string>
+    <string name="track_stops">التوقفات</string>
+    <string name="track_stops_value">%1$d · %2$d د</string>
+    <string name="track_elevation_gain">الارتفاع ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f م</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f قدم</string>
+    <string name="track_telemetry">قياسات المسار</string>
+    <string name="track_gps_points">نقاط GPS</string>
+    <string name="track_raw_gps_points">كل نقاط GPS المحفوظة</string>
+    <string name="track_rejected_points">النقاط المصحَّحة/المرفوضة</string>
+    <string name="track_last_filter_reason">آخر تصحيح لـ GPS</string>
+    <string name="track_filter_none">لا شيء</string>
+    <string name="track_filter_low_accuracy">دقة منخفضة</string>
+    <string name="track_filter_stale_fix">موقع قديم</string>
+    <string name="track_filter_jump">قفزة غير مؤكَّدة</string>
+    <string name="track_filter_speed">سرعة مستحيلة</string>
+    <string name="track_filter_time_order">توقيت غير متسلسل</string>
+    <string name="track_gps_accuracy">دقة GPS</string>
+    <string name="track_accuracy_value">±%1$.0f م</string>
+    <string name="track_accuracy_value_ft">±%1$.0f قدم</string>
+    <string name="track_movement">الحركة</string>
+    <string name="track_movement_walking">مشي</string>
+    <string name="track_movement_running">جري</string>
+    <string name="track_movement_vehicle">مركبة</string>
+    <string name="track_movement_stopped">توقف</string>
+    <string name="track_movement_unknown">جارٍ التحديد…</string>
+    <string name="track_altitude">الارتفاع</string>
+    <string name="track_altitude_value">%1$.0f م · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f قدم · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">الضغط</string>
+    <string name="track_pressure_value">%1$.1f هكتوباسكال</string>
+    <string name="track_temperature">درجة الحرارة المحيطة</string>
+    <string name="track_temperature_value">%1$.1f °م</string>
+    <string name="track_temperature_value_f">%1$.1f °ف</string>
+    <string name="track_environment_changes">قفزات قيم البيئة</string>
+    <string name="track_sensor_unavailable">المستشعر غير متاح</string>
+    <string name="track_environment_note">يُعايَر الارتفاع البارومتري على أول ارتفاع من GPS. ومستشعر الحرارة نادر في الهواتف، وقد تتأثر قراءته بحرارة الجهاز نفسه.</string>
+    <string name="track_showing_last">المعروض هو آخر مسار مكتمل. ابدأ التسجيل لإنشاء مسار جديد.</string>
+    <string name="track_history">المسارات المحفوظة</string>
+    <string name="track_history_note">تُحفَظ المسارات وقياسات المستشعرات كاملةً محليًا، وتدخل ضمن تصدير البيانات.</string>
+    <plurals name="track_history_points">
+        <item quantity="zero">%1$d نقطة مقبولة</item>
+        <item quantity="one">%1$d نقطة مقبولة</item>
+        <item quantity="two">%1$d نقطتان مقبولتان</item>
+        <item quantity="few">%1$d نقاط مقبولة</item>
+        <item quantity="many">%1$d نقطةً مقبولةً</item>
+        <item quantity="other">%1$d نقطة مقبولة</item>
+    </plurals>
+</resources>

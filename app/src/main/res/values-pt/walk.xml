@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="walk_names">
+        <item>Festa do lactato</item>
+        <item>Passeio ao pôr do sol</item>
+        <item>Caçando subidas</item>
+        <item>Missão cafezinho</item>
+        <item>Poesia de calçada</item>
+        <item>Safári urbano</item>
+        <item>Banho de ar puro</item>
+        <item>Desvio de luxo</item>
+        <item>Patrulha das poças</item>
+        <item>Volta na hora dourada</item>
+        <item>Caminhada épica</item>
+        <item>Atrás da brisa</item>
+        <item>Saga das esquinas</item>
+        <item>Devorando quilômetros</item>
+        <item>Contando nuvens</item>
+        <item>Caminho panorâmico</item>
+        <item>Miniaventura</item>
+        <item>Entrega de endorfinas</item>
+        <item>Fiscal de bancos de praça</item>
+        <item>Passada com estilo</item>
+        <item>Pelo caminho mais longo</item>
+        <item>Pé na estrada</item>
+        <item>Quilômetros de paz</item>
+        <item>Hoje é dia de perna</item>
+        <item>Modo sem pressa</item>
+        <item>Espairecendo</item>
+        <item>Sinfonia de passos</item>
+        <item>Passo acelerado</item>
+        <item>Valendo um lanchinho</item>
+        <item>Desfile dos pombos</item>
+        <item>Sem atalhos</item>
+        <item>Volta olímpica</item>
+        <item>Gastando a sola</item>
+        <item>Oi, ar fresco</item>
+        <item>Rolê de fim de semana</item>
+        <item>Expedição de bolso</item>
+        <item>Ronda do amanhecer</item>
+        <item>Ritmo de cruzeiro</item>
+        <item>Rabisco no mapa</item>
+        <item>Caminhada filosófica</item>
+    </string-array>
+</resources>

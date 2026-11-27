@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="burn_kcal">%1$s किलो कैलोरी</string>
+    <string name="burn_sources">ऊर्जा का खर्च</string>
+    <string name="burn_overlap_note">कसरत में दर्ज पैदल चलना और दौड़ना कदमों में गिने जा चुके हैं, ताकि वे दो बार न गिने जाएँ।</string>
+    <string name="burn_rest_so_far">आज अब तक आराम में</string>
+    <string name="burn_total_so_far">आज अब तक कुल खर्च</string>
+    <string name="burn_active">गतिविधि, किलो कैलोरी</string>
+    <string name="food_history">भोजन का इतिहास</string>
+    <string name="food_history_empty">आज कोई भोजन दर्ज नहीं।</string>
+    <string name="activity_times">गतिविधि का समय</string>
+    <string name="activity_times_empty">इस दिन की कोई समय-चिह्नित गतिविधि दर्ज नहीं।</string>
+    <string name="visit_history">अपॉइंटमेंट का इतिहास</string>
+    <string name="visit_history_empty">पूरी हो चुकी अपॉइंटमेंट यहाँ दिखेंगी।</string>
+    <string name="calendar_schedule">कार्यक्रम</string>
+    <string name="calendar_add_event">जोड़ें</string>
+    <string name="calendar_expand_month">महीना दिखाएँ</string>
+    <string name="calendar_collapse_month">महीना छिपाएँ</string>
+    <string name="calendar_day_summary">दिन का सारांश</string>
+    <string name="events_all">सभी रिकॉर्ड</string>
+    <string name="events_filter">रिकॉर्ड छाँटें</string>
+    <string name="events_other">अन्य रिकॉर्ड</string>
+    <string name="events_no_matches">इस महीने ऐसा कोई रिकॉर्ड नहीं।</string>
+    <string name="steps_in_interval">%1$s में कदम</string>
+    <string name="metric_goal_reached">लक्ष्य पूरा</string>
+    <string name="workout_did_it">पूरा कर पाए?</string>
+    <string name="workout_actual_reps">कितने दोहराव हो पाए?</string>
+    <string name="answer_yes">हाँ</string>
+    <string name="answer_no">नहीं</string>
+    <string name="visit_recent">हाल की अपॉइंटमेंट</string>
+    <string name="visit_show_all">सभी दिखाएँ</string>
+    <string name="visit_all_specialties">सभी विशेषज्ञताएँ</string>
+    <string name="visit_all_doctors">सभी डॉक्टर</string>
+    <string name="visit_all_time">सभी तारीख़ें</string>
+    <string name="steps_hourly_title">घंटे के हिसाब से गतिविधि</string>
+    <string name="steps_activity_label">गतिविधि</string>
+    <string name="steps_distance_title">तय की गई दूरी</string>
+    <string name="steps_pace_title">औसत रफ़्तार</string>
+    <string name="steps_time_title">कुल समय</string>
+    <string name="steps_distance_note">दूरी आज के कदमों और प्रोफ़ाइल में दी गई ऊँचाई से आँकी गई है।</string>
+    <string name="steps_no_sensor">इस फ़ोन में कदम गिनने वाला सेंसर नहीं है, इसलिए ऐप ख़ुद कोई कदम नहीं गिनता। कदम फिर भी Health Connect या किसी जुड़े हुए डिवाइस से आ सकते हैं।</string>
+    <string name="steps_still_title">बिना चले सबसे लंबा दौर</string>
+    <string name="steps_still_note">कोई घंटा तब चला हुआ माना जाता है जब इस फ़ोन ने उसमें कम से कम 100 कदम गिने हों — क़रीब एक मिनट चलने जितने, वही कदम-दर जो ऊपर दिया गया समय भी मानता है। दौर की गिनती दिन के पहले चले हुए घंटे से शुरू होती है, इसलिए रात की नींद बैठे हुए समय में नहीं गिनी जाती। कोई कदम किस घंटे में गिना जाएगा, यह इससे तय होता है कि वह कब जमा हुआ, न कि इससे कि वह कब उठाया गया — इसलिए फ़ोन ने जो कदम रोक रखे थे वे किसी बाद वाले घंटे में आ सकते हैं और दौर को असल से लंबा दिखा सकते हैं।\n\nयह बिना चले बीते घंटे गिनता है, बैठने या खड़े रहने का समय नहीं। Android का कोई सेंसर यह नहीं बता सकता कि शरीर बैठा है या खड़ा, और Health Connect में इनमें से किसी के लिए कोई रिकॉर्ड नहीं है, इसलिए यहाँ से कुछ भी उसे नहीं भेजा जाता। मेज़ पर रखा फ़ोन कुछ नहीं गिनता, चाहे आप उसके पास बैठे हों, खड़े हों या कमरे से बाहर हों।</string>
+    <string name="steps_route_note">रूट के बिना समय 100 कदम प्रति मिनट मानकर आँका जाता है; दूरी कदमों और आपकी ऊँचाई से निकलती है। यह एक अनुमान है, नापी गई कदम-दर नहीं। औसत रफ़्तार दूरी के हिसाब से निकलती है: चलने का कुल समय बँटा कुल दूरी।\n\nपूरे हो चुके रूट अपना चलने का समय (ठहराव छोड़कर) और दूरी जोड़ते हैं। एक-दूसरे पर पड़ती रिकॉर्डिंग मिला दी जाती हैं; हर घंटे में सिर्फ़ उन कदमों के लिए समय आँका जाता है जो दर्ज दूरी से ऊपर हैं। डिवाइस के दैनिक कुल पूरे दिन के हिसाब से मिलाए जाते हैं।\n\n≈ का मतलब अनुमान है। घंटे के जोड़ों से न हर कदम का ठीक समय पता चलता है, न आपस में मिलती गतिविधियाँ ठीक-ठीक अलग होती हैं।</string>
+    <string name="steps_chart_thousands">%1$sK</string>
+    <string name="home_stat_walks">सैर</string>
+    <string name="burn_total_note">आज के बीत चुके हिस्से की गतिविधि और आराम में अनुमानित खर्च।</string>
+    <string name="burn_daily_estimate">24 घंटे आराम में: ≈ %1$s किलो कैलोरी</string>
+    <string name="burn_explanation_title">आराम का खर्च कैसे गिना जाता है</string>
+    <string name="burn_explanation_body">दिन भर का अनुमान Mifflin–St Jeor सूत्र और आपकी प्रोफ़ाइल — वज़न, ऊँचाई, उम्र और लिंग — से निकलता है। यह आराम में, बिना चलने और बिना कसरत के, लगने वाली ऊर्जा का अनुमान है।\n\nअब तक का आराम का खर्च = दिन भर का अनुमान × आधी रात से बीते मिनट ÷ 1,440। आज के कुल में सिर्फ़ यही बीता हुआ हिस्सा जुड़ता है; गतिविधि अलग से जुड़ती है। पूरे दिन का अनुमान दोबारा नहीं जोड़ा जाता। असल खर्च इससे अलग हो सकता है।</string>
+    <string name="home_good_morning">सुप्रभात</string>
+    <string name="home_good_afternoon">शुभ दोपहर</string>
+    <string name="home_good_evening">शुभ संध्या</string>
+    <string name="home_good_night">शुभ रात्रि</string>
+    <string-array name="home_motivations">
+        <item>कदम-दर-कदम लक्ष्य की ओर</item>
+        <item>हर कदम मायने रखता है</item>
+        <item>छोटे कदम, लंबा सफ़र</item>
+        <item>आज एक नया मौक़ा है</item>
+        <item>चलना ही जीवन है</item>
+        <item>सेहत छोटी शुरुआत से बनती है</item>
+    </string-array>
+    <string name="home_focus">आज का ध्यान</string>
+    <string name="home_focus_headline">नियमितता नतीजे लाती है।</string>
+    <string name="home_focus_message">एक बार में एक कदम।</string>
+    <string name="widget_icon_count">आइकन की संख्या</string>
+    <string name="level_details">स्तर और XP</string>
+    <string name="level_screen_title">मेरा स्तर</string>
+    <string name="level_sources">XP के स्रोत</string>
+    <string name="level_to_next">अगले स्तर तक</string>
+    <string name="level_short">LVL</string>
+    <string name="level_title">स्तर %1$d</string>
+    <string name="level_year_xp">इस साल %1$s XP</string>
+    <string name="level_max">अधिकतम स्तर पर पहुँच गए</string>
+    <string name="level_opens">रोज़ ऐप खोलना</string>
+    <string name="level_steps">कदम</string>
+    <string name="level_meals">भोजन की प्रविष्टियाँ</string>
+    <string name="level_workouts">कसरत के दिन</string>
+    <string name="level_visits">पूरी हुई अपॉइंटमेंट</string>
+    <string name="level_medals">पदक</string>
+    <string name="nutrition_unlogged_title">आज कोई भोजन दर्ज नहीं</string>
+    <string name="nutrition_unlogged_body">अगर आपने खाया है, तो उसे डायरी में जोड़ें। अगर नहीं, तो एक संतुलित भोजन के लिए समय निकालें; नियमित खाना हर लक्ष्य में मायने रखता है।</string>
+    <string name="nutrition_tracking_low_title">अब तक बहुत कम भोजन दर्ज</string>
+    <string name="nutrition_tracking_low_body">डायरी में आज की कैलोरी के लक्ष्य का %1$s%% है। देखें कि कोई भोजन दर्ज होने से छूटा तो नहीं। अगर सब दर्ज है, तो प्रोटीन, कार्बोहाइड्रेट और सब्ज़ियों वाला संतुलित भोजन रखें।</string>
+    <string name="nutrition_lose_low_title">वज़न घटाने के लिए भी खाना ज़रूरी</string>
+    <string name="nutrition_lose_low_body">आज के लक्ष्य का सिर्फ़ %1$s%% दर्ज है। वज़न घटाने के लिए भूखा रहना ज़रूरी नहीं: अगर डायरी पूरी है, तो भरपेट संतुलित भोजन करें और नियमित खाते रहें।</string>
+    <string name="nutrition_gain_low_title">वज़न बढ़ाने के लक्ष्य तक अभी गुंजाइश</string>
+    <string name="nutrition_gain_low_body">आपने आज के लक्ष्य का %1$s%% दर्ज किया है। डायरी जाँचें, फिर प्रोटीन वाला एक और संतुलित भोजन या नाश्ता सोचें। खाना धीरे-धीरे बढ़ाएँ, ज़बरदस्ती नहीं।</string>
+    <string name="nutrition_lose_over_title">आज की कैलोरी का लक्ष्य पार</string>
+    <string name="nutrition_lose_over_body">डायरी में वज़न घटाने के आज के लक्ष्य का %1$s%% है। अगला भोजन तय करते समय हिस्से और भूख का ध्यान रखें। इसकी भरपाई भूखा रहकर या भोजन छोड़कर न करें।</string>
+    <string name="nutrition_gain_over_title">वज़न बढ़ाने के लक्ष्य से काफ़ी ऊपर</string>
+    <string name="nutrition_gain_over_body">डायरी में वज़न बढ़ाने के आज के लक्ष्य का %1$s%% है, और उसमें अधिशेष पहले से शामिल है। हिस्से और प्रविष्टियाँ जाँचें; ज़बरदस्ती और खाने की ज़रूरत नहीं। नियमित और संतुलित भोजन जारी रखें।</string>
+    <string name="nutrition_tracking_over_title">आज के कैलोरी मार्गदर्शन से ऊपर</string>
+    <string name="nutrition_tracking_over_body">डायरी में आज के कैलोरी मार्गदर्शन का %1$s%% है। हिस्से और दोहरी प्रविष्टियाँ जाँचें। एक अकेला दिन आपके आम खानपान को नहीं बताता।</string>
+    <string name="nutrition_fat_title">आज के भोजन में वसा का हिस्सा ज़्यादा</string>
+    <string name="nutrition_fat_body">दर्ज कैलोरी में से क़रीब %1$s%% वसा से आती हैं। अगले भोजन प्रोटीन, सब्ज़ियों और साबुत अनाज से संतुलित करें। विविध खानपान में वसा की भी जगह है; मायने यह रखता है कि वह किस तरह की हो।</string>
+    <string name="nutrition_saturated_title">संतृप्त वसा दैनिक मार्गदर्शन से ऊपर</string>
+    <string name="nutrition_saturated_body">दर्ज संतृप्त वसा आज के ऊर्जा लक्ष्य के 10%% से पहले ही ऊपर है। अगले भोजनों में उसके कुछ स्रोतों की जगह मछली, मेवे या असंतृप्त वनस्पति तेल लिए जा सकते हैं।</string>
+    <string name="nutrition_protein_title">वज़न बढ़ाने के लक्ष्य के लिए प्रोटीन देखें</string>
+    <string name="nutrition_protein_body">दर्ज ऊर्जा लक्ष्य के क़रीब है, जबकि प्रोटीन ऐप के दैनिक मार्गदर्शन के आधे से कम है। अगले भोजन में प्रोटीन का कोई स्रोत रखें — दालें, मछली, अंडे, टोफ़ू या दूध से बनी चीज़ें।</string>
+    <string name="nutrition_source">NHS / WHO; सुझावों की सीमाएँ ऐप ने तय की हैं</string>
+    <!-- भोजन की पंक्ति में मैक्रोन्यूट्रिएंट के एक-अक्षर वाले संकेत; हर एक पर टैप करने से पूरा शब्द बोला जाता है। -->
+    <string name="food_macro_letter_protein">प्र</string>
+    <string name="food_macro_letter_fat">व</string>
+    <string name="food_macro_letter_carbs">का</string>
+</resources>

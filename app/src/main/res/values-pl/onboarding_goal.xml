@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Kroki dziennie</string>
+    <string name="onboarding_steps_body">Wybierz cel, którego zamierzasz się trzymać. W badaniu z udziałem 500 dorosłych więcej chodzić zaczęli tylko ci, którzy sami wybrali cel. Możesz go zmienić w profilu w każdej chwili.</string>
+    <string name="onboarding_steps_suggested">Sugerowane dla Twojego wieku: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Użyj sugestii</string>
+    <string name="onboarding_steps_distance">Około %1$s dziennie przy Twoim kroku</string>
+    <string name="onboarding_bmi_source">Zakresy WHO dla dorosłych</string>
+    <string name="onboarding_ready_steps">Dzienny cel kroków</string>
+    <string name="onboarding_ready_resting">Energia spoczynkowa</string>
+    <string name="onboarding_ready_kcal_day">%1$s kcal dziennie</string>
+    <string name="onboarding_ready_local">Obliczone na tym telefonie z Twoich odpowiedzi: energia spoczynkowa wg Mifflina–St Jeora, BMI wg zakresów WHO dla dorosłych. Nic nie zostało nigdzie wysłane.</string>
+</resources>

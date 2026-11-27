@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">標高</string>
+    <string name="walk_chart_speed">速度</string>
+    <string name="walk_chart_no_elevation">この散歩では標高の測定値が足りません</string>
+    <string name="walk_chart_no_speed">この散歩では速度の測定値が足りません</string>
+    <string name="walk_chart_spoken_elevation">標高は %1$s から %2$s まで</string>
+    <string name="walk_chart_spoken_speed">速度：平均 %1$s、最高 %2$s</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">ft</string>
+    <string name="walk_chart_unit_kmh">km/h</string>
+    <string name="walk_chart_unit_mph">mph</string>
+</resources>

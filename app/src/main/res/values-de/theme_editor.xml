@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Design</string>
+    <string name="theme_description">Oberflächen- und Symbolfarben für helles und dunkles Design</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_saved_note">Jede Palette wird separat gespeichert. Die App folgt dem hellen oder dunklen Design Ihres Geräts.</string>
+    <string name="theme_preview">Vorschau</string>
+    <string name="theme_main_accent">Hauptakzent</string>
+    <string name="theme_accent_container">Akzenthintergrund</string>
+    <string name="theme_secondary">Sekundärer Akzent</string>
+    <string name="theme_secondary_container">Sekundärer Hintergrund</string>
+    <string name="theme_tertiary">Dritter Akzent</string>
+    <string name="theme_tertiary_container">Hintergrund des dritten Akzents</string>
+    <string name="theme_background">Seitenhintergrund</string>
+    <string name="theme_surface">Karten</string>
+    <string name="theme_text">Haupttext</string>
+    <string name="theme_muted_text">Sekundärer Text</string>
+    <string name="theme_border">Rahmen</string>
+    <string name="theme_icons">Symbole</string>
+    <string name="theme_icon">Hauptfarbe der Symbole</string>
+    <string name="theme_icon_mid">Zweitfarbe der Symbole</string>
+    <string name="theme_icon_light">Helle Symboldetails</string>
+    <string name="theme_brightness">Helligkeit</string>
+    <string name="theme_hex">HEX-Code</string>
+    <string name="theme_hex_error">Geben Sie 6 Hexadezimalziffern ein, zum Beispiel #7094EE.</string>
+    <string name="theme_update_all">Alle Farben aktualisieren</string>
+    <string name="theme_update_all_body">Alle anderen Farben dieser Palette aus dem Hauptakzent erzeugen; manuelle Änderungen werden ersetzt.</string>
+    <string name="theme_reset">Design zurücksetzen</string>
+    <string name="theme_reset_light_body">Standardfarben für Oberfläche und Symbole im hellen Design wiederherstellen? Das dunkle Design bleibt unverändert.</string>
+    <string name="theme_reset_dark_body">Standardfarben für Oberfläche und Symbole im dunklen Design wiederherstellen? Das helle Design bleibt unverändert.</string>
+    <string name="theme_wheel">Farbrad</string>
+    <string name="theme_wheel_value">Farbton %1$d°, Sättigung %2$d%%</string>
+    <string name="theme_next_hue">Nächster Farbton</string>
+    <string name="theme_previous_hue">Vorheriger Farbton</string>
+    <string name="theme_more_saturation">Sättigung erhöhen</string>
+    <string name="theme_less_saturation">Sättigung verringern</string>
+</resources>

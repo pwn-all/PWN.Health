@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding: the step-goal page, the BMI scale and the finish's figures (OnboardingScreen.kt, OnboardingReady.kt). -->
+<resources>
+    <string name="onboarding_steps_title">Schritte am Tag</string>
+    <string name="onboarding_steps_body">Wählen Sie ein Ziel, das Sie halten wollen. In einer Studie mit 500 Erwachsenen gingen nur diejenigen mehr, die ihr Ziel selbst gewählt hatten. Sie können es jederzeit im Profil ändern.</string>
+    <string name="onboarding_steps_suggested">Empfohlen für Ihr Alter: %1$s</string>
+    <string name="onboarding_steps_use_suggested">Empfehlung übernehmen</string>
+    <string name="onboarding_steps_distance">Etwa %1$s am Tag bei Ihrer Schrittlänge</string>
+    <string name="onboarding_bmi_source">WHO-Bereiche für Erwachsene</string>
+    <string name="onboarding_ready_steps">Tägliches Schrittziel</string>
+    <string name="onboarding_ready_resting">Ruheenergie</string>
+    <string name="onboarding_ready_kcal_day">%1$s kcal am Tag</string>
+    <string name="onboarding_ready_local">Auf diesem Telefon aus Ihren Antworten berechnet: Ruheenergie nach Mifflin–St Jeor, BMI nach den WHO-Bereichen für Erwachsene. Nichts wurde irgendwohin gesendet.</string>
+</resources>

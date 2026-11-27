@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The ongoing notification's title while a route stands paused, with the distance so far; while
+         it records the title is recording_distance. The day's steps go under either. -->
+    <string name="track_recording_paused">Recording paused — %1$s</string>
+    <!-- The track widget's title while the route stands paused, where widget_track_recording stands
+         while it records. Short: it shares one row with the Stop button. -->
+    <string name="widget_track_paused">Paused</string>
+</resources>

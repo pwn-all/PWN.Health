@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">我附近的地点</string>
+    <string name="facility_locating">正在确定你的位置…</string>
+    <string name="facility_denied">未允许获取位置，所以无法按距离排序。你仍然可以输入名称。</string>
+    <string name="facility_location_off">这部手机的定位已关闭。</string>
+    <string name="facility_location_settings">定位设置</string>
+    <string name="facility_no_fix">手机暂时无法确定你的位置。请稍后再试。</string>
+    <string name="facility_nothing_near">列表中没有距你 %1$s 以内的地点。</string>
+    <string name="facility_list_title">诊所和医院</string>
+    <string name="facility_near_title">你附近</string>
+    <string name="facility_near_kind">你附近：%1$s</string>
+    <string name="facility_near_gynaecology">你附近：妇科</string>
+    <string name="facility_near_imaging">你附近：影像科</string>
+    <string name="facility_near_gastroenterology">你附近：消化内科</string>
+    <string name="facility_distance">%1$s 公里</string>
+    <string name="facility_distance_miles">%1$s 英里</string>
+    <string name="facility_help_title">这些地点从哪里来</string>
+    <string name="facility_help_what">这些建议来自官方的医疗机构登记名录。列表保存在应用内，并在这部手机上搜索。为本应用使用，名录已筛选为患者可以前往的地点，其医疗服务类别也已重新归入应用所知的医生类别。“地点”栏末尾的定位按钮只列出提供本次就诊所选服务的地点；如果是看其他医生，则列出全部地点。输入名称会在所有地点中搜索。</string>
+    <string name="facility_help_screening">对于筛查，列表显示通常开展该项筛查的科室：宫颈筛查对应妇科，乳腺钼靶对应影像科，肠癌筛查对应消化内科。登记名录并不说明某个科室本身是否做这项筛查，所以请在预约时问清楚。</string>
+    <string name="facility_help_coverage">列表涵盖捷克、乌克兰和阿拉伯联合酋长国。乌克兰部分只包含与乌克兰国家卫生服务局签有合同的地点。阿联酋部分包含：2023 年 12 月版的迪拜名录；阿布扎比的持证地点，位置以 2022 年的地图标注为准，到 2026 年仍按此标注；以及阿联酋卫生服务局（Emirates Health Services）的公立医院和卫生中心。沙迦、阿治曼、乌姆盖万、哈伊马角和富查伊拉的私立诊所不在列表中。名录可能已过时：出发前请先向该地点核实。</string>
+    <string name="facility_help_location">定位按钮会向 Android 请求一次你的大致位置，并将其精度降到约一公里。它只在这部手机上用于给列表排序，从不保存，也不会发送到任何地方，离开此页面后即被忘记。</string>
+    <string name="facility_help_sources">来源</string>
+</resources>

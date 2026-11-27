@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">À propos de la séance</string>
+    <string name="routines_import">Importer un fichier de séance</string>
+    <string name="routines_import_error">Ce fichier n’est pas un modèle de séance.</string>
+    <string name="routines_import_cut">Le fichier contient plus d’exercices (%2$d) qu’un modèle n’en accepte (%1$d) : seuls les premiers ont été importés.</string>
+    <string name="routines_description">Brève description</string>
+    <string name="routines_photo">Photo du modèle</string>
+    <string name="routines_days_title">Jours d’entraînement</string>
+    <string name="routines_flow_title">Exercices et repos</string>
+    <string name="routines_flow_lead">Ajoutez des exercices ou des supersets, et le repos entre eux.</string>
+    <string name="routines_add_superset">Ajouter un superset</string>
+    <string name="routines_saved_title">Modèle enregistré</string>
+    <string name="routines_open_template">Ouvrir le modèle</string>
+    <string name="routines_add_another">Ajouter un autre modèle</string>
+    <string name="routines_get_ready">Préparez-vous</string>
+    <string name="routines_finished">Séance terminée</string>
+    <string name="routines_reminder_title">Séance aujourd’hui</string>
+    <string name="routines_total_time">Durée totale</string>
+    <string name="routines_total_lifted">Total soulevé</string>
+    <string name="routines_total_work">Temps d’exercice</string>
+    <string name="routines_burn">Vous brûlerez environ</string>
+    <string name="routines_plan_title">Programme de la séance</string>
+    <plurals name="routines_exercises">
+        <item quantity="one">%1$d exercice</item>
+        <item quantity="many">%1$d d’exercices</item>
+        <item quantity="other">%1$d exercices</item>
+    </plurals>
+    <string name="routines_menu">Actions du modèle</string>
+    <string name="routines_overall">Progression globale</string>
+    <string name="routines_left">Restant</string>
+    <string name="routines_set">Série</string>
+    <string name="routines_set_number">Série %1$d</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d sur %2$d</string>
+    <string name="routines_rest_after">Repos après</string>
+    <string name="routines_previous">Précédent</string>
+    <string name="routines_finish">Terminer</string>
+    <string name="routines_leave_title">Quitter la séance ?</string>
+    <string name="routines_leave_body">Ce que vous avez fait jusqu’ici ne sera pas enregistré. Pour le conserver, touchez « Terminer ».</string>
+    <string name="routines_pick_title">Choix de l’exercice</string>
+    <string name="routines_pick_lead">Trouvez l’exercice qu’il vous faut</string>
+    <string name="routines_setup_lead">Réglage de l’exercice</string>
+    <string name="routines_sets_count">Nombre de séries</string>
+    <string name="routines_sets_count_lead">Choisissez combien de fois faire cet exercice</string>
+    <string name="routines_not_done">Non fait</string>
+    <string name="routines_done_of">%1$s sur %2$s</string>
+    <string name="routines_pick_empty">Aucun exercice ne correspond</string>
+    <string name="routines_set_done_question">Avez-vous terminé la série ?</string>
+    <string name="routines_reps_done_question">Combien de répétitions avez-vous faites ?</string>
+    <string name="routines_goal_missed">Objectif non atteint</string>
+    <string name="routines_freestyle_body">Sans plan : choisissez les exercices au fur et à mesure</string>
+    <string name="routines_show_muscles">Afficher les muscles sollicités</string>
+    <string name="routines_show_drawing">Afficher le dessin de l’exercice</string>
+</resources>

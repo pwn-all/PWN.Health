@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <group
+        android:scaleX="0.87786"
+        android:scaleY="0.87786"
+        android:rotation="0"
+        android:translateX="5"
+        android:translateY="5">
+        <path
+            android:pathData="m29.52 11.93c.2672-.4628.11-1.05-.3541-1.32s-1.05-.1087-1.32.3541l-7.51 13.01c-.2672.46-.1086 1.05.3542 1.32s1.05.1086 1.32-.3542zm-18.45 6.02c-.2672.46-.1086 1.05.3542 1.32s1.05.1086 1.32-.3542l7.22-12.5c.2672-.4628.11-1.05-.3542-1.32s-1.05-.1086-1.32.3542z"
+            android:fillColor="@color/art_duo_ink" />
+        <group
+            android:scaleX="0.337379608"
+            android:scaleY="0.337379608"
+            android:rotation="30.0608475"
+            android:translateX="18.926"
+            android:translateY="-0.487">
+            <path
+                android:pathData="M1.33 0h50.12a1.33 1.33 0 0 1 1.33 1.33v13.51a1.33 1.33 0 0 1 -1.33 1.33h-50.12a1.33 1.33 0 0 1 -1.33 -1.33v-13.51a1.33 1.33 0 0 1 1.33 -1.33Z"
+                android:fillColor="@color/art_duo_ink" />
+        </group>
+        <path
+            android:pathData="m13.59 15.86 3.13 1.81-.7647 1.33-3.13-1.81z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="m15.1 13.26 1.97 1.14-.7706 1.33-1.97-1.14z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="m16.59 10.66 3.13 1.81-.7646 1.33-3.13-1.81z"
+            android:fillColor="@color/art_duo_ink" />
+        <path
+            android:pathData="m13.25 40.11 8.76-15.18c-1.25-.7206-2.2-1.95-3.45-2.67-1.25-.7205-2.79-.9357-4.04-1.66s-2.2-1.95-3.45-2.67l-9.05 15.68c-1.78 3.09-.7153 7.08 2.37 8.86 3.09 1.78 7.08.7152 8.86-2.37z"
+            android:fillColor="@color/art_duo_mid" />
+        <path
+            android:pathData="m38.69 10.61c-2.18 2.62-3.19 4.78-3.44 6.46-.4585 3.05 1.57 4.55 3.55 4.5 1.9-.054 3.75-1.54 3.34-4.44-.2393-1.69-1.24-3.86-3.45-6.51z"
+            android:fillColor="@color/art_duo_ink" />
+    </group>
+</vector>

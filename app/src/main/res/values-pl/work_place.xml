@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Start według lokalizacji</string>
+    <string name="work_place_help_what">Zapisz miejsce, w którym pracujesz, a licznik pracy uruchomi się, gdy telefon się tam znajdzie. Przy każdym sprawdzeniu aplikacja pobiera jedno położenie z własnej usługi lokalizacji Androida, porównuje je z zapisanym punktem i zapomina. Punkt zostaje zapisany tylko z położenia ustalonego z dokładnością do 100 m. Przechowywane są tylko zapisany punkt, jego promień i Twoje sesje, na tym telefonie. Nic nie jest nigdzie wysyłane.</string>
+    <string name="work_place_help_when">Sprawdzenia odbywają się co 10 minut i tylko w określonym oknie każdego dnia roboczego. Okno otwiera się, gdy się budzisz: z końcem zapisu snu albo przy pierwszym użyciu telefonu po nocy, jeśli aplikacja widzi któreś z nich. Pierwsze użycie telefonu przed %4$s liczy się od %4$s, chyba że zapis snu pokazuje wcześniejszą pobudkę albo Twoje zwykłe godziny zaczynają się wcześniej. Jeśli aplikacja nie widzi żadnego z nich, poranek zaczyna się o %1$s. Jeśli widzi, ale jeszcze nie zauważyła Twojej pobudki, czeka najpóźniej do %2$s. Gdy w ostatnich 4 tygodniach będą co najmniej 3 sesje rozpoczęte w dni robocze, nie licząc tych, które licznik zatrzymał sam, okno będzie się otwierać godzinę przed Twoim zwykłym początkiem, nigdy przed pobudką, i zamykać godzinę po Twoim zwykłym końcu. Do tego czasu zamyka się o %3$s. W dni wolne nie ma sprawdzeń. Zanim okno się otworzy, aplikacja patrzy tylko, czy już nie śpisz, i nie pobiera przy tym położenia.</string>
+    <string name="work_place_help_leave">Jeśli dwa sprawdzenia z rzędu nie zastaną Cię na miejscu, sesja uruchomiona przez aplikację zatrzymuje się i kończy w chwili ostatniego sprawdzenia, które Cię tam zastało. Sesji uruchomionej przez Ciebie aplikacja nigdy w ten sposób nie zatrzymuje. Dopóki trwa sesja uruchomiona przez aplikację, sprawdzenia odbywają się także po zamknięciu okna, najpóźniej do północy.</string>
+    <string name="work_place_help_yours">Każdemu automatycznemu uruchomieniu i zatrzymaniu towarzyszy powiadomienie, z którego można je cofnąć: uruchomienie do końca dnia, o ile sesja nie została przez Ciebie zmieniona, a zatrzymanie przez godzinę, o ile licznik nie został od tego czasu ponownie uruchomiony. Gdy samodzielnie naciśniesz „Start”, „Pauza”, „Wznów” lub „Stop” albo cofniesz zmianę, aplikacja tego dnia nie uruchomi już niczego.</string>
+    <string name="work_place_help_access">Do tego Android musi zezwolić na dokładną lokalizację przez cały czas oraz na alarmy o dokładnej godzinie. Gdy przełącznik jest wyłączony, aplikacja nie pobiera w tym celu położenia.</string>
+    <string name="work_place_save">Zapisz, gdzie teraz jestem</string>
+    <string name="work_place_locating">Ustalanie Twojego położenia…</string>
+    <string name="work_place_no_fix">Nie ustalono położenia</string>
+    <string name="work_place_rough_fix">Położenie zbyt niedokładne. Spróbuj przy oknie</string>
+    <string name="work_place_point">Twoje miejsce pracy</string>
+    <string name="work_place_saved">Zapisano %1$s</string>
+    <string name="work_place_saved_within">Zapisano %1$s · z dokładnością do %2$d m</string>
+    <string name="work_place_move">Przenieś tam, gdzie teraz jestem</string>
+    <string name="work_place_remove">Usuń miejsce pracy</string>
+    <string name="work_place_radius">Na miejscu w promieniu</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Uruchamiaj licznik, gdy tam dotrę</string>
+    <string name="work_place_access_precise_title">Dokładna lokalizacja</string>
+    <string name="work_place_access_precise_body">Przybliżona lokalizacja ma dokładność tylko około 1,6 km, czyli gorszą niż wielkość jakiegokolwiek miejsca pracy. Punkt i sprawdzenia wymagają dokładnej.</string>
+    <string name="work_place_access_background_title">Lokalizacja przez cały czas</string>
+    <string name="work_place_access_background_body">PWN.Health używa Twojej lokalizacji w tle, aby uruchamiać i zatrzymywać licznik pracy, gdy przychodzisz do miejsca pracy lub z niego wychodzisz, nawet gdy aplikacja jest zamknięta. Sprawdza ją co 10 minut, tylko między Twoim porankiem a wieczorem w dni robocze, a położenia zostają na tym telefonie. Na następnym ekranie wybierz „Zezwalaj zawsze”.</string>
+    <string name="work_place_access_exact_title">Alarmy i przypomnienia</string>
+    <string name="work_place_access_exact_body">Tylko alarm o dokładnej godzinie może wybudzić zamkniętą aplikację na sprawdzenie. Android trzyma to ustawienie na swoim ekranie „Alarmy i przypomnienia”.</string>
+    <string name="work_place_access_notifications_title">Powiadomienia</string>
+    <string name="work_place_access_notifications_body">Każde automatyczne uruchomienie i zatrzymanie jest zgłaszane w powiadomieniu z przyciskiem „Cofnij” na kanale „%1$s”. Bez powiadomień licznik nadal się uruchamia i zatrzymuje, ale nie ma skąd tego cofnąć.</string>
+    <string name="work_place_next_today">Następne sprawdzenie dziś o %1$s</string>
+    <string name="work_place_next_tomorrow">Następne sprawdzenie jutro o %1$s</string>
+    <string name="work_place_next_day">Następne sprawdzenie: %1$s, %2$s</string>
+    <string name="work_place_next_none">Na najbliższy tydzień nie zaplanowano żadnego sprawdzenia.</string>
+    <string name="work_place_started_title">Licznik pracy uruchomiony</string>
+    <string name="work_place_started_body">Telefon jest w Twoim miejscu pracy. Uruchomiono o %1$s.</string>
+    <string name="work_place_stopped_title">Licznik pracy zatrzymany</string>
+    <string name="work_place_stopped_body">Dwa sprawdzenia z rzędu nie zastały Cię w miejscu pracy. Sesja kończy się o %1$s, w chwili ostatniego sprawdzenia, które Cię tam zastało.</string>
+    <string name="work_place_stopped_short">Dwa sprawdzenia z rzędu nie zastały Cię w miejscu pracy, a wcześniej zastało Cię tam tylko jedno, więc nic nie zapisano.</string>
+    <string name="work_place_undo">Cofnij</string>
+    <string name="work_place_channel">Sprawdzanie miejsca pracy</string>
+    <string name="work_place_notice_channel">Automatyczny licznik pracy</string>
+    <string name="work_place_checking">Sprawdzanie, czy jesteś w pracy</string>
+</resources>

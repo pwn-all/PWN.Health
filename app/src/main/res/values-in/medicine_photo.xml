@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">Ambil foto obat</string>
+    <string name="med_photo_of">Foto %1$s</string>
+    <string name="med_photo_unnamed">Foto obat</string>
+    <string name="med_photo_retake">Ambil ulang foto</string>
+    <string name="med_photo_remove">Hapus foto</string>
+    <string name="med_photo_open">Buka ukuran penuh</string>
+    <string name="med_delete_body_photo">Jadwal dan fotonya dihapus; dosis yang sudah ditandai tetap ada di jurnal.</string>
+</resources>

@@ -1,0 +1,36 @@
+{
+ "format": "chat-reader-manifest",
+ "version": 1,
+ "model": "chat-reader 1.0 journal-v2c weight-int8 890bc171adf0 (release)",
+ "smoke": false,
+ "onnx": {
+  "file": "reader.onnx",
+  "bytes": 66416948,
+  "sha256": "890bc171adf07c68cfe66a40c60a3ac6df566935ef3076cd3d90bcdf8b3ba14f"
+ },
+ "calibration": {
+  "file": "reader-calibration.json",
+  "sha256": "c9eb82b27ca07b69976483597696733ff7de11edf5ac5f6b872200a1fae22ebb"
+ },
+ "tokenizer_sha256": "860ead0a3e545819c9ddc0eb19366f6e40f394ee7161ae495eef702d20055983",
+ "schema_sha256": "1f5c7f4a92717f8c981d3db9e6a75fe02656d19945b91e640f5fa99e2fb3dd2d",
+ "languages": [],
+ "routing_languages": [
+  "en",
+  "ar",
+  "cs",
+  "de",
+  "es",
+  "fr",
+  "hi",
+  "id",
+  "it",
+  "ja",
+  "ko",
+  "pl",
+  "pt",
+  "ru",
+  "tr",
+  "zh"
+ ]
+}

@@ -1,0 +1,7 @@
+# Model artifacts must retain their exact bytes and use binary diffs.
+#
+# They are ordinary blobs and not Git LFS pointers, on purpose: one clone is everything the offline
+# build needs, with no second download and no tool besides git. The price is that every version of
+# a model stays in the history for good, and a retrained one adds its whole size again. So a model
+# is committed when a release ships it.
+*.onnx binary

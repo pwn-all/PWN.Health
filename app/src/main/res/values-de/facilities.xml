@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facility_near_me">Orte in meiner Nähe</string>
+    <string name="facility_locating">Ihr Standort wird ermittelt…</string>
+    <string name="facility_denied">Der Standortzugriff wurde nicht erlaubt, deshalb lässt sich die Liste nicht nach Entfernung sortieren. Einen Namen können Sie trotzdem eingeben.</string>
+    <string name="facility_location_off">Der Standort ist auf diesem Telefon ausgeschaltet.</string>
+    <string name="facility_location_settings">Standorteinstellungen</string>
+    <string name="facility_no_fix">Das Telefon konnte Ihren Standort gerade nicht bestimmen. Versuchen Sie es gleich noch einmal.</string>
+    <string name="facility_nothing_near">In der Liste ist nichts im Umkreis von %1$s.</string>
+    <string name="facility_list_title">Praxen und Kliniken</string>
+    <string name="facility_near_title">In Ihrer Nähe</string>
+    <string name="facility_near_kind">In Ihrer Nähe: %1$s</string>
+    <string name="facility_near_gynaecology">In Ihrer Nähe: Gynäkologie</string>
+    <string name="facility_near_imaging">In Ihrer Nähe: Radiologie</string>
+    <string name="facility_near_gastroenterology">In Ihrer Nähe: Gastroenterologie</string>
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <string name="facility_help_title">Woher diese Orte stammen</string>
+    <string name="facility_help_what">Die Vorschläge stammen aus amtlichen Registern medizinischer Einrichtungen. Die Liste ist in der App gespeichert und wird auf diesem Telefon durchsucht. Für die App wurden die Register auf Orte gefiltert, die Patientinnen und Patienten aufsuchen können, und ihre Versorgungsarten den Fachrichtungen zugeordnet, welche die App kennt. Die Standorttaste am Ende des Felds „Ort“ zeigt nur Orte, an denen die für diesen Termin gewählte Versorgung angeboten wird, oder alle Orte, wenn der Termin bei einer anderen Praxis ist; die Suche nach einem Namen durchsucht alle.</string>
+    <string name="facility_help_screening">Bei einer Vorsorgeuntersuchung zeigt die Liste die Fachbereiche, in denen sie häufig gemacht wird: Gynäkologie für die Gebärmutterhals-Vorsorge, Radiologie für die Mammografie, Gastroenterologie für die Darmkrebsvorsorge. Ein Register sagt nicht, ob ein Fachbereich diese Untersuchung selbst durchführt; fragen Sie deshalb bei der Terminvereinbarung nach.</string>
+    <string name="facility_help_coverage">Die Liste umfasst Tschechien, die Ukraine und die Vereinigten Arabischen Emirate. Für die Ukraine enthält sie nur Einrichtungen mit einem Vertrag mit dem Nationalen Gesundheitsdienst der Ukraine. Für die Emirate enthält sie das Register von Dubai in der Ausgabe vom Dezember 2023, die zugelassenen Einrichtungen von Abu Dhabi so, wie sie 2022 auf der Karte verzeichnet waren und 2026 noch immer verzeichnet sind, sowie die staatlichen Krankenhäuser und Gesundheitszentren von Emirates Health Services; private Kliniken in Schardscha, Adschman, Umm al-Qaiwain, Ra’s al-Chaima und Fudschaira sind nicht enthalten. Ein Register kann veraltet sein: Fragen Sie vor dem Besuch bei der Einrichtung nach.</string>
+    <string name="facility_help_location">Die Standorttaste fragt Android einmal nach Ihrem ungefähren Standort und rundet ihn auf etwa einen Kilometer. Er wird auf diesem Telefon zum Sortieren der Liste verwendet, nie gespeichert oder irgendwohin gesendet und vergessen, sobald Sie diese Seite verlassen.</string>
+    <string name="facility_help_sources">Quellen</string>
+</resources>

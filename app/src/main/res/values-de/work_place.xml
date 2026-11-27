@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Start nach Standort</string>
+    <string name="work_place_help_what">Speichern Sie den Ort, an dem Sie arbeiten, und der Arbeitstimer startet, wenn Ihr Telefon dort ist. Jede Prüfung holt eine einzige Position vom Android-eigenen Standortdienst, vergleicht sie mit dem gespeicherten Punkt und vergisst sie wieder. Ein Punkt wird nur aus einer Position gespeichert, die auf 100 m genau ist. Aufbewahrt werden nur der gespeicherte Punkt, sein Radius und Ihre Zeiteinträge, und zwar auf diesem Telefon. Nichts wird irgendwohin gesendet.</string>
+    <string name="work_place_help_when">Geprüft wird alle 10 Minuten und nur in einem Zeitfenster an jedem Arbeitstag. Es öffnet sich, wenn Sie aufwachen: am Ende Ihres Schlafeintrags oder bei der ersten Nutzung des Telefons nach der Nacht, sofern die App eines davon sehen kann. Eine erste Nutzung des Telefons vor %4$s zählt ab %4$s, außer Ihr Schlafeintrag zeigt ein früheres Aufwachen oder Ihre üblichen Arbeitszeiten beginnen früher. Kann die App keines von beiden sehen, beginnt der Morgen um %1$s. Kann sie es, hat Ihr Aufwachen aber noch nicht gesehen, wartet sie höchstens bis %2$s. Sobald in den letzten 4 Wochen mindestens 3 an Arbeitstagen begonnene Zeiteinträge liegen (vom Timer selbst gestoppte nicht mitgezählt), öffnet sich das Fenster eine Stunde vor Ihrem üblichen Beginn, nie vor dem Aufwachen, und schließt eine Stunde nach Ihrem üblichen Ende. Bis dahin schließt es um %3$s. An Ihren freien Tagen wird nicht geprüft. Bevor sich das Fenster öffnet, schaut die App nur, ob Sie schon wach sind, und holt dafür keine Position.</string>
+    <string name="work_place_help_leave">Sind Sie bei zwei Prüfungen in Folge nicht dort, wird ein von der App gestarteter Zeiteintrag gestoppt und endet bei der letzten Prüfung, die Sie dort angetroffen hat. Einen selbst gestarteten Zeiteintrag stoppt die App so nie. Solange ein von der App gestarteter Zeiteintrag läuft, wird auch nach dem Schließen des Fensters weiter geprüft, längstens bis Mitternacht.</string>
+    <string name="work_place_help_yours">Zu jedem automatischen Start und Stopp kommt eine Benachrichtigung, über die Sie ihn rückgängig machen können: einen Start bis zum Ende des Tages, solange Sie den Zeiteintrag nicht selbst geändert haben, einen Stopp eine Stunde lang, solange der Timer seitdem nicht gestartet wurde. Sobald Sie selbst „Start“, „Pause“, „Fortsetzen“ oder „Stopp“ drücken oder etwas rückgängig machen, startet die App an diesem Tag nichts mehr.</string>
+    <string name="work_place_help_access">Dafür muss Android den genauen Standort jederzeit und genaue Alarme erlauben. Solange der Schalter aus ist, wird dafür keine Position abgefragt.</string>
+    <string name="work_place_save">Meinen jetzigen Ort speichern</string>
+    <string name="work_place_locating">Ihr Standort wird ermittelt…</string>
+    <string name="work_place_no_fix">Keine Position ermittelt</string>
+    <string name="work_place_rough_fix">Position zu ungenau. Versuchen Sie es am Fenster</string>
+    <string name="work_place_point">Ihr Arbeitsort</string>
+    <string name="work_place_saved">Gespeichert: %1$s</string>
+    <string name="work_place_saved_within">Gespeichert: %1$s · auf %2$d m genau</string>
+    <string name="work_place_move">An meinen jetzigen Ort verschieben</string>
+    <string name="work_place_remove">Arbeitsort entfernen</string>
+    <string name="work_place_radius">Gilt als vor Ort im Umkreis von</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Timer starten, wenn ich dort ankomme</string>
+    <string name="work_place_access_precise_title">Genauer Standort</string>
+    <string name="work_place_access_precise_body">Der ungefähre Standort ist nur auf etwa 1,6 km genau, das ist mehr als jeder Arbeitsort. Der Punkt und die Prüfungen brauchen den genauen.</string>
+    <string name="work_place_access_background_title">Standort jederzeit</string>
+    <string name="work_place_access_background_body">PWN.Health verwendet Ihren Standort im Hintergrund, um den Arbeitstimer zu starten und zu stoppen, wenn Sie an Ihrem Arbeitsort ankommen oder ihn verlassen, auch wenn die App geschlossen ist. Die App prüft alle 10 Minuten, nur zwischen Ihrem Morgen und Abend an Arbeitstagen, und die Positionen bleiben auf diesem Telefon. Wählen Sie auf dem nächsten Bildschirm „Immer zulassen“.</string>
+    <string name="work_place_access_exact_title">Wecker und Erinnerungen</string>
+    <string name="work_place_access_exact_body">Nur ein genauer Alarm kann die geschlossene App für eine Prüfung wecken. Android führt diese Berechtigung auf seinem Bildschirm „Wecker und Erinnerungen“.</string>
+    <string name="work_place_access_notifications_title">Benachrichtigungen</string>
+    <string name="work_place_access_notifications_body">Jeder automatische Start und Stopp wird in einer Benachrichtigung mit „Rückgängig“ gemeldet, in der Kategorie „%1$s“. Ohne sie startet und stoppt der Timer trotzdem, aber es gibt nichts, worüber Sie das rückgängig machen können.</string>
+    <string name="work_place_next_today">Nächste Prüfung heute um %1$s</string>
+    <string name="work_place_next_tomorrow">Nächste Prüfung morgen um %1$s</string>
+    <string name="work_place_next_day">Nächste Prüfung am %1$s um %2$s</string>
+    <string name="work_place_next_none">Für die kommende Woche ist keine Prüfung geplant.</string>
+    <string name="work_place_started_title">Arbeitstimer gestartet</string>
+    <string name="work_place_started_body">Ihr Telefon ist an Ihrem Arbeitsort. Gestartet um %1$s.</string>
+    <string name="work_place_stopped_title">Arbeitstimer gestoppt</string>
+    <string name="work_place_stopped_body">Sie waren bei zwei Prüfungen in Folge nicht an Ihrem Arbeitsort. Der Zeiteintrag endet um %1$s, bei der letzten Prüfung, die Sie dort angetroffen hat.</string>
+    <string name="work_place_stopped_short">Sie waren bei zwei Prüfungen in Folge nicht an Ihrem Arbeitsort, nachdem nur eine Prüfung Sie dort angetroffen hatte, daher wurde nichts gespeichert.</string>
+    <string name="work_place_undo">Rückgängig</string>
+    <string name="work_place_channel">Arbeitsort-Prüfungen</string>
+    <string name="work_place_notice_channel">Automatischer Arbeitstimer</string>
+    <string name="work_place_checking">Es wird geprüft, ob Sie bei der Arbeit sind</string>
+</resources>

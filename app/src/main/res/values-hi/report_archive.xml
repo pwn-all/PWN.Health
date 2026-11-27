@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">फ़ाइलों के साथ</string>
+    <string name="report_archive_hint">ZIP में PDF रिपोर्ट के साथ चुनी गई अवधि और चुने गए हिस्सों की हो चुकी विज़िट, लैब जाँचों और दवा के कोर्सों में संलग्न मूल फ़ाइलें भी होंगी: अल्ट्रासाउंड, एक्स-रे, सीटी स्कैन, एमआरआई, डॉप्लर अल्ट्रासाउंड और दूसरे दस्तावेज़। फ़ाइलों की सूची हर अनुलग्नक को उसके रिकॉर्ड और तारीख़ से जोड़ती है।</string>
+    <string name="report_archive_preview">मूल संलग्न फ़ाइलें: %1$d। ZIP में PDF और ये फ़ाइलें पूरी तरह शामिल होंगी।</string>
+    <string name="report_archive_index_header">फ़ाइल\tरिकॉर्ड की तारीख़\tरिपोर्ट का हिस्सा\tरिकॉर्ड\tप्रकार\tजाँच की तारीख़\tब्यौरा</string>
+    <string name="report_archive_unavailable">अनुलग्नक %1$s पढ़ा नहीं जा सका। मूल फ़ाइल तक पहुँच बहाल करें और दोबारा कोशिश करें।</string>
+    <string name="report_visits_patient_notes">हो चुकी विज़िट और परामर्श के नोट्स, जैसे मरीज़ ने दर्ज किए।</string>
+</resources>

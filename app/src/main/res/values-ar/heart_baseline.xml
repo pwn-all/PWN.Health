@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resting heart rate and HRV from Health Connect, and the personal baseline beside them (Vitals.kt). -->
+<resources>
+    <string name="vital_resting_heart_rate_title">معدل نبض القلب أثناء الراحة</string>
+    <string name="health_rationale_purpose_recovery">للقراءة فقط. يظهران في شاشة العلامات الحيوية كبطاقتين مستقلتين، كلٌّ منهما بجانب قيمتك المعتادة خلال الأسابيع الأربعة السابقة. تقيسهما ساعة أو خاتم، عادةً في الليل؛ ولا يحسبهما التطبيق بنفسه ولا يكتب شيئًا في المقابل.</string>
+    <string name="vitals_note_resting_measured">تقيسه ساعة أو خاتم وأنت في راحة، عادةً في الليل، ويُقرأ من Health Connect أو من ملف مُصدَّر. ومن الطبيعي أن يكون أقل من نبض يُقاس أثناء النهار.</string>
+    <string name="vitals_note_baseline">قيمتك المعتادة هي وسيط قراءاتك أنت خلال الأيام الـ28 السابقة لآخر قراءة، وتحتاج إلى خمس قراءات على الأقل. إنها مقارنة لك بنفسك، وليست حكمًا.</string>
+    <string name="vitals_baseline_above">آخر قراءة أعلى من المعتاد بـ%1$d %2$s</string>
+    <string name="vitals_baseline_below">آخر قراءة أقل من المعتاد بـ%1$d %2$s</string>
+    <string name="vitals_baseline_same">آخر قراءة عند المعتاد</string>
+    <plurals name="vitals_baseline">
+        <item quantity="zero">المعتاد لديك: %1$s %2$s، وسيط %3$d قراءة خلال الأسابيع الأربعة السابقة</item>
+        <item quantity="one">المعتاد لديك: %1$s %2$s، وسيط %3$d قراءة خلال الأسابيع الأربعة السابقة</item>
+        <item quantity="two">المعتاد لديك: %1$s %2$s، وسيط قراءتين (%3$d) خلال الأسابيع الأربعة السابقة</item>
+        <item quantity="few">المعتاد لديك: %1$s %2$s، وسيط %3$d قراءات خلال الأسابيع الأربعة السابقة</item>
+        <item quantity="many">المعتاد لديك: %1$s %2$s، وسيط %3$d قراءة خلال الأسابيع الأربعة السابقة</item>
+        <item quantity="other">المعتاد لديك: %1$s %2$s، وسيط %3$d قراءة خلال الأسابيع الأربعة السابقة</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Рекорд</string>
+    <string name="strength_new_records">Новые личные рекорды</string>
+    <string name="strength_record_e1rm">Расчётный максимум на 1 раз</string>
+    <string name="strength_record_heaviest">Самый большой вес</string>
+    <string name="strength_record_reps">Больше всего повторов в подходе</string>
+    <string name="strength_record_volume">Больше всего веса за тренировку</string>
+    <string name="strength_record_was">%1$s · было %2$s</string>
+    <string name="strength_e1rm_note">Максимум на 1 раз — оценка по формуле Эпли, по подходам до 12 повторов.</string>
+    <string name="strength_record_line">Лучшее: %1$s · примерно %2$s на 1 раз</string>
+    <string name="strength_record_line_reps">Лучшее: %1$s в подходе</string>
+</resources>

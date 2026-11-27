@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="art_ink">#FFA5B3CB</color>
+    <color name="art_duo_tile">#FF24304A</color>
+    <color name="art_duo_mid">#FF8997AF</color>
+    <color name="art_duo_ink">#FFA5B3CB</color>
+    <color name="art_paper">#FFCDD9ED</color>
+    <color name="art_paper_disc">#FF263344</color>
+    <color name="art_paper_mark">#FF7094EE</color>
+    <color name="art_paper_bar">#FF435987</color>
+</resources>

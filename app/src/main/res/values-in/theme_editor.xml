@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Tema</string>
+    <string name="theme_description">Warna antarmuka dan ikon untuk tema terang dan gelap</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_saved_note">Setiap palet disimpan terpisah. Aplikasi mengikuti tema terang atau gelap perangkat Anda.</string>
+    <string name="theme_preview">Pratinjau</string>
+    <string name="theme_main_accent">Aksen utama</string>
+    <string name="theme_accent_container">Latar aksen</string>
+    <string name="theme_secondary">Aksen sekunder</string>
+    <string name="theme_secondary_container">Latar sekunder</string>
+    <string name="theme_tertiary">Aksen ketiga</string>
+    <string name="theme_tertiary_container">Latar aksen ketiga</string>
+    <string name="theme_background">Latar halaman</string>
+    <string name="theme_surface">Kartu</string>
+    <string name="theme_text">Teks utama</string>
+    <string name="theme_muted_text">Teks sekunder</string>
+    <string name="theme_border">Garis tepi</string>
+    <string name="theme_icons">Ikon</string>
+    <string name="theme_icon">Warna ikon utama</string>
+    <string name="theme_icon_mid">Warna ikon sekunder</string>
+    <string name="theme_icon_light">Detail ikon terang</string>
+    <string name="theme_brightness">Kecerahan</string>
+    <string name="theme_hex">Kode HEX</string>
+    <string name="theme_hex_error">Masukkan 6 digit heksadesimal, misalnya #7094EE.</string>
+    <string name="theme_update_all">Perbarui semua warna</string>
+    <string name="theme_update_all_body">Buat semua warna lain dalam palet ini dari aksen utama, menggantikan semua perubahan manual.</string>
+    <string name="theme_reset">Setel ulang tema</string>
+    <string name="theme_reset_light_body">Pulihkan warna antarmuka dan ikon bawaan untuk tema terang? Tema gelap tidak akan berubah.</string>
+    <string name="theme_reset_dark_body">Pulihkan warna antarmuka dan ikon bawaan untuk tema gelap? Tema terang tidak akan berubah.</string>
+    <string name="theme_wheel">Roda warna</string>
+    <string name="theme_wheel_value">Rona %1$d°, saturasi %2$d%%</string>
+    <string name="theme_next_hue">Rona berikutnya</string>
+    <string name="theme_previous_hue">Rona sebelumnya</string>
+    <string name="theme_more_saturation">Tambah saturasi</string>
+    <string name="theme_less_saturation">Kurangi saturasi</string>
+</resources>

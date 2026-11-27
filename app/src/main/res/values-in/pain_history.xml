@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">Riwayat nyeri</string>
+    <string name="pain_history_empty">Belum ada entri nyeri.</string>
+    <string name="pain_history_onset_just_now">mulai saat dicatat</string>
+    <string name="pain_history_onset_earlier_today">mulai pada hari yang sama</string>
+    <string name="pain_history_onset_yesterday">mulai sehari sebelumnya</string>
+    <string name="pain_history_onset_days_2_3">mulai 2–3 hari sebelumnya</string>
+    <string name="pain_history_onset_about_week">mulai sekitar seminggu sebelumnya</string>
+    <string name="pain_history_onset_about_month">mulai sekitar sebulan sebelumnya</string>
+    <string name="pain_history_onset_more_than_month">mulai lebih dari sebulan sebelumnya</string>
+    <string name="pain_history_onset_week">mulai 4 hari hingga 3 bulan sebelumnya</string>
+    <string name="pain_history_onset_months_3">mulai lebih dari 3 bulan sebelumnya</string>
+    <string name="pain_history_same">nyeri yang sama seperti pada %1$s</string>
+    <string name="pain_history_still_hurts">masih sakit saat dicatat</string>
+    <string name="pain_history_lasted">berlangsung %1$s</string>
+</resources>

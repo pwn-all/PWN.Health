@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Выберите нужные функции. Каждая открывает системный запрос Android. Можно продолжить без разрешений и настроить их позже. Затем будет предложен доступ к Health Connect.</string>
+    <string name="onboarding_access_body_alone">Выберите нужные функции. Каждая открывает системный запрос Android. Можно продолжить без разрешений и настроить их позже.</string>
+    <string name="onboarding_motion_title">Шаги и датчики движения</string>
+    <string name="onboarding_motion_body">Физическая активность нужна для шагомера. Датчики движения и давления воздуха не требуют отдельного разрешения.</string>
+    <string name="onboarding_notifications_title">Уведомления и напоминания</string>
+    <string name="onboarding_notifications_body">Показывать состояние шагомера и напоминания о лекарствах, еде и воде.</string>
+    <string name="onboarding_allowed">Разрешено</string>
+    <string name="onboarding_bluetooth_body">Находить весы и датчики поблизости и подключаться к ним по Bluetooth.</string>
+</resources>

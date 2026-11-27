@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">前の月</string>
+    <string name="m3_cal_next_month">次の月</string>
+    <string name="m3_cal_previous_year">前の年</string>
+    <string name="m3_cal_next_year">次の年</string>
+    <string name="m3_cal_period_ended">%1$s に終了</string>
+    <string name="m3_cal_chart_spoken_days">%1$s：%2$s。</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="other">%1$d 週間</item>
+    </plurals>
+    <string name="a11y_state_expanded">展開済み</string>
+    <string name="a11y_state_collapsed">折りたたみ済み</string>
+    <string name="a11y_hours">時間</string>
+    <string name="a11y_minutes">分</string>
+    <string name="a11y_seconds">秒</string>
+    <string name="a11y_zoom_in">拡大</string>
+    <string name="a11y_zoom_out">縮小</string>
+    <string name="m3_editor_attachment_kind">書類の種類</string>
+    <string name="m3_editor_attachment_describe">%1$s の説明を入力</string>
+    <string name="m3_editor_attachment_remove">%1$s の添付を解除</string>
+    <string name="m3_editor_attachment_read_result">%1$s から結果を追加</string>
+    <string name="m3_editor_energy_share">今日のエネルギー目標に占める割合</string>
+    <string name="bathroom_kind_previous">前の種類</string>
+    <string name="bathroom_kind_next">次の種類</string>
+    <string name="smoking_bowl_smaller">ボウルを小さく</string>
+    <string name="smoking_bowl_larger">ボウルを大きく</string>
+    <string name="smoking_less_nicotine">ニコチンを減らす</string>
+    <string name="smoking_more_nicotine">ニコチンを増やす</string>
+    <string name="progress_photo_delete_dated">%1$s の写真を削除</string>
+    <string name="home_notice_dismiss">「%1$s」を閉じる</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">カード %1$d（全 %2$d 枚）</string>
+    <string name="home_chart_busiest">%1$s：最も多い時間帯 %2$s、%3$s</string>
+    <string name="m3_labs_import_reopen">認識したページを表示</string>
+    <string name="m3_labs_open_chart">グラフを開く</string>
+    <string name="m3_labs_chart_sideways">グラフを横向きに表示</string>
+    <string name="m3_labs_chart_earlier">より古い結果</string>
+    <string name="m3_labs_chart_later">より新しい結果</string>
+    <string name="med_a11y_mark_dose">%1$s、%2$s を記録</string>
+    <string name="med_a11y_undo_dose">%1$s、%2$s の記録を取り消す</string>
+    <string name="med_a11y_edit_course">%1$s を編集</string>
+    <string name="med_a11y_delete_course">%1$s を削除</string>
+    <string name="med_history_current">継続中</string>
+    <string name="m3_pain_time_left">残り %1$s</string>
+    <string name="m3_pain_remove_area">削除</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">ステップ %1$d（全 %2$d）</string>
+    <string name="m3_profile_advice_level_clinician">医師に伝える価値があります</string>
+    <string name="m3_profile_advice_level_attention">気に留めておく価値があります</string>
+    <string name="m3_profile_advice_level_habit">見直したい習慣</string>
+    <string name="m3_profile_password_mismatch">パスワードが一致しません</string>
+    <string name="m3_profile_password_show">パスワードを表示</string>
+    <string name="m3_profile_password_hide">パスワードを隠す</string>
+    <string name="m3_sync_connected">%1$s に接続しました。</string>
+    <string name="m3_sync_disconnected">%1$s から切断しました。</string>
+    <string name="m3_sync_error_scan">検索を開始できませんでした。少し待ってから、もう一度検索してください。</string>
+    <string name="m3_sync_error_pairing">ペアリングが完了しませんでした。ペアリングのリクエストを承認してから、もう一度接続してください。</string>
+    <string name="m3_sync_error_stale_bond">このスマートフォンとデバイスのペアリングが使えなくなっています。Android の Bluetooth の設定でデバイスの登録を解除してから、もう一度接続してペアリングのリクエストを承認してください。</string>
+    <string name="m3_sync_error_no_answer">デバイスが応答しませんでした。スリープを解除して近くに置き、もう一度接続してください。</string>
+    <string name="m3_sync_error_generic">デバイスに接続できませんでした。もう一度お試しください。</string>
+    <string name="m3_sync_no_skin_contact">胸ベルトが肌との接触を検出していません。電極を湿らせて、ぴったりと締めてください。</string>
+    <string name="m3_sync_reading_incomplete">デバイスから完全な測定値が届かなかったため、保存できません。</string>
+    <string name="m3_sync_connect_named">%1$s を接続</string>
+    <string name="m3_sync_firmware">ファームウェア %1$s</string>
+    <string name="m3_sync_scale_clock_unset">受信した時刻で記録：体重計の時計が設定されていませんでした</string>
+    <string name="m3_sync_health_running">この端末のヘルスコネクトとデータをやり取りしています…</string>
+    <string name="m3_sync_failed_permission">ヘルスコネクトがアクセスを拒否しました。許可している内容を確認してください。</string>
+    <string name="m3_sync_failed_unavailable">この端末のヘルスコネクトが応答しませんでした。</string>
+    <string name="m3_sync_failed_rate_limited">ヘルスコネクトから待機を求められました。アプリはあとで再試行します。</string>
+    <string name="m3_sync_failed_other">ヘルスコネクトがエラーを返しました。</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s、いつもの休日</string>
+    <string name="m3_work_sensor_unclassified">未分類</string>
+    <string name="m3_work_motion_still">静止</string>
+    <string name="m3_work_motion_shaking">揺れ</string>
+    <string name="m3_work_motion_non_gait">歩行以外の動き</string>
+    <string name="m3_work_posture_in_hand">手に持った状態</string>
+    <string name="m3_work_posture_pocket">ポケットの中</string>
+    <string name="m3_work_posture_flat">平らに置いた状態</string>
+    <string name="workout_rest_change">休憩を変更</string>
+    <string name="workout_delete_round">ラウンド %1$d を削除</string>
+    <string name="workout_complete_title">ワークアウト完了</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d rpm</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d spm</string>
+</resources>

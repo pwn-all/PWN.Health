@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_apps_title">Import aus anderen Apps</string>
+    <string name="import_apps_menu_body">Health Connect und die Dateien, die Apple Health, Fitbit, Garmin, Strong und andere exportieren</string>
+</resources>

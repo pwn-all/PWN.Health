@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Rekord</string>
+    <string name="strength_new_records">Neue persönliche Rekorde</string>
+    <string name="strength_record_e1rm">Geschätztes Einwiederholungsmaximum</string>
+    <string name="strength_record_heaviest">Höchstes Gewicht</string>
+    <string name="strength_record_reps">Meiste Wiederholungen in einem Satz</string>
+    <string name="strength_record_volume">Meistes Gewicht in einer Einheit</string>
+    <string name="strength_record_was">%1$s · vorher %2$s</string>
+    <string name="strength_e1rm_note">Der Wert für eine Wiederholung ist eine Schätzung nach der Epley-Formel, aus Sätzen mit bis zu 12 Wiederholungen.</string>
+    <string name="strength_record_line">Bestwert: %1$s · etwa %2$s für eine Wiederholung</string>
+    <string name="strength_record_line_reps">Bestwert: %1$s in einem Satz</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Scegli le funzioni da attivare. Ognuna apre le autorizzazioni Android. Puoi continuare senza accesso e modificarlo dopo. Seguirà Health Connect.</string>
+    <string name="onboarding_access_body_alone">Scegli le funzioni da attivare. Ognuna apre le autorizzazioni Android. Puoi continuare senza accesso e modificarlo dopo.</string>
+    <string name="onboarding_motion_title">Passi e sensori di movimento</string>
+    <string name="onboarding_motion_body">L’attività fisica abilita il contapassi. I sensori di movimento e pressione atmosferica non richiedono un’autorizzazione separata.</string>
+    <string name="onboarding_notifications_title">Notifiche e promemoria</string>
+    <string name="onboarding_notifications_body">Mostra lo stato del contapassi e i promemoria per farmaci, cibo e acqua.</string>
+    <string name="onboarding_allowed">Consentito</string>
+    <string name="onboarding_bluetooth_body">Trova bilance e sensori nelle vicinanze e collegali tramite Bluetooth.</string>
+</resources>

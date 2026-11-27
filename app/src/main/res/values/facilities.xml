@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The places of care offered on an appointment's Place page (FacilityPicker.kt, Facilities.kt). -->
+<resources>
+    <!-- The “near me” request and how it went -->
+    <string name="facility_near_me">Places near me</string>
+    <string name="facility_locating">Finding where you are…</string>
+    <string name="facility_denied">Location was not allowed, so the list cannot be sorted by distance. You can still type a name.</string>
+    <string name="facility_location_off">Location is switched off on this phone.</string>
+    <string name="facility_location_settings">Location settings</string>
+    <string name="facility_no_fix">The phone could not tell where you are just now. Try again in a moment.</string>
+    <!-- %1$s is a distance such as “50 km” -->
+    <string name="facility_nothing_near">Nothing on the list within %1$s of you.</string>
+    <!-- The lists: %1$s is the kind of doctor chosen for the visit, such as “Dentist” -->
+    <string name="facility_list_title">Clinics and hospitals</string>
+    <string name="facility_near_title">Near you</string>
+    <string name="facility_near_kind">Near you: %1$s</string>
+    <!-- A screening's near list, named by the department it was narrowed to -->
+    <string name="facility_near_gynaecology">Near you: gynaecology</string>
+    <string name="facility_near_imaging">Near you: imaging</string>
+    <string name="facility_near_gastroenterology">Near you: gastroenterology</string>
+    <!-- %1$s is a number already formatted for the language, such as “1.4” or “12” -->
+    <string name="facility_distance">%1$s km</string>
+    <string name="facility_distance_miles">%1$s mi</string>
+    <!-- Behind the “?” -->
+    <string name="facility_help_title">Where these places come from</string>
+    <string name="facility_help_what">The suggestions come from official registers of places of care. The list is kept inside the app and searched on this phone. For the app, the registers were filtered to places a patient can visit, and their kinds of care regrouped into the kinds of doctor the app knows. The location button at the end of the Place field lists only places that offer the care chosen for this visit, or every place when the visit is to another doctor; typing a name searches them all.</string>
+    <string name="facility_help_screening">For a screening, the list shows the departments where it is often done: gynaecology for cervical screening, imaging for mammography, gastroenterology for bowel screening. A register does not say whether a department does that screening itself, so ask when you book.</string>
+    <string name="facility_help_coverage">The list covers Czechia, Ukraine and the United Arab Emirates. In Ukraine it holds only places with a contract with the National Health Service of Ukraine. In the Emirates it holds the Dubai register in its December 2023 edition, the licensed places of Abu Dhabi as they were mapped in 2022 and are still mapped in 2026, and the public hospitals and health centres of Emirates Health Services; private clinics in Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah are not on it. A register can be out of date: check with the place before you go.</string>
+    <string name="facility_help_location">The location button asks Android for your approximate location once and rounds it to about a kilometre. It is used on this phone to sort the list, is never saved or sent anywhere, and is forgotten when you leave this page.</string>
+    <string name="facility_help_sources">Sources</string>
+    <!-- Attribution as each register asks for it, in its own language: not translated -->
+    <string name="facility_source_cz" translatable="false">ÚZIS ČR, Národní registr poskytovatelů zdravotních služeb (NRPZS), otevřená data NR-01-06, retrieved 2026-10-04 — CC BY 4.0</string>
+    <string name="facility_source_cz_coordinates" translatable="false">Coordinates for 20 places NRPZS gives none for: ČÚZK, 2026 — RÚIAN address points, read through the ČÚZK RÚIAN search service, retrieved 2026-10-04. ČÚZK provides RÚIAN data as open data under CC BY 4.0.</string>
+    <string name="facility_source_ua" translatable="false">Джерело: Національна служба здоров’я України (НСЗУ), data.gov.ua — «Інформація про суб’єктів господарювання, які уклали договір із НСЗУ за програмою медичних гарантій» and «Укладені договори про медичне обслуговування населення за програмою медичних гарантій» (data.gov.ua/dataset/a1d554df-be4b-4d3f-8063-dd0db4d83ff5, data.gov.ua/dataset/6da6e500-e3c0-4a6a-9cb1-764582b531ee), retrieved 2026-10-04 — Creative Commons Attribution, as data.gov.ua states the licence</string>
+    <string name="facility_source_ae_dubai" translatable="false">Contains data from the Dubai Health Authority, published on Dubai Pulse (Government of Dubai): Sheryan facility register, December 2023 edition</string>
+    <string name="facility_source_ae_mohap" translatable="false">Abu Dhabi, and the places of Emirates Health Services: UAE Ministry of Health and Prevention open data (Geocoded Location of Health Facilities 2022)</string>
+    <string name="facility_source_ae_bayanat" translatable="false">Emirates Health Services facility lists from the Bayanat Portal – UAE Open Data Platform (bayanat.ae), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); selected and adapted</string>
+    <string name="facility_source_licence" translatable="false">CC BY 4.0 (Czechia): https://creativecommons.org/licenses/by/4.0/</string>
+</resources>

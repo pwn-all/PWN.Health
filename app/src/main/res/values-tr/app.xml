@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings, style and colour in one file. -->
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">bugün %1$d adım</item>
+        <item quantity="other">bugün %1$d adım</item>
+    </plurals>
+    <string name="channel_name">Adım sayımı</string>
+
+    <!-- Sensör / hareket kapısı ekranı -->
+    <string name="sensors_title">Sensörler</string>
+    <string name="wave_title">İvme büyüklüğü, son 6 sn</string>
+    <string name="gate_open">Kapı açık — adımlar sayılıyor</string>
+    <string name="gate_blocked">Kapı kapalı — adımlar atılıyor</string>
+    <string name="field_motion">Hareket</string>
+    <string name="field_posture">Duruş</string>
+    <string name="field_energy">Enerji (std)</string>
+    <string name="field_cadence">Kadans</string>
+    <string name="field_periodicity">Yürüyüş düzenliliği</string>
+    <string name="field_tilt">Yataydan eğim</string>
+    <string name="field_screen">Ekran</string>
+    <string name="field_axes">İvme x / y / z</string>
+    <string name="field_raw_counter">Ham sensör sayacı</string>
+    <string name="field_credited">Bu oturumda kabul edilen</string>
+    <string name="field_rejected">Bu oturumda reddedilen</string>
+    <string name="on">açık</string>
+    <string name="off">kapalı</string>
+
+    <!-- Sensör izleme kaydı -->
+    <string name="trace_title">Sensör izleme kaydı al</string>
+    <string name="trace_body">Kaydı başlatın, yürüyün, durdurun, sonra kaydedin. Her ivmeölçer örneği, kapı kararı ve adım kararı sırasıyla bir CSV dosyasına yazılır. Nereye kaydedileceğini siz seçene dek hiçbir şey cihazdan çıkmaz.</string>
+    <string name="trace_rows">Kaydedilen satır</string>
+    <string name="trace_dropped">Atılan (en eski)</string>
+    <string name="trace_recording">Kaydediliyor…</string>
+    <string name="trace_start">Kaydı başlat</string>
+    <string name="trace_stop">Durdur</string>
+    <string name="trace_save">CSV kaydet</string>
+    <string name="trace_saved">İzleme kaydı kaydedildi.</string>
+    <string name="trace_error">Kaydetme hatası: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d satır</item>
+        <item quantity="other">%1$d satır</item>
+    </plurals>
+
+    <!-- Rota kaydı -->
+    <string name="track_title">Rota</string>
+    <string name="track_start">Kaydı başlat</string>
+    <string name="track_stop">Kaydı durdur</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mil</string>
+    <string name="recording_distance">Kaydediliyor — %1$s</string>
+    <string name="waiting_for_fix">Konum sinyali bekleniyor…</string>
+    <string name="track_total_route">Tüm rota</string>
+    <string name="track_walking_counted">Yürüyüş</string>
+    <string name="track_running">Koşu</string>
+    <string name="track_vehicle">Taşıt</string>
+    <string name="track_speed_now">Anlık hız</string>
+    <string name="track_speed_max">En yüksek hız</string>
+    <string name="track_speed_value">%1$.1f km/sa</string>
+    <string name="track_speed_value_mph">%1$.1f mil/sa</string>
+    <string name="track_stops">Duraklama</string>
+    <string name="track_stops_value">%1$d · %2$d dk</string>
+    <string name="track_elevation_gain">Yükselti ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f ft</string>
+    <string name="track_telemetry">Rota telemetrisi</string>
+    <string name="track_gps_points">GPS noktası</string>
+    <string name="track_raw_gps_points">Kaydedilen tüm GPS noktaları</string>
+    <string name="track_rejected_points">Düzeltilen/reddedilen noktalar</string>
+    <string name="track_last_filter_reason">Son GPS düzeltmesi</string>
+    <string name="track_filter_none">Yok</string>
+    <string name="track_filter_low_accuracy">Düşük doğruluk</string>
+    <string name="track_filter_stale_fix">Eski konum</string>
+    <string name="track_filter_jump">Doğrulanmayan sıçrama</string>
+    <string name="track_filter_speed">İmkânsız hız</string>
+    <string name="track_filter_time_order">Zaman sırası bozuk</string>
+    <string name="track_gps_accuracy">GPS doğruluğu</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f ft</string>
+    <string name="track_movement">Hareket</string>
+    <string name="track_movement_walking">yürüyor</string>
+    <string name="track_movement_running">koşuyor</string>
+    <string name="track_movement_vehicle">taşıtta</string>
+    <string name="track_movement_stopped">durdu</string>
+    <string name="track_movement_unknown">belirleniyor…</string>
+    <string name="track_altitude">Yükseklik</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f ft · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Basınç</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">Ortam sıcaklığı</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Ortam sıçramaları</string>
+    <string name="track_sensor_unavailable">sensör yok</string>
+    <string name="track_environment_note">Basınç yüksekliği, ilk GPS yüksekliğine göre ayarlanır. Telefonlarda sıcaklık sensörü seyrek bulunur ve cihazın ısınmasından etkilenebilir.</string>
+    <string name="track_showing_last">Tamamlanan son rota gösteriliyor. Yenisini oluşturmak için kaydı başlatın.</string>
+    <string name="track_history">Kaydedilmiş rotalar</string>
+    <string name="track_history_note">Rotalar ve tüm sensör telemetrisi cihazda saklanır ve veri dışa aktarımına dâhil edilir.</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d kabul edilen nokta</item>
+        <item quantity="other">%1$d kabul edilen nokta</item>
+    </plurals>
+</resources>

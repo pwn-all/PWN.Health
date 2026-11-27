@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Тема</string>
+    <string name="theme_description">Цвета интерфейса и иконок для светлой и тёмной темы</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_saved_note">Палитры сохраняются отдельно. Приложение использует светлую или тёмную тему устройства.</string>
+    <string name="theme_preview">Предпросмотр</string>
+    <string name="theme_main_accent">Главный акцент</string>
+    <string name="theme_accent_container">Фон главного акцента</string>
+    <string name="theme_secondary">Второй акцент</string>
+    <string name="theme_secondary_container">Фон второго акцента</string>
+    <string name="theme_tertiary">Третий акцент</string>
+    <string name="theme_tertiary_container">Фон третьего акцента</string>
+    <string name="theme_background">Фон страницы</string>
+    <string name="theme_surface">Карточки</string>
+    <string name="theme_text">Основной текст</string>
+    <string name="theme_muted_text">Второстепенный текст</string>
+    <string name="theme_border">Границы</string>
+    <string name="theme_icons">Иконки</string>
+    <string name="theme_icon">Основной цвет иконок</string>
+    <string name="theme_icon_mid">Второстепенный цвет иконок</string>
+    <string name="theme_icon_light">Светлые детали иконок</string>
+    <string name="theme_brightness">Яркость</string>
+    <string name="theme_hex">HEX-код</string>
+    <string name="theme_hex_error">Введите 6 шестнадцатеричных цифр, например #7094EE.</string>
+    <string name="theme_update_all">Обновить все цвета</string>
+    <string name="theme_update_all_body">Подобрать все остальные цвета этой палитры по главному акценту, заменив ручные настройки.</string>
+    <string name="theme_reset">Сбросить тему</string>
+    <string name="theme_reset_light_body">Вернуть стандартные цвета интерфейса и иконок светлой темы? Тёмная тема останется без изменений.</string>
+    <string name="theme_reset_dark_body">Вернуть стандартные цвета интерфейса и иконок тёмной темы? Светлая тема останется без изменений.</string>
+    <string name="theme_wheel">Цветовой круг</string>
+    <string name="theme_wheel_value">Оттенок %1$d°, насыщенность %2$d%%</string>
+    <string name="theme_next_hue">Следующий оттенок</string>
+    <string name="theme_previous_hue">Предыдущий оттенок</string>
+    <string name="theme_more_saturation">Увеличить насыщенность</string>
+    <string name="theme_less_saturation">Уменьшить насыщенность</string>
+</resources>

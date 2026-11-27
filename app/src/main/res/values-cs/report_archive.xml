@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Se soubory</string>
+    <string name="report_archive_hint">Archiv ZIP obsahuje zprávu v PDF a původní soubory přiložené k absolvovaným návštěvám, laboratorním testům a léčbám z vybraných oddílů za vybrané období: ultrazvuk, rentgen, CT, MR, dopplerovský ultrazvuk a další dokumenty. Seznam souborů přiřazuje každou přílohu k jejímu záznamu a datu.</string>
+    <string name="report_archive_preview">Původní přiložené soubory: %1$d. Archiv ZIP obsahuje PDF a tyto soubory v plném rozsahu.</string>
+    <string name="report_archive_index_header">Soubor\tDatum záznamu\tOddíl\tZáznam\tTyp\tDatum vyšetření\tPopis</string>
+    <string name="report_archive_unavailable">Přílohu %1$s se nepodařilo přečíst. Obnovte přístup k původnímu souboru a export zopakujte.</string>
+    <string name="report_visits_patient_notes">Absolvované návštěvy a poznámky z konzultací tak, jak je pacient zapsal.</string>
+</resources>

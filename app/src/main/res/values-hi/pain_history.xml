@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pain_history_title">दर्द का इतिहास</string>
+    <string name="pain_history_empty">दर्द की अभी कोई प्रविष्टि नहीं।</string>
+    <string name="pain_history_onset_just_now">दर्ज करते समय शुरू हुआ</string>
+    <string name="pain_history_onset_earlier_today">उसी दिन शुरू हुआ</string>
+    <string name="pain_history_onset_yesterday">एक दिन पहले शुरू हुआ</string>
+    <string name="pain_history_onset_days_2_3">प्रविष्टि से 2–3 दिन पहले शुरू हुआ</string>
+    <string name="pain_history_onset_about_week">प्रविष्टि से लगभग एक हफ़्ता पहले शुरू हुआ</string>
+    <string name="pain_history_onset_about_month">प्रविष्टि से लगभग एक महीना पहले शुरू हुआ</string>
+    <string name="pain_history_onset_more_than_month">प्रविष्टि से एक महीने से ज़्यादा पहले शुरू हुआ</string>
+    <string name="pain_history_onset_week">प्रविष्टि से 4 दिन–3 महीने पहले शुरू हुआ</string>
+    <string name="pain_history_onset_months_3">प्रविष्टि से 3 महीने से ज़्यादा पहले शुरू हुआ</string>
+    <string name="pain_history_same">वही दर्द जो %1$s को था</string>
+    <string name="pain_history_still_hurts">दर्ज करते समय भी बना हुआ था</string>
+    <string name="pain_history_lasted">%1$s तक रहा</string>
+</resources>

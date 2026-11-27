@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">保存为文件</string>
+    <string name="route_format_gpx_hint">适用于地图、手表和运动应用</string>
+    <string name="route_format_geojson_hint">适用于 GIS 工具和网页地图</string>
+    <string name="route_format_csv_hint">全部定位点，适用于电子表格</string>
+</resources>

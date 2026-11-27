@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_share">Route teilen</string>
+    <string name="walk_delete">Route löschen</string>
+    <string name="walk_delete_title">Diese Route löschen?</string>
+    <string name="walk_delete_body">Die Route verschwindet mit ihren Werten und Fotos endgültig vom Telefon. Dateien, die Sie bereits gespeichert oder geteilt haben, bleiben, wo sie sind.</string>
+    <string name="walk_photos">Fotos</string>
+    <string name="walk_photos_help">Die Nummern entsprechen den Markierungen auf der Karte, die zeigen, wo jedes Foto aufgenommen wurde. Ein Foto, das ohne GPS-Ortung entstand, hat keine Markierung. Die Richtung gibt in Grad an, wohin die Kamera zeigte, gemessen vom geografischen Norden aus. Die Neigung sagt, wie weit das Telefon nach oben oder unten vom Horizont abwich. Hoch- oder Querformat verrät, wie es gehalten wurde.</string>
+    <string name="walk_photo_facing">%1$s %2$d°</string>
+    <string name="walk_photo_facing_spoken">Richtung %1$s</string>
+    <string name="walk_photo_up">%1$d° nach oben</string>
+    <string name="walk_photo_down">%1$d° nach unten</string>
+    <string name="walk_photo_level">geradeaus</string>
+    <string name="walk_photo_portrait">Hochformat</string>
+    <string name="walk_photo_landscape">Querformat</string>
+    <string name="walk_photo_upside_down">auf dem Kopf</string>
+    <string name="walk_photo_no_direction">Richtung unbekannt</string>
+    <string name="walk_photo_spoken">Foto %1$d: %2$s</string>
+    <string name="walk_photo_delete">Das %1$d. Foto löschen</string>
+    <string name="walk_photo_delete_body">Das Bild verschwindet endgültig vom Telefon. Die Route, auf der es aufgenommen wurde, bleibt.</string>
+    <string-array name="walk_compass_points">
+        <item>N</item>
+        <item>NO</item>
+        <item>O</item>
+        <item>SO</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string-array name="walk_compass_names">
+        <item>Norden</item>
+        <item>Nordosten</item>
+        <item>Osten</item>
+        <item>Südosten</item>
+        <item>Süden</item>
+        <item>Südwesten</item>
+        <item>Westen</item>
+        <item>Nordwesten</item>
+    </string-array>
+</resources>

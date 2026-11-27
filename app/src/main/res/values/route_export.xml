@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A route's export: one button, and the file format picked from the menu it opens. The format
+         names themselves are track_export_gpx, track_export_geojson and track_export_csv. -->
+
+    <!-- The track page's button that opens the menu of formats and saves the route into a file the
+         person names. -->
+    <string name="track_export_save">Save to a file</string>
+
+    <!-- The short line under each format's name in that menu, and in the walk page's share menu:
+         what the file is for. -->
+    <string name="route_format_gpx_hint">For maps, watches and sport apps</string>
+    <string name="route_format_geojson_hint">For GIS tools and web maps</string>
+    <string name="route_format_csv_hint">Every fix, for a spreadsheet</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">Über das Training</string>
+    <string name="routines_import">Trainingsdatei importieren</string>
+    <string name="routines_import_error">Diese Datei ist keine Trainingsvorlage.</string>
+    <string name="routines_import_cut">Die Datei enthält mehr Übungen (%2$d), als eine Vorlage aufnimmt (%1$d): Nur die ersten wurden importiert.</string>
+    <string name="routines_description">Kurze Beschreibung</string>
+    <string name="routines_photo">Foto der Vorlage</string>
+    <string name="routines_days_title">Trainingstage</string>
+    <string name="routines_flow_title">Übungen und Pausen</string>
+    <string name="routines_flow_lead">Fügen Sie Übungen oder Supersätze hinzu und die Pausen dazwischen.</string>
+    <string name="routines_add_superset">Supersatz hinzufügen</string>
+    <string name="routines_saved_title">Vorlage gespeichert</string>
+    <string name="routines_open_template">Vorlage öffnen</string>
+    <string name="routines_add_another">Weitere Vorlage hinzufügen</string>
+    <string name="routines_get_ready">Machen Sie sich bereit</string>
+    <string name="routines_finished">Training abgeschlossen</string>
+    <string name="routines_reminder_title">Heute Training</string>
+    <string name="routines_total_time">Gesamtdauer</string>
+    <string name="routines_total_lifted">Insgesamt gehoben</string>
+    <string name="routines_total_work">Trainingszeit</string>
+    <string name="routines_burn">Sie verbrennen etwa</string>
+    <string name="routines_plan_title">Trainingsplan</string>
+    <plurals name="routines_exercises">
+        <item quantity="one">%1$d Übung</item>
+        <item quantity="other">%1$d Übungen</item>
+    </plurals>
+    <string name="routines_menu">Aktionen für die Vorlage</string>
+    <string name="routines_overall">Gesamtfortschritt</string>
+    <string name="routines_left">Noch</string>
+    <string name="routines_set">Satz</string>
+    <string name="routines_set_number">Satz %1$d</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d von %2$d</string>
+    <string name="routines_rest_after">Pause danach</string>
+    <string name="routines_previous">Zurück</string>
+    <string name="routines_finish">Beenden</string>
+    <string name="routines_leave_title">Training verlassen?</string>
+    <string name="routines_leave_body">Was Sie bisher geschafft haben, wird nicht gespeichert. Tippen Sie auf „Beenden“, um es zu behalten.</string>
+    <string name="routines_pick_title">Übung wählen</string>
+    <string name="routines_pick_lead">Finden Sie die passende Übung</string>
+    <string name="routines_setup_lead">Übung einrichten</string>
+    <string name="routines_sets_count">Anzahl der Sätze</string>
+    <string name="routines_sets_count_lead">Wählen Sie, wie oft die Übung ausgeführt wird</string>
+    <string name="routines_not_done">Nicht gemacht</string>
+    <string name="routines_done_of">%1$s von %2$s</string>
+    <string name="routines_pick_empty">Keine passende Übung</string>
+    <string name="routines_set_done_question">Haben Sie den Satz geschafft?</string>
+    <string name="routines_reps_done_question">Wie viele Wiederholungen waren es?</string>
+    <string name="routines_goal_missed">Ziel nicht erreicht</string>
+    <string name="routines_freestyle_body">Ohne Plan: Übungen unterwegs wählen</string>
+    <string name="routines_show_muscles">Beanspruchte Muskeln zeigen</string>
+    <string name="routines_show_drawing">Zeichnung der Übung zeigen</string>
+</resources>

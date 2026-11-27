@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">الارتفاع</string>
+    <string name="walk_chart_speed">السرعة</string>
+    <string name="walk_chart_no_elevation">لا توجد قراءات ارتفاع كافية في هذه الجولة</string>
+    <string name="walk_chart_no_speed">لا توجد قراءات سرعة كافية في هذه الجولة</string>
+    <string name="walk_chart_spoken_elevation">الارتفاع من %1$s إلى %2$s</string>
+    <string name="walk_chart_spoken_speed">السرعة: المتوسطة %1$s، والقصوى %2$s</string>
+    <string name="walk_chart_unit_m">م</string>
+    <string name="walk_chart_unit_ft">قدم</string>
+    <string name="walk_chart_unit_kmh">كم/س</string>
+    <string name="walk_chart_unit_mph">ميل/س</string>
+</resources>

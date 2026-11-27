@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">Tahap %1$d dari %2$d</string>
+    <string name="lab_add_type_title">Jenis pemeriksaan</string>
+    <string name="lab_add_choose_one">Pilih salah satu. Tahap berikutnya bergantung pada pilihan ini.</string>
+    <string name="lab_add_method_title">Bagaimana Anda ingin menambahkan hasil?</string>
+    <string name="lab_add_manual">Entri manual</string>
+    <string name="lab_add_manual_body">Ketik angkanya sendiri</string>
+    <string name="lab_add_file">Pilih berkas</string>
+    <string name="lab_add_file_body">Foto atau PDF dari ponsel ini</string>
+    <string name="lab_add_photo">Ambil foto</string>
+    <string name="lab_add_photo_body">Foto lembar hasil</string>
+    <string name="lab_add_manual_title">Masukkan hasil</string>
+    <string name="lab_add_check_title">Periksa hasil</string>
+    <string name="lab_add_file_title">Tambah berkas</string>
+    <string name="lab_add_file_lead">Foto lembar hasil, atau PDF maksimal 20 halaman dan 32 MB. Beberapa berkas bisa dipilih sekaligus.</string>
+    <string name="lab_add_document_lead">Foto atau PDF hasil pemeriksaan.</string>
+    <string name="lab_add_allergy">Panel alergi</string>
+    <string name="lab_add_file_hint">Ketuk untuk memilih berkas di ponsel ini</string>
+    <string name="lab_add_photo_title">Ambil foto</string>
+    <string name="lab_add_photo_lead">Letakkan kertas di permukaan datar dengan cahaya cukup, dan pastikan seluruhnya masuk ke bingkai.</string>
+    <string name="lab_add_photo_hint">Kamera ponsel akan terbuka</string>
+    <string name="lab_add_study_day">Tanggal pemeriksaan: %1$s</string>
+    <string name="lab_add_done_title">Hasil ditambahkan</string>
+    <string name="lab_add_done_already">Hasil sudah tersimpan</string>
+    <string name="lab_add_done_attached">Berkas ditambahkan ke hasil yang tersimpan</string>
+    <string name="lab_add_done_body">Tersimpan di ponsel ini.</string>
+    <string name="lab_add_open_results">Buka hasil</string>
+    <string name="lab_add_more">Tambah hasil lain</string>
+</resources>

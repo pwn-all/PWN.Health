@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_add_step" tools:ignore="PluralsCandidate">第 %1$d 步，共 %2$d 步</string>
+    <string name="lab_add_type_title">检查类型</string>
+    <string name="lab_add_choose_one">请选择一项。下一步取决于你的选择。</string>
+    <string name="lab_add_method_title">你想用哪种方式添加结果？</string>
+    <string name="lab_add_manual">手动输入</string>
+    <string name="lab_add_manual_body">自己输入各项数值</string>
+    <string name="lab_add_file">选择文件</string>
+    <string name="lab_add_file_body">这部手机上的照片或 PDF</string>
+    <string name="lab_add_photo">拍照</string>
+    <string name="lab_add_photo_body">拍下报告单</string>
+    <string name="lab_add_manual_title">输入结果</string>
+    <string name="lab_add_check_title">核对结果</string>
+    <string name="lab_add_file_title">添加文件</string>
+    <string name="lab_add_file_lead">化验单的照片，或 PDF（最多 20 页、32 MB）。可以一次选择多个文件。</string>
+    <string name="lab_add_document_lead">检查报告的照片或 PDF。</string>
+    <string name="lab_add_allergy">过敏原检测</string>
+    <string name="lab_add_file_hint">点按即可选择这部手机上的文件</string>
+    <string name="lab_add_photo_title">拍摄照片</string>
+    <string name="lab_add_photo_lead">在光线充足的地方把纸放平，让整张纸都进入取景框。</string>
+    <string name="lab_add_photo_hint">将打开手机相机</string>
+    <string name="lab_add_study_day">检查日期：%1$s</string>
+    <string name="lab_add_done_title">结果已添加</string>
+    <string name="lab_add_done_already">结果已保存过</string>
+    <string name="lab_add_done_attached">文件已添加到已保存的结果</string>
+    <string name="lab_add_done_body">已保存在这部手机上。</string>
+    <string name="lab_add_open_results">查看结果</string>
+    <string name="lab_add_more">继续添加结果</string>
+</resources>

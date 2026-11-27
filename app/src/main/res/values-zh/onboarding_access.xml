@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">选择要启用的功能。每项都会打开 Android 权限页面。您可以不授权直接继续，稍后再更改。接下来会提供 Health Connect 授权。</string>
+    <string name="onboarding_access_body_alone">选择要启用的功能。每项都会打开 Android 权限页面。您可以不授权直接继续，稍后再更改。</string>
+    <string name="onboarding_motion_title">步数和运动传感器</string>
+    <string name="onboarding_motion_body">身体活动权限用于计步。运动和气压传感器不需要单独授权。</string>
+    <string name="onboarding_notifications_title">通知和提醒</string>
+    <string name="onboarding_notifications_body">显示计步状态以及用药、饮食和饮水提醒。</string>
+    <string name="onboarding_allowed">已允许</string>
+    <string name="onboarding_bluetooth_body">查找附近的体重秤和传感器，并通过 Bluetooth 连接。</string>
+</resources>

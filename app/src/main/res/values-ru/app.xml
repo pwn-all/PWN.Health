@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">%1$d шаг сегодня</item>
+        <item quantity="few">%1$d шага сегодня</item>
+        <item quantity="many">%1$d шагов сегодня</item>
+        <item quantity="other">%1$d шага сегодня</item>
+    </plurals>
+    <string name="channel_name">Подсчёт шагов</string>
+
+    <string name="sensors_title">Датчики</string>
+    <string name="wave_title">Ускорение за последние 6 секунд</string>
+    <string name="gate_open">Фильтр открыт — шаги засчитываются</string>
+    <string name="gate_blocked">Фильтр закрыт — шаги отклоняются</string>
+    <string name="field_motion">Движение</string>
+    <string name="field_posture">Положение</string>
+    <string name="field_energy">Энергия (std)</string>
+    <string name="field_cadence">Частота</string>
+    <string name="field_periodicity">Периодичность шага</string>
+    <string name="field_tilt">Наклон</string>
+    <string name="field_screen">Экран</string>
+    <string name="field_axes">Ускорение x / y / z</string>
+    <string name="field_raw_counter">Системный счётчик датчика</string>
+    <string name="field_credited">Засчитано за сеанс</string>
+    <string name="field_rejected">Отклонено за сеанс</string>
+    <string name="on">включён</string>
+    <string name="off">выключен</string>
+
+    <!-- Recording a trace of the readings -->
+    <string name="trace_title">Запись трека показаний</string>
+    <string name="trace_body">Начните запись, пройдитесь, остановите и сохраните. В CSV попадёт каждая выборка акселерометра, каждый вердикт гейта и каждое решение по шагам — по порядку. Ничего не покидает устройство, пока вы сами не выберете, куда сохранить.</string>
+    <string name="trace_rows">Записано строк</string>
+    <string name="trace_dropped">Отброшено (старых)</string>
+    <string name="trace_recording">Идёт запись…</string>
+    <string name="trace_start">Начать запись</string>
+    <string name="trace_stop">Остановить</string>
+    <string name="trace_save">Сохранить CSV</string>
+    <string name="trace_saved">Трек сохранён.</string>
+    <string name="trace_error">Ошибка сохранения: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d строка</item>
+        <item quantity="few">%1$d строки</item>
+        <item quantity="many">%1$d строк</item>
+        <item quantity="other">%1$d строки</item>
+    </plurals>
+
+    <string name="track_title">Маршрут</string>
+    <string name="track_start">Начать запись</string>
+    <string name="track_stop">Остановить запись</string>
+    <string name="track_distance">%1$.2f км</string>
+    <string name="track_distance_miles">%1$.2f мили</string>
+    <string name="recording_distance">Запись — %1$s</string>
+    <string name="waiting_for_fix">Ожидание координат…</string>
+    <string name="track_total_route">Весь маршрут</string>
+    <string name="track_walking_counted">Ходьба</string>
+    <string name="track_running">Бег</string>
+    <string name="track_vehicle">Транспорт</string>
+    <string name="track_speed_now">Текущая скорость</string>
+    <string name="track_speed_max">Максимальная скорость</string>
+    <string name="track_speed_value">%1$.1f км/ч</string>
+    <string name="track_speed_value_mph">%1$.1f миль/ч</string>
+    <string name="track_stops">Остановки</string>
+    <string name="track_stops_value">%1$d · %2$d мин</string>
+    <string name="track_elevation_gain">Высота ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f м</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f фт</string>
+    <string name="track_telemetry">Данные маршрута</string>
+    <string name="track_gps_points">Точки GPS</string>
+    <string name="track_raw_gps_points">Все сохранённые GPS-точки</string>
+    <string name="track_rejected_points">Скорректированные/отброшенные точки</string>
+    <string name="track_last_filter_reason">Последняя коррекция GPS</string>
+    <string name="track_filter_none">Нет</string>
+    <string name="track_filter_low_accuracy">Низкая точность</string>
+    <string name="track_filter_stale_fix">Устаревшая точка</string>
+    <string name="track_filter_jump">Неподтверждённый скачок</string>
+    <string name="track_filter_speed">Невозможная скорость</string>
+    <string name="track_filter_time_order">Время не по порядку</string>
+    <string name="track_gps_accuracy">Точность GPS</string>
+    <string name="track_accuracy_value">±%1$.0f м</string>
+    <string name="track_accuracy_value_ft">±%1$.0f фт</string>
+    <string name="track_movement">Движение</string>
+    <string name="track_movement_walking">ходьба</string>
+    <string name="track_movement_running">бег</string>
+    <string name="track_movement_vehicle">транспорт</string>
+    <string name="track_movement_stopped">остановка</string>
+    <string name="track_movement_unknown">определение…</string>
+    <string name="track_altitude">Высота</string>
+    <string name="track_altitude_value">%1$.0f м · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f фт · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Давление</string>
+    <string name="track_pressure_value">%1$.1f гПа</string>
+    <string name="track_temperature">Температура окружения</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Скачки окружения</string>
+    <string name="track_sensor_unavailable">датчик отсутствует</string>
+    <string name="track_environment_note">Барометрическая высота калибруется по первой высоте GPS. Датчик температуры в телефонах встречается редко, а показания могут зависеть от нагрева устройства.</string>
+    <string name="track_showing_last">Показан последний завершённый маршрут. Запустите запись, чтобы создать новый.</string>
+    <string name="track_history">Сохранённые маршруты</string>
+    <string name="track_history_note">Маршруты и полная телеметрия датчиков хранятся локально и входят в экспорт данных.</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d принятая точка</item>
+        <item quantity="few">%1$d принятые точки</item>
+        <item quantity="many">%1$d принятых точек</item>
+        <item quantity="other">%1$d принятой точки</item>
+    </plurals>
+
+    <color name="ic_launcher_background">#1B5E20</color>
+</resources>

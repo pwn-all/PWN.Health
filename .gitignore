@@ -1,0 +1,45 @@
+build/
+.gradle/
+.kotlin/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Generated Python caches (the scripts under tools/ write them).
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# JVM and tool outputs
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Release signing credentials and private keys (local only)
+keystore.properties
+*.jks
+*.keystore
+*.password
+*.pem
+
+# Emulator captures — regenerate, do not version. tools/screens-test.sh
+# and tools/medicine-shots.sh both write to ScreensTest/, and the unit tests run with -Pscreens
+# to ScreensTest/onboarding/.
+/ScreensTest/
+
+# Signed release artifacts, built into the project so they sit beside what produced them.
+# Not tracked: several hundred MB of APK and AAB per version, rebuilt from the
+# tagged commit and the keystore. They are what the build writes; the models and map data it reads
+# are large too and are tracked on purpose (.gitattributes).
+releases/

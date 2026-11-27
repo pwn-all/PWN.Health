@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intimate_charts_empty">Schauen Sie wieder vorbei, wenn Sie mehr Daten erfasst haben!</string>
+    <string name="intimate_charts_walking_title">Gehen und Morgeneinträge</string>
+    <string name="intimate_charts_alcohol_title">Alkohol und Morgeneinträge</string>
+    <string name="intimate_charts_legend_average">Ihr Durchschnitt</string>
+    <string name="intimate_charts_legend_night">Stunden Schlaf pro Nacht</string>
+    <string name="intimate_charts_legend_steps">Schritte pro Tag</string>
+    <string name="intimate_charts_legend_drinks">Standardgläser pro Woche</string>
+    <string name="intimate_charts_pair_note">Die Balken wachsen von unten, einer pro Woche. Die Linie ist der Anteil der Morgen mit fester oder teilweiser Erektion in derselben Woche, gemessen an Ihrem eigenen Durchschnitt über diese Wochen: über der Mittellinie, wenn er höher war, darunter, wenn er niedriger war. Sie zeigen, was in denselben Wochen erfasst wurde, nicht Ursache und Wirkung.</string>
+    <plurals name="intimate_charts_week_rule">
+        <item quantity="one">Eine Woche zählt, sobald %1$d ihrer Morgen beantwortet wurde; eine Woche mit weniger hinterlässt eine Lücke in der Linie, nie eine Null.</item>
+        <item quantity="other">Eine Woche zählt, sobald %1$d ihrer Morgen beantwortet wurden; eine Woche mit weniger hinterlässt eine Lücke in der Linie, nie eine Null.</item>
+    </plurals>
+    <plurals name="intimate_charts_mean_rule">
+        <item quantity="one">Der Balken einer Woche ist der Mittelwert der Tage mit Wert und braucht %1$d davon; eine Woche mit weniger hat keinen Balken.</item>
+        <item quantity="other">Der Balken einer Woche ist der Mittelwert der Tage mit Wert und braucht %1$d davon; eine Woche mit weniger hat keinen Balken.</item>
+    </plurals>
+    <plurals name="intimate_charts_show_rule">
+        <item quantity="one">Das Diagramm erscheint, sobald %1$d Woche genug Daten hat.</item>
+        <item quantity="other">Das Diagramm erscheint, sobald %1$d Wochen genug Daten haben.</item>
+    </plurals>
+    <string name="intimate_charts_drinks_note">Ein Standardglas enthält %1$s reinen Alkohol. Bei Getränken ist ein Tag mit Wert ein Tag, an dem irgendetwas von Hand eingetragen wurde, und der Mittelwert wird auf sieben Tage hochgerechnet: Ein Tag ohne Eintrag ist kein Tag ohne Alkohol.</string>
+    <string name="intimate_charts_acts_note">Sex mit Partnerin oder Partner und Masturbation, Woche für Woche. Eine Woche, in der Sie selbst nichts eingetragen haben, unterbricht beide Linien: Sie ist keine Woche ohne sexuelle Aktivität.</string>
+    <string name="intimate_charts_desire_note">Ein Punkt auf einer Linie: eine Woche, in der bei dieser Art von Aktivität „%1$s“ angekreuzt wurde.</string>
+    <string name="intimate_charts_erection_note">Ein Strich auf einer Linie: eine Woche, in der bei dieser Art von Aktivität „%1$s“ angekreuzt wurde.</string>
+    <string name="intimate_charts_acts_mornings_note">Die Morgeneinträge haben eigene Diagramme: Sie sind eine Antwort pro Tag aus einer eigenen Abfrage, keine Zahl von Aktivitäten, und auf diesen Achsen gezeichnet sähen sie aus, als wären sie deren Folge.</string>
+    <plurals name="intimate_charts_spoken">
+        <item quantity="one">%1$s, Woche für Woche über die letzte %2$d Woche. %3$s</item>
+        <item quantity="other">%1$s, Woche für Woche über die letzten %2$d Wochen. %3$s</item>
+    </plurals>
+    <string name="intimate_charts_spoken_week">Woche bis %1$s: %2$s</string>
+    <string name="intimate_charts_spoken_value">%1$s: %2$s</string>
+    <string name="intimate_charts_spoken_pair">%1$s; %2$s</string>
+    <string name="intimate_charts_spoken_none">kein Wert</string>
+    <string name="intimate_charts_spoken_gap">zu wenige Morgen beantwortet</string>
+    <string name="intimate_charts_spoken_above">Morgen über Ihrem Durchschnitt</string>
+    <string name="intimate_charts_spoken_below">Morgen unter Ihrem Durchschnitt</string>
+    <string name="intimate_charts_spoken_at">Morgen genau bei Ihrem Durchschnitt</string>
+    <string name="intimate_charts_spoken_acts">mit Partnerin oder Partner %1$s, Masturbation %2$s</string>
+</resources>

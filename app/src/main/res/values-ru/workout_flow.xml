@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="workout_add_exercise">Добавить другое упражнение</string>
+    <string name="workout_exercise_set">%1$s (%2$d)</string>
+    <string name="workout_duration_picker">Длительность (ММ:СС)</string>
+    <string name="workout_discard_title">Закрыть план тренировки?</string>
+    <string name="workout_discard_body">Введённые данные и прогресс тренировки будут потеряны.</string>
+    <string name="workout_discard_confirm">Закрыть без сохранения</string>
+    <string name="workout_correction_leave_title">Выйти без сохранения?</string>
+    <string name="workout_correction_leave_body">Изменения в этой тренировке ещё не сохранены. Чтобы сохранить их, нажмите «%1$s», затем «%2$s».</string>
+</resources>

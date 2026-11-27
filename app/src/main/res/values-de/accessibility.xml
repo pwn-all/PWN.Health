@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="m3_cal_previous_month">Vorheriger Monat</string>
+    <string name="m3_cal_next_month">Nächster Monat</string>
+    <string name="m3_cal_previous_year">Vorheriges Jahr</string>
+    <string name="m3_cal_next_year">Nächstes Jahr</string>
+    <string name="m3_cal_period_ended">Endete am %1$s</string>
+    <string name="m3_cal_chart_spoken_days">%1$s: %2$s.</string>
+    <plurals name="m3_cal_count_weeks">
+        <item quantity="one">%1$d Woche</item>
+        <item quantity="other">%1$d Wochen</item>
+    </plurals>
+    <string name="a11y_state_expanded">Ausgeklappt</string>
+    <string name="a11y_state_collapsed">Eingeklappt</string>
+    <string name="a11y_hours">Stunden</string>
+    <string name="a11y_minutes">Minuten</string>
+    <string name="a11y_seconds">Sekunden</string>
+    <string name="a11y_zoom_in">Vergrößern</string>
+    <string name="a11y_zoom_out">Verkleinern</string>
+    <string name="m3_editor_attachment_kind">Dokumenttyp</string>
+    <string name="m3_editor_attachment_describe">%1$s beschreiben</string>
+    <string name="m3_editor_attachment_remove">%1$s entfernen</string>
+    <string name="m3_editor_attachment_read_result">Ergebnis aus %1$s hinzufügen</string>
+    <string name="m3_editor_energy_share">Anteil am heutigen Energieziel</string>
+    <string name="bathroom_kind_previous">Vorherige Art</string>
+    <string name="bathroom_kind_next">Nächste Art</string>
+    <string name="smoking_bowl_smaller">Kleinerer Kopf</string>
+    <string name="smoking_bowl_larger">Größerer Kopf</string>
+    <string name="smoking_less_nicotine">Weniger Nikotin</string>
+    <string name="smoking_more_nicotine">Mehr Nikotin</string>
+    <string name="progress_photo_delete_dated">Foto vom %1$s löschen</string>
+    <string name="home_notice_dismiss">„%1$s“ ausblenden</string>
+    <string name="home_card_position" tools:ignore="PluralsCandidate">Karte %1$d von %2$d</string>
+    <string name="home_chart_busiest">%1$s: Spitzenstunde %2$s, %3$s</string>
+    <string name="m3_labs_import_reopen">Erkannte Seiten anzeigen</string>
+    <string name="m3_labs_open_chart">Diagramm öffnen</string>
+    <string name="m3_labs_chart_sideways">Diagramm ins Querformat drehen</string>
+    <string name="m3_labs_chart_earlier">Frühere Werte</string>
+    <string name="m3_labs_chart_later">Spätere Werte</string>
+    <string name="med_a11y_mark_dose">%1$s, %2$s bestätigen</string>
+    <string name="med_a11y_undo_dose">%1$s, %2$s zurücknehmen</string>
+    <string name="med_a11y_edit_course">%1$s bearbeiten</string>
+    <string name="med_a11y_delete_course">%1$s löschen</string>
+    <string name="med_history_current">Aktuell</string>
+    <string name="m3_pain_time_left">Noch %1$s</string>
+    <string name="m3_pain_remove_area">Entfernen</string>
+    <string name="m3_profile_onboarding_step" tools:ignore="PluralsCandidate">Schritt %1$d von %2$d</string>
+    <string name="m3_profile_advice_level_clinician">In der Praxis ansprechen</string>
+    <string name="m3_profile_advice_level_attention">Im Auge behalten</string>
+    <string name="m3_profile_advice_level_habit">Eine Gewohnheit zum Überdenken</string>
+    <string name="m3_profile_password_mismatch">Die Passwörter stimmen nicht überein</string>
+    <string name="m3_profile_password_show">Passwort anzeigen</string>
+    <string name="m3_profile_password_hide">Passwort ausblenden</string>
+    <string name="m3_sync_connected">Mit %1$s verbunden.</string>
+    <string name="m3_sync_disconnected">Verbindung zu %1$s getrennt.</string>
+    <string name="m3_sync_error_scan">Die Suche konnte nicht starten. Warten Sie kurz und suchen Sie dann erneut.</string>
+    <string name="m3_sync_error_pairing">Die Kopplung wurde nicht abgeschlossen. Nehmen Sie die Kopplungsanfrage an und verbinden Sie dann erneut.</string>
+    <string name="m3_sync_error_stale_bond">Die Kopplung dieses Telefons mit dem Gerät funktioniert nicht mehr. Entfernen Sie das Gerät in den Bluetooth-Einstellungen von Android, verbinden Sie dann erneut und nehmen Sie die Kopplungsanfrage an.</string>
+    <string name="m3_sync_error_no_answer">Das Gerät hat nicht geantwortet. Wecken Sie es auf, halten Sie es in der Nähe und verbinden Sie dann erneut.</string>
+    <string name="m3_sync_error_generic">Keine Verbindung zum Gerät möglich. Versuchen Sie es erneut.</string>
+    <string name="m3_sync_no_skin_contact">Der Gurt meldet keinen Hautkontakt. Befeuchten Sie die Elektroden und legen Sie ihn eng an.</string>
+    <string name="m3_sync_reading_incomplete">Das Gerät hat keinen vollständigen Messwert gesendet, deshalb kann er nicht gespeichert werden.</string>
+    <string name="m3_sync_connect_named">%1$s verbinden</string>
+    <string name="m3_sync_firmware">Firmware %1$s</string>
+    <string name="m3_sync_scale_clock_unset">Beim Empfang datiert: Die Uhr der Waage war nicht gestellt</string>
+    <string name="m3_sync_health_running">Austausch mit Health Connect auf diesem Telefon…</string>
+    <string name="m3_sync_failed_permission">Health Connect hat den Zugriff verweigert; prüfen Sie, was erlaubt ist.</string>
+    <string name="m3_sync_failed_unavailable">Health Connect auf diesem Telefon hat nicht geantwortet.</string>
+    <string name="m3_sync_failed_rate_limited">Health Connect hat um eine Pause gebeten; die App versucht es später erneut.</string>
+    <string name="m3_sync_failed_other">Health Connect hat einen Fehler gemeldet.</string>
+    <string name="m3_work_day_off_spoken">%1$s %2$s, üblicher freier Tag</string>
+    <string name="m3_work_sensor_unclassified">nicht zugeordnet</string>
+    <string name="m3_work_motion_still">unbewegt</string>
+    <string name="m3_work_motion_shaking">geschüttelt</string>
+    <string name="m3_work_motion_non_gait">bewegt, aber ohne Schritte</string>
+    <string name="m3_work_posture_in_hand">in der Hand</string>
+    <string name="m3_work_posture_pocket">in einer Tasche</string>
+    <string name="m3_work_posture_flat">liegt flach</string>
+    <string name="workout_rest_change">Pause ändern</string>
+    <string name="workout_delete_round">Runde %1$d löschen</string>
+    <string name="workout_complete_title">Training abgeschlossen</string>
+    <string name="machine_power_value" tools:ignore="PluralsCandidate">%1$d W</string>
+    <string name="machine_cadence_rpm" tools:ignore="PluralsCandidate">%1$d U/min</string>
+    <string name="machine_stroke_rate" tools:ignore="PluralsCandidate">%1$d Schläge/Min.</string>
+</resources>

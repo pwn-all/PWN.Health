@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_title">Tema</string>
+    <string name="theme_description">Cores da interface e dos ícones para os temas claro e escuro</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="theme_saved_note">Cada paleta é salva separadamente. O aplicativo segue o tema claro ou escuro do seu dispositivo.</string>
+    <string name="theme_preview">Pré-visualização</string>
+    <string name="theme_main_accent">Destaque principal</string>
+    <string name="theme_accent_container">Fundo do destaque</string>
+    <string name="theme_secondary">Destaque secundário</string>
+    <string name="theme_secondary_container">Fundo secundário</string>
+    <string name="theme_tertiary">Terceiro destaque</string>
+    <string name="theme_tertiary_container">Fundo do terceiro destaque</string>
+    <string name="theme_background">Fundo da página</string>
+    <string name="theme_surface">Cartões</string>
+    <string name="theme_text">Texto principal</string>
+    <string name="theme_muted_text">Texto secundário</string>
+    <string name="theme_border">Bordas</string>
+    <string name="theme_icons">Ícones</string>
+    <string name="theme_icon">Cor principal dos ícones</string>
+    <string name="theme_icon_mid">Cor secundária dos ícones</string>
+    <string name="theme_icon_light">Detalhes claros dos ícones</string>
+    <string name="theme_brightness">Brilho</string>
+    <string name="theme_hex">Código HEX</string>
+    <string name="theme_hex_error">Digite 6 dígitos hexadecimais, por exemplo #7094EE.</string>
+    <string name="theme_update_all">Atualizar todas as cores</string>
+    <string name="theme_update_all_body">Gerar todas as outras cores desta paleta a partir do destaque principal, substituindo as edições manuais.</string>
+    <string name="theme_reset">Redefinir o tema</string>
+    <string name="theme_reset_light_body">Restaurar as cores padrão da interface e dos ícones do tema claro? O tema escuro não será alterado.</string>
+    <string name="theme_reset_dark_body">Restaurar as cores padrão da interface e dos ícones do tema escuro? O tema claro não será alterado.</string>
+    <string name="theme_wheel">Roda de cores</string>
+    <string name="theme_wheel_value">Matiz %1$d°, saturação %2$d%%</string>
+    <string name="theme_next_hue">Próximo matiz</string>
+    <string name="theme_previous_hue">Matiz anterior</string>
+    <string name="theme_more_saturation">Aumentar a saturação</string>
+    <string name="theme_less_saturation">Diminuir a saturação</string>
+</resources>

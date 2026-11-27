@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Who an appointment is with (VisitKinds.kt), and what the booking form still needs to be saved. -->
+<resources>
+    <!-- The kinds of doctor the “Who” list offers beside the ones the routine examinations already name -->
+    <string name="visit_kind_paediatrician">Paediatrician</string>
+    <string name="visit_kind_dermatologist">Dermatologist</string>
+    <string name="visit_kind_ophthalmologist">Ophthalmologist</string>
+    <string name="visit_kind_ent">Ear, nose and throat doctor</string>
+    <string name="visit_kind_orthopaedist">Orthopaedist</string>
+    <string name="visit_kind_neurologist">Neurologist</string>
+    <string name="visit_kind_psychiatrist">Psychiatrist</string>
+    <string name="visit_kind_gastroenterologist">Gastroenterologist</string>
+    <string name="visit_kind_laboratory">Laboratory tests</string>
+    <string name="visit_kind_imaging">Imaging: X-ray, ultrasound, CT, MRI</string>
+    <string name="visit_kind_rehabilitation">Rehabilitation and physiotherapy</string>
+    <string name="visit_kind_surgeon">Surgeon</string>
+    <string name="visit_kind_oncologist">Oncologist</string>
+    <string name="visit_kind_allergist">Allergist</string>
+    <string name="visit_kind_pulmonologist">Pulmonologist (lungs)</string>
+    <string name="visit_kind_nephrologist">Nephrologist (kidneys)</string>
+    <string name="visit_kind_rheumatologist">Rheumatologist</string>
+    <string name="visit_kind_infectious_diseases">Infectious diseases specialist</string>
+    <!-- Never shown: the other words a kind of doctor goes by, which the search over the list finds too -->
+    <string name="visit_kind_search_dentist">dental, teeth, tooth</string>
+    <string name="visit_kind_search_gynecologist">gynecologist, obstetrician</string>
+    <string name="visit_kind_search_gp">GP, family doctor, physician, primary care</string>
+    <string name="visit_kind_search_paediatrician">pediatrician, child, children</string>
+    <string name="visit_kind_search_cardiologist">heart</string>
+    <string name="visit_kind_search_dermatologist">skin</string>
+    <string name="visit_kind_search_ophthalmologist">eye doctor, eyes, oculist</string>
+    <string name="visit_kind_search_ent">ENT, otolaryngologist, ear, nose, throat</string>
+    <string name="visit_kind_search_orthopaedist">orthopedist, bones, joints, trauma</string>
+    <string name="visit_kind_search_psychologist">therapist, counsellor, counselor</string>
+    <string name="visit_kind_search_gastroenterologist">stomach, gut</string>
+    <string name="visit_kind_search_laboratory">blood test, analysis, lab</string>
+    <string name="visit_kind_search_imaging">radiology, scan, sonography, x ray</string>
+    <string name="visit_kind_search_rehabilitation">physio, physical therapy</string>
+    <string name="visit_kind_search_somnologist">somnologist, sleep doctor</string>
+    <!-- The selector's label and the search field over its list -->
+    <string name="visit_kind_field">Doctor or examination</string>
+    <string name="visit_kind_search">Find in the list</string>
+    <!-- Any searchable list whose search found nothing -->
+    <string name="choice_search_none">Nothing on the list matches</string>
+    <!-- The doctor page: the doctors the person has seen at the place already chosen -->
+    <string name="visit_doctors_here">Doctors you have seen at this place</string>
+    <!-- Under a Save that is off: what the booking still needs -->
+    <string name="visit_save_needs_place">Add the place to save</string>
+    <string name="visit_save_needs_doctor">Add the doctor to save</string>
+    <string name="visit_save_needs_kind">Choose the doctor or examination to save</string>
+</resources>

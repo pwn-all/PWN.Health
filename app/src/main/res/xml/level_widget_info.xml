@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  An 18sp title, a progress bar with 6dp above and below, and a 12sp caption inside the frame measure 73dp, declared as 75dp.
+  The 30 minutes is the platform floor, and the day rolls over with nobody touching the phone: the
+  period is what turns yesterday's figure into today's. The first frame is the preview's shape with
+  no figure on it (WidgetMetadataTest).
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_level_description"
+    android:initialLayout="@layout/widget_initial_level"
+    android:minWidth="180dp"
+    android:minHeight="75dp"
+    android:previewLayout="@layout/widget_preview_level"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

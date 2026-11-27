@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal records of sets and reps (StrengthRecords.kt, StrengthRecordsUi.kt). -->
+<resources>
+    <string name="strength_record_badge">Rekor</string>
+    <string name="strength_new_records">Yeni kişisel rekorlar</string>
+    <string name="strength_record_e1rm">Tahmini tek tekrar maksimumu</string>
+    <string name="strength_record_heaviest">En ağır kilo</string>
+    <string name="strength_record_reps">Bir sette en çok tekrar</string>
+    <string name="strength_record_volume">Bir antrenmanda en çok kilo</string>
+    <string name="strength_record_was">%1$s · önceki %2$s</string>
+    <string name="strength_e1rm_note">Tek tekrar değeri, en fazla 12 tekrarlık setlerden Epley formülüyle yapılan bir tahmindir.</string>
+    <string name="strength_record_line">En iyi: %1$s · tek tekrarda yaklaşık %2$s</string>
+    <string name="strength_record_line_reps">En iyi: bir sette %1$s</string>
+</resources>

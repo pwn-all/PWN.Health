@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">Elevasi</string>
+    <string name="walk_chart_speed">Kecepatan</string>
+    <string name="walk_chart_no_elevation">Data elevasi untuk rute ini tidak cukup</string>
+    <string name="walk_chart_no_speed">Data kecepatan untuk rute ini tidak cukup</string>
+    <string name="walk_chart_spoken_elevation">Elevasi dari %1$s hingga %2$s</string>
+    <string name="walk_chart_spoken_speed">Kecepatan: rerata %1$s, maksimum %2$s</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">kaki</string>
+    <string name="walk_chart_unit_kmh">km/jam</string>
+    <string name="walk_chart_unit_mph">mil/jam</string>
+</resources>

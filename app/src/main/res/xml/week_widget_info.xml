@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Seven bars of 36dp with 4dp under them and a 12sp caption inside the frame measure 74.1dp, declared as 75dp; seven 14dp bars want three cells.
+  The 30 minutes is the platform floor, and the day rolls over with nobody touching the phone: the
+  period is what turns yesterday's figure into today's. The first frame is the preview's shape with
+  no figure on it (WidgetMetadataTest).
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_week_description"
+    android:initialLayout="@layout/widget_initial_week"
+    android:minWidth="180dp"
+    android:minHeight="75dp"
+    android:previewLayout="@layout/widget_preview_week"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen" />

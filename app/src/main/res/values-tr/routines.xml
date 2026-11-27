@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="routines_about_title">Antrenman hakkında</string>
+    <string name="routines_import">Antrenman dosyasını içe aktar</string>
+    <string name="routines_import_error">Bu dosya bir antrenman şablonu değil.</string>
+    <string name="routines_import_cut">Dosyada bir şablonun alabileceğinden (%1$d) fazla egzersiz var (%2$d): yalnızca ilkleri içe aktarıldı.</string>
+    <string name="routines_description">Kısa açıklama</string>
+    <string name="routines_photo">Şablon fotoğrafı</string>
+    <string name="routines_days_title">Antrenman günleri</string>
+    <string name="routines_flow_title">Egzersizler ve dinlenmeler</string>
+    <string name="routines_flow_lead">Egzersiz veya süperset ekleyin, aralarına dinlenme koyun.</string>
+    <string name="routines_add_superset">Süperset ekle</string>
+    <string name="routines_saved_title">Şablon kaydedildi</string>
+    <string name="routines_open_template">Şablonu aç</string>
+    <string name="routines_add_another">Başka şablon ekle</string>
+    <string name="routines_get_ready">Hazırlanın</string>
+    <string name="routines_finished">Antrenman tamamlandı</string>
+    <string name="routines_reminder_title">Bugün antrenman var</string>
+    <string name="routines_total_time">Toplam süre</string>
+    <string name="routines_total_lifted">Toplam kaldırılan</string>
+    <string name="routines_total_work">Antrenman süresi</string>
+    <string name="routines_burn">Yaklaşık yakacağınız</string>
+    <string name="routines_plan_title">Antrenman planı</string>
+    <plurals name="routines_exercises">
+        <item quantity="one">%1$d egzersiz</item>
+        <item quantity="other">%1$d egzersiz</item>
+    </plurals>
+    <string name="routines_menu">Şablon işlemleri</string>
+    <string name="routines_overall">Genel ilerleme</string>
+    <string name="routines_left">Kalan</string>
+    <string name="routines_set">Set</string>
+    <string name="routines_set_number">%1$d. set</string>
+    <string name="routines_of" tools:ignore="PluralsCandidate">%1$d / %2$d</string>
+    <string name="routines_rest_after">Sonra dinlenme</string>
+    <string name="routines_previous">Önceki</string>
+    <string name="routines_finish">Bitir</string>
+    <string name="routines_leave_title">Antrenmandan çıkılsın mı?</string>
+    <string name="routines_leave_body">Şimdiye kadar yaptıklarınız kaydedilmeyecek. Kaydetmek için “Bitir” düğmesine dokunun.</string>
+    <string name="routines_pick_title">Egzersiz seçimi</string>
+    <string name="routines_pick_lead">İhtiyacınız olan egzersizi bulun</string>
+    <string name="routines_setup_lead">Egzersiz ayarları</string>
+    <string name="routines_sets_count">Set sayısı</string>
+    <string name="routines_sets_count_lead">Bu egzersizin kaç kez yapılacağını seçin</string>
+    <string name="routines_not_done">Yapılmadı</string>
+    <string name="routines_done_of">%1$s / %2$s</string>
+    <string name="routines_pick_empty">Eşleşen egzersiz yok</string>
+    <string name="routines_set_done_question">Seti tamamlayabildiniz mi?</string>
+    <string name="routines_reps_done_question">Kaç tekrar yaptınız?</string>
+    <string name="routines_goal_missed">Hedefe ulaşılamadı</string>
+    <string name="routines_freestyle_body">Plansız: egzersizleri ilerledikçe seçin</string>
+    <string name="routines_show_muscles">Çalışan kasları göster</string>
+    <string name="routines_show_drawing">Egzersizin çizimini göster</string>
+</resources>

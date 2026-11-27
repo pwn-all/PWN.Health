@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="med_photo_take">التقاط صورة للدواء</string>
+    <string name="med_photo_of">صورة %1$s</string>
+    <string name="med_photo_unnamed">صورة الدواء</string>
+    <string name="med_photo_retake">إعادة التصوير</string>
+    <string name="med_photo_remove">إزالة الصورة</string>
+    <string name="med_photo_open">فتح بالحجم الكامل</string>
+    <string name="med_delete_body_photo">يُحذف الجدول وصورته، وتبقى الجرعات المعلَّمة من قبل في السجل.</string>
+</resources>

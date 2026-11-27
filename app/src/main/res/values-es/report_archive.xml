@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">Con archivos</string>
+    <string name="report_archive_hint">El ZIP incluye el informe en PDF y los archivos originales adjuntos a las consultas realizadas, los análisis y los tratamientos de las secciones marcadas y del período elegido: ecografías, radiografías, TC, RM, ecografías Doppler y otros documentos. La lista de archivos relaciona cada adjunto con su registro y su fecha.</string>
+    <string name="report_archive_preview">Archivos adjuntos originales: %1$d. El ZIP contiene el PDF y estos archivos íntegros.</string>
+    <string name="report_archive_index_header">Archivo\tFecha del registro\tSección\tRegistro\tTipo\tFecha de la prueba\tDescripción</string>
+    <string name="report_archive_unavailable">No se pudo leer el adjunto %1$s. Restablece el acceso al archivo original y vuelve a intentarlo.</string>
+    <string name="report_visits_patient_notes">Consultas realizadas y notas de cada consulta, tal como las anotó el paciente.</string>
+</resources>

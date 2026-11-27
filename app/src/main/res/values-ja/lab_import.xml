@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="lab_import_pick">写真または PDF を読み取る</string>
+    <string name="lab_import_review">原本と日付・数値・単位を照合してください。空欄のみ入力されます。フォームを保存するまで結果は保存されません。</string>
+    <string name="lab_import_empty">対応する結果を認識できませんでした。鮮明な画像を試すか、手入力してください。</string>
+    <string name="lab_import_veterinary">動物の検査報告と思われます。人の検査結果には入力できません。</string>
+    <string name="lab_import_error">読み取れません。画像かパスワードなしの PDF を選んでください（最大20ページ、32 MB）。</string>
+    <string name="lab_import_password">この PDF は保護されています。読み取るにはパスワードを入力してください。</string>
+    <string name="lab_import_date_unknown">採取日を認識できませんでした。フォームの日付を確認してください。</string>
+    <string name="lab_import_date_conflict">このページは日付が異なります。先に現在の結果を保存または消去してください。</string>
+    <string name="lab_import_unread" tools:ignore="PluralsCandidate">未解析の項目：%1$d</string>
+</resources>

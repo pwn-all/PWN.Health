@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The figure, dose and cycle widgets (FigureWidgets.kt, DoseWidgets.kt) and the picker's previews of them. -->
+<resources>
+    <string name="widget_sleep_description">Last night’s sleep</string>
+    <string name="widget_sleep_caption">last night, %1$s – %2$s</string>
+    <string name="widget_sleep_none">No sleep recorded</string>
+    <string name="widget_weight_description">Your latest weight and how it moved in 30 days</string>
+    <string name="widget_weight_caption">latest weight</string>
+    <string name="widget_weight_change">%1$s in 30 days</string>
+    <string name="widget_weight_steady">unchanged in 30 days</string>
+    <string name="widget_weight_none">No weight recorded</string>
+    <string name="widget_energy_description">Today’s food against the day’s allowance; a tap logs a meal</string>
+    <string name="widget_energy_caption">of %1$s kcal · %2$s</string>
+    <string name="widget_energy_left">%1$s left</string>
+    <string name="widget_energy_over">%1$s over</string>
+    <string name="widget_week_description">Steps on each of the last seven days</string>
+    <string name="widget_week_caption">%1$s steps this week · %2$s a day</string>
+    <string name="widget_week_initial">steps this week</string>
+    <string name="widget_level_description">Your level, the XP to the next one and the daily streak</string>
+    <string name="widget_level_initial">Level</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">%d-day streak</item>
+        <item quantity="other">%d-day streak</item>
+    </plurals>
+    <string name="widget_dose_description">The next dose of the day, marked taken in one tap</string>
+    <string name="widget_dose_next">Next: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Taken</string>
+    <string name="widget_dose_done">All doses taken today</string>
+    <string name="widget_dose_none">No doses today</string>
+    <string name="widget_cycle_description">The day of the cycle and the next expected period</string>
+    <string name="widget_cycle_period">Period, day %1$d</string>
+    <!-- Preview figures: a plausible day for the picker, never on a first frame (WidgetMetadataTest). -->
+    <string name="widget_preview_sleep_value">7 h 40 min</string>
+    <string name="widget_preview_sleep_caption">last night, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72.4 kg</string>
+    <string name="widget_preview_weight_change">−0.6 kg in 30 days</string>
+    <string name="widget_preview_energy_value">1 240</string>
+    <string name="widget_preview_energy_caption">of 2 520 kcal · 1 280 left</string>
+    <string name="widget_preview_week_caption">48 300 steps this week · 6 900 a day</string>
+    <string name="widget_preview_level_title">Level 7</string>
+    <string name="widget_preview_level_caption">1 240 / 1 600 XP · 12-day streak</string>
+    <string name="widget_preview_dose_next">Next: Metformin</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">Day 12</string>
+    <string name="widget_preview_cycle_next">Next expected 24 Nov</string>
+</resources>

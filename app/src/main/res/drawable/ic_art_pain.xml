@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The pain map's icon, in the duotone set's two tones: a head and shoulders, and the jag of a
+     hurt on the shoulder. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M20 6a7.5 7.5 0 1 0 0 15a7.5 7.5 0 1 0 0 -15Z"
+        android:fillColor="@color/art_duo_ink" />
+    <path
+        android:pathData="M4 42c0-9.4 7.2-16 16-16s16 6.6 16 16Z"
+        android:fillColor="@color/art_duo_ink" />
+    <path
+        android:pathData="M40.5 16.5l-5.5 8.5h6.5l-5.5 9"
+        android:strokeColor="@color/art_duo_mid"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

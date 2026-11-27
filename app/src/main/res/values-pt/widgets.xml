@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">Sono da noite passada</string>
+    <string name="widget_sleep_caption">noite passada, %1$s – %2$s</string>
+    <string name="widget_sleep_none">Nenhum sono registrado</string>
+    <string name="widget_weight_description">Seu último peso e como mudou em 30 dias</string>
+    <string name="widget_weight_caption">último peso</string>
+    <string name="widget_weight_change">%1$s em 30 dias</string>
+    <string name="widget_weight_steady">sem mudança em 30 dias</string>
+    <string name="widget_weight_none">Nenhum peso registrado</string>
+    <string name="widget_energy_description">A comida de hoje em relação à meta do dia; um toque registra uma refeição</string>
+    <string name="widget_energy_caption">de %1$s kcal · %2$s</string>
+    <string name="widget_energy_left">restam %1$s</string>
+    <string name="widget_energy_over">%1$s a mais</string>
+    <string name="widget_week_description">Passos em cada um dos últimos sete dias</string>
+    <string name="widget_week_caption">%1$s passos nesta semana · %2$s por dia</string>
+    <string name="widget_week_initial">passos nesta semana</string>
+    <string name="widget_level_description">Seu nível, o XP até o próximo e a sequência diária</string>
+    <string name="widget_level_initial">Nível</string>
+    <plurals name="widget_level_streak">
+        <item quantity="one">sequência de %d dia</item>
+        <item quantity="many">sequência de %d dias</item>
+        <item quantity="other">sequência de %d dias</item>
+    </plurals>
+    <string name="widget_dose_description">A próxima dose do dia, marcada como tomada com um toque</string>
+    <string name="widget_dose_next">Próxima: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">Tomada</string>
+    <string name="widget_dose_done">Todas as doses de hoje tomadas</string>
+    <string name="widget_dose_none">Nenhuma dose hoje</string>
+    <string name="widget_cycle_description">O dia do ciclo e a próxima menstruação prevista</string>
+    <string name="widget_cycle_period">Menstruação, dia %1$d</string>
+    <string name="widget_preview_sleep_value">7 h 40 min</string>
+    <string name="widget_preview_sleep_caption">noite passada, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72,4 kg</string>
+    <string name="widget_preview_weight_change">−0,6 kg em 30 dias</string>
+    <string name="widget_preview_energy_value">1.240</string>
+    <string name="widget_preview_energy_caption">de 2.520 kcal · restam 1.280</string>
+    <string name="widget_preview_week_caption">48.300 passos nesta semana · 6.900 por dia</string>
+    <string name="widget_preview_level_title">Nível 7</string>
+    <string name="widget_preview_level_caption">1.240 / 1.600 XP · sequência de 12 dias</string>
+    <string name="widget_preview_dose_next">Próxima: Metformina</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">Dia 12</string>
+    <string name="widget_preview_cycle_next">Próxima prevista para 24 de nov.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caffeine_drink_tile">%1$d مغ · %2$s سعرة</string>
+    <string name="caffeine_energy_estimated">≈ %1$s سعرة</string>
+    <string name="caffeine_energy_help_title">السعرات في الكوب</string>
+    <string name="caffeine_energy_help_body">السعرات محسوبة للمشروب كما يُحضَّر، وفق USDA FoodData Central: الشاي الأسود والقهوة، والإسبريسو، والماتشا المخفوقة بالماء، والكابتشينو المحضَّر بحليب منخفض الدسم — وبالحليب كامل الدسم يزيد نحو الخُمس. أما الحليب والقشدة والسكر والشراب المحلّى المضافة إلى الكوب فتُحسب فوق ذلك وتُسجَّل طعامًا. ويُحفظ الكابتشينو طعامًا مع الكافيين الذي فيه: تدخل سعراته في طعام اليوم، لكنه لا يُحتسب وجبة. أما الأكواب الأخرى ففيها بضع سعرات فقط، وتبقى سجل كافيين لا غير.</string>
+</resources>

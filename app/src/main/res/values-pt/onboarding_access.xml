@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_access_body">Escolha as funções que pretende ativar. Cada uma abre as permissões do Android. Pode continuar sem acesso e alterá-lo depois. A seguir será apresentado o Health Connect.</string>
+    <string name="onboarding_access_body_alone">Escolha as funções que pretende ativar. Cada uma abre as permissões do Android. Pode continuar sem acesso e alterá-lo depois.</string>
+    <string name="onboarding_motion_title">Passos e sensores de movimento</string>
+    <string name="onboarding_motion_body">A atividade física permite contar passos. Os sensores de movimento e pressão atmosférica não precisam de uma permissão adicional.</string>
+    <string name="onboarding_notifications_title">Notificações e lembretes</string>
+    <string name="onboarding_notifications_body">Mostrar o estado do pedómetro e lembretes de medicamentos, comida e água.</string>
+    <string name="onboarding_allowed">Permitido</string>
+    <string name="onboarding_bluetooth_body">Encontrar balanças e sensores próximos e ligá-los por Bluetooth.</string>
+</resources>

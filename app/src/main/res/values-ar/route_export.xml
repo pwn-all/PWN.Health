@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_export_save">حفظ في ملف</string>
+    <string name="route_format_gpx_hint">للخرائط والساعات الذكية وتطبيقات الرياضة</string>
+    <string name="route_format_geojson_hint">لأدوات GIS وخرائط الويب</string>
+    <string name="route_format_csv_hint">كل تحديد موقع، لجداول البيانات</string>
+</resources>

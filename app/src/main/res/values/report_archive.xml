@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_with_files">With files</string>
+    <string name="report_archive_hint">ZIP includes the PDF report and original files attached to attended visits, lab records and medication courses in the selected sections and period: ultrasound, X-ray, CT, MRI, Doppler scans and other documents. The file list links each attachment to its record and date.</string>
+    <string name="report_archive_preview">Original attached files: %1$d. ZIP contains the PDF and these files in full.</string>
+    <string name="report_archive_index_header">File\tRecord date\tSection\tRecord\tType\tExamination date\tDescription</string>
+    <string name="report_archive_unavailable">Cannot read attachment %1$s. Restore access to the original file and retry.</string>
+    <string name="report_visits_patient_notes">Attended visits and consultation notes as recorded by the patient.</string>
+</resources>

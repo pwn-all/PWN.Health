@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_sleep_description">지난밤 수면</string>
+    <string name="widget_sleep_caption">지난밤, %1$s – %2$s</string>
+    <string name="widget_sleep_none">기록된 수면 없음</string>
+    <string name="widget_weight_description">최근 체중과 30일간의 변화</string>
+    <string name="widget_weight_caption">최근 체중</string>
+    <string name="widget_weight_change">30일간 %1$s</string>
+    <string name="widget_weight_steady">30일간 변화 없음</string>
+    <string name="widget_weight_none">기록된 체중 없음</string>
+    <string name="widget_energy_description">오늘 먹은 양과 하루 허용량. 탭하면 식사를 기록합니다</string>
+    <string name="widget_energy_caption">%1$s kcal 중 · %2$s</string>
+    <string name="widget_energy_left">%1$s 남음</string>
+    <string name="widget_energy_over">%1$s 초과</string>
+    <string name="widget_week_description">최근 7일 각 날의 걸음 수</string>
+    <string name="widget_week_caption">이번 주 %1$s걸음 · 하루 %2$s걸음</string>
+    <string name="widget_week_initial">이번 주 걸음 수</string>
+    <string name="widget_level_description">레벨, 다음 레벨까지의 XP, 매일 연속 기록</string>
+    <string name="widget_level_initial">레벨</string>
+    <plurals name="widget_level_streak">
+        <item quantity="other">%d일 연속</item>
+    </plurals>
+    <string name="widget_dose_description">오늘의 다음 복용, 한 번의 탭으로 복용 완료 표시</string>
+    <string name="widget_dose_next">다음: %1$s</string>
+    <string name="widget_dose_at">%2$s · %1$s</string>
+    <string name="widget_dose_taken">복용함</string>
+    <string name="widget_dose_done">오늘 복용 모두 완료</string>
+    <string name="widget_dose_none">오늘 복용 없음</string>
+    <string name="widget_cycle_description">주기 일차와 다음 예상 생리</string>
+    <string name="widget_cycle_period">생리 %1$d일차</string>
+    <string name="widget_preview_sleep_value">7시간 40분</string>
+    <string name="widget_preview_sleep_caption">지난밤, 23:40 – 07:20</string>
+    <string name="widget_preview_weight_value">72.4 kg</string>
+    <string name="widget_preview_weight_change">30일간 −0.6 kg</string>
+    <string name="widget_preview_energy_value">1,240</string>
+    <string name="widget_preview_energy_caption">2,520 kcal 중 · 1,280 남음</string>
+    <string name="widget_preview_week_caption">이번 주 48,300걸음 · 하루 6,900걸음</string>
+    <string name="widget_preview_level_title">레벨 7</string>
+    <string name="widget_preview_level_caption">1,240 / 1,600 XP · 12일 연속</string>
+    <string name="widget_preview_dose_next">다음: 메트포르민</string>
+    <string name="widget_preview_dose_at">500 mg · 14:00</string>
+    <string name="widget_preview_cycle_day">12일차</string>
+    <string name="widget_preview_cycle_next">다음 예상 11월 24일</string>
+</resources>

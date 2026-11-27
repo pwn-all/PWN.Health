@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_place_title">Mulai berdasarkan lokasi</string>
+    <string name="work_place_help_what">Simpan tempat Anda bekerja, dan timer kerja dimulai saat ponsel Anda berada di sana. Setiap pemeriksaan mengambil satu posisi dari layanan lokasi milik Android sendiri, membandingkannya dengan titik yang disimpan, lalu melupakannya. Titik hanya disimpan dari posisi dengan akurasi hingga 100 m. Yang disimpan hanyalah titik itu, radiusnya, dan sesi Anda, di ponsel ini. Tidak ada yang dikirim ke mana pun.</string>
+    <string name="work_place_help_when">Pemeriksaan berjalan setiap 10 menit, dan hanya dalam satu rentang waktu pada setiap hari kerja. Rentang ini terbuka saat Anda bangun: akhir catatan tidur Anda atau pemakaian pertama ponsel setelah malam, bila aplikasi dapat melihat salah satunya. Pemakaian pertama ponsel sebelum pukul %4$s dihitung sejak pukul %4$s, kecuali catatan tidur Anda menunjukkan bangun lebih awal atau jam biasa Anda dimulai lebih awal. Bila aplikasi tidak dapat melihat satu pun dari keduanya, pagi dimulai pukul %1$s. Bila dapat melihat tetapi belum melihat Anda bangun, aplikasi menunggu paling lambat hingga pukul %2$s. Setelah 4 minggu terakhir berisi sedikitnya 3 sesi yang dimulai pada hari kerja, tidak termasuk sesi yang dihentikan timer dengan sendirinya, rentang ini terbuka satu jam sebelum waktu mulai biasa Anda, tidak pernah sebelum Anda bangun, dan tertutup satu jam setelah waktu selesai biasa Anda. Sebelum itu, rentang ini tertutup pukul %3$s. Tidak ada pemeriksaan pada hari libur Anda. Sebelum rentang terbuka, aplikasi hanya melihat apakah Anda sudah bangun, dan untuk itu tidak mengambil posisi.</string>
+    <string name="work_place_help_leave">Bila Anda tidak berada di sana pada dua pemeriksaan berurutan, sesi yang dimulai aplikasi berhenti dan berakhir pada pemeriksaan terakhir yang mendapati Anda di sana. Sesi yang Anda mulai sendiri tidak pernah dihentikan dengan cara ini. Selama sesi yang dimulai aplikasi berjalan, pemeriksaan berlanjut setelah rentang waktu tertutup, paling lambat hingga tengah malam.</string>
+    <string name="work_place_help_yours">Setiap mulai dan berhenti otomatis disertai notifikasi yang dapat dipakai untuk membatalkannya: mulai hingga akhir hari, selama Anda belum mengubah sesinya sendiri, dan berhenti dalam satu jam, asalkan timer belum dimulai lagi sejak itu. Begitu Anda sendiri menekan Mulai, Jeda, Lanjutkan, atau Berhenti, atau membatalkan, aplikasi tidak memulai apa pun lagi hari itu.</string>
+    <string name="work_place_help_access">Untuk ini, Android harus mengizinkan lokasi akurat sepanjang waktu dan alarm dengan waktu yang tepat. Selama sakelar mati, tidak ada posisi yang diambil untuk fitur ini.</string>
+    <string name="work_place_save">Simpan tempat saya berada sekarang</string>
+    <string name="work_place_locating">Mencari lokasi Anda…</string>
+    <string name="work_place_no_fix">Posisi tidak ditemukan</string>
+    <string name="work_place_rough_fix">Posisi kurang akurat. Coba di dekat jendela</string>
+    <string name="work_place_point">Tempat kerja Anda</string>
+    <string name="work_place_saved">Disimpan %1$s</string>
+    <string name="work_place_saved_within">Disimpan %1$s · akurasi hingga %2$d m</string>
+    <string name="work_place_move">Pindahkan ke tempat saya sekarang</string>
+    <string name="work_place_remove">Hapus tempat kerja</string>
+    <string name="work_place_radius">Dihitung di sana dalam jarak</string>
+    <string name="work_place_radius_value">%1$d m</string>
+    <string name="work_place_switch">Mulai timer saat saya tiba di sana</string>
+    <string name="work_place_access_precise_title">Lokasi akurat</string>
+    <string name="work_place_access_precise_body">Lokasi perkiraan hanya akurat hingga sekitar 1,6 km, lebih luas daripada tempat kerja mana pun. Titik dan pemeriksaan memerlukan lokasi akurat.</string>
+    <string name="work_place_access_background_title">Lokasi sepanjang waktu</string>
+    <string name="work_place_access_background_body">PWN.Health menggunakan lokasi Anda di latar belakang untuk memulai dan menghentikan timer kerja saat Anda tiba di tempat kerja atau meninggalkannya, bahkan saat aplikasi ditutup. Aplikasi memeriksa setiap 10 menit, hanya antara pagi dan malam Anda pada hari kerja, dan posisinya tetap di ponsel ini. Di layar berikutnya, pilih “Izinkan sepanjang waktu”.</string>
+    <string name="work_place_access_exact_title">Alarm dan pengingat</string>
+    <string name="work_place_access_exact_body">Hanya alarm tepat waktu yang dapat membangunkan aplikasi yang tertutup untuk pemeriksaan. Android menyimpan izin ini di layar “Alarm &amp; pengingat” miliknya.</string>
+    <string name="work_place_access_notifications_title">Notifikasi</string>
+    <string name="work_place_access_notifications_body">Setiap mulai dan berhenti otomatis dilaporkan dalam notifikasi dengan tombol Batalkan, di saluran “%1$s”. Tanpa notifikasi, timer tetap dimulai dan berhenti, tetapi tidak ada tempat untuk membatalkannya.</string>
+    <string name="work_place_next_today">Pemeriksaan berikutnya hari ini pukul %1$s</string>
+    <string name="work_place_next_tomorrow">Pemeriksaan berikutnya besok pukul %1$s</string>
+    <string name="work_place_next_day">Pemeriksaan berikutnya pada %1$s pukul %2$s</string>
+    <string name="work_place_next_none">Tidak ada pemeriksaan yang direncanakan untuk seminggu ke depan.</string>
+    <string name="work_place_started_title">Timer kerja dimulai</string>
+    <string name="work_place_started_body">Ponsel Anda berada di tempat kerja Anda. Dimulai pukul %1$s.</string>
+    <string name="work_place_stopped_title">Timer kerja dihentikan</string>
+    <string name="work_place_stopped_body">Anda tidak berada di tempat kerja pada dua pemeriksaan berurutan. Sesi berakhir pukul %1$s, pemeriksaan terakhir yang mendapati Anda di sana.</string>
+    <string name="work_place_stopped_short">Anda tidak berada di tempat kerja pada dua pemeriksaan berurutan setelah hanya satu pemeriksaan di sana, jadi tidak ada yang disimpan.</string>
+    <string name="work_place_undo">Batalkan</string>
+    <string name="work_place_channel">Pemeriksaan tempat kerja</string>
+    <string name="work_place_notice_channel">Timer kerja otomatis</string>
+    <string name="work_place_checking">Memeriksa apakah Anda di tempat kerja</string>
+</resources>

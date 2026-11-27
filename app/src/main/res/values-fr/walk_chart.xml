@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="walk_chart_elevation">Altitude</string>
+    <string name="walk_chart_speed">Vitesse</string>
+    <string name="walk_chart_no_elevation">Pas assez de relevés d’altitude sur cet itinéraire</string>
+    <string name="walk_chart_no_speed">Pas assez de relevés de vitesse sur cet itinéraire</string>
+    <string name="walk_chart_spoken_elevation">Altitude de %1$s à %2$s</string>
+    <string name="walk_chart_spoken_speed">Vitesse : %1$s en moyenne, %2$s au maximum</string>
+    <string name="walk_chart_unit_m">m</string>
+    <string name="walk_chart_unit_ft">pi</string>
+    <string name="walk_chart_unit_kmh">km/h</string>
+    <string name="walk_chart_unit_mph">mi/h</string>
+</resources>

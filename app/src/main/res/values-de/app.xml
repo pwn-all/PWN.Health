@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PWN.Health</string>
+    <plurals name="steps_today">
+        <item quantity="one">%1$d Schritt heute</item>
+        <item quantity="other">%1$d Schritte heute</item>
+    </plurals>
+    <string name="channel_name">Schrittzählung</string>
+
+    <!-- Sensor / motion gate screen -->
+    <string name="sensors_title">Sensoren</string>
+    <string name="wave_title">Betrag der Beschleunigung, letzte 6 s</string>
+    <string name="gate_open">Filter offen – Schritte werden gezählt</string>
+    <string name="gate_blocked">Filter gesperrt – Schritte werden verworfen</string>
+    <string name="field_motion">Bewegung</string>
+    <string name="field_posture">Lage</string>
+    <string name="field_energy">Energie (std)</string>
+    <string name="field_cadence">Schrittfrequenz</string>
+    <string name="field_periodicity">Periodizität des Gangs</string>
+    <string name="field_tilt">Neigung zur Waagerechten</string>
+    <string name="field_screen">Bildschirm</string>
+    <string name="field_axes">Beschleunigung x / y / z</string>
+    <string name="field_raw_counter">Roher Sensorzähler</string>
+    <string name="field_credited">In dieser Sitzung gezählt</string>
+    <string name="field_rejected">In dieser Sitzung verworfen</string>
+    <string name="on">ein</string>
+    <string name="off">aus</string>
+
+    <!-- Sensor trace recording -->
+    <string name="trace_title">Sensoraufzeichnung erstellen</string>
+    <string name="trace_body">Aufzeichnung starten, gehen, stoppen, dann speichern. Jede Abtastung des Beschleunigungssensors, jedes Urteil des Filters und jede Schrittentscheidung landet der Reihe nach in einer CSV-Datei. Nichts verlässt das Gerät, bevor Sie den Speicherort gewählt haben.</string>
+    <string name="trace_rows">Aufgezeichnete Zeilen</string>
+    <string name="trace_dropped">Verworfen (älteste)</string>
+    <string name="trace_recording">Aufzeichnung läuft…</string>
+    <string name="trace_start">Aufzeichnung starten</string>
+    <string name="trace_stop">Stoppen</string>
+    <string name="trace_save">CSV speichern</string>
+    <string name="trace_saved">Aufzeichnung gespeichert.</string>
+    <string name="trace_error">Fehler beim Speichern: %1$s</string>
+    <plurals name="trace_rows_value">
+        <item quantity="one">%1$d Zeile</item>
+        <item quantity="other">%1$d Zeilen</item>
+    </plurals>
+
+    <!-- Track recording -->
+    <string name="track_title">Route</string>
+    <string name="track_start">Aufzeichnung starten</string>
+    <string name="track_stop">Aufzeichnung stoppen</string>
+    <string name="track_distance">%1$.2f km</string>
+    <string name="track_distance_miles">%1$.2f mi</string>
+    <string name="recording_distance">Aufzeichnung – %1$s</string>
+    <string name="waiting_for_fix">Warten auf die Standortbestimmung…</string>
+    <string name="track_total_route">Gesamte Route</string>
+    <string name="track_walking_counted">Gehen</string>
+    <string name="track_running">Laufen</string>
+    <string name="track_vehicle">Fahrzeug</string>
+    <string name="track_speed_now">Aktuelle Geschwindigkeit</string>
+    <string name="track_speed_max">Höchstgeschwindigkeit</string>
+    <string name="track_speed_value">%1$.1f km/h</string>
+    <string name="track_speed_value_mph">%1$.1f mph</string>
+    <string name="track_stops">Stopps</string>
+    <string name="track_stops_value">%1$d · %2$d Min.</string>
+    <string name="track_elevation_gain">Höhe ±</string>
+    <string name="track_elevation_gain_value">+%1$.0f / −%2$.0f m</string>
+    <string name="track_elevation_gain_value_ft">+%1$.0f / −%2$.0f ft</string>
+    <string name="track_telemetry">Routendaten</string>
+    <string name="track_gps_points">GPS-Punkte</string>
+    <string name="track_raw_gps_points">Alle gespeicherten GPS-Punkte</string>
+    <string name="track_rejected_points">Korrigierte/verworfene Punkte</string>
+    <string name="track_last_filter_reason">Letzte GPS-Korrektur</string>
+    <string name="track_filter_none">Keine</string>
+    <string name="track_filter_low_accuracy">Geringe Genauigkeit</string>
+    <string name="track_filter_stale_fix">Veraltete Position</string>
+    <string name="track_filter_jump">Unbestätigter Sprung</string>
+    <string name="track_filter_speed">Unmögliche Geschwindigkeit</string>
+    <string name="track_filter_time_order">Zeit nicht in Reihenfolge</string>
+    <string name="track_gps_accuracy">GPS-Genauigkeit</string>
+    <string name="track_accuracy_value">±%1$.0f m</string>
+    <string name="track_accuracy_value_ft">±%1$.0f ft</string>
+    <string name="track_movement">Bewegung</string>
+    <string name="track_movement_walking">Gehen</string>
+    <string name="track_movement_running">Laufen</string>
+    <string name="track_movement_vehicle">Fahrzeug</string>
+    <string name="track_movement_stopped">Stillstand</string>
+    <string name="track_movement_unknown">wird bestimmt…</string>
+    <string name="track_altitude">Höhe</string>
+    <string name="track_altitude_value">%1$.0f m · %2$.0f…%3$.0f</string>
+    <string name="track_altitude_value_ft">%1$.0f ft · %2$.0f…%3$.0f</string>
+    <string name="track_pressure">Luftdruck</string>
+    <string name="track_pressure_value">%1$.1f hPa</string>
+    <string name="track_temperature">Umgebungstemperatur</string>
+    <string name="track_temperature_value">%1$.1f °C</string>
+    <string name="track_temperature_value_f">%1$.1f °F</string>
+    <string name="track_environment_changes">Sprünge der Umgebungswerte</string>
+    <string name="track_sensor_unavailable">Sensor nicht verfügbar</string>
+    <string name="track_environment_note">Die barometrische Höhe wird an der ersten GPS-Höhe kalibriert. Ein Temperatursensor ist in Telefonen selten, und die Werte können durch die Eigenwärme des Geräts beeinflusst werden.</string>
+    <string name="track_showing_last">Angezeigt wird die zuletzt abgeschlossene Route. Starten Sie die Aufzeichnung, um eine neue anzulegen.</string>
+    <string name="track_history">Gespeicherte Routen</string>
+    <string name="track_history_note">Routen und die vollständige Sensortelemetrie werden lokal gespeichert und sind im Datenexport enthalten.</string>
+    <plurals name="track_history_points">
+        <item quantity="one">%1$d akzeptierter Punkt</item>
+        <item quantity="other">%1$d akzeptierte Punkte</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_charts_legend_hours">Часы работы за неделю</string>
+    <string name="work_charts_legend_median">Ваша медиана</string>
+    <string name="work_charts_gap_note">У неучтённой недели нет столбца: это не неделя без работы.</string>
+    <string name="work_charts_other_days">Другие рабочие дни</string>
+    <string name="work_charts_days_off">Выходные</string>
+    <string name="work_charts_pair_note">Столбцы — часы работы, по одному на каждую учтённую неделю. Линия — показатель, названный под графиком, за ту же неделю относительно вашего собственного среднего, то есть среднего по неделям, у которых есть точка: выше средней линии, когда он был больше, ниже — когда меньше. Это то, что записано в одни и те же недели, а не причина и следствие.</string>
+    <plurals name="work_charts_line_rule">
+        <item quantity="one">Для точки недели нужен хотя бы %1$d день с данными; неделя с меньшим числом оставляет разрыв в линии, а не ноль.</item>
+        <item quantity="few">Для точки недели нужно хотя бы %1$d дня с данными; неделя с меньшим числом оставляет разрыв в линии, а не ноль.</item>
+        <item quantity="many">Для точки недели нужно хотя бы %1$d дней с данными; неделя с меньшим числом оставляет разрыв в линии, а не ноль.</item>
+        <item quantity="other">Для точки недели нужно хотя бы %1$d дня с данными; неделя с меньшим числом оставляет разрыв в линии, а не ноль.</item>
+    </plurals>
+    <string name="work_charts_spoken_above">%1$s: выше вашего среднего</string>
+    <string name="work_charts_spoken_below">%1$s: ниже вашего среднего</string>
+    <string name="work_charts_spoken_at">%1$s: на уровне вашего среднего</string>
+    <string name="work_charts_spoken_gap">%1$s: слишком мало дней с данными</string>
+</resources>
